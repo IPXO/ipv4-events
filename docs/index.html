@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ipv4.life — The Life of IPv4</title>
+<meta name="description" content="Windows 95–style timeline of technological events across the IPv4 era. Filters by category, year, decade.">
+<style>
+  :root{--desk:#008080;--win-bg:#c0c0c0;--win-br:#808080;--shadow:inset -2px -2px 0 #fff,inset 2px 2px 0 #808080}
+  *{box-sizing:border-box} body{margin:0;font-family:Tahoma,Segoe UI,Arial,sans-serif;background:var(--desk);color:#000}
+  header.topbar{position:sticky;top:0;z-index:10;background:var(--win-bg);border-bottom:4px solid var(--win-br);padding:12px 16px;box-shadow:var(--shadow);display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+  header h1{margin:0;font-size:18px;display:flex;gap:8px;align-items:center;font-weight:700}
+  .container{max-width:1220px;margin:0 auto;padding:0 16px}
+  .panel{background:var(--win-bg);border:4px solid var(--win-br);box-shadow:var(--shadow)}
+  .hero{margin:20px 0;padding:16px;display:flex;flex-direction:column;gap:10px}
+  .muted{opacity:.9;font-size:13px}
+  .input,.select{background:#fff;border:2px solid #000;padding:7px 10px}
+  .controls{display:flex;flex-wrap:wrap;gap:8px}
+  img.icon{width:18px;height:18px;image-rendering:pixelated}
+  .year-grid{display:grid;grid-template-columns:1fr;gap:14px;margin:20px 0 70px}
+  @media(min-width:920px){.year-grid{grid-template-columns:1fr 1fr;gap:16px}}
+  @media(min-width:1180px){.year-grid{grid-template-columns:1fr 1fr 1fr}}
+  .year-card{overflow:hidden}
+  .year-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;border-bottom:4px solid var(--win-br);background:#d6d6d6}
+  .year-title{display:flex;align-items:center;gap:8px;font-weight:700}
+  .year-decade{font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+  .event-list{list-style:none;margin:0;padding:10px 12px;display:flex;flex-direction:column;gap:10px}
+  .event{display:grid;grid-template-columns:22px auto auto;align-items:start;column-gap:8px;row-gap:4px}
+  .chip{background:#fff;border:1px solid #000;padding:1px 8px;font-size:11px;display:inline-flex;align-items:center;gap:4px}
+  .hashtags{display:flex;flex-wrap:wrap;gap:6px;padding:8px 12px;border-top:2px solid var(--win-br);background:#eee}
+  .hashtags span{font-size:11px;background:#fff;border:1px solid #000;padding:2px 6px}
+  .cat-chips{display:flex;flex-wrap:wrap;gap:6px}
+  footer{margin:30px 0 80px;padding:16px}
+  .sr-only{position:absolute;left:-9999px}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <h1><img id="ico-computer" class="icon" alt="" /> ipv4.life — The Life of IPv4</h1>
+  <div class="controls">
+    <input id="q" class="input" placeholder="Search titles, tags, text"/>
+    <select id="year" class="select" aria-label="Filter by year"></select>
+    <select id="decade" class="select" aria-label="Filter by decade"></select>
+    <select id="category" class="select" aria-label="Filter by category"></select>
+  </div>
+  <div id="catChips" class="cat-chips" aria-label="Quick category filters"></div>
+</header>
+
+<main class="container">
+  <section class="hero panel">
+    <h2 style="display:flex;align-items:center;gap:6px"><img id="ico-world" class="icon" alt="" /> From ARPANET to Dual‑Stack — and Beyond</h2>
+    <p class="muted">Windows 95–style timeline of the IPv4 era: standards (TCP/IP, DNS, IPv6), operating systems, programming languages, browsers, mobile, AI, security, finance, backbone speeds, submarine cables, governance (IANA/IETF/ICANN/ISOC), RIRs, IXPs/NOGs, cloud/serverless/edge/CDNs, vendors & market milestones.</p>
+  </section>
+
+  <section id="years" class="year-grid" aria-live="polite"></section>
+
+  <footer class="panel">
+    <strong style="display:flex;align-items:center;gap:6px"><img id="ico-help" class="icon" alt=""/> About</strong>
+    <p class="muted">Developed by <strong>IPXO</strong>. Icons are classic Win95/98 where possible + custom pixel SVGs for modern concepts.</p>
+  </footer>
+</main>
+
+<script>
+(function(){
+  'use strict';
+
+  // ----- CONFIG -----
+  // Replace this with your repo’s jsDelivr URL when ready (example):
+  // const DATA_URL = 'https://cdn.jsdelivr.net/gh/<owner>/<repo>@main/data/events.json';
+  const DATA_URL = ''; // empty means: use FALLBACK_DATA below
+  const YEAR_ICON = W98('folder-2');
+
+  // Win98 icon CDN + minimal custom pixel SVGs
+  function W98(n){ return 'https://win98icons.alexmeub.com/icons/png/'+n+'.png'; }
+  function svg(s){ return 'data:image/svg+xml;utf8,'+encodeURIComponent(s); }
+  const CUSTOM = {
+    AI: svg('<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><rect x="3" y="4" width="12" height="10" fill="#ffc0cb" stroke="#800080"/><path d="M6 4v10M9 4v10M12 4v10" stroke="#800080"/></svg>'),
+    ROCKET: svg('<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><polygon points="9,2 12,9 9,16 6,9" fill="#c8c8c8" stroke="#000"/></svg>'),
+    IXP: svg('<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><circle cx="9" cy="9" r="3" fill="#00a" stroke="#000"/></svg>'),
+    CARD: svg('<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><rect x="2" y="5" width="14" height="8" fill="#e6e6e6" stroke="#000"/></svg>')
+  };
+  const CAT_ICON = {
+    'Standards': W98('book-0'),
+    'Networking': W98('network_neighborhood-2'),
+    'OS/Windows': W98('windows-0'),
+    'Linux': W98('computer-5'),
+    'Programming': W98('notepad-2'),
+    'Software': W98('setup-0'),
+    'Browsers': W98('world-0'),
+    'Mobile': W98('phone-2'),
+    'AI': CUSTOM.AI,
+    'Social': W98('group-2'),
+    'Messaging': W98('outlook_express-0'),
+    'Space': CUSTOM.ROCKET,
+    'Security': W98('keys-2'),
+    'Finance': CUSTOM.CARD,
+    'Backbone Speeds': W98('modem-0'),
+    'Submarine Cables': W98('world-2'),
+    'Cloud/Virtualization': W98('briefcase-2'),
+    'Serverless': W98('setup-0'),
+    'Edge': W98('briefcase-2'),
+    'CDN': W98('briefcase-2'),
+    'Governance': W98('world-2'),
+    'RIRs': W98('world-2'),
+    'IXP/NOG': CUSTOM.IXP,
+    'Vendors': W98('computer-2'),
+    'Market': W98('money-2')
+  };
+
+  // ----- FALLBACK SAMPLE (renders locally if DATA_URL is empty or fetch fails) -----
+  const FALLBACK_DATA = [
+    {"id":"1969_arpanet","year":1969,"categories":["Networking"],"title":"ARPANET goes live","overview":"Four nodes (UCLA, SRI, UCSB, Utah) formed the early packet‑switched network that became today’s Internet.","hashtags":["ARPANET","PacketSwitching"]},
+    {"id":"1981_ipv4_rfc791","year":1981,"categories":["Standards"],"title":"IPv4 specified (RFC 791)","overview":"Core addressing and routing semantics for the Internet; the start of IPv4’s long, long life.","hashtags":["IPv4","RFC791"]},
+    {"id":"1984_dns","year":1984,"categories":["Standards"],"title":"DNS introduced","overview":"Human‑readable names mapped to IP addresses, enabling scalable name resolution for a growing Internet.","hashtags":["DNS","RFCs"]},
+    {"id":"1995_win95","year":1995,"categories":["OS/Windows"],"title":"Windows 95","overview":"Plug‑and‑play, Start menu, TCP/IP stack; mass‑market Internet adoption accelerates on the desktop.","hashtags":["Windows95","TCPIP"]},
+    {"id":"1998_ipv6","year":1998,"categories":["Standards"],"title":"IPv6 specified (RFC 2460)","overview":"IETF defined IPv6 to extend address space and streamline routing; dual‑stack era begins.","hashtags":["IPv6","RFC2460"]},
+    {"id":"1998_google","year":1998,"categories":["Software"],"title":"Google Search","overview":"PageRank and a clean UI became the default gateway to the web for billions.","hashtags":["Web","Search"]},
+    {"id":"2008_android","year":2008,"categories":["Mobile"],"title":"Android 1.0","overview":"Open smartphone OS paired with growing 3G, later 4G networks; mobile Internet explodes.","hashtags":["Android","3G"]},
+    {"id":"2012_ipv6_launch","year":2012,"categories":["Standards"],"title":"World IPv6 Launch","overview":"Major networks and websites permanently enabled IPv6, marking a global turning point.","hashtags":["IPv6","IETF"]},
+    {"id":"2014_kubernetes","year":2014,"categories":["Cloud/Virtualization"],"title":"Kubernetes","overview":"Orchestrated containers became the substrate of modern cloud architecture.","hashtags":["K8s","Containers"]},
+    {"id":"2016_mirai","year":2016,"categories":["Security"],"title":"Dyn DDoS (Mirai)","overview":"IoT botnet took down major sites via DNS provider Dyn; a wake‑up call for edge security.","hashtags":["DDoS","IoT"]},
+    {"id":"2022_chatgpt","year":2022,"categories":["AI"],"title":"ChatGPT","overview":"Conversational AI popularized LLMs for mainstream use; traffic rivaled top web properties.","hashtags":["AI","LLM"]}
+  ];
+
+  // ----- UTILS -----
+  const $ = (id)=>document.getElementById(id);
+  const qEl = $('q'), yearEl = $('year'), decEl = $('decade'), catEl = $('category'), yearsEl = $('years'), catChips = $('catChips');
+  function decadeOf(y){ return y<1960?'1950s':y<1970?'1960s':y<1980?'1970s':y<1990?'1980s':y<2000?'1990s':y<2010?'2000s':y<2020?'2010s':'2020s'; }
+  function normalize(e){
+    if(!e.decade) e.decade = decadeOf(e.year);
+    e.icon = e.icon && CAT_ICON[e.icon] ? CAT_ICON[e.icon] : (CAT_ICON[(e.categories && e.categories[0])||''] || W98('folder-2'));
+    return e;
+  }
+
+  // Header icons
+  $('ico-computer').src = W98('computer_explorer-2');
+  $('ico-world').src = W98('world-0');
+  $('ico-help').src = W98('help_book_cool-4');
+
+  // Render
+  function render(all){
+    const term = (qEl.value||'').toLowerCase();
+    const yr   = yearEl.value;
+    const dec  = decEl.value;
+    const cat  = catEl.value;
+
+    let filtered = all.filter(e=>{
+      const hay = (e.title+' '+(e.overview||'')+' '+(e.hashtags||[]).join(' ')+' '+(e.categories||[]).join(' ')).toLowerCase();
+      const okTerm = !term || hay.includes(term) || String(e.year).includes(term);
+      const okY = !yr || String(e.year)===yr;
+      const okD = !dec || e.decade===dec;
+      const okC = !cat || (e.categories||[]).includes(cat);
+      return okTerm && okY && okD && okC;
+    });
+
+    // group by year
+    const groups = {};
+    filtered.forEach(e=>{ (groups[e.year]||(groups[e.year]=[])).push(e); });
+    const years = Object.keys(groups).map(n=>parseInt(n,10)).sort((a,b)=>a-b);
+
+    yearsEl.innerHTML = '';
+    if(!years.length){
+      const d=document.createElement('div'); d.className='panel'; d.style.padding='18px'; d.textContent='No events match your filters.';
+      yearsEl.appendChild(d); return;
+    }
+
+    years.forEach(y=>{
+      const card=document.createElement('section'); card.className='year-card panel';
+      const head=document.createElement('div'); head.className='year-head';
+      head.innerHTML = '<div class="year-title"><img src="'+YEAR_ICON+'" class="icon" alt=""/> <span>'+y+'</span></div><div class="year-decade">'+decadeOf(y)+'</div>';
+
+      const ul=document.createElement('ul'); ul.className='event-list';
+      groups[y].sort((a,b)=> (a.categories[0]||'').localeCompare(b.categories[0]||'') || a.title.localeCompare(b.title));
+      groups[y].forEach(e=>{
+        const li=document.createElement('li'); li.className='event';
+        const icon=document.createElement('img'); icon.className='icon'; icon.src=e.icon;
+        const col=document.createElement('div');
+        const title=document.createElement('div'); title.style.fontWeight='600'; title.textContent=e.title; col.appendChild(title);
+        if(e.overview){ const p=document.createElement('div'); p.className='muted'; p.textContent=e.overview; col.appendChild(p); }
+        const meta=document.createElement('div'); meta.className='chip'; meta.innerHTML='<img class="icon" src="'+(CAT_ICON[e.categories[0]]||W98('folder-2'))+'" alt=""/> '+(e.categories||[]).join(', ');
+        li.appendChild(icon); li.appendChild(col); li.appendChild(meta); ul.appendChild(li);
+      });
+
+      const tags=document.createElement('div'); tags.className='hashtags';
+      // unique hashtags across events that year
+      const tagset=new Set(); groups[y].forEach(e=>(e.hashtags||[]).forEach(t=>tagset.add(t)));
+      Array.from(tagset).sort().forEach(t=>{ const s=document.createElement('span'); s.textContent='#'+t; tags.appendChild(s); });
+
+      card.appendChild(head); card.appendChild(ul); card.appendChild(tags); yearsEl.appendChild(card);
+    });
+  }
+
+  function hydrateUI(all){
+    // selects
+    const years = Array.from(new Set(all.map(e=>e.year))).sort((a,b)=>a-b);
+    const decades = Array.from(new Set(all.map(e=>e.decade))).sort();
+    const cats = Array.from(new Set(all.flatMap(e=>e.categories||[]))).sort();
+
+    yearEl.innerHTML = '<option value="">Year</option>'+years.map(y=>'<option>'+y+'</option>').join('');
+    decEl.innerHTML  = '<option value="">Decade</option>'+decades.map(d=>'<option>'+d+'</option>').join('');
+    catEl.innerHTML  = '<option value="">Category</option>'+cats.map(c=>'<option>'+c+'</option>').join('');
+    catChips.innerHTML = cats.map(c=>'<button class="chip" data-cat="'+c+'">#'+c+'</button>').join('');
+
+    catChips.addEventListener('click',e=>{
+      if(e.target && e.target.dataset && e.target.dataset.cat){ catEl.value=e.target.dataset.cat; render(all); }
+    });
+
+    qEl.addEventListener('input', ()=>render(all));
+    yearEl.addEventListener('change', ()=>render(all));
+    decEl.addEventListener('change', ()=>render(all));
+    catEl.addEventListener('change', ()=>render(all));
+
+    render(all);
+  }
+
+  async function boot(){
+    let raw = FALLBACK_DATA;
+    if (DATA_URL){
+      try{
+        const res = await fetch(DATA_URL, {cache:'no-store'});
+        if(!res.ok) throw new Error('Fetch '+res.status);
+        raw = await res.json();
+      }catch(e){
+        console.warn('Falling back to local sample data:', e);
+      }
+    }
+    const all = raw.map(normalize);
+    hydrateUI(all);
+  }
+
+  boot();
+})();
+</script>
+</body>
+</html>
