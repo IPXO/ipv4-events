@@ -62,14 +62,14 @@ Notes
 ## 📂 Adding Categories
 
 Categories live in docs/data/categories.json. Example:
-
+```json
 {
   "id": "Cloud",
   "label": "Cloud/Virtualization",
   "group": "Infrastructure",
   "iconUrl": "/icons/cloud.ico"
 }
-
+```
 * Add only if your event cannot fit an existing category.
 * Make sure you upload a matching icon to docs/icons/.
 
