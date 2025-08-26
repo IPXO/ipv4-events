@@ -42,9 +42,58 @@
     .chip-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
     .chip{background:var(--chip);border:1px solid #000;padding:1px 6px;font-size:11px;display:inline-flex;align-items:center;gap:4px;cursor:pointer}
     footer{margin:26px 0 80px;padding:14px}
+    /* Win95-style loader */
+#loader {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.15);
+  z-index: 9999;
+}
+#loader .win {
+  background: var(--win);
+  border: 4px solid var(--br);
+  box-shadow: var(--shadow-in);
+  width: 360px;
+  padding: 12px;
+}
+#loader .title {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-weight:700;
+  margin-bottom:8px
+}
+#loader .bar {
+  height: 18px;
+  border: 2px solid #000;
+  background:#fff;
+  box-shadow: inset -2px -2px 0 #fff, inset 2px 2px 0 #808080;
+}
+#loader .fill {
+  height: 100%;
+  width: 0%;
+  background: #0a66;
+}
+#loader .foot {
+  display:flex;
+  justify-content:space-between;
+  margin-top:8px;
+  font-size:12px;
+  opacity:.9
+}
   </style>
 </head>
 <body>
+  <div id="loader">
+  <div class="win">
+    <div class="title"><img class="icon" src="icons/folder.ico" alt=""> Loading ipv4.events…</div>
+    <div class="bar"><div id="loaderFill" class="fill"></div></div>
+    <div class="foot"><span id="loaderMsg">Starting…</span><span id="loaderPct">0%</span></div>
+  </div>
+</div>
   <header class="top">
     <div class="top-inner container">
       <div class="brand"><img id="ico-computer" class="icon" alt=""/> ipv4.events — The IPv4 Era</div>
@@ -79,34 +128,42 @@
       <p class="muted">Built by IPXO & contributors. Data lives in <code>docs/data/</code>. Contributions welcome — see README & CONTRIBUTING.</p>
     </footer>
   </main>
-
-  <script>
-/* ---------- Debug HUD ---------- */
-function addDebugHud(){
-  const box = document.createElement('div');
-  box.id = 'debug-hud';
-  box.style.cssText = 'position:fixed;right:10px;bottom:10px;max-width:420px;max-height:50vh;overflow:auto;background:#fff;border:2px solid #000;padding:8px;font:12px/1.3 monospace;z-index:99999;box-shadow:2px 2px 0 #808080';
-  box.innerHTML = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px"><strong>ipv4.events — Debug</strong><button id="dbg-close" style="border:1px solid #000;background:#e0e0e0;padding:0 6px;cursor:pointer">×</button></div><div id="dbg-log"></div>';
-  document.body.appendChild(box);
-  document.getElementById('dbg-close').onclick = ()=>box.remove();
-}
-function logDebug(html){
-  const el = document.getElementById('dbg-log');
-  if (el) el.innerHTML += html + '<hr style="border:none;border-top:1px dashed #aaa;margin:6px 0">';
-}
-function esc(s){ return String(s).replace(/[&<>"]/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[m])); }
-
-/* ---------- Paths & Icons ---------- */
-const CACHE_BUST = `?v=${Date.now()}`; // avoid GH Pages cache during debug
-function normPath(p){ return (p||'').replace(/^\/+/, ''); } // strip leading /
+<script>
+/* ---------- Icons ---------- */
 const ICONS = {
   computer: "icons/computer.ico",
   world: "icons/world.ico",
   folder: "icons/folder.ico",
   info: "icons/help.ico"
 };
+(function setHeaderIcons(){
+  const elPC = document.getElementById("ico-computer"); if (elPC) elPC.src = ICONS.computer;
+  const elWorld = document.getElementById("ico-world"); if (elWorld) elWorld.src = ICONS.world;
+  const elInfo = document.getElementById("ico-info"); if (elInfo) elInfo.src = ICONS.info;
+})();
 
-/* ---------- Small helpers ---------- */
+/* ---------- Loader helpers ---------- */
+const L = {
+  root: document.getElementById('loader'),
+  fill: document.getElementById('loaderFill'),
+  msg:  document.getElementById('loaderMsg'),
+  pct:  document.getElementById('loaderPct'),
+  total: 1, // will be set after we know manifest length
+  done: 0
+};
+function loaderShow(){ if (L.root) L.root.style.display = 'flex'; }
+function loaderHide(){ if (L.root) L.root.style.display = 'none'; }
+function loaderSet(total){ L.total = Math.max(total,1); L.done = 0; loaderTick('Starting…'); }
+function loaderTick(message){
+  if (!L.root) return;
+  L.done = Math.min(L.done + 1, L.total);
+  const p = Math.round((L.done / L.total) * 100);
+  L.fill.style.width = p + '%';
+  if (message) L.msg.textContent = message;
+  L.pct.textContent = p + '%';
+}
+
+/* ---------- Helpers ---------- */
 function decadeOf(y){
   if (y<1960) return "1950s";
   if (y<1970) return "1960s";
@@ -125,51 +182,27 @@ function matchesFilter(ev, q, cat, dec){
   return okQ && okCat && okDec;
 }
 
-/* ---------- UI setup (header icons) ---------- */
-(function setHeaderIcons(){
-  const elPC = document.getElementById("ico-computer"); if (elPC) elPC.src = ICONS.computer;
-  const elWorld = document.getElementById("ico-world"); if (elWorld) elWorld.src = ICONS.world;
-  const elInfo = document.getElementById("ico-info"); if (elInfo) elInfo.src = ICONS.info;
-})();
-
-/* ---------- Global state ---------- */
+/* ---------- State ---------- */
 let CATS = [];
 let ALL = [];
-let LOAD_REPORT = [];
 
-/* ---------- Fetch with debug ---------- */
-async function fetchJson(path){
-  const url = `${normPath(path)}${CACHE_BUST}`;
-  try{
-    const res = await fetch(url);
-    if(!res.ok){
-      LOAD_REPORT.push({ file:url, ok:false, status:res.status });
-      return { ok:false, error:`HTTP ${res.status}`, data:null };
-    }
-    const data = await res.json();
-    LOAD_REPORT.push({ file:url, ok:true, status:res.status, count: Array.isArray(data)? data.length : undefined });
-    return { ok:true, data };
-  }catch(e){
-    LOAD_REPORT.push({ file:url, ok:false, status:'ERR', err: String(e) });
-    return { ok:false, error:String(e), data:null };
-  }
-}
-
+/* ---------- Data loading ---------- */
 async function loadCategories(){
-  const r = await fetchJson("data/categories.json");
-  if(!r.ok) throw new Error("Failed to load data/categories.json — " + r.error);
-  CATS = r.data;
+  loaderTick('Loading categories…');
+  const res = await fetch("data/categories.json");
+  if(!res.ok) throw new Error("Failed to load data/categories.json");
+  CATS = await res.json();
 
-  // Fill category select
+  // Fill select
   const sel = document.getElementById("cat");
   sel.innerHTML = '<option value="">All categories</option>' +
-    CATS.map(c=>`<option value="${esc(c.id)}">${esc(c.label)}</option>`).join("");
+    CATS.map(c=>`<option value="${c.id}">${c.label}</option>`).join("");
 
   // Category pill bar
   const bar = document.getElementById("catbar");
   bar.innerHTML = CATS.map(c =>
-    `<button class="cat-pill" data-cat="${esc(c.id)}" title="${esc(c.group||'')}">
-      <img class="icon" src="${esc(normPath(c.iconUrl))}" alt=""/> ${esc(c.label)}
+    `<button class="cat-pill" data-cat="${c.id}" title="${c.group||''}">
+      <img class="icon" src="${String(c.iconUrl||'').replace(/^\/+/,'')}" alt=""> ${c.label}
     </button>`).join("");
   bar.querySelectorAll(".cat-pill").forEach(b=>{
     b.addEventListener("click",()=>{ document.getElementById("cat").value=b.dataset.cat; render(); });
@@ -177,20 +210,35 @@ async function loadCategories(){
 }
 
 async function loadAllEventsViaManifest(){
-  const m = await fetchJson("data/events/manifest.json");
-  if(!m.ok) throw new Error("Failed to load data/events/manifest.json — " + (m.error||""));
-  if (!Array.isArray(m.data)) throw new Error("manifest.json is not an array");
-  const files = m.data;
+  // First get manifest to know how many files we’ll fetch
+  const m = await fetch("data/events/manifest.json");
+  if(!m.ok) throw new Error("Failed to load data/events/manifest.json");
+  const files = await m.json();
+  // +1 for categories step (already ticked once), +1 for manifest itself (we’ll tick for it now)
+  loaderSet(files.length + 2);
+  loaderTick('Loaded manifest…');
 
-  const chunks = [];
+  const base = "data/events/";
+  const all = [];
   for (const f of files){
-    const r = await fetchJson(`data/events/${f}`);
-    if (r.ok && Array.isArray(r.data)) chunks.push(r.data);
-    else if (!r.ok){
-      // continue but record error
+    try{
+      const r = await fetch(base + f);
+      if (!r.ok) {
+        loaderTick(`Missing: ${f}`);
+        continue;
+      }
+      const arr = await r.json();
+      if (Array.isArray(arr)) {
+        all.push(...arr);
+        loaderTick(`Loaded: ${f}`);
+      } else {
+        loaderTick(`Bad JSON (not array): ${f}`);
+      }
+    }catch(e){
+      loaderTick(`Error: ${f}`);
     }
   }
-  return chunks.flat();
+  return all;
 }
 
 /* ---------- Render ---------- */
@@ -218,7 +266,7 @@ function render(){
   years.forEach(y=>{
     const card = document.createElement("section"); card.className="year-card panel";
     const head = document.createElement("div"); head.className="year-head";
-    head.innerHTML = `<div class="year-title"><img class="icon" src="${ICONS.folder}" alt=""/> ${y}</div><div>${decadeOf(y)}</div>`;
+    head.innerHTML = `<div class="year-title"><img class="icon" src="${ICONS.folder}" alt=""> ${y}</div><div>${decadeOf(y)}</div>`;
     const ul = document.createElement("ul"); ul.className="event-list";
 
     byYear[y].sort((a,b)=>(a.categories?.[0]||"").localeCompare(b.categories?.[0]||"")||a.title.localeCompare(b.title));
@@ -227,7 +275,7 @@ function render(){
       const img = document.createElement("img"); img.className="icon";
       const catId = (e.categories||[])[0];
       const catObj = CATS.find(c=>c.id===catId);
-      img.src = catObj ? normPath(catObj.iconUrl) : ICONS.folder;
+      img.src = catObj ? String(catObj.iconUrl||'').replace(/^\/+/,'') : ICONS.folder;
 
       const body = document.createElement("div");
       const title = document.createElement("div"); title.className="event-title"; title.textContent = e.title;
@@ -253,8 +301,13 @@ function render(){
 /* ---------- Boot ---------- */
 (async function start(){
   try{
-    // addDebugHud();
+    loaderShow();
+    // tick once so the bar moves on first paint
+    loaderSet(3); // will be reset once manifest length is known
+    loaderTick('Initializing…');
+
     await loadCategories();
+    // load events (this will reset total and tick per file)
     ALL = await loadAllEventsViaManifest();
 
     // Inputs
@@ -263,24 +316,16 @@ function render(){
     document.getElementById("dec").addEventListener("change", render);
 
     render();
-
-    // Show load report
-    let rows = LOAD_REPORT.map(r=>{
-      const extra = (typeof r.count!=='undefined') ? `, count=${r.count}` : (r.err ? `, err=${esc(r.err)}` : '');
-      const ok = r.ok ? '✅' : '❌';
-      return `${ok} <code>${esc(r.file)}</code> (status: ${esc(r.status)}${extra})`;
-    }).join('<br>');
-    // logDebug(`<div><strong>Load report</strong><br>${rows}</div>`);
   }catch(e){
     console.error(e);
-    // addDebugHud();
-    // logDebug(`<div style="color:#900"><strong>Fatal:</strong> ${esc(String(e))}</div>`);
     const yearsEl = document.getElementById("years");
     if (yearsEl){
-      yearsEl.innerHTML = `<div class="panel" style="padding:14px">Error loading data. See debug panel (bottom-right) and browser console.</div>`;
+      yearsEl.innerHTML = `<div class="panel" style="padding:14px">Error loading data. Please refresh or check console.</div>`;
     }
+  }finally{
+    loaderHide();
   }
 })();
-  </script>
+</script>
 </body>
 </html>
