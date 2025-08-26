@@ -36,12 +36,12 @@ Each event is defined in JSON. Example:
 }
 
 Fields
-	•	id: unique identifier (lowercase, underscores, no spaces)
-	•	year: integer (e.g. 1981)
-	•	categories: array of category IDs from categories.json
-	•	title: short event title
-	•	overview: 2–3 sentence description
-	•	hashtags: keywords for search & filtering
+	• id: unique identifier (lowercase, underscores, no spaces)
+	• year: integer (e.g. 1981)
+	• categories: array of category IDs from categories.json
+	• title: short event title
+	• overview: 2–3 sentence description
+	• hashtags: keywords for search & filtering
 
 📂 Categories
 
@@ -62,13 +62,12 @@ Please read CONTRIBUTING.md for guidelines on how to add new events, categories,
 🛠 Development
 
 The site is static HTML + JS hosted on GitHub Pages.
-	•	Icons: Windows 95/98 Icon Set
-	•	Design: Windows 95 nostalgia + modern filters
-	•	Deployment: GitHub Pages auto-deploys from /docs/
-
+	• Icons: Windows 95/98 Icon Set
+	• Design: Windows 95 nostalgia + modern filters
+	• Deployment: GitHub Pages auto-deploys from /docs/
 
 📜 License
-	•	Code: MIT License
-	•	Content: CC BY-SA 4.0 (attribution required)
+	• Code: MIT License
+	• Content: CC BY-SA 4.0 (attribution required)
 
 👾 Made with 💾 by IPXO and contributors.
