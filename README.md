@@ -7,7 +7,7 @@ The site uses a nostalgic **Windows 95-style design** and runs on GitHub Pages.
 [https://ipv4.events](https://ipv4.events)
 
 ## 📂 Repository Structure
-
+```txt
 docs/
 ├── index.html             # Landing page (Windows 95 style)
 ├── icons/                 # Windows 95/98 style icons
@@ -20,6 +20,7 @@ docs/
 │         ├── space.json
 │         └── … (more categories)
 └── CNAME                  # Custom domain config (ipv4.events)
+```
 
 ## 📝 Event Format
 
