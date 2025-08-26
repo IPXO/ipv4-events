@@ -85,6 +85,49 @@
   font-size:12px;
   opacity:.9
 }
+/* 1) Space between sticky header and the hero */
+header.top + main { 
+  margin-top: 12px;            /* gap below the sticky bar */
+}
+
+/* 2) Win95-style form controls across Safari/Chrome/Firefox */
+.input,
+.select {
+  border: 2px solid #000;
+  background: #fff;
+  padding: 7px 10px;
+  font-size: 14px;
+  font-family: Tahoma, Segoe UI, Arial, sans-serif;
+
+  /* kill native styling in Safari/Firefox/Edge */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* keep square corners */
+  border-radius: 0;
+}
+
+/* Hide the legacy IE dropdown arrow (harmless elsewhere) */
+.select::-ms-expand { display: none; }
+
+/* Add a tiny down-arrow so Safari doesn’t look “native”.
+   (SVG data URI; no extra file needed) */
+.select {
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'>\
+<path d='M0 0 L5 6 L10 0 Z' fill='black'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 28px;  /* room for the arrow */
+}
+
+/* Optional: slightly larger gap inside the hero to emphasize separation */
+.hero { 
+  margin-top: 4px; 
+  padding-top: 16px; 
+  padding-bottom: 16px; 
+}
   </style>
 </head>
 <body>
