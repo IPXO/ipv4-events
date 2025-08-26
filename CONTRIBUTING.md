@@ -1,5 +1,3 @@
----
-
 ## 📗 `CONTRIBUTING.md`
 
 ```markdown
@@ -7,8 +5,6 @@
 
 Thank you for helping build the **ipv4.events** timeline!  
 We aim to preserve the history of the Internet and technology through community contributions.  
-
----
 
 ## 📝 How to Contribute
 
@@ -85,8 +81,6 @@ Categories live in docs/data/categories.json. Example:
    •  Content: CC BY-SA 4.0
 
 By contributing, you agree that your additions fall under these licenses.
-
----
 
 👉 With these two files in place, new contributors will know exactly:
 - How the repo is structured  
