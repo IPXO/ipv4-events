@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1996_palm_os",
+    "year": 1996,
+    "categories": ["Mobile OS"],
+    "title": "Palm OS",
+    "overview": "Palm OS debuts on personal digital assistants (PDAs), becoming one of the first successful handheld operating systems with touch and stylus input.",
+    "hashtags": ["PalmOS","PDA","Mobile"]
+  },
+  {
+    "id": "1999_blackberry_os",
+    "year": 1999,
+    "categories": ["Mobile OS"],
+    "title": "BlackBerry OS",
+    "overview": "BlackBerry OS launches with a focus on secure mobile email and enterprise messaging, dominating corporate mobile communication in the 2000s.",
+    "hashtags": ["BlackBerry","Messaging","Enterprise"]
+  },
+  {
+    "id": "2000_symbian_os",
+    "year": 2000,
+    "categories": ["Mobile OS"],
+    "title": "Symbian OS",
+    "overview": "Symbian becomes the leading smartphone OS, powering devices from Nokia, Ericsson, and others before the rise of iOS and Android.",
+    "hashtags": ["Symbian","Smartphones","Nokia"]
+  },
+  {
+    "id": "2007_ios",
+    "year": 2007,
+    "categories": ["Mobile OS"],
+    "title": "Apple iOS",
+    "overview": "Apple introduces iOS with the first iPhone, bringing a multitouch interface and App Store ecosystem that transform the smartphone industry.",
+    "hashtags": ["iOS","iPhone","Apple"]
+  },
+  {
+    "id": "2008_android",
+    "year": 2008,
+    "categories": ["Mobile OS"],
+    "title": "Android OS",
+    "overview": "Google launches Android 1.0 on the HTC Dream, quickly becoming the world’s most widely used smartphone operating system.",
+    "hashtags": ["Android","Google","Mobile"]
+  },
+  {
+    "id": "2009_windows_phone",
+    "year": 2009,
+    "categories": ["Mobile OS"],
+    "title": "Windows Phone",
+    "overview": "Microsoft introduces Windows Phone with a tile-based interface, attempting to compete with iOS and Android in the smartphone market.",
+    "hashtags": ["WindowsPhone","Microsoft","Mobile"]
+  },
+  {
+    "id": "2010_bada_os",
+    "year": 2010,
+    "categories": ["Mobile OS"],
+    "title": "Samsung Bada OS",
+    "overview": "Samsung launches Bada OS for mid-range smartphones, though it is later merged into the Tizen project.",
+    "hashtags": ["Samsung","Bada","Mobile"]
+  },
+  {
+    "id": "2012_tizen",
+    "year": 2012,
+    "categories": ["Mobile OS"],
+    "title": "Tizen OS",
+    "overview": "Samsung and Intel develop Tizen as a Linux-based OS for smartphones, wearables, and IoT devices, though adoption remains niche.",
+    "hashtags": ["Tizen","Linux","Samsung"]
+  },
+  {
+    "id": "2013_firefox_os",
+    "year": 2013,
+    "categories": ["Mobile OS"],
+    "title": "Firefox OS",
+    "overview": "Mozilla introduces Firefox OS, an HTML5-based mobile operating system targeting low-cost smartphones, but it is discontinued in 2016.",
+    "hashtags": ["FirefoxOS","Mozilla","Mobile"]
+  },
+  {
+    "id": "2013_windows10_mobile",
+    "year": 2013,
+    "categories": ["Mobile OS"],
+    "title": "Windows 10 Mobile",
+    "overview": "Microsoft rebrands Windows Phone as Windows 10 Mobile, but market adoption dwindles, leading to its discontinuation in 2019.",
+    "hashtags": ["Windows10Mobile","Microsoft","Mobile"]
+  },
+  {
+    "id": "2019_harmony_os",
+    "year": 2019,
+    "categories": ["Mobile OS"],
+    "title": "Huawei HarmonyOS",
+    "overview": "Huawei launches HarmonyOS (HongmengOS in China) as an alternative ecosystem for smartphones, IoT, and wearables in response to trade restrictions.",
+    "hashtags": ["HarmonyOS","Huawei","Mobile"]
+  }
+]

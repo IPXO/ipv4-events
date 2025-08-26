@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1991_linux_kernel",
+    "year": 1991,
+    "categories": ["Linux"],
+    "title": "Linux Kernel Released",
+    "overview": "Linus Torvalds announces the first release of the Linux kernel as a free Unix-like operating system, sparking a revolution in open-source software.",
+    "hashtags": ["Linux","Kernel","OpenSource"]
+  },
+  {
+    "id": "1993_slackware",
+    "year": 1993,
+    "categories": ["Linux"],
+    "title": "Slackware Linux",
+    "overview": "Patrick Volkerding releases Slackware, one of the earliest Linux distributions, which remains active as the oldest maintained distro.",
+    "hashtags": ["Slackware","Linux","Distro"]
+  },
+  {
+    "id": "1993_debian",
+    "year": 1993,
+    "categories": ["Linux"],
+    "title": "Debian Linux",
+    "overview": "The Debian Project is founded by Ian Murdock, emphasizing free software principles and community governance.",
+    "hashtags": ["Debian","Linux","Community"]
+  },
+  {
+    "id": "1994_redhat",
+    "year": 1994,
+    "categories": ["Linux"],
+    "title": "Red Hat Linux",
+    "overview": "Red Hat releases its Linux distribution, pioneering the enterprise support model and becoming a cornerstone of Linux in business.",
+    "hashtags": ["RedHat","Enterprise","Linux"]
+  },
+  {
+    "id": "1994_suse",
+    "year": 1994,
+    "categories": ["Linux"],
+    "title": "SUSE Linux",
+    "overview": "SUSE releases its Linux distribution in Germany, becoming a major European enterprise Linux provider.",
+    "hashtags": ["SUSE","Linux","Enterprise"]
+  },
+  {
+    "id": "2002_gentoo",
+    "year": 2002,
+    "categories": ["Linux"],
+    "title": "Gentoo Linux",
+    "overview": "Gentoo emerges as a source-based distribution focused on customization and performance tuning through its Portage system.",
+    "hashtags": ["Gentoo","SourceBased","Linux"]
+  },
+  {
+    "id": "2002_arch",
+    "year": 2002,
+    "categories": ["Linux"],
+    "title": "Arch Linux",
+    "overview": "Arch Linux launches with a lightweight, rolling-release philosophy, later inspiring projects like Manjaro.",
+    "hashtags": ["Arch","Linux","RollingRelease"]
+  },
+  {
+    "id": "2003_fedora",
+    "year": 2003,
+    "categories": ["Linux"],
+    "title": "Fedora Linux",
+    "overview": "Fedora Project is created as a community-driven, cutting-edge Linux distro sponsored by Red Hat, becoming a testing ground for enterprise features.",
+    "hashtags": ["Fedora","Linux","Community"]
+  },
+  {
+    "id": "2004_ubuntu",
+    "year": 2004,
+    "categories": ["Linux"],
+    "title": "Ubuntu Linux",
+    "overview": "Canonical launches Ubuntu, focused on usability and accessibility, quickly becoming one of the most popular Linux distros worldwide.",
+    "hashtags": ["Ubuntu","Linux","Desktop"]
+  },
+  {
+    "id": "2004_centos",
+    "year": 2004,
+    "categories": ["Linux"],
+    "title": "CentOS Linux",
+    "overview": "CentOS is founded as a free rebuild of Red Hat Enterprise Linux, becoming a staple in hosting and enterprise environments.",
+    "hashtags": ["CentOS","Linux","Enterprise"]
+  },
+  {
+    "id": "2005_opensuse",
+    "year": 2005,
+    "categories": ["Linux"],
+    "title": "openSUSE Linux",
+    "overview": "Novell launches openSUSE, a community-driven project based on SUSE Linux, known for its YaST configuration tool.",
+    "hashtags": ["openSUSE","Linux","Community"]
+  },
+  {
+    "id": "2005_alpine",
+    "year": 2005,
+    "categories": ["Linux"],
+    "title": "Alpine Linux",
+    "overview": "Alpine Linux is introduced as a lightweight, security-oriented distro, later becoming the backbone of many container environments.",
+    "hashtags": ["Alpine","Linux","Containers"]
+  },
+  {
+    "id": "2006_linux_mint",
+    "year": 2006,
+    "categories": ["Linux"],
+    "title": "Linux Mint",
+    "overview": "Linux Mint is released, offering a user-friendly desktop experience with multimedia codecs pre-installed, popular among new Linux users.",
+    "hashtags": ["LinuxMint","Linux","Desktop"]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1995_realplayer",
+    "year": 1995,
+    "categories": ["Streaming/Multimedia"],
+    "title": "RealPlayer",
+    "overview": "RealPlayer is released, becoming one of the first widely used Internet media players, enabling audio and video streaming in the dial-up era.",
+    "hashtags": ["RealPlayer","Streaming","Multimedia"]
+  },
+  {
+    "id": "1999_napster",
+    "year": 1999,
+    "categories": ["Streaming/Multimedia"],
+    "title": "Napster",
+    "overview": "Napster popularizes peer-to-peer file sharing of MP3 music, disrupting the music industry and paving the way for digital distribution models.",
+    "hashtags": ["Napster","P2P","MP3"]
+  },
+  {
+    "id": "2001_itunes",
+    "year": 2001,
+    "categories": ["Streaming/Multimedia"],
+    "title": "Apple iTunes",
+    "overview": "Apple launches iTunes, an online music store integrated with iPods, legitimizing digital music sales and reshaping the recording industry.",
+    "hashtags": ["iTunes","Apple","Music"]
+  },
+  {
+    "id": "2005_youtube",
+    "year": 2005,
+    "categories": ["Streaming/Multimedia"],
+    "title": "YouTube",
+    "overview": "YouTube is founded, enabling easy video uploads and streaming worldwide. It quickly becomes the largest video platform and a cultural phenomenon.",
+    "hashtags": ["YouTube","Streaming","Video"]
+  },
+  {
+    "id": "2006_spotify",
+    "year": 2006,
+    "categories": ["Streaming/Multimedia"],
+    "title": "Spotify Founded",
+    "overview": "Spotify is founded in Sweden, launching its streaming music service two years later, pioneering legal, ad-supported and subscription streaming models.",
+    "hashtags": ["Spotify","Streaming","Music"]
+  },
+  {
+    "id": "2007_netflix_streaming",
+    "year": 2007,
+    "categories": ["Streaming/Multimedia"],
+    "title": "Netflix Streaming",
+    "overview": "Netflix expands from DVD rentals to streaming movies and TV online, redefining home entertainment and on-demand media consumption.",
+    "hashtags": ["Netflix","Streaming","OnDemand"]
+  },
+  {
+    "id": "2008_twitch",
+    "year": 2008,
+    "categories": ["Streaming/Multimedia"],
+    "title": "Twitch (as Justin.tv Gaming)",
+    "overview": "Justin.tv spins off Twitch, focusing on live video game streaming, which grows into the world’s leading live streaming platform for gaming and esports.",
+    "hashtags": ["Twitch","Streaming","Gaming"]
+  },
+  {
+    "id": "2015_netflix_originals",
+    "year": 2015,
+    "categories": ["Streaming/Multimedia"],
+    "title": "Netflix Originals",
+    "overview": "Netflix releases 'House of Cards' and 'Orange is the New Black', marking its transformation from distributor to content producer and redefining media models.",
+    "hashtags": ["Netflix","Originals","Streaming"]
+  },
+  {
+    "id": "2019_disney_plus",
+    "year": 2019,
+    "categories": ["Streaming/Multimedia"],
+    "title": "Disney+ Launch",
+    "overview": "Disney+ launches with an extensive library of movies and shows, joining the competitive streaming wars against Netflix, Amazon, and Hulu.",
+    "hashtags": ["DisneyPlus","Streaming","Media"]
+  },
+  {
+    "id": "2020_streaming_boom",
+    "year": 2020,
+    "categories": ["Streaming/Multimedia"],
+    "title": "Streaming Boom During COVID-19",
+    "overview": "Global streaming usage surges during the COVID-19 pandemic, with services like Zoom, Netflix, and YouTube becoming essential for entertainment and communication.",
+    "hashtags": ["Streaming","COVID19","Entertainment"]
+  }
+]

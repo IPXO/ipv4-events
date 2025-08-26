@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1957_sputnik1",
+    "year": 1957,
+    "categories": ["Space"],
+    "title": "Sputnik 1 Launched",
+    "overview": "The Soviet Union launches Sputnik 1, the first artificial Earth satellite, marking the beginning of the space age and satellite communications.",
+    "hashtags": ["Sputnik","Space","Satellite"]
+  },
+  {
+    "id": "1969_apollo11",
+    "year": 1969,
+    "categories": ["Space"],
+    "title": "Apollo 11 Moon Landing",
+    "overview": "NASA’s Apollo 11 mission successfully lands Neil Armstrong and Buzz Aldrin on the Moon, achieving a historic milestone in space exploration.",
+    "hashtags": ["Apollo11","NASA","Moon"]
+  },
+  {
+    "id": "1977_voyager1",
+    "year": 1977,
+    "categories": ["Space"],
+    "title": "Voyager 1 Launch",
+    "overview": "NASA launches Voyager 1 to study the outer Solar System; it later becomes the most distant human-made object in space, still transmitting data.",
+    "hashtags": ["Voyager1","NASA","SpaceExploration"]
+  },
+  {
+    "id": "1990_hubble",
+    "year": 1990,
+    "categories": ["Space"],
+    "title": "Hubble Space Telescope",
+    "overview": "The Hubble Space Telescope is launched, providing unprecedented images of deep space and revolutionizing astronomy.",
+    "hashtags": ["Hubble","Space","Astronomy"]
+  },
+  {
+    "id": "1998_iss",
+    "year": 1998,
+    "categories": ["Space"],
+    "title": "International Space Station Assembly Begins",
+    "overview": "Construction of the International Space Station (ISS) begins, becoming a permanent multinational research lab in orbit.",
+    "hashtags": ["ISS","Space","Research"]
+  },
+  {
+    "id": "2008_falcon1",
+    "year": 2008,
+    "categories": ["Space"],
+    "title": "SpaceX Falcon 1 Reaches Orbit",
+    "overview": "SpaceX becomes the first private company to launch a liquid-fueled rocket into orbit with Falcon 1, paving the way for private spaceflight.",
+    "hashtags": ["SpaceX","Falcon1","PrivateSpaceflight"]
+  },
+  {
+    "id": "2010_falcon9",
+    "year": 2010,
+    "categories": ["Space"],
+    "title": "Falcon 9 Maiden Flight",
+    "overview": "SpaceX launches Falcon 9, designed for reusability and payload to ISS. It becomes one of the most important rockets of the 21st century.",
+    "hashtags": ["SpaceX","Falcon9","Space"]
+  },
+  {
+    "id": "2012_dragon_iss",
+    "year": 2012,
+    "categories": ["Space"],
+    "title": "Dragon Docks with ISS",
+    "overview": "SpaceX’s Dragon spacecraft becomes the first commercial vehicle to deliver cargo to the International Space Station.",
+    "hashtags": ["Dragon","ISS","SpaceX"]
+  },
+  {
+    "id": "2015_falcon9_landing",
+    "year": 2015,
+    "categories": ["Space"],
+    "title": "Falcon 9 First Stage Landing",
+    "overview": "SpaceX successfully lands the first stage of Falcon 9, proving rocket reusability and dramatically lowering launch costs.",
+    "hashtags": ["Falcon9","SpaceX","Reusability"]
+  },
+  {
+    "id": "2018_falcon_heavy",
+    "year": 2018,
+    "categories": ["Space"],
+    "title": "Falcon Heavy Demo Flight",
+    "overview": "SpaceX launches Falcon Heavy, the most powerful operational rocket, carrying a Tesla Roadster into space as a test payload.",
+    "hashtags": ["FalconHeavy","SpaceX","Launch"]
+  },
+  {
+    "id": "2019_starlink_launches",
+    "year": 2019,
+    "categories": ["Space"],
+    "title": "Starlink Constellation Begins",
+    "overview": "SpaceX begins deploying its Starlink satellite constellation, creating the world’s largest LEO network for global Internet service.",
+    "hashtags": ["Starlink","SpaceX","LEO"]
+  },
+  {
+    "id": "2020_crew_dragon",
+    "year": 2020,
+    "categories": ["Space"],
+    "title": "Crew Dragon Demo-2",
+    "overview": "SpaceX’s Crew Dragon carries NASA astronauts to the ISS, marking the first crewed orbital flight by a private company.",
+    "hashtags": ["CrewDragon","ISS","SpaceX"]
+  },
+  {
+    "id": "2021_perseverance",
+    "year": 2021,
+    "categories": ["Space"],
+    "title": "Mars Rover Perseverance & Ingenuity Helicopter",
+    "overview": "NASA lands Perseverance rover and Ingenuity helicopter on Mars, achieving the first powered flight on another planet.",
+    "hashtags": ["Perseverance","Ingenuity","Mars"]
+  },
+  {
+    "id": "2021_jwst",
+    "year": 2021,
+    "categories": ["Space"],
+    "title": "James Webb Space Telescope",
+    "overview": "NASA and ESA launch the James Webb Space Telescope, the most advanced space observatory, designed to peer into the early universe.",
+    "hashtags": ["JWST","NASA","ESA"]
+  },
+  {
+    "id": "2023_starship",
+    "year": 2023,
+    "categories": ["Space"],
+    "title": "Starship Test Flights",
+    "overview": "SpaceX begins test flights of Starship, a fully reusable heavy-lift rocket designed for Mars colonization and interplanetary travel.",
+    "hashtags": ["Starship","SpaceX","Mars"]
+  }
+]

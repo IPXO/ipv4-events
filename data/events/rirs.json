@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1989_ripencc_proposed",
+    "year": 1989,
+    "categories": ["RIRs"],
+    "title": "RIPE Community Discusses Need for Registry",
+    "overview": "The Réseaux IP Européens (RIPE) community begins discussing the need for a European IP address registry, paving the way for RIPE NCC.",
+    "hashtags": ["RIPE","RIRs","Europe"]
+  },
+  {
+    "id": "1992_ripencc_established",
+    "year": 1992,
+    "categories": ["RIRs"],
+    "title": "RIPE NCC Established",
+    "overview": "RIPE Network Coordination Centre (NCC) is established in Amsterdam as the first Regional Internet Registry, serving Europe, Middle East, and parts of Central Asia.",
+    "hashtags": ["RIPE","RIPE-NCC","Europe"]
+  },
+  {
+    "id": "1993_apnic_created",
+    "year": 1993,
+    "categories": ["RIRs"],
+    "title": "APNIC Created",
+    "overview": "Asia Pacific Network Information Centre (APNIC) is established in Tokyo, later headquartered in Brisbane, as the second Regional Internet Registry.",
+    "hashtags": ["APNIC","RIRs","AsiaPacific"]
+  },
+  {
+    "id": "1997_arin_created",
+    "year": 1997,
+    "categories": ["RIRs"],
+    "title": "ARIN Created",
+    "overview": "The American Registry for Internet Numbers (ARIN) is formed to serve North America and parts of the Caribbean, relieving InterNIC of regional allocation duties.",
+    "hashtags": ["ARIN","RIRs","NorthAmerica"]
+  },
+  {
+    "id": "2002_lacnic_created",
+    "year": 2002,
+    "categories": ["RIRs"],
+    "title": "LACNIC Created",
+    "overview": "The Latin America and Caribbean Network Information Centre (LACNIC) is established in Montevideo, Uruguay, to serve Latin America and parts of the Caribbean.",
+    "hashtags": ["LACNIC","RIRs","LatinAmerica"]
+  },
+  {
+    "id": "2005_afrinic_created",
+    "year": 2005,
+    "categories": ["RIRs"],
+    "title": "AFRINIC Created",
+    "overview": "The African Network Information Centre (AFRINIC) is recognized as the fifth Regional Internet Registry, headquartered in Mauritius, serving the African continent.",
+    "hashtags": ["AFRINIC","RIRs","Africa"]
+  },
+  {
+    "id": "2011_apnic_runs_out",
+    "year": 2011,
+    "categories": ["RIRs"],
+    "title": "APNIC Exhausts IPv4 Pool",
+    "overview": "APNIC becomes the first RIR to exhaust its pool of freely available IPv4 addresses, moving to final-phase allocation policies.",
+    "hashtags": ["APNIC","IPv4","Exhaustion"]
+  },
+  {
+    "id": "2015_arin_runs_out",
+    "year": 2015,
+    "categories": ["RIRs"],
+    "title": "ARIN Exhausts IPv4 Pool",
+    "overview": "ARIN announces exhaustion of its IPv4 free pool, marking a milestone in North American IPv4 scarcity.",
+    "hashtags": ["ARIN","IPv4","Exhaustion"]
+  },
+  {
+    "id": "2019_ripencc_runs_out",
+    "year": 2019,
+    "categories": ["RIRs"],
+    "title": "RIPE NCC Exhausts IPv4 Pool",
+    "overview": "RIPE NCC announces it has made its final IPv4 allocations, officially running out of free IPv4 space in the RIPE region.",
+    "hashtags": ["RIPE","IPv4","Exhaustion"]
+  },
+  {
+    "id": "2020_lacnic_afrinic_scarcity",
+    "year": 2020,
+    "categories": ["RIRs"],
+    "title": "LACNIC & AFRINIC Enter Scarcity Phase",
+    "overview": "The last two Regional Internet Registries, LACNIC and AFRINIC, enter scarcity phases with limited IPv4 availability under strict allocation policies.",
+    "hashtags": ["LACNIC","AFRINIC","IPv4Scarcity"]
+  }
+]

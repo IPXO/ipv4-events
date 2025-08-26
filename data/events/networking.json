@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1969_arpanet_goes_live",
+    "year": 1969,
+    "categories": ["Networking"],
+    "title": "ARPANET Goes Live",
+    "overview": "The ARPANET project connects UCLA, Stanford Research Institute, UC Santa Barbara, and University of Utah — the foundation of packet-switched networking.",
+    "hashtags": ["ARPANET","Networking","History"]
+  },
+  {
+    "id": "1974_ethernet_spec",
+    "year": 1974,
+    "categories": ["Networking"],
+    "title": "Ethernet Developed at Xerox PARC",
+    "overview": "Bob Metcalfe and David Boggs design Ethernet at Xerox PARC, creating the blueprint for the most widely adopted LAN technology.",
+    "hashtags": ["Ethernet","LAN","Metcalfe"]
+  },
+  {
+    "id": "1983_10mbps_ethernet",
+    "year": 1983,
+    "categories": ["Networking"],
+    "title": "IEEE 802.3 — 10 Mb/s Ethernet",
+    "overview": "The IEEE 802.3 standard for Ethernet at 10 megabits per second is ratified, providing the baseline for LAN networking.",
+    "hashtags": ["IEEE8023","Ethernet","10Mbps"]
+  },
+  {
+    "id": "1988_stp_rfc",
+    "year": 1988,
+    "categories": ["Networking"],
+    "title": "Spanning Tree Protocol (STP)",
+    "overview": "Radia Perlman designs the Spanning Tree Protocol to prevent loops in Ethernet networks, enabling reliable switching topologies.",
+    "hashtags": ["STP","Ethernet","Perlman"]
+  },
+  {
+    "id": "1993_cidr_intro",
+    "year": 1993,
+    "categories": ["Networking"],
+    "title": "CIDR Introduced",
+    "overview": "Classless Inter-Domain Routing (CIDR) deployed to reduce routing table growth and enable more efficient address allocation.",
+    "hashtags": ["CIDR","Routing","RFC1519"]
+  },
+  {
+    "id": "1994_nat_intro",
+    "year": 1994,
+    "categories": ["Networking"],
+    "title": "Network Address Translation (NAT)",
+    "overview": "NAT gains popularity as a way to extend the life of IPv4, allowing private networks to share a single public IP.",
+    "hashtags": ["NAT","IPv4","Networking"]
+  },
+  {
+    "id": "1998_mpls_standardized",
+    "year": 1998,
+    "categories": ["Networking"],
+    "title": "MPLS Standardized",
+    "overview": "Multiprotocol Label Switching (MPLS) is introduced, enabling faster, more efficient routing and VPNs across backbone networks.",
+    "hashtags": ["MPLS","Backbone","Networking"]
+  },
+  {
+    "id": "2004_ipv6_tunnels",
+    "year": 2004,
+    "categories": ["Networking"],
+    "title": "IPv6 Tunneling Mechanisms",
+    "overview": "Transition technologies like 6to4, Teredo, and ISATAP are widely deployed, allowing IPv6 traffic to traverse IPv4 infrastructure.",
+    "hashtags": ["IPv6","Transition","Tunneling"]
+  },
+  {
+    "id": "2010_sdwan_emerges",
+    "year": 2010,
+    "categories": ["Networking"],
+    "title": "SD-WAN Emerges",
+    "overview": "Software-defined WAN technologies gain traction, enabling enterprises to optimize connectivity across multiple ISPs and clouds.",
+    "hashtags": ["SDWAN","Networking","Cloud"]
+  },
+  {
+    "id": "2019_5g_backhaul",
+    "year": 2019,
+    "categories": ["Networking"],
+    "title": "5G Backhaul Strains Networks",
+    "overview": "The rise of 5G mobile deployments accelerates demand for dense fiber backhaul, redefining ISP networking requirements.",
+    "hashtags": ["5G","Backhaul","Networking"]
+  }
+]

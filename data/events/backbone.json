@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1983_10mbps_ethernet",
+    "year": 1983,
+    "categories": ["Backbone"],
+    "title": "10 Mb/s Ethernet Standardized (IEEE 802.3)",
+    "overview": "The IEEE 802.3 working group finalizes the 10 megabit per second Ethernet standard, setting the baseline for high-speed LANs that later form Internet backbones.",
+    "hashtags": ["Ethernet","IEEE8023","10Mbps"]
+  },
+  {
+    "id": "1995_fast_ethernet",
+    "year": 1995,
+    "categories": ["Backbone"],
+    "title": "100 Mb/s Fast Ethernet",
+    "overview": "Fast Ethernet is standardized, delivering a tenfold performance increase over classic Ethernet, and becomes common in enterprise LAN backbones.",
+    "hashtags": ["FastEthernet","100Mbps","IEEE8023u"]
+  },
+  {
+    "id": "1998_gigabit_ethernet",
+    "year": 1998,
+    "categories": ["Backbone"],
+    "title": "1 Gb/s Gigabit Ethernet",
+    "overview": "Gigabit Ethernet emerges as the backbone technology of choice for ISPs and data centers, scaling Internet core capacity.",
+    "hashtags": ["GigabitEthernet","1Gbps","Backbone"]
+  },
+  {
+    "id": "2002_10gigabit_ethernet",
+    "year": 2002,
+    "categories": ["Backbone"],
+    "title": "10 Gb/s Ethernet",
+    "overview": "The IEEE ratifies 10 Gigabit Ethernet (802.3ae), introducing fiber-based backbone speeds for metro, enterprise, and data center networks.",
+    "hashtags": ["10GbE","Backbone","IEEE8023ae"]
+  },
+  {
+    "id": "2010_40g_100g_ethernet",
+    "year": 2010,
+    "categories": ["Backbone"],
+    "title": "40 Gb/s & 100 Gb/s Ethernet",
+    "overview": "The IEEE approves 40G and 100G Ethernet (802.3ba), marking the first time two speed grades are standardized simultaneously for backbone deployments.",
+    "hashtags": ["40GbE","100GbE","IEEE8023ba"]
+  },
+  {
+    "id": "2017_400gigabit_ethernet",
+    "year": 2017,
+    "categories": ["Backbone"],
+    "title": "400 Gb/s Ethernet",
+    "overview": "The IEEE ratifies 400 Gigabit Ethernet (802.3bs), enabling hyperscale data centers and tier-1 ISPs to scale backbone throughput dramatically.",
+    "hashtags": ["400GbE","IEEE8023bs","Hyperscale"]
+  },
+  {
+    "id": "2023_800g_1_6t_trials",
+    "year": 2023,
+    "categories": ["Backbone"],
+    "title": "800 Gb/s & 1.6 Tb/s Ethernet Trials",
+    "overview": "Vendors and research networks trial 800G and 1.6T Ethernet links, testing next-generation optical modules and switch ASICs for backbone scaling.",
+    "hashtags": ["800GbE","1.6TbE","NextGen"]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1996_icq",
+    "year": 1996,
+    "categories": ["Messaging"],
+    "title": "ICQ",
+    "overview": "ICQ launches as one of the first widely adopted instant messaging platforms, introducing features like user IDs, online presence, and message history.",
+    "hashtags": ["ICQ","InstantMessaging","Pioneer"]
+  },
+  {
+    "id": "1999_msn_messenger",
+    "year": 1999,
+    "categories": ["Messaging"],
+    "title": "MSN Messenger",
+    "overview": "Microsoft launches MSN Messenger, later rebranded as Windows Live Messenger, dominating instant messaging through the 2000s.",
+    "hashtags": ["MSN","Messenger","Microsoft"]
+  },
+  {
+    "id": "2003_skype",
+    "year": 2003,
+    "categories": ["Messaging"],
+    "title": "Skype",
+    "overview": "Skype introduces free VoIP calling and instant messaging, disrupting traditional telecom services and enabling global communication.",
+    "hashtags": ["Skype","VoIP","Messaging"]
+  },
+  {
+    "id": "2009_whatsapp",
+    "year": 2009,
+    "categories": ["Messaging"],
+    "title": "WhatsApp",
+    "overview": "WhatsApp is founded, providing a mobile-first messaging platform that quickly becomes the dominant global chat app.",
+    "hashtags": ["WhatsApp","Messaging","Mobile"]
+  },
+  {
+    "id": "2011_facebook_messenger",
+    "year": 2011,
+    "categories": ["Messaging"],
+    "title": "Facebook Messenger",
+    "overview": "Facebook separates its messaging feature into a standalone app, growing into one of the most widely used chat platforms worldwide.",
+    "hashtags": ["FacebookMessenger","Chat","Social"]
+  },
+  {
+    "id": "2013_wechat",
+    "year": 2013,
+    "categories": ["Messaging"],
+    "title": "WeChat",
+    "overview": "Tencent’s WeChat becomes China’s 'super app', combining messaging, payments, and social features into a single platform with over a billion users.",
+    "hashtags": ["WeChat","China","Messaging"]
+  },
+  {
+    "id": "2013_telegram",
+    "year": 2013,
+    "categories": ["Messaging"],
+    "title": "Telegram",
+    "overview": "Telegram launches with encrypted, cloud-based chats and large group features, quickly gaining popularity for privacy and speed.",
+    "hashtags": ["Telegram","Messaging","Privacy"]
+  },
+  {
+    "id": "2015_discord",
+    "year": 2015,
+    "categories": ["Messaging"],
+    "title": "Discord",
+    "overview": "Discord is created for gamers with voice, video, and chat, later expanding into communities and enterprises as a leading collaboration platform.",
+    "hashtags": ["Discord","Messaging","Gaming"]
+  },
+  {
+    "id": "2020_signal_growth",
+    "year": 2020,
+    "categories": ["Messaging"],
+    "title": "Signal’s Global Growth",
+    "overview": "Signal, originally launched in 2014, surges in popularity during privacy debates, offering fully end-to-end encrypted messaging and calls.",
+    "hashtags": ["Signal","Messaging","Privacy"]
+  }
+]

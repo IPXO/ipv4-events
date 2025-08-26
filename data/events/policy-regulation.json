@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1991_cda",
+    "year": 1991,
+    "categories": ["Policy & Regulation"],
+    "title": "U.S. High-Performance Computing Act",
+    "overview": "Signed by President George H.W. Bush, the act funds the National Information Infrastructure and lays groundwork for the modern Internet.",
+    "hashtags": ["USPolicy","Internet","Infrastructure"]
+  },
+  {
+    "id": "1996_telecom_act",
+    "year": 1996,
+    "categories": ["Policy & Regulation"],
+    "title": "U.S. Telecommunications Act of 1996",
+    "overview": "First major overhaul of U.S. telecom law in over 60 years, promoting competition and regulating Internet and telecom providers.",
+    "hashtags": ["TelecomAct","Policy","US"]
+  },
+  {
+    "id": "1998_icann_established",
+    "year": 1998,
+    "categories": ["Policy & Regulation"],
+    "title": "ICANN Established",
+    "overview": "The Internet Corporation for Assigned Names and Numbers (ICANN) is created to manage domain names, IP addresses, and Internet governance.",
+    "hashtags": ["ICANN","Governance","Policy"]
+  },
+  {
+    "id": "2001_patrot_act",
+    "year": 2001,
+    "categories": ["Policy & Regulation"],
+    "title": "USA PATRIOT Act",
+    "overview": "Enacted after 9/11, the PATRIOT Act expands surveillance powers in the U.S., raising global debates about privacy and state control.",
+    "hashtags": ["PatriotAct","Policy","Surveillance"]
+  },
+  {
+    "id": "2003_can_spam",
+    "year": 2003,
+    "categories": ["Policy & Regulation"],
+    "title": "CAN-SPAM Act",
+    "overview": "The U.S. enacts the CAN-SPAM Act, setting rules for commercial email and giving consumers the right to opt out of marketing messages.",
+    "hashtags": ["CANSPAM","Policy","Email"]
+  },
+  {
+    "id": "2015_net_neutrality",
+    "year": 2015,
+    "categories": ["Policy & Regulation"],
+    "title": "FCC Enforces Net Neutrality",
+    "overview": "The U.S. FCC reclassifies broadband as a utility, enforcing net neutrality rules to prevent ISPs from blocking or throttling traffic.",
+    "hashtags": ["NetNeutrality","FCC","Policy"]
+  },
+  {
+    "id": "2016_eu_gpdr_adopted",
+    "year": 2016,
+    "categories": ["Policy & Regulation"],
+    "title": "GDPR Adopted",
+    "overview": "The European Union adopts the General Data Protection Regulation (GDPR), setting strict global standards for data protection and user privacy.",
+    "hashtags": ["GDPR","Privacy","EU"]
+  },
+  {
+    "id": "2018_gdpr_enforced",
+    "year": 2018,
+    "categories": ["Policy & Regulation"],
+    "title": "GDPR Enforced",
+    "overview": "The GDPR comes into effect, requiring companies worldwide to comply with EU privacy rules or face steep fines.",
+    "hashtags": ["GDPR","Privacy","Policy"]
+  },
+  {
+    "id": "2020_ccpa",
+    "year": 2020,
+    "categories": ["Policy & Regulation"],
+    "title": "California Consumer Privacy Act (CCPA)",
+    "overview": "California enacts CCPA, granting residents rights to know, delete, and opt out of the sale of personal data — often called 'America’s GDPR-lite'.",
+    "hashtags": ["CCPA","Privacy","California"]
+  },
+  {
+    "id": "2022_digital_services_act",
+    "year": 2022,
+    "categories": ["Policy & Regulation"],
+    "title": "EU Digital Services Act",
+    "overview": "The DSA is enacted to regulate digital platforms, tackling illegal content, transparency, and accountability of Big Tech companies.",
+    "hashtags": ["DSA","EU","Regulation"]
+  },
+  {
+    "id": "2023_ai_act",
+    "year": 2023,
+    "categories": ["Policy & Regulation"],
+    "title": "EU AI Act",
+    "overview": "The EU drafts the AI Act, the world’s first comprehensive regulatory framework for artificial intelligence, categorizing AI systems by risk.",
+    "hashtags": ["AIAct","EU","AIRegulation"]
+  }
+]

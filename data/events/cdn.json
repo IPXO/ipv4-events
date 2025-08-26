@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1998_akamai",
+    "year": 1998,
+    "categories": ["CDN"],
+    "title": "Akamai Launches First CDN",
+    "overview": "Akamai becomes the first major content delivery network, pioneering distributed caching to deliver websites and media faster and more reliably worldwide.",
+    "hashtags": ["Akamai","CDN","Internet"]
+  },
+  {
+    "id": "2000_limelight",
+    "year": 2000,
+    "categories": ["CDN"],
+    "title": "Limelight Networks Founded",
+    "overview": "Limelight enters the CDN market as a competitor to Akamai, fueling competition and the rapid growth of distributed delivery services.",
+    "hashtags": ["Limelight","CDN","Networking"]
+  },
+  {
+    "id": "2006_cloudfront",
+    "year": 2006,
+    "categories": ["CDN"],
+    "title": "Amazon CloudFront",
+    "overview": "Amazon launches CloudFront, bringing CDN functionality into its AWS ecosystem and expanding CDN accessibility for developers and businesses.",
+    "hashtags": ["AWS","CloudFront","CDN"]
+  },
+  {
+    "id": "2009_cloudflare",
+    "year": 2009,
+    "categories": ["CDN"],
+    "title": "Cloudflare Founded",
+    "overview": "Cloudflare launches with a unique mix of CDN, DNS, and DDoS protection services, becoming one of the most influential CDN and edge providers globally.",
+    "hashtags": ["Cloudflare","CDN","Security"]
+  },
+  {
+    "id": "2010_cdns_mainstream",
+    "year": 2010,
+    "categories": ["CDN"],
+    "title": "CDNs Go Mainstream",
+    "overview": "CDNs become a default part of Internet infrastructure, powering video streaming, e-commerce, gaming, and large-scale web platforms.",
+    "hashtags": ["CDN","Streaming","Infrastructure"]
+  },
+  {
+    "id": "2017_fastly",
+    "year": 2017,
+    "categories": ["CDN"],
+    "title": "Fastly Real-Time CDN",
+    "overview": "Fastly grows as a developer-focused CDN with real-time caching, instant purging, and strong API integrations for modern web apps.",
+    "hashtags": ["Fastly","CDN","DevOps"]
+  },
+  {
+    "id": "2020_verizon_edgecast",
+    "year": 2020,
+    "categories": ["CDN"],
+    "title": "Verizon Media Edgecast",
+    "overview": "Edgecast, acquired by Verizon, becomes part of Verizon Media, expanding CDN services with a telco-driven backbone.",
+    "hashtags": ["Verizon","Edgecast","CDN"]
+  },
+  {
+    "id": "2024_ai_cdns",
+    "year": 2024,
+    "categories": ["CDN"],
+    "title": "AI-Optimized CDNs",
+    "overview": "Next-gen CDNs integrate AI to predict traffic, optimize caching, and detect anomalies, pushing CDN performance to new levels.",
+    "hashtags": ["AI","CDN","Optimization"]
+  }
+]

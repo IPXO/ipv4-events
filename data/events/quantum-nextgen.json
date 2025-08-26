@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1981_feynman_quantum_computing",
+    "year": 1981,
+    "categories": ["Quantum/Next-Gen"],
+    "title": "Richard Feynman Proposes Quantum Computing",
+    "overview": "Richard Feynman and Yuri Manin propose quantum computing as a way to simulate physics problems beyond the capabilities of classical machines.",
+    "hashtags": ["Feynman","QuantumComputing","Origins"]
+  },
+  {
+    "id": "1994_shors_algorithm",
+    "year": 1994,
+    "categories": ["Quantum/Next-Gen"],
+    "title": "Shor’s Algorithm",
+    "overview": "Peter Shor develops a quantum algorithm that can factor large numbers exponentially faster than classical computers, threatening RSA encryption.",
+    "hashtags": ["ShorsAlgorithm","Quantum","Cryptography"]
+  },
+  {
+    "id": "2001_ibm_quantum_demo",
+    "year": 2001,
+    "categories": ["Quantum/Next-Gen"],
+    "title": "IBM 5-Qubit Quantum Demonstration",
+    "overview": "IBM demonstrates a 5-qubit quantum computer successfully implementing Shor’s algorithm, a landmark proof-of-concept in quantum computation.",
+    "hashtags": ["IBM","Quantum","5Qubit"]
+  },
+  {
+    "id": "2011_dwave_128",
+    "year": 2011,
+    "categories": ["Quantum/Next-Gen"],
+    "title": "D-Wave Ships First Quantum Computer",
+    "overview": "D-Wave delivers the 128-qubit D-Wave One, the first commercially sold quantum computer, based on quantum annealing.",
+    "hashtags": ["DWave","QuantumAnnealing","NextGen"]
+  },
+  {
+    "id": "2019_google_quantum_supremacy",
+    "year": 2019,
+    "categories": ["Quantum/Next-Gen"],
+    "title": "Google Achieves Quantum Supremacy",
+    "overview": "Google’s Sycamore processor performs a calculation in 200 seconds that would take the fastest classical supercomputer thousands of years.",
+    "hashtags": ["Google","QuantumSupremacy","Sycamore"]
+  },
+  {
+    "id": "2020_ibm_quantum_roadmap",
+    "year": 2020,
+    "categories": ["Quantum/Next-Gen"],
+    "title": "IBM Quantum Roadmap",
+    "overview": "IBM unveils its roadmap to scale quantum processors to over 1,000 qubits, setting the stage for practical quantum advantage.",
+    "hashtags": ["IBM","QuantumRoadmap","Qubits"]
+  },
+  {
+    "id": "2023_quantum_cryptography_trials",
+    "year": 2023,
+    "categories": ["Quantum/Next-Gen"],
+    "title": "Quantum Cryptography Trials",
+    "overview": "Quantum key distribution (QKD) trials expand across Europe and Asia, testing secure communications immune to eavesdropping.",
+    "hashtags": ["QuantumCrypto","QKD","Security"]
+  },
+  {
+    "id": "2024_ai_quantum_synergy",
+    "year": 2024,
+    "categories": ["Quantum/Next-Gen"],
+    "title": "AI–Quantum Synergy Research",
+    "overview": "AI and quantum computing begin converging in research, with machine learning models optimized using quantum circuits.",
+    "hashtags": ["QuantumAI","NextGen","Research"]
+  }
+]

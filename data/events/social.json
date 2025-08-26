@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1997_sixdegrees",
+    "year": 1997,
+    "categories": ["Social"],
+    "title": "SixDegrees",
+    "overview": "SixDegrees.com launches as one of the first social networking sites, allowing users to create profiles and connect with friends online.",
+    "hashtags": ["SixDegrees","SocialNetworking","Pioneer"]
+  },
+  {
+    "id": "2002_friendster",
+    "year": 2002,
+    "categories": ["Social"],
+    "title": "Friendster",
+    "overview": "Friendster launches and popularizes the idea of a modern online social network, influencing future platforms like MySpace and Facebook.",
+    "hashtags": ["Friendster","SocialNetworking","OnlineFriends"]
+  },
+  {
+    "id": "2003_myspace",
+    "year": 2003,
+    "categories": ["Social"],
+    "title": "MySpace",
+    "overview": "MySpace becomes the largest social network in the mid-2000s, known for customizable profiles and music sharing, especially among youth culture.",
+    "hashtags": ["MySpace","Music","SocialNetworking"]
+  },
+  {
+    "id": "2004_facebook",
+    "year": 2004,
+    "categories": ["Social"],
+    "title": "Facebook",
+    "overview": "Mark Zuckerberg and co-founders launch Facebook at Harvard, which grows into the world’s largest social media platform.",
+    "hashtags": ["Facebook","Zuckerberg","SocialMedia"]
+  },
+  {
+    "id": "2006_twitter",
+    "year": 2006,
+    "categories": ["Social"],
+    "title": "Twitter",
+    "overview": "Twitter launches as a microblogging platform with 140-character posts, later becoming a central hub for news, politics, and real-time conversations.",
+    "hashtags": ["Twitter","Microblogging","SocialMedia"]
+  },
+  {
+    "id": "2010_instagram",
+    "year": 2010,
+    "categories": ["Social"],
+    "title": "Instagram",
+    "overview": "Instagram debuts as a photo-sharing app, quickly growing with its mobile-first design, filters, and later Stories feature.",
+    "hashtags": ["Instagram","Photos","Stories"]
+  },
+  {
+    "id": "2011_snapchat",
+    "year": 2011,
+    "categories": ["Social"],
+    "title": "Snapchat",
+    "overview": "Snapchat introduces disappearing photos and videos, pioneering ephemeral messaging and augmented reality lenses.",
+    "hashtags": ["Snapchat","Ephemeral","AR"]
+  },
+  {
+    "id": "2016_tiktok",
+    "year": 2016,
+    "categories": ["Social"],
+    "title": "TikTok",
+    "overview": "TikTok launches internationally, popularizing short-form video with an algorithmic feed, reshaping online content creation and consumption.",
+    "hashtags": ["TikTok","ShortVideo","SocialMedia"]
+  },
+  {
+    "id": "2020_clubhouse",
+    "year": 2020,
+    "categories": ["Social"],
+    "title": "Clubhouse",
+    "overview": "Clubhouse gains popularity during the COVID-19 pandemic as an audio-only social platform, showcasing the rise of live voice interaction.",
+    "hashtags": ["Clubhouse","AudioChat","Social"]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1969_rfc_series_begins",
+    "year": 1969,
+    "categories": ["Governance"],
+    "title": "RFC Series Begins",
+    "overview": "The Request for Comments (RFC) series launches as the open publication venue for Internet protocols and processes, establishing a transparent, vendor-neutral record for technical governance.",
+    "hashtags": ["RFC","Governance","OpenStandards"]
+  },
+  {
+    "id": "1972_inwg_forms",
+    "year": 1972,
+    "categories": ["Governance"],
+    "title": "INWG Forms (Early Governance)",
+    "overview": "The International Network Working Group (INWG) convenes researchers to coordinate packet networking ideas across projects — a precursor to later Internet governance bodies.",
+    "hashtags": ["INWG","Governance","NetworkingHistory"]
+  },
+  {
+    "id": "1983_iab_established",
+    "year": 1983,
+    "categories": ["Governance"],
+    "title": "Internet Architecture Board (IAB)",
+    "overview": "The IAB is established to provide architectural oversight for the Internet, stewarding the evolution of the protocol suite and advising on long-term design.",
+    "hashtags": ["IAB","Architecture","Governance"]
+  },
+  {
+    "id": "1986_ietf_founded",
+    "year": 1986,
+    "categories": ["Governance"],
+    "title": "Internet Engineering Task Force (IETF)",
+    "overview": "The IETF forms as an open, volunteer standards body where working groups specify Internet protocols through the RFC process — the de facto engine of Internet standardization.",
+    "hashtags": ["IETF","Standards","RFC"]
+  },
+  {
+    "id": "1988_iana_formalized",
+    "year": 1988,
+    "categories": ["Governance"],
+    "title": "IANA Functions Formalized",
+    "overview": "The Internet Assigned Numbers Authority (IANA) functions are formalized, coordinating IP addressing, protocol parameters, and the DNS root — foundational stewardship for a single, global Internet.",
+    "hashtags": ["IANA","Stewardship","Coordination"]
+  },
+  {
+    "id": "1992_isoc_founded",
+    "year": 1992,
+    "categories": ["Governance"],
+    "title": "Internet Society (ISOC)",
+    "overview": "ISOC is established to provide organizational home and advocacy for the Internet community, supporting the open development of standards (incl. IETF/IAB) and education worldwide.",
+    "hashtags": ["ISOC","Governance","OpenInternet"]
+  },
+  {
+    "id": "1998_icann_created",
+    "year": 1998,
+    "categories": ["Governance"],
+    "title": "ICANN Created; IANA Functions Transitioned",
+    "overview": "The Internet Corporation for Assigned Names and Numbers (ICANN) is formed to coordinate DNS, IP address allocation policy interfaces, and protocol parameter registries with the community.",
+    "hashtags": ["ICANN","IANA","DNS"]
+  },
+  {
+    "id": "1999_icann_bylaws_gac",
+    "year": 1999,
+    "categories": ["Governance"],
+    "title": "ICANN Bylaws & GAC",
+    "overview": "ICANN governance matures with bylaws and the Governmental Advisory Committee (GAC), formalizing multi-stakeholder input including governments, private sector, and civil society.",
+    "hashtags": ["ICANN","GAC","Multistakeholder"]
+  },
+  {
+    "id": "2003_nro_formed",
+    "year": 2003,
+    "categories": ["Governance"],
+    "title": "Number Resource Organization (NRO)",
+    "overview": "The NRO is formed by the Regional Internet Registries (RIRs) to coordinate global number resource policy and to serve as the Address Supporting Organization (ASO) within ICANN.",
+    "hashtags": ["NRO","RIRs","NumberResources"]
+  },
+  {
+    "id": "2005_wsis_internet_governance",
+    "year": 2005,
+    "categories": ["Governance"],
+    "title": "WSIS & Internet Governance Forum (IGF) Process",
+    "overview": "Global policy forums (WSIS/IGF) emerge to debate Internet governance principles — openness, interoperability, and multi-stakeholderism — shaping expectations for the IPv4/IPv6 era.",
+    "hashtags": ["WSIS","IGF","Policy"]
+  },
+  {
+    "id": "2014_ianatransition_announced",
+    "year": 2014,
+    "categories": ["Governance"],
+    "title": "IANA Stewardship Transition Announced",
+    "overview": "The transition of IANA stewardship away from U.S. NTIA oversight to the global multi-stakeholder community is initiated, emphasizing accountability and transparency.",
+    "hashtags": ["IANA","NTIA","Accountability"]
+  },
+  {
+    "id": "2016_iana_stewardship_completed",
+    "year": 2016,
+    "categories": ["Governance"],
+    "title": "IANA Stewardship Transition Completed",
+    "overview": "Stewardship of the IANA functions formally transitions to the community via ICANN, marking a landmark in global, multi-stakeholder Internet governance.",
+    "hashtags": ["IANA","ICANN","Transition"]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1979_visicalc",
+    "year": 1979,
+    "categories": ["Software"],
+    "title": "VisiCalc",
+    "overview": "The first spreadsheet software, VisiCalc, launches on the Apple II, revolutionizing business computing and personal productivity.",
+    "hashtags": ["VisiCalc","Spreadsheet","AppleII"]
+  },
+  {
+    "id": "1983_lotus123",
+    "year": 1983,
+    "categories": ["Software"],
+    "title": "Lotus 1-2-3",
+    "overview": "Lotus 1-2-3 dominates the business software market in the 1980s, combining spreadsheet, database, and charting functions.",
+    "hashtags": ["Lotus123","Business","Software"]
+  },
+  {
+    "id": "1985_excel",
+    "year": 1985,
+    "categories": ["Software"],
+    "title": "Microsoft Excel",
+    "overview": "Microsoft launches Excel, eventually surpassing Lotus 1-2-3 as the dominant spreadsheet tool for businesses worldwide.",
+    "hashtags": ["Excel","Microsoft","Spreadsheet"]
+  },
+  {
+    "id": "1989_office",
+    "year": 1989,
+    "categories": ["Software"],
+    "title": "Microsoft Office",
+    "overview": "Microsoft Office bundles Word, Excel, and PowerPoint into a suite, becoming the standard for office productivity software.",
+    "hashtags": ["Office","Microsoft","Productivity"]
+  },
+  {
+    "id": "1990_photoshop",
+    "year": 1990,
+    "categories": ["Software"],
+    "title": "Adobe Photoshop",
+    "overview": "Adobe releases Photoshop, which quickly becomes the industry standard for digital image editing and creative design.",
+    "hashtags": ["Photoshop","Adobe","Design"]
+  },
+  {
+    "id": "1995_apache",
+    "year": 1995,
+    "categories": ["Software"],
+    "title": "Apache HTTP Server",
+    "overview": "The Apache HTTP Server launches, becoming the most widely used open-source web server and a backbone of the early Internet.",
+    "hashtags": ["Apache","WebServer","OpenSource"]
+  },
+  {
+    "id": "1997_winamp",
+    "year": 1997,
+    "categories": ["Software"],
+    "title": "Winamp",
+    "overview": "Winamp is released, becoming the most popular MP3 player of the late 1990s and fueling the digital music revolution.",
+    "hashtags": ["Winamp","MP3","Music"]
+  },
+  {
+    "id": "1998_google_search",
+    "year": 1998,
+    "categories": ["Software"],
+    "title": "Google Search",
+    "overview": "Google launches its search engine, redefining how people access and navigate the Internet, later becoming a tech giant.",
+    "hashtags": ["Google","Search","Internet"]
+  },
+  {
+    "id": "2001_wikipedia",
+    "year": 2001,
+    "categories": ["Software"],
+    "title": "Wikipedia",
+    "overview": "Wikipedia goes live, establishing the world’s largest free encyclopedia, written collaboratively by volunteers worldwide.",
+    "hashtags": ["Wikipedia","OpenKnowledge","Encyclopedia"]
+  },
+  {
+    "id": "2003_skype",
+    "year": 2003,
+    "categories": ["Software"],
+    "title": "Skype",
+    "overview": "Skype introduces free VoIP calls over the Internet, disrupting the telecom industry and popularizing global online communication.",
+    "hashtags": ["Skype","VoIP","Communication"]
+  },
+  {
+    "id": "2007_dropbox",
+    "year": 2007,
+    "categories": ["Software"],
+    "title": "Dropbox",
+    "overview": "Dropbox launches, pioneering consumer-friendly cloud file storage and synchronization across devices.",
+    "hashtags": ["Dropbox","Cloud","Storage"]
+  },
+  {
+    "id": "2008_spotify",
+    "year": 2008,
+    "categories": ["Software"],
+    "title": "Spotify",
+    "overview": "Spotify launches in Europe, introducing a streaming music service that transforms how people consume and pay for music.",
+    "hashtags": ["Spotify","Streaming","Music"]
+  },
+  {
+    "id": "2011_zoom",
+    "year": 2011,
+    "categories": ["Software"],
+    "title": "Zoom",
+    "overview": "Zoom launches as a video conferencing tool, later becoming one of the most critical platforms during the COVID-19 pandemic.",
+    "hashtags": ["Zoom","VideoConferencing","RemoteWork"]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1958_visa",
+    "year": 1958,
+    "categories": ["Finance"],
+    "title": "BankAmericard (Later Visa)",
+    "overview": "Bank of America launches BankAmericard in Fresno, California, the first mass-market credit card, later rebranded as Visa.",
+    "hashtags": ["Visa","CreditCard","BankAmericard"]
+  },
+  {
+    "id": "1966_mastercard",
+    "year": 1966,
+    "categories": ["Finance"],
+    "title": "Mastercard Founded",
+    "overview": "Master Charge (later Mastercard) is created by a group of banks to compete with BankAmericard, fueling the rise of global credit systems.",
+    "hashtags": ["Mastercard","CreditCard","Finance"]
+  },
+  {
+    "id": "1973_swift",
+    "year": 1973,
+    "categories": ["Finance"],
+    "title": "SWIFT Founded",
+    "overview": "The Society for Worldwide Interbank Financial Telecommunication (SWIFT) is founded, creating a global standard for secure banking transactions.",
+    "hashtags": ["SWIFT","Banking","Finance"]
+  },
+  {
+    "id": "1999_paypal",
+    "year": 1999,
+    "categories": ["Finance"],
+    "title": "PayPal Founded",
+    "overview": "PayPal launches as an online payments company, quickly becoming the leading method for e-commerce transactions on platforms like eBay.",
+    "hashtags": ["PayPal","Payments","Ecommerce"]
+  },
+  {
+    "id": "2006_emv",
+    "year": 2006,
+    "categories": ["Finance"],
+    "title": "EMV Adoption Accelerates",
+    "overview": "Banks and merchants begin mass adoption of EMV chip-and-PIN cards worldwide, replacing magnetic stripe cards for better security.",
+    "hashtags": ["EMV","ChipAndPin","Security"]
+  },
+  {
+    "id": "2009_bitcoin",
+    "year": 2009,
+    "categories": ["Finance"],
+    "title": "Bitcoin Introduced",
+    "overview": "Satoshi Nakamoto publishes the Bitcoin whitepaper and launches the first cryptocurrency blockchain, enabling decentralized money.",
+    "hashtags": ["Bitcoin","Crypto","Blockchain"]
+  },
+  {
+    "id": "2014_applepay",
+    "year": 2014,
+    "categories": ["Finance"],
+    "title": "Apple Pay",
+    "overview": "Apple launches Apple Pay, allowing contactless mobile payments via NFC on iPhones and Apple Watches, reshaping digital wallets.",
+    "hashtags": ["ApplePay","MobilePayments","NFC"]
+  },
+  {
+    "id": "2020_neobanks",
+    "year": 2020,
+    "categories": ["Finance"],
+    "title": "Neobanking Boom",
+    "overview": "Digital-first banks like Revolut, Monzo, and N26 surge in popularity, challenging traditional banking with mobile-first financial services.",
+    "hashtags": ["Neobanks","Fintech","Banking"]
+  },
+  {
+    "id": "2021_defi",
+    "year": 2021,
+    "categories": ["Finance"],
+    "title": "DeFi Expansion",
+    "overview": "Decentralized finance (DeFi) protocols grow rapidly on Ethereum and other blockchains, offering lending, trading, and yield services outside banks.",
+    "hashtags": ["DeFi","Blockchain","Finance"]
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1985_windows1",
+    "year": 1985,
+    "categories": ["OS/Windows"],
+    "title": "Windows 1.0",
+    "overview": "Microsoft releases Windows 1.0, a graphical shell running on top of MS-DOS, marking the company’s entry into graphical user interfaces.",
+    "hashtags": ["Windows1","GUI","Microsoft"]
+  },
+  {
+    "id": "1987_windows2",
+    "year": 1987,
+    "categories": ["OS/Windows"],
+    "title": "Windows 2.0",
+    "overview": "Windows 2.0 introduces overlapping windows, keyboard shortcuts, and improved memory management, gaining traction in offices.",
+    "hashtags": ["Windows2","GUI","Productivity"]
+  },
+  {
+    "id": "1990_windows3",
+    "year": 1990,
+    "categories": ["OS/Windows"],
+    "title": "Windows 3.0",
+    "overview": "Windows 3.0 becomes Microsoft’s first commercial success, offering a robust GUI, program manager, and better multitasking.",
+    "hashtags": ["Windows3","GUI","Multitasking"]
+  },
+  {
+    "id": "1992_windows31",
+    "year": 1992,
+    "categories": ["OS/Windows"],
+    "title": "Windows 3.1",
+    "overview": "Windows 3.1 improves stability, TrueType fonts, and multimedia support, becoming a dominant desktop platform in enterprises.",
+    "hashtags": ["Windows31","Multimedia","TrueType"]
+  },
+  {
+    "id": "1993_windows_nt31",
+    "year": 1993,
+    "categories": ["OS/Windows"],
+    "title": "Windows NT 3.1",
+    "overview": "Microsoft introduces Windows NT 3.1, a new 32-bit OS built for enterprise use with advanced networking and security features.",
+    "hashtags": ["WindowsNT","32bit","Enterprise"]
+  },
+  {
+    "id": "1995_windows95",
+    "year": 1995,
+    "categories": ["OS/Windows"],
+    "title": "Windows 95",
+    "overview": "Windows 95 launches with a Start Menu, taskbar, and built-in TCP/IP support, driving massive PC adoption worldwide.",
+    "hashtags": ["Windows95","StartMenu","TCPIP"]
+  },
+  {
+    "id": "1998_windows98",
+    "year": 1998,
+    "categories": ["OS/Windows"],
+    "title": "Windows 98",
+    "overview": "Windows 98 enhances USB support, Internet Explorer integration, and Plug and Play hardware support, dominating consumer PCs.",
+    "hashtags": ["Windows98","USB","PlugAndPlay"]
+  },
+  {
+    "id": "2000_windows2000",
+    "year": 2000,
+    "categories": ["OS/Windows"],
+    "title": "Windows 2000",
+    "overview": "Windows 2000 combines NT stability with Windows usability, introducing Active Directory and becoming an enterprise standard.",
+    "hashtags": ["Windows2000","ActiveDirectory","Enterprise"]
+  },
+  {
+    "id": "2000_windows_me",
+    "year": 2000,
+    "categories": ["OS/Windows"],
+    "title": "Windows ME",
+    "overview": "Windows Millennium Edition targets home users, adding System Restore and multimedia features but criticized for instability.",
+    "hashtags": ["WindowsME","HomeEdition","SystemRestore"]
+  },
+  {
+    "id": "2001_windows_xp",
+    "year": 2001,
+    "categories": ["OS/Windows"],
+    "title": "Windows XP",
+    "overview": "Windows XP unifies consumer and enterprise lines, becoming Microsoft’s most iconic OS with widespread adoption for over a decade.",
+    "hashtags": ["WindowsXP","Legacy","Adoption"]
+  },
+  {
+    "id": "2007_windows_vista",
+    "year": 2007,
+    "categories": ["OS/Windows"],
+    "title": "Windows Vista",
+    "overview": "Vista introduces Aero Glass UI and UAC security, but suffers from performance and compatibility issues.",
+    "hashtags": ["WindowsVista","Aero","UAC"]
+  },
+  {
+    "id": "2009_windows7",
+    "year": 2009,
+    "categories": ["OS/Windows"],
+    "title": "Windows 7",
+    "overview": "Windows 7 fixes Vista’s shortcomings with better performance, stability, and a refined UI, becoming highly popular.",
+    "hashtags": ["Windows7","UI","Performance"]
+  },
+  {
+    "id": "2012_windows8",
+    "year": 2012,
+    "categories": ["OS/Windows"],
+    "title": "Windows 8",
+    "overview": "Windows 8 introduces the Metro UI with tiles for touchscreens, but alienates many desktop users due to loss of Start Menu.",
+    "hashtags": ["Windows8","MetroUI","Touch"]
+  },
+  {
+    "id": "2013_windows81",
+    "year": 2013,
+    "categories": ["OS/Windows"],
+    "title": "Windows 8.1",
+    "overview": "Windows 8.1 restores the Start button and refines Metro UI, addressing criticism from desktop users.",
+    "hashtags": ["Windows81","MetroUI","StartButton"]
+  },
+  {
+    "id": "2015_windows10",
+    "year": 2015,
+    "categories": ["OS/Windows"],
+    "title": "Windows 10",
+    "overview": "Windows 10 blends desktop and modern UI, introduces Edge browser and Cortana, and becomes Microsoft’s long-term service OS.",
+    "hashtags": ["Windows10","Cortana","Edge"]
+  },
+  {
+    "id": "2021_windows11",
+    "year": 2021,
+    "categories": ["OS/Windows"],
+    "title": "Windows 11",
+    "overview": "Windows 11 refreshes the UI with a centered taskbar, Snap layouts, improved gaming, and tighter integration with cloud services.",
+    "hashtags": ["Windows11","SnapLayout","ModernUI"]
+  }
+]

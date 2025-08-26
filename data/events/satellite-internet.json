@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1962_telstar1",
+    "year": 1962,
+    "categories": ["Satellite Internet"],
+    "title": "Telstar 1 Launched",
+    "overview": "Telstar 1, launched by AT&T and NASA, becomes the first active communications satellite to relay television, telephone, and data signals across the Atlantic.",
+    "hashtags": ["Telstar","Satellite","Communications"]
+  },
+  {
+    "id": "1976_marissat",
+    "year": 1976,
+    "categories": ["Satellite Internet"],
+    "title": "Marisat Satellite Network",
+    "overview": "The Marisat network provides early mobile satellite communications for the U.S. Navy and maritime industry, laying groundwork for global satcom.",
+    "hashtags": ["Marisat","Satellite","Maritime"]
+  },
+  {
+    "id": "1982_inmarsat",
+    "year": 1982,
+    "categories": ["Satellite Internet"],
+    "title": "Inmarsat Launches Services",
+    "overview": "Inmarsat begins commercial satellite services, providing global connectivity for ships, planes, and remote areas.",
+    "hashtags": ["Inmarsat","Satellite","Connectivity"]
+  },
+  {
+    "id": "1998_iridium",
+    "year": 1998,
+    "categories": ["Satellite Internet"],
+    "title": "Iridium Constellation",
+    "overview": "Iridium launches its 66-satellite constellation for global voice and data, pioneering LEO networks despite early financial struggles.",
+    "hashtags": ["Iridium","LEO","Satellite"]
+  },
+  {
+    "id": "2003_hughesnet",
+    "year": 2003,
+    "categories": ["Satellite Internet"],
+    "title": "HughesNet Satellite Broadband",
+    "overview": "HughesNet begins offering satellite broadband for consumers, providing rural and remote areas with Internet access.",
+    "hashtags": ["HughesNet","SatelliteBroadband","Internet"]
+  },
+  {
+    "id": "2013_o3b",
+    "year": 2013,
+    "categories": ["Satellite Internet"],
+    "title": "O3b Networks",
+    "overview": "O3b ('Other 3 Billion') launches satellites in Medium Earth Orbit to deliver affordable Internet connectivity to underserved regions.",
+    "hashtags": ["O3b","MEO","Connectivity"]
+  },
+  {
+    "id": "2015_starlink_announced",
+    "year": 2015,
+    "categories": ["Satellite Internet"],
+    "title": "SpaceX Announces Starlink",
+    "overview": "SpaceX unveils its plan for a global LEO Internet constellation called Starlink, aiming to provide broadband worldwide.",
+    "hashtags": ["Starlink","SpaceX","SatelliteInternet"]
+  },
+  {
+    "id": "2019_starlink_launches",
+    "year": 2019,
+    "categories": ["Satellite Internet"],
+    "title": "Starlink Satellites Begin Launching",
+    "overview": "SpaceX begins deploying Starlink satellites in batches, quickly building the largest satellite constellation in history.",
+    "hashtags": ["Starlink","Satellite","LEO"]
+  },
+  {
+    "id": "2020_starlink_beta",
+    "year": 2020,
+    "categories": ["Satellite Internet"],
+    "title": "Starlink Beta Service",
+    "overview": "Starlink launches its beta Internet service, bringing high-speed broadband to rural and underserved regions globally.",
+    "hashtags": ["Starlink","Beta","SatelliteInternet"]
+  },
+  {
+    "id": "2021_amazon_kuiper",
+    "year": 2021,
+    "categories": ["Satellite Internet"],
+    "title": "Amazon Kuiper Approved",
+    "overview": "Amazon receives FCC approval for Project Kuiper, a planned constellation of 3,200 satellites to provide global broadband coverage.",
+    "hashtags": ["AmazonKuiper","SatelliteInternet","FCC"]
+  },
+  {
+    "id": "2022_oneweb",
+    "year": 2022,
+    "categories": ["Satellite Internet"],
+    "title": "OneWeb Expands Constellation",
+    "overview": "OneWeb grows its LEO constellation to deliver connectivity to governments, aviation, maritime, and remote communities.",
+    "hashtags": ["OneWeb","Satellite","Connectivity"]
+  },
+  {
+    "id": "2024_starlink_maritime",
+    "year": 2024,
+    "categories": ["Satellite Internet"],
+    "title": "Starlink Maritime & Aviation",
+    "overview": "Starlink expands to airlines, cruise ships, and cargo vessels, transforming in-flight and at-sea Internet connectivity.",
+    "hashtags": ["Starlink","Maritime","Aviation"]
+  }
+]

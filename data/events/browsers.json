@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1993_mosaic",
+    "year": 1993,
+    "categories": ["Browsers"],
+    "title": "Mosaic Browser",
+    "overview": "The Mosaic browser is released at NCSA, becoming the first popular graphical web browser and sparking widespread adoption of the World Wide Web.",
+    "hashtags": ["Mosaic","NCSA","Web"]
+  },
+  {
+    "id": "1994_netscape",
+    "year": 1994,
+    "categories": ["Browsers"],
+    "title": "Netscape Navigator",
+    "overview": "Netscape launches Navigator, quickly becoming the dominant web browser of the 1990s and fueling the dot-com boom.",
+    "hashtags": ["Netscape","Navigator","Web"]
+  },
+  {
+    "id": "1995_ie",
+    "year": 1995,
+    "categories": ["Browsers"],
+    "title": "Internet Explorer",
+    "overview": "Microsoft bundles Internet Explorer with Windows, triggering the first browser wars with Netscape.",
+    "hashtags": ["InternetExplorer","Microsoft","BrowserWars"]
+  },
+  {
+    "id": "2003_safari",
+    "year": 2003,
+    "categories": ["Browsers"],
+    "title": "Apple Safari",
+    "overview": "Apple introduces Safari as the default browser for macOS and later iOS, built on the WebKit rendering engine.",
+    "hashtags": ["Safari","Apple","WebKit"]
+  },
+  {
+    "id": "2004_firefox",
+    "year": 2004,
+    "categories": ["Browsers"],
+    "title": "Mozilla Firefox",
+    "overview": "Mozilla launches Firefox, a secure and open-source alternative to Internet Explorer, rekindling competition in the browser market.",
+    "hashtags": ["Firefox","Mozilla","OpenSource"]
+  },
+  {
+    "id": "2008_chrome",
+    "year": 2008,
+    "categories": ["Browsers"],
+    "title": "Google Chrome",
+    "overview": "Google Chrome debuts with a minimalist UI and fast V8 JavaScript engine, later dominating the global browser market.",
+    "hashtags": ["Chrome","Google","V8"]
+  },
+  {
+    "id": "2015_edge",
+    "year": 2015,
+    "categories": ["Browsers"],
+    "title": "Microsoft Edge",
+    "overview": "Microsoft replaces Internet Explorer with Edge, first using EdgeHTML and later switching to the Chromium engine for compatibility and speed.",
+    "hashtags": ["Edge","Microsoft","Chromium"]
+  },
+  {
+    "id": "2020_brave",
+    "year": 2020,
+    "categories": ["Browsers"],
+    "title": "Brave Browser",
+    "overview": "Brave emerges as a privacy-focused browser with built-in ad blocking, tracker protection, and crypto integrations.",
+    "hashtags": ["Brave","Privacy","Browser"]
+  }
+]

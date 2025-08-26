@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1956_dartmouth_ai",
+    "year": 1956,
+    "categories": ["AI"],
+    "title": "Dartmouth AI Conference",
+    "overview": "The Dartmouth Summer Research Project on Artificial Intelligence introduces the term 'AI' and sets the stage for decades of research in machine intelligence.",
+    "hashtags": ["AI","Dartmouth","Origins"]
+  },
+  {
+    "id": "1997_deep_blue",
+    "year": 1997,
+    "categories": ["AI"],
+    "title": "Deep Blue Beats Kasparov",
+    "overview": "IBM’s Deep Blue defeats world chess champion Garry Kasparov, marking a milestone in AI's ability to solve complex problems.",
+    "hashtags": ["DeepBlue","IBM","Chess"]
+  },
+  {
+    "id": "2012_alexnet",
+    "year": 2012,
+    "categories": ["AI"],
+    "title": "AlexNet Wins ImageNet",
+    "overview": "AlexNet, a deep convolutional neural network, wins the ImageNet competition by a large margin, sparking the deep learning revolution.",
+    "hashtags": ["AlexNet","DeepLearning","ImageNet"]
+  },
+  {
+    "id": "2016_alphago",
+    "year": 2016,
+    "categories": ["AI"],
+    "title": "AlphaGo Beats Lee Sedol",
+    "overview": "DeepMind’s AlphaGo defeats Go champion Lee Sedol, showcasing the power of reinforcement learning and neural networks in mastering complex strategy games.",
+    "hashtags": ["AlphaGo","DeepMind","Go"]
+  },
+  {
+    "id": "2020_gpt3",
+    "year": 2020,
+    "categories": ["AI"],
+    "title": "GPT-3 Released",
+    "overview": "OpenAI releases GPT-3 with 175 billion parameters, setting new benchmarks in natural language processing and text generation.",
+    "hashtags": ["GPT3","OpenAI","NLP"]
+  },
+  {
+    "id": "2022_chatgpt",
+    "year": 2022,
+    "categories": ["AI"],
+    "title": "ChatGPT Launched",
+    "overview": "OpenAI launches ChatGPT, making conversational AI accessible to the public and driving widespread adoption of AI assistants.",
+    "hashtags": ["ChatGPT","AI","ConversationalAI"]
+  },
+  {
+    "id": "2023_gpt4",
+    "year": 2023,
+    "categories": ["AI"],
+    "title": "GPT-4 Released",
+    "overview": "OpenAI introduces GPT-4, further advancing reasoning, creativity, and coding abilities in large language models.",
+    "hashtags": ["GPT4","OpenAI","LLM"]
+  },
+  {
+    "id": "2024_genai_boom",
+    "year": 2024,
+    "categories": ["AI"],
+    "title": "Generative AI Boom",
+    "overview": "Generative AI adoption accelerates across industries, integrating into software, media, and enterprise workflows, marking AI's mainstream integration.",
+    "hashtags": ["GenAI","AIAdoption","Innovation"]
+  }
+]

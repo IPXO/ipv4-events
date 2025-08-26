@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1992_snow_crash",
+    "year": 1992,
+    "categories": ["Metaverse/XR"],
+    "title": "Snow Crash Popularizes the Term 'Metaverse'",
+    "overview": "Neal Stephenson publishes the novel *Snow Crash*, introducing the word 'Metaverse' to describe a persistent virtual world — inspiring future VR and XR visions.",
+    "hashtags": ["SnowCrash","Metaverse","SciFi"]
+  },
+  {
+    "id": "2003_second_life",
+    "year": 2003,
+    "categories": ["Metaverse/XR"],
+    "title": "Second Life Launches",
+    "overview": "Linden Lab launches Second Life, one of the first large-scale persistent virtual worlds, with a thriving economy and millions of users.",
+    "hashtags": ["SecondLife","VirtualWorld","Metaverse"]
+  },
+  {
+    "id": "2012_oculus_vr",
+    "year": 2012,
+    "categories": ["Metaverse/XR"],
+    "title": "Oculus VR Founded",
+    "overview": "Oculus VR is founded, later acquired by Facebook. Its Rift headset revives interest in consumer-grade virtual reality hardware.",
+    "hashtags": ["Oculus","VR","Hardware"]
+  },
+  {
+    "id": "2014_google_glass",
+    "year": 2014,
+    "categories": ["Metaverse/XR"],
+    "title": "Google Glass Released",
+    "overview": "Google introduces Google Glass, an early attempt at augmented reality smart glasses, sparking debate about wearables and privacy.",
+    "hashtags": ["GoogleGlass","AR","Wearables"]
+  },
+  {
+    "id": "2016_pokemon_go",
+    "year": 2016,
+    "categories": ["Metaverse/XR"],
+    "title": "Pokémon GO Popularizes AR",
+    "overview": "Niantic launches Pokémon GO, blending augmented reality with geolocation, reaching massive mainstream adoption worldwide.",
+    "hashtags": ["PokemonGO","AR","Gaming"]
+  },
+  {
+    "id": "2016_htc_vive",
+    "year": 2016,
+    "categories": ["Metaverse/XR"],
+    "title": "HTC Vive Launch",
+    "overview": "HTC and Valve release the Vive, a VR headset with room-scale tracking, setting new standards for immersive gaming and applications.",
+    "hashtags": ["HTCVive","VR","Gaming"]
+  },
+  {
+    "id": "2020_horizon",
+    "year": 2020,
+    "categories": ["Metaverse/XR"],
+    "title": "Facebook Horizon / Horizon Worlds",
+    "overview": "Facebook (later Meta) launches Horizon Worlds, a social VR platform central to its vision of building the Metaverse.",
+    "hashtags": ["HorizonWorlds","Meta","Metaverse"]
+  },
+  {
+    "id": "2021_meta_rebrand",
+    "year": 2021,
+    "categories": ["Metaverse/XR"],
+    "title": "Facebook Rebrands as Meta",
+    "overview": "Facebook rebrands as Meta, signaling its ambition to lead in building the Metaverse and investing heavily in XR technologies.",
+    "hashtags": ["Meta","Metaverse","XR"]
+  },
+  {
+    "id": "2022_apple_arvr",
+    "year": 2022,
+    "categories": ["Metaverse/XR"],
+    "title": "Apple AR/VR Rumors Intensify",
+    "overview": "Reports and patents fuel speculation around Apple’s upcoming AR/VR headset, highlighting Big Tech’s interest in XR ecosystems.",
+    "hashtags": ["Apple","ARVR","Metaverse"]
+  },
+  {
+    "id": "2023_apple_vision_pro",
+    "year": 2023,
+    "categories": ["Metaverse/XR"],
+    "title": "Apple Vision Pro Announced",
+    "overview": "Apple unveils Vision Pro, its first spatial computing headset, redefining mixed reality experiences with advanced optics and eye/hand tracking.",
+    "hashtags": ["AppleVisionPro","XR","SpatialComputing"]
+  }
+]

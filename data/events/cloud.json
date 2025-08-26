@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1999_vmware",
+    "year": 1999,
+    "categories": ["Cloud/Virtualization"],
+    "title": "VMware Introduces Virtualization",
+    "overview": "VMware launches its first virtualization products, enabling multiple operating systems to run on a single physical machine — the foundation for modern cloud computing.",
+    "hashtags": ["VMware","Virtualization","Cloud"]
+  },
+  {
+    "id": "2006_aws",
+    "year": 2006,
+    "categories": ["Cloud/Virtualization"],
+    "title": "Amazon Web Services (AWS) Launches",
+    "overview": "Amazon launches AWS with S3 and EC2, pioneering the cloud services market and enabling scalable, on-demand computing.",
+    "hashtags": ["AWS","Cloud","Amazon"]
+  },
+  {
+    "id": "2008_gcp",
+    "year": 2008,
+    "categories": ["Cloud/Virtualization"],
+    "title": "Google Cloud Platform",
+    "overview": "Google enters the cloud market with App Engine, later expanding into GCP, offering computing, storage, and advanced AI services.",
+    "hashtags": ["GCP","GoogleCloud","Cloud"]
+  },
+  {
+    "id": "2009_vsphere",
+    "year": 2009,
+    "categories": ["Cloud/Virtualization"],
+    "title": "VMware vSphere",
+    "overview": "VMware launches vSphere, bringing enterprise-grade virtualization management and clustering for large-scale deployments.",
+    "hashtags": ["VMware","vSphere","Virtualization"]
+  },
+  {
+    "id": "2010_azure",
+    "year": 2010,
+    "categories": ["Cloud/Virtualization"],
+    "title": "Microsoft Azure",
+    "overview": "Microsoft launches Azure as a competitor to AWS and GCP, growing into one of the largest global cloud platforms.",
+    "hashtags": ["Azure","Microsoft","Cloud"]
+  },
+  {
+    "id": "2013_docker",
+    "year": 2013,
+    "categories": ["Cloud/Virtualization"],
+    "title": "Docker Popularizes Containers",
+    "overview": "Docker makes containerization accessible, transforming software deployment and scaling, and revolutionizing DevOps practices.",
+    "hashtags": ["Docker","Containers","DevOps"]
+  },
+  {
+    "id": "2014_kubernetes",
+    "year": 2014,
+    "categories": ["Cloud/Virtualization"],
+    "title": "Kubernetes",
+    "overview": "Google open-sources Kubernetes, which quickly becomes the standard for container orchestration and cloud-native infrastructure.",
+    "hashtags": ["Kubernetes","Containers","CloudNative"]
+  },
+  {
+    "id": "2019_serverless_expansion",
+    "year": 2019,
+    "categories": ["Cloud/Virtualization"],
+    "title": "Serverless Computing Expansion",
+    "overview": "Serverless offerings like AWS Lambda, Google Cloud Functions, and Azure Functions expand rapidly, redefining application development models.",
+    "hashtags": ["Serverless","Lambda","Cloud"]
+  }
+]

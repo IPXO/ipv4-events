@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1984_cisco_founded",
+    "year": 1984,
+    "categories": ["Hardware & Vendors"],
+    "title": "Cisco Systems Founded",
+    "overview": "Cisco Systems is founded in San Francisco, pioneering the development of commercial multiprotocol routers and shaping the networking hardware industry.",
+    "hashtags": ["Cisco","Routers","Networking"]
+  },
+  {
+    "id": "1986_netgear",
+    "year": 1986,
+    "categories": ["Hardware & Vendors"],
+    "title": "Netgear Roots",
+    "overview": "Netgear’s early products for Ethernet and consumer networking lay the foundation for one of the most recognized home and SMB networking brands.",
+    "hashtags": ["Netgear","ConsumerNetworking","Ethernet"]
+  },
+  {
+    "id": "1987_juniper",
+    "year": 1987,
+    "categories": ["Hardware & Vendors"],
+    "title": "Juniper Networks Founded",
+    "overview": "Juniper Networks is founded, focusing on high-performance core routers that challenge Cisco’s dominance in backbone infrastructure.",
+    "hashtags": ["Juniper","Backbone","Routers"]
+  },
+  {
+    "id": "1992_check_point",
+    "year": 1992,
+    "categories": ["Hardware & Vendors"],
+    "title": "Check Point Software Founded",
+    "overview": "Check Point pioneers the commercial firewall appliance market, contributing to enterprise security and network perimeter defense.",
+    "hashtags": ["CheckPoint","Firewall","Security"]
+  },
+  {
+    "id": "1995_f5_networks",
+    "year": 1995,
+    "categories": ["Hardware & Vendors"],
+    "title": "F5 Networks Founded",
+    "overview": "F5 Networks emerges, delivering load balancers and application delivery controllers (ADCs) to improve scalability and performance of Internet services.",
+    "hashtags": ["F5","LoadBalancing","ADC"]
+  },
+  {
+    "id": "1999_huawei_international",
+    "year": 1999,
+    "categories": ["Hardware & Vendors"],
+    "title": "Huawei Expands Internationally",
+    "overview": "Huawei, founded in 1987, expands globally by 1999, becoming a major player in telecommunications and networking infrastructure.",
+    "hashtags": ["Huawei","Telecom","Networking"]
+  },
+  {
+    "id": "2004_arista",
+    "year": 2004,
+    "categories": ["Hardware & Vendors"],
+    "title": "Arista Networks Founded",
+    "overview": "Arista Networks is founded, introducing cloud data center switches with high port density and low latency, defining modern leaf-spine fabrics.",
+    "hashtags": ["Arista","DataCenter","Switching"]
+  },
+  {
+    "id": "2008_ubiquiti",
+    "year": 2008,
+    "categories": ["Hardware & Vendors"],
+    "title": "Ubiquiti Networks Emerges",
+    "overview": "Ubiquiti enters the market with low-cost, high-performance wireless and routing equipment, popular in ISPs, SMBs, and communities worldwide.",
+    "hashtags": ["Ubiquiti","Wireless","Routers"]
+  },
+  {
+    "id": "2010_opencompute",
+    "year": 2010,
+    "categories": ["Hardware & Vendors"],
+    "title": "Open Compute Project",
+    "overview": "Facebook launches the Open Compute Project to share open hardware designs for servers, switches, and data centers, shifting vendor ecosystems.",
+    "hashtags": ["OCP","OpenHardware","DataCenters"]
+  },
+  {
+    "id": "2012_edgecore",
+    "year": 2012,
+    "categories": ["Hardware & Vendors"],
+    "title": "Edgecore Switches in Open Networking",
+    "overview": "Edgecore and other vendors popularize open whitebox switches, separating hardware from network OS and accelerating SDN adoption.",
+    "hashtags": ["Edgecore","SDN","Whitebox"]
+  },
+  {
+    "id": "2015_barefoot",
+    "year": 2015,
+    "categories": ["Hardware & Vendors"],
+    "title": "Barefoot Networks and P4",
+    "overview": "Barefoot introduces programmable Tofino chips and the P4 language, enabling fully software-defined packet processing at line rate.",
+    "hashtags": ["Barefoot","P4","Programmable"]
+  },
+  {
+    "id": "2019_nvidia_mellanox",
+    "year": 2019,
+    "categories": ["Hardware & Vendors"],
+    "title": "NVIDIA Acquires Mellanox",
+    "overview": "NVIDIA acquires Mellanox, strengthening its position in HPC, AI clusters, and Ethernet/InfiniBand backbone hardware.",
+    "hashtags": ["NVIDIA","Mellanox","HPC"]
+  }
+]

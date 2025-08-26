@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1989_cix_formed",
+    "year": 1989,
+    "categories": ["IXP/NOG"],
+    "title": "Commercial Internet eXchange (CIX) Formed",
+    "overview": "CIX is established in the US to allow commercial ISPs to interconnect outside the NSFNET, catalyzing the growth of the commercial Internet.",
+    "hashtags": ["CIX","IXP","Interconnection"]
+  },
+  {
+    "id": "1994_amsix_founded",
+    "year": 1994,
+    "categories": ["IXP/NOG"],
+    "title": "AMS-IX Founded",
+    "overview": "The Amsterdam Internet Exchange (AMS-IX) is founded, becoming one of the largest IXPs in the world and a hub for European traffic exchange.",
+    "hashtags": ["AMSIX","IXP","Europe"]
+  },
+  {
+    "id": "1994_nanog_established",
+    "year": 1994,
+    "categories": ["IXP/NOG"],
+    "title": "North American Network Operators’ Group (NANOG)",
+    "overview": "NANOG forms to bring together operators for technical coordination, troubleshooting, and best practices in Internet operations.",
+    "hashtags": ["NANOG","Operators","Community"]
+  },
+  {
+    "id": "1995_linx_founded",
+    "year": 1995,
+    "categories": ["IXP/NOG"],
+    "title": "LINX Founded",
+    "overview": "The London Internet Exchange (LINX) is established, quickly becoming one of the world’s most important interconnection hubs.",
+    "hashtags": ["LINX","IXP","UK"]
+  },
+  {
+    "id": "1996_decix_independent",
+    "year": 1996,
+    "categories": ["IXP/NOG"],
+    "title": "DE-CIX Becomes Independent",
+    "overview": "The Deutscher Commercial Internet Exchange (DE-CIX) in Frankfurt becomes an independent association, later evolving into the world’s largest IXP by traffic.",
+    "hashtags": ["DECIX","IXP","Germany"]
+  },
+  {
+    "id": "2001_afnog_created",
+    "year": 2001,
+    "categories": ["IXP/NOG"],
+    "title": "AfNOG Created",
+    "overview": "The African Network Operators Group (AfNOG) is established to build skills, community, and technical cooperation across African ISPs and NRENs.",
+    "hashtags": ["AfNOG","Africa","Community"]
+  },
+  {
+    "id": "2003_sanog_created",
+    "year": 2003,
+    "categories": ["IXP/NOG"],
+    "title": "SANOG Created",
+    "overview": "The South Asian Network Operators Group (SANOG) is created to support training, policy discussions, and peering growth in South Asia.",
+    "hashtags": ["SANOG","SouthAsia","Community"]
+  },
+  {
+    "id": "2010_lacnog_created",
+    "year": 2010,
+    "categories": ["IXP/NOG"],
+    "title": "LACNOG Created",
+    "overview": "The Latin America and Caribbean Network Operators Group (LACNOG) is created, fostering operational knowledge sharing across the LACNIC region.",
+    "hashtags": ["LACNOG","LatinAmerica","Community"]
+  },
+  {
+    "id": "2010_menog_created",
+    "year": 2010,
+    "categories": ["IXP/NOG"],
+    "title": "MENOG Created",
+    "overview": "The Middle East Network Operators Group (MENOG) launches to strengthen the operator community across the Middle East and Gulf region.",
+    "hashtags": ["MENOG","MiddleEast","Operators"]
+  },
+  {
+    "id": "2025_balticnog_created",
+    "year": 2025,
+    "categories": ["IXP/NOG"],
+    "title": "BalticNOG Established",
+    "overview": "BalticNOG is established as a Network Operators Group to bring together ISPs, enterprises, and researchers across the Baltic States for collaboration and knowledge sharing.",
+    "hashtags": ["BalticNOG","Baltics","Community"]
+  }
+]

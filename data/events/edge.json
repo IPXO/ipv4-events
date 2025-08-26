@@ -1,0 +1,66 @@
+[
+  {
+    "id": "2015_edge_term_popularized",
+    "year": 2015,
+    "categories": ["Edge"],
+    "title": "Edge Computing Term Gains Traction",
+    "overview": "Processing moves closer to end users and devices to cut latency and backhaul costs, setting the stage for edge runtimes and global, stateful apps.",
+    "hashtags": ["EdgeComputing","LowLatency","IoT"]
+  },
+  {
+    "id": "2017_lambda_at_edge",
+    "year": 2017,
+    "categories": ["Edge"],
+    "title": "AWS Lambda@Edge",
+    "overview": "AWS extends serverless to the CDN edge so code can run in response to viewer/origin events, enabling personalization and security at the edge.",
+    "hashtags": ["AWS","LambdaAtEdge","Serverless"]
+  },
+  {
+    "id": "2017_cloudflare_workers",
+    "year": 2017,
+    "categories": ["Edge"],
+    "title": "Cloudflare Workers",
+    "overview": "Cloudflare launches Workers, a lightweight JavaScript runtime on its global network, making compute at the edge accessible to web developers.",
+    "hashtags": ["CloudflareWorkers","Edge","Serverless"]
+  },
+  {
+    "id": "2019_compute_at_edge",
+    "year": 2019,
+    "categories": ["Edge"],
+    "title": "Fastly Compute@Edge (Developer Preview)",
+    "overview": "Fastly brings a high-performance WASM-based edge compute platform, targeting low-latency dynamic content and programmable networking.",
+    "hashtags": ["Fastly","ComputeAtEdge","WASM"]
+  },
+  {
+    "id": "2020_durable_objects",
+    "year": 2020,
+    "categories": ["Edge"],
+    "title": "Durable Objects for Edge State",
+    "overview": "New primitives like Durable Objects introduce coordination and state at the edge, enabling realtime apps without centralized regions.",
+    "hashtags": ["DurableObjects","StatefulEdge","Realtime"]
+  },
+  {
+    "id": "2021_flyio_global_apps",
+    "year": 2021,
+    "categories": ["Edge"],
+    "title": "Fly.io & Global App Placement",
+    "overview": "Fly.io popularizes globally distributed apps running close to users, with per-region placement and private networking.",
+    "hashtags": ["Flyio","GlobalApps","Edge"]
+  },
+  {
+    "id": "2022_vercel_edge_functions",
+    "year": 2022,
+    "categories": ["Edge"],
+    "title": "Vercel Edge Functions",
+    "overview": "Vercel adds Edge Functions for frameworks like Next.js, letting developers render pages and APIs at the edge with minimal config.",
+    "hashtags": ["Vercel","EdgeFunctions","Frameworks"]
+  },
+  {
+    "id": "2024_ai_on_edge",
+    "year": 2024,
+    "categories": ["Edge"],
+    "title": "AI Inference at the Edge",
+    "overview": "Edge platforms begin integrating on-device/model inference and vector search, enabling personalization and privacy-preserving experiences.",
+    "hashtags": ["EdgeAI","Inference","Privacy"]
+  }
+]

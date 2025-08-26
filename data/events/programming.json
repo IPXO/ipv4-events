@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1957_fortran",
+    "year": 1957,
+    "categories": ["Programming"],
+    "title": "Fortran",
+    "overview": "IBM releases Fortran, the first widely adopted high-level programming language, designed for scientific and engineering computation.",
+    "hashtags": ["Fortran","IBM","Programming"]
+  },
+  {
+    "id": "1970_pascal",
+    "year": 1970,
+    "categories": ["Programming"],
+    "title": "Pascal",
+    "overview": "Niklaus Wirth develops Pascal, a structured teaching language that becomes widely used in academia and early compilers.",
+    "hashtags": ["Pascal","Teaching","Programming"]
+  },
+  {
+    "id": "1972_c",
+    "year": 1972,
+    "categories": ["Programming"],
+    "title": "C Language",
+    "overview": "Dennis Ritchie develops C at Bell Labs, enabling portable UNIX implementations and becoming one of the most influential programming languages.",
+    "hashtags": ["C","BellLabs","UNIX"]
+  },
+  {
+    "id": "1983_cpp",
+    "year": 1983,
+    "categories": ["Programming"],
+    "title": "C++",
+    "overview": "Bjarne Stroustrup introduces C++, extending C with object-oriented features, later powering system software and large-scale applications.",
+    "hashtags": ["C++","OOP","Stroustrup"]
+  },
+  {
+    "id": "1987_perl",
+    "year": 1987,
+    "categories": ["Programming"],
+    "title": "Perl",
+    "overview": "Larry Wall releases Perl, a flexible scripting language that becomes a staple for system administration, text processing, and early web development.",
+    "hashtags": ["Perl","Scripting","Web"]
+  },
+  {
+    "id": "1991_python",
+    "year": 1991,
+    "categories": ["Programming"],
+    "title": "Python",
+    "overview": "Guido van Rossum creates Python, emphasizing readability and simplicity, later becoming the dominant language for web, data, and AI.",
+    "hashtags": ["Python","OpenSource","AI"]
+  },
+  {
+    "id": "1995_java",
+    "year": 1995,
+    "categories": ["Programming"],
+    "title": "Java",
+    "overview": "Sun Microsystems launches Java with the promise of 'write once, run anywhere', powering enterprise apps, Android, and the web.",
+    "hashtags": ["Java","Sun","Enterprise"]
+  },
+  {
+    "id": "1995_php",
+    "year": 1995,
+    "categories": ["Programming"],
+    "title": "PHP",
+    "overview": "Rasmus Lerdorf creates PHP for dynamic web pages, which grows into a major scripting language behind much of the web.",
+    "hashtags": ["PHP","Web","Scripting"]
+  },
+  {
+    "id": "1995_javascript",
+    "year": 1995,
+    "categories": ["Programming"],
+    "title": "JavaScript",
+    "overview": "Netscape introduces JavaScript as a client-side scripting language, later becoming the backbone of interactive web applications.",
+    "hashtags": ["JavaScript","Netscape","WebDev"]
+  },
+  {
+    "id": "1995_ruby",
+    "year": 1995,
+    "categories": ["Programming"],
+    "title": "Ruby",
+    "overview": "Yukihiro Matsumoto creates Ruby, a language focusing on developer happiness and productivity, later powering Ruby on Rails.",
+    "hashtags": ["Ruby","Rails","WebDev"]
+  },
+  {
+    "id": "2000_csharp",
+    "year": 2000,
+    "categories": ["Programming"],
+    "title": "C#",
+    "overview": "Microsoft introduces C# as part of .NET, combining C++ power and Java-like productivity for Windows development.",
+    "hashtags": ["CSharp","DotNet","Microsoft"]
+  },
+  {
+    "id": "2009_go",
+    "year": 2009,
+    "categories": ["Programming"],
+    "title": "Go Language",
+    "overview": "Google develops Go (Golang) for simplicity and concurrency at scale, later becoming popular for cloud-native applications.",
+    "hashtags": ["Go","Golang","Cloud"]
+  },
+  {
+    "id": "2010_rust",
+    "year": 2010,
+    "categories": ["Programming"],
+    "title": "Rust",
+    "overview": "Mozilla Research creates Rust to offer memory safety without garbage collection, later adopted for systems and browser engines.",
+    "hashtags": ["Rust","Mozilla","Systems"]
+  },
+  {
+    "id": "2014_swift",
+    "year": 2014,
+    "categories": ["Programming"],
+    "title": "Swift",
+    "overview": "Apple launches Swift, a modern programming language for iOS and macOS development, replacing Objective-C over time.",
+    "hashtags": ["Swift","Apple","Mobile"]
+  }
+]

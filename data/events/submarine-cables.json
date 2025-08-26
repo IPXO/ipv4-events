@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1858_first_transatlantic_cable",
+    "year": 1858,
+    "categories": ["Submarine Cables"],
+    "title": "First Transatlantic Telegraph Cable",
+    "overview": "The first transatlantic telegraph cable is laid between Ireland and Newfoundland. Though it operated only briefly, it marked the beginning of global subsea communication.",
+    "hashtags": ["Telegraph","Subsea","1858"]
+  },
+  {
+    "id": "1956_tat1",
+    "year": 1956,
+    "categories": ["Submarine Cables"],
+    "title": "TAT-1 — First Transatlantic Telephone Cable",
+    "overview": "The TAT-1 system enters service, providing 36 telephone circuits between the United Kingdom and Canada. It marks the dawn of subsea voice communication.",
+    "hashtags": ["TAT1","Telephony","Subsea"]
+  },
+  {
+    "id": "1988_tat8",
+    "year": 1988,
+    "categories": ["Submarine Cables"],
+    "title": "TAT-8 — First Fiber-Optic Transatlantic Cable",
+    "overview": "TAT-8, the first transatlantic fiber-optic cable, is deployed with a capacity of 280 Mb/s. It represents a massive leap in subsea data transmission.",
+    "hashtags": ["TAT8","FiberOptic","Subsea"]
+  },
+  {
+    "id": "1997_flag_cable",
+    "year": 1997,
+    "categories": ["Submarine Cables"],
+    "title": "FLAG — Fiber-Optic Link Around the Globe",
+    "overview": "FLAG becomes one of the longest submarine cables ever built, linking Europe, the Middle East, Asia, and beyond in a single global infrastructure.",
+    "hashtags": ["FLAG","GlobalCable","Subsea"]
+  },
+  {
+    "id": "2001_sea_me_we3",
+    "year": 2001,
+    "categories": ["Submarine Cables"],
+    "title": "SEA-ME-WE 3",
+    "overview": "The South-East Asia–Middle East–Western Europe 3 (SEA-ME-WE 3) cable goes live, spanning 39,000 km — at the time the world's longest submarine cable system.",
+    "hashtags": ["SEAMEWE3","Subsea","39,000km"]
+  },
+  {
+    "id": "2005_sea_me_we4",
+    "year": 2005,
+    "categories": ["Submarine Cables"],
+    "title": "SEA-ME-WE 4",
+    "overview": "SEA-ME-WE 4 is deployed, providing 1.28 Tb/s capacity across 18 countries from France to Singapore, enhancing connectivity in Europe, Middle East, and Asia.",
+    "hashtags": ["SEAMEWE4","Subsea","Connectivity"]
+  },
+  {
+    "id": "2010_sea_me_we5",
+    "year": 2010,
+    "categories": ["Submarine Cables"],
+    "title": "SEA-ME-WE 5 Announced",
+    "overview": "Work begins on SEA-ME-WE 5, designed to provide 24 Tb/s capacity over 20,000 km, reinforcing one of the busiest subsea corridors on Earth.",
+    "hashtags": ["SEAMEWE5","Capacity","Subsea"]
+  },
+  {
+    "id": "2016_faster_pacific",
+    "year": 2016,
+    "categories": ["Submarine Cables"],
+    "title": "FASTER — Trans-Pacific Cable",
+    "overview": "The FASTER cable system, backed by Google and partners, comes online between the US and Japan with a design capacity of 60 Tb/s.",
+    "hashtags": ["FASTER","Google","Subsea"]
+  },
+  {
+    "id": "2018_marea_cable",
+    "year": 2018,
+    "categories": ["Submarine Cables"],
+    "title": "MAREA — Microsoft & Facebook",
+    "overview": "The MAREA cable, a joint project by Microsoft, Facebook, and Telxius, goes live across the Atlantic with 200 Tb/s design capacity.",
+    "hashtags": ["MAREA","Microsoft","Facebook"]
+  },
+  {
+    "id": "2021_2africa",
+    "year": 2021,
+    "categories": ["Submarine Cables"],
+    "title": "2Africa Cable Project",
+    "overview": "The 2Africa submarine cable, led by a consortium including Meta, is launched to encircle Africa, designed for up to 180 Tb/s capacity.",
+    "hashtags": ["2Africa","Meta","Subsea"]
+  },
+  {
+    "id": "2022_apricot_announced",
+    "year": 2022,
+    "categories": ["Submarine Cables"],
+    "title": "Apricot Cable Announced",
+    "overview": "Apricot, a subsea cable system connecting Japan, Taiwan, Guam, the Philippines, Indonesia, and Singapore, is announced by Google and regional partners.",
+    "hashtags": ["Apricot","Google","Subsea"]
+  },
+  {
+    "id": "2023_blue_raman_progress",
+    "year": 2023,
+    "categories": ["Submarine Cables"],
+    "title": "Blue & Raman Systems Progress",
+    "overview": "The Blue (Mediterranean) and Raman (India) cables, led by Google, advance construction, reshaping connectivity between Europe, the Middle East, and Asia.",
+    "hashtags": ["Blue","Raman","Google"]
+  }
+]

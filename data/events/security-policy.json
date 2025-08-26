@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1989_pgp",
+    "year": 1989,
+    "categories": ["Security & Policy"],
+    "title": "PGP (Pretty Good Privacy)",
+    "overview": "Phil Zimmermann releases PGP, bringing strong cryptography to the public for email and file encryption, sparking global policy debates.",
+    "hashtags": ["PGP","Encryption","Privacy"]
+  },
+  {
+    "id": "1995_ssl20",
+    "year": 1995,
+    "categories": ["Security & Policy"],
+    "title": "SSL 2.0 Introduced",
+    "overview": "Netscape introduces SSL 2.0, the first widely used web encryption protocol, enabling secure e-commerce and HTTPS.",
+    "hashtags": ["SSL","HTTPS","Encryption"]
+  },
+  {
+    "id": "1999_tls10",
+    "year": 1999,
+    "categories": ["Security & Policy"],
+    "title": "TLS 1.0 Standardized",
+    "overview": "The IETF standardizes TLS 1.0, replacing SSL and establishing the basis for modern secure Internet communications.",
+    "hashtags": ["TLS","IETF","Security"]
+  },
+  {
+    "id": "2000_mafiaboy_ddos",
+    "year": 2000,
+    "categories": ["Security & Policy"],
+    "title": "Mafiaboy DDoS Attacks",
+    "overview": "A teenager known as Mafiaboy launches DDoS attacks on Yahoo, CNN, eBay, and Amazon, raising global awareness of Internet vulnerabilities.",
+    "hashtags": ["DDoS","Mafiaboy","Cybersecurity"]
+  },
+  {
+    "id": "2001_patrot_act",
+    "year": 2001,
+    "categories": ["Security & Policy"],
+    "title": "USA PATRIOT Act",
+    "overview": "In response to 9/11, the US enacts the PATRIOT Act, expanding surveillance powers and sparking ongoing debates about security vs. privacy.",
+    "hashtags": ["PatriotAct","Policy","Surveillance"]
+  },
+  {
+    "id": "2013_snowden_revelations",
+    "year": 2013,
+    "categories": ["Security & Policy"],
+    "title": "Snowden Revelations",
+    "overview": "Edward Snowden leaks NSA documents revealing global surveillance programs, triggering worldwide debates on digital privacy and security policies.",
+    "hashtags": ["Snowden","NSA","Surveillance"]
+  },
+  {
+    "id": "2014_heartbleed",
+    "year": 2014,
+    "categories": ["Security & Policy"],
+    "title": "Heartbleed Vulnerability",
+    "overview": "A critical bug in OpenSSL exposes millions of websites to data leaks, highlighting the risks of widely used open-source infrastructure.",
+    "hashtags": ["Heartbleed","OpenSSL","Vulnerability"]
+  },
+  {
+    "id": "2016_mirai_ddos",
+    "year": 2016,
+    "categories": ["Security & Policy"],
+    "title": "Mirai Botnet DDoS",
+    "overview": "The Mirai botnet hijacks IoT devices to launch massive DDoS attacks, temporarily crippling DNS provider Dyn and major online services.",
+    "hashtags": ["Mirai","IoT","DDoS"]
+  },
+  {
+    "id": "2017_equifax",
+    "year": 2017,
+    "categories": ["Security & Policy"],
+    "title": "Equifax Data Breach",
+    "overview": "Hackers exploit a web vulnerability to steal sensitive data from Equifax, affecting over 145 million individuals in one of the largest breaches ever.",
+    "hashtags": ["Equifax","Breach","Security"]
+  },
+  {
+    "id": "2018_gdpr",
+    "year": 2018,
+    "categories": ["Security & Policy"],
+    "title": "GDPR Enforced",
+    "overview": "The EU General Data Protection Regulation (GDPR) comes into effect, setting global benchmarks for privacy rights and corporate compliance.",
+    "hashtags": ["GDPR","Privacy","Policy"]
+  },
+  {
+    "id": "2021_colonial_pipeline",
+    "year": 2021,
+    "categories": ["Security & Policy"],
+    "title": "Colonial Pipeline Ransomware Attack",
+    "overview": "A ransomware attack shuts down Colonial Pipeline, disrupting fuel supplies across the US East Coast and highlighting cyber-physical risks.",
+    "hashtags": ["Ransomware","ColonialPipeline","CriticalInfrastructure"]
+  },
+  {
+    "id": "2021_log4shell",
+    "year": 2021,
+    "categories": ["Security & Policy"],
+    "title": "Log4Shell Vulnerability",
+    "overview": "A remote code execution flaw in Apache Log4j library exposes millions of systems to attack, called one of the most critical software vulnerabilities ever.",
+    "hashtags": ["Log4Shell","Java","Security"]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "1969_ncp_arpa",
+    "year": 1969,
+    "categories": ["Standards"],
+    "title": "NCP on ARPANET",
+    "overview": "The Network Control Program (NCP) provides the first host-to-host protocol on ARPANET, paving the way for later TCP/IP standardization.",
+    "hashtags": ["ARPANET","NCP","PreTCPIP"]
+  },
+  {
+    "id": "1973_tcpip_proposed",
+    "year": 1973,
+    "categories": ["Standards"],
+    "title": "TCP/IP Concept Proposed",
+    "overview": "Vint Cerf and Bob Kahn outline a transmission control and internet protocol architecture to interconnect heterogeneous networks—foundations of the modern Internet.",
+    "hashtags": ["TCPIP","Cerf","Kahn"]
+  },
+  {
+    "id": "1981_rfc768_udp",
+    "year": 1981,
+    "categories": ["Standards"],
+    "title": "RFC 768 — UDP",
+    "overview": "User Datagram Protocol formalized as a lightweight, connectionless transport for latency-sensitive traffic and simple message exchange.",
+    "hashtags": ["UDP","RFC768","Transport"]
+  },
+  {
+    "id": "1981_rfc791_ipv4",
+    "year": 1981,
+    "categories": ["Standards"],
+    "title": "RFC 791 — IPv4",
+    "overview": "Internet Protocol version 4 standardized, defining addressing, fragmentation, and routing semantics that dominate for decades.",
+    "hashtags": ["IPv4","RFC791","IETF"]
+  },
+  {
+    "id": "1981_rfc792_icmp",
+    "year": 1981,
+    "categories": ["Standards"],
+    "title": "RFC 792 — ICMP",
+    "overview": "Internet Control Message Protocol standardized to carry diagnostics and error reporting (e.g., echo/ping, unreachable).",
+    "hashtags": ["ICMP","RFC792","Diagnostics"]
+  },
+  {
+    "id": "1981_rfc793_tcp",
+    "year": 1981,
+    "categories": ["Standards"],
+    "title": "RFC 793 — TCP",
+    "overview": "Transmission Control Protocol standardized to provide reliable, ordered byte streams atop IP, enabling robust applications and services.",
+    "hashtags": ["TCP","RFC793","Transport"]
+  },
+  {
+    "id": "1983_tcpip_flag_day",
+    "year": 1983,
+    "categories": ["Standards"],
+    "title": "ARPANET TCP/IP Flag Day",
+    "overview": "ARPANET officially migrates from NCP to TCP/IP, marking the Internet’s operational birth as an internetwork.",
+    "hashtags": ["TCPIP","ARPANET","FlagDay"]
+  },
+  {
+    "id": "1984_rfc1034_dns",
+    "year": 1984,
+    "categories": ["Standards"],
+    "title": "DNS Design (RFC 1034/1035)",
+    "overview": "The Domain Name System replaces HOSTS.TXT with a scalable, distributed naming hierarchy and query protocol.",
+    "hashtags": ["DNS","RFC1034","RFC1035"]
+  },
+  {
+    "id": "1988_rfc1058_rip",
+    "year": 1988,
+    "categories": ["Standards"],
+    "title": "RFC 1058 — RIP",
+    "overview": "Routing Information Protocol standardized for distance-vector routing in early IP networks and enterprise LANs.",
+    "hashtags": ["Routing","RIP","RFC1058"]
+  },
+  {
+    "id": "1989_rfc1122_hostreqs",
+    "year": 1989,
+    "categories": ["Standards"],
+    "title": "RFC 1122 — Host Requirements",
+    "overview": "Baseline requirements for Internet hosts documented, aligning TCP/IP implementations across vendors and OSes.",
+    "hashtags": ["HostReq","Interoperability","RFC1122"]
+  },
+  {
+    "id": "1990_rfc1191_pmtud",
+    "year": 1990,
+    "categories": ["Standards"],
+    "title": "RFC 1191 — Path MTU Discovery",
+    "overview": "PMTUD defined to determine the maximum transmission unit along a path, reducing IP fragmentation and improving performance.",
+    "hashtags": ["PMTUD","MTU","RFC1191"]
+  },
+  {
+    "id": "1991_rfc1323_tcp_ext",
+    "year": 1991,
+    "categories": ["Standards"],
+    "title": "RFC 1323 — TCP Extensions",
+    "overview": "High-performance TCP extensions (timestamps, window scaling, PAWS) standardized to improve throughput on fast/long-fat networks.",
+    "hashtags": ["TCP","RFC1323","Performance"]
+  },
+  {
+    "id": "1994_rfc1631_nat",
+    "year": 1994,
+    "categories": ["Standards"],
+    "title": "RFC 1631 — NAT",
+    "overview": "Network Address Translation introduced to alleviate IPv4 scarcity, enabling private networks to share public addresses.",
+    "hashtags": ["NAT","RFC1631","Addressing"]
+  },
+  {
+    "id": "1994_rfc1519_cidr",
+    "year": 1994,
+    "categories": ["Standards"],
+    "title": "RFC 1519 — CIDR",
+    "overview": "Classless Inter-Domain Routing replaces classful addressing, enabling route aggregation and slowing global routing table growth.",
+    "hashtags": ["CIDR","Aggregation","RFC1519"]
+  },
+  {
+    "id": "1996_rfc1918_private_addr",
+    "year": 1996,
+    "categories": ["Standards"],
+    "title": "RFC 1918 — Private IPv4 Addressing",
+    "overview": "Non-routed private IPv4 blocks reserved for internal networks, becoming ubiquitous with NAT and home/enterprise gateways.",
+    "hashtags": ["RFC1918","PrivateIP","IPv4"]
+  },
+  {
+    "id": "1997_rfc2131_dhcp",
+    "year": 1997,
+    "categories": ["Standards"],
+    "title": "RFC 2131 — DHCP",
+    "overview": "Dynamic Host Configuration Protocol standardized for automatic IP configuration—addresses, gateways, DNS—for clients at scale.",
+    "hashtags": ["DHCP","AutoConfig","RFC2131"]
+  },
+  {
+    "id": "1995_ipng_selected",
+    "year": 1995,
+    "categories": ["Standards"],
+    "title": "IPng Selected (Toward IPv6)",
+    "overview": "IETF selects IP next generation (IPng) direction to overcome IPv4 exhaustion and improve extensibility—setting the stage for IPv6.",
+    "hashtags": ["IPng","IETF","IPv6"]
+  },
+  {
+    "id": "1996_6bone_testbed",
+    "year": 1996,
+    "categories": ["Standards"],
+    "title": "6bone IPv6 Testbed",
+    "overview": "A global experimental IPv6 network (6bone) launches to test interoperability, transition tools, and early deployment practices.",
+    "hashtags": ["6bone","IPv6","Testbed"]
+  },
+  {
+    "id": "1998_rfc2460_ipv6",
+    "year": 1998,
+    "categories": ["Standards"],
+    "title": "RFC 2460 — IPv6 Specification",
+    "overview": "Internet Protocol version 6 initially specified, expanding address space and simplifying header processing versus IPv4.",
+    "hashtags": ["IPv6","RFC2460","Specification"]
+  },
+  {
+    "id": "2006_rfc4271_bgp4",
+    "year": 2006,
+    "categories": ["Standards"],
+    "title": "RFC 4271 — BGP-4",
+    "overview": "Border Gateway Protocol version 4 documented as the Internet’s interdomain routing standard, supporting CIDR and policy control.",
+    "hashtags": ["BGP","RFC4271","Routing"]
+  },
+  {
+    "id": "2012_world_ipv6_launch",
+    "year": 2012,
+    "categories": ["Standards"],
+    "title": "World IPv6 Launch",
+    "overview": "Major ISPs, websites, and vendors permanently enable IPv6, moving beyond trials to mainstream dual-stack operation globally.",
+    "hashtags": ["IPv6","Launch","DualStack"]
+  },
+  {
+    "id": "2017_rfc8200_ipv6_std",
+    "year": 2017,
+    "categories": ["Standards"],
+    "title": "RFC 8200 — IPv6 Becomes Internet Standard",
+    "overview": "IPv6 is elevated from Draft to Internet Standard, superseding RFC 2460 and reflecting maturity across deployments and vendors.",
+    "hashtags": ["IPv6","RFC8200","Standard"]
+  },
+  {
+    "id": "2019_rfc8484_doh",
+    "year": 2019,
+    "categories": ["Standards"],
+    "title": "RFC 8484 — DNS over HTTPS (DoH)",
+    "overview": "DNS queries can be sent over HTTPS to improve privacy and integrity between clients and resolvers, changing resolver ecosystems.",
+    "hashtags": ["DNS","DoH","RFC8484"]
+  },
+  {
+    "id": "2020_rfc9000_quic",
+    "year": 2021,
+    "categories": ["Standards"],
+    "title": "RFC 9000 — QUIC Transport",
+    "overview": "QUIC standardized as a secure, multiplexed transport over UDP, reducing latency and ossification in the web transport layer.",
+    "hashtags": ["QUIC","UDP","RFC9000"]
+  }
+]

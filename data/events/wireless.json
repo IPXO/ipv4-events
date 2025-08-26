@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1971_aloha_net",
+    "year": 1971,
+    "categories": ["Wireless"],
+    "title": "ALOHA Network",
+    "overview": "The ALOHAnet at the University of Hawaii demonstrates the first packet radio network, laying foundations for Wi-Fi and wireless protocols.",
+    "hashtags": ["ALOHA","PacketRadio","Wireless"]
+  },
+  {
+    "id": "1985_fcc_unlicensed",
+    "year": 1985,
+    "categories": ["Wireless"],
+    "title": "FCC Opens Unlicensed Spectrum",
+    "overview": "The FCC allows unlicensed use of the ISM bands (2.4 GHz, 5 GHz), enabling the later development of Wi-Fi, Bluetooth, and consumer wireless devices.",
+    "hashtags": ["FCC","ISM","Spectrum"]
+  },
+  {
+    "id": "1990_ieee80211_project",
+    "year": 1990,
+    "categories": ["Wireless"],
+    "title": "IEEE 802.11 Project Initiated",
+    "overview": "The IEEE starts the 802.11 working group, developing the wireless LAN standard that evolves into Wi-Fi.",
+    "hashtags": ["IEEE80211","WiFi","WLAN"]
+  },
+  {
+    "id": "1997_wifi_standard",
+    "year": 1997,
+    "categories": ["Wireless"],
+    "title": "First Wi-Fi Standard (802.11)",
+    "overview": "IEEE ratifies the first 802.11 Wi-Fi standard, providing 2 Mbps wireless LAN connectivity.",
+    "hashtags": ["WiFi","IEEE80211","Wireless"]
+  },
+  {
+    "id": "1999_wifi_alliance",
+    "year": 1999,
+    "categories": ["Wireless"],
+    "title": "Wi-Fi Alliance Founded",
+    "overview": "The Wireless Ethernet Compatibility Alliance (later Wi-Fi Alliance) is formed to promote interoperability and branding for Wi-Fi products.",
+    "hashtags": ["WiFi","Alliance","Interoperability"]
+  },
+  {
+    "id": "1999_bluetooth1",
+    "year": 1999,
+    "categories": ["Wireless"],
+    "title": "Bluetooth 1.0",
+    "overview": "The first Bluetooth specification is released, enabling short-range wireless connections for peripherals, mobile devices, and IoT applications.",
+    "hashtags": ["Bluetooth","Wireless","IoT"]
+  },
+  {
+    "id": "2003_wifi_80211g",
+    "year": 2003,
+    "categories": ["Wireless"],
+    "title": "Wi-Fi 802.11g",
+    "overview": "802.11g standard ratified, boosting Wi-Fi speeds to 54 Mbps while maintaining backward compatibility with 802.11b devices.",
+    "hashtags": ["WiFi","80211g","Wireless"]
+  },
+  {
+    "id": "2009_wifi_80211n",
+    "year": 2009,
+    "categories": ["Wireless"],
+    "title": "Wi-Fi 802.11n",
+    "overview": "Wi-Fi 802.11n ratified, introducing MIMO antennas and speeds up to 600 Mbps, making wireless connectivity suitable for video and enterprise use.",
+    "hashtags": ["WiFi","80211n","MIMO"]
+  },
+  {
+    "id": "2013_wifi_80211ac",
+    "year": 2013,
+    "categories": ["Wireless"],
+    "title": "Wi-Fi 802.11ac",
+    "overview": "Wi-Fi 802.11ac (Wi-Fi 5) standard finalized, delivering gigabit-class wireless speeds and improved spectral efficiency.",
+    "hashtags": ["WiFi","80211ac","Gigabit"]
+  },
+  {
+    "id": "2019_wifi6",
+    "year": 2019,
+    "categories": ["Wireless"],
+    "title": "Wi-Fi 6 (802.11ax)",
+    "overview": "Wi-Fi 6 is introduced, boosting performance in dense environments with OFDMA and MU-MIMO, aligned with 5G rollouts.",
+    "hashtags": ["WiFi6","80211ax","OFDMA"]
+  },
+  {
+    "id": "2024_wifi7",
+    "year": 2024,
+    "categories": ["Wireless"],
+    "title": "Wi-Fi 7 (802.11be) Emerging",
+    "overview": "Early deployments of Wi-Fi 7 begin, with multi-gigabit throughput, wider 320 MHz channels, and ultra-low latency for AR/VR and gaming.",
+    "hashtags": ["WiFi7","80211be","NextGenWireless"]
+  }
+]

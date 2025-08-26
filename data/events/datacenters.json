@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1964_ibm_mainframes",
+    "year": 1964,
+    "categories": ["Data Centers"],
+    "title": "IBM System/360 Mainframes",
+    "overview": "IBM launches the System/360 mainframe family, driving the first wave of centralized computing facilities — precursors to modern data centers.",
+    "hashtags": ["IBM","Mainframe","DataCenters"]
+  },
+  {
+    "id": "1983_first_colocation",
+    "year": 1983,
+    "categories": ["Data Centers"],
+    "title": "First Colocation Facilities",
+    "overview": "The rise of colocation facilities allows multiple companies to host servers in shared spaces, lowering infrastructure costs.",
+    "hashtags": ["Colocation","DataCenters","Hosting"]
+  },
+  {
+    "id": "1994_amazon_datacenter",
+    "year": 1994,
+    "categories": ["Data Centers"],
+    "title": "Amazon Builds Large-Scale Data Centers",
+    "overview": "Amazon begins building massive datacenters to support its growing e-commerce operations — later forming the foundation for AWS.",
+    "hashtags": ["Amazon","DataCenters","Ecommerce"]
+  },
+  {
+    "id": "1999_equnix_ipo",
+    "year": 1999,
+    "categories": ["Data Centers"],
+    "title": "Equinix Founded",
+    "overview": "Equinix launches to provide neutral colocation and interconnection services, becoming one of the largest global data center operators.",
+    "hashtags": ["Equinix","DataCenters","IX"]
+  },
+  {
+    "id": "2006_google_data_centers",
+    "year": 2006,
+    "categories": ["Data Centers"],
+    "title": "Google Hyperscale Data Centers",
+    "overview": "Google pioneers hyperscale data centers with custom servers, efficient cooling, and global replication to power search and cloud services.",
+    "hashtags": ["Google","Hyperscale","Cloud"]
+  },
+  {
+    "id": "2010_facebook_prineville",
+    "year": 2010,
+    "categories": ["Data Centers"],
+    "title": "Facebook Prineville Data Center",
+    "overview": "Facebook opens its Prineville, Oregon facility, showcasing advanced energy efficiency and launching the Open Compute Project.",
+    "hashtags": ["Facebook","DataCenters","OpenCompute"]
+  },
+  {
+    "id": "2012_green_data_centers",
+    "year": 2012,
+    "categories": ["Data Centers"],
+    "title": "Green Data Center Movement",
+    "overview": "Companies begin investing in renewable-powered and energy-efficient data centers to reduce carbon footprints and costs.",
+    "hashtags": ["GreenIT","DataCenters","Sustainability"]
+  },
+  {
+    "id": "2016_microsoft_underwater",
+    "year": 2016,
+    "categories": ["Data Centers"],
+    "title": "Microsoft Underwater Data Center (Project Natick)",
+    "overview": "Microsoft tests an underwater modular data center, exploring energy efficiency and proximity to coastal populations.",
+    "hashtags": ["Microsoft","DataCenters","Innovation"]
+  },
+  {
+    "id": "2020_edge_data_centers",
+    "year": 2020,
+    "categories": ["Data Centers"],
+    "title": "Edge Data Centers Rise",
+    "overview": "The demand for ultra-low latency applications fuels the growth of small edge data centers closer to end users.",
+    "hashtags": ["Edge","DataCenters","Latency"]
+  },
+  {
+    "id": "2023_ai_data_centers",
+    "year": 2023,
+    "categories": ["Data Centers"],
+    "title": "AI-Powered Data Centers",
+    "overview": "Hyperscalers integrate AI for workload optimization, cooling efficiency, and predictive maintenance in large-scale facilities.",
+    "hashtags": ["AI","DataCenters","Hyperscale"]
+  }
+]

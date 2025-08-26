@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2014_aws_lambda",
+    "year": 2014,
+    "categories": ["Serverless"],
+    "title": "AWS Lambda Launch",
+    "overview": "Amazon introduces AWS Lambda, pioneering serverless computing by allowing developers to run code without provisioning or managing servers.",
+    "hashtags": ["AWSLambda","Serverless","Cloud"]
+  },
+  {
+    "id": "2016_google_cloud_functions",
+    "year": 2016,
+    "categories": ["Serverless"],
+    "title": "Google Cloud Functions",
+    "overview": "Google launches Cloud Functions, extending serverless computing to developers building microservices and event-driven applications.",
+    "hashtags": ["GoogleCloud","Serverless","Functions"]
+  },
+  {
+    "id": "2016_azure_functions",
+    "year": 2016,
+    "categories": ["Serverless"],
+    "title": "Azure Functions",
+    "overview": "Microsoft introduces Azure Functions, enabling event-driven execution across its cloud ecosystem and integration with enterprise services.",
+    "hashtags": ["AzureFunctions","Serverless","Microsoft"]
+  },
+  {
+    "id": "2017_openfaas",
+    "year": 2017,
+    "categories": ["Serverless"],
+    "title": "OpenFaaS",
+    "overview": "OpenFaaS emerges as an open-source framework for serverless functions, helping organizations run serverless workloads on Kubernetes clusters.",
+    "hashtags": ["OpenFaaS","Serverless","OpenSource"]
+  },
+  {
+    "id": "2018_serverless_frameworks",
+    "year": 2018,
+    "categories": ["Serverless"],
+    "title": "Serverless Frameworks Mature",
+    "overview": "The Serverless Framework and similar tools mature, making it easier for developers to build, deploy, and scale serverless applications across providers.",
+    "hashtags": ["ServerlessFramework","DevOps","Serverless"]
+  },
+  {
+    "id": "2020_serverless_edge",
+    "year": 2020,
+    "categories": ["Serverless"],
+    "title": "Serverless at the Edge",
+    "overview": "Cloudflare Workers and AWS Lambda@Edge push serverless execution closer to users, enabling ultra-low latency apps.",
+    "hashtags": ["Edge","Serverless","CloudflareWorkers"]
+  }
+]
