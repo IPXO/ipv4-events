@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="icons/w98_netmeeting.ico">
   <meta charset="utf-8"/>
   <!-- Make every URL relative to /docs for GitHub Pages project sites -->
   <base href="./">
@@ -91,7 +92,10 @@
   <div class="win">
     <div class="title"><img class="icon" src="icons/folder.ico" alt=""> Loading ipv4.events…</div>
     <div class="bar"><div id="loaderFill" class="fill"></div></div>
-    <div class="foot"><span id="loaderMsg">Starting…</span><span id="loaderPct">0%</span></div>
+    <div class="foot">
+      <span id="loaderMsg" aria-live="polite">Starting…</span>
+      <span id="loaderPct">0%</span>
+    </div>
   </div>
 </div>
   <header class="top">
@@ -323,8 +327,9 @@ function render(){
       yearsEl.innerHTML = `<div class="panel" style="padding:14px">Error loading data. Please refresh or check console.</div>`;
     }
   }finally{
-    loaderHide();
-  }
+    // Delay hiding loader by 250ms so users notice it
+    setTimeout(loaderHide, 250);
+}
 })();
 </script>
 </body>
