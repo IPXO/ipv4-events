@@ -33,162 +33,162 @@
     "id":"Submarine Cables",
     "label":"Submarine Cables",
     "group":"Networking & Backbone",
-    "iconUrl":"/icons/world2.ico"
+    "iconUrl":"icons/w98_cable_2.ico"
   },
   {
     "id":"Wireless",
     "label":"Wireless (Wi-Fi, BT, etc.)",
     "group":"Networking & Backbone",
-    "iconUrl":"/icons/wireless.ico"
+    "iconUrl":"icons/w98_laptop_infrared.ico"
   },
   {
     "id":"IXP/NOG",
     "label":"IXPs & NOGs",
     "group":"Networking & Backbone",
-    "iconUrl":"/icons/network-workgroup.ico"
+    "iconUrl":"icons/w2k_network_neighborhood.ico"
   },
   {
     "id":"Hardware & Vendors",
     "label":"Hardware & Vendors",
     "group":"Networking & Backbone",
-    "iconUrl":"/icons/computer.ico"
+    "iconUrl":"icons/w98_device_rhombic_chip.ico"
   },
   {
     "id":"OS/Windows",
     "label":"Windows OS",
     "group":"Operating Systems",
-    "iconUrl":"/icons/windows.ico"
+    "iconUrl":"icons/w98_accessibility_two_windows.ico"
   },
   {
     "id":"Linux",
     "label":"Linux Distros",
     "group":"Operating Systems",
-    "iconUrl":"/icons/computer3.ico"
+    "iconUrl":"icons/w98_console_prompt.ico"
   },
   {
     "id":"Mobile OS",
     "label":"Mobile OS",
     "group":"Operating Systems",
-    "iconUrl":"/icons/phone.ico"
+    "iconUrl":"icons/w98_phone_desk.ico"
   },
   {
     "id":"Programming",
     "label":"Programming Languages",
     "group":"Programming & Software",
-    "iconUrl":"/icons/notepad.ico"
+    "iconUrl":"icons/w98_notepad.ico"
   },
   {
     "id":"Software",
     "label":"Software & Tools",
     "group":"Programming & Software",
-    "iconUrl":"/icons/setup.ico"
+    "iconUrl":"icons/w98_certificate_application.ico"
   },
   {
     "id":"Browsers",
     "label":"Web Browsers",
     "group":"Programming & Software",
-    "iconUrl":"/icons/internet.ico"
+    "iconUrl":"icons/w2k_internet_explorer.ico"
   },
   {
     "id":"Streaming/Multimedia",
     "label":"Streaming & Multimedia (incl. Gaming)",
     "group":"Programming & Software",
-    "iconUrl":"/icons/multimedia.ico"
+    "iconUrl":"icons/w2k_wmp_27.ico"
   },
   {
     "id":"Social",
     "label":"Social Networks",
     "group":"Social & Messaging",
-    "iconUrl":"/icons/group.ico"
+    "iconUrl":"icons/w98_users.ico"
   },
   {
     "id":"Messaging",
     "label":"Messaging",
     "group":"Social & Messaging",
-    "iconUrl":"/icons/outlook.ico"
+    "iconUrl":"icons/w98_msn2.ico"
   },
   {
     "id":"AI",
     "label":"Artificial Intelligence",
     "group":"AI & Emerging Tech",
-    "iconUrl":"/icons/cpu.ico"
+    "iconUrl":"icons/w98_appwizard.ico"
   },
   {
     "id":"Quantum/Next-Gen",
     "label":"Quantum & Next-Gen",
     "group":"AI & Emerging Tech",
-    "iconUrl":"/icons/chip.ico"
+    "iconUrl":"icons/w98_world_star.ico"
   },
   {
     "id":"Metaverse/XR",
     "label":"Metaverse & XR",
     "group":"AI & Emerging Tech",
-    "iconUrl":"/icons/vr.ico"
+    "iconUrl":"icons/w98_camera3_network.ico"
   },
   {
     "id":"Security",
     "label":"Security",
     "group":"Security & Policy",
-    "iconUrl":"/icons/keys.ico"
+    "iconUrl":"icons/w98_world_lock.ico"
   },
   {
     "id":"Policy & Regulation",
     "label":"Policy & Regulation",
     "group":"Security & Policy",
-    "iconUrl":"/icons/policy.ico"
+    "iconUrl":"icons/w98_certificate_excl.ico"
   },
   {
-    "id":"Finance",
-    "label":"Finance",
-    "group":"Finance & Market",
-    "iconUrl":"/icons/money.ico"
-  },
-  {
-    "id":"Market",
-    "label":"Market",
-    "group":"Finance & Market",
-    "iconUrl":"/icons/money2.ico"
-  },
+    "id": "Finance & Market",
+    "label": "Finance",
+    "group": "Finance & Market",
+    "iconUrl": "icons/w98_connected_world.ico"
+},
+{
+    "id": "Market",
+    "label": "Market",
+    "group": "Finance & Market",
+    "iconUrl": "icons/w98_bar_graph_default.ico"
+}
   {
     "id":"Cloud/Virtualization",
     "label":"Cloud & Virtualization",
     "group":"Cloud & Infrastructure",
-    "iconUrl":"/icons/servers.ico"
+    "iconUrl":"icons/w98_network_drive_world.ico"
   },
   {
     "id":"Serverless",
     "label":"Serverless",
     "group":"Cloud & Infrastructure",
-    "iconUrl":"/icons/gears.ico"
+    "iconUrl":"icons/w98_server_gear.ico"
   },
   {
     "id":"Edge",
     "label":"Edge Computing",
     "group":"Cloud & Infrastructure",
-    "iconUrl":"/icons/network-hub.ico"
+    "iconUrl":"icons/w98_user_world.ico"
   },
   {
     "id":"CDN",
     "label":"Content Delivery Networks",
     "group":"Cloud & Infrastructure",
-    "iconUrl":"/icons/network2.ico"
+    "iconUrl":"icons/w98_server_window.ico"
   },
   {
     "id":"Data Centers",
     "label":"Data Centers",
     "group":"Cloud & Infrastructure",
-    "iconUrl":"/icons/servers2.ico"
+    "iconUrl":"icons/w98_server_window.ico"
   },
   {
     "id":"Satellite Internet",
     "label":"Satellite Internet",
     "group":"Space & Satellite",
-    "iconUrl":"/icons/satellite.ico"
+    "iconUrl":"icons/w98_world_phonereceiver.ico"
   },
   {
     "id":"Space",
     "label":"Space",
     "group":"Space & Satellite",
-    "iconUrl":"/icons/rocket.ico"
+    "iconUrl":"icons/w98_standby_monitor_moon_cool.ico"
   }
 ]
