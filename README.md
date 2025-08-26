@@ -1,7 +1,7 @@
 # ipv4.events 🌐
 
 Welcome to **ipv4.events**, a community-driven timeline of the Internet’s IPv4 era — from ARPANET and TCP/IP to cloud, AI, space, and beyond.  
-The site uses a nostalgic **Windows 95-style design** and runs on [GitHub Pages](https://pages.github.com/).
+The site uses a nostalgic **Windows 95-style design** and runs on GitHub Pages.
 
 ## 🌍 Live Website
 [https://ipv4.events](https://ipv4.events)
@@ -70,4 +70,4 @@ The site is static HTML + JS hosted on GitHub Pages.
 	• Code: MIT License
 	• Content: CC BY-SA 4.0 (attribution required)
 
-👾 Made with 💾 by IPXO and contributors.
+👾 Made with 💾 by [IPXO](https://www.ipxo.com) and contributors.
