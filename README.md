@@ -3,12 +3,8 @@
 Welcome to **ipv4.events**, a community-driven timeline of the Internet’s IPv4 era — from ARPANET and TCP/IP to cloud, AI, space, and beyond.  
 The site uses a nostalgic **Windows 95-style design** and runs on [GitHub Pages](https://pages.github.com/).
 
----
-
 ## 🌍 Live Website
 [https://ipv4.events](https://ipv4.events)
-
----
 
 ## 📂 Repository Structure
 
@@ -24,8 +20,6 @@ docs/
 │         ├── space.json
 │         └── … (more categories)
 └── CNAME                  # Custom domain config (ipv4.events)
-
----
 
 ## 📝 Event Format
 
@@ -65,8 +59,6 @@ Categories are defined in data/categories.json with icons. Example:
 We welcome contributions!
 Please read CONTRIBUTING.md for guidelines on how to add new events, categories, or icons.
 
-⸻
-
 🛠 Development
 
 The site is static HTML + JS hosted on GitHub Pages.
@@ -78,7 +70,5 @@ The site is static HTML + JS hosted on GitHub Pages.
 📜 License
 	•	Code: MIT License
 	•	Content: CC BY-SA 4.0 (attribution required)
-
-⸻
 
 👾 Made with 💾 by IPXO and contributors.
