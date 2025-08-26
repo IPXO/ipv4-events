@@ -3,31 +3,31 @@
     "id":"Standards",
     "label":"Standards",
     "group":"Standards & Governance",
-    "iconUrl":"/icons/book.ico"
+    "iconUrl":"icons/w98_help_book_small.ico"
   },
   {
     "id":"Governance",
     "label":"Governance",
     "group":"Standards & Governance",
-    "iconUrl":"/icons/world.ico"
+    "iconUrl":"icons/w98_entire_network_globe.ico"
   },
   {
     "id":"RIRs",
     "label":"Regional Internet Registries",
     "group":"Standards & Governance",
-    "iconUrl":"/icons/world.ico"
+    "iconUrl":"icons/w98_network_drive_world.ico"
   },
   {
     "id":"Networking",
     "label":"Networking",
     "group":"Networking & Backbone",
-    "iconUrl":"/icons/network-internet.ico"
+    "iconUrl":"icons/w2k_network_neighborhood.ico"
   },
   {
     "id":"Backbone",
     "label":"Backbone Speeds",
     "group":"Networking & Backbone",
-    "iconUrl":"/icons/modem.ico"
+    "iconUrl":"icons/w98_modem.ico"
   },
   {
     "id":"Submarine Cables",
