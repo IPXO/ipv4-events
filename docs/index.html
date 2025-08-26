@@ -81,151 +81,206 @@
   </main>
 
   <script>
-  // --- icon paths (relative) ---
-  const ICONS = {
-    computer: "icons/computer.ico",
-    world: "icons/world.ico",
-    folder: "icons/folder.ico",
-    info: "icons/help.ico"
-  };
-  // header icons
+/* ---------- Debug HUD ---------- */
+function addDebugHud(){
+  const box = document.createElement('div');
+  box.id = 'debug-hud';
+  box.style.cssText = 'position:fixed;right:10px;bottom:10px;max-width:420px;max-height:50vh;overflow:auto;background:#fff;border:2px solid #000;padding:8px;font:12px/1.3 monospace;z-index:99999;box-shadow:2px 2px 0 #808080';
+  box.innerHTML = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px"><strong>ipv4.events — Debug</strong><button id="dbg-close" style="border:1px solid #000;background:#e0e0e0;padding:0 6px;cursor:pointer">×</button></div><div id="dbg-log"></div>';
+  document.body.appendChild(box);
+  document.getElementById('dbg-close').onclick = ()=>box.remove();
+}
+function logDebug(html){
+  const el = document.getElementById('dbg-log');
+  if (el) el.innerHTML += html + '<hr style="border:none;border-top:1px dashed #aaa;margin:6px 0">';
+}
+function esc(s){ return String(s).replace(/[&<>"]/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[m])); }
+
+/* ---------- Paths & Icons ---------- */
+const CACHE_BUST = `?v=${Date.now()}`; // avoid GH Pages cache during debug
+function normPath(p){ return (p||'').replace(/^\/+/, ''); } // strip leading /
+const ICONS = {
+  computer: "icons/computer.ico",
+  world: "icons/world.ico",
+  folder: "icons/folder.ico",
+  info: "icons/help.ico"
+};
+
+/* ---------- Small helpers ---------- */
+function decadeOf(y){
+  if (y<1960) return "1950s";
+  if (y<1970) return "1960s";
+  if (y<1980) return "1970s";
+  if (y<1990) return "1980s";
+  if (y<2000) return "1990s";
+  if (y<2010) return "2000s";
+  if (y<2020) return "2010s";
+  return "2020s";
+}
+function matchesFilter(ev, q, cat, dec){
+  const text = (ev.title+" "+(ev.overview||"")+" "+(ev.hashtags||[]).join(" ")).toLowerCase();
+  const okQ = !q || text.includes(q) || String(ev.year).includes(q);
+  const okCat = !cat || (ev.categories||[]).includes(cat);
+  const okDec = !dec || decadeOf(ev.year)===dec;
+  return okQ && okCat && okDec;
+}
+
+/* ---------- UI setup (header icons) ---------- */
+(function setHeaderIcons(){
   const elPC = document.getElementById("ico-computer"); if (elPC) elPC.src = ICONS.computer;
   const elWorld = document.getElementById("ico-world"); if (elWorld) elWorld.src = ICONS.world;
   const elInfo = document.getElementById("ico-info"); if (elInfo) elInfo.src = ICONS.info;
+})();
 
-  // decade helper
-  function decadeOf(y){
-    if (y<1960) return "1950s";
-    if (y<1970) return "1960s";
-    if (y<1980) return "1970s";
-    if (y<1990) return "1980s";
-    if (y<2000) return "1990s";
-    if (y<2010) return "2000s";
-    if (y<2020) return "2010s";
-    return "2020s";
-  }
+/* ---------- Global state ---------- */
+let CATS = [];
+let ALL = [];
+let LOAD_REPORT = [];
 
-  // state
-  let CATS = [];
-  let ALL = [];
-
-  // normalize potential leading slash in iconUrl (contributors sometimes add "/icons/...").
-  function normPath(p){ return (p||"").replace(/^\/+/,""); }
-
-  async function loadCategories(){
-    const res = await fetch("data/categories.json");
-    if(!res.ok) throw new Error("Failed to load data/categories.json");
-    CATS = await res.json();
-
-    // Fill category select
-    const sel = document.getElementById("cat");
-    sel.innerHTML = '<option value="">All categories</option>' +
-      CATS.map(c=>`<option value="${c.id}">${c.label}</option>`).join("");
-
-    // Category pill bar
-    const bar = document.getElementById("catbar");
-    bar.innerHTML = CATS.map(c =>
-      `<button class="cat-pill" data-cat="${c.id}" title="${c.group}">
-        <img class="icon" src="${normPath(c.iconUrl)}" alt=""/> ${c.label}
-      </button>`).join("");
-    bar.querySelectorAll(".cat-pill").forEach(b=>{
-      b.addEventListener("click",()=>{ document.getElementById("cat").value=b.dataset.cat; render(); });
-    });
-  }
-
-  async function loadAllEventsViaManifest(){
-    const base = "data/events/";
-    const m = await fetch(base + "manifest.json");
-    if(!m.ok) throw new Error("Failed to load data/events/manifest.json");
-    const files = await m.json();
-    const loads = files.map(f => fetch(base + f).then(r => r.ok ? r.json() : []).catch(()=>[]));
-    const chunks = await Promise.all(loads);
-    return chunks.flat();
-  }
-
-  function matchesFilter(ev, q, cat, dec){
-    const text = (ev.title+" "+(ev.overview||"")+" "+(ev.hashtags||[]).join(" ")).toLowerCase();
-    const okQ = !q || text.includes(q) || String(ev.year).includes(q);
-    const okCat = !cat || (ev.categories||[]).includes(cat);
-    const okDec = !dec || decadeOf(ev.year)===dec;
-    return okQ && okCat && okDec;
-  }
-
-  function render(){
-    const q = (document.getElementById("q").value||"").toLowerCase();
-    const cat = document.getElementById("cat").value;
-    const dec = document.getElementById("dec").value;
-
-    const filtered = ALL.filter(e=>matchesFilter(e,q,cat,dec));
-    const byYear = {};
-    filtered.forEach(e => { (byYear[e.year] = byYear[e.year] || []).push(e); });
-    const years = Object.keys(byYear).map(n=>+n).sort((a,b)=>a-b);
-
-    const root = document.getElementById("years");
-    root.innerHTML = "";
-    if (!years.length){
-      const empty = document.createElement("div");
-      empty.className = "panel";
-      empty.style.padding = "14px";
-      empty.textContent = "No events match your filters.";
-      root.appendChild(empty);
-      return;
+/* ---------- Fetch with debug ---------- */
+async function fetchJson(path){
+  const url = `${normPath(path)}${CACHE_BUST}`;
+  try{
+    const res = await fetch(url);
+    if(!res.ok){
+      LOAD_REPORT.push({ file:url, ok:false, status:res.status });
+      return { ok:false, error:`HTTP ${res.status}`, data:null };
     }
+    const data = await res.json();
+    LOAD_REPORT.push({ file:url, ok:true, status:res.status, count: Array.isArray(data)? data.length : undefined });
+    return { ok:true, data };
+  }catch(e){
+    LOAD_REPORT.push({ file:url, ok:false, status:'ERR', err: String(e) });
+    return { ok:false, error:String(e), data:null };
+  }
+}
 
-    years.forEach(y=>{
-      const card = document.createElement("section"); card.className="year-card panel";
-      const head = document.createElement("div"); head.className="year-head";
-      head.innerHTML = `<div class="year-title"><img class="icon" src="${ICONS.folder}" alt=""/> ${y}</div><div>${decadeOf(y)}</div>`;
-      const ul = document.createElement("ul"); ul.className="event-list";
+async function loadCategories(){
+  const r = await fetchJson("data/categories.json");
+  if(!r.ok) throw new Error("Failed to load data/categories.json — " + r.error);
+  CATS = r.data;
 
-      // sort by category then title for stable view
-      byYear[y].sort((a,b)=>(a.categories?.[0]||"").localeCompare(b.categories?.[0]||"")||a.title.localeCompare(b.title));
+  // Fill category select
+  const sel = document.getElementById("cat");
+  sel.innerHTML = '<option value="">All categories</option>' +
+    CATS.map(c=>`<option value="${esc(c.id)}">${esc(c.label)}</option>`).join("");
 
-      byYear[y].forEach(e=>{
-        const li = document.createElement("li"); li.className="event";
-        const img = document.createElement("img"); img.className="icon";
-        const catId = (e.categories||[])[0];
-        const catObj = CATS.find(c=>c.id===catId);
-        img.src = catObj ? normPath(catObj.iconUrl) : ICONS.folder;
+  // Category pill bar
+  const bar = document.getElementById("catbar");
+  bar.innerHTML = CATS.map(c =>
+    `<button class="cat-pill" data-cat="${esc(c.id)}" title="${esc(c.group||'')}">
+      <img class="icon" src="${esc(normPath(c.iconUrl))}" alt=""/> ${esc(c.label)}
+    </button>`).join("");
+  bar.querySelectorAll(".cat-pill").forEach(b=>{
+    b.addEventListener("click",()=>{ document.getElementById("cat").value=b.dataset.cat; render(); });
+  });
+}
 
-        const body = document.createElement("div");
-        const title = document.createElement("div"); title.className="event-title"; title.textContent = e.title;
-        const overview = document.createElement("div"); overview.className="muted"; overview.textContent = e.overview || "";
+async function loadAllEventsViaManifest(){
+  const m = await fetchJson("data/events/manifest.json");
+  if(!m.ok) throw new Error("Failed to load data/events/manifest.json — " + (m.error||""));
+  if (!Array.isArray(m.data)) throw new Error("manifest.json is not an array");
+  const files = m.data;
 
-        const chips = document.createElement("div"); chips.className="chip-row";
-        (e.hashtags||[]).forEach(h=>{
-          const c = document.createElement("span"); c.className="chip"; c.textContent="#"+h;
-          c.addEventListener("click",()=>{ document.getElementById("q").value = h; render(); });
-          chips.appendChild(c);
-        });
+  const chunks = [];
+  for (const f of files){
+    const r = await fetchJson(`data/events/${f}`);
+    if (r.ok && Array.isArray(r.data)) chunks.push(r.data);
+    else if (!r.ok){
+      // continue but record error
+    }
+  }
+  return chunks.flat();
+}
 
-        body.appendChild(title); body.appendChild(overview); body.appendChild(chips);
-        li.appendChild(img); li.appendChild(body); ul.appendChild(li);
+/* ---------- Render ---------- */
+function render(){
+  const q = (document.getElementById("q").value||"").toLowerCase();
+  const cat = document.getElementById("cat").value;
+  const dec = document.getElementById("dec").value;
+
+  const filtered = ALL.filter(e=>matchesFilter(e,q,cat,dec));
+  const byYear = {};
+  filtered.forEach(e => { (byYear[e.year] = byYear[e.year] || []).push(e); });
+  const years = Object.keys(byYear).map(n=>+n).sort((a,b)=>a-b);
+
+  const root = document.getElementById("years");
+  root.innerHTML = "";
+  if (!years.length){
+    const empty = document.createElement("div");
+    empty.className = "panel";
+    empty.style.padding = "14px";
+    empty.textContent = "No events match your filters.";
+    root.appendChild(empty);
+    return;
+  }
+
+  years.forEach(y=>{
+    const card = document.createElement("section"); card.className="year-card panel";
+    const head = document.createElement("div"); head.className="year-head";
+    head.innerHTML = `<div class="year-title"><img class="icon" src="${ICONS.folder}" alt=""/> ${y}</div><div>${decadeOf(y)}</div>`;
+    const ul = document.createElement("ul"); ul.className="event-list";
+
+    byYear[y].sort((a,b)=>(a.categories?.[0]||"").localeCompare(b.categories?.[0]||"")||a.title.localeCompare(b.title));
+    byYear[y].forEach(e=>{
+      const li = document.createElement("li"); li.className="event";
+      const img = document.createElement("img"); img.className="icon";
+      const catId = (e.categories||[])[0];
+      const catObj = CATS.find(c=>c.id===catId);
+      img.src = catObj ? normPath(catObj.iconUrl) : ICONS.folder;
+
+      const body = document.createElement("div");
+      const title = document.createElement("div"); title.className="event-title"; title.textContent = e.title;
+      const overview = document.createElement("div"); overview.className="muted"; overview.textContent = e.overview || "";
+
+      const chips = document.createElement("div"); chips.className="chip-row";
+      (e.hashtags||[]).forEach(h=>{
+        const c = document.createElement("span"); c.className="chip"; c.textContent="#"+h;
+        c.addEventListener("click",()=>{ document.getElementById("q").value = h; render(); });
+        chips.appendChild(c);
       });
 
-      card.appendChild(head); card.appendChild(ul); root.appendChild(card);
+      li.appendChild(img);
+      body.appendChild(title); body.appendChild(overview); body.appendChild(chips);
+      li.appendChild(body);
+      ul.appendChild(li);
     });
-  }
 
-  (async function start(){
-    try{
-      await loadCategories();
-      ALL = await loadAllEventsViaManifest();
+    card.appendChild(head); card.appendChild(ul); root.appendChild(card);
+  });
+}
 
-      // bind inputs
-      document.getElementById("q").addEventListener("input", render);
-      document.getElementById("cat").addEventListener("change", render);
-      document.getElementById("dec").addEventListener("change", render);
+/* ---------- Boot ---------- */
+(async function start(){
+  try{
+    addDebugHud();
+    await loadCategories();
+    ALL = await loadAllEventsViaManifest();
 
-      render();
-    }catch(e){
-      console.error(e);
-      const yearsEl = document.getElementById("years");
-      if (yearsEl){
-        yearsEl.innerHTML = `<div class="panel" style="padding:14px">Error loading data. Check console & paths.</div>`;
-      }
+    // Inputs
+    document.getElementById("q").addEventListener("input", render);
+    document.getElementById("cat").addEventListener("change", render);
+    document.getElementById("dec").addEventListener("change", render);
+
+    render();
+
+    // Show load report
+    let rows = LOAD_REPORT.map(r=>{
+      const extra = (typeof r.count!=='undefined') ? `, count=${r.count}` : (r.err ? `, err=${esc(r.err)}` : '');
+      const ok = r.ok ? '✅' : '❌';
+      return `${ok} <code>${esc(r.file)}</code> (status: ${esc(r.status)}${extra})`;
+    }).join('<br>');
+    logDebug(`<div><strong>Load report</strong><br>${rows}</div>`);
+  }catch(e){
+    console.error(e);
+    addDebugHud();
+    logDebug(`<div style="color:#900"><strong>Fatal:</strong> ${esc(String(e))}</div>`);
+    const yearsEl = document.getElementById("years");
+    if (yearsEl){
+      yearsEl.innerHTML = `<div class="panel" style="padding:14px">Error loading data. See debug panel (bottom-right) and browser console.</div>`;
     }
-  })();
+  }
+})();
   </script>
 </body>
 </html>
