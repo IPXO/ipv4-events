@@ -8,9 +8,9 @@ The site uses a nostalgic **Windows 95-style design** and runs on GitHub Pages.
 
 ## 📂 Repository Structure
 
-docs/
-├── index.html             # Landing page (Windows 95 style)
-├── icons/                 # Windows 95/98 style icons
+// docs/
+// ├── index.html             # Landing page (Windows 95 style)
+// ├── icons/                 # Windows 95/98 style icons
 ├── data/
 │    ├── categories.json   # Category definitions & icon mapping
 │    └── events/           # Event data split by category
