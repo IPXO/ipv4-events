@@ -48,14 +48,14 @@ Fields
 📂 Categories
 
 Categories are defined in data/categories.json with icons. Example:
-
+```json
 {
   "id": "Standards",
   "label": "Standards",
   "group": "Standards & Governance",
   "iconUrl": "/icons/book.ico"
 }
-
+```
 🤝 Contributing
 
 We welcome contributions!
