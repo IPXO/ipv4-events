@@ -253,7 +253,7 @@ function render(){
 /* ---------- Boot ---------- */
 (async function start(){
   try{
-    addDebugHud();
+    // addDebugHud();
     await loadCategories();
     ALL = await loadAllEventsViaManifest();
 
@@ -270,11 +270,11 @@ function render(){
       const ok = r.ok ? '✅' : '❌';
       return `${ok} <code>${esc(r.file)}</code> (status: ${esc(r.status)}${extra})`;
     }).join('<br>');
-    logDebug(`<div><strong>Load report</strong><br>${rows}</div>`);
+    // logDebug(`<div><strong>Load report</strong><br>${rows}</div>`);
   }catch(e){
     console.error(e);
-    addDebugHud();
-    logDebug(`<div style="color:#900"><strong>Fatal:</strong> ${esc(String(e))}</div>`);
+    // addDebugHud();
+    // logDebug(`<div style="color:#900"><strong>Fatal:</strong> ${esc(String(e))}</div>`);
     const yearsEl = document.getElementById("years");
     if (yearsEl){
       yearsEl.innerHTML = `<div class="panel" style="padding:14px">Error loading data. See debug panel (bottom-right) and browser console.</div>`;
