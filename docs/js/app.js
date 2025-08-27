@@ -272,21 +272,27 @@ function render(){
   history.replaceState(null, '', newUrl);
 }
 
-/* ---------- Mobile filter drawer ---------- */
+/* ---------- Mobile filter drawer (iOS-safe) ---------- */
 (function drawerSetup(){
   const btn = document.getElementById('filterToggle');
   const drawer = document.getElementById('filters');
-  if (!btn || !drawer) return;
+  const backdrop = document.getElementById('backdrop');
+  const qInput = document.getElementById('q');
+  if (!btn || !drawer || !backdrop) return;
 
   function closeDrawer() {
     drawer.classList.remove('is-open');
     document.body.classList.remove('drawer-open');
     btn.setAttribute('aria-expanded', 'false');
+    backdrop.hidden = true;
   }
   function openDrawer() {
     drawer.classList.add('is-open');
     document.body.classList.add('drawer-open');
     btn.setAttribute('aria-expanded', 'true');
+    backdrop.hidden = false;
+    // Try to focus the search field on open (wrapped to allow layout to settle)
+    setTimeout(() => { try { qInput && qInput.focus(); } catch(_){} }, 50);
   }
 
   btn.addEventListener('click', () => {
@@ -294,14 +300,11 @@ function render(){
     open ? closeDrawer() : openDrawer();
   });
 
+  // Tap backdrop to close
+  backdrop.addEventListener('click', closeDrawer);
+
   // Close on Escape
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
-
-  // Close when tapping the dimmed backdrop (body::after)
-  document.addEventListener('click', (e) => {
-    if (!document.body.classList.contains('drawer-open')) return;
-    if (!drawer.contains(e.target) && e.target !== btn) closeDrawer();
-  });
 
   // Close after a selection change (good on mobile)
   ['cat','dec'].forEach(id => {
