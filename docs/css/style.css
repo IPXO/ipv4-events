@@ -132,3 +132,12 @@ footer{ margin:26px 0 80px; padding:14px }
   position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important;
   overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important;
 }
+.wp-link {
+  margin-left: 6px;        /* small gap after the title */
+  font-weight: 700;        /* make it bold */
+  text-decoration: none;   /* no underline normally */
+}
+.wp-link:hover,
+.wp-link:focus {
+  text-decoration: underline; /* underline when hovered/focused */
+}
