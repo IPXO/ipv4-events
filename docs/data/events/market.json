@@ -2,7 +2,7 @@
   {
     "id": "2011_iana_exhaustion",
     "year": 2011,
-    "categories": ["Finance & Market"],
+    "categories": ["Market"],
     "title": "IANA IPv4 Free Pool Exhausted",
     "overview": "The Internet Assigned Numbers Authority (IANA) allocates the last IPv4 address blocks to the Regional Internet Registries, marking the global depletion of free IPv4 space.",
     "hashtags": ["IANA","IPv4Exhaustion","Market"]
@@ -10,7 +10,7 @@
   {
     "id": "2011_apnic_exhaustion",
     "year": 2011,
-    "categories": ["Finance & Market"],
+    "categories": ["Market"],
     "title": "APNIC IPv4 Exhaustion",
     "overview": "The Asia-Pacific Network Information Centre (APNIC) becomes the first RIR to exhaust its IPv4 pool, triggering IPv4 trading and secondary markets in the region.",
     "hashtags": ["APNIC","IPv4","Exhaustion"]
@@ -18,7 +18,7 @@
   {
     "id": "2015_arin_exhaustion",
     "year": 2015,
-    "categories": ["Finance & Market"],
+    "categories": ["Market"],
     "title": "ARIN IPv4 Exhaustion",
     "overview": "The American Registry for Internet Numbers (ARIN) officially runs out of IPv4 addresses, accelerating demand for transfers and leasing.",
     "hashtags": ["ARIN","IPv4","Exhaustion"]
@@ -26,7 +26,7 @@
   {
     "id": "2019_ripe_exhaustion",
     "year": 2019,
-    "categories": ["Finance & Market"],
+    "categories": ["Market"],
     "title": "RIPE NCC IPv4 Exhaustion",
     "overview": "RIPE NCC announces it has allocated the last IPv4 addresses from its free pool, intensifying the market for IPv4 buying, selling, and leasing in Europe.",
     "hashtags": ["RIPE","IPv4","Exhaustion"]
@@ -34,7 +34,7 @@
   {
     "id": "2020_lacnic_afrinic_scarcity",
     "year": 2020,
-    "categories": ["Finance & Market"],
+    "categories": ["Market"],
     "title": "Scarcity at LACNIC & AFRINIC",
     "overview": "IPv4 scarcity reaches LACNIC and AFRINIC, with strict allocation policies and growing demand pushing prices upward.",
     "hashtags": ["LACNIC","AFRINIC","Scarcity"]
@@ -42,7 +42,7 @@
   {
     "id": "2021_ipv4_leasing_mainstream",
     "year": 2021,
-    "categories": ["Finance & Market"],
+    "categories": ["Market"],
     "title": "IPv4 Leasing Goes Mainstream",
     "overview": "IPv4 leasing becomes a widely adopted market practice, providing flexible access to addresses for cloud, ISPs, and enterprises.",
     "hashtags": ["IPv4Leasing","Market","Cloud"]
@@ -50,7 +50,7 @@
   {
     "id": "2024_ipv4_price_spike",
     "year": 2024,
-    "categories": ["Finance & Market"],
+    "categories": ["Market"],
     "title": "IPv4 Prices Spike",
     "overview": "IPv4 address prices surpass $50 per IP in some regions, reflecting scarcity and strong demand across cloud and enterprise networks.",
     "hashtags": ["IPv4Pricing","Market","Scarcity"]
@@ -58,7 +58,7 @@
   {
     "id": "2025_dual_stack_reality",
     "year": 2025,
-    "categories": ["Finance & Market"],
+    "categories": ["Market"],
     "title": "Dual-Stack Reality",
     "overview": "Despite IPv6 adoption, dual-stack operation remains the global norm, reinforcing IPv4’s enduring market value and ongoing leasing/trading practices.",
     "hashtags": ["IPv4","IPv6","DualStack"]
