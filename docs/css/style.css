@@ -28,8 +28,12 @@ body{
 
 /* Header */
 header.top{
-  position:sticky; top:0; z-index:5; background:var(--win);
-  border-bottom:4px solid var(--br); box-shadow:var(--shadow-in)
+  position: sticky;
+  top: 0;
+  z-index: 5000;            /* lift the whole header context */
+  background: var(--win);
+  border-bottom: 4px solid var(--br);
+  box-shadow: var(--shadow-in);
 }
 .top-inner{ display:flex; gap:10px; align-items:center; justify-content:space-between; padding:10px 14px }
 .brand{ display:flex; gap:8px; align-items:center; font-weight:700; flex:0 0 auto; }
@@ -120,7 +124,7 @@ footer{ margin:26px 0 80px; padding:14px }
     position:fixed; left:0; right:0;
     top:-120vh;                             /* hidden off-screen */
     transition: top .25s ease-out;
-    z-index:10001;
+    z-index: 5001;
     padding:12px 14px; gap:10px;
     background:var(--win);
     border-bottom:4px solid var(--br);
@@ -135,8 +139,10 @@ footer{ margin:26px 0 80px; padding:14px }
 
   /* Backdrop sits under the drawer */
   .backdrop{
-    position:fixed; inset:0; z-index:10000;
-    background:rgba(0,0,0,.25);
+  position: fixed;
+  inset: 0;
+  z-index: 4000;            /* just under the header */
+  background: rgba(0,0,0,.25);
   }
   .backdrop[hidden]{ display:none; }
 
