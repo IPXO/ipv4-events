@@ -100,49 +100,65 @@ a:active {
       position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important;
       overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important;
     }
-    /* iOS text sizing + tap highlight */
-html { -webkit-text-size-adjust: 100%; }             /* stop random auto-enlarge */
-* { -webkit-tap-highlight-color: rgba(0,0,0,0.15); } /* nicer tap feedback */
+    /* ===== Links (one clean set) ===== */
+a {
+  color: #0000EE;          /* classic blue */
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited { color: #551A8B; }        /* classic purple visited */
+a:hover,
+a:focus {
+  color: #FF0000;                      /* red on hover/focus */
+  text-decoration: underline;
+}
+a:active { color: #CC0000; }
 
-/* Ensure link colors don’t bleed into buttons */
-.cat-pill {
-  color: #000;                        /* force black text inside pills */
-  -webkit-appearance: none;           /* strip iOS native button skin */
-  appearance: none;
-  border-radius: 0;                   /* keep the retro square look */
-  line-height: 1.1;
+/* ===== iOS Safari fixes / Resets ===== */
+html { -webkit-text-size-adjust: 100%; }                 /* stop auto text zoom */
+* { -webkit-tap-highlight-color: rgba(0,0,0,0.15); }     /* nicer tap */
+
+/* Inherit fonts/colors so iOS doesn’t swap to system UI font */
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
 }
 
-/* Keep icons aligned on tiny screens */
+/* ===== Category pills (buttons) ===== */
+.cat-pill {
+  display: inline-flex;             /* keeps tight size */
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  border: 2px solid #000;
+  padding: 5px 8px;
+  line-height: 1;                   /* uniform height on iOS */
+  white-space: nowrap;              /* keep single-line labels */
+  -webkit-appearance: none;         /* remove iOS button skin */
+  appearance: none;
+  border-radius: 0;                 /* retro corners */
+  color: #000;                      /* prevent blue link look */
+}
 .cat-pill .icon { vertical-align: middle; }
 
-/* Prevent layout shifts when focusing inputs on iOS (zoom trigger is <16px) */
+/* Wrap nicely on narrow screens */
+.catbar { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* Stop iOS zoom-on-focus; keep retro look for selects */
 @media (max-width: 480px) {
-  .controls { gap: 10px; }
   .controls .input,
-  .controls .select { font-size: 16px; }  /* stops iOS zoom-on-focus */
+  .controls .select { font-size: 16px; } /* >=16px avoids zoom */
 }
 
-/* Make the pills wrap neatly on narrow screens */
-.catbar { 
-  display: flex; 
-  flex-wrap: wrap; 
-  gap: 10px; 
-}
-
-/* Optional: slightly tighter pill padding on very small widths */
-@media (max-width: 375px) {
-  .cat-pill { padding: 4px 6px; }
-}
-
-/* Ensure selects keep retro look on Safari */
+/* Make selects consistently retro across Safari */
 .select {
   -webkit-appearance: none;
   appearance: none;
   background-repeat: no-repeat;
   background-position: right 8px center;
   padding-right: 28px;
+  color: #000;                      /* fight iOS blue text */
 }
 
-/* If Safari still paints select text blue, force color */
-.select { color: #000; }
+/* Optional: small-screen pill padding */
+@media (max-width: 375px) { .cat-pill { padding: 4px 6px; } }
