@@ -8,18 +8,27 @@ The site uses a nostalgic **Windows 95-style design** and runs on GitHub Pages.
 
 ## 📂 Repository Structure
 ```txt
-docs/
-├── index.html             # Landing page (Windows 95 style)
-├── icons/                 # Windows 95/98 style icons
-├── data/
-│    ├── categories.json   # Category definitions & icon mapping
-│    └── events/           # Event data split by category
-│         ├── standards.json
-│         ├── governance.json
-│         ├── finance.json
-│         ├── space.json
-│         └── … (more categories)
-└── CNAME                  # Custom domain config (ipv4.events)
+.
+├── README.md                  # General information about the project
+├── CONTRIBUTING.md            # Overview how to contribute
+├── docs/
+│   ├── index.html             # Landing page (Windows retro style)
+│   ├── css/
+│   │   └── style.css          # Stylesheet
+│   ├── js/
+│   │   └── app.js             # Client-side logic
+│   ├── icons/                 # Windows 95/98/NT/XP style icons
+│   ├── data/
+│   │   ├── categories.json    # Category definitions & icon mapping
+│   │   └── events/            # Event data split by category
+│   │        ├── manifest.json
+│   │        ├── standards.json
+│   │        ├── governance.json
+│   │        ├── finance.json
+│   │        ├── rirs.json
+│   │        ├── space.json
+│   │        └── … (more categories)
+│   └── CNAME                  # Custom domain config (ipv4.events)
 ```
 
 ## 📝 Event Format
