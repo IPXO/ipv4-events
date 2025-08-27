@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1989_pgp",
+    "year": 1989,
+    "categories": ["Security"],
+    "title": "PGP (Pretty Good Privacy)",
+    "overview": "Phil Zimmermann releases PGP, bringing strong cryptography to the public and fueling the crypto wars.",
+    "hashtags": ["PGP","Encryption","Privacy"]
+  },
+  {
+    "id": "1995_ssl20",
+    "year": 1995,
+    "categories": ["Security"],
+    "title": "SSL 2.0 Introduced",
+    "overview": "Netscape’s SSL 2.0 kickstarts secure web commerce and the modern HTTPS ecosystem.",
+    "hashtags": ["SSL","HTTPS","Encryption"]
+  },
+  {
+    "id": "1999_tls10",
+    "year": 1999,
+    "categories": ["Security"],
+    "title": "TLS 1.0 Standardized",
+    "overview": "IETF standardizes TLS 1.0, replacing SSL and forming the basis for secure Internet transport.",
+    "hashtags": ["TLS","IETF","Security"]
+  },
+  {
+    "id": "2000_mafiaboy_ddos",
+    "year": 2000,
+    "categories": ["Security"],
+    "title": "Mafiaboy DDoS Attacks",
+    "overview": "High-profile DDoS on Yahoo, CNN, eBay and Amazon exposes Internet resilience gaps.",
+    "hashtags": ["DDoS","Mafiaboy","Cybersecurity"]
+  },
+  {
+    "id": "2014_heartbleed",
+    "year": 2014,
+    "categories": ["Security"],
+    "title": "Heartbleed (OpenSSL)",
+    "overview": "A critical OpenSSL bug allows data leakage across millions of sites; open-source supply chain wake-up call.",
+    "hashtags": ["Heartbleed","OpenSSL","Vulnerability"]
+  },
+  {
+    "id": "2016_mirai_ddos",
+    "year": 2016,
+    "categories": ["Security"],
+    "title": "Mirai Botnet DDoS",
+    "overview": "IoT devices hijacked to attack Dyn, disrupting major online services globally.",
+    "hashtags": ["Mirai","IoT","DDoS"]
+  },
+  {
+    "id": "2017_equifax",
+    "year": 2017,
+    "categories": ["Security"],
+    "title": "Equifax Data Breach",
+    "overview": "One of the largest consumer data breaches highlights patching and disclosure challenges.",
+    "hashtags": ["Equifax","Breach","Security"]
+  },
+  {
+    "id": "2021_log4shell",
+    "year": 2021,
+    "categories": ["Security"],
+    "title": "Log4Shell (Log4j RCE)",
+    "overview": "A ubiquitous Java logging library vulnerability triggers a global, multi-year remediation effort.",
+    "hashtags": ["Log4Shell","Java","RCE"]
+  }
+]
