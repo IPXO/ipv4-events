@@ -8,7 +8,7 @@ The site uses a nostalgic **Windows 95-style design** and runs on GitHub Pages.
 
 ## 📂 Repository Structure
 ```txt
-.
+
 ├── README.md                  # General information about the project
 ├── CONTRIBUTING.md            # Overview how to contribute
 ├── docs/
