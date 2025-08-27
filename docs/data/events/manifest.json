@@ -1,6 +1,7 @@
 [
   "standards.json",
   "governance.json",
+  "rirs.json",
   "networking.json",
   "backbone.json",
   "submarine-cables.json",
