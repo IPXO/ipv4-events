@@ -147,3 +147,49 @@ footer{ margin:26px 0 80px; padding:14px }
   position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important;
   overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important;
 }
+/* --- iPhone Safari: header dropdowns overflow fix --- */
+
+/* Let flex children actually shrink in Safari */
+.top-inner,
+.controls { min-width: 0; }
+.controls > * { min-width: 0; }
+
+/* Make form controls shrink and not overflow */
+.controls .input,
+.controls .select {
+  max-width: 100%;
+  width: 100%;           /* full width on small screens */
+  box-sizing: border-box;
+  font-size: 16px;       /* prevents iOS zoom-on-focus */
+  line-height: 1.1;      /* keeps height consistent */
+}
+
+/* On wider screens, restore a more compact layout */
+@media (min-width: 700px) {
+  .controls {
+    display: grid;
+    grid-template-columns: 1fr 220px 180px; /* search | category | decade */
+    gap: 8px;
+  }
+  .controls .input { width: 100%; }
+  .controls .select { width: auto; }
+}
+
+/* Keep the retro look + kill Safari’s native styling */
+.select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 28px;      /* room for arrow */
+  color: #000;              /* avoid iOS blue text */
+}
+
+/* Make the custom arrow a bit further in so it doesn't clip */
+@supports (-webkit-touch-callout: none) {
+  .select { background-position: right 10px center; }
+}
+
+/* The brand line can wrap without pushing controls off-screen */
+.brand { flex: 0 0 auto; }
+.controls { flex: 1 1 auto; }
