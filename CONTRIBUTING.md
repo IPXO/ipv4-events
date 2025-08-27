@@ -52,6 +52,23 @@ Each event must follow this structure:
 }
 ```
 
+### Adding Wikipedia links
+
+If an event has a relevant Wikipedia article, please add it under the `links` object:
+
+```json
+{
+  "id": "2011_apnic_runs_out",
+  "year": 2011,
+  "categories": ["RIRs"],
+  "title": "APNIC Exhausts IPv4 Pool",
+  "overview": "APNIC becomes the first RIR to exhaust its pool...",
+  "hashtags": ["APNIC","IPv4","Exhaustion"],
+  "links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/APNIC"
+  }
+}
+```
 Notes
 * id must be unique, lowercase, words separated by underscores.
 * year must be an integer (e.g. 1998).

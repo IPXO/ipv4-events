@@ -33,6 +33,8 @@ Each event is defined in JSON. Example:
   "title": "RFC 791 — IPv4 Published",
   "overview": "The Internet Protocol version 4 (IPv4) is standardized in RFC 791, defining the dominant packet format for decades.",
   "hashtags": ["RFC791","IPv4","Standards"]
+  "links": 
+    "wikipedia": "https://en.wikipedia.org/wiki/IPv4"
 }
 ```
 
@@ -43,6 +45,9 @@ Each event is defined in JSON. Example:
 * title: short event title
 * overview: 2–3 sentence description
 * hashtags: keywords for search & filtering
+* `links` (object, optional) — external references  
+  * `wikipedia` (string, optional) — URL to relevant Wikipedia article  
+  * *(future keys may include: `official`, `archive`, `news`, etc.)*
 
 ## 📂 Categories
 Categories are defined in data/categories.json with icons. Example:
@@ -51,7 +56,7 @@ Categories are defined in data/categories.json with icons. Example:
   "id": "Standards",
   "label": "Standards",
   "group": "Standards & Governance",
-  "iconUrl": "/icons/book.ico"
+  "iconUrl": "icons/example.ico"
 }
 ```
 ## 🤝 Contributing
