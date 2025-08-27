@@ -55,41 +55,59 @@
   let CATS = [];
   let ALL = [];
 
-  /* ---------- Category normalization (non-destructive) ---------- */
-  let CANON = new Set(); // filled after categories load
-  const CAT_ALIASES = new Map([
-    ["Backbone Speeds","Backbone"],
-    ["Networks","Networking"],
-    ["Cables","Submarine Cables"],
-    ["Submarine Cable","Submarine Cables"],
-    ["Datacenters","Data Centers"],
-    ["Data Center","Data Centers"],
-    ["Wireless Networking","Wireless"],
-    ["Windows","OS/Windows"],
-    ["Windows OS","OS/Windows"],
-    ["Mobile","Mobile OS"],
-    ["Programming Languages","Programming"],
-    ["Apps","Software"],
-    ["Software & Tools","Software"],
-    ["Streaming","Streaming/Multimedia"],
-    ["Multimedia","Streaming/Multimedia"],
-    ["Gaming","Streaming/Multimedia"],
-    ["Social Networks","Social"],
-    ["Chats","Messaging"],
-    ["Quantum","Quantum/Next-Gen"],
-    ["Next-Gen","Quantum/Next-Gen"],
-    ["Metaverse","Metaverse/XR"],
-    ["XR","Metaverse/XR"],
-    ["Security & Policy","__SEC_POLICY__"],
-    ["Finance","Finance & Market"],
-    ["Finance and Market","Finance & Market"],
-    ["Finance & Markets","Finance & Market"],
-    ["Cloud","Cloud/Virtualization"],
-    ["Virtualization","Cloud/Virtualization"],
-    ["Content Delivery Network","CDN"],
-    ["CDNs","CDN"],
-    ["Regional Internet Registries","RIRs"]
-  ]);
+  // Canonical IDs are whatever is in categories.json (e.g., "Finance", "Market")
+const CAT_ALIASES = new Map([
+  // Networking & Backbone
+  ["Backbone Speeds","Backbone"],
+  ["Networks","Networking"],
+  ["Cables","Submarine Cables"],
+  ["Submarine Cable","Submarine Cables"],
+  ["Datacenters","Data Centers"],
+  ["Data Center","Data Centers"],
+  ["Wireless Networking","Wireless"],
+
+  // OS
+  ["Windows","OS/Windows"],
+  ["Windows OS","OS/Windows"],
+  ["Mobile","Mobile OS"],
+
+  // Programming & Software
+  ["Programming Languages","Programming"],
+  ["Apps","Software"],
+  ["Software & Tools","Software"],
+  ["Streaming","Streaming/Multimedia"],
+  ["Multimedia","Streaming/Multimedia"],
+  ["Gaming","Streaming/Multimedia"],
+
+  // Social & Messaging
+  ["Social Networks","Social"],
+  ["Chats","Messaging"],
+
+  // AI & Emerging
+  ["Quantum","Quantum/Next-Gen"],
+  ["Next-Gen","Quantum/Next-Gen"],
+  ["Metaverse","Metaverse/XR"],
+  ["XR","Metaverse/XR"],
+
+  // Security & Policy (split the old combined bucket)
+  ["Security & Policy","__SEC_POLICY__"],
+
+  // Finance / Market — keep them separate!
+  // DO NOT map "Finance" to anything; it's canonical now.
+  // Map legacy combined labels to BOTH so old files still show up.
+  ["Finance & Market", ["Finance","Market"]],
+  ["Finance and Market", ["Finance","Market"]],
+  ["Finance & Markets", ["Finance","Market"]],
+
+  // Cloud & Infra
+  ["Cloud","Cloud/Virtualization"],
+  ["Virtualization","Cloud/Virtualization"],
+  ["Content Delivery Network","CDN"],
+  ["CDNs","CDN"],
+
+  // Governance
+  ["Regional Internet Registries","RIRs"],
+]);
   function splitSecurityPolicy(ev) {
     const text = [
       ev.title || "",
@@ -107,22 +125,30 @@
     if (/(ddos|breach|ransom|heartbleed|log4shell|tls|ssl|pgp)/.test(t)) return "Security";
     return "Security";
   }
-  function normalizeEventCategories(ev) {
-    const src = Array.isArray(ev.categories) ? ev.categories : [];
-    const mapped = src.flatMap(cat => {
-      if (CANON.has(cat)) return [cat];
-      const alias = CAT_ALIASES.get(cat);
-      if (!alias) {
-        const ci = [...CANON].find(c => c.toLowerCase() === String(cat).toLowerCase());
-        return ci ? [ci] : [];
-      }
+ function normalizeEventCategories(ev) {
+  const src = Array.isArray(ev.categories) ? ev.categories : [];
+  const mapped = src.flatMap(cat => {
+    // Already canonical?
+    if (CANON.has(cat)) return [cat];
+
+    // Alias?
+    const alias = CAT_ALIASES.get(cat);
+    if (alias) {
       if (alias === "__SEC_POLICY__") return [splitSecurityPolicy(ev)];
+      if (Array.isArray(alias)) return alias;       // <— support multi-map
       return [alias];
-    });
-    const unique = [...new Set(mapped)].filter(c => CANON.has(c));
-    ev.categories = unique.length ? unique : src;
-    return ev;
-  }
+    }
+
+    // Case-insensitive match to a canonical id
+    const ci = [...CANON].find(c => c.toLowerCase() === String(cat).toLowerCase());
+    return ci ? [ci] : [];
+  });
+
+  // Dedup and keep only canonical ids
+  const unique = [...new Set(mapped)].filter(c => CANON.has(c));
+  ev.categories = unique.length ? unique : src; // fallback to original if nothing matched
+  return ev;
+}
 
   /* ---------- Data loading ---------- */
   async function loadCategories(){
