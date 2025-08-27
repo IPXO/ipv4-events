@@ -52,6 +52,7 @@ Each event must follow this structure:
   //If an event has a relevant Wikipedia article, please add it under the `links` object:
   "links": {
     "wikipedia": "https://en.wikipedia.org/wiki/IPv4"
+  }
 }
 ```
 
