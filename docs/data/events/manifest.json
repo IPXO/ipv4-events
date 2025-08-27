@@ -23,7 +23,7 @@
   "security.json",
   "policy-regulation.json",
   "finance.json",
-  "finance-market.json",
+  "market.json",
   "cloud.json",
   "serverless.json",
   "edge.json",
