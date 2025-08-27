@@ -49,26 +49,12 @@ Each event must follow this structure:
   "title": "RFC 791 — IPv4 Published",
   "overview": "The Internet Protocol version 4 (IPv4) is standardized in RFC 791, defining the dominant packet format for decades.",
   "hashtags": ["RFC791","IPv4","Standards"]
-}
-```
-
-### Adding Wikipedia links
-
-If an event has a relevant Wikipedia article, please add it under the `links` object:
-
-```json
-{
-  "id": "2011_apnic_runs_out",
-  "year": 2011,
-  "categories": ["RIRs"],
-  "title": "APNIC Exhausts IPv4 Pool",
-  "overview": "APNIC becomes the first RIR to exhaust its pool...",
-  "hashtags": ["APNIC","IPv4","Exhaustion"],
+  //If an event has a relevant Wikipedia article, please add it under the `links` object:
   "links": {
-    "wikipedia": "https://en.wikipedia.org/wiki/APNIC"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/IPv4"
 }
 ```
+
 Notes
 * id must be unique, lowercase, words separated by underscores.
 * year must be an integer (e.g. 1998).
