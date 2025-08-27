@@ -197,7 +197,7 @@ const L = {
   fill: document.getElementById('loaderFill'),
   msg:  document.getElementById('loaderMsg'),
   pct:  document.getElementById('loaderPct'),
-  total: 1, // will be set after we know manifest length
+  total: 1,
   done: 0
 };
 function loaderShow(){ if (L.root) L.root.style.display = 'flex'; }
@@ -235,12 +235,93 @@ function matchesFilter(ev, q, cat, dec){
 let CATS = [];
 let ALL = [];
 
+/* ---------- Category normalization (non-destructive) ---------- */
+let CANON = new Set(); // filled after categories load
+const CAT_ALIASES = new Map([
+  // Networking & Backbone
+  ["Backbone Speeds","Backbone"],
+  ["Networks","Networking"],
+  ["Cables","Submarine Cables"],
+  ["Submarine Cable","Submarine Cables"],
+  ["Datacenters","Data Centers"],
+  ["Data Center","Data Centers"],
+  ["Wireless Networking","Wireless"],
+  // OS family
+  ["Windows","OS/Windows"],
+  ["Windows OS","OS/Windows"],
+  ["Mobile","Mobile OS"],
+  // Programming & Software
+  ["Programming Languages","Programming"],
+  ["Apps","Software"],
+  ["Software & Tools","Software"],
+  ["Streaming","Streaming/Multimedia"],
+  ["Multimedia","Streaming/Multimedia"],
+  ["Gaming","Streaming/Multimedia"],
+  // Social & Messaging
+  ["Social Networks","Social"],
+  ["Chats","Messaging"],
+  // AI & Emerging
+  ["Quantum","Quantum/Next-Gen"],
+  ["Next-Gen","Quantum/Next-Gen"],
+  ["Metaverse","Metaverse/XR"],
+  ["XR","Metaverse/XR"],
+  // Security & Policy (old combined bucket)
+  ["Security & Policy","__SEC_POLICY__"],
+  // Finance & Market
+  ["Finance","Finance & Market"],
+  ["Finance and Market","Finance & Market"],
+  ["Finance & Markets","Finance & Market"],
+  // Cloud & Infra
+  ["Cloud","Cloud/Virtualization"],
+  ["Virtualization","Cloud/Virtualization"],
+  ["Content Delivery Network","CDN"],
+  ["CDNs","CDN"],
+  // Governance
+  ["Regional Internet Registries","RIRs"]
+]);
+function splitSecurityPolicy(ev) {
+  const text = [
+    ev.title || "",
+    ev.overview || "",
+    (ev.hashtags || []).join(" ")
+  ].join(" ").toLowerCase();
+  const policySignals = ["gdpr","regulation","policy","act","law","compliance","surveillance","patriot","ccpa","directive","governance","data protection","privacy regulation","hipaa","sox"];
+  const securitySignals = ["ddos","botnet","ransomware","breach","exploit","vulnerability","cve","openssl","log4shell","hack","malware","phishing","mitm","zero-day","tls","ssl","pgp","encryption"];
+  const hasPolicy = policySignals.some(s => text.includes(s));
+  const hasSecurity = securitySignals.some(s => text.includes(s));
+  if (hasPolicy && !hasSecurity) return "Policy & Regulation";
+  if (!hasPolicy && hasSecurity) return "Security";
+  const t = (ev.title || "").toLowerCase();
+  if (/(gdpr|patriot|snowden|regulation|policy)/.test(t)) return "Policy & Regulation";
+  if (/(ddos|breach|ransom|heartbleed|log4shell|tls|ssl|pgp)/.test(t)) return "Security";
+  return "Security";
+}
+function normalizeEventCategories(ev) {
+  const src = Array.isArray(ev.categories) ? ev.categories : [];
+  const mapped = src.flatMap(cat => {
+    if (CANON.has(cat)) return [cat];
+    const alias = CAT_ALIASES.get(cat);
+    if (!alias) {
+      const ci = [...CANON].find(c => c.toLowerCase() === String(cat).toLowerCase());
+      return ci ? [ci] : [];
+    }
+    if (alias === "__SEC_POLICY__") return [splitSecurityPolicy(ev)];
+    return [alias];
+  });
+  const unique = [...new Set(mapped)].filter(c => CANON.has(c));
+  ev.categories = unique.length ? unique : src;
+  return ev;
+}
+
 /* ---------- Data loading ---------- */
 async function loadCategories(){
   loaderTick('Loading categories…');
   const res = await fetch("data/categories.json");
   if(!res.ok) throw new Error("Failed to load data/categories.json");
   CATS = await res.json();
+
+  // Build the canonical ID set for normalization
+  CANON = new Set(CATS.map(c => c.id));
 
   // Fill select
   const sel = document.getElementById("cat");
@@ -272,13 +353,12 @@ async function loadAllEventsViaManifest(){
   for (const f of files){
     try{
       const r = await fetch(base + f);
-      if (!r.ok) {
-        loaderTick(`Missing: ${f}`);
-        continue;
-      }
+      if (!r.ok) { loaderTick(`Missing: ${f}`); continue; }
       const arr = await r.json();
       if (Array.isArray(arr)) {
-        all.push(...arr);
+        // Normalize categories per event on the fly
+        const normed = arr.map(ev => normalizeEventCategories(ev));
+        all.push(...normed);
         loaderTick(`Loaded: ${f}`);
       } else {
         loaderTick(`Bad JSON (not array): ${f}`);
@@ -312,8 +392,16 @@ function render(){
     return;
   }
 
+  // Optional: build a year jump list if you’ve added #yearbar in HTML
+  const yearbar = document.getElementById('yearbar');
+  if (yearbar) {
+    yearbar.innerHTML = years.map(y =>
+      `<a href="#year-${y}" class="cat-pill" style="text-decoration:none"><img class="icon" aria-hidden="true" src="${ICONS.folder}" alt=""> ${y}</a>`
+    ).join('');
+  }
+
   years.forEach(y=>{
-    const card = document.createElement("section"); card.className="year-card panel";
+    const card = document.createElement("section"); card.className="year-card panel"; card.id = `year-${y}`;
     const head = document.createElement("div"); head.className="year-head";
     head.innerHTML = `<div class="year-title"><img class="icon" src="${ICONS.folder}" alt=""> ${y}</div><div>${decadeOf(y)}</div>`;
     const ul = document.createElement("ul"); ul.className="event-list";
@@ -351,15 +439,12 @@ function render(){
 (async function start(){
   try{
     loaderShow();
-    // tick once so the bar moves on first paint
-    loaderSet(3); // will be reset once manifest length is known
+    loaderSet(3);
     loaderTick('Initializing…');
 
     await loadCategories();
-    // load events (this will reset total and tick per file)
     ALL = await loadAllEventsViaManifest();
 
-    // Inputs
     document.getElementById("q").addEventListener("input", render);
     document.getElementById("cat").addEventListener("change", render);
     document.getElementById("dec").addEventListener("change", render);
@@ -372,9 +457,8 @@ function render(){
       yearsEl.innerHTML = `<div class="panel" style="padding:14px">Error loading data. Please refresh or check console.</div>`;
     }
   }finally{
-    // Delay hiding loader by 250ms so users notice it
     setTimeout(loaderHide, 250);
-}
+  }
 })();
 </script>
 </body>
