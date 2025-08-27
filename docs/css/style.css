@@ -1,0 +1,78 @@
+ a {
+     text-decoration: none;
+     color: inherit; /* keeps the retro theme consistent */
+    }
+    a:hover, a:focus {
+    text-decoration: underline; /* optional: underline on hover for accessibility */
+    }
+    :root{
+      --desk:#008080; --win:#c0c0c0; --br:#808080; --txt:#000;
+      --shadow-in: inset -2px -2px 0 #fff, inset 2px 2px 0 #808080;
+      --chip:#e9e9e9;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--desk);color:var(--txt);font-family:Tahoma,Segoe UI,Arial,sans-serif}
+    .container{max-width:1220px;margin:0 auto;padding:0 14px}
+    .panel{background:var(--win);border:4px solid var(--br);box-shadow:var(--shadow-in)}
+    header.top{position:sticky;top:0;z-index:5;background:var(--win);border-bottom:4px solid var(--br);box-shadow:var(--shadow-in)}
+    .top-inner{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 14px}
+    .brand{display:flex;gap:8px;align-items:center;font-weight:700}
+    img.icon{width:18px;height:18px;image-rendering:pixelated}
+    .controls{display:flex;flex-wrap:wrap;gap:8px}
+    .input,.select{border:2px solid #000;background:#fff;padding:7px 10px;font-size:14px}
+    .input{min-width:260px}
+    main{padding:16px 0}
+    .hero{padding:14px;margin-bottom:16px}
+    .hero h2{margin:0 0 6px;font-size:18px;display:flex;gap:8px;align-items:center}
+    .muted{opacity:.9;font-size:13px}
+    .catbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .cat-pill{display:flex;align-items:center;gap:6px;background:#fff;border:2px solid #000;padding:5px 8px;cursor:pointer}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin:18px 0 60px}
+    @media(min-width:980px){.grid{grid-template-columns:1fr 1fr}}
+    @media(min-width:1200px){.grid{grid-template-columns:1fr 1fr 1fr}}
+    .year-card{overflow:hidden}
+    .year-head{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-bottom:4px solid var(--br);background:#d6d6d6}
+    .year-title{display:flex;gap:8px;align-items:center;font-weight:700}
+    .event-list{list-style:none;margin:0;padding:10px 12px;display:flex;flex-direction:column;gap:10px}
+    .event{display:grid;grid-template-columns:20px auto;gap:8px}
+    .event-title{font-weight:700}
+    .chip-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+    .chip{background:var(--chip);border:1px solid #000;padding:1px 6px;font-size:11px;display:inline-flex;align-items:center;gap:4px;cursor:pointer}
+    footer{margin:26px 0 80px;padding:14px}
+    /* Win95-style loader */
+    #loader {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,.15);
+      z-index: 9999;
+    }
+    #loader .win { background: var(--win); border: 4px solid var(--br); box-shadow: var(--shadow-in); width: 360px; padding: 12px; }
+    #loader .title { display:flex; align-items:center; gap:8px; font-weight:700; margin-bottom:8px }
+    #loader .bar { height: 18px; border: 2px solid #000; background:#fff; box-shadow: inset -2px -2px 0 #fff, inset 2px 2px 0 #808080; }
+    #loader .fill { height: 100%; width: 0%; background: #0a66; }
+    #loader .foot { display:flex; justify-content:space-between; margin-top:8px; font-size:12px; opacity:.9 }
+
+    /* Space between sticky header and the hero */
+    header.top + main { margin-top: 12px; }
+
+    /* Cross-browser retro form appearance */
+    .input, .select {
+      -webkit-appearance: none; -moz-appearance: none; appearance: none;
+      border-radius: 0;
+    }
+    .select::-ms-expand { display: none; }
+    .select {
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M0 0 L5 6 L10 0 Z' fill='black'/></svg>");
+      background-repeat: no-repeat; background-position: right 8px center; padding-right: 28px;
+    }
+
+    .hero { margin-top: 4px; padding-top: 16px; padding-bottom: 16px; }
+
+    /* Visually-hidden utility for true H1 without altering layout */
+    .sr-only {
+      position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important;
+      overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important;
+    }
