@@ -1,7 +1,31 @@
+ a { cursor: pointer; }
  a {
      text-decoration: none;
      color: inherit; /* keeps the retro theme consistent */
     }
+    /* Base link styles */
+a {
+  color: #0000EE;       /* classic blue links */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Visited links */
+a:visited {
+  color: #551A8B;       /* classic purple visited */
+}
+
+/* Hover and focus */
+a:hover,
+a:focus {
+  color: #FF0000;       /* red on hover for emphasis */
+  text-decoration: underline;
+}
+
+/* Active (while clicking) */
+a:active {
+  color: #CC0000;
+}
     a:hover, a:focus {
     text-decoration: underline; /* optional: underline on hover for accessibility */
     }
@@ -76,3 +100,49 @@
       position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important;
       overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important;
     }
+    /* iOS text sizing + tap highlight */
+html { -webkit-text-size-adjust: 100%; }             /* stop random auto-enlarge */
+* { -webkit-tap-highlight-color: rgba(0,0,0,0.15); } /* nicer tap feedback */
+
+/* Ensure link colors don’t bleed into buttons */
+.cat-pill {
+  color: #000;                        /* force black text inside pills */
+  -webkit-appearance: none;           /* strip iOS native button skin */
+  appearance: none;
+  border-radius: 0;                   /* keep the retro square look */
+  line-height: 1.1;
+}
+
+/* Keep icons aligned on tiny screens */
+.cat-pill .icon { vertical-align: middle; }
+
+/* Prevent layout shifts when focusing inputs on iOS (zoom trigger is <16px) */
+@media (max-width: 480px) {
+  .controls { gap: 10px; }
+  .controls .input,
+  .controls .select { font-size: 16px; }  /* stops iOS zoom-on-focus */
+}
+
+/* Make the pills wrap neatly on narrow screens */
+.catbar { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+/* Optional: slightly tighter pill padding on very small widths */
+@media (max-width: 375px) {
+  .cat-pill { padding: 4px 6px; }
+}
+
+/* Ensure selects keep retro look on Safari */
+.select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 28px;
+}
+
+/* If Safari still paints select text blue, force color */
+.select { color: #000; }
