@@ -33,8 +33,9 @@ Each event is defined in JSON. Example:
   "title": "RFC 791 — IPv4 Published",
   "overview": "The Internet Protocol version 4 (IPv4) is standardized in RFC 791, defining the dominant packet format for decades.",
   "hashtags": ["RFC791","IPv4","Standards"]
-  "links": 
+  "links": {
     "wikipedia": "https://en.wikipedia.org/wiki/IPv4"
+  }  
 }
 ```
 
