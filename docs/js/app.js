@@ -141,6 +141,43 @@ function normalizeEventCategories(ev) {
   return ev;
 }
 
+/* ---------- Pretty URL routing ---------- */
+// slugify like: "OS/Windows" -> "os-windows", "Data Centers" -> "data-centers"
+function slugify(s){ return String(s).toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,''); }
+function unslugifyCategory(slug){
+  // Match against both id and label
+  const hit = CATS.find(c => slugify(c.id)===slug || slugify(c.label)===slug);
+  return hit ? hit.id : null;
+}
+function readRoute(){
+  // supports: /, /category/<slug>, /decade/<1990s>, /search/<term>
+  const segs = location.pathname.replace(/\/+/g,'/').replace(/^\/|\/$/g,'').split('/');
+  const state = { q:'', cat:'', dec:'' };
+  for (let i=0;i<segs.length;i+=2){
+    const key = segs[i]?.toLowerCase();
+    const val = segs[i+1] || '';
+    if (!key || !val) break;
+    if (key==='category') state.cat = unslugifyCategory(val) || '';
+    else if (key==='decade') state.dec = val;
+    else if (key==='search') state.q = decodeURIComponent(val);
+  }
+  // allow legacy query params (normalize later)
+  const usp = new URLSearchParams(location.search);
+  state.q   = usp.get('q')   ?? state.q;
+  state.cat = usp.get('cat') ?? state.cat;
+  state.dec = usp.get('dec') ?? state.dec;
+  return state;
+}
+function writeRoute({q,cat,dec}, replace=false){
+  const parts = [];
+  if (cat) parts.push('category', slugify(cat));
+  if (dec) parts.push('decade', dec);
+  if (q)   parts.push('search', encodeURIComponent(q));
+  const path = '/' + parts.join('/');
+  if (replace) history.replaceState(null,'', parts.length ? path : '/');
+  else history.pushState(null,'', parts.length ? path : '/');
+}
+
 /* ---------- Data loading ---------- */
 async function loadCategories(){
   loaderTick('Loading categories…');
@@ -163,7 +200,10 @@ async function loadCategories(){
       <img class="icon" src="${String(c.iconUrl||'').replace(/^\/+/,'')}" alt="${c.label} icon"> ${c.label}
     </button>`).join("");
   bar.querySelectorAll(".cat-pill").forEach(b=>{
-    b.addEventListener("click",()=>{ document.getElementById("cat").value=b.dataset.cat; render(); });
+    b.addEventListener("click",()=>{
+      document.getElementById("cat").value=b.dataset.cat;
+      render();
+    });
   });
 }
 
@@ -213,6 +253,8 @@ function render(){
     empty.style.padding = "14px";
     empty.textContent = "No events match your filters.";
     root.appendChild(empty);
+    // keep URL in sync even for empty states
+    writeRoute({ q, cat, dec }, /*replace=*/true);
     return;
   }
 
@@ -238,7 +280,11 @@ function render(){
       const chips = document.createElement("div"); chips.className="chip-row";
       (e.hashtags||[]).forEach(h=>{
         const c = document.createElement("a"); c.className="chip"; c.textContent="#"+h; c.href = `?q=${encodeURIComponent(h)}`;
-        c.addEventListener("click",(ev)=>{ ev.preventDefault(); document.getElementById("q").value = h; render(); });
+        c.addEventListener("click",(ev)=>{
+          ev.preventDefault();
+          document.getElementById("q").value = h;
+          render();
+        });
         chips.appendChild(c);
       });
 
@@ -263,13 +309,8 @@ function render(){
     card.appendChild(head); card.appendChild(ul); root.appendChild(card);
   });
 
-  // Update URL params (shareable state)
-  const params = new URLSearchParams(window.location.search);
-  if (q) params.set('q', q); else params.delete('q');
-  if (cat) params.set('cat', cat); else params.delete('cat');
-  if (dec) params.set('dec', dec); else params.delete('dec');
-  const newUrl = params.toString() ? `?${params.toString()}` : location.pathname;
-  history.replaceState(null, '', newUrl);
+  // Pretty URLs (replace so typing in search doesn’t spam history)
+  writeRoute({ q, cat, dec }, /*replace=*/true);
 }
 
 /* ---------- Mobile filter drawer (iOS-safe) ---------- */
@@ -291,7 +332,6 @@ function render(){
     document.body.classList.add('drawer-open');
     btn.setAttribute('aria-expanded', 'true');
     backdrop.hidden = false;
-    // Try to focus the search field on open (wrapped to allow layout to settle)
     setTimeout(() => { try { qInput && qInput.focus(); } catch(_){} }, 50);
   }
 
@@ -300,13 +340,9 @@ function render(){
     open ? closeDrawer() : openDrawer();
   });
 
-  // Tap backdrop to close
   backdrop.addEventListener('click', closeDrawer);
-
-  // Close on Escape
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
 
-  // Close after a selection change (good on mobile)
   ['cat','dec'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.addEventListener('change', closeDrawer);
@@ -323,14 +359,21 @@ function render(){
     await loadCategories();
     ALL = await loadAllEventsViaManifest();
 
-    // Restore state from URL params
-    const usp = new URLSearchParams(location.search);
-    const q0 = usp.get('q') || '';
-    const c0 = usp.get('cat') || '';
-    const d0 = usp.get('dec') || '';
-    if (q0) document.getElementById("q").value = q0;
-    if (c0) document.getElementById("cat").value = c0;
-    if (d0) document.getElementById("dec").value = d0;
+    // Initialize state from pretty path or legacy query, then normalize URL
+    const s = readRoute();
+    if (s.q)  document.getElementById("q").value = s.q;
+    if (s.cat) document.getElementById("cat").value = s.cat;
+    if (s.dec) document.getElementById("dec").value = s.dec;
+    writeRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
+
+    // Listen for back/forward navigation
+    window.addEventListener('popstate', () => {
+      const s2 = readRoute();
+      document.getElementById("q").value = s2.q || '';
+      document.getElementById("cat").value = s2.cat || '';
+      document.getElementById("dec").value = s2.dec || '';
+      render();
+    });
 
     document.getElementById("q").addEventListener("input", render);
     document.getElementById("cat").addEventListener("change", render);

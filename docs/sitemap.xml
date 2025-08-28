@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ipv4.events/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ipv4.events/data/categories.json</loc></url>
-  <url><loc>https://ipv4.events/data/events/manifest.json</loc></url>
+  <!-- Home -->
+  <url>
+    <loc>https://ipv4.events/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Categories (slugified from categories.json "id") -->
+  <url><loc>https://ipv4.events/category/standards</loc></url>
+  <url><loc>https://ipv4.events/category/governance</loc></url>
+  <url><loc>https://ipv4.events/category/rirs</loc></url>
+  <url><loc>https://ipv4.events/category/networking</loc></url>
+  <url><loc>https://ipv4.events/category/backbone</loc></url>
+  <url><loc>https://ipv4.events/category/submarine-cables</loc></url>
+  <url><loc>https://ipv4.events/category/wireless</loc></url>
+  <url><loc>https://ipv4.events/category/ixp-nog</loc></url>
+  <url><loc>https://ipv4.events/category/hardware-vendors</loc></url>
+  <url><loc>https://ipv4.events/category/os-windows</loc></url>
+  <url><loc>https://ipv4.events/category/linux</loc></url>
+  <url><loc>https://ipv4.events/category/mobile-os</loc></url>
+  <url><loc>https://ipv4.events/category/programming</loc></url>
+  <url><loc>https://ipv4.events/category/software</loc></url>
+  <url><loc>https://ipv4.events/category/browsers</loc></url>
+  <url><loc>https://ipv4.events/category/streaming-multimedia</loc></url>
+  <url><loc>https://ipv4.events/category/social</loc></url>
+  <url><loc>https://ipv4.events/category/messaging</loc></url>
+  <url><loc>https://ipv4.events/category/ai</loc></url>
+  <url><loc>https://ipv4.events/category/quantum-next-gen</loc></url>
+  <url><loc>https://ipv4.events/category/metaverse-xr</loc></url>
+  <url><loc>https://ipv4.events/category/security</loc></url>
+  <url><loc>https://ipv4.events/category/policy-regulation</loc></url>
+  <url><loc>https://ipv4.events/category/finance</loc></url>
+  <url><loc>https://ipv4.events/category/market</loc></url>
+  <url><loc>https://ipv4.events/category/cloud-virtualization</loc></url>
+  <url><loc>https://ipv4.events/category/serverless</loc></url>
+  <url><loc>https://ipv4.events/category/edge</loc></url>
+  <url><loc>https://ipv4.events/category/cdn</loc></url>
+  <url><loc>https://ipv4.events/category/data-centers</loc></url>
+  <url><loc>https://ipv4.events/category/satellite-internet</loc></url>
+  <url><loc>https://ipv4.events/category/space</loc></url>
+
+  <!-- Decades -->
+  <url><loc>https://ipv4.events/decade/1950s</loc></url>
+  <url><loc>https://ipv4.events/decade/1960s</loc></url>
+  <url><loc>https://ipv4.events/decade/1970s</loc></url>
+  <url><loc>https://ipv4.events/decade/1980s</loc></url>
+  <url><loc>https://ipv4.events/decade/1990s</loc></url>
+  <url><loc>https://ipv4.events/decade/2000s</loc></url>
+  <url><loc>https://ipv4.events/decade/2010s</loc></url>
+  <url><loc>https://ipv4.events/decade/2020s</loc></url>
 </urlset>
