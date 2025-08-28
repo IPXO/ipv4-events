@@ -1,0 +1,72 @@
+/* Win95 BSOD vibes */
+:root{
+  --bsod-blue: #0000aa;
+  --bsod-white: #ffffff;
+  --dim: #b8c0ff;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bsod-blue);
+  color: var(--bsod-white);
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.bsod {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.bsod-inner {
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0 0 16px 0;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p { margin: 12px 0; }
+
+.dim { color: var(--dim); }
+
+.key {
+  border: 1px solid var(--bsod-white);
+  padding: 0 4px;
+  margin: 0 2px;
+}
+
+.link {
+  color: var(--bsod-white);
+  text-decoration: underline;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 6px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Slight CRT-ish softness (optional) */
+@media (min-width: 600px) {
+  .bsod-inner { filter: contrast(1.02) saturate(1.05); }
+}
