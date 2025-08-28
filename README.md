@@ -8,27 +8,27 @@ The site uses a nostalgic **Windows 95-style design** and runs on GitHub Pages.
 
 ## 📂 Repository Structure
 ```txt
-
-├── README.md                  # General information about the project
-├── CONTRIBUTING.md            # Overview how to contribute
-├── docs/
-│   ├── index.html             # Landing page (Windows retro style)
-│   ├── css/
-│   │   └── style.css          # Stylesheet
-│   ├── js/
-│   │   └── app.js             # Client-side logic
-│   ├── icons/                 # Windows 95/98/NT/XP style icons
-│   ├── data/
-│   │   ├── categories.json    # Category definitions & icon mapping
-│   │   └── events/            # Event data split by category
-│   │        ├── manifest.json
-│   │        ├── standards.json
-│   │        ├── governance.json
-│   │        ├── finance.json
-│   │        ├── rirs.json
-│   │        ├── space.json
-│   │        └── … (more categories)
-│   └── CNAME                  # Custom domain config (ipv4.events)
+ipv4-events/
+├── docs/                   # Website root (GitHub Pages serves from here)
+│   ├── css/                # Stylesheets
+│   │   ├── 404.css
+│   │   └── style.css
+│   ├── data/               # Event data (JSON)
+│   │   ├── events/         # Events split by category
+│   │   └── categories.json # Category definitions & icons
+│   ├── icons/              # UI icons (retro Win95/98/NT/W2K/XP style)
+│   ├── js/                 # JavaScript
+│   │   ├── 404.js
+│   │   └── app.js
+│   ├── 404.html            # Custom error page
+│   ├── index.html          # Main site entry point
+│   ├── robots.txt          # Search engine crawler rules
+│   └── sitemap.xml         # Sitemap for SEO
+├── .gitignore
+├── CONTRIBUTING.md         # Guide for contributors
+├── LICENSE                 # License information
+├── README.md               # Project overview
+└── CNAME                   # Custom domain (ipv4.events)
 ```
 
 ## 📝 Event Format
