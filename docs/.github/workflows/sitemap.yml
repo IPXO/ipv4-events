@@ -1,0 +1,41 @@
+name: Build sitemap
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate sitemap.xml
+        env:
+          # For forks or previews, set a custom base URL in the workflow UI if needed.
+          # SITE_BASE_URL: https://your-preview.example.com
+          SITE_BASE_URL: https://ipv4.events
+        run: |
+          node -e "require('node:fs').mkdirSync('scripts',{recursive:true})" || true
+          node scripts/generate-sitemap.mjs
+
+      - name: Commit changes (if any)
+        run: |
+          if [[ -n "$(git status --porcelain docs/sitemap.xml)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/sitemap.xml
+            git commit -m "chore: auto-update sitemap.xml"
+            git push
+          else
+            echo "No sitemap changes"
+          fi
