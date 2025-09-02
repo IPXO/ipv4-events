@@ -21,11 +21,15 @@ ipv4-events/
 │   │   └── style.css                          # Global styles (layout, retro theme, mobile drawer)
 │   ├── js/                                    # Client-side code (no bundler required)
 │   │   └── app.js                             # Data load, filters, pretty URLs, rendering, drawer
+│   ├── category/                              # Pretty URL stubs (redirect to ?cat=… filter)
+│   │   └── <slug>/index.html                  # One folder per category (SEO + canonical link)
+│   ├── decade/                                # Pretty URL stubs (redirect to ?dec=… filter)
+│   │   └── <1990s>/index.html                 # One folder per decade (SEO + canonical link)
 │   └── data/                                  # Human-editable JSON data (single source of truth)
 │       ├── categories.json                    # Category IDs/labels/icons (canonical list)
 │       └── events/                            # Events split by topic; listed in manifest.json
 │           ├── manifest.json                  # Load order for all event JSON files
-│           ├── standards.json                 # Example event set (keep consistent schema)
+│           ├── standards.json
 │           ├── governance.json
 │           ├── rirs.json
 │           ├── networking.json
@@ -59,7 +63,8 @@ ipv4-events/
 │           ├── satellite-internet.json
 │           └── space.json
 ├── scripts/                                   # Dev/automation scripts (run in CI or locally)
-│   └── generate-sitemap.mjs                   # Builds docs/sitemap.xml from categories & routes
+│   ├── generate-sitemap.mjs                   # Builds docs/sitemap.xml from categories & routes
+│   └── generate-pretty-pages.mjs              # Generates docs/category/* and docs/decade/* stubs
 ├── .github/
 │   └── workflows/
 │       └── sitemap.yml                        # CI: runs on push to main; regenerates sitemap.xml
