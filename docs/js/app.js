@@ -144,11 +144,32 @@ function normalizeEventCategories(ev) {
 /* ---------- Pretty URL routing ---------- */
 // slugify like: "OS/Windows" -> "os-windows", "Data Centers" -> "data-centers"
 function slugify(s){ return String(s).toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,''); }
+
+/**
+ * Convert a URL slug (e.g., "rirs" or "data-centers") to a canonical category id
+ * by checking both category id and label, handling case/hyphens/plurals.
+ */
 function unslugifyCategory(slug){
-  // Match against both id and label
-  const hit = CATS.find(c => slugify(c.id)===slug || slugify(c.label)===slug);
-  return hit ? hit.id : null;
+  if (!slug) return null;
+  const want = String(slug).toLowerCase();
+
+  // 1) Exact slug match vs id OR label
+  let hit = CATS.find(c => slugify(c.id)===want || slugify(c.label)===want);
+  if (hit) return hit.id;
+
+  // 2) Singular/plural fallback
+  const wantSing = want.replace(/s$/, '');
+  hit = CATS.find(c => slugify(c.id).replace(/s$/,'')===wantSing ||
+                       slugify(c.label).replace(/s$/,'')===wantSing);
+  if (hit) return hit.id;
+
+  // 3) Loose contains (useful if slugs are long)
+  hit = CATS.find(c => slugify(c.id).includes(want) || slugify(c.label).includes(want));
+  if (hit) return hit.id;
+
+  return null;
 }
+
 function readRoute(){
   // supports: /, /category/<slug>, /decade/<1990s>, /search/<term>
   const segs = location.pathname.replace(/\/+/g,'/').replace(/^\/|\/$/g,'').split('/');
@@ -178,6 +199,27 @@ function writeRoute({q,cat,dec}, replace=false){
   else history.pushState(null,'', parts.length ? path : '/');
 }
 
+/**
+ * Syncs the visible UI with the current route state.
+ * - Updates the search, category, and decade inputs.
+ * - Highlights the active category pill (adds/removes `.is-active`).
+ * Call on initial load, after history navigation, and after user interactions
+ * so the UI always reflects the current state.
+ */
+function syncUIFromState(s) {
+  // Set selects
+  const qEl   = document.getElementById("q");
+  const catEl = document.getElementById("cat");
+  const decEl = document.getElementById("dec");
+  if (qEl)   qEl.value   = s.q   || '';
+  if (catEl) catEl.value = s.cat || '';
+  if (decEl) decEl.value = s.dec || '';
+
+  // Highlight the active category pill
+  const pills = document.querySelectorAll('.cat-pill');
+  pills.forEach(b => b.classList.toggle('is-active', !!(s.cat && b.dataset.cat === s.cat)));
+}
+
 /* ---------- Data loading ---------- */
 async function loadCategories(){
   loaderTick('Loading categories…');
@@ -199,9 +241,14 @@ async function loadCategories(){
     `<button class="cat-pill" data-cat="${c.id}" title="${c.group||''}">
       <img class="icon" src="${String(c.iconUrl||'').replace(/^\/+/,'')}" alt="${c.label} icon"> ${c.label}
     </button>`).join("");
+
+  // Keep pill clicks in sync with selects + route + render
   bar.querySelectorAll(".cat-pill").forEach(b=>{
     b.addEventListener("click",()=>{
-      document.getElementById("cat").value=b.dataset.cat;
+      const q = (document.getElementById("q")?.value)||'';
+      const dec = (document.getElementById("dec")?.value)||'';
+      document.getElementById("cat").value = b.dataset.cat;
+      syncUIFromState({ q, cat: b.dataset.cat, dec });
       render();
     });
   });
@@ -313,6 +360,7 @@ function render(){
   writeRoute({ q, cat, dec }, /*replace=*/true);
 }
 
+
 /* ---------- Mobile filter drawer (iOS-safe) ---------- */
 (function drawerSetup(){
   const btn = document.getElementById('filterToggle');
@@ -361,17 +409,14 @@ function render(){
 
     // Initialize state from pretty path or legacy query, then normalize URL
     const s = readRoute();
-    if (s.q)  document.getElementById("q").value = s.q;
-    if (s.cat) document.getElementById("cat").value = s.cat;
-    if (s.dec) document.getElementById("dec").value = s.dec;
+    // console.debug('[route:init]', location.pathname, s);
+    syncUIFromState(s);
     writeRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
 
-    // Listen for back/forward navigation
+    // Listen for back/forward navigation (keep UI synced)
     window.addEventListener('popstate', () => {
       const s2 = readRoute();
-      document.getElementById("q").value = s2.q || '';
-      document.getElementById("cat").value = s2.cat || '';
-      document.getElementById("dec").value = s2.dec || '';
+      syncUIFromState(s2);
       render();
     });
 

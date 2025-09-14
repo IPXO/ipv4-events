@@ -9,24 +9,31 @@
 
   <!-- BSOD styles -->
   <link rel="stylesheet" href="css/404.css">
-  <script>
+<script>
+  /**
+   * GitHub Pages SPA fallback:
+   * Only rewrite to /?p=<path> for routes your SPA handles.
+   * Let real missing files or unknown paths show the BSOD 404.
+   */
   (function () {
     var l = window.location;
 
-    // paths that belong to your SPA (tweak as needed)
-    var SPA_ROUTE = /^\/(category|decade|year|hashtag|event)s?(\/|$)/;
+    // Routes your SPA supports (match what readRoute() parses)
+    var SPA_ROUTE = /^\/(category|decade|search)(\/|$)/;
 
-    // asset or file (let real 404 show the BSOD)
+    // If it looks like a file (e.g., .css, .js, .png), show 404
     var looksLikeFile = /\.[a-z0-9]+($|\?)/i.test(l.pathname);
 
-    // internal static folders (let 404 show if missing)
+    // Your static folders (show 404 if missing)
     var STATIC_DIR = /^\/(icons|css|js|data|assets)\//;
 
-    // Only rewrite to index for SPA routes; otherwise show the BSOD
-    if (!/[?&]p=/.test(l.search) &&
-        !looksLikeFile &&
-        !STATIC_DIR.test(l.pathname) &&
-        SPA_ROUTE.test(l.pathname)) {
+    var shouldRewrite =
+      !/[?&]p=/.test(l.search) &&
+      !looksLikeFile &&
+      !STATIC_DIR.test(l.pathname) &&
+      SPA_ROUTE.test(l.pathname);
+
+    if (shouldRewrite) {
       l.replace(l.protocol + '//' + l.host + '/?p=' +
                 encodeURIComponent(l.pathname + l.search + l.hash));
     }
