@@ -31,6 +31,15 @@
   <meta name="twitter:description" content="Explore the technology that shaped the IPv4 era — filter by category, decade, and hashtags."/>
   <meta name="twitter:image" content="https://ipv4.events/icons/social-card.png"/>
 
+  <script>
+  // Restore pretty URL from 404 fallback (?p=...) before the app mounts
+  (function () {
+    var params = new URLSearchParams(location.search);
+    var p = params.get('p');
+    if (p) history.replaceState(null, '', p);
+  })();
+</script>
+
   <!-- Structured Data (WebSite + SearchAction) -->
   <script type="application/ld+json">
   {

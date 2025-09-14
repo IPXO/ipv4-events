@@ -9,6 +9,15 @@
 
   <!-- BSOD styles -->
   <link rel="stylesheet" href="css/404.css">
+  <script>
+  (function () {
+    var l = window.location;
+    if (l.pathname !== '/' && !/[?&]p=/.test(l.search)) {
+      l.replace(l.protocol + '//' + l.host + '/?p=' +
+                encodeURIComponent(l.pathname + l.search + l.hash));
+    }
+  })();
+</script>
 </head>
 <body>
   <main class="bsod" role="main" aria-labelledby="bsod-title">
