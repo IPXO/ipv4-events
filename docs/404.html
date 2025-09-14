@@ -9,36 +9,38 @@
 
   <!-- BSOD styles -->
   <link rel="stylesheet" href="css/404.css">
-<script>
-  /**
-   * GitHub Pages SPA fallback:
-   * Only rewrite to /?p=<path> for routes your SPA handles.
-   * Let real missing files or unknown paths show the BSOD 404.
-   */
-  (function () {
-    var l = window.location;
 
-    // Routes your SPA supports (match what readRoute() parses)
-    var SPA_ROUTE = /^\/(category|decade|search)(\/|$)/;
+  <!-- Selective SPA fallback: only rewrite /category|/decade|/search to /?p=... -->
+  <script>
+    /**
+     * GitHub Pages SPA fallback:
+     * Only rewrite to /?p=<path> for routes your SPA handles.
+     * Let real missing files or unknown paths show the BSOD 404.
+     */
+    (function () {
+      var l = window.location;
 
-    // If it looks like a file (e.g., .css, .js, .png), show 404
-    var looksLikeFile = /\.[a-z0-9]+($|\?)/i.test(l.pathname);
+      // Routes your SPA supports (match what readRoute() parses)
+      var SPA_ROUTE = /^\/(category|decade|search)(\/|$)/;
 
-    // Your static folders (show 404 if missing)
-    var STATIC_DIR = /^\/(icons|css|js|data|assets)\//;
+      // If it looks like a file (e.g., .css, .js, .png), show 404
+      var looksLikeFile = /\.[a-z0-9]+($|\?)/i.test(l.pathname);
 
-    var shouldRewrite =
-      !/[?&]p=/.test(l.search) &&
-      !looksLikeFile &&
-      !STATIC_DIR.test(l.pathname) &&
-      SPA_ROUTE.test(l.pathname);
+      // Your static folders (show 404 if missing)
+      var STATIC_DIR = /^\/(icons|css|js|data|assets)\//;
 
-    if (shouldRewrite) {
-      l.replace(l.protocol + '//' + l.host + '/?p=' +
-                encodeURIComponent(l.pathname + l.search + l.hash));
-    }
-  })();
-</script>
+      var shouldRewrite =
+        !/[?&]p=/.test(l.search) &&
+        !looksLikeFile &&
+        !STATIC_DIR.test(l.pathname) &&
+        SPA_ROUTE.test(l.pathname);
+
+      if (shouldRewrite) {
+        l.replace(l.protocol + '//' + l.host + '/?p=' +
+                  encodeURIComponent(l.pathname + l.search + l.hash));
+      }
+    })();
+  </script>
 </head>
 <body>
   <main class="bsod" role="main" aria-labelledby="bsod-title">

@@ -31,14 +31,29 @@
   <meta name="twitter:description" content="Explore the technology that shaped the IPv4 era — filter by category, decade, and hashtags."/>
   <meta name="twitter:image" content="https://ipv4.events/icons/social-card.png"/>
 
+  <!-- Restore pretty URL from 404 fallback (?p=...) before the app mounts.
+       Only restore on "/" and only for valid SPA routes to avoid unwanted redirects. -->
   <script>
-  // Restore pretty URL from 404 fallback (?p=...) before the app mounts
-  (function () {
-    var params = new URLSearchParams(location.search);
-    var p = params.get('p');
-    if (p) history.replaceState(null, '', p);
-  })();
-</script>
+    (function () {
+      if (location.pathname !== '/') return; // only restore when landing at root
+      var params = new URLSearchParams(location.search);
+      var p = params.get('p');
+      if (!p) return;
+      try {
+        var target = new URL(p, location.origin); // normalize to absolute
+        var ok = /^\/(category|decade|search)(\/|$)/.test(target.pathname);
+        if (ok) {
+          history.replaceState(null, '', target.pathname + target.search + target.hash);
+        } else {
+          // Junk ?p=: strip it so we don't loop
+          history.replaceState(null, '', '/');
+        }
+      } catch (_) {
+        // Malformed ?p=: clear it
+        history.replaceState(null, '', '/');
+      }
+    })();
+  </script>
 
   <!-- Structured Data (WebSite + SearchAction) -->
   <script type="application/ld+json">
