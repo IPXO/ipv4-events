@@ -12,7 +12,21 @@
   <script>
   (function () {
     var l = window.location;
-    if (l.pathname !== '/' && !/[?&]p=/.test(l.search)) {
+
+    // paths that belong to your SPA (tweak as needed)
+    var SPA_ROUTE = /^\/(category|decade|year|hashtag|event)s?(\/|$)/;
+
+    // asset or file (let real 404 show the BSOD)
+    var looksLikeFile = /\.[a-z0-9]+($|\?)/i.test(l.pathname);
+
+    // internal static folders (let 404 show if missing)
+    var STATIC_DIR = /^\/(icons|css|js|data|assets)\//;
+
+    // Only rewrite to index for SPA routes; otherwise show the BSOD
+    if (!/[?&]p=/.test(l.search) &&
+        !looksLikeFile &&
+        !STATIC_DIR.test(l.pathname) &&
+        SPA_ROUTE.test(l.pathname)) {
       l.replace(l.protocol + '//' + l.host + '/?p=' +
                 encodeURIComponent(l.pathname + l.search + l.hash));
     }
