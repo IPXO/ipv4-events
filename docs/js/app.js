@@ -27,9 +27,9 @@ function loaderTick(message){
   if (!L.root) return;
   L.done = Math.min(L.done + 1, L.total);
   const p = Math.round((L.done / L.total) * 100);
-  L.fill.style.width = p + '%';
-  if (message) L.msg.textContent = message;
-  L.pct.textContent = p + '%';
+  if (L.fill) L.fill.style.width = p + '%';
+  if (message && L.msg) L.msg.textContent = message;
+  if (L.pct) L.pct.textContent = p + '%';
 }
 
 /* ---------- Helpers ---------- */
@@ -141,73 +141,65 @@ function normalizeEventCategories(ev) {
   return ev;
 }
 
-/* ---------- Pretty URL routing ---------- */
-// slugify like: "OS/Windows" -> "os-windows", "Data Centers" -> "data-centers"
+/* ---------- Hash routing (robust on GitHub Pages) ---------- */
 function slugify(s){ return String(s).toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,''); }
 
-/**
- * Convert a URL slug (e.g., "rirs" or "data-centers") to a canonical category id
- * by checking both category id and label, handling case/hyphens/plurals.
- */
 function unslugifyCategory(slug){
   if (!slug) return null;
   const want = String(slug).toLowerCase();
 
-  // 1) Exact slug match vs id OR label
   let hit = CATS.find(c => slugify(c.id)===want || slugify(c.label)===want);
   if (hit) return hit.id;
 
-  // 2) Singular/plural fallback
   const wantSing = want.replace(/s$/, '');
   hit = CATS.find(c => slugify(c.id).replace(/s$/,'')===wantSing ||
                        slugify(c.label).replace(/s$/,'')===wantSing);
   if (hit) return hit.id;
 
-  // 3) Loose contains (useful if slugs are long)
   hit = CATS.find(c => slugify(c.id).includes(want) || slugify(c.label).includes(want));
-  if (hit) return hit.id;
-
-  return null;
+  return hit ? hit.id : null;
 }
 
-function readRoute(){
-  // supports: /, /category/<slug>, /decade/<1990s>, /search/<term>
-  const segs = location.pathname.replace(/\/+/g,'/').replace(/^\/|\/$/g,'').split('/');
-  const state = { q:'', cat:'', dec:'' };
+// Parse state from location.hash -> { q, cat, dec }
+function readHashRoute(){
+  const h = (location.hash || '').replace(/^#\/?/, '');
+  if (!h) {
+    // Legacy query support if someone lands on "/"
+    const usp = new URLSearchParams(location.search);
+    return {
+      q:   usp.get('q')   || '',
+      cat: usp.get('cat') || '',
+      dec: usp.get('dec') || ''
+    };
+  }
+  const segs = h.replace(/\/+/g,'/').replace(/^\/|\/$/g,'').split('/');
+  const s = { q:'', cat:'', dec:'' };
   for (let i=0;i<segs.length;i+=2){
     const key = segs[i]?.toLowerCase();
     const val = segs[i+1] || '';
     if (!key || !val) break;
-    if (key==='category') state.cat = unslugifyCategory(val) || '';
-    else if (key==='decade') state.dec = val;
-    else if (key==='search') state.q = decodeURIComponent(val);
+    if (key==='category') s.cat = unslugifyCategory(val) || '';
+    else if (key==='decade') s.dec = val;
+    else if (key==='search') s.q = decodeURIComponent(val);
   }
-  // allow legacy query params (normalize later)
-  const usp = new URLSearchParams(location.search);
-  state.q   = usp.get('q')   ?? state.q;
-  state.cat = usp.get('cat') ?? state.cat;
-  state.dec = usp.get('dec') ?? state.dec;
-  return state;
+  return s;
 }
-function writeRoute({q,cat,dec}, replace=false){
+
+// Write state to location.hash
+function writeHashRoute({q,cat,dec}, replace=false){
   const parts = [];
   if (cat) parts.push('category', slugify(cat));
   if (dec) parts.push('decade', dec);
   if (q)   parts.push('search', encodeURIComponent(q));
-  const path = '/' + parts.join('/');
-  if (replace) history.replaceState(null,'', parts.length ? path : '/');
-  else history.pushState(null,'', parts.length ? path : '/');
+  const newHash = parts.length ? '#/' + parts.join('/') : '#/';
+  if (replace) history.replaceState(null, '', newHash);
+  else history.pushState(null, '', newHash);
 }
 
 /**
- * Syncs the visible UI with the current route state.
- * - Updates the search, category, and decade inputs.
- * - Highlights the active category pill (adds/removes `.is-active`).
- * Call on initial load, after history navigation, and after user interactions
- * so the UI always reflects the current state.
+ * Sync UI with current state (search / selects / active pill)
  */
 function syncUIFromState(s) {
-  // Set selects
   const qEl   = document.getElementById("q");
   const catEl = document.getElementById("cat");
   const decEl = document.getElementById("dec");
@@ -215,7 +207,6 @@ function syncUIFromState(s) {
   if (catEl) catEl.value = s.cat || '';
   if (decEl) decEl.value = s.dec || '';
 
-  // Highlight the active category pill
   const pills = document.querySelectorAll('.cat-pill');
   pills.forEach(b => b.classList.toggle('is-active', !!(s.cat && b.dataset.cat === s.cat)));
 }
@@ -248,7 +239,9 @@ async function loadCategories(){
       const q = (document.getElementById("q")?.value)||'';
       const dec = (document.getElementById("dec")?.value)||'';
       document.getElementById("cat").value = b.dataset.cat;
-      syncUIFromState({ q, cat: b.dataset.cat, dec });
+      const s = { q, cat: b.dataset.cat, dec };
+      syncUIFromState(s);
+      writeHashRoute(s, /*replace=*/true);
       render();
     });
   });
@@ -301,7 +294,7 @@ function render(){
     empty.textContent = "No events match your filters.";
     root.appendChild(empty);
     // keep URL in sync even for empty states
-    writeRoute({ q, cat, dec }, /*replace=*/true);
+    writeHashRoute({ q, cat, dec }, /*replace=*/true);
     return;
   }
 
@@ -326,16 +319,17 @@ function render(){
 
       const chips = document.createElement("div"); chips.className="chip-row";
       (e.hashtags||[]).forEach(h=>{
-        const c = document.createElement("a"); c.className="chip"; c.textContent="#"+h; c.href = `?q=${encodeURIComponent(h)}`;
+        const c = document.createElement("a"); c.className="chip"; c.textContent="#"+h;
+        c.href = `#/search/${encodeURIComponent(h)}`;
         c.addEventListener("click",(ev)=>{
           ev.preventDefault();
           document.getElementById("q").value = h;
+          writeHashRoute({ q:h, cat:document.getElementById("cat").value, dec:document.getElementById("dec").value }, /*replace=*/true);
           render();
         });
         chips.appendChild(c);
       });
 
-      // Optional: Wikipedia badge if provided
       if (e.links?.wikipedia) {
         const wp = document.createElement('a');
         wp.href = e.links.wikipedia;
@@ -356,10 +350,9 @@ function render(){
     card.appendChild(head); card.appendChild(ul); root.appendChild(card);
   });
 
-  // Pretty URLs (replace so typing in search doesn’t spam history)
-  writeRoute({ q, cat, dec }, /*replace=*/true);
+  // Keep hash URL in sync (replace so typing in search doesn’t spam history)
+  writeHashRoute({ q, cat, dec }, /*replace=*/true);
 }
-
 
 /* ---------- Mobile filter drawer (iOS-safe) ---------- */
 (function drawerSetup(){
@@ -407,19 +400,14 @@ function render(){
     await loadCategories();
     ALL = await loadAllEventsViaManifest();
 
-   // Initialize state from pretty path or legacy query
-  const s = readRoute();
-  syncUIFromState(s);
+    // Initialize state from hash (or legacy query), normalize hash, and render
+    const s = readHashRoute();
+    syncUIFromState(s);
+    writeHashRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
 
-  // Only normalize the URL if any filter is present;
-  // otherwise, keep whatever path we landed on (deep link) intact.
-  if (s.q || s.cat || s.dec) {
-  writeRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
-}
-
-    // Listen for back/forward navigation (keep UI synced)
-    window.addEventListener('popstate', () => {
-      const s2 = readRoute();
+    // React to back/forward or manual hash edits
+    window.addEventListener('hashchange', () => {
+      const s2 = readHashRoute();
       syncUIFromState(s2);
       render();
     });
