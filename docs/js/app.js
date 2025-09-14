@@ -407,11 +407,15 @@ function render(){
     await loadCategories();
     ALL = await loadAllEventsViaManifest();
 
-    // Initialize state from pretty path or legacy query, then normalize URL
-    const s = readRoute();
-    // console.debug('[route:init]', location.pathname, s);
-    syncUIFromState(s);
-    writeRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
+   // Initialize state from pretty path or legacy query
+  const s = readRoute();
+  syncUIFromState(s);
+
+  // Only normalize the URL if any filter is present;
+  // otherwise, keep whatever path we landed on (deep link) intact.
+  if (s.q || s.cat || s.dec) {
+  writeRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
+}
 
     // Listen for back/forward navigation (keep UI synced)
     window.addEventListener('popstate', () => {

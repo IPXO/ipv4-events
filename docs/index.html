@@ -35,21 +35,38 @@
        Only restore on "/" and only for valid SPA routes to avoid unwanted redirects. -->
   <script>
     (function () {
+      function isValidDecade(s){ return /^(1950s|1960s|1970s|1980s|1990s|2000s|2010s|2020s)$/.test(s); }
+      function isValidSpaPath(pathname){
+        var segs = String(pathname).replace(/^\/+|\/+$/g,'').split('/');
+        if (!segs[0]) return false;
+        if (segs[0] === 'category'){
+          // /category/<slug> OR /category/<slug>/decade/<decade>
+          if (segs.length === 2 && segs[1]) return true;
+          if (segs.length === 4 && segs[1] && segs[2] === 'decade' && isValidDecade(segs[3])) return true;
+          return false;
+        }
+        if (segs[0] === 'decade'){
+          return (segs.length === 2 && isValidDecade(segs[1]));
+        }
+        if (segs[0] === 'search'){
+          return (segs.length === 2 && !!segs[1]);
+        }
+        return false;
+      }
+
       if (location.pathname !== '/') return; // only restore when landing at root
       var params = new URLSearchParams(location.search);
       var p = params.get('p');
       if (!p) return;
       try {
         var target = new URL(p, location.origin); // normalize to absolute
-        var ok = /^\/(category|decade|search)(\/|$)/.test(target.pathname);
-        if (ok) {
+        if (isValidSpaPath(target.pathname)) {
           history.replaceState(null, '', target.pathname + target.search + target.hash);
         } else {
           // Junk ?p=: strip it so we don't loop
           history.replaceState(null, '', '/');
         }
       } catch (_) {
-        // Malformed ?p=: clear it
         history.replaceState(null, '', '/');
       }
     })();

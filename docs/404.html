@@ -10,35 +10,46 @@
   <!-- BSOD styles -->
   <link rel="stylesheet" href="css/404.css">
 
-  <!-- Selective SPA fallback: only rewrite /category|/decade|/search to /?p=... -->
+  <!-- Selective SPA fallback: only rewrite STRICTLY valid SPA routes to /?p=... -->
   <script>
-    /**
-     * GitHub Pages SPA fallback:
-     * Only rewrite to /?p=<path> for routes your SPA handles.
-     * Let real missing files or unknown paths show the BSOD 404.
-     */
     (function () {
+      function isValidDecade(s){ return /^(1950s|1960s|1970s|1980s|1990s|2000s|2010s|2020s)$/.test(s); }
+      function isValidSpaPathname(pathname){
+        var segs = String(pathname).replace(/^\/+|\/+$/g,'').split('/');
+        if (!segs[0]) return false;
+        if (segs[0] === 'category'){
+          // valid: /category/<slug> OR /category/<slug>/decade/<decade>
+          if (segs.length === 2 && segs[1]) return true;
+          if (segs.length === 4 && segs[1] && segs[2] === 'decade' && isValidDecade(segs[3])) return true;
+          return false;
+        }
+        if (segs[0] === 'decade'){
+          return (segs.length === 2 && isValidDecade(segs[1]));
+        }
+        if (segs[0] === 'search'){
+          return (segs.length === 2 && !!segs[1]);
+        }
+        return false;
+      }
+
       var l = window.location;
 
-      // Routes your SPA supports (match what readRoute() parses)
-      var SPA_ROUTE = /^\/(category|decade|search)(\/|$)/;
-
-      // If it looks like a file (e.g., .css, .js, .png), show 404
+      // If it looks like a file (e.g., .css, .js, .png), do NOT rewrite; show BSOD 404
       var looksLikeFile = /\.[a-z0-9]+($|\?)/i.test(l.pathname);
-
-      // Your static folders (show 404 if missing)
+      // Static folders: if missing, show BSOD 404
       var STATIC_DIR = /^\/(icons|css|js|data|assets)\//;
 
       var shouldRewrite =
         !/[?&]p=/.test(l.search) &&
         !looksLikeFile &&
         !STATIC_DIR.test(l.pathname) &&
-        SPA_ROUTE.test(l.pathname);
+        isValidSpaPathname(l.pathname);
 
       if (shouldRewrite) {
         l.replace(l.protocol + '//' + l.host + '/?p=' +
                   encodeURIComponent(l.pathname + l.search + l.hash));
       }
+      // else: leave as-is to show the BSOD 404
     })();
   </script>
 </head>
