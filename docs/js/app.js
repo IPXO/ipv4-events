@@ -171,20 +171,25 @@ function unslugifyCategory(slug){
   return hit ? hit.id : null;
 }
 
-// Parse state from location.hash -> { q, cat, dec }
+// Parse state from location.hash -> { view, q, cat, dec }
 function readHashRoute(){
   const h = (location.hash || '').replace(/^#\/?/, '');
+
+  if (h === 'news' || h.startsWith('news/') || h.startsWith('news?')) {
+    return { view: 'news', q: '', cat: '', dec: '' };
+  }
+
   if (!h) {
-    // Legacy query support if someone lands on "/"
     const usp = new URLSearchParams(location.search);
     return {
+      view: 'timeline',
       q:   usp.get('q')   || '',
       cat: usp.get('cat') || '',
       dec: usp.get('dec') || ''
     };
   }
   const segs = h.replace(/\/+/g,'/').replace(/^\/|\/$/g,'').split('/');
-  const s = { q:'', cat:'', dec:'' };
+  const s = { view: 'timeline', q:'', cat:'', dec:'' };
   for (let i=0;i<segs.length;i+=2){
     const key = segs[i]?.toLowerCase();
     const val = segs[i+1] || '';
@@ -197,12 +202,17 @@ function readHashRoute(){
 }
 
 // Write state to location.hash
-function writeHashRoute({q,cat,dec}, replace=false){
-  const parts = [];
-  if (cat) parts.push('category', slugify(cat));
-  if (dec) parts.push('decade', dec);
-  if (q)   parts.push('search', encodeURIComponent(q));
-  const newHash = parts.length ? '#/' + parts.join('/') : '#/';
+function writeHashRoute({view='timeline', q='', cat='', dec=''}={}, replace=false){
+  let newHash;
+  if (view === 'news') {
+    newHash = '#/news';
+  } else {
+    const parts = [];
+    if (cat) parts.push('category', slugify(cat));
+    if (dec) parts.push('decade', dec);
+    if (q)   parts.push('search', encodeURIComponent(q));
+    newHash = parts.length ? '#/' + parts.join('/') : '#/';
+  }
   if (replace) history.replaceState(null, '', newHash);
   else history.pushState(null, '', newHash);
 }
@@ -595,6 +605,138 @@ function render(){
   });
 })();
 
+/* ---------- View switching (Timeline ↔ News) ---------- */
+let newsCache = null; // null = not yet fetched, false = failed, array = ok
+
+function setActiveTab(view) {
+  const tabTimeline = document.getElementById('tab-timeline');
+  const tabNews     = document.getElementById('tab-news');
+  const isNews = view === 'news';
+  if (tabTimeline) { tabTimeline.classList.toggle('is-active', !isNews); tabTimeline.setAttribute('aria-selected', String(!isNews)); }
+  if (tabNews)     { tabNews.classList.toggle('is-active', isNews);      tabNews.setAttribute('aria-selected', String(isNews)); }
+}
+
+function showTimelineView(s) {
+  setActiveTab('timeline');
+  document.getElementById('years').hidden     = false;
+  document.getElementById('news-view').hidden = true;
+  // Restore decade nav visibility (buildDecadeNav hides it initially)
+  const decNav = document.getElementById('decade-jump');
+  if (decNav) decNav.hidden = false;
+}
+
+async function showNewsView() {
+  setActiveTab('news');
+  document.getElementById('years').hidden     = true;
+  document.getElementById('decade-jump').hidden = true;
+  const el = document.getElementById('news-view');
+  el.hidden = false;
+  writeHashRoute({ view: 'news' }, /*replace=*/true);
+
+  if (newsCache !== null) return; // already rendered
+
+  el.innerHTML = '<div class="panel news-empty">📡 Loading news…</div>';
+
+  try {
+    const r = await fetch('data/news.json');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    newsCache = await r.json();
+  } catch {
+    newsCache = false;
+  }
+
+  renderNews();
+}
+
+function renderNews() {
+  const el = document.getElementById('news-view');
+  if (!el) return;
+  el.innerHTML = '';
+
+  if (!newsCache || !newsCache.length) {
+    el.innerHTML = `
+      <div class="panel news-empty">
+        <p><strong>📰 News feed is warming up.</strong></p>
+        <p class="muted">The daily GitHub Actions workflow hasn't run yet. Check back tomorrow, or
+          <a href="https://github.com/IPXO/ipv4-events/actions/workflows/fetch-news.yml" target="_blank" rel="noopener">trigger it manually</a>.</p>
+      </div>`;
+    return;
+  }
+
+  const frag = document.createDocumentFragment();
+
+  // Header bar
+  const header = document.createElement('div');
+  header.className = 'news-header panel';
+  const sources = [...new Set(newsCache.map(i => i.sourceIcon + ' ' + i.source))].join(' · ');
+  header.innerHTML = `
+    <strong><img class="icon" src="${ICONS.world}" alt=""> IPv4 &amp; Internet News</strong>
+    <span class="news-sources muted">${sources}</span>`;
+  frag.appendChild(header);
+
+  // Article list
+  const list = document.createElement('div');
+  list.className = 'news-list';
+
+  newsCache.forEach(item => {
+    const card = document.createElement('article');
+    card.className = 'news-card panel';
+
+    const date = item.pubDate
+      ? new Date(item.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
+      : '';
+
+    const head = document.createElement('div');
+    head.className = 'news-card-head';
+    head.innerHTML = `<span class="news-source">${item.sourceIcon || '📡'} ${item.source}</span><span class="news-date">${date}</span>`;
+
+    const title = document.createElement('a');
+    title.className = 'news-title';
+    title.href   = item.link;
+    title.target = '_blank';
+    title.rel    = 'noopener';
+    title.textContent = item.title;
+
+    card.appendChild(head);
+    card.appendChild(title);
+
+    if (item.description) {
+      const desc = document.createElement('p');
+      desc.className = 'news-desc muted';
+      desc.textContent = item.description;
+      card.appendChild(desc);
+    }
+
+    list.appendChild(card);
+  });
+
+  frag.appendChild(list);
+
+  // Updated timestamp
+  const updated = document.createElement('p');
+  updated.className = 'news-updated muted';
+  const newest = newsCache.find(i => i.pubDate);
+  updated.textContent = newest
+    ? `Last updated: ${new Date(newest.pubDate).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' })}`
+    : '';
+  frag.appendChild(updated);
+
+  el.appendChild(frag);
+}
+
+function setupViewTabs() {
+  document.getElementById('tab-timeline')?.addEventListener('click', () => {
+    const s = readHashRoute();
+    showTimelineView(s);
+    writeHashRoute({ q: s.q, cat: s.cat, dec: s.dec }, /*replace=*/true);
+    syncUIFromState(s);
+    render();
+  });
+  document.getElementById('tab-news')?.addEventListener('click', () => {
+    showNewsView();
+  });
+}
+
 /* ---------- Boot ---------- */
 (async function start(){
   try{
@@ -606,27 +748,42 @@ function render(){
     ALL = await loadAllEventsViaManifest();
 
     buildDecadeNav();
+    setupViewTabs();
 
     // Initialize state from hash (or legacy query), normalize hash, and render
     const s = readHashRoute();
-    // Default to most recent decade when landing with no filters
-    if (!s.q && !s.cat && !s.dec) s.dec = '2020s';
-    if (document.getElementById('dec')) document.getElementById('dec').value = s.dec;
-    syncUIFromState(s);
-    writeHashRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
+
+    if (s.view === 'news') {
+      syncUIFromState({ q:'', cat:'', dec:'' });
+      await showNewsView();
+    } else {
+      // Default to most recent decade when landing with no filters
+      if (!s.q && !s.cat && !s.dec) s.dec = '2020s';
+      if (document.getElementById('dec')) document.getElementById('dec').value = s.dec;
+      syncUIFromState(s);
+      writeHashRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
+      render();
+    }
 
     // React to back/forward or manual hash edits
     window.addEventListener('hashchange', () => {
       const s2 = readHashRoute();
-      syncUIFromState(s2);
-      render();
+      if (s2.view === 'news') {
+        showNewsView();
+      } else {
+        showTimelineView(s2);
+        syncUIFromState(s2);
+        render();
+      }
     });
 
-    document.getElementById("q").addEventListener("input", debounce(render, 150));
-    document.getElementById("cat").addEventListener("change", render);
-    document.getElementById("dec").addEventListener("change", render);
+    document.getElementById("q").addEventListener("input", debounce(() => {
+      showTimelineView();
+      render();
+    }, 150));
+    document.getElementById("cat").addEventListener("change", () => { showTimelineView(); render(); });
+    document.getElementById("dec").addEventListener("change", () => { showTimelineView(); render(); });
 
-    render();
   }catch(e){
     console.error(e);
     const yearsEl = document.getElementById("years");

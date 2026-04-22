@@ -243,19 +243,33 @@ footer{ margin:26px 0 80px; padding:14px }
   align-items: center;
   gap: 6px;
   margin: 0 0 14px;
+  /* Win95 toolbar panel */
+  background: var(--win);
+  border: 4px solid var(--br);
+  box-shadow: var(--shadow-in);
+  padding: 8px 12px;
 }
 .decade-jump-label {
-  font-size: 11px; font-weight: 700; color: #666;
-  text-transform: uppercase; letter-spacing: 0.4px;
-  margin-right: 2px; white-space: nowrap;
+  font-size: 11px; font-weight: 700; color: #444;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  padding-right: 4px;
+  border-right: 2px solid #808080;
+  margin-right: 4px;
+  white-space: nowrap;
+  align-self: center;
 }
 .decade-btn {
-  background: var(--win); border: 2px solid #808080;
-  padding: 4px 10px; font: inherit; font-size: 12px;
+  background: var(--win);
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+  padding: 3px 10px; font: inherit; font-size: 12px;
   cursor: pointer; white-space: nowrap;
 }
-.decade-btn:hover, .decade-btn:focus { background: #e0e0e0; border-color: #000; }
-.decade-btn:active { box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #fff; }
+.decade-btn:hover, .decade-btn:focus { background: #d4d4d4; outline: none; }
+.decade-btn:active {
+  border-color: #808080 #fff #fff #808080;
+  background: #b8b8b8;
+}
 .decade-btn.is-active {
   background: #000080; color: #fff; border-color: #000;
   box-shadow: inset 2px 2px 0 #00006a, inset -2px -2px 0 #4444cc;
@@ -336,3 +350,113 @@ body.modal-open { overflow: hidden; }
 }
 .win-error[hidden] { display: none; }
 .win-error-icon { font-size: 20px; flex-shrink: 0; line-height: 1.1; }
+
+/* ===== View tabs (Timeline / News) ===== */
+.view-tabs {
+  display: flex;
+  gap: 0;
+  margin: 0 0 -2px;
+  position: relative; z-index: 1;
+}
+.view-tab {
+  background: #b0b0b0; color: #333;
+  border: 2px solid #808080; border-bottom: none;
+  padding: 5px 14px; font: inherit; font-size: 13px;
+  cursor: pointer; margin-right: 3px;
+  white-space: nowrap;
+}
+.view-tab.is-active {
+  background: var(--win); color: #000; font-weight: 700;
+  border-color: #fff #808080 var(--win) #fff;
+  padding-bottom: 7px;
+}
+.view-tab:hover:not(.is-active) { background: #c4c4c4; }
+
+/* separator line that sits behind the tabs */
+.view-tabs + * { border-top: 2px solid #808080; padding-top: 14px; }
+.view-tabs + nav[hidden] + section,
+.view-tabs + nav + section { border-top: none; padding-top: 0; }
+
+/* ===== News view ===== */
+.news-view {
+  margin: 0 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.news-view[hidden] { display: none; }
+
+.news-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.news-header strong { display: flex; align-items: center; gap: 6px; font-size: 14px; }
+.news-sources { font-size: 11px; opacity: .75; }
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.news-card {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 10px 12px;
+  gap: 4px;
+}
+.news-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+}
+.news-source {
+  font-weight: 700;
+  display: flex; align-items: center; gap: 4px;
+}
+.news-date { opacity: .7; white-space: nowrap; }
+.news-title {
+  font-weight: 700;
+  font-size: 13px;
+  color: #0000EE;
+  text-decoration: none;
+  line-height: 1.35;
+}
+.news-title:visited { color: #551A8B; }
+.news-title:hover, .news-title:focus { color: #FF0000; text-decoration: underline; }
+.news-desc {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.news-empty {
+  padding: 20px 14px;
+  text-align: center;
+  font-size: 13px;
+}
+.news-updated {
+  font-size: 11px; opacity: .6;
+  text-align: right;
+  padding: 6px 2px 0;
+}
+
+@media(min-width: 700px) {
+  .news-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+}
