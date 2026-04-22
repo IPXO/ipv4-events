@@ -8,11 +8,11 @@
 import { writeFile, mkdir } from 'node:fs/promises';
 
 const SOURCES = [
-  { name: 'RIPE NCC',    icon: '🌍', url: 'https://blog.ripe.net/feed/' },
+  { name: 'RIPE Labs',   icon: '🌍', url: 'https://labs.ripe.net/feed.xml' },
   { name: 'APNIC',       icon: '🌏', url: 'https://blog.apnic.net/feed/' },
-  { name: 'ARIN',        icon: '🌎', url: 'https://www.arin.net/blog/feed/' },
+  { name: 'ARIN',        icon: '🌎', url: 'https://www.arin.net/blog/rss.xml' },
   { name: 'Cloudflare',  icon: '☁️',  url: 'https://blog.cloudflare.com/rss/' },
-  { name: 'The Register',icon: '📰',  url: 'https://www.theregister.com/networks/rss' },
+  { name: 'The Register',icon: '📰',  url: 'https://www.theregister.com/on_prem/networks/headlines.atom' },
 ];
 
 const MAX_PER_SOURCE = 10;

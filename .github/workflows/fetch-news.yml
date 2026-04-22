@@ -22,9 +22,22 @@ jobs:
         run: node scripts/fetch-news.mjs
 
       - name: Commit updated news.json (if changed)
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/news.json
-          git diff --staged --quiet || git commit -m "chore: update news feed [skip ci]"
-          git push
+          # Use the GitHub Contents API so the commit is marked "verified"
+          # (required by signed-commit branch protection rules).
+          if git diff --quiet docs/data/news.json 2>/dev/null && \
+             git ls-files --error-unmatch docs/data/news.json 2>/dev/null; then
+            echo "No changes — skipping."
+            exit 0
+          fi
+          SHA=$(gh api "repos/${{ github.repository }}/contents/docs/data/news.json" \
+                  --jq '.sha' 2>/dev/null || echo "")
+          CONTENT=$(base64 -w 0 docs/data/news.json)
+          gh api "repos/${{ github.repository }}/contents/docs/data/news.json" \
+            --method PUT \
+            --field message="chore: update news feed [skip ci]" \
+            --field content="$CONTENT" \
+            ${SHA:+--field sha="$SHA"}
+          echo "Committed news.json via GitHub API."
