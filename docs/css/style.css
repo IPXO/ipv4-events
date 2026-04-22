@@ -73,8 +73,25 @@ main{ padding:16px 0 }
 .hero h2{ margin:0 0 6px; font-size:18px; display:flex; gap:8px; align-items:center }
 .muted{ opacity:.9; font-size:13px }
 
-/* Categories grid */
-.catbar{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px }
+/* Categories — grouped pill bar */
+.catbar{ display:flex; flex-direction:column; gap:0; margin-top:10px }
+.catbar-group{
+  display:flex; align-items:flex-start; gap:8px;
+  padding:5px 0;
+  border-top:1px solid #a8a8a8;
+}
+.catbar-group:first-child{ border-top:none; }
+.cbg-label{
+  font-size:10px; font-weight:700; color:#555;
+  text-transform:uppercase; letter-spacing:0.4px;
+  white-space:nowrap; width:108px; flex-shrink:0;
+  padding-top:6px;
+}
+.cbg-pills{ display:flex; flex-wrap:wrap; gap:5px; flex:1; }
+@media(max-width:640px){
+  .catbar-group{ flex-direction:column; gap:4px; }
+  .cbg-label{ width:auto; padding-top:0; }
+}
 .grid{ display:grid; grid-template-columns:1fr; gap:14px; margin:18px 0 60px }
 @media(min-width:980px){ .grid{ grid-template-columns:1fr 1fr } }
 @media(min-width:1200px){ .grid{ grid-template-columns:1fr 1fr 1fr } }
