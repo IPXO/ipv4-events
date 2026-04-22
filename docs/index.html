@@ -180,11 +180,21 @@
   <div id="contribute-modal" class="modal-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal-win panel">
       <div class="modal-titlebar">
-        <span id="modal-title">Propose an Event</span>
-        <button id="c-close" class="modal-close" aria-label="Close">✕</button>
+        <span class="modal-titlebar-icon">💾</span>
+        <span id="modal-title">Propose an Event — ipv4.events</span>
+        <div class="modal-titlebar-btns">
+          <button id="c-close" class="modal-winbtn" aria-label="Close">✕</button>
+        </div>
       </div>
       <div class="modal-body">
-        <p class="muted">Fill in the details and we'll open a pre-filled GitHub issue for you.</p>
+        <p class="muted">Fill in the details below. We'll open a pre-filled GitHub issue for you — the maintainers will add it to the timeline!</p>
+
+        <!-- Win95-style validation error -->
+        <div id="c-error" class="win-error" hidden tabindex="-1" role="alert">
+          <span class="win-error-icon">⚠</span>
+          <span>Please fill in Year, Title, Category, and Overview before submitting.</span>
+        </div>
+
         <div class="form-row">
           <label for="c-year">Year <span class="req">*</span></label>
           <input type="number" id="c-year" class="input" min="1950" max="2030" placeholder="e.g. 1991">
@@ -210,7 +220,7 @@
           <input type="url" id="c-wiki" class="input" placeholder="https://en.wikipedia.org/wiki/…">
         </div>
         <div class="form-actions">
-          <button id="c-submit" class="btn-propose">Open GitHub Issue →</button>
+          <button id="c-submit" class="btn-propose">📋 Open GitHub Issue →</button>
           <button id="c-cancel" class="btn-clear">Cancel</button>
         </div>
       </div>
