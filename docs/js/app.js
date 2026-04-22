@@ -456,6 +456,8 @@ function render(){
   if (!modal || !openBtn) return;
 
   function openModal() {
+    const err = document.getElementById('c-error');
+    if (err) err.hidden = true;
     modal.hidden = false;
     document.body.classList.add('modal-open');
     setTimeout(() => { document.getElementById('c-year')?.focus(); }, 50);
@@ -480,9 +482,12 @@ function render(){
     const wiki     = document.getElementById('c-wiki')?.value.trim();
 
     if (!year || !title || !cat || !overview) {
-      alert('Please fill in Year, Title, Category, and Overview.');
+      const err = document.getElementById('c-error');
+      if (err) { err.hidden = false; err.focus(); }
       return;
     }
+    const err = document.getElementById('c-error');
+    if (err) err.hidden = true;
 
     const id = `${year}_${title.toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'')}`;
     const hashtags = hashtagsRaw ? hashtagsRaw.split(',').map(s=>s.trim()).filter(Boolean) : [];

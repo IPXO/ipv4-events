@@ -76,22 +76,16 @@ main{ padding:16px 0 }
 /* Categories — grouped pill bar */
 .catbar{ display:flex; flex-direction:column; gap:0; margin-top:10px }
 .catbar-group{
-  display:flex; align-items:flex-start; gap:8px;
-  padding:5px 0;
+  display:flex; flex-direction:column; gap:4px;
+  padding:6px 0;
   border-top:1px solid #a8a8a8;
 }
-.catbar-group:first-child{ border-top:none; }
+.catbar-group:first-child{ border-top:none; padding-top:2px; }
 .cbg-label{
-  font-size:10px; font-weight:700; color:#555;
-  text-transform:uppercase; letter-spacing:0.4px;
-  white-space:nowrap; width:108px; flex-shrink:0;
-  padding-top:6px;
+  font-size:10px; font-weight:700; color:#666;
+  text-transform:uppercase; letter-spacing:0.5px;
 }
-.cbg-pills{ display:flex; flex-wrap:wrap; gap:5px; flex:1; }
-@media(max-width:640px){
-  .catbar-group{ flex-direction:column; gap:4px; }
-  .cbg-label{ width:auto; padding-top:0; }
-}
+.cbg-pills{ display:flex; flex-wrap:wrap; gap:5px; }
 .grid{ display:grid; grid-template-columns:1fr; gap:14px; margin:18px 0 60px }
 @media(min-width:980px){ .grid{ grid-template-columns:1fr 1fr } }
 @media(min-width:1200px){ .grid{ grid-template-columns:1fr 1fr 1fr } }
@@ -304,3 +298,30 @@ footer{ margin:26px 0 80px; padding:14px }
   border-top: 2px solid #808080;
 }
 body.modal-open { overflow: hidden; }
+
+/* ===== Modal titlebar extras ===== */
+.modal-titlebar-icon { font-size: 14px; flex-shrink: 0; }
+.modal-titlebar-btns { display: flex; gap: 2px; }
+.modal-winbtn {
+  background: var(--win); color: #000;
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+  width: 22px; height: 22px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 0; font: inherit; font-size: 11px; cursor: pointer; line-height: 1;
+}
+.modal-winbtn:hover { background: #e0e0e0; }
+.modal-winbtn:active { border-color: #808080 #fff #fff #808080; }
+
+/* ===== Win95 inline validation error ===== */
+.win-error {
+  display: flex; align-items: flex-start; gap: 10px;
+  background: var(--win);
+  border: 2px solid #808080;
+  box-shadow: var(--shadow-in);
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+.win-error[hidden] { display: none; }
+.win-error-icon { font-size: 20px; flex-shrink: 0; line-height: 1.1; }
