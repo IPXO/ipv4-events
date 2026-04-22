@@ -33,6 +33,11 @@ function loaderTick(message){
 }
 
 /* ---------- Helpers ---------- */
+function debounce(fn, ms) {
+  let t;
+  return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
+}
+
 function decadeOf(y){
   if (y<1960) return "1950s";
   if (y<1970) return "1960s";
@@ -196,9 +201,6 @@ function writeHashRoute({q,cat,dec}, replace=false){
   else history.pushState(null, '', newHash);
 }
 
-/**
- * Sync UI with current state (search / selects / active pill)
- */
 function syncUIFromState(s) {
   const qEl   = document.getElementById("q");
   const catEl = document.getElementById("cat");
@@ -218,13 +220,19 @@ async function loadCategories(){
   if(!res.ok) throw new Error("Failed to load data/categories.json");
   CATS = await res.json();
 
-  // Canonical set
   CANON = new Set(CATS.map(c => c.id));
 
-  // Fill select
+  // Main category filter select
   const sel = document.getElementById("cat");
   sel.innerHTML = '<option value="">All categories</option>' +
     CATS.map(c=>`<option value="${c.id}">${c.label}</option>`).join("");
+
+  // Contribution modal category select
+  const cCat = document.getElementById("c-cat");
+  if (cCat) {
+    cCat.innerHTML = '<option value="">Select category…</option>' +
+      CATS.map(c=>`<option value="${c.id}">${c.label}</option>`).join("");
+  }
 
   // Category pill bar
   const bar = document.getElementById("catbar");
@@ -233,13 +241,15 @@ async function loadCategories(){
       <img class="icon" src="${String(c.iconUrl||'').replace(/^\/+/,'')}" alt="${c.label} icon"> ${c.label}
     </button>`).join("");
 
-  // Keep pill clicks in sync with selects + route + render
+  // Pill clicks: toggle — clicking an active pill clears the filter
   bar.querySelectorAll(".cat-pill").forEach(b=>{
     b.addEventListener("click",()=>{
+      const alreadyActive = b.classList.contains('is-active');
       const q = (document.getElementById("q")?.value)||'';
       const dec = (document.getElementById("dec")?.value)||'';
-      document.getElementById("cat").value = b.dataset.cat;
-      const s = { q, cat: b.dataset.cat, dec };
+      const newCat = alreadyActive ? '' : b.dataset.cat;
+      document.getElementById("cat").value = newCat;
+      const s = { q, cat: newCat, dec };
       syncUIFromState(s);
       writeHashRoute(s, /*replace=*/true);
       render();
@@ -255,22 +265,24 @@ async function loadAllEventsViaManifest(){
   loaderTick('Loaded manifest…');
 
   const base = "data/events/";
+
+  // Fetch all files in parallel instead of sequentially
+  const results = await Promise.allSettled(
+    files.map(f => fetch(base + f).then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    }))
+  );
+
   const all = [];
-  for (const f of files){
-    try{
-      const r = await fetch(base + f);
-      if (!r.ok) { loaderTick(`Missing: ${f}`); continue; }
-      const arr = await r.json();
-      if (Array.isArray(arr)) {
-        all.push(...arr.map(ev => normalizeEventCategories(ev)));
-        loaderTick(`Loaded: ${f}`);
-      } else {
-        loaderTick(`Bad JSON (not array): ${f}`);
-      }
-    }catch(e){
-      loaderTick(`Error: ${f}`);
+  results.forEach((result, i) => {
+    if (result.status === 'fulfilled' && Array.isArray(result.value)) {
+      all.push(...result.value.map(ev => normalizeEventCategories(ev)));
+      loaderTick(`Loaded: ${files[i]}`);
+    } else {
+      loaderTick(`Error: ${files[i]}`);
     }
-  }
+  });
   return all;
 }
 
@@ -285,6 +297,34 @@ function render(){
   filtered.forEach(e => { (byYear[e.year] = byYear[e.year] || []).push(e); });
   const years = Object.keys(byYear).map(n=>+n).sort((a,b)=>a-b);
 
+  // Event count
+  const countEl = document.getElementById("event-count");
+  if (countEl) {
+    const total = ALL.length;
+    countEl.textContent = filtered.length === total
+      ? `${total.toLocaleString()} events`
+      : `${filtered.length.toLocaleString()} of ${total.toLocaleString()} events`;
+  }
+
+  // Show/hide clear button
+  const clearBtn = document.getElementById("clear-filters");
+  if (clearBtn) clearBtn.hidden = !(q || cat || dec);
+
+  // Decade jump nav
+  const decadeNav = document.getElementById("decade-jump");
+  if (decadeNav) {
+    const decades = [...new Set(years.map(y => decadeOf(y)))];
+    if (decades.length > 1) {
+      decadeNav.hidden = false;
+      decadeNav.innerHTML = decades.map(d => {
+        const firstYear = years.find(y => decadeOf(y) === d);
+        return `<button class="decade-btn" onclick="document.getElementById('year-${firstYear}')?.scrollIntoView({behavior:'smooth',block:'start'})">${d}</button>`;
+      }).join('');
+    } else {
+      decadeNav.hidden = true;
+    }
+  }
+
   const root = document.getElementById("years");
   root.innerHTML = "";
   if (!years.length){
@@ -293,11 +333,11 @@ function render(){
     empty.style.padding = "14px";
     empty.textContent = "No events match your filters.";
     root.appendChild(empty);
-    // keep URL in sync even for empty states
     writeHashRoute({ q, cat, dec }, /*replace=*/true);
     return;
   }
 
+  const frag = document.createDocumentFragment();
   years.forEach(y=>{
     const card = document.createElement("section"); card.className="year-card panel"; card.id = `year-${y}`;
     const head = document.createElement("div"); head.className="year-head";
@@ -347,12 +387,95 @@ function render(){
       ul.appendChild(li);
     });
 
-    card.appendChild(head); card.appendChild(ul); root.appendChild(card);
+    card.appendChild(head); card.appendChild(ul); frag.appendChild(card);
   });
+  root.appendChild(frag);
 
-  // Keep hash URL in sync (replace so typing in search doesn’t spam history)
+  // Keep hash URL in sync (replace so typing in search doesn't spam history)
   writeHashRoute({ q, cat, dec }, /*replace=*/true);
 }
+
+/* ---------- Clear filters ---------- */
+(function clearSetup(){
+  const btn = document.getElementById('clear-filters');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    document.getElementById("q").value = '';
+    document.getElementById("cat").value = '';
+    document.getElementById("dec").value = '';
+    const s = { q:'', cat:'', dec:'' };
+    syncUIFromState(s);
+    writeHashRoute(s, /*replace=*/true);
+    render();
+  });
+})();
+
+/* ---------- Contribute modal ---------- */
+(function contributeSetup(){
+  const modal   = document.getElementById('contribute-modal');
+  const openBtn = document.getElementById('propose-btn');
+  const closeBtn = document.getElementById('c-close');
+  const cancelBtn = document.getElementById('c-cancel');
+  const submitBtn = document.getElementById('c-submit');
+  if (!modal || !openBtn) return;
+
+  function openModal() {
+    modal.hidden = false;
+    document.body.classList.add('modal-open');
+    setTimeout(() => { document.getElementById('c-year')?.focus(); }, 50);
+  }
+  function closeModal() {
+    modal.hidden = true;
+    document.body.classList.remove('modal-open');
+  }
+
+  openBtn.addEventListener('click', openModal);
+  closeBtn?.addEventListener('click', closeModal);
+  cancelBtn?.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.hidden) closeModal(); });
+
+  submitBtn?.addEventListener('click', () => {
+    const year     = document.getElementById('c-year')?.value.trim();
+    const title    = document.getElementById('c-title')?.value.trim();
+    const cat      = document.getElementById('c-cat')?.value;
+    const overview = document.getElementById('c-overview')?.value.trim();
+    const hashtagsRaw = document.getElementById('c-hashtags')?.value.trim();
+    const wiki     = document.getElementById('c-wiki')?.value.trim();
+
+    if (!year || !title || !cat || !overview) {
+      alert('Please fill in Year, Title, Category, and Overview.');
+      return;
+    }
+
+    const id = `${year}_${title.toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'')}`;
+    const hashtags = hashtagsRaw ? hashtagsRaw.split(',').map(s=>s.trim()).filter(Boolean) : [];
+
+    const eventObj = {
+      id,
+      year: parseInt(year, 10),
+      categories: [cat],
+      title,
+      overview,
+      hashtags,
+      ...(wiki ? { links: { wikipedia: wiki } } : {})
+    };
+
+    const jsonStr = JSON.stringify(eventObj, null, 2);
+    const issueTitle = encodeURIComponent(`Propose event: ${title} (${year})`);
+    const issueBody  = encodeURIComponent(
+      `## Proposed Event\n\n\`\`\`json\n${jsonStr}\n\`\`\`\n\n` +
+      `**Which JSON file should this go in?** *(e.g. standards.json, browsers.json)*\n\n` +
+      `---\n*Submitted via the [ipv4.events](https://ipv4.events) contribution form*`
+    );
+
+    window.open(
+      `https://github.com/IPXO/ipv4-events/issues/new?title=${issueTitle}&body=${issueBody}`,
+      '_blank', 'noopener'
+    );
+    closeModal();
+  });
+})();
 
 /* ---------- Mobile filter drawer (iOS-safe) ---------- */
 (function drawerSetup(){
@@ -412,7 +535,7 @@ function render(){
       render();
     });
 
-    document.getElementById("q").addEventListener("input", render);
+    document.getElementById("q").addEventListener("input", debounce(render, 150));
     document.getElementById("cat").addEventListener("change", render);
     document.getElementById("dec").addEventListener("change", render);
 
