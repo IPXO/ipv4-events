@@ -13,10 +13,12 @@ const SOURCES = [
   { name: 'ARIN',        icon: '🌎', url: 'https://www.arin.net/blog/rss.xml' },
   { name: 'Cloudflare',  icon: '☁️',  url: 'https://blog.cloudflare.com/rss/' },
   { name: 'The Register',icon: '📰',  url: 'https://www.theregister.com/on_prem/networks/headlines.atom' },
+  { name: 'IETF',        icon: '📋',  url: 'https://www.ietf.org/blog/feed/' },
+  { name: 'CircleID',    icon: '🔵',  url: 'https://circleid.com/feeds/main/' },
 ];
 
 const MAX_PER_SOURCE = 10;
-const MAX_TOTAL      = 40;
+const MAX_TOTAL      = 60;
 const TIMEOUT_MS     = 12000;
 
 /* ── XML helpers ── */
