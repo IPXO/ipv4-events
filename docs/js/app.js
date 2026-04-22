@@ -147,7 +147,11 @@ function normalizeEventCategories(ev) {
 }
 
 /* ---------- Hash routing (robust on GitHub Pages) ---------- */
-function slugify(s){ return String(s).toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,''); }
+function slugify(s){
+  return String(s).toLowerCase()
+    .replace(/[/&]/g, '-').replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '').replace(/-+/g, '-').replace(/^-|-$/g, '');
+}
 
 function unslugifyCategory(slug){
   if (!slug) return null;
@@ -234,12 +238,44 @@ async function loadCategories(){
       CATS.map(c=>`<option value="${c.id}">${c.label}</option>`).join("");
   }
 
-  // Category pill bar
+  // Category pill bar — grouped by the "group" field
   const bar = document.getElementById("catbar");
-  bar.innerHTML = CATS.map(c =>
-    `<button class="cat-pill" data-cat="${c.id}" title="${c.group||''}">
-      <img class="icon" src="${String(c.iconUrl||'').replace(/^\/+/,'')}" alt="${c.label} icon"> ${c.label}
-    </button>`).join("");
+  bar.innerHTML = '';
+
+  // Build ordered group list preserving categories.json order
+  const groupOrder = [];
+  const groupMap = {};
+  for (const c of CATS) {
+    const g = c.group || 'Other';
+    if (!groupMap[g]) { groupMap[g] = []; groupOrder.push(g); }
+    groupMap[g].push(c);
+  }
+
+  const frag = document.createDocumentFragment();
+  for (const g of groupOrder) {
+    const row = document.createElement('div');
+    row.className = 'catbar-group';
+
+    const lbl = document.createElement('span');
+    lbl.className = 'cbg-label';
+    lbl.textContent = g;
+    row.appendChild(lbl);
+
+    const pills = document.createElement('div');
+    pills.className = 'cbg-pills';
+    for (const c of groupMap[g]) {
+      const btn = document.createElement('button');
+      btn.className = 'cat-pill';
+      btn.dataset.cat = c.id;
+      btn.title = c.group || '';
+      btn.innerHTML = `<img class="icon" src="${String(c.iconUrl||'').replace(/^\/+/,'')}" alt="${c.label} icon"> ${c.label}`;
+      pills.appendChild(btn);
+    }
+    row.appendChild(pills);
+    frag.appendChild(row);
+  }
+  bar.appendChild(frag);
+
 
   // Pill clicks: toggle — clicking an active pill clears the filter
   bar.querySelectorAll(".cat-pill").forEach(b=>{
