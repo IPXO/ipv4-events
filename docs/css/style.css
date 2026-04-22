@@ -76,22 +76,16 @@ main{ padding:16px 0 }
 /* Categories — grouped pill bar */
 .catbar{ display:flex; flex-direction:column; gap:0; margin-top:10px }
 .catbar-group{
-  display:flex; align-items:flex-start; gap:8px;
-  padding:5px 0;
+  display:flex; flex-direction:column; gap:4px;
+  padding:6px 0;
   border-top:1px solid #a8a8a8;
 }
-.catbar-group:first-child{ border-top:none; }
+.catbar-group:first-child{ border-top:none; padding-top:2px; }
 .cbg-label{
-  font-size:10px; font-weight:700; color:#555;
-  text-transform:uppercase; letter-spacing:0.4px;
-  white-space:nowrap; width:108px; flex-shrink:0;
-  padding-top:6px;
+  font-size:10px; font-weight:700; color:#666;
+  text-transform:uppercase; letter-spacing:0.5px;
 }
-.cbg-pills{ display:flex; flex-wrap:wrap; gap:5px; flex:1; }
-@media(max-width:640px){
-  .catbar-group{ flex-direction:column; gap:4px; }
-  .cbg-label{ width:auto; padding-top:0; }
-}
+.cbg-pills{ display:flex; flex-wrap:wrap; gap:5px; }
 .grid{ display:grid; grid-template-columns:1fr; gap:14px; margin:18px 0 60px }
 @media(min-width:980px){ .grid{ grid-template-columns:1fr 1fr } }
 @media(min-width:1200px){ .grid{ grid-template-columns:1fr 1fr 1fr } }
