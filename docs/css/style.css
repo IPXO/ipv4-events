@@ -117,9 +117,10 @@ footer{ margin:26px 0 80px; padding:14px }
 .controls > * { min-width:0; }
 .controls .input, .controls .select { max-width:100%; width:100%; box-sizing:border-box; line-height:1.1; }
 @media (min-width:700px){
-  .controls{ display:grid; grid-template-columns:1fr 220px 180px; gap:8px; }
+  .controls{ display:grid; grid-template-columns:1fr 220px 180px auto; gap:8px; align-items:center; }
   .controls .input{ width:100%; }
   .controls .select{ width:auto; }
+  .controls .btn-clear{ align-self:stretch; }
 }
 
 /* ===== Category pills ===== */
@@ -185,3 +186,104 @@ footer{ margin:26px 0 80px; padding:14px }
 .wp-link:focus {
   text-decoration: underline;
 }
+
+/* ===== Hero footer row (count + propose button) ===== */
+.hero-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.event-count {
+  font-size: 12px;
+  opacity: .75;
+}
+
+/* ===== Buttons ===== */
+.btn-propose {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: #000080; color: #fff;
+  border: 2px solid #000; padding: 5px 10px;
+  font: inherit; font-size: 13px; cursor: pointer;
+  white-space: nowrap;
+}
+.btn-propose:hover, .btn-propose:focus { background: #0000cc; outline: 2px solid #000; outline-offset: 1px; }
+.btn-propose:active { background: #000060; }
+
+.btn-clear {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: #fff; color: #000;
+  border: 2px solid #808080; padding: 5px 10px;
+  font: inherit; font-size: 13px; cursor: pointer;
+  white-space: nowrap;
+}
+.btn-clear:hover, .btn-clear:focus { background: #e0e0e0; border-color: #000; }
+.btn-clear:active { background: #c0c0c0; box-shadow: inset 2px 2px 0 #808080; }
+
+/* Clear button inside filter bar */
+.controls .btn-clear { padding: 7px 10px; }
+
+/* ===== Decade jump nav ===== */
+.decade-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 14px;
+}
+.decade-btn {
+  background: var(--win); border: 2px solid #808080;
+  padding: 4px 10px; font: inherit; font-size: 12px;
+  cursor: pointer; white-space: nowrap;
+}
+.decade-btn:hover, .decade-btn:focus { background: #e0e0e0; border-color: #000; }
+.decade-btn:active { box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #fff; }
+
+/* ===== Contribution modal ===== */
+.modal-overlay {
+  position: fixed; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,.4);
+  z-index: 9998;
+  padding: 16px;
+}
+.modal-overlay[hidden] { display: none; }
+.modal-win {
+  width: 100%; max-width: 480px;
+  max-height: calc(100vh - 32px);
+  display: flex; flex-direction: column;
+  overflow: hidden;
+}
+.modal-titlebar {
+  display: flex; align-items: center; justify-content: space-between;
+  background: #000080; color: #fff;
+  padding: 6px 10px; font-weight: 700; font-size: 13px;
+  flex-shrink: 0;
+}
+.modal-close {
+  background: var(--win); color: #000;
+  border: 2px solid #808080; width: 20px; height: 20px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 0; font: inherit; font-size: 11px; cursor: pointer; line-height: 1;
+}
+.modal-close:hover { background: #e0e0e0; }
+.modal-body {
+  padding: 14px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.form-row {
+  display: flex; flex-direction: column; gap: 4px;
+  margin-bottom: 10px;
+}
+.form-row label { font-size: 12px; font-weight: 700; }
+.form-row .input, .form-row .select { width: 100%; }
+.form-row textarea.input { resize: vertical; font-family: inherit; }
+.req { color: #c00; }
+.form-actions {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  margin-top: 14px; padding-top: 10px;
+  border-top: 2px solid #808080;
+}
+body.modal-open { overflow: hidden; }
