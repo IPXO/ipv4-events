@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Fetch RSS feeds and write news.json
         run: node scripts/fetch-news.mjs
@@ -25,19 +25,35 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Use the GitHub Contents API so the commit is marked "verified"
-          # (required by signed-commit branch protection rules).
-          if git diff --quiet docs/data/news.json 2>/dev/null && \
-             git ls-files --error-unmatch docs/data/news.json 2>/dev/null; then
-            echo "No changes — skipping."
+          # Fetch current file info from GitHub (sha required for updates)
+          REMOTE=$(gh api \
+            "repos/${{ github.repository }}/contents/docs/data/news.json" \
+            2>/dev/null || echo "{}")
+          FILE_SHA=$(echo "$REMOTE" | python3 -c \
+            "import sys,json; print(json.load(sys.stdin).get('sha',''))" 2>/dev/null || echo "")
+          REMOTE_B64=$(echo "$REMOTE" | python3 -c \
+            "import sys,json; print(json.load(sys.stdin).get('content','').replace('\n',''))" 2>/dev/null || echo "")
+
+          # Compare local vs remote content (skip if identical)
+          LOCAL_B64=$(base64 -w0 docs/data/news.json)
+          if [ "$LOCAL_B64" = "$REMOTE_B64" ]; then
+            echo "news.json unchanged — skipping commit."
             exit 0
           fi
-          SHA=$(gh api "repos/${{ github.repository }}/contents/docs/data/news.json" \
-                  --jq '.sha' 2>/dev/null || echo "")
-          CONTENT=$(base64 -w 0 docs/data/news.json)
-          gh api "repos/${{ github.repository }}/contents/docs/data/news.json" \
-            --method PUT \
-            --field message="chore: update news feed [skip ci]" \
-            --field content="$CONTENT" \
-            ${SHA:+--field sha="$SHA"}
-          echo "Committed news.json via GitHub API."
+
+          # Commit via GitHub Contents API.
+          # API commits are marked "verified" by GitHub, satisfying the
+          # "Require signed commits" branch protection rule.
+          if [ -n "$FILE_SHA" ]; then
+            gh api "repos/${{ github.repository }}/contents/docs/data/news.json" \
+              --method PUT \
+              --field "message=chore: update news feed [skip ci]" \
+              --field "content=$LOCAL_B64" \
+              --field "sha=$FILE_SHA"
+          else
+            gh api "repos/${{ github.repository }}/contents/docs/data/news.json" \
+              --method PUT \
+              --field "message=chore: update news feed [skip ci]" \
+              --field "content=$LOCAL_B64"
+          fi
+          echo "news.json committed via GitHub API."
