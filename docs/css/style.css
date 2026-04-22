@@ -243,19 +243,33 @@ footer{ margin:26px 0 80px; padding:14px }
   align-items: center;
   gap: 6px;
   margin: 0 0 14px;
+  /* Win95 toolbar panel */
+  background: var(--win);
+  border: 4px solid var(--br);
+  box-shadow: var(--shadow-in);
+  padding: 8px 12px;
 }
 .decade-jump-label {
-  font-size: 11px; font-weight: 700; color: #666;
-  text-transform: uppercase; letter-spacing: 0.4px;
-  margin-right: 2px; white-space: nowrap;
+  font-size: 11px; font-weight: 700; color: #444;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  padding-right: 4px;
+  border-right: 2px solid #808080;
+  margin-right: 4px;
+  white-space: nowrap;
+  align-self: center;
 }
 .decade-btn {
-  background: var(--win); border: 2px solid #808080;
-  padding: 4px 10px; font: inherit; font-size: 12px;
+  background: var(--win);
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+  padding: 3px 10px; font: inherit; font-size: 12px;
   cursor: pointer; white-space: nowrap;
 }
-.decade-btn:hover, .decade-btn:focus { background: #e0e0e0; border-color: #000; }
-.decade-btn:active { box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #fff; }
+.decade-btn:hover, .decade-btn:focus { background: #d4d4d4; outline: none; }
+.decade-btn:active {
+  border-color: #808080 #fff #fff #808080;
+  background: #b8b8b8;
+}
 .decade-btn.is-active {
   background: #000080; color: #fff; border-color: #000;
   box-shadow: inset 2px 2px 0 #00006a, inset -2px -2px 0 #4444cc;
