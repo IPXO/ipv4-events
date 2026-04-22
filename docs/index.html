@@ -116,8 +116,15 @@
   <!-- Header -->
   <header class="top" role="banner">
     <div class="top-inner container">
-      <div class="brand" aria-label="Site brand">
-        <img id="ico-computer" class="icon" alt="ipv4.events logo"/> ipv4.events — The IPv4 Era
+      <div class="top-left">
+        <div class="brand" aria-label="Site brand">
+          <img id="ico-computer" class="icon" alt="ipv4.events logo"/> ipv4.events — The IPv4 Era
+        </div>
+        <!-- View tabs live in the header so they're always visible -->
+        <div id="view-tabs" class="view-tabs" role="tablist">
+          <button id="tab-timeline" class="view-tab is-active" role="tab" aria-selected="true">🗂️ Timeline</button>
+          <button id="tab-news"     class="view-tab"           role="tab" aria-selected="false">📰 News</button>
+        </div>
       </div>
 
       <!-- Mobile filter toggle -->
@@ -127,7 +134,7 @@
 
       <!-- Filters (becomes a drawer on mobile) -->
       <nav id="filters" class="controls" aria-label="Filters">
-        <input id="q" class="input" placeholder="Search titles, hashtags, years…" aria-label="Search">
+        <input id="q" class="input" placeholder="Search…" aria-label="Search">
         <select id="cat" class="select" aria-label="Category"></select>
         <select id="dec" class="select" aria-label="Decade">
           <option value="">All decades</option>
@@ -141,12 +148,13 @@
 
   <!-- Main -->
   <main class="container" role="main">
-    <section class="hero panel">
+
+    <!-- Timeline hero (hidden in news view) -->
+    <section id="timeline-hero" class="hero panel">
       <h2><img id="ico-world" class="icon" alt="Globe icon"/> From ARPANET to Dual-Stack — and Beyond</h2>
       <p class="muted">
-        A retro-styled timeline of technological milestones across the IPv4 era:
-        standards, operating systems, programming languages, browsers, mobile & wireless, security & policy, finance & markets,
-        cloud, serverless, edge, CDNs, data centers, submarine cables, IXPs/NOGs, AI, space, satellite internet, and more.
+        500+ milestones across the IPv4 era: standards, operating systems, browsers, networking, security,
+        cloud, AI, space and more. Filter by category or era below.
       </p>
       <div id="catbar" class="catbar" aria-label="Category shortcuts"></div>
       <div class="hero-foot">
@@ -155,11 +163,11 @@
       </div>
     </section>
 
-    <!-- View tabs: Timeline / News -->
-    <div id="view-tabs" class="view-tabs" role="tablist">
-      <button id="tab-timeline" class="view-tab is-active" role="tab" aria-selected="true"  aria-controls="years">🗂️ Timeline</button>
-      <button id="tab-news"     class="view-tab"           role="tab" aria-selected="false" aria-controls="news-view">📰 News</button>
-    </div>
+    <!-- News hero (hidden in timeline view) -->
+    <section id="news-hero" class="hero panel" hidden>
+      <h2><img id="ico-world-news" class="icon" alt=""/> IPv4 &amp; Internet News</h2>
+      <p class="muted">Latest articles from RIPE NCC, APNIC, ARIN, Cloudflare and more — updated daily.</p>
+    </section>
 
     <nav id="decade-jump" class="decade-jump" aria-label="Filter by era" hidden></nav>
 
