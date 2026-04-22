@@ -240,8 +240,14 @@ footer{ margin:26px 0 80px; padding:14px }
 .decade-jump {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 6px;
   margin: 0 0 14px;
+}
+.decade-jump-label {
+  font-size: 11px; font-weight: 700; color: #666;
+  text-transform: uppercase; letter-spacing: 0.4px;
+  margin-right: 2px; white-space: nowrap;
 }
 .decade-btn {
   background: var(--win); border: 2px solid #808080;
@@ -250,6 +256,11 @@ footer{ margin:26px 0 80px; padding:14px }
 }
 .decade-btn:hover, .decade-btn:focus { background: #e0e0e0; border-color: #000; }
 .decade-btn:active { box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #fff; }
+.decade-btn.is-active {
+  background: #000080; color: #fff; border-color: #000;
+  box-shadow: inset 2px 2px 0 #00006a, inset -2px -2px 0 #4444cc;
+}
+.decade-btn.is-active:hover, .decade-btn.is-active:focus { background: #0000aa; }
 
 /* ===== Contribution modal ===== */
 .modal-overlay {
