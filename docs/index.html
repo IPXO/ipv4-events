@@ -115,24 +115,24 @@
 
   <!-- Header -->
   <header class="top" role="banner">
-    <div class="top-inner container">
-      <div class="top-left">
+    <!-- Win95-style titlebar: blue strip with site name -->
+    <div class="top-titlebar">
+      <div class="brand-row container">
         <div class="brand" aria-label="Site brand">
           <img id="ico-computer" class="icon" alt="ipv4.events logo"/> ipv4.events — The IPv4 Era
         </div>
-        <!-- View tabs live in the header so they're always visible -->
-        <div id="view-tabs" class="view-tabs" role="tablist">
-          <button id="tab-timeline" class="view-tab is-active" role="tab" aria-selected="true">🗂️ Timeline</button>
-          <button id="tab-news"     class="view-tab"           role="tab" aria-selected="false">📰 News</button>
-        </div>
+        <!-- Mobile: open filter drawer -->
+        <button id="filterToggle" class="filter-toggle" aria-expanded="false" aria-controls="filters">
+          Filters
+        </button>
       </div>
-
-      <!-- Mobile filter toggle -->
-      <button id="filterToggle" class="filter-toggle" aria-expanded="false" aria-controls="filters">
-        Filters
-      </button>
-
-      <!-- Filters (becomes a drawer on mobile) -->
+    </div>
+    <!-- Controls bar: view tabs on left, filters on right -->
+    <div class="top-bar container">
+      <div id="view-tabs" class="view-tabs" role="tablist">
+        <button id="tab-timeline" class="view-tab is-active" role="tab" aria-selected="true">🗂️ Timeline</button>
+        <button id="tab-news"     class="view-tab"           role="tab" aria-selected="false">📰 News</button>
+      </div>
       <nav id="filters" class="controls" aria-label="Filters">
         <input id="q" class="input" placeholder="Search…" aria-label="Search">
         <select id="cat" class="select" aria-label="Category"></select>
