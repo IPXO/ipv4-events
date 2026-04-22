@@ -61,6 +61,8 @@ let CATS = [];
 let ALL = [];
 let CANON = new Set();
 
+const ALL_DECADES = ['1950s','1960s','1970s','1980s','1990s','2000s','2010s','2020s'];
+
 /* ---------- Category normalization (aliases) ---------- */
 const CAT_ALIASES = new Map([
   // Networking & Backbone
@@ -215,6 +217,7 @@ function syncUIFromState(s) {
 
   const pills = document.querySelectorAll('.cat-pill');
   pills.forEach(b => b.classList.toggle('is-active', !!(s.cat && b.dataset.cat === s.cat)));
+  updateDecadeNav(s.dec || '');
 }
 
 /* ---------- Data loading ---------- */
@@ -322,6 +325,57 @@ async function loadAllEventsViaManifest(){
   return all;
 }
 
+/* ---------- Decade nav ---------- */
+function buildDecadeNav() {
+  const nav = document.getElementById('decade-jump');
+  if (!nav) return;
+  nav.hidden = false;
+
+  const frag = document.createDocumentFragment();
+
+  const lbl = document.createElement('span');
+  lbl.className = 'decade-jump-label';
+  lbl.textContent = 'Era:';
+  frag.appendChild(lbl);
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'decade-btn';
+  allBtn.dataset.dec = '';
+  allBtn.textContent = 'All';
+  frag.appendChild(allBtn);
+
+  ALL_DECADES.forEach(d => {
+    const btn = document.createElement('button');
+    btn.className = 'decade-btn';
+    btn.dataset.dec = d;
+    btn.textContent = d;
+    frag.appendChild(btn);
+  });
+
+  nav.appendChild(frag);
+
+  nav.addEventListener('click', e => {
+    const btn = e.target.closest('[data-dec]');
+    if (!btn) return;
+    const dec = btn.dataset.dec;
+    const q = (document.getElementById('q')?.value || '').toLowerCase();
+    const cat = document.getElementById('cat')?.value || '';
+    const s = { q, cat, dec };
+    const decEl = document.getElementById('dec');
+    if (decEl) decEl.value = dec;
+    syncUIFromState(s);
+    writeHashRoute(s, true);
+    render();
+  });
+}
+
+function updateDecadeNav(dec) {
+  const active = dec || '';
+  document.querySelectorAll('#decade-jump [data-dec]').forEach(btn => {
+    btn.classList.toggle('is-active', btn.dataset.dec === active);
+  });
+}
+
 /* ---------- Render ---------- */
 function render(){
   const q = (document.getElementById("q").value||"").toLowerCase();
@@ -346,20 +400,7 @@ function render(){
   const clearBtn = document.getElementById("clear-filters");
   if (clearBtn) clearBtn.hidden = !(q || cat || dec);
 
-  // Decade jump nav
-  const decadeNav = document.getElementById("decade-jump");
-  if (decadeNav) {
-    const decades = [...new Set(years.map(y => decadeOf(y)))];
-    if (decades.length > 1) {
-      decadeNav.hidden = false;
-      decadeNav.innerHTML = decades.map(d => {
-        const firstYear = years.find(y => decadeOf(y) === d);
-        return `<button class="decade-btn" onclick="document.getElementById('year-${firstYear}')?.scrollIntoView({behavior:'smooth',block:'start'})">${d}</button>`;
-      }).join('');
-    } else {
-      decadeNav.hidden = true;
-    }
-  }
+  updateDecadeNav(dec);
 
   const root = document.getElementById("years");
   root.innerHTML = "";
@@ -438,8 +479,8 @@ function render(){
   btn.addEventListener('click', () => {
     document.getElementById("q").value = '';
     document.getElementById("cat").value = '';
-    document.getElementById("dec").value = '';
-    const s = { q:'', cat:'', dec:'' };
+    document.getElementById("dec").value = '2020s';
+    const s = { q:'', cat:'', dec:'2020s' };
     syncUIFromState(s);
     writeHashRoute(s, /*replace=*/true);
     render();
@@ -564,8 +605,13 @@ function render(){
     await loadCategories();
     ALL = await loadAllEventsViaManifest();
 
+    buildDecadeNav();
+
     // Initialize state from hash (or legacy query), normalize hash, and render
     const s = readHashRoute();
+    // Default to most recent decade when landing with no filters
+    if (!s.q && !s.cat && !s.dec) s.dec = '2020s';
+    if (document.getElementById('dec')) document.getElementById('dec').value = s.dec;
     syncUIFromState(s);
     writeHashRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
 
