@@ -1,1 +1,482 @@
-[]
+[
+  {
+    "title": "ARIN 57 Day 3 Recap",
+    "link": "https://www.arin.net/blog/2026/04/22/arin-57-day-3-recap/",
+    "description": "Today marked the third and final day of our ARIN 57 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
+    "pubDate": "2026-04-22T16:30:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
+    "link": "https://developers.cloudflare.com/workers/languages/rust/",
+    "description": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
+    "pubDate": "2026-04-22T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Oil crisis? What oil crisis? IT spending de-coupled from wider war shock",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/oil_crisis_what_oil_crisis/",
+    "description": "<h4>Gartner sees accelerating growth in IT spending, powered by cloud and AI infrastructure investment</h4> <p>A day after the International Energy Agency (IEA) said the US/Israel/Iran war was creating the <a target=\"_blank\" href=\"https://www.reuters.com/business/energy/war-iran-…",
+    "pubDate": "2026-04-22T08:30:11.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Using QUIC Backscatter to Infer Hypergiant Deployment Configurations",
+    "link": "https://labs.ripe.net/author/jmuecke/using-quic-backscatter-to-infer-hypergiant-deployment-configurations/",
+    "description": "QUIC enhances privacy, but passive measurements still reveal deployment details. Using network telescope data, we analyse QUIC behaviour across major content providers and validate our findings with flow data and active measurements.",
+    "pubDate": "2026-04-22T08:29:30.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Welcoming the 2026 APNIC general and Policy Fellows",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "APNIC is pleased to welcome the successful applicants to its 2026 general and Policy Fellowship programs. This year’s Fellows reflect the diversity and talent of network practitioners and community contributors from across the Asia Pacific region.",
+    "pubDate": "2026-04-22T00:19:19.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "ARIN 57 Day 2 Recap",
+    "link": "https://www.arin.net/blog/2026/04/21/arin-57-day-2-recap/",
+    "description": "Day two of ARIN 57 has come to an end! We had another productive day filled with policy discussions, grant reports, and more. We will be back tomorrow morning for the third and final day of the meeting.",
+    "pubDate": "2026-04-21T20:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Fixing Geofeed: From Self-Reported Data to Verified Trust",
+    "link": "https://circleid.com/posts/fixing&#45;geofeed&#45;from&#45;self&#45;reported&#45;data&#45;to&#45;verified&#45;trust",
+    "description": "Geofeed data, long reliant on unverifiable self-assertions, faces mounting security risks. Integrating RPKI could transform it into a trusted, cryptographically validated infrastructure, strengthening routing integrity, regulatory compliance, and digital sovereignty across an inc…",
+    "pubDate": "2026-04-21T18:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Internet Has a New User - It&#8217;s Not You",
+    "link": "https://circleid.com/posts/the&#45;internet&#45;has&#45;a&#45;new&#45;user&#45;its&#45;not&#45;you",
+    "description": "AI agents are rapidly becoming primary internet users, with inference-driven traffic reshaping network demands and exposing infrastructure blind spots as latency-sensitive, machine-to-machine activity begins to outpace and outcompete human web behavior.",
+    "pubDate": "2026-04-21T18:21:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Phone-to-satellite use goes into orbit, growing 25% in 8 months",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/phone_to_satellite_services_jump_25_percent/",
+    "description": "<h4>Still only a tiny slice of mobile activity overall</h4> <p>The US and Starlink lead the way in the still-young direct-to-device (D2D) satellite market, where the number of connections recorded by Ookla rose nearly 25 percent between July 2025 and March 2026.…</p> <p><!--#incl…",
+    "pubDate": "2026-04-21T16:35:39.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "FAA grounds Blue Origin's New Glenn as it probes missed satellite delivery 'mishap'",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/faa_wants_a_closer_look/",
+    "description": "<h4>One of two second stage engines misbehaved, administration must sign off report before flights resume</h4> <p>Blue Origin's New Glenn loss of a satellite has been classed as a \"mishap\" by the US Federal Aviation Administration (FAA), triggering a mandatory investigation.…</p>",
+    "pubDate": "2026-04-21T13:29:13.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Moving past bots vs. humans",
+    "link": "https://blog.cloudflare.com/web-bot-auth/",
+    "description": "As AI assistants and privacy proxies challenge the capabilities of traditional bot detection, the Web needs new models for accountability. We believe that control should remain with the client, and that an open ecosystem of anonymous credentials is key to preserving user privacy …",
+    "pubDate": "2026-04-21T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Using QUIC backscatter to infer hypergiant deployment configurations",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: What can we learn about QUIC deployments just by listening to unsolicited QUIC traffic? As it turns out, quite a lot.",
+    "pubDate": "2026-04-21T06:01:55.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "ARIN 57 Day 1 Recap",
+    "link": "https://www.arin.net/blog/2026/04/20/arin-57-day-1-recap/",
+    "description": "From Louisville, Kentucky, ARIN 57 is underway! We were thrilled to open the doors to the meeting, and we thank everyone who was able to join us virtually.",
+    "pubDate": "2026-04-20T20:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "The Domain Universe in 2026: AI, Security, Market Maturity, and the New gTLD Frontier",
+    "link": "https://circleid.com/posts/the&#45;domain&#45;universe&#45;in&#45;2026&#45;ai&#45;security&#45;market&#45;maturity&#45;and&#45;the&#45;new&#45;gtld&#45;frontier",
+    "description": "Domains enter a mature phase as AI reshapes discovery, security sharpens, and new gTLDs expand. Once simple addresses, they are becoming critical infrastructure for identity, trust, and automated commerce in the evolving web.",
+    "pubDate": "2026-04-20T19:32:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "NOGs at a Crossroads: Confronting the New Demands of Network Operations",
+    "link": "https://circleid.com/posts/nogs&#45;at&#45;a&#45;crossroads&#45;confronting&#45;the&#45;new&#45;demands&#45;of&#45;network&#45;operations",
+    "description": "Surging outages and mounting losses are increasingly forcing a rethink of network operations, as NOGs now confront a shift from technical exchange to strategic governance, where resilience, leadership, and institutional influence define the profession's future.",
+    "pubDate": "2026-04-20T19:17:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+    "link": "https://blog.cloudflare.com/welcome-to-agents-week/",
+    "description": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
+    "pubDate": "2026-04-20T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The AI engineering stack we built internally — on the platform we ship",
+    "link": "https://opencode.ai/",
+    "description": "We built our internal AI engineering stack on the same products we ship. That means 20 million requests routed through AI Gateway, 241 billion tokens processed, and inference running on Workers AI, serving more than 3,683 internal users. Here's how we did it.",
+    "pubDate": "2026-04-20T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Orchestrating AI Code Review at scale",
+    "link": "https://developers.cloudflare.com/workers/ci-cd/",
+    "description": "Learn about how we built a CI-native AI code reviewer using OpenCode that helps our engineers ship better, safer code.",
+    "pubDate": "2026-04-20T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Towards Understanding City-Level Routing Using BGP Location Communities",
+    "link": "https://labs.ripe.net/author/tkrenc/towards-understanding-city-level-routing-using-bgp-location-communities/",
+    "description": "BGP location communities offer a rare glimpse into where networks actually interconnect, but most remain undocumented and opaque. This work shows that, by exploiting a measurable spatial signal in routing data, it is possible to infer their city-level meaning at scale using only …",
+    "pubDate": "2026-04-20T08:26:55.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Strengthening your network security with APNIC’s products and tools",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Strengthening routing security is increasingly critical, and APNIC’s tools are helping operators protect their networks with clearer, more reliable validation and visibility.",
+    "pubDate": "2026-04-19T23:20:55.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The New Space Race for Connectivity: Satellite Internet and Critical Infrastructure",
+    "link": "https://circleid.com/posts/the&#45;new&#45;space&#45;race&#45;for&#45;connectivity&#45;satellite&#45;internet&#45;and&#45;critical&#45;infrastructure",
+    "description": "Satellite internet is from backup to core infrastructure, as LEO constellations, non-terrestrial networks and direct-to-device services reshape connectivity, forcing governments and operators to rethink resilience, sovereignty and the architecture of the internet.",
+    "pubDate": "2026-04-19T19:59:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "No Safe Harbor: SCOTUS Scuttles the DMCA",
+    "link": "https://circleid.com/posts/no&#45;safe&#45;harbor&#45;scotus&#45;scuttles&#45;the&#45;dmca",
+    "description": "America's Supreme Court, in Cox v Sony, recast online copyright liability, effectively sidelining the DMCA safe harbor and replacing it with a narrow inducement standard that leaves service providers little obligation to meaningfully police infringement.",
+    "pubDate": "2026-04-17T18:55:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "CaribNOG Enters Its Institutional Era",
+    "link": "https://circleid.com/posts/caribnog&#45;enters&#45;its&#45;institutional&#45;era",
+    "description": "CaribNOG's 32nd forum in Curaçao marks a shift from volunteer roots to institutional structure, as the Caribbean network community formalises programmes, expands research, and positions itself to tackle climate, geopolitical, and infrastructure pressures.",
+    "pubDate": "2026-04-17T17:46:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
+    "link": "https://isitagentready.com/",
+    "description": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
+    "pubDate": "2026-04-17T13:05:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Shared Dictionaries: compression that keeps up with the agentic web",
+    "link": "https://almanac.httparchive.org/en/2024/page-weight#fig-15",
+    "description": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
+    "pubDate": "2026-04-17T13:02:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Redirects for AI Training enforces canonical content",
+    "link": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/wrangler-legacy/",
+    "description": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
+    "pubDate": "2026-04-17T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
+    "link": "https://blog.cloudflare.com/cloudflares-most-efficient-ai-inference-engine/",
+    "description": "Running LLMs across Cloudflare’s network requires us to be smarter and more efficient about GPU memory bandwidth. That’s why we developed Unweight, a lossless inference-time compression system that achieves up to a 22% model footprint reduction, so that we can deliver faster and …",
+    "pubDate": "2026-04-17T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Agents that remember: introducing Agent Memory",
+    "link": "https://developers.cloudflare.com/agents/",
+    "description": "Cloudflare Agent Memory is a managed service that gives AI agents persistent memory, allowing them to recall what matters, forget what doesn't, and get smarter over time.",
+    "pubDate": "2026-04-17T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "SEE 14: Advancing Internet Technologies in South East Europe",
+    "link": "https://labs.ripe.net/author/anastasiya-pak/see-14-advancing-internet-technologies-in-south-east-europe/",
+    "description": "Ahead of SEE 14, we examine how Internet technologies are evolving across South East Europe. Drawing on registry data and routing measurements, we highlight trends in routing security, interconnection, and IPv6 deployment.",
+    "pubDate": "2026-04-17T12:01:21.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Attention data hoarders: Alexa loses its Plex appeal as voice feature gets canned",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/alexa_loses_its_plex_appeal/",
+    "description": "<h4>Users who stream their own media files ticked off as Plex warns Alexa skill will die on June 15</h4> <p>Plex is pulling the plug on its Alexa integration, leaving anyone who relied on voice commands to wrangle their media library out of luck.…</p>",
+    "pubDate": "2026-04-17T10:45:12.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Support tech caught by 'Technician Aura': the bug that only hides when you're watching",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/on_call/",
+    "description": "<h4>All that kit, and the fix was simply stepping aside</h4> <p><strong>On Call</strong> Life is filled with random events, but <i>The Register</i> tries to make readers’ lives just a little more predictable by always using Friday morning to bring you a new instalment of On Call …",
+    "pubDate": "2026-04-17T07:29:07.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "IOWN Global Forum targets datacenter interconnects to scatter AI infrastructure",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/iown_use_cases/",
+    "description": "<h4>Fast WAN consortium thinks neoclouds are ripe for hookups</h4> <p>The IOWN Global Forum will likely focus on datacenter interconnect use cases in the, to help diverse providers of AI infrastructure ply their trade.…</p> <p><!--#include virtual='/data_centre/_whitepaper_textli…",
+    "pubDate": "2026-04-17T06:15:07.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Cisco Wi-Fi boxes are filling their disks with 5MB of undeletable data every day",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/cisco_wifi_ap_useless_data/",
+    "description": "<h4>Fix for critical flaw is an OS update you may not be able to make because the junk data uses all memory</h4> <p>More than 230 different models of Cisco Wi-Fi access points may be writing 5MB a day of nonessential data, filling their onboard flash memory to the point at which …",
+    "pubDate": "2026-04-17T04:35:46.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "IPv6 carried half of internet traffic – for one day, according to Google",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/ipv6_50_percent_google/",
+    "description": "<h4>We're not half way there, we're still livin' on a prayer</h4> <p>IPv6 carried half of global traffic for a single day in March, according to Google.…</p>",
+    "pubDate": "2026-04-17T02:04:50.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Iran has something America can only dream of: cheap broadband",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/iran_cheapest_broadband/",
+    "description": "<h4>Shame about the internet blackouts and airstrikes</h4> <p>North America has some of the world's most expensive broadband, according to a new study, while Iran has the cheapest.…</p>",
+    "pubDate": "2026-04-16T15:49:11.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Making Your Voice Heard: The Future of ARIN Policy Engagement",
+    "link": "https://www.arin.net/blog/2026/04/16/ac-policy-engagement-survey-followup/",
+    "description": "The ARIN Advisory Council’s Policy Engagement Working Group wraps up the results of the survey they conducted earlier in the year.",
+    "pubDate": "2026-04-16T13:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "QUIC will soon be as important as TCP – but it's vastly different",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/quic_explained/",
+    "description": "<h4>Deciphering the third transport protocol's four RFCs is a task to rival the proverbial blind man trying to understand an elephant</h4> <p>While Larry was producing most of the content for the \"Request/Reponse\" chapter for the next edition of our book, I took the lead on writi…",
+    "pubDate": "2026-04-16T07:30:15.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Noisy routers: Investigating the make-up of route collector data",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: An analysis of more than 80 billion updates reveals how 'noisy' BGP updates inflate MRT archives, bias measurements, and highlights the need for more careful interpretation of BGP data.",
+    "pubDate": "2026-04-15T23:03:13.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "[Podcast] IP networking in deep space",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Marc Blanchet discusses modelling the delay of a deep space IP stack using Linux virtual network methods, and the suitability of QUIC as a transport for applications in space.",
+    "pubDate": "2026-04-15T20:30:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Domains: The Overlooked Frontline in IP Protection",
+    "link": "https://circleid.com/posts/domains&#45;the&#45;overlooked&#45;frontline&#45;in&#45;ip&#45;protection",
+    "description": "Domains have quietly become the primary entry point for online IP infringement, yet most firms lack visibility over portfolios, leaving brands exposed and prompting a shift toward integrated, proactive domain governance and security.",
+    "pubDate": "2026-04-15T20:22:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Tips and Tricks for Making the Most of ARIN 57",
+    "link": "https://www.arin.net/blog/2026/04/15/arin-57-tips-and-tricks/",
+    "description": "ARIN 57 is just days away — and a little prep goes a long way. Catch up on everything you need to know to make the most of your experience, whether you're joining us in Louisville or participating online.",
+    "pubDate": "2026-04-15T14:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Introducing Region Meshes: Visualising Intra-Region Routing Paths",
+    "link": "https://labs.ripe.net/author/stephen_suess_1/introducing-region-meshes-visualising-intra-region-routing-paths/",
+    "description": "Region Meshes is a new RIPE Atlas tool that visualises intra-region routing paths, showing where traffic stays local, where it leaves, and how IXPs are being used.",
+    "pubDate": "2026-04-15T12:04:22.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Noisy Routers: Investigating the Make-Up of Route Collector Data",
+    "link": "https://labs.ripe.net/author/ejaw/noisy-routers-investigating-the-make-up-of-route-collector-data/",
+    "description": "Analysis of 80B+ BGP updates shows repeated \"noise\" is highly concentrated in a small set of peers, sessions, and prefixes, inflating datasets. Researchers from Twente, CAIDA, SIDN Labs, and IIJ examine impacts on measurement and operations.",
+    "pubDate": "2026-04-15T10:46:22.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "APNIC 62 Call for Papers now open",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "Got a compelling story or insight on Internet operations? Submit your presentation for APNIC 62 today!",
+    "pubDate": "2026-04-15T03:02:37.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Exploring the blind spot of IXPs Route Servers",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: IRR-based filtering at IXPs often breaks the link between prefixes and their legitimate AS, allowing invalid announcements to slip through. This study measures the issue across many IXPs and offers actionable fixes.",
+    "pubDate": "2026-04-14T23:09:59.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "IPv4 Market Shows Early Signs of Stabilization Amid Persistent Demand",
+    "link": "https://circleid.com/posts/ipv4&#45;market&#45;shows&#45;early&#45;signs&#45;of&#45;stabilization&#45;amid&#45;persistent&#45;demand",
+    "description": "After months of declining prices, the IPv4 market shows early signs of stabilisation, with firming prices, resilient global demand, and sustained transaction volume suggesting a gradual rebalancing rather than a structural downturn.",
+    "pubDate": "2026-04-14T20:26:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Analysis of the Keenadu Backdoor Network",
+    "link": "https://circleid.com/posts/dns&#45;analysis&#45;of&#45;the&#45;keenadu&#45;backdoor&#45;network",
+    "description": "Keenadu backdoor embedded in Android firmware exploits supply chains and OTA updates, while DNS analysis of its infrastructure reveals coordinated domains, IP links, and early warning signals pointing to premeditated, scalable cybercriminal operations globally distributed.",
+    "pubDate": "2026-04-14T18:36:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why are &#8216;we&#8217; building all these data centres again?",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "An article in The Conversation argues that governments should ensure data centre developments serve the public interest.",
+    "pubDate": "2026-04-14T03:19:43.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "NIST updates its secure DNS deployment guide: What operators need to know",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "NIST’s updated DNS deployment guide treats DNS as a core security control, offering practical guidance on protective DNS, encryption, DNSSEC, and both authoritative and recursive operations to help operators strengthen resilience, visibility, and policy enforcement.",
+    "pubDate": "2026-04-14T01:10:37.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Internet’s Trust Architecture",
+    "link": "https://labs.ripe.net/author/hisham_ibrahim/the-internets-trust-architecture/",
+    "description": "The Internet’s core, rooted in open standards and unique identifiers, has always depended on trust. That trust is part of what makes coordination possible across distributed actors, shared systems, and diverse institutions. Looking at the Internet in these terms may help explain …",
+    "pubDate": "2026-04-13T12:49:40.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "CDNs, optical communications, and AI at NZNOG 2026",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "Geoff Huston attended NZNOG 2026, and shares some of what he found interesting.",
+    "pubDate": "2026-04-13T05:08:34.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Operating a Data Center with a Small Team: Engineering Lessons from Central Asia",
+    "link": "https://labs.ripe.net/author/furug-rasuli/operating-a-data-center-with-a-small-team-engineering-lessons-from-central-asia/",
+    "description": "Managing ~600 infrastructure devices with a three-person team demands careful design choices. Based on experience in Central Asia, this article examines how standardisation, observability, and operational discipline support reliability at scale.",
+    "pubDate": "2026-04-08T08:57:18.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Get to Know the Draft Policies Up for Discussion at ARIN 57",
+    "link": "https://www.arin.net/blog/2026/04/07/arin-57-policies/",
+    "description": "Prepare for the upcoming meeting with this look at the Draft Policies on the agenda at ARIN 57, taking place 19-22 April in Louisville, Kentucky, and online.",
+    "pubDate": "2026-04-07T13:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Beyond the Network View: DNS-Driven Application Visibility",
+    "link": "https://labs.ripe.net/author/danny-lachos/beyond-the-network-view-dns-driven-application-visibility/",
+    "description": "Network operators often lack visibility into which applications drive their traffic. We present an open-source DNS-based correlation method that enriches NetFlow and BGP data with application and CDN information. This enables a shift from a network-centric to an application-orien…",
+    "pubDate": "2026-04-02T09:20:28.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "IETF Secretariat continues under new approach",
+    "link": "http://www.ietf.org/blog/secretariat-continuation/",
+    "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
+    "pubDate": "2026-03-31T18:57:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "ARIN Bits: March 2026",
+    "link": "https://www.arin.net/blog/2026/03/31/arin-bits-march-2026/",
+    "description": "The first ARIN Bits of the year is here, and it’s brimming with news, including updates on our busy first quarter and what to expect in the coming months. Read up on: ARIN’s new logo; ARIN 57 and this spring’s Fellowship Program; enhanced routing security services and Point of Co…",
+    "pubDate": "2026-03-31T13:45:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Extending API Keys Beyond the RIPE Database",
+    "link": "https://labs.ripe.net/author/fallon-albrecht/extending-api-keys-beyond-the-ripe-database/",
+    "description": "We are extending the API key model introduced for the RIPE Database to create a more consistent, secure, and flexible approach across RIPE NCC services.",
+    "pubDate": "2026-03-31T13:06:08.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "When iBGP Full Mesh Is Actually Unnecessary",
+    "link": "https://labs.ripe.net/author/rivadeneyra/when-ibgp-full-mesh-is-actually-unnecessary/",
+    "description": "A common misconception is that iBGP requires a full mesh or alternatives such as route reflectors. In reality, full mesh is not a protocol requirement, but a design choice that may be unnecessary and even undesirable in stub ASes and small ISPs.",
+    "pubDate": "2026-03-31T09:03:57.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "ARIN's Refreshed Logo: Honoring Our Past, Embracing Our Future",
+    "link": "https://www.arin.net/blog/2026/03/28/arins-refreshed-logo/",
+    "description": "ARIN has unveiled our first logo refresh in 24 years — and we're excited to share the story behind it.",
+    "pubDate": "2026-03-28T11:30:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Introducing the ARIN 57 Fellows",
+    "link": "https://www.arin.net/blog/2026/03/10/arin-57-fellows/",
+    "description": "Amanda Gauldin, ARIN Senior Project Manager, shares details about the Fellows, Mentors, and special guests joining us for the ARIN 57 Fellowship Program.",
+    "pubDate": "2026-03-10T13:30:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  }
+]
