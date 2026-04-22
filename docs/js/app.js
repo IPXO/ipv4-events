@@ -616,19 +616,21 @@ function setActiveTab(view) {
   if (tabNews)     { tabNews.classList.toggle('is-active', isNews);      tabNews.setAttribute('aria-selected', String(isNews)); }
 }
 
-function showTimelineView(s) {
+function showTimelineView() {
   setActiveTab('timeline');
-  document.getElementById('years').hidden     = false;
-  document.getElementById('news-view').hidden = true;
-  // Restore decade nav visibility (buildDecadeNav hides it initially)
-  const decNav = document.getElementById('decade-jump');
-  if (decNav) decNav.hidden = false;
+  document.getElementById('timeline-hero').hidden = false;
+  document.getElementById('news-hero').hidden     = true;
+  document.getElementById('years').hidden         = false;
+  document.getElementById('news-view').hidden     = true;
+  document.getElementById('decade-jump').hidden   = false;
 }
 
 async function showNewsView() {
   setActiveTab('news');
-  document.getElementById('years').hidden     = true;
-  document.getElementById('decade-jump').hidden = true;
+  document.getElementById('timeline-hero').hidden = true;
+  document.getElementById('news-hero').hidden     = false;
+  document.getElementById('years').hidden         = true;
+  document.getElementById('decade-jump').hidden   = true;
   const el = document.getElementById('news-view');
   el.hidden = false;
   writeHashRoute({ view: 'news' }, /*replace=*/true);
@@ -664,15 +666,6 @@ function renderNews() {
   }
 
   const frag = document.createDocumentFragment();
-
-  // Header bar
-  const header = document.createElement('div');
-  header.className = 'news-header panel';
-  const sources = [...new Set(newsCache.map(i => i.sourceIcon + ' ' + i.source))].join(' · ');
-  header.innerHTML = `
-    <strong><img class="icon" src="${ICONS.world}" alt=""> IPv4 &amp; Internet News</strong>
-    <span class="news-sources muted">${sources}</span>`;
-  frag.appendChild(header);
 
   // Article list
   const list = document.createElement('div');
@@ -727,8 +720,11 @@ function renderNews() {
 function setupViewTabs() {
   document.getElementById('tab-timeline')?.addEventListener('click', () => {
     const s = readHashRoute();
-    showTimelineView(s);
-    writeHashRoute({ q: s.q, cat: s.cat, dec: s.dec }, /*replace=*/true);
+    if (!s.dec) s.dec = '2020s';
+    showTimelineView();
+    const decEl = document.getElementById('dec');
+    if (decEl) decEl.value = s.dec;
+    if (s.q || s.cat || (s.dec && s.dec !== '2020s')) writeHashRoute({ q: s.q, cat: s.cat, dec: s.dec }, /*replace=*/true);
     syncUIFromState(s);
     render();
   });
@@ -757,11 +753,12 @@ function setupViewTabs() {
       syncUIFromState({ q:'', cat:'', dec:'' });
       await showNewsView();
     } else {
-      // Default to most recent decade when landing with no filters
+      // Default to most recent decade when landing with no filters (JS-only, no URL change)
       if (!s.q && !s.cat && !s.dec) s.dec = '2020s';
       if (document.getElementById('dec')) document.getElementById('dec').value = s.dec;
       syncUIFromState(s);
-      writeHashRoute({ q:s.q||'', cat:s.cat||'', dec:s.dec||'' }, /*replace=*/true);
+      // Only write hash if the user arrived with explicit filters — don't pollute a clean URL
+      if (s.q || s.cat || (s.dec && s.dec !== '2020s')) writeHashRoute({ q:s.q, cat:s.cat, dec:s.dec }, /*replace=*/true);
       render();
     }
 
@@ -771,7 +768,7 @@ function setupViewTabs() {
       if (s2.view === 'news') {
         showNewsView();
       } else {
-        showTimelineView(s2);
+        showTimelineView();
         syncUIFromState(s2);
         render();
       }
