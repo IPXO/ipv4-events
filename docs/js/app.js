@@ -478,8 +478,12 @@ function render(){
   });
   root.appendChild(frag);
 
-  // Keep hash URL in sync (replace so typing in search doesn't spam history)
-  writeHashRoute({ q, cat, dec }, /*replace=*/true);
+  // Keep URL in sync. Default state (2020s, no query/cat) gets a clean URL.
+  if (q || cat || (dec && dec !== '2020s')) {
+    writeHashRoute({ q, cat, dec }, /*replace=*/true);
+  } else {
+    history.replaceState(null, '', location.pathname);
+  }
 }
 
 /* ---------- Clear filters ---------- */
