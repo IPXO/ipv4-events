@@ -155,9 +155,17 @@
       </div>
     </section>
 
+    <!-- View tabs: Timeline / News -->
+    <div id="view-tabs" class="view-tabs" role="tablist">
+      <button id="tab-timeline" class="view-tab is-active" role="tab" aria-selected="true"  aria-controls="years">🗂️ Timeline</button>
+      <button id="tab-news"     class="view-tab"           role="tab" aria-selected="false" aria-controls="news-view">📰 News</button>
+    </div>
+
     <nav id="decade-jump" class="decade-jump" aria-label="Filter by era" hidden></nav>
 
     <section id="years" class="grid" aria-live="polite"></section>
+
+    <section id="news-view" class="news-view" hidden aria-live="polite"></section>
 
     <footer class="panel">
       <strong class="about-head">
