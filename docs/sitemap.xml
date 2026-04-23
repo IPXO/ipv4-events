@@ -7,6 +7,9 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- News view -->
+  <url><loc>https://ipv4.events/news/</loc></url>
+
   <!-- Categories (slugified from categories.json "id") -->
   <url><loc>https://ipv4.events/category/standards/</loc></url>
   <url><loc>https://ipv4.events/category/governance/</loc></url>

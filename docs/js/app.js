@@ -484,6 +484,8 @@ function render(){
   } else {
     history.replaceState(null, '', location.pathname);
   }
+
+  updatePageMeta({ view: 'timeline', cat, dec, q });
 }
 
 /* ---------- Clear filters ---------- */
@@ -609,6 +611,32 @@ function render(){
   });
 })();
 
+/* ---------- Dynamic meta tags ---------- */
+function updatePageMeta({ view, cat, dec, q }) {
+  const metaDesc = document.querySelector('meta[name="description"]');
+  let title, desc;
+  if (view === 'news') {
+    title = 'IPv4 & Internet News | ipv4.events';
+    desc  = 'Latest articles from RIPE NCC, APNIC, ARIN, Cloudflare and more — updated daily.';
+  } else if (cat) {
+    const catObj = CATS.find(c => c.id === cat);
+    const label  = catObj ? catObj.label : cat;
+    title = `${label} | ipv4.events Timeline`;
+    desc  = `Browse IPv4 era milestones in the ${label} category — standards, breakthroughs and key moments in internet history.`;
+  } else if (dec) {
+    title = `${dec} IPv4 Era Milestones | ipv4.events`;
+    desc  = `Explore technology milestones from the ${dec} on the ipv4.events timeline — networking, software, security and more.`;
+  } else if (q) {
+    title = `"${q}" — Search | ipv4.events`;
+    desc  = `Search results for "${q}" on the ipv4.events timeline of internet history.`;
+  } else {
+    title = 'ipv4.events — The IPv4 Era Timeline (Retro)';
+    desc  = 'A retro-styled timeline of the IPv4 era — from ARPANET and TCP/IP to cloud, AI, and beyond. Browse 500+ milestones by category and decade.';
+  }
+  document.title = title;
+  if (metaDesc) metaDesc.setAttribute('content', desc);
+}
+
 /* ---------- View switching (Timeline ↔ News) ---------- */
 let newsCache = null; // null = not yet fetched, false = failed, array = ok
 
@@ -638,6 +666,7 @@ async function showNewsView() {
   const el = document.getElementById('news-view');
   el.hidden = false;
   writeHashRoute({ view: 'news' }, /*replace=*/true);
+  updatePageMeta({ view: 'news' });
 
   if (newsCache !== null) return; // already rendered
 

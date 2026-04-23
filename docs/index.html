@@ -31,6 +31,20 @@
   <meta name="twitter:description" content="Explore the technology that shaped the IPv4 era — filter by category, decade, and hashtags."/>
   <meta name="twitter:image" content="https://ipv4.events/icons/social-card.png"/>
 
+  <!-- HTTPS + apex redirect (runs before everything else) -->
+  <script>
+    (function(){
+      var h = location.hostname;
+      if (h === 'www.ipv4.events') {
+        location.replace('https://ipv4.events' + location.pathname + location.search + location.hash);
+        return;
+      }
+      if (location.protocol === 'http:' && h !== 'localhost' && h !== '127.0.0.1') {
+        location.replace('https://' + location.host + location.pathname + location.search + location.hash);
+      }
+    })();
+  </script>
+
   <!-- Hash-route migration bridge:
        - If we arrive with /?p=/category/rirs -> convert to #/category/rirs
        - If we arrive on a pretty path like /category/rirs -> convert to #/category/rirs
@@ -86,8 +100,8 @@
   </script>
 
   <!-- CSS + JS (v param busts CDN/browser cache on each deploy) -->
-  <link rel="stylesheet" href="css/style.css?v=20260423h">
-  <script src="js/app.js?v=20260423h" defer></script>
+  <link rel="stylesheet" href="css/style.css?v=20260423i">
+  <script src="js/app.js?v=20260423i" defer></script>
 </head>
 <body>
   <div id="backdrop" class="backdrop" hidden></div>
