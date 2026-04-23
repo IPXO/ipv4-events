@@ -94,7 +94,7 @@ img.icon{ width:18px; height:18px; image-rendering:pixelated }
 }
 .view-tab.is-active {
   background: var(--win); color: #000080; font-weight: 800;
-  box-shadow: inset 0 -3px 0 #000080;
+  border-bottom: 3px solid #000080;
 }
 .view-tab:hover:not(.is-active) { background: #c0c0c0; }
 
