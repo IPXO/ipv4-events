@@ -77,7 +77,7 @@ img.icon{ width:18px; height:18px; image-rendering:pixelated }
   display: flex;
   align-items: flex-end;
   min-width: 0;
-  padding: 8px 0 0 0;
+  padding: 8px 14px 0 14px;
 }
 
 /* Win95 folder-style view tabs — sit at the bottom of the 8px padded strip */
