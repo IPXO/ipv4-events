@@ -5,7 +5,7 @@
 
 **[▶ Launch ipv4.events](https://ipv4.events)**
 
-Curated by [IPXO](https://www.ipxo.com) and a growing community of contributors. 500+ milestones, 34 categories, 7 decades of Internet history — rendered in glorious silver-gray panels with beveled borders.
+Curated by [IPXO](https://www.ipxo.com) and a growing community of contributors. 500+ milestones, 32 categories, 8 decades of Internet history — rendered in glorious silver-gray panels with beveled borders.
 
 ---
 
@@ -16,23 +16,22 @@ ipv4-events/
 ├── docs/                          # 💾 Public site root (served by GitHub Pages)
 │   ├── index.html                 # Main app — Win95 UI, loads data & renders timeline
 │   ├── 404.html                   # Blue Screen of Death 404 page
+│   ├── CNAME                      # Custom domain: ipv4.events (apex)
 │   ├── robots.txt                 # Crawling rules + sitemap pointer
-│   ├── sitemap.xml                # SEO sitemap (all URLs with trailing slashes)
+│   ├── sitemap.xml                # SEO sitemap (homepage only — SPA canonical)
 │   ├── icons/                     # 🖱️ Win95/98/NT/W2K/XP .ico files + social card
-│   ├── css/style.css              # All styles — retro theme, grouped catbar, modal
+│   ├── css/style.css              # All styles — retro theme, tabs, filters, modal
 │   ├── js/app.js                  # Data fetch, hash routing, filters, render, modal
-│   ├── category/<slug>/           # 🌐 Pretty URL stubs → /#/category/<slug>
-│   ├── decade/<1990s>/            # 🌐 Pretty URL stubs → /#/decade/<1990s>
 │   └── data/                      # 📋 Human-editable JSON (the real source of truth)
 │       ├── categories.json        # Category IDs / labels / groups / icons
+│       ├── news.json              # Daily news feed (updated by GitHub Actions)
 │       └── events/                # Events split by topic
 │           ├── manifest.json      # Load order for all event JSON files
 │           └── *.json             # One file per category
 ├── scripts/
-│   └── generate-pretty-pages.mjs # 🔧 Regenerates category/* and decade/* stubs
-├── .github/workflows/sitemap.yml  # ⚙️ CI: regenerates sitemap on push to main
-├── CONTRIBUTING.md                # How to add events and categories
-└── LICENSE
+│   └── fetch-news.mjs             # 📰 Fetches RSS feeds → docs/data/news.json
+└── .github/workflows/
+    └── fetch-news.yml             # ⚙️ Runs fetch-news.mjs daily at 06:00 UTC
 ```
 
 ---
@@ -71,7 +70,7 @@ Each event lives in `docs/data/events/<category>.json`:
 
 ## 🖱️ Categories
 
-34 categories organized into **10 groups** displayed as a grouped pill bar on the homepage:
+32 categories organized into **10 groups** displayed as a grouped pill bar on the homepage:
 
 | Group | Categories |
 |---|---|
@@ -86,7 +85,7 @@ Each event lives in `docs/data/events/<category>.json`:
 | ☁️ Cloud & Infrastructure | Cloud & Virtualization, Serverless, Edge Computing, CDN, Data Centers |
 | 🚀 Space & Satellite | Satellite Internet, Space |
 
-Each category in `categories.json`:
+Each entry in `categories.json`:
 
 ```json
 {
@@ -105,15 +104,6 @@ The easiest way: click **"+ Propose an Event"** on the homepage — it opens a p
 
 To contribute JSON directly, read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-### 🔧 After adding a new category
-
-Regenerate the pretty-URL stubs so crawlers can find it:
-
-```bash
-node scripts/generate-pretty-pages.mjs
-# then add the new URL to docs/sitemap.xml
-```
-
 ---
 
 ## ⚙️ Development
@@ -131,20 +121,63 @@ npx serve docs
 
 | File | What it does |
 |---|---|
-| `docs/js/app.js` | Parallel data fetch, hash routing, grouped pill bar, contribute modal |
-| `docs/css/style.css` | Retro theme, grouped catbar, modal, decade jump nav |
+| `docs/js/app.js` | Parallel data fetch, hash routing, category pill bar, news tab, contribute modal, dynamic meta tags |
+| `docs/css/style.css` | Retro Win95 theme, view tabs, filter controls, decade jump nav, news cards |
 | `docs/data/categories.json` | Canonical category list — edit to add/rename categories |
 | `docs/data/events/manifest.json` | Load order for all event JSON files |
-| `scripts/generate-pretty-pages.mjs` | Run after adding categories to regenerate stub pages |
+| `docs/data/news.json` | Auto-generated daily — do not edit by hand |
+| `scripts/fetch-news.mjs` | Fetches RSS from RIPE Labs, APNIC, ARIN, Cloudflare, etc. |
+
+### Hash routing
+
+The app uses client-side hash routing. All routes are handled by `app.js`:
+
+| URL | View |
+|---|---|
+| `https://ipv4.events/` | Timeline, defaults to 2020s |
+| `https://ipv4.events/#/category/networking` | Timeline filtered by category |
+| `https://ipv4.events/#/decade/1990s` | Timeline filtered by decade |
+| `https://ipv4.events/#/search/arpanet` | Timeline filtered by search term |
+| `https://ipv4.events/#/news` | News view |
+
+### Dynamic meta tags
+
+`updatePageMeta()` in `app.js` updates `<title>` and `<meta name="description">` on every route change. This ensures Google's JS-rendering crawl indexes unique titles and descriptions per category, decade, and search view.
+
+### Asset cache busting
+
+CSS and JS are loaded with a `?v=` query param in `index.html`. Bump the version string on every deploy that changes these files:
+
+```html
+<link rel="stylesheet" href="css/style.css?v=20260423i">
+<script src="js/app.js?v=20260423i" defer></script>
+```
+
+---
+
+## 📰 News Feed
+
+The **News** tab shows the latest articles from IPv4/internet news sources, fetched daily by a GitHub Actions workflow.
+
+**Sources:** RIPE Labs, APNIC, ARIN, Cloudflare, The Register, IETF, CircleID
+
+**Workflow:** `.github/workflows/fetch-news.yml` — runs `scripts/fetch-news.mjs` daily at 06:00 UTC and commits the result to `docs/data/news.json` via the GitHub Contents API (signed commit, satisfies branch protection).
+
+To trigger manually: GitHub → Actions → "Fetch news feed" → Run workflow.
 
 ---
 
 ## 🌐 SEO
 
-- Canonical `<link>` tags on every pretty-URL stub page
-- `docs/sitemap.xml` — all URLs with trailing slashes (matches GitHub Pages)
-- `docs/robots.txt` — references the HTTPS sitemap
-- Meta descriptions under 155 characters
+This is a pure client-side SPA. SEO approach:
+
+- **Single canonical URL** — `https://ipv4.events/` is the only URL in `sitemap.xml`. Category/decade/news routes are hash-based and not separately indexed.
+- **Dynamic meta tags** — `updatePageMeta()` sets unique `<title>` and `<meta description>` per route for Google's JS-rendering crawl.
+- **HTTPS enforced** — GitHub Pages "Enforce HTTPS" is enabled on the repo (Settings → Pages). All `http://` requests get a server-side 301 redirect. A JS fallback in `index.html` handles edge cases.
+- **`robots.txt`** — references the HTTPS sitemap.
+- **Open Graph + Twitter cards** — set in `index.html` `<head>`.
+
+> **Note:** Do not add category or decade URLs back to `sitemap.xml`. When Ahrefs (or other crawlers that don't execute JS) encounter these paths, they see thin-content pages and flag them as duplicates, which tanks the health score. The `updatePageMeta()` approach handles SEO for JS-capable crawlers (Google) without creating duplicate-content issues for non-JS crawlers.
 
 ---
 
