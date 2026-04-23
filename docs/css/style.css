@@ -84,8 +84,7 @@ img.icon{ width:18px; height:18px; image-rendering:pixelated }
 .view-tabs { display: flex; flex-shrink: 0; gap: 3px; }
 .view-tab {
   background: #b0b0b0; color: #555;
-  border: 2px solid;
-  border-color: #fff #808080 #808080 #fff;
+  border: 2px solid #808080;
   padding: 6px 20px;
   font: inherit; font-size: 13px; font-weight: 600;
   cursor: pointer; white-space: nowrap;
@@ -94,7 +93,7 @@ img.icon{ width:18px; height:18px; image-rendering:pixelated }
 }
 .view-tab.is-active {
   background: var(--win); color: #000080; font-weight: 800;
-  border-bottom: 3px solid #000080;
+  border-bottom-color: #000080;
 }
 .view-tab:hover:not(.is-active) { background: #c0c0c0; }
 
