@@ -1,5 +1,77 @@
 [
   {
+    "title": "Fake Domains, Real Damage: What the Latest Data Reveals",
+    "link": "https://circleid.com/posts/fake&#45;domains&#45;real&#45;damage&#45;what&#45;the&#45;latest&#45;data&#45;reveals",
+    "description": "Third-party domains exploiting brand names are proliferating, with 88% of homoglyphs externally owned. Many remain dormant yet email-enabled, creating scalable phishing risks as attackers increasingly target trust rather than infrastructure.",
+    "pubDate": "2026-04-24T21:57:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNIB Reports 392.5 Million Domain Name Registrations in Q1 2026",
+    "link": "https://circleid.com/posts/dnib&#45;reports&#45;392.5&#45;million&#45;domain&#45;name&#45;registrations&#45;in&#45;q1&#45;2026",
+    "description": "The first quarter of 2026 closed with 392.5 million domain name registrations across all top-level domains (TLDs), an increase of 24.1 million domain name registrations compared to the first quarter of 2025, according to the latest issue of the Domain Name Industry Brief Quarterl…",
+    "pubDate": "2026-04-24T20:32:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "US clarifies mobile hotspots part of foreign router ban despite rarity of American made consumer kit",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/fcc_does_a_doubletake_adds/",
+    "description": "<h4>Silicon often from US, but the kit from APAC and elsewhere</h4> <p>America's telco regulator has clarified its ban on foreign-made routers also includes mobile hotspots and domestic routers that use a 5G cellular connection to the internet.…</p> <p><!--#include virtual='/data…",
+    "pubDate": "2026-04-24T16:03:14.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "ADoX Deployment in the Wild",
+    "link": "https://labs.ripe.net/author/yevheniya-nosyk/adox-deployment-in-the-wild/",
+    "description": "Encryption between DNS resolvers and users is growing - but what about the next hop? We measure the real-world deployment of encrypted resolver-to-authoritative DNS (ADoX), finding limited, highly concentrated adoption and little support among resolvers.",
+    "pubDate": "2026-04-24T08:01:11.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Revocation of X.509 certificates",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "'Revocation is broken' is a catchphrase in the world of certificates and Certificate Authorities. Certification infrastructure may not have been designed for the Internet of today.",
+    "pubDate": "2026-04-24T07:22:30.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "To fix this Wi-Fi network, we'll need a crane",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/on_call/",
+    "description": "<h4>Won't somebody think of the children not being hit by a load of building materials?</h4> <p><strong>On Call</strong> Delivering excellent tech support can sometimes require heavy lifting, a feat <em>The Register</em> celebrates each Friday with a new instalment of On Call – t…",
+    "pubDate": "2026-04-24T07:00:15.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "ForceMemo in the DNS Spotlight",
+    "link": "https://circleid.com/posts/forcememo&#45;in&#45;the&#45;dns&#45;spotlight",
+    "description": "Researchers tracing the ForceMemo campaign uncover a sprawling DNS footprint, linking compromised GitHub repositories to suspicious domains, shared infrastructure and fresh artifacts, suggesting a coordinated operation that continues to evolve despite partial attribution.",
+    "pubDate": "2026-04-23T18:11:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Understanding DDoS Scrubbing in BGP: Five Leading Scrubbers",
+    "link": "https://labs.ripe.net/author/shyam-krishna-khadka/understanding-ddos-scrubbing-in-bgp-five-leading-scrubbers/",
+    "description": "DDoS mitigation often relies on BGP for \"scrubbing\", but how this appears in routing data is not well understood. We analyse five major providers to distinguish between always-on and on-demand protection, showing how mitigation manifests in practice and what it means for routing …",
+    "pubDate": "2026-04-23T11:12:40.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Detecting and characterizing DDoS scrubbing from global BGP routing",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Analysing public BGP data to characterize the real‑world behaviour of five major scrubbing services.",
+    "pubDate": "2026-04-23T05:24:53.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "ARIN 57 Day 3 Recap",
     "link": "https://www.arin.net/blog/2026/04/22/arin-57-day-3-recap/",
     "description": "Today marked the third and final day of our ARIN 57 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
@@ -272,28 +344,12 @@
     "sourceIcon": "📰"
   },
   {
-    "title": "Iran has something America can only dream of: cheap broadband",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/iran_cheapest_broadband/",
-    "description": "<h4>Shame about the internet blackouts and airstrikes</h4> <p>North America has some of the world's most expensive broadband, according to a new study, while Iran has the cheapest.…</p>",
-    "pubDate": "2026-04-16T15:49:11.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "Making Your Voice Heard: The Future of ARIN Policy Engagement",
     "link": "https://www.arin.net/blog/2026/04/16/ac-policy-engagement-survey-followup/",
     "description": "The ARIN Advisory Council’s Policy Engagement Working Group wraps up the results of the survey they conducted earlier in the year.",
     "pubDate": "2026-04-16T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "QUIC will soon be as important as TCP – but it's vastly different",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/quic_explained/",
-    "description": "<h4>Deciphering the third transport protocol's four RFCs is a task to rival the proverbial blind man trying to understand an elephant</h4> <p>While Larry was producing most of the content for the \"Request/Reponse\" chapter for the next edition of our book, I took the lead on writi…",
-    "pubDate": "2026-04-16T07:30:15.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
   },
   {
     "title": "Noisy routers: Investigating the make-up of route collector data",
@@ -310,14 +366,6 @@
     "pubDate": "2026-04-15T20:30:00.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Domains: The Overlooked Frontline in IP Protection",
-    "link": "https://circleid.com/posts/domains&#45;the&#45;overlooked&#45;frontline&#45;in&#45;ip&#45;protection",
-    "description": "Domains have quietly become the primary entry point for online IP infringement, yet most firms lack visibility over portfolios, leaving brands exposed and prompting a shift toward integrated, proactive domain governance and security.",
-    "pubDate": "2026-04-15T20:22:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Tips and Tricks for Making the Most of ARIN 57",
@@ -360,34 +408,10 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "IPv4 Market Shows Early Signs of Stabilization Amid Persistent Demand",
-    "link": "https://circleid.com/posts/ipv4&#45;market&#45;shows&#45;early&#45;signs&#45;of&#45;stabilization&#45;amid&#45;persistent&#45;demand",
-    "description": "After months of declining prices, the IPv4 market shows early signs of stabilisation, with firming prices, resilient global demand, and sustained transaction volume suggesting a gradual rebalancing rather than a structural downturn.",
-    "pubDate": "2026-04-14T20:26:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "DNS Analysis of the Keenadu Backdoor Network",
-    "link": "https://circleid.com/posts/dns&#45;analysis&#45;of&#45;the&#45;keenadu&#45;backdoor&#45;network",
-    "description": "Keenadu backdoor embedded in Android firmware exploits supply chains and OTA updates, while DNS analysis of its infrastructure reveals coordinated domains, IP links, and early warning signals pointing to premeditated, scalable cybercriminal operations globally distributed.",
-    "pubDate": "2026-04-14T18:36:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Why are &#8216;we&#8217; building all these data centres again?",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "An article in The Conversation argues that governments should ensure data centre developments serve the public interest.",
     "pubDate": "2026-04-14T03:19:43.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "NIST updates its secure DNS deployment guide: What operators need to know",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "NIST’s updated DNS deployment guide treats DNS as a core security control, offering practical guidance on protective DNS, encryption, DNSSEC, and both authoritative and recursive operations to help operators strengthen resilience, visibility, and policy enforcement.",
-    "pubDate": "2026-04-14T01:10:37.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -398,14 +422,6 @@
     "pubDate": "2026-04-13T12:49:40.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "CDNs, optical communications, and AI at NZNOG 2026",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "Geoff Huston attended NZNOG 2026, and shares some of what he found interesting.",
-    "pubDate": "2026-04-13T05:08:34.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Operating a Data Center with a Small Team: Engineering Lessons from Central Asia",
@@ -446,22 +462,6 @@
     "pubDate": "2026-03-31T13:45:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Extending API Keys Beyond the RIPE Database",
-    "link": "https://labs.ripe.net/author/fallon-albrecht/extending-api-keys-beyond-the-ripe-database/",
-    "description": "We are extending the API key model introduced for the RIPE Database to create a more consistent, secure, and flexible approach across RIPE NCC services.",
-    "pubDate": "2026-03-31T13:06:08.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "When iBGP Full Mesh Is Actually Unnecessary",
-    "link": "https://labs.ripe.net/author/rivadeneyra/when-ibgp-full-mesh-is-actually-unnecessary/",
-    "description": "A common misconception is that iBGP requires a full mesh or alternatives such as route reflectors. In reality, full mesh is not a protocol requirement, but a design choice that may be unnecessary and even undesirable in stub ASes and small ISPs.",
-    "pubDate": "2026-03-31T09:03:57.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "ARIN's Refreshed Logo: Honoring Our Past, Embracing Our Future",
