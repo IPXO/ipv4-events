@@ -23,7 +23,7 @@ jobs:
 
       - name: Commit updated news.json (if changed)
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.NEWS_BOT_TOKEN }}
         run: |
           # Fetch current file info from GitHub (sha required for updates)
           REMOTE=$(gh api \
