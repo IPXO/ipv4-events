@@ -1,5 +1,13 @@
 [
   {
+    "title": "APNIC and PITA renew MoU to strengthen cooperation in the Pacific",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "APNIC and PITA have renewed their MoU, reaffirming their long-standing partnership and commitment to strengthening Internet development and resilience across the Pacific.",
+    "pubDate": "2026-04-27T05:26:58.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Fake Domains, Real Damage: What the Latest Data Reveals",
     "link": "https://circleid.com/posts/fake&#45;domains&#45;real&#45;damage&#45;what&#45;the&#45;latest&#45;data&#45;reveals",
     "description": "Third-party domains exploiting brand names are proliferating, with 88% of homoglyphs externally owned. Many remain dormant yet email-enabled, creating scalable phishing risks as attackers increasingly target trust rather than infrastructure.",
@@ -404,14 +412,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: IRR-based filtering at IXPs often breaks the link between prefixes and their legitimate AS, allowing invalid announcements to slip through. This study measures the issue across many IXPs and offers actionable fixes.",
     "pubDate": "2026-04-14T23:09:59.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Why are &#8216;we&#8217; building all these data centres again?",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "An article in The Conversation argues that governments should ensure data centre developments serve the public interest.",
-    "pubDate": "2026-04-14T03:19:43.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
