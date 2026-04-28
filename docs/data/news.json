@@ -1,5 +1,37 @@
 [
   {
+    "title": "Google hits 50% IPv6",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "IPv6 has reached a major milestone, with around half of Google’s users now accessing its services over IPv6.",
+    "pubDate": "2026-04-27T23:14:56.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Trusted Notifier Network (TNN) Core Concept 2: Building a Chain of Indemnity",
+    "link": "https://circleid.com/posts/trusted&#45;notifier&#45;network&#45;tnn&#45;core&#45;concept&#45;2&#45;building&#45;a&#45;chain&#45;of&#45;indemnity",
+    "description": "TNN proposes a contractual chain of indemnity to shift legal risk in global takedowns, replacing patchy statutory protections with enforceable accountability and a fund that makes good-faith action commercially viable for smaller intermediaries.",
+    "pubDate": "2026-04-27T20:18:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Africa&#8217;s Community Networks Offer a Local Path to Inclusive and Resilient Connectivity",
+    "link": "https://circleid.com/posts/africa&#45;community&#45;networks&#45;offer&#45;a&#45;local&#45;path&#45;to&#45;inclusive&#45;and&#45;resilient&#45;connectivity",
+    "description": "Community networks, locally built and governed, are emerging across Africa as cost-effective tools to extend connectivity, bolster digital sovereignty, and improve cyber resilience, despite regulatory, financial, and technical constraints that hinder broader adoption.",
+    "pubDate": "2026-04-27T20:07:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "SpaceX dusts off Falcon Heavy for first flight in 18 months",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/spacex_readies_the_first_falcon/",
+    "description": "<h4>Side boosters to make simultaneous touchdown while center core takes one for the team</h4> <p><strong>Updated</strong> SpaceX is preparing to launch its Falcon Heavy rocket for the first time in more than 18 months, kicking off what could be a busy time for the vehicle.…</p>",
+    "pubDate": "2026-04-27T13:57:07.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
     "title": "APNIC and PITA renew MoU to strengthen cooperation in the Pacific",
     "link": "https://blog.apnic.net/category/community/",
     "description": "APNIC and PITA have renewed their MoU, reaffirming their long-standing partnership and commitment to strengthening Internet development and resilience across the Pacific.",
@@ -248,22 +280,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "No Safe Harbor: SCOTUS Scuttles the DMCA",
-    "link": "https://circleid.com/posts/no&#45;safe&#45;harbor&#45;scotus&#45;scuttles&#45;the&#45;dmca",
-    "description": "America's Supreme Court, in Cox v Sony, recast online copyright liability, effectively sidelining the DMCA safe harbor and replacing it with a narrow inducement standard that leaves service providers little obligation to meaningfully police infringement.",
-    "pubDate": "2026-04-17T18:55:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "CaribNOG Enters Its Institutional Era",
-    "link": "https://circleid.com/posts/caribnog&#45;enters&#45;its&#45;institutional&#45;era",
-    "description": "CaribNOG's 32nd forum in Curaçao marks a shift from volunteer roots to institutional structure, as the Caribbean network community formalises programmes, expands research, and positions itself to tackle climate, geopolitical, and infrastructure pressures.",
-    "pubDate": "2026-04-17T17:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
     "link": "https://isitagentready.com/",
     "description": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
@@ -344,14 +360,6 @@
     "sourceIcon": "📰"
   },
   {
-    "title": "IPv6 carried half of internet traffic – for one day, according to Google",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/ipv6_50_percent_google/",
-    "description": "<h4>We're not half way there, we're still livin' on a prayer</h4> <p>IPv6 carried half of global traffic for a single day in March, according to Google.…</p>",
-    "pubDate": "2026-04-17T02:04:50.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "Making Your Voice Heard: The Future of ARIN Policy Engagement",
     "link": "https://www.arin.net/blog/2026/04/16/ac-policy-engagement-survey-followup/",
     "description": "The ARIN Advisory Council’s Policy Engagement Working Group wraps up the results of the survey they conducted earlier in the year.",
@@ -404,14 +412,6 @@
     "link": "https://blog.apnic.net/category/events/",
     "description": "Got a compelling story or insight on Internet operations? Submit your presentation for APNIC 62 today!",
     "pubDate": "2026-04-15T03:02:37.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Exploring the blind spot of IXPs Route Servers",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: IRR-based filtering at IXPs often breaks the link between prefixes and their legitimate AS, allowing invalid announcements to slip through. This study measures the issue across many IXPs and offers actionable fixes.",
-    "pubDate": "2026-04-14T23:09:59.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
