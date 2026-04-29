@@ -1,5 +1,85 @@
 [
   {
+    "title": "IETF 125 post-meeting survey",
+    "link": "http://www.ietf.org/blog/ietf125-survey/",
+    "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "pubDate": "2026-04-29T16:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "When robots join the race: 5G-A powers a new kind of marathon",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/when_robots_join_race/",
+    "description": "<h4>Human and humanoid runners share the track as next-gen connectivity underpins real-time AI performance</h4> <p><strong>Sponsored Post</strong> The half marathon has long been a test of human endurance. In Beijing’s E-Town, it has become something else entirely. The Beijing E-…",
+    "pubDate": "2026-04-29T06:08:38.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Pacific routing security sets a deadline",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Guest Post: PITA 30 showed both the risks of insecure routing and the opportunities for rapid improvement in the Pacific, with PITA 31 set as an implementation target.",
+    "pubDate": "2026-04-29T03:38:04.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Building RIPE SEE: A Conversation With Jan Žorž About Community, Trust, and the Work Behind a Regional Event",
+    "link": "https://circleid.com/posts/building&#45;ripe&#45;see&#45;a&#45;conversation&#45;with&#45;jan&#45;zhorzh&#45;about&#45;community&#45;trust&#45;and&#45;the&#45;work&#45;behind&#45;a&#45;regional&#45;event",
+    "description": "Jan Žorž reflects on SEE RIPE's role in uniting a fragmented region, where trust built through informal exchange now underpins internet resilience and helps align engineers with policymakers as regulatory pressures intensify.",
+    "pubDate": "2026-04-28T19:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Iran&#8217;s Internet Blackout Hits 60 Days - Deepening Economic Crisis, Two-Tier Access",
+    "link": "https://circleid.com/posts/irans&#45;internet&#45;blackout&#45;hits&#45;60&#45;days&#45;deepening&#45;economic&#45;crisis&#45;two&#45;tier&#45;access",
+    "description": "Iran's now 60-day internet blackout is inflicting heavy economic losses, disrupting exports and daily life, while a tiered access plan deepens inequality and signals a shift toward tighter state control of digital connectivity.",
+    "pubDate": "2026-04-28T18:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Beyond Connectivity: How Submarine Cable Resilience Dictates Digital Sovereignty in the Age of Fragmented Governance",
+    "link": "https://circleid.com/posts/beyond&#45;connectivity&#45;how&#45;submarine&#45;cable&#45;resilience&#45;dictates&#45;digital&#45;sovereignty&#45;in&#45;the&#45;age&#45;of&#45;fragmented&#45;governance",
+    "description": "Subsea cables underpin global data flows, yet resilience, control and deep sea access now define digital sovereignty as governance fragments, hyperscalers consolidate ownership, and states prioritize survivability over efficiency in an increasingly contested geopolitical seabed.",
+    "pubDate": "2026-04-28T18:25:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "IP Reputation for AI Teams: The Infrastructure Concept Nobody Explains",
+    "link": "https://circleid.com/posts/ip&#45;reputation&#45;for&#45;ai&#45;teams&#45;the&#45;infrastructure&#45;concept&#45;nobody&#45;explains",
+    "description": "As AI agents scale, IP reputation emerges as a hidden constraint, shaping access to external systems and degrading performance. Managing network identity, not just models, is becoming essential for reliable data collection.",
+    "pubDate": "2026-04-28T18:14:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
+    "link": "https://radar.cloudflare.com/outage-center#traffic-anomalies",
+    "description": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
+    "pubDate": "2026-04-28T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Two men charged over series of arson attacks on 5G masts",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/5g_belfast_arrests/",
+    "description": "<h4>Pair accused of creating literal flame war as bonkers conspiracy theories grow</h4> <p>Two men face charges over a series of arson attacks on 5G masts spanning two years following a Police Service of Northern Ireland (PSNI) investigation.…</p>",
+    "pubDate": "2026-04-28T11:14:28.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "The Internet’s New Builders",
+    "link": "https://labs.ripe.net/author/armanobosyan/the-internets-new-builders/",
+    "description": "Content and cloud platforms are no longer just the largest customers of global connectivity. They are increasingly financing and building the infrastructure itself, from submarine systems to edge and data center footprints.",
+    "pubDate": "2026-04-28T10:02:58.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Google hits 50% IPv6",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "IPv6 has reached a major milestone, with around half of Google’s users now accessing its services over IPv6.",
@@ -168,14 +248,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "The Internet Has a New User - It&#8217;s Not You",
-    "link": "https://circleid.com/posts/the&#45;internet&#45;has&#45;a&#45;new&#45;user&#45;its&#45;not&#45;you",
-    "description": "AI agents are rapidly becoming primary internet users, with inference-driven traffic reshaping network demands and exposing infrastructure blind spots as latency-sensitive, machine-to-machine activity begins to outpace and outcompete human web behavior.",
-    "pubDate": "2026-04-21T18:21:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Phone-to-satellite use goes into orbit, growing 25% in 8 months",
     "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/phone_to_satellite_services_jump_25_percent/",
     "description": "<h4>Still only a tiny slice of mobile activity overall</h4> <p>The US and Starlink lead the way in the still-young direct-to-device (D2D) satellite market, where the number of connections recorded by Ookla rose nearly 25 percent between July 2025 and March 2026.…</p> <p><!--#incl…",
@@ -214,22 +286,6 @@
     "pubDate": "2026-04-20T20:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "The Domain Universe in 2026: AI, Security, Market Maturity, and the New gTLD Frontier",
-    "link": "https://circleid.com/posts/the&#45;domain&#45;universe&#45;in&#45;2026&#45;ai&#45;security&#45;market&#45;maturity&#45;and&#45;the&#45;new&#45;gtld&#45;frontier",
-    "description": "Domains enter a mature phase as AI reshapes discovery, security sharpens, and new gTLDs expand. Once simple addresses, they are becoming critical infrastructure for identity, trust, and automated commerce in the evolving web.",
-    "pubDate": "2026-04-20T19:32:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "NOGs at a Crossroads: Confronting the New Demands of Network Operations",
-    "link": "https://circleid.com/posts/nogs&#45;at&#45;a&#45;crossroads&#45;confronting&#45;the&#45;new&#45;demands&#45;of&#45;network&#45;operations",
-    "description": "Surging outages and mounting losses are increasingly forcing a rethink of network operations, as NOGs now confront a shift from technical exchange to strategic governance, where resilience, leadership, and institutional influence define the profession's future.",
-    "pubDate": "2026-04-20T19:17:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
@@ -272,14 +328,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The New Space Race for Connectivity: Satellite Internet and Critical Infrastructure",
-    "link": "https://circleid.com/posts/the&#45;new&#45;space&#45;race&#45;for&#45;connectivity&#45;satellite&#45;internet&#45;and&#45;critical&#45;infrastructure",
-    "description": "Satellite internet is from backup to core infrastructure, as LEO constellations, non-terrestrial networks and direct-to-device services reshape connectivity, forcing governments and operators to rethink resilience, sovereignty and the architecture of the internet.",
-    "pubDate": "2026-04-19T19:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
     "link": "https://isitagentready.com/",
     "description": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
@@ -312,14 +360,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Agents that remember: introducing Agent Memory",
-    "link": "https://developers.cloudflare.com/agents/",
-    "description": "Cloudflare Agent Memory is a managed service that gives AI agents persistent memory, allowing them to recall what matters, forget what doesn't, and get smarter over time.",
-    "pubDate": "2026-04-17T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "SEE 14: Advancing Internet Technologies in South East Europe",
     "link": "https://labs.ripe.net/author/anastasiya-pak/see-14-advancing-internet-technologies-in-south-east-europe/",
     "description": "Ahead of SEE 14, we examine how Internet technologies are evolving across South East Europe. Drawing on registry data and routing measurements, we highlight trends in routing security, interconnection, and IPv6 deployment.",
@@ -340,22 +380,6 @@
     "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/on_call/",
     "description": "<h4>All that kit, and the fix was simply stepping aside</h4> <p><strong>On Call</strong> Life is filled with random events, but <i>The Register</i> tries to make readers’ lives just a little more predictable by always using Friday morning to bring you a new instalment of On Call …",
     "pubDate": "2026-04-17T07:29:07.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "IOWN Global Forum targets datacenter interconnects to scatter AI infrastructure",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/iown_use_cases/",
-    "description": "<h4>Fast WAN consortium thinks neoclouds are ripe for hookups</h4> <p>The IOWN Global Forum will likely focus on datacenter interconnect use cases in the, to help diverse providers of AI infrastructure ply their trade.…</p> <p><!--#include virtual='/data_centre/_whitepaper_textli…",
-    "pubDate": "2026-04-17T06:15:07.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Cisco Wi-Fi boxes are filling their disks with 5MB of undeletable data every day",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/cisco_wifi_ap_useless_data/",
-    "description": "<h4>Fix for critical flaw is an OS update you may not be able to make because the junk data uses all memory</h4> <p>More than 230 different models of Cisco Wi-Fi access points may be writing 5MB a day of nonessential data, filling their onboard flash memory to the point at which …",
-    "pubDate": "2026-04-17T04:35:46.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
   },
@@ -408,14 +432,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "APNIC 62 Call for Papers now open",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "Got a compelling story or insight on Internet operations? Submit your presentation for APNIC 62 today!",
-    "pubDate": "2026-04-15T03:02:37.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "The Internet’s Trust Architecture",
     "link": "https://labs.ripe.net/author/hisham_ibrahim/the-internets-trust-architecture/",
     "description": "The Internet’s core, rooted in open standards and unique identifiers, has always depended on trust. That trust is part of what makes coordination possible across distributed actors, shared systems, and diverse institutions. Looking at the Internet in these terms may help explain …",
@@ -440,14 +456,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Beyond the Network View: DNS-Driven Application Visibility",
-    "link": "https://labs.ripe.net/author/danny-lachos/beyond-the-network-view-dns-driven-application-visibility/",
-    "description": "Network operators often lack visibility into which applications drive their traffic. We present an open-source DNS-based correlation method that enriches NetFlow and BGP data with application and CDN information. This enables a shift from a network-centric to an application-orien…",
-    "pubDate": "2026-04-02T09:20:28.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "IETF Secretariat continues under new approach",
     "link": "http://www.ietf.org/blog/secretariat-continuation/",
     "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
@@ -468,14 +476,6 @@
     "link": "https://www.arin.net/blog/2026/03/28/arins-refreshed-logo/",
     "description": "ARIN has unveiled our first logo refresh in 24 years — and we're excited to share the story behind it.",
     "pubDate": "2026-03-28T11:30:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "Introducing the ARIN 57 Fellows",
-    "link": "https://www.arin.net/blog/2026/03/10/arin-57-fellows/",
-    "description": "Amanda Gauldin, ARIN Senior Project Manager, shares details about the Fellows, Mentors, and special guests joining us for the ARIN 57 Fellowship Program.",
-    "pubDate": "2026-03-10T13:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
