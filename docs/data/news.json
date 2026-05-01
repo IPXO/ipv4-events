@@ -1,11 +1,67 @@
 [
   {
+    "title": "ReAct: Reflection attack mitigation for asymmetric routing",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: DDoS attacks continue to be a destructive force on the Internet. ReAct was created to provide efficient and effective mitigation against AR-DDoS attacks, when routing is either symmetric or asymmetric.",
+    "pubDate": "2026-04-30T22:04:27.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Authority Formation and Legitimacy in Parallel Governance Tracks",
+    "link": "https://circleid.com/posts/authority&#45;formation&#45;and&#45;legitimacy&#45;in&#45;parallel&#45;governance&#45;tracks",
+    "description": "Africa's internet governance faces parallel tracks as AFRINIC's community-led reforms unfold alongside a continent-wide blueprint, raising questions over whether legitimacy will stem from participatory processes or increasingly coordinated external alignment.",
+    "pubDate": "2026-04-30T19:14:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/bandwith_hogs_rejoice_celesticas_latest/",
+    "description": "<h4>Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs</h4> <p>If you thought 800 Gbps Ethernet was fast, just wait. Celestica's latest switches cram 64 1.6 Tbps ports into a single chassis.…</p> <p><!--#include virtual='/data_centre/_whitepaper_textlinks_t…",
+    "pubDate": "2026-04-30T18:18:26.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
+    "link": "https://radar.cloudflare.com/post-quantum",
+    "description": "Cloudflare IPsec now has generally available support for post-quantum encryption via hybrid ML-KEM. We’ve confirmed interoperability with Cisco and Fortinet.",
+    "pubDate": "2026-04-30T14:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
     "link": "https://blog.cloudflare.com/code-mode/",
     "description": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashboa…",
     "pubDate": "2026-04-30T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
+  },
+  {
+    "title": "Nearly half of UK businesses pwned last year as phishing keeps doing the job like it's 2005",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/almost_half_of_uk_firms/",
+    "description": "<h4>Turns out the real problem is not AI but staff still clicking on dodgy emails from 'IT support'</h4> <p>Nearly half of UK businesses are still getting breached, and in many cases, the attacker's big breakthrough is an employee clicking \"sure, why not\" on a fake login page.…</…",
+    "pubDate": "2026-04-30T11:35:10.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "What type of 'C2 on a sleep cycle' do they leave behind? Novel Chinese spy group found in critical networks in Poland, Asia",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/chinese_spies_lurking_networks/",
+    "description": "<h4>Just in time for the Trump-Xi summit</h4> <p><strong>Exclusive</strong> A novel China-linked threat group infiltrated more than a dozen critical networks in Poland, Asian countries, and possibly beyond, beginning in December 2024 and with activity uncovered as recently as thi…",
+    "pubDate": "2026-04-30T11:00:08.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Making Resource Holders Easier to Identify: Introducing reg-nr: in the RIPE Database",
+    "link": "https://labs.ripe.net/author/marco_schmidt/making-resource-holders-easier-to-identify-introducing-reg-nr-in-the-ripe-database/",
+    "description": "Proposed at RIPE 91 in the Address Policy Working Group and then further discussed in the Database Working Group, the reg-nr: attribute (NWI-21) has already been implemented ahead of RIPE 92, showing how quickly community input can lead to practical results. It adds official comp…",
+    "pubDate": "2026-04-30T08:21:12.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
   },
   {
     "title": "[Podcast] CIDR inside",
@@ -216,22 +272,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "To fix this Wi-Fi network, we'll need a crane",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/on_call/",
-    "description": "<h4>Won't somebody think of the children not being hit by a load of building materials?</h4> <p><strong>On Call</strong> Delivering excellent tech support can sometimes require heavy lifting, a feat <em>The Register</em> celebrates each Friday with a new instalment of On Call – t…",
-    "pubDate": "2026-04-24T07:00:15.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "ForceMemo in the DNS Spotlight",
-    "link": "https://circleid.com/posts/forcememo&#45;in&#45;the&#45;dns&#45;spotlight",
-    "description": "Researchers tracing the ForceMemo campaign uncover a sprawling DNS footprint, linking compromised GitHub repositories to suspicious domains, shared infrastructure and fresh artifacts, suggesting a coordinated operation that continues to evolve despite partial attribution.",
-    "pubDate": "2026-04-23T18:11:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Understanding DDoS Scrubbing in BGP: Five Leading Scrubbers",
     "link": "https://labs.ripe.net/author/shyam-krishna-khadka/understanding-ddos-scrubbing-in-bgp-five-leading-scrubbers/",
     "description": "DDoS mitigation often relies on BGP for \"scrubbing\", but how this appears in routing data is not well understood. We analyse five major providers to distinguish between always-on and on-demand protection, showing how mitigation manifests in practice and what it means for routing …",
@@ -264,14 +304,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Oil crisis? What oil crisis? IT spending de-coupled from wider war shock",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/oil_crisis_what_oil_crisis/",
-    "description": "<h4>Gartner sees accelerating growth in IT spending, powered by cloud and AI infrastructure investment</h4> <p>A day after the International Energy Agency (IEA) said the US/Israel/Iran war was creating the <a target=\"_blank\" href=\"https://www.reuters.com/business/energy/war-iran-…",
-    "pubDate": "2026-04-22T08:30:11.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "Using QUIC Backscatter to Infer Hypergiant Deployment Configurations",
     "link": "https://labs.ripe.net/author/jmuecke/using-quic-backscatter-to-infer-hypergiant-deployment-configurations/",
     "description": "QUIC enhances privacy, but passive measurements still reveal deployment details. Using network telescope data, we analyse QUIC behaviour across major content providers and validate our findings with flow data and active measurements.",
@@ -294,14 +326,6 @@
     "pubDate": "2026-04-21T20:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Phone-to-satellite use goes into orbit, growing 25% in 8 months",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/phone_to_satellite_services_jump_25_percent/",
-    "description": "<h4>Still only a tiny slice of mobile activity overall</h4> <p>The US and Starlink lead the way in the still-young direct-to-device (D2D) satellite market, where the number of connections recorded by Ookla rose nearly 25 percent between July 2025 and March 2026.…</p> <p><!--#incl…",
-    "pubDate": "2026-04-21T16:35:39.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
   },
   {
     "title": "Moving past bots vs. humans",
@@ -384,14 +408,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Redirects for AI Training enforces canonical content",
-    "link": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/wrangler-legacy/",
-    "description": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
-    "pubDate": "2026-04-17T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "SEE 14: Advancing Internet Technologies in South East Europe",
     "link": "https://labs.ripe.net/author/anastasiya-pak/see-14-advancing-internet-technologies-in-south-east-europe/",
     "description": "Ahead of SEE 14, we examine how Internet technologies are evolving across South East Europe. Drawing on registry data and routing measurements, we highlight trends in routing security, interconnection, and IPv6 deployment.",
@@ -406,14 +422,6 @@
     "pubDate": "2026-04-16T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Noisy routers: Investigating the make-up of route collector data",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: An analysis of more than 80 billion updates reveals how 'noisy' BGP updates inflate MRT archives, bias measurements, and highlights the need for more careful interpretation of BGP data.",
-    "pubDate": "2026-04-15T23:03:13.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Tips and Tricks for Making the Most of ARIN 57",
@@ -436,14 +444,6 @@
     "link": "https://labs.ripe.net/author/ejaw/noisy-routers-investigating-the-make-up-of-route-collector-data/",
     "description": "Analysis of 80B+ BGP updates shows repeated \"noise\" is highly concentrated in a small set of peers, sessions, and prefixes, inflating datasets. Researchers from Twente, CAIDA, SIDN Labs, and IIJ examine impacts on measurement and operations.",
     "pubDate": "2026-04-15T10:46:22.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "The Internet’s Trust Architecture",
-    "link": "https://labs.ripe.net/author/hisham_ibrahim/the-internets-trust-architecture/",
-    "description": "The Internet’s core, rooted in open standards and unique identifiers, has always depended on trust. That trust is part of what makes coordination possible across distributed actors, shared systems, and diverse institutions. Looking at the Internet in these terms may help explain …",
-    "pubDate": "2026-04-13T12:49:40.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
