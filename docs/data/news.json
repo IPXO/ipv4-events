@@ -1,5 +1,37 @@
 [
   {
+    "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
+    "link": "https://blog.cloudflare.com/fail-small-resilience-plan/",
+    "description": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
+    "pubDate": "2026-05-01T21:07:30.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Satellite Industry Heats Up as Amazon, SpaceX and Blue Origin Compete for Orbit",
+    "link": "https://circleid.com/posts/satellite&#45;industry&#45;heats&#45;up&#45;as&#45;amazon&#45;spacex&#45;and&#45;blue&#45;origin&#45;compete&#45;for&#45;orbit",
+    "description": "April's satellite sector saw Amazon's $10.8bn Globalstar bid, surging plans for orbital data centres, intensifying SpaceX rivalry, regulatory friction, and doubts over broadband promises, underscoring a crowded, contested race to control next-generation connectivity infrastructur…",
+    "pubDate": "2026-05-01T17:53:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
+    "link": "https://blog.cloudflare.com/dynamic-workers/",
+    "description": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
+    "pubDate": "2026-05-01T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "UK pensions dept goes shopping for spy-van tech with £2M surveillance tender",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/dwp_goes_shopping_for_spyvan/",
+    "description": "<h4>Covert cameras, live-streaming systems, and in-vehicle recording kit sought to catch out fraudsters</h4> <p>The Department for Work and Pensions has gone shopping for covert cameras, live-streaming kit, and vehicle-based recording gear as it lines up a £2 million upgrade to w…",
+    "pubDate": "2026-05-01T10:43:07.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
     "title": "ReAct: Reflection attack mitigation for asymmetric routing",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: DDoS attacks continue to be a destructive force on the Internet. ReAct was created to provide efficient and effective mitigation against AR-DDoS attacks, when routing is either symmetric or asymmetric.",
@@ -240,22 +272,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "DNIB Reports 392.5 Million Domain Name Registrations in Q1 2026",
-    "link": "https://circleid.com/posts/dnib&#45;reports&#45;392.5&#45;million&#45;domain&#45;name&#45;registrations&#45;in&#45;q1&#45;2026",
-    "description": "The first quarter of 2026 closed with 392.5 million domain name registrations across all top-level domains (TLDs), an increase of 24.1 million domain name registrations compared to the first quarter of 2025, according to the latest issue of the Domain Name Industry Brief Quarterl…",
-    "pubDate": "2026-04-24T20:32:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "US clarifies mobile hotspots part of foreign router ban despite rarity of American made consumer kit",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/fcc_does_a_doubletake_adds/",
-    "description": "<h4>Silicon often from US, but the kit from APAC and elsewhere</h4> <p>America's telco regulator has clarified its ban on foreign-made routers also includes mobile hotspots and domestic routers that use a 5G cellular connection to the internet.…</p> <p><!--#include virtual='/data…",
-    "pubDate": "2026-04-24T16:03:14.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "ADoX Deployment in the Wild",
     "link": "https://labs.ripe.net/author/yevheniya-nosyk/adox-deployment-in-the-wild/",
     "description": "Encryption between DNS resolvers and users is growing - but what about the next hop? We measure the real-world deployment of encrypted resolver-to-authoritative DNS (ADoX), finding limited, highly concentrated adoption and little support among resolvers.",
@@ -390,22 +406,6 @@
     "pubDate": "2026-04-19T23:20:55.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
-    "link": "https://isitagentready.com/",
-    "description": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
-    "pubDate": "2026-04-17T13:05:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Shared Dictionaries: compression that keeps up with the agentic web",
-    "link": "https://almanac.httparchive.org/en/2024/page-weight#fig-15",
-    "description": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
-    "pubDate": "2026-04-17T13:02:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "SEE 14: Advancing Internet Technologies in South East Europe",
