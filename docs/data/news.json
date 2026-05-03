@@ -1,5 +1,21 @@
 [
   {
+    "title": "ICANN Opens New gTLD Applications for First Time Since 2012, With $227K Entry Fee and 27 Scripts",
+    "link": "https://circleid.com/posts/icann&#45;opens&#45;new&#45;gtld&#45;applications&#45;for&#45;first&#45;time&#45;since&#45;2012",
+    "description": "ICANN reopens applications for new top-level domains after 14 years, charging $227,000 per bid while tightening rules, as it seeks to expand multilingual access and reshape competition in the internet's naming system.",
+    "pubDate": "2026-05-02T16:14:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Two Ways to Build the Internet in Space - China, Inc. vs Starlink Et Al",
+    "link": "https://circleid.com/posts/two&#45;ways&#45;to&#45;build&#45;the&#45;internet&#45;in&#45;space&#45;china&#45;inc&#45;vs&#45;starlink&#45;et&#45;al",
+    "description": "Starlink's rapid integrated model contrasts with China's coordinated, multi-constellation strategy, where specialised networks share roles. Though slower to deploy, this system could narrow the gap and reshape global satellite internet competition by 2030 significantly ahead.",
+    "pubDate": "2026-05-02T15:50:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
     "link": "https://blog.cloudflare.com/fail-small-resilience-plan/",
     "description": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
@@ -240,14 +256,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Africa&#8217;s Community Networks Offer a Local Path to Inclusive and Resilient Connectivity",
-    "link": "https://circleid.com/posts/africa&#45;community&#45;networks&#45;offer&#45;a&#45;local&#45;path&#45;to&#45;inclusive&#45;and&#45;resilient&#45;connectivity",
-    "description": "Community networks, locally built and governed, are emerging across Africa as cost-effective tools to extend connectivity, bolster digital sovereignty, and improve cyber resilience, despite regulatory, financial, and technical constraints that hinder broader adoption.",
-    "pubDate": "2026-04-27T20:07:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "SpaceX dusts off Falcon Heavy for first flight in 18 months",
     "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/spacex_readies_the_first_falcon/",
     "description": "<h4>Side boosters to make simultaneous touchdown while center core takes one for the team</h4> <p><strong>Updated</strong> SpaceX is preparing to launch its Falcon Heavy rocket for the first time in more than 18 months, kicking off what could be a busy time for the vehicle.…</p>",
@@ -262,14 +270,6 @@
     "pubDate": "2026-04-27T05:26:58.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Fake Domains, Real Damage: What the Latest Data Reveals",
-    "link": "https://circleid.com/posts/fake&#45;domains&#45;real&#45;damage&#45;what&#45;the&#45;latest&#45;data&#45;reveals",
-    "description": "Third-party domains exploiting brand names are proliferating, with 88% of homoglyphs externally owned. Many remain dormant yet email-enabled, creating scalable phishing risks as attackers increasingly target trust rather than infrastructure.",
-    "pubDate": "2026-04-24T21:57:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "ADoX Deployment in the Wild",
