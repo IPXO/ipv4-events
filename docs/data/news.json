@@ -1,5 +1,53 @@
 [
   {
+    "title": "Questioning the IPv8 Proposal",
+    "link": "https://labs.ripe.net/author/pcdog/questioning-the-ipv8-proposal/",
+    "description": "The IPv8 proposal brings together routing, identity, and network management into a single design, but does it leave too many operational questions unanswered?",
+    "pubDate": "2026-05-05T05:36:41.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Your elected leaders: Bikram Shrestha, Policy SIG Chair",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "From early ISP deployment in Nepal to leading regional policy discussions, Bikram Shrestha connects global policy with local realities.",
+    "pubDate": "2026-05-05T04:19:19.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Post-MLAT Era: Why Dynamic Injunctions are the New Frontier of Access Blocking",
+    "link": "https://circleid.com/posts/the&#45;post&#45;mlat&#45;era&#45;why&#45;dynamic&#45;injunctions&#45;are&#45;the&#45;new&#45;frontier&#45;of&#45;access&#45;blocking",
+    "description": "As cross-border enforcement falters, dynamic injunctions are reshaping internet governance, allowing authorities to update blocking lists in real time and prioritize access deterrence over slow, often futile source takedowns across fragmented global legal regimes.",
+    "pubDate": "2026-05-04T19:10:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Africa&#8217;s Digital Transformation Is Outpacing Its Cybersecurity Governance",
+    "link": "https://circleid.com/posts/africaas&#45;digital&#45;transformation&#45;is&#45;outpacing&#45;its&#45;cybersecurity&#45;governance",
+    "description": "Africa's digital boom is accelerating, but safeguards lag. Governments and firms deploy systems at speed, while weak enforcement and fragmented oversight leave economies exposed to mounting cyber risks.",
+    "pubDate": "2026-05-04T18:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Inside Amazon Web Services' plan to make networking disappear",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/amazon_web_services_cupertino_networking_lab/",
+    "description": "<h4><i>The Register</i> gets a look inside AWS' networking lab in Cupertino</h4> <p><strong>FEATURE</strong> In an unassuming three-story office building in Cupertino, California, engineers from Amazon Web Services are busy trying to make networking inconspicuous.…</p>",
+    "pubDate": "2026-05-04T15:39:08.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Apply for a 2026 ARIN Community Grant",
+    "link": "https://www.arin.net/blog/2026/05/04/grant-applications-open/",
+    "description": "The call for applications to the 2026 ARIN Community Grant Program is out! Learn how to apply for one of our financial grants in support of operational and research projects that improve the overall Internet industry and user environment.",
+    "pubDate": "2026-05-04T15:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
     "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/who_me/",
     "description": "<h4>That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble</h4> <p><strong>Who, Me?</strong> Monday is upon us once again and <i>The Register</i> hopes that when you arrive at your desk, all is well. We offer that sentiment bec…",
@@ -216,28 +264,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "IP Reputation for AI Teams: The Infrastructure Concept Nobody Explains",
-    "link": "https://circleid.com/posts/ip&#45;reputation&#45;for&#45;ai&#45;teams&#45;the&#45;infrastructure&#45;concept&#45;nobody&#45;explains",
-    "description": "As AI agents scale, IP reputation emerges as a hidden constraint, shaping access to external systems and degrading performance. Managing network identity, not just models, is becoming essential for reliable data collection.",
-    "pubDate": "2026-04-28T18:14:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
     "link": "https://radar.cloudflare.com/outage-center#traffic-anomalies",
     "description": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
     "pubDate": "2026-04-28T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Two men charged over series of arson attacks on 5G masts",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/5g_belfast_arrests/",
-    "description": "<h4>Pair accused of creating literal flame war as bonkers conspiracy theories grow</h4> <p>Two men face charges over a series of arson attacks on 5G masts spanning two years following a Police Service of Northern Ireland (PSNI) investigation.…</p>",
-    "pubDate": "2026-04-28T11:14:28.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
   },
   {
     "title": "The Internet’s New Builders",
@@ -254,14 +286,6 @@
     "pubDate": "2026-04-27T23:14:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Trusted Notifier Network (TNN) Core Concept 2: Building a Chain of Indemnity",
-    "link": "https://circleid.com/posts/trusted&#45;notifier&#45;network&#45;tnn&#45;core&#45;concept&#45;2&#45;building&#45;a&#45;chain&#45;of&#45;indemnity",
-    "description": "TNN proposes a contractual chain of indemnity to shift legal risk in global takedowns, replacing patchy statutory protections with enforceable accountability and a fund that makes good-faith action commercially viable for smaller intermediaries.",
-    "pubDate": "2026-04-27T20:18:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "APNIC and PITA renew MoU to strengthen cooperation in the Pacific",
@@ -400,14 +424,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Strengthening your network security with APNIC’s products and tools",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Strengthening routing security is increasingly critical, and APNIC’s tools are helping operators protect their networks with clearer, more reliable validation and visibility.",
-    "pubDate": "2026-04-19T23:20:55.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "SEE 14: Advancing Internet Technologies in South East Europe",
     "link": "https://labs.ripe.net/author/anastasiya-pak/see-14-advancing-internet-technologies-in-south-east-europe/",
     "description": "Ahead of SEE 14, we examine how Internet technologies are evolving across South East Europe. Drawing on registry data and routing measurements, we highlight trends in routing security, interconnection, and IPv6 deployment.",
@@ -440,14 +456,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Noisy Routers: Investigating the Make-Up of Route Collector Data",
-    "link": "https://labs.ripe.net/author/ejaw/noisy-routers-investigating-the-make-up-of-route-collector-data/",
-    "description": "Analysis of 80B+ BGP updates shows repeated \"noise\" is highly concentrated in a small set of peers, sessions, and prefixes, inflating datasets. Researchers from Twente, CAIDA, SIDN Labs, and IIJ examine impacts on measurement and operations.",
-    "pubDate": "2026-04-15T10:46:22.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Get to Know the Draft Policies Up for Discussion at ARIN 57",
     "link": "https://www.arin.net/blog/2026/04/07/arin-57-policies/",
     "description": "Prepare for the upcoming meeting with this look at the Draft Policies on the agenda at ARIN 57, taking place 19-22 April in Louisville, Kentucky, and online.",
@@ -468,14 +476,6 @@
     "link": "https://www.arin.net/blog/2026/03/31/arin-bits-march-2026/",
     "description": "The first ARIN Bits of the year is here, and it’s brimming with news, including updates on our busy first quarter and what to expect in the coming months. Read up on: ARIN’s new logo; ARIN 57 and this spring’s Fellowship Program; enhanced routing security services and Point of Co…",
     "pubDate": "2026-03-31T13:45:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "ARIN's Refreshed Logo: Honoring Our Past, Embracing Our Future",
-    "link": "https://www.arin.net/blog/2026/03/28/arins-refreshed-logo/",
-    "description": "ARIN has unveiled our first logo refresh in 24 years — and we're excited to share the story behind it.",
-    "pubDate": "2026-03-28T11:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
