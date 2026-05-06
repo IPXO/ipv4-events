@@ -1,5 +1,53 @@
 [
   {
+    "title": "Direct‑to‑device and the return of LEO ambitions",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "LEO satellite networks are returning to the mobile market, this time shaped by lower launch costs and changing industry economics, with lessons from Iridium still looming.",
+    "pubDate": "2026-05-06T05:16:03.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "A new suite of modern tools coming for editing and publishing RFCs",
+    "link": "http://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
+    "description": "After a number of years of work, the initial rollout of a modern suite of tools for editing and publishing RFCs, including an entirely new rfc-editor.org website, will take place during the week beginning 11 May 2026.",
+    "pubDate": "2026-05-06T00:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "CaribNOG 31: Strengthening the Caribbean’s Digital Resilience",
+    "link": "https://www.arin.net/blog/2026/05/05/caribnog-31/",
+    "description": "Across the Caribbean, the conversation about digital infrastructure has changed. CaribNOG 31 — convened in Kingston, Jamaica, on 14-16 April 2026 — expressed that shift with particular clarity.",
+    "pubDate": "2026-05-05T19:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "VMware claims Cloud Foundation on track for world domination",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/vmware_vcf_9_update/",
+    "description": "<h4>Delivers update aimed at reducing hardware bill shock</h4> <p>VMware has announced an update to its flagship Cloud Foundation (VCF) private cloud suite and tried to make it fit the times by adding features that allow users to run with less hardware.…</p> <p><!--#include virtu…",
+    "pubDate": "2026-05-05T13:01:11.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/vodafone_three_deal/",
+    "description": "<h4>CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule</h4> <p>Vodafone has struck a deal to take full ownership of VodafoneThree, the mobile network formed from last year's merger of its British operations with Three, in a move designed to accelerate its U…",
+    "pubDate": "2026-05-05T11:34:23.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Rolling the root key",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Have DNSSEC-validating recursive resolvers updated their Trust Anchor sets to include KSK-2024, and how can we measure whether this transition has been successfully adopted?",
+    "pubDate": "2026-05-05T06:47:53.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Questioning the IPv8 Proposal",
     "link": "https://labs.ripe.net/author/pcdog/questioning-the-ipv8-proposal/",
     "description": "The IPv8 proposal brings together routing, identity, and network management into a single design, but does it leave too many operational questions unanswered?",
@@ -208,28 +256,12 @@
     "sourceIcon": "📰"
   },
   {
-    "title": "GoDaddy customer claims registrar transferred 27-year-old domain without any security checks",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/godaddy_megagaffe_wrongly_transferred_27yearold/",
-    "description": "<h4>32 phone calls, 17 email chains, a 5-day ordeal, and no help during the daddy of all stuffups, claim those affected</h4> <p>GoDaddy is currently investigating claims that it handed complete control of a valid 27-year-old domain to another customer, without requiring them to p…",
-    "pubDate": "2026-04-29T10:00:09.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "From BGP Data to Insight: Simplifying Real-Time Routing Analysis",
     "link": "https://labs.ripe.net/author/romain_fontugne/from-bgp-data-to-insight-simplifying-real-time-routing-analysis/",
     "description": "The IHR BGP monitoring tool is a simple web-based application that leverages the RIS Live and BGPlay APIs to monitor your prefixes and their RPKI status.",
     "pubDate": "2026-04-29T09:35:10.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "When robots join the race: 5G-A powers a new kind of marathon",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/when_robots_join_race/",
-    "description": "<h4>Human and humanoid runners share the track as next-gen connectivity underpins real-time AI performance</h4> <p><strong>Sponsored Post</strong> The half marathon has long been a test of human endurance. In Beijing’s E-Town, it has become something else entirely. The Beijing E-…",
-    "pubDate": "2026-04-29T06:08:38.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
   },
   {
     "title": "Pacific routing security sets a deadline",
@@ -352,14 +384,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Welcoming the 2026 APNIC general and Policy Fellows",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "APNIC is pleased to welcome the successful applicants to its 2026 general and Policy Fellowship programs. This year’s Fellows reflect the diversity and talent of network practitioners and community contributors from across the Asia Pacific region.",
-    "pubDate": "2026-04-22T00:19:19.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "ARIN 57 Day 2 Recap",
     "link": "https://www.arin.net/blog/2026/04/21/arin-57-day-2-recap/",
     "description": "Day two of ARIN 57 has come to an end! We had another productive day filled with policy discussions, grant reports, and more. We will be back tomorrow morning for the third and final day of the meeting.",
@@ -374,14 +398,6 @@
     "pubDate": "2026-04-21T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Using QUIC backscatter to infer hypergiant deployment configurations",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: What can we learn about QUIC deployments just by listening to unsolicited QUIC traffic? As it turns out, quite a lot.",
-    "pubDate": "2026-04-21T06:01:55.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "ARIN 57 Day 1 Recap",
@@ -460,22 +476,6 @@
     "link": "https://www.arin.net/blog/2026/04/07/arin-57-policies/",
     "description": "Prepare for the upcoming meeting with this look at the Draft Policies on the agenda at ARIN 57, taking place 19-22 April in Louisville, Kentucky, and online.",
     "pubDate": "2026-04-07T13:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "IETF Secretariat continues under new approach",
-    "link": "http://www.ietf.org/blog/secretariat-continuation/",
-    "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
-    "pubDate": "2026-03-31T18:57:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "ARIN Bits: March 2026",
-    "link": "https://www.arin.net/blog/2026/03/31/arin-bits-march-2026/",
-    "description": "The first ARIN Bits of the year is here, and it’s brimming with news, including updates on our busy first quarter and what to expect in the coming months. Read up on: ARIN’s new logo; ARIN 57 and this spring’s Fellowship Program; enhanced routing security services and Point of Co…",
-    "pubDate": "2026-03-31T13:45:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
