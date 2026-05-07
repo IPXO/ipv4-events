@@ -1,5 +1,69 @@
 [
   {
+    "title": "SCION: The overlay network for bankers",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "SCION has both supporters and critics, but it faces a major challenge: Replacing BGP while competing in an environment where network decisions are driven more by carrier costs than by strategic priorities.",
+    "pubDate": "2026-05-07T04:13:28.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "DNS Censorship Report Warns of Rising Domain Suspensions",
+    "link": "https://circleid.com/posts/dns&#45;censorship&#45;report&#45;warns&#45;of&#45;rising&#45;domain&#45;suspensions",
+    "description": "ARTICLE 19 warns that governments are increasingly exploiting internet infrastructure to silence critics, using domain suspensions to block entire websites while regulators and registry operators debate how to balance online safety, technical abuse prevention and freedom of expre…",
+    "pubDate": "2026-05-06T20:00:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The New Space Race for Direct-to-Device Mobile Networks",
+    "link": "https://circleid.com/posts/the&#45;new&#45;space&#45;race&#45;for&#45;direct&#45;to&#45;device&#45;mobile&#45;networks",
+    "description": "Three decades after Iridium's costly collapse, falling launch costs and improved signal processing are reviving satellite-to-phone ambitions, as Starlink, Amazon and AST SpaceMobile race to build direct-to-device networks that could reshape mobile coverage and competition.",
+    "pubDate": "2026-05-06T19:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "UDRP Domain Disputes Surge on Back of Mega-Cases",
+    "link": "https://circleid.com/posts/udrp&#45;domain&#45;disputes&#45;surge&#45;on&#45;back&#45;of&#45;mega&#45;cases",
+    "description": "A surge in massive cybersquatting disputes pushed UDRP domain-name cases sharply higher in early 2026, with two complaints alone accounting for more than a quarter of all disputed domains, according to a new report released by GigaLaw.",
+    "pubDate": "2026-05-06T19:11:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Registry Under Siege: Investigating NRS Outreach to AFRINIC Members",
+    "link": "https://circleid.com/posts/registry&#45;under&#45;siege&#45;investigating&#45;nrs&#45;outreach&#45;to&#45;afrinic&#45;members",
+    "description": "As AFRINIC rebuilds after years of litigation, the Number Resource Society is urging members to sign powers of attorney, raising fears that coordinated advocacy, commercial interests and geopolitical pressures could reshape African control over critical internet resources.",
+    "pubDate": "2026-05-06T18:55:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Firms Stick With &#8220;.com&#8221; While Cyber Risks Redefine Domain Strategy",
+    "link": "https://circleid.com/posts/firms&#45;stick&#45;with&#45;.com&#45;while&#45;cyber&#45;risks&#45;redefine&#45;domain&#45;strategy",
+    "description": "Corporate domain strategies remain anchored in legacy extensions even as new domains proliferate, forcing firms to balance global reach, regional needs and rising fraud risks in an increasingly complex digital landscape.",
+    "pubDate": "2026-05-06T18:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
+    "link": "https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/",
+    "description": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
+    "pubDate": "2026-05-06T17:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "PeeringDB Update October 2025 - April 2026",
+    "link": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-october-2025-april-2026/",
+    "description": "PeeringDB is a widely used resource for interconnection data, and in these regular updates, we help users keep track of how the platform evolves. This report summarises significant PeeringDB changes over the last six months.",
+    "pubDate": "2026-05-06T07:20:41.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Direct‑to‑device and the return of LEO ambitions",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "LEO satellite networks are returning to the mobile market, this time shaped by lower launch costs and changing industry economics, with lessons from Iridium still looming.",
@@ -24,17 +88,9 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "VMware claims Cloud Foundation on track for world domination",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/vmware_vcf_9_update/",
-    "description": "<h4>Delivers update aimed at reducing hardware bill shock</h4> <p>VMware has announced an update to its flagship Cloud Foundation (VCF) private cloud suite and tried to make it fit the times by adding features that allow users to run with less hardware.…</p> <p><!--#include virtu…",
-    "pubDate": "2026-05-05T13:01:11.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/vodafone_three_deal/",
-    "description": "<h4>CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule</h4> <p>Vodafone has struck a deal to take full ownership of VodafoneThree, the mobile network formed from last year's merger of its British operations with Three, in a move designed to accelerate its U…",
+    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
+    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
     "pubDate": "2026-05-05T11:34:23.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
@@ -81,8 +137,8 @@
   },
   {
     "title": "Inside Amazon Web Services' plan to make networking disappear",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/amazon_web_services_cupertino_networking_lab/",
-    "description": "<h4><i>The Register</i> gets a look inside AWS' networking lab in Cupertino</h4> <p><strong>FEATURE</strong> In an unassuming three-story office building in Cupertino, California, engineers from Amazon Web Services are busy trying to make networking inconspicuous.…</p>",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
+    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
     "pubDate": "2026-05-04T15:39:08.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
@@ -97,8 +153,8 @@
   },
   {
     "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/who_me/",
-    "description": "<h4>That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble</h4> <p><strong>Who, Me?</strong> Monday is upon us once again and <i>The Register</i> hopes that when you arrive at your desk, all is well. We offer that sentiment bec…",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
+    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
     "pubDate": "2026-05-04T07:00:11.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
@@ -144,14 +200,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "UK pensions dept goes shopping for spy-van tech with £2M surveillance tender",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/dwp_goes_shopping_for_spyvan/",
-    "description": "<h4>Covert cameras, live-streaming systems, and in-vehicle recording kit sought to catch out fraudsters</h4> <p>The Department for Work and Pensions has gone shopping for covert cameras, live-streaming kit, and vehicle-based recording gear as it lines up a £2 million upgrade to w…",
-    "pubDate": "2026-05-01T10:43:07.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "ReAct: Reflection attack mitigation for asymmetric routing",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: DDoS attacks continue to be a destructive force on the Internet. ReAct was created to provide efficient and effective mitigation against AR-DDoS attacks, when routing is either symmetric or asymmetric.",
@@ -160,17 +208,9 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Authority Formation and Legitimacy in Parallel Governance Tracks",
-    "link": "https://circleid.com/posts/authority&#45;formation&#45;and&#45;legitimacy&#45;in&#45;parallel&#45;governance&#45;tracks",
-    "description": "Africa's internet governance faces parallel tracks as AFRINIC's community-led reforms unfold alongside a continent-wide blueprint, raising questions over whether legitimacy will stem from participatory processes or increasingly coordinated external alignment.",
-    "pubDate": "2026-04-30T19:14:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/bandwith_hogs_rejoice_celesticas_latest/",
-    "description": "<h4>Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs</h4> <p>If you thought 800 Gbps Ethernet was fast, just wait. Celestica's latest switches cram 64 1.6 Tbps ports into a single chassis.…</p> <p><!--#include virtual='/data_centre/_whitepaper_textlinks_t…",
+    "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
+    "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
     "pubDate": "2026-04-30T18:18:26.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
@@ -192,22 +232,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Nearly half of UK businesses pwned last year as phishing keeps doing the job like it's 2005",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/almost_half_of_uk_firms/",
-    "description": "<h4>Turns out the real problem is not AI but staff still clicking on dodgy emails from 'IT support'</h4> <p>Nearly half of UK businesses are still getting breached, and in many cases, the attacker's big breakthrough is an employee clicking \"sure, why not\" on a fake login page.…</…",
-    "pubDate": "2026-04-30T11:35:10.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "What type of 'C2 on a sleep cycle' do they leave behind? Novel Chinese spy group found in critical networks in Poland, Asia",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/chinese_spies_lurking_networks/",
-    "description": "<h4>Just in time for the Trump-Xi summit</h4> <p><strong>Exclusive</strong> A novel China-linked threat group infiltrated more than a dozen critical networks in Poland, Asian countries, and possibly beyond, beginning in December 2024 and with activity uncovered as recently as thi…",
-    "pubDate": "2026-04-30T11:00:08.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "Making Resource Holders Easier to Identify: Introducing reg-nr: in the RIPE Database",
     "link": "https://labs.ripe.net/author/marco_schmidt/making-resource-holders-easier-to-identify-introducing-reg-nr-in-the-ripe-database/",
     "description": "Proposed at RIPE 91 in the Address Policy Working Group and then further discussed in the Database Working Group, the reg-nr: attribute (NWI-21) has already been implemented ahead of RIPE 92, showing how quickly community input can lead to practical results. It adds official comp…",
@@ -224,17 +248,9 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Unearthing DNS Facts about UAT-8099",
-    "link": "https://circleid.com/posts/unearthing&#45;dns&#45;facts&#45;about&#45;uat&#45;8099",
-    "description": "WhoisXML API analysis deepens understanding of the UAT-8099 campaign, uncovering expanded DNS infrastructure, early indicators of malicious intent, and thousands of linked artifacts, underscoring the group's evolving tactics and regional focus across Asia.",
-    "pubDate": "2026-04-29T19:21:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Cloudflare says autocrats, wars and elections caged the internet in Q1",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/autocrats_war_elections_caused_internet/",
-    "description": "<h4>Iran went dark twice, AWS got droned, oh and TalkTalk broke something it refuses to talk about</h4> <p>The first quarter of 2026 saw a surge in severe and prolonged internet disruptions, from government shutdowns to power outages to the occasional mystery incident.…</p>",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/cloudflare-autocrats-wars-and-votes-caged-the-net-in-q1/5220583",
+    "description": "Iran went dark twice, AWS got droned, oh and TalkTalk broke something it refuses to talk about",
     "pubDate": "2026-04-29T17:05:55.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
@@ -249,9 +265,25 @@
   },
   {
     "title": "Wind Telecom Dominican Republic and ZTE join forces to accelerate smart home innovation",
-    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/wind-telecom-zte-partner-for-smart-home-innovation/",
-    "description": "<h4>Elevating residential connectivity with AI-driven network optimization and secure cloud-based home monitoring solutions</h4> <p><strong>Partner Content</strong> ZTE Corporation (0763.HK / 000063.SZ), a global leading provider of integrated information and communication techno…",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/wind-telecom-and-zte-partner-for-smart-home-innovation/5222949",
+    "description": "Elevating residential connectivity with AI-driven network optimization and secure cloud-based home monitoring solutions",
     "pubDate": "2026-04-29T10:34:12.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "ZTE and XLSMART officially launch Innovation Center in Jakarta, accelerating 5G-advanced and AI readiness for Indonesia",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/zte-xlsmart-launch-jakarta-ai-5g-a-innovation-center/5225063",
+    "description": "Driving cross-sector digital transformation through collaborative 5G-A research and AI-powered network solutions",
+    "pubDate": "2026-04-29T10:10:29.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "GoDaddy customer claims registrar transferred 27-year-old domain without any security checks",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/non-profits-godaddy-nightmare-and-the-it-chaos-that-ensued/5226239",
+    "description": "32 phone calls, 17 email chains, a 5-day ordeal, and no help during the daddy of all stuffups, claim those affected",
+    "pubDate": "2026-04-29T10:00:09.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
   },
@@ -264,6 +296,14 @@
     "sourceIcon": "🌍"
   },
   {
+    "title": "When robots join the race: 5G-A powers a new kind of marathon",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/5g-a-powers-a-new-kind-of-marathon/5226158",
+    "description": "Human and humanoid runners share the track as next-gen connectivity underpins real-time AI performance",
+    "pubDate": "2026-04-29T06:08:38.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
     "title": "Pacific routing security sets a deadline",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Guest Post: PITA 30 showed both the risks of insecure routing and the opportunities for rapid improvement in the Pacific, with PITA 31 set as an implementation target.",
@@ -272,36 +312,20 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Building RIPE SEE: A Conversation With Jan Žorž About Community, Trust, and the Work Behind a Regional Event",
-    "link": "https://circleid.com/posts/building&#45;ripe&#45;see&#45;a&#45;conversation&#45;with&#45;jan&#45;zhorzh&#45;about&#45;community&#45;trust&#45;and&#45;the&#45;work&#45;behind&#45;a&#45;regional&#45;event",
-    "description": "Jan Žorž reflects on SEE RIPE's role in uniting a fragmented region, where trust built through informal exchange now underpins internet resilience and helps align engineers with policymakers as regulatory pressures intensify.",
-    "pubDate": "2026-04-28T19:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Iran&#8217;s Internet Blackout Hits 60 Days - Deepening Economic Crisis, Two-Tier Access",
-    "link": "https://circleid.com/posts/irans&#45;internet&#45;blackout&#45;hits&#45;60&#45;days&#45;deepening&#45;economic&#45;crisis&#45;two&#45;tier&#45;access",
-    "description": "Iran's now 60-day internet blackout is inflicting heavy economic losses, disrupting exports and daily life, while a tiered access plan deepens inequality and signals a shift toward tighter state control of digital connectivity.",
-    "pubDate": "2026-04-28T18:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Beyond Connectivity: How Submarine Cable Resilience Dictates Digital Sovereignty in the Age of Fragmented Governance",
-    "link": "https://circleid.com/posts/beyond&#45;connectivity&#45;how&#45;submarine&#45;cable&#45;resilience&#45;dictates&#45;digital&#45;sovereignty&#45;in&#45;the&#45;age&#45;of&#45;fragmented&#45;governance",
-    "description": "Subsea cables underpin global data flows, yet resilience, control and deep sea access now define digital sovereignty as governance fragments, hyperscalers consolidate ownership, and states prioritize survivability over efficiency in an increasingly contested geopolitical seabed.",
-    "pubDate": "2026-04-28T18:25:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
     "link": "https://radar.cloudflare.com/outage-center#traffic-anomalies",
     "description": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
     "pubDate": "2026-04-28T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
+  },
+  {
+    "title": "Two men charged over series of arson attacks on 5G masts",
+    "link": "https://www.theregister.com/on-prem/2026/04/28/two-men-charged-over-series-of-arson-attacks-on-5g-masts/5221305",
+    "description": "Pair accused of creating literal flame war as bonkers conspiracy theories grow",
+    "pubDate": "2026-04-28T11:14:28.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   },
   {
     "title": "The Internet’s New Builders",
@@ -350,14 +374,6 @@
     "pubDate": "2026-04-23T11:12:40.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Detecting and characterizing DDoS scrubbing from global BGP routing",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Analysing public BGP data to characterize the real‑world behaviour of five major scrubbing services.",
-    "pubDate": "2026-04-23T05:24:53.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "ARIN 57 Day 3 Recap",
@@ -424,14 +440,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Orchestrating AI Code Review at scale",
-    "link": "https://developers.cloudflare.com/workers/ci-cd/",
-    "description": "Learn about how we built a CI-native AI code reviewer using OpenCode that helps our engineers ship better, safer code.",
-    "pubDate": "2026-04-20T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Towards Understanding City-Level Routing Using BGP Location Communities",
     "link": "https://labs.ripe.net/author/tkrenc/towards-understanding-city-level-routing-using-bgp-location-communities/",
     "description": "BGP location communities offer a rare glimpse into where networks actually interconnect, but most remain undocumented and opaque. This work shows that, by exploiting a measurable spatial signal in routing data, it is possible to infer their city-level meaning at scale using only …",
@@ -462,14 +470,6 @@
     "pubDate": "2026-04-15T14:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Introducing Region Meshes: Visualising Intra-Region Routing Paths",
-    "link": "https://labs.ripe.net/author/stephen_suess_1/introducing-region-meshes-visualising-intra-region-routing-paths/",
-    "description": "Region Meshes is a new RIPE Atlas tool that visualises intra-region routing paths, showing where traffic stays local, where it leaves, and how IXPs are being used.",
-    "pubDate": "2026-04-15T12:04:22.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Get to Know the Draft Policies Up for Discussion at ARIN 57",
