@@ -1,5 +1,13 @@
 [
   {
+    "title": "RIR Governance Document Version 2: Status Report May 2026 now available",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The NRO NC has updated the status report related to comments received during the consultation on the second version of the RIR Governance Document.",
+    "pubDate": "2026-05-10T23:27:52.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "The invisible hand: Regaining control of service quality from outsourced satellite networks",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: MNOs lease LEO satellites from SNOs as a cost-effective way for to expand coverage, but cannot guarantee service quality without control over the satellites. Ripple is a competition-driven framework that directly links SNOs' revenue to the service quality they deliver…",
@@ -364,14 +372,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "IPv6 has reached a major milestone, with around half of Google’s users now accessing its services over IPv6.",
     "pubDate": "2026-04-27T23:14:56.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "APNIC and PITA renew MoU to strengthen cooperation in the Pacific",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "APNIC and PITA have renewed their MoU, reaffirming their long-standing partnership and commitment to strengthening Internet development and resilience across the Pacific.",
-    "pubDate": "2026-04-27T05:26:58.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
