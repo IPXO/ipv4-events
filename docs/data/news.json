@@ -1,5 +1,69 @@
 [
   {
+    "title": "Repairing the RPKIViews H1 2026 archives",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: RPKIViews captures the constantly changing global RPKI dataset without storing wasteful full snapshots. By using CCRs, deduplication, and high-efficiency compression, rpkispools make long-term RPKI research practical at scale.",
+    "pubDate": "2026-05-11T22:45:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "We’re Drowning in Data - A New Kind of Memory Could Change That",
+    "link": "https://circleid.com/posts/were&#45;drowning&#45;in&#45;data",
+    "description": "As AI devours ever more information, the world faces a costly data-storage crisis. Researchers are betting etched silica glass could preserve vast archives for centuries while consuming far less energy than today's hard drives and magnetic tapes.",
+    "pubDate": "2026-05-11T19:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Illusion of Digital Sovereignty (Part III) - Collision, Geopolitical, Compute Concentration, Future Governance",
+    "link": "https://circleid.com/posts/the&#45;illusion&#45;of&#45;digital&#45;sovereignty&#45;part&#45;iii",
+    "description": "Geopolitical fragmentation is colliding with the internet's distributed architecture, exposing how sovereign cloud concentration and AI infrastructure can weaken resilience, amplify strategic vulnerabilities, and challenge whether governance can preserve interoperability while ma…",
+    "pubDate": "2026-05-11T19:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Illusion of Digital Sovereignty (Part II) - Emergence, Sovereign AI Ecosystem, the RIR System, Number Resources",
+    "link": "https://circleid.com/posts/the&#45;illusion&#45;of&#45;digital&#45;sovereignty&#45;part&#45;ii",
+    "description": "As states chase digital sovereignty through clouds, AI and localized infrastructure, the internet's globally coordinated foundations reveal a harder truth: operational continuity depends less on control than on interoperable systems built on trust and governance.",
+    "pubDate": "2026-05-11T19:31:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Illusion of Digital Sovereignty (Part I) - Cloud Infrastructure, Survivability, and the Territorialization of the Internet",
+    "link": "https://circleid.com/posts/the&#45;illusion&#45;of&#45;digital&#45;sovereignty&#45;part&#45;i",
+    "description": "Missile strikes on Gulf data centres exposed a deeper contradiction at the heart of digital sovereignty: governments seek territorial control over internet infrastructure whose resilience still depends upon globally distributed coordination and interdependence across borders.",
+    "pubDate": "2026-05-11T19:05:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Recent Advancements in the Rights to Public Knowledge: Technical Standards",
+    "link": "https://circleid.com/posts/recent&#45;advancements&#45;in&#45;the&#45;rights&#45;to&#45;public&#45;knowledge&#45;technical&#45;standards",
+    "description": "Recent court rulings in Europe and America are reshaping access to technical standards, weakening paywalls and strengthening the principle that publicly mandated knowledge belongs to citizens, regulators and increasingly AI systems that depend on machine-readable information.",
+    "pubDate": "2026-05-11T18:32:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Demystifying RPKI: New Tools to Simplify ROA Planning and Visualize Validation",
+    "link": "https://www.arin.net/blog/2026/05/11/arin-57-keynote-demystifying-rpki/",
+    "description": "Last month's ARIN 57 meeting featured a keynote address that offered something extremely valuable in the routing security world: practical tools built by someone who spends his days helping real network operators improve routing integrity. Learn what Steve Wallace, Director of Ro…",
+    "pubDate": "2026-05-11T16:30:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "The RIPE Chair Team Reports - May 2026",
+    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-may-2026/",
+    "description": "The RIPE Chair Team reports on what to expect at RIPE 92, including the main programme and parallel events, WG chair selections and support for newcomers, as well as highlights from recent industry events.",
+    "pubDate": "2026-05-11T13:57:16.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "RIR Governance Document Version 2: Status Report May 2026 now available",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The NRO NC has updated the status report related to comments received during the consultation on the second version of the RIR Governance Document.",
@@ -80,14 +144,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Firms Stick With &#8220;.com&#8221; While Cyber Risks Redefine Domain Strategy",
-    "link": "https://circleid.com/posts/firms&#45;stick&#45;with&#45;.com&#45;while&#45;cyber&#45;risks&#45;redefine&#45;domain&#45;strategy",
-    "description": "Corporate domain strategies remain anchored in legacy extensions even as new domains proliferate, forcing firms to balance global reach, regional needs and rising fraud risks in an increasingly complex digital landscape.",
-    "pubDate": "2026-05-06T18:38:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
     "link": "https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/",
     "description": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
@@ -160,22 +216,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The Post-MLAT Era: Why Dynamic Injunctions are the New Frontier of Access Blocking",
-    "link": "https://circleid.com/posts/the&#45;post&#45;mlat&#45;era&#45;why&#45;dynamic&#45;injunctions&#45;are&#45;the&#45;new&#45;frontier&#45;of&#45;access&#45;blocking",
-    "description": "As cross-border enforcement falters, dynamic injunctions are reshaping internet governance, allowing authorities to update blocking lists in real time and prioritize access deterrence over slow, often futile source takedowns across fragmented global legal regimes.",
-    "pubDate": "2026-05-04T19:10:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Africa&#8217;s Digital Transformation Is Outpacing Its Cybersecurity Governance",
-    "link": "https://circleid.com/posts/africaas&#45;digital&#45;transformation&#45;is&#45;outpacing&#45;its&#45;cybersecurity&#45;governance",
-    "description": "Africa's digital boom is accelerating, but safeguards lag. Governments and firms deploy systems at speed, while weak enforcement and fragmented oversight leave economies exposed to mounting cyber risks.",
-    "pubDate": "2026-05-04T18:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Inside Amazon Web Services' plan to make networking disappear",
     "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
     "description": "The Register gets a look inside AWS' networking lab in Cupertino",
@@ -198,22 +238,6 @@
     "pubDate": "2026-05-04T07:00:11.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "ICANN Opens New gTLD Applications for First Time Since 2012, With $227K Entry Fee and 27 Scripts",
-    "link": "https://circleid.com/posts/icann&#45;opens&#45;new&#45;gtld&#45;applications&#45;for&#45;first&#45;time&#45;since&#45;2012",
-    "description": "ICANN reopens applications for new top-level domains after 14 years, charging $227,000 per bid while tightening rules, as it seeks to expand multilingual access and reshape competition in the internet's naming system.",
-    "pubDate": "2026-05-02T16:14:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Two Ways to Build the Internet in Space - China, Inc. vs Starlink Et Al",
-    "link": "https://circleid.com/posts/two&#45;ways&#45;to&#45;build&#45;the&#45;internet&#45;in&#45;space&#45;china&#45;inc&#45;vs&#45;starlink&#45;et&#45;al",
-    "description": "Starlink's rapid integrated model contrasts with China's coordinated, multi-constellation strategy, where specialised networks share roles. Though slower to deploy, this system could narrow the gap and reshape global satellite internet competition by 2030 significantly ahead.",
-    "pubDate": "2026-05-02T15:50:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
@@ -368,14 +392,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Google hits 50% IPv6",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "IPv6 has reached a major milestone, with around half of Google’s users now accessing its services over IPv6.",
-    "pubDate": "2026-04-27T23:14:56.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "ADoX Deployment in the Wild",
     "link": "https://labs.ripe.net/author/yevheniya-nosyk/adox-deployment-in-the-wild/",
     "description": "Encryption between DNS resolvers and users is growing - but what about the next hop? We measure the real-world deployment of encrypted resolver-to-authoritative DNS (ADoX), finding limited, highly concentrated adoption and little support among resolvers.",
@@ -448,14 +464,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "SEE 14: Advancing Internet Technologies in South East Europe",
-    "link": "https://labs.ripe.net/author/anastasiya-pak/see-14-advancing-internet-technologies-in-south-east-europe/",
-    "description": "Ahead of SEE 14, we examine how Internet technologies are evolving across South East Europe. Drawing on registry data and routing measurements, we highlight trends in routing security, interconnection, and IPv6 deployment.",
-    "pubDate": "2026-04-17T12:01:21.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Making Your Voice Heard: The Future of ARIN Policy Engagement",
     "link": "https://www.arin.net/blog/2026/04/16/ac-policy-engagement-survey-followup/",
     "description": "The ARIN Advisory Council’s Policy Engagement Working Group wraps up the results of the survey they conducted earlier in the year.",
@@ -468,14 +476,6 @@
     "link": "https://www.arin.net/blog/2026/04/15/arin-57-tips-and-tricks/",
     "description": "ARIN 57 is just days away — and a little prep goes a long way. Catch up on everything you need to know to make the most of your experience, whether you're joining us in Louisville or participating online.",
     "pubDate": "2026-04-15T14:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "Get to Know the Draft Policies Up for Discussion at ARIN 57",
-    "link": "https://www.arin.net/blog/2026/04/07/arin-57-policies/",
-    "description": "Prepare for the upcoming meeting with this look at the Draft Policies on the agenda at ARIN 57, taking place 19-22 April in Louisville, Kentucky, and online.",
-    "pubDate": "2026-04-07T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
