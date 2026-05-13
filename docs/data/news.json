@@ -1,5 +1,77 @@
 [
   {
+    "title": "IPv6 in the boardroom",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: IPv6 can be seen as an infrastructure refresh, rather than an organizational responsibility tied to governance, risk, and compliance. Reframe it in those terms, and it shifts from a network discussion to a board-level obligation.",
+    "pubDate": "2026-05-12T22:45:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "AI-Driven Cyber Threats Are Growing, Google Warns",
+    "link": "https://circleid.com/posts/ai&#45;driven&#45;cyber&#45;threats&#45;are&#45;growing&#45;google&#45;warns",
+    "description": "Google says cybercriminals and state-backed hackers are rapidly adopting generative AI to automate attacks, disguise malware, exploit vulnerabilities and spread disinformation, marking a shift from experimental use to industrial-scale cyber operations across the global threat lan…",
+    "pubDate": "2026-05-12T19:26:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Abuse Is Stealing India&#8217;s Youth: Fake Domains and the Job-Seeking Trap",
+    "link": "https://circleid.com/posts/dns&#45;abuse&#45;is&#45;stealing&#45;indias&#45;youth&#45;fake&#45;domains&#45;and&#45;the&#45;job&#45;seeking&#45;trap",
+    "description": "Fake recruitment websites exploiting India's young job seekers are proliferating, exposing millions to identity theft, financial fraud and malware while regulators, registrars and digital literacy programs struggle to keep pace with a growing labor market.",
+    "pubDate": "2026-05-12T19:09:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Running-Code Primacy - The Patch Needed to Preserve the Internet&#8217;s Original Design",
+    "link": "https://circleid.com/posts/running&#45;code&#45;primacy&#45;the&#45;patch&#45;needed&#45;to&#45;preserve&#45;the&#45;internets&#45;original&#45;design",
+    "description": "This essay argues that Internet governance has drifted from technical coordination into unaccountable institutional power, and proposes \"Running-Code Primacy\" as a post-RIR framework grounded in distributed validation, interoperability, and voluntary adoption rather than registry…",
+    "pubDate": "2026-05-12T18:56:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "IPv4 Market Shows Signs of Stabilization as Demand Holds Firm",
+    "link": "https://circleid.com/posts/ipv4&#45;market&#45;shows&#45;signs&#45;of&#45;stabilization&#45;as&#45;demand&#45;holds&#45;firm",
+    "description": "After months of decline, the IPv4 market is showing signs of stabilization. April pricing held steady across block sizes as resilient demand, broader transaction activity, and improving buyer confidence pointed toward a more constructive market environment through 2026.",
+    "pubDate": "2026-05-12T18:44:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "A Network IoC Analysis for 8 Iran-Affiliated APT Groups",
+    "link": "https://circleid.com/posts/a&#45;network&#45;ioc&#45;analysis&#45;for&#45;8&#45;iran&#45;affiliated&#45;apt&#45;groups",
+    "description": "An analysis of 191 network indicators tied to eight Iran-affiliated APT groups uncovered malicious domains, active infrastructure, thousands of victim-linked IP interactions, and coordinated DNS activity, revealing the breadth and persistence of Tehran-linked cyber operations ami…",
+    "pubDate": "2026-05-12T16:43:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+    "link": "https://www.rfc-editor.org/rfc/rfc9438.html",
+    "description": "We investigated a bug where CUBIC's congestion window became pinned at its minimum floor, causing a performance to plummet. The fix involved correctly measuring idle periods to distinguish RTT wait times from actual application idleness.",
+    "pubDate": "2026-05-12T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Operational Review of Public ENUM Under e164.arpa",
+    "link": "https://labs.ripe.net/author/hisham_ibrahim/operational-review-of-public-enum-under-e164arpa/",
+    "description": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
+    "pubDate": "2026-05-12T10:02:35.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "A new suite of modern tools coming for editing and publishing RFCs",
+    "link": "http://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
+    "description": "After a number of years of work, the initial rollout of a modern suite of tools for editing and publishing RFCs, including an entirely new rfc-editor.org website, will take place in May 2026.",
+    "pubDate": "2026-05-12T08:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
     "title": "Repairing the RPKIViews H1 2026 archives",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: RPKIViews captures the constantly changing global RPKI dataset without storing wasteful full snapshots. By using CCRs, deduplication, and high-efficiency compression, rpkispools make long-term RPKI research practical at scale.",
@@ -88,14 +160,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Steven Bellovin Takes Aim at Cybersecurity Myths in New Book",
-    "link": "https://circleid.com/posts/steven&#45;bellovin&#45;takes&#45;aim&#45;at&#45;cybersecurity&#45;myths&#45;in&#45;new&#45;book",
-    "description": "Cybersecurity pioneer Steven Bellovin's new book strips away jargon and outdated online-safety advice, offering ordinary users practical guidance on passwords, phishing, privacy and digital habits in an era of constant cyber threats and increasingly sophisticated scams.",
-    "pubDate": "2026-05-07T19:30:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
     "link": "https://security-tracker.debian.org/tracker/CVE-2026-31431",
     "description": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
@@ -110,38 +174,6 @@
     "pubDate": "2026-05-07T04:13:28.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "DNS Censorship Report Warns of Rising Domain Suspensions",
-    "link": "https://circleid.com/posts/dns&#45;censorship&#45;report&#45;warns&#45;of&#45;rising&#45;domain&#45;suspensions",
-    "description": "ARTICLE 19 warns that governments are increasingly exploiting internet infrastructure to silence critics, using domain suspensions to block entire websites while regulators and registry operators debate how to balance online safety, technical abuse prevention and freedom of expre…",
-    "pubDate": "2026-05-06T20:00:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The New Space Race for Direct-to-Device Mobile Networks",
-    "link": "https://circleid.com/posts/the&#45;new&#45;space&#45;race&#45;for&#45;direct&#45;to&#45;device&#45;mobile&#45;networks",
-    "description": "Three decades after Iridium's costly collapse, falling launch costs and improved signal processing are reviving satellite-to-phone ambitions, as Starlink, Amazon and AST SpaceMobile race to build direct-to-device networks that could reshape mobile coverage and competition.",
-    "pubDate": "2026-05-06T19:38:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "UDRP Domain Disputes Surge on Back of Mega-Cases",
-    "link": "https://circleid.com/posts/udrp&#45;domain&#45;disputes&#45;surge&#45;on&#45;back&#45;of&#45;mega&#45;cases",
-    "description": "A surge in massive cybersquatting disputes pushed UDRP domain-name cases sharply higher in early 2026, with two complaints alone accounting for more than a quarter of all disputed domains, according to a new report released by GigaLaw.",
-    "pubDate": "2026-05-06T19:11:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Registry Under Siege: Investigating NRS Outreach to AFRINIC Members",
-    "link": "https://circleid.com/posts/registry&#45;under&#45;siege&#45;investigating&#45;nrs&#45;outreach&#45;to&#45;afrinic&#45;members",
-    "description": "As AFRINIC rebuilds after years of litigation, the Number Resource Society is urging members to sign powers of attorney, raising fears that coordinated advocacy, commercial interests and geopolitical pressures could reshape African control over critical internet resources.",
-    "pubDate": "2026-05-06T18:55:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
@@ -166,14 +198,6 @@
     "pubDate": "2026-05-06T05:16:03.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "A new suite of modern tools coming for editing and publishing RFCs",
-    "link": "http://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
-    "description": "After a number of years of work, the initial rollout of a modern suite of tools for editing and publishing RFCs, including an entirely new rfc-editor.org website, will take place during the week beginning 11 May 2026.",
-    "pubDate": "2026-05-06T00:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
   },
   {
     "title": "CaribNOG 31: Strengthening the Caribbean’s Digital Resilience",
@@ -360,14 +384,6 @@
     "sourceIcon": "📰"
   },
   {
-    "title": "Pacific routing security sets a deadline",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Guest Post: PITA 30 showed both the risks of insecure routing and the opportunities for rapid improvement in the Pacific, with PITA 31 set as an implementation target.",
-    "pubDate": "2026-04-29T03:38:04.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
     "link": "https://radar.cloudflare.com/outage-center#traffic-anomalies",
     "description": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
@@ -440,28 +456,12 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Moving past bots vs. humans",
-    "link": "https://blog.cloudflare.com/web-bot-auth/",
-    "description": "As AI assistants and privacy proxies challenge the capabilities of traditional bot detection, the Web needs new models for accountability. We believe that control should remain with the client, and that an open ecosystem of anonymous credentials is key to preserving user privacy …",
-    "pubDate": "2026-04-21T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "ARIN 57 Day 1 Recap",
     "link": "https://www.arin.net/blog/2026/04/20/arin-57-day-1-recap/",
     "description": "From Louisville, Kentucky, ARIN 57 is underway! We were thrilled to open the doors to the meeting, and we thank everyone who was able to join us virtually.",
     "pubDate": "2026-04-20T20:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Towards Understanding City-Level Routing Using BGP Location Communities",
-    "link": "https://labs.ripe.net/author/tkrenc/towards-understanding-city-level-routing-using-bgp-location-communities/",
-    "description": "BGP location communities offer a rare glimpse into where networks actually interconnect, but most remain undocumented and opaque. This work shows that, by exploiting a measurable spatial signal in routing data, it is possible to infer their city-level meaning at scale using only …",
-    "pubDate": "2026-04-20T08:26:55.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Making Your Voice Heard: The Future of ARIN Policy Engagement",
