@@ -1,5 +1,45 @@
 [
   {
+    "title": "Inside Iran&#8217;s Shift From Internet Shutdowns to Tiered Connectivity",
+    "link": "https://circleid.com/posts/inside&#45;irans&#45;shift&#45;from&#45;internet&#45;shutdowns&#45;to&#45;tiered&#45;connectivity",
+    "description": "Iran's wartime internet restrictions transformed online access into a costly, unequal system, according to researcher Imad Payande, with black markets, selective connectivity and institutional privilege reshaping how citizens reached the global web.",
+    "pubDate": "2026-05-15T19:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Facilitation Without Responsibility: ICANN and the Missing Warning Question - Part 1 of 3",
+    "link": "https://circleid.com/posts/facilitation&#45;without&#45;responsibility&#45;icann&#45;and&#45;the&#45;missing&#45;warning&#45;question&#45;part&#45;1&#45;of&#45;3",
+    "description": "An ICANN-backed African internet-governance initiative exposed a deeper institutional problem: whether global coordinators must warn when regional policy processes drift into RIR governance, before facilitation, silence and funding harden into implied legitimacy for contested ref…",
+    "pubDate": "2026-05-15T19:19:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Universal Acceptance Day and the Long Arc of Multilingualism",
+    "link": "https://circleid.com/posts/universal&#45;acceptance&#45;day&#45;and&#45;the&#45;long&#45;arc&#45;of&#45;multilingualism",
+    "description": "Universal Acceptance Day 2026 marks progress toward a multilingual internet, as UNESCO and ICANN deepen cooperation. Yet unresolved implementation failures and weak registry stewardship still hinder truly inclusive digital access worldwide.",
+    "pubDate": "2026-05-15T18:52:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Legacy Out of Contract",
+    "link": "https://labs.ripe.net/author/qasim-lone/legacy-out-of-contract/",
+    "description": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming…",
+    "pubDate": "2026-05-15T11:39:22.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "APNIC and NNIX collaborate to strengthen RPKI and IPv6 deployment in China",
+    "link": "https://blog.apnic.net/category/development/",
+    "description": "APNIC and NNIX have signed an MoU to advance RPKI and IPv6 deployment in China, including plans for an RPKI repository mirror in Hangzhou — the first of its kind in the region. The partnership combines infrastructure, training, and community engagement to support a more secure an…",
+    "pubDate": "2026-05-15T10:19:39.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "PeeringDB update: October 2025 to April 2026",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: From Kubernetes migration to improved ASN comparison and stronger data normalization, PeeringDB has delivered a range of updates over the past six months. This report highlights key operational changes, new search capabilities, and what's coming next to support users …",
@@ -136,30 +176,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "We’re Drowning in Data - A New Kind of Memory Could Change That",
-    "link": "https://circleid.com/posts/were&#45;drowning&#45;in&#45;data",
-    "description": "As AI devours ever more information, the world faces a costly data-storage crisis. Researchers are betting etched silica glass could preserve vast archives for centuries while consuming far less energy than today's hard drives and magnetic tapes.",
-    "pubDate": "2026-05-11T19:54:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Illusion of Digital Sovereignty (Part III) - Collision, Geopolitical, Compute Concentration, Future Governance",
-    "link": "https://circleid.com/posts/the&#45;illusion&#45;of&#45;digital&#45;sovereignty&#45;part&#45;iii",
-    "description": "Geopolitical fragmentation is colliding with the internet's distributed architecture, exposing how sovereign cloud concentration and AI infrastructure can weaken resilience, amplify strategic vulnerabilities, and challenge whether governance can preserve interoperability while ma…",
-    "pubDate": "2026-05-11T19:42:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Illusion of Digital Sovereignty (Part II) - Emergence, Sovereign AI Ecosystem, the RIR System, Number Resources",
-    "link": "https://circleid.com/posts/the&#45;illusion&#45;of&#45;digital&#45;sovereignty&#45;part&#45;ii",
-    "description": "As states chase digital sovereignty through clouds, AI and localized infrastructure, the internet's globally coordinated foundations reveal a harder truth: operational continuity depends less on control than on interoperable systems built on trust and governance.",
-    "pubDate": "2026-05-11T19:31:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Demystifying RPKI: New Tools to Simplify ROA Planning and Visualize Validation",
     "link": "https://www.arin.net/blog/2026/05/11/arin-57-keynote-demystifying-rpki/",
     "description": "Last month's ARIN 57 meeting featured a keynote address that offered something extremely valuable in the routing security world: practical tools built by someone who spends his days helping real network operators improve routing integrity. Learn what Steve Wallace, Director of Ro…",
@@ -270,14 +286,6 @@
     "pubDate": "2026-05-05T05:36:41.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Your elected leaders: Bikram Shrestha, Policy SIG Chair",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "From early ISP deployment in Nepal to leading regional policy discussions, Bikram Shrestha connects global policy with local realities.",
-    "pubDate": "2026-05-05T04:19:19.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Inside Amazon Web Services' plan to make networking disappear",
@@ -446,14 +454,6 @@
     "pubDate": "2026-04-22T16:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Using QUIC Backscatter to Infer Hypergiant Deployment Configurations",
-    "link": "https://labs.ripe.net/author/jmuecke/using-quic-backscatter-to-infer-hypergiant-deployment-configurations/",
-    "description": "QUIC enhances privacy, but passive measurements still reveal deployment details. Using network telescope data, we analyse QUIC behaviour across major content providers and validate our findings with flow data and active measurements.",
-    "pubDate": "2026-04-22T08:29:30.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "ARIN 57 Day 2 Recap",
