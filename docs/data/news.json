@@ -1,5 +1,21 @@
 [
   {
+    "title": "Are data centres moving to DC power?",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Using Direct Current in data centres can yield sizeable energy savings, but there are tradeoffs.",
+    "pubDate": "2026-05-18T05:29:30.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Africa&#8217;s Data Sovereignty Challenge: Who Really Controls the Continent&#8217;s Digital Future?",
+    "link": "https://circleid.com/posts/africaas&#45;data&#45;sovereignty&#45;challenge&#45;who&#45;really&#45;controls&#45;the&#45;continentas&#45;digital&#45;future",
+    "description": "As Africa digitises rapidly, control over data is emerging as a strategic contest. Foreign infrastructure dominance exposes economic and cybersecurity vulnerabilities, pushing governments to prioritise digital capability, regional cooperation, and stronger sovereignty over the sy…",
+    "pubDate": "2026-05-17T19:23:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Inside Iran&#8217;s Shift From Internet Shutdowns to Tiered Connectivity",
     "link": "https://circleid.com/posts/inside&#45;irans&#45;shift&#45;from&#45;internet&#45;shutdowns&#45;to&#45;tiered&#45;connectivity",
     "description": "Iran's wartime internet restrictions transformed online access into a costly, unequal system, according to researcher Imad Payande, with black markets, selective connectivity and institutional privilege reshaping how citizens reached the global web.",
@@ -136,14 +152,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "A Network IoC Analysis for 8 Iran-Affiliated APT Groups",
-    "link": "https://circleid.com/posts/a&#45;network&#45;ioc&#45;analysis&#45;for&#45;8&#45;iran&#45;affiliated&#45;apt&#45;groups",
-    "description": "An analysis of 191 network indicators tied to eight Iran-affiliated APT groups uncovered malicious domains, active infrastructure, thousands of victim-linked IP interactions, and coordinated DNS activity, revealing the breadth and persistence of Tehran-linked cyber operations ami…",
-    "pubDate": "2026-05-12T16:43:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
     "link": "https://www.rfc-editor.org/rfc/rfc9438.html",
     "description": "We investigated a bug where CUBIC's congestion window became pinned at its minimum floor, causing a performance to plummet. The fix involved correctly measuring idle periods to distinguish RTT wait times from actual application idleness.",
@@ -270,14 +278,6 @@
     "pubDate": "2026-05-05T11:34:23.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "Rolling the root key",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Have DNSSEC-validating recursive resolvers updated their Trust Anchor sets to include KSK-2024, and how can we measure whether this transition has been successfully adopted?",
-    "pubDate": "2026-05-05T06:47:53.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Questioning the IPv8 Proposal",
