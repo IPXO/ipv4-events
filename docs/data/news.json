@@ -1,5 +1,53 @@
 [
   {
+    "title": "Authoritative DNS over encrypted transport at OARC 45",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "The use of encrypted DNS transports for communication between recursive resolvers and authoritative services in the DNS was an important topic of discussion OARC 46 in Edinburgh.",
+    "pubDate": "2026-05-20T06:17:12.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Global Domain Activity Trends Seen in Q1 2026",
+    "link": "https://circleid.com/posts/global&#45;domain&#45;activity&#45;trends&#45;seen&#45;in&#45;q1&#45;2026",
+    "description": "Q1 2026 domain activity showed registrations concentrated in a handful of TLDs, with 6.7 million new domains flagged as malicious, offering fresh insight into global DNS patterns and cybersecurity risks as shifting registration trends reshape.",
+    "pubDate": "2026-05-19T18:10:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Quiet Value of .gov.ccTLD: Restricted SLDs as Trust Infrastructure",
+    "link": "https://circleid.com/posts/the&#45;quiet&#45;value&#45;of&#45;.gov.cctld&#45;restricted&#45;slds&#45;as&#45;trust&#45;infrastructure",
+    "description": "An official-looking renewal notice reveals how open namespaces shift verification burdens onto users. Restricted government domains like .gov.au function as trust infrastructure, embedding authority into the namespace and reducing fraud, confusion, and verification costs.",
+    "pubDate": "2026-05-19T17:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "IETF 125 Highlights",
+    "link": "http://www.ietf.org/blog/ietf125-recap/",
+    "description": "More than 1500 participants gathered in Shenzhen and online for the IETF 125 meeting 14-20 March 2026 for more than 100 working sessions, an IETF Hackathon, and more.",
+    "pubDate": "2026-05-19T14:35:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "ARIN Has a Testing Environment — and Most People Don't Know About It",
+    "link": "https://www.arin.net/blog/2026/05/19/operational-testing-and-evaluation-environment/",
+    "description": "A recent RPKI Deep Dive workshop attendee asked Brad an important question — but it wasn't about the Resource Public Key Infrastructure. It was something simpler: He didn't know ARIN had a testing environment. If it’s news to you, too, read this post to learn about the valuable a…",
+    "pubDate": "2026-05-19T14:20:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Announcing Claude Managed Agents on Cloudflare",
+    "link": "https://developers.cloudflare.com/sandbox/tutorials/claude-managed-agents/",
+    "description": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing the…",
+    "pubDate": "2026-05-19T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "RIPE 92 Daily Meeting Blog",
     "link": "https://labs.ripe.net/author/ripe-ncc-commsies/ripe-92-daily-meeting-blog/",
     "description": "Sixty-one RIPE Meetings on, RIPE 92 brings us back to Edinburgh - city of festivals, gothic skylines, and uphill walking. As always, there's the slides, there's the videos, but to get a real feel for what's happening through the week, tune into the daily meeting blog.",
@@ -152,22 +200,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Internet Censorship Grows More Sophisticated, Warns OONI Co-Founder",
-    "link": "https://circleid.com/posts/internet&#45;censorship&#45;grows&#45;more&#45;sophisticated&#45;warns&#45;ooni&#45;co&#45;founder",
-    "description": "Maria Xynou warns that internet censorship is becoming more sophisticated and less transparent as governments deploy targeted blocks, throttling and encrypted traffic interference, while OONI's crowdsourced measurements help researchers and human-rights groups expose restrictions…",
-    "pubDate": "2026-05-13T16:41:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "A Look Back at the Top 10 Ransomware of 2025",
-    "link": "https://circleid.com/posts/a&#45;look&#45;back&#45;at&#45;the&#45;top&#45;10&#45;ransomware&#45;of&#45;2025",
-    "description": "A retrospective analysis of 2025's top ransomware groups reveals how DNS traces, historical WHOIS records, and network IoCs exposed hidden infrastructure, affiliate activity, and thousands of potential victim connections linked to major cybercriminal operations.",
-    "pubDate": "2026-05-13T16:18:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
     "link": "https://developers.cloudflare.com/containers/",
     "description": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
@@ -264,14 +296,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "SCION: The overlay network for bankers",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "SCION has both supporters and critics, but it faces a major challenge: Replacing BGP while competing in an environment where network decisions are driven more by carrier costs than by strategic priorities.",
-    "pubDate": "2026-05-07T04:13:28.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
     "link": "https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/",
     "description": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
@@ -358,14 +382,6 @@
     "pubDate": "2026-04-30T18:18:26.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
-    "link": "https://radar.cloudflare.com/post-quantum",
-    "description": "Cloudflare IPsec now has generally available support for post-quantum encryption via hybrid ML-KEM. We’ve confirmed interoperability with Cisco and Fortinet.",
-    "pubDate": "2026-04-30T14:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Making Resource Holders Easier to Identify: Introducing reg-nr: in the RIPE Database",
@@ -460,22 +476,6 @@
     "link": "https://www.arin.net/blog/2026/04/22/arin-57-day-3-recap/",
     "description": "Today marked the third and final day of our ARIN 57 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
     "pubDate": "2026-04-22T16:30:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "ARIN 57 Day 2 Recap",
-    "link": "https://www.arin.net/blog/2026/04/21/arin-57-day-2-recap/",
-    "description": "Day two of ARIN 57 has come to an end! We had another productive day filled with policy discussions, grant reports, and more. We will be back tomorrow morning for the third and final day of the meeting.",
-    "pubDate": "2026-04-21T20:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "ARIN 57 Day 1 Recap",
-    "link": "https://www.arin.net/blog/2026/04/20/arin-57-day-1-recap/",
-    "description": "From Louisville, Kentucky, ARIN 57 is underway! We were thrilled to open the doors to the meeting, and we thank everyone who was able to join us virtually.",
-    "pubDate": "2026-04-20T20:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
