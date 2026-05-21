@@ -1,5 +1,29 @@
 [
   {
+    "title": "Open Fibre Data Standard and the visibility gap in network resilience",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Guest Post: The Open Fibre Data Standard (OFDS) provides a common way to describe fibre infrastructure as structured, machine-readable data, allowing shared understanding without requiring uniform ownership or control.",
+    "pubDate": "2026-05-21T04:13:11.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "New RFC Editor website is live",
+    "link": "http://www.ietf.org/blog/rfc-editor-website-launch/",
+    "description": "Today we are launching the new rfc-editor.org website, the most visible part of a comprehensive overhaul of the tools that support editing and publishing RFCs.",
+    "pubDate": "2026-05-20T20:50:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Fake News and Online Safety: Combating Disinformation in the Digital Age",
+    "link": "https://circleid.com/posts/fake&#45;news&#45;and&#45;online&#45;safety&#45;combating&#45;disinformation&#45;in&#45;the&#45;digital&#45;age",
+    "description": "Fake news spreads quickly online, fueling distrust, manipulation, and conflict. As AI-generated content grows more sophisticated, media literacy, fact-checking, and vigilance are essential to protecting online safety and preserving trust in information.",
+    "pubDate": "2026-05-20T16:26:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Authoritative DNS over encrypted transport at OARC 45",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "The use of encrypted DNS transports for communication between recursive resolvers and authoritative services in the DNS was an important topic of discussion OARC 46 in Edinburgh.",
@@ -144,14 +168,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Universal Acceptance Day and the Long Arc of Multilingualism",
-    "link": "https://circleid.com/posts/universal&#45;acceptance&#45;day&#45;and&#45;the&#45;long&#45;arc&#45;of&#45;multilingualism",
-    "description": "Universal Acceptance Day 2026 marks progress toward a multilingual internet, as UNESCO and ICANN deepen cooperation. Yet unresolved implementation failures and weak registry stewardship still hinder truly inclusive digital access worldwide.",
-    "pubDate": "2026-05-15T18:52:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Legacy Out of Contract",
     "link": "https://labs.ripe.net/author/qasim-lone/legacy-out-of-contract/",
     "description": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming…",
@@ -268,14 +284,6 @@
     "link": "https://blog.apnic.net/category/community/",
     "description": "The NRO NC has updated the status report related to comments received during the consultation on the second version of the RIR Governance Document.",
     "pubDate": "2026-05-10T23:27:52.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "The invisible hand: Regaining control of service quality from outsourced satellite networks",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: MNOs lease LEO satellites from SNOs as a cost-effective way for to expand coverage, but cannot guarantee service quality without control over the satellites. Ripple is a competition-driven framework that directly links SNOs' revenue to the service quality they deliver…",
-    "pubDate": "2026-05-07T23:56:57.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -470,13 +478,5 @@
     "pubDate": "2026-04-24T08:01:11.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "ARIN 57 Day 3 Recap",
-    "link": "https://www.arin.net/blog/2026/04/22/arin-57-day-3-recap/",
-    "description": "Today marked the third and final day of our ARIN 57 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
-    "pubDate": "2026-04-22T16:30:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
   }
 ]
