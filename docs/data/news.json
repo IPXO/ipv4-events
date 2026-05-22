@@ -1,5 +1,61 @@
 [
   {
+    "title": "Your elected leaders: Joy Chan, Cooperation Special Interest Group Chair",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "From building resilient systems at scale to facilitating multistakeholder dialogue, Joy Chan’s leadership highlights the power of participation and the role every community member can play in shaping the Internet’s future.",
+    "pubDate": "2026-05-21T23:37:36.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "IP geolocation is hard: The draft report from the IAB workshop on IP address geolocation",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "The IETF Datatracker has published the initial draft of the IAB workshop report on IP address geolocation, summarizing challenges, edge cases, and future directions.",
+    "pubDate": "2026-05-21T22:48:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Africa Is Becoming a Real World Test Environment for AI Governance",
+    "link": "https://circleid.com/posts/africa&#45;is&#45;becoming&#45;a&#45;real&#45;world&#45;test&#45;environment&#45;for&#45;ai&#45;governance",
+    "description": "Africa is rapidly emerging as a critical testing ground for AI governance, where fast adoption, evolving digital ecosystems, and uneven institutional readiness are exposing regulatory gaps with global implications.",
+    "pubDate": "2026-05-21T19:17:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Facilitation Without Responsibility: ICANN and the Missing Warning Question - Part 3 of 3",
+    "link": "https://circleid.com/posts/facilitation&#45;without&#45;responsibility&#45;icann&#45;and&#45;the&#45;missing&#45;warning&#45;question&#45;part&#45;3&#45;of&#45;3",
+    "description": "ICANN's AFRINIC episode shows how support can harden into perceived authority. A standing RIR Boundary Protocol would force early warnings, role disclosure and procedural safeguards before regional engagement drifts into governance redesign.",
+    "pubDate": "2026-05-21T19:01:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Online Safety and AI",
+    "link": "https://circleid.com/posts/online&#45;safety&#45;and&#45;ai",
+    "description": "As AI reshapes the digital world, online safety depends on balancing smarter protection with growing risks. From cybersecurity to privacy concerns, understanding AI's role can help users stay secure, informed, and resilient online.",
+    "pubDate": "2026-05-21T18:28:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Internet Is Fragmenting - Most of the People Who Should Notice Aren&#8217;t Looking",
+    "link": "https://circleid.com/posts/the&#45;internet&#45;is&#45;fragmenting&#45;most&#45;of&#45;the&#45;people&#45;who&#45;should&#45;notice&#45;arent&#45;looking",
+    "description": "The internet is fragmenting across cables, routing systems and governance. Most network engineers, focused on regional operations, are missing how technical infrastructure and state power are reshaping a once interoperable network.",
+    "pubDate": "2026-05-21T18:10:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Announcing Claude Compliance API support with Cloudflare CASB",
+    "link": "https://www.cloudflare.com/lp/dg/product/cloud-access-security-broker/",
+    "description": "Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the Cloudflare Dashboard.",
+    "pubDate": "2026-05-21T17:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Open Fibre Data Standard and the visibility gap in network resilience",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Guest Post: The Open Fibre Data Standard (OFDS) provides a common way to describe fibre infrastructure as structured, machine-readable data, allowing shared understanding without requiring uniform ownership or control.",
@@ -120,14 +176,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Procedural Resilience or Technological Rigidity? Reassessing Article 19&#8217;s DNS Abuse Framework in the Post-MLAT Era",
-    "link": "https://circleid.com/posts/procedural&#45;resilience&#45;or&#45;technological&#45;rigidity&#45;article&#45;19s&#45;dns&#45;abuse&#45;framework",
-    "description": "As cross-border cyber enforcement falters, critics argue Article 19's DNS abuse framework prioritizes procedural purity over user protection, leaving courts too slow to counter AI-driven phishing, rapid-flux domains, and increasingly automated online threats.",
-    "pubDate": "2026-05-18T19:04:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Project Glasswing: what Mythos showed us",
     "link": "https://www.anthropic.com/glasswing",
     "description": "In recent weeks, we pointed Mythos and other security-focused LLMs at live code across critical parts of our infrastructure. We share what we observed, the models’ strengths and weaknesses, and what the work around them needs to look like before any of it can scale.",
@@ -142,30 +190,6 @@
     "pubDate": "2026-05-18T05:29:30.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Africa&#8217;s Data Sovereignty Challenge: Who Really Controls the Continent&#8217;s Digital Future?",
-    "link": "https://circleid.com/posts/africaas&#45;data&#45;sovereignty&#45;challenge&#45;who&#45;really&#45;controls&#45;the&#45;continentas&#45;digital&#45;future",
-    "description": "As Africa digitises rapidly, control over data is emerging as a strategic contest. Foreign infrastructure dominance exposes economic and cybersecurity vulnerabilities, pushing governments to prioritise digital capability, regional cooperation, and stronger sovereignty over the sy…",
-    "pubDate": "2026-05-17T19:23:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Inside Iran&#8217;s Shift From Internet Shutdowns to Tiered Connectivity",
-    "link": "https://circleid.com/posts/inside&#45;irans&#45;shift&#45;from&#45;internet&#45;shutdowns&#45;to&#45;tiered&#45;connectivity",
-    "description": "Iran's wartime internet restrictions transformed online access into a costly, unequal system, according to researcher Imad Payande, with black markets, selective connectivity and institutional privilege reshaping how citizens reached the global web.",
-    "pubDate": "2026-05-15T19:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Facilitation Without Responsibility: ICANN and the Missing Warning Question - Part 1 of 3",
-    "link": "https://circleid.com/posts/facilitation&#45;without&#45;responsibility&#45;icann&#45;and&#45;the&#45;missing&#45;warning&#45;question&#45;part&#45;1&#45;of&#45;3",
-    "description": "An ICANN-backed African internet-governance initiative exposed a deeper institutional problem: whether global coordinators must warn when regional policy processes drift into RIR governance, before facilitation, silence and funding harden into implied legitimacy for contested ref…",
-    "pubDate": "2026-05-15T19:19:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Legacy Out of Contract",
@@ -256,14 +280,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Repairing the RPKIViews H1 2026 archives",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: RPKIViews captures the constantly changing global RPKI dataset without storing wasteful full snapshots. By using CCRs, deduplication, and high-efficiency compression, rpkispools make long-term RPKI research practical at scale.",
-    "pubDate": "2026-05-11T22:45:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Demystifying RPKI: New Tools to Simplify ROA Planning and Visualize Validation",
     "link": "https://www.arin.net/blog/2026/05/11/arin-57-keynote-demystifying-rpki/",
     "description": "Last month's ARIN 57 meeting featured a keynote address that offered something extremely valuable in the routing security world: practical tools built by someone who spends his days helping real network operators improve routing integrity. Learn what Steve Wallace, Director of Ro…",
@@ -278,14 +294,6 @@
     "pubDate": "2026-05-11T13:57:16.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "RIR Governance Document Version 2: Status Report May 2026 now available",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The NRO NC has updated the status report related to comments received during the consultation on the second version of the RIR Governance Document.",
-    "pubDate": "2026-05-10T23:27:52.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Building for the future",
@@ -372,14 +380,6 @@
     "link": "https://blog.cloudflare.com/fail-small-resilience-plan/",
     "description": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
     "pubDate": "2026-05-01T21:07:30.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
-    "link": "https://blog.cloudflare.com/dynamic-workers/",
-    "description": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
-    "pubDate": "2026-05-01T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
