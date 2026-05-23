@@ -1,5 +1,21 @@
 [
   {
+    "title": "The Cavalry Has Finally Arrived: ICANN Enters the Courtroom to Defend the RIR System",
+    "link": "https://circleid.com/posts/the&#45;cavalry&#45;has&#45;finally&#45;arrived&#45;icann&#45;enters&#45;the&#45;courtroom&#45;to&#45;defend&#45;the&#45;rir&#45;system",
+    "description": "ICANN's court intervention in AFRINIC's winding-up case widens a local corporate dispute into a global Internet governance test, exposing weaknesses in RIR protections and strengthening calls for ICP-2 reforms to safeguard registry continuity.",
+    "pubDate": "2026-05-22T15:06:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Nine Lives of an Early Adopter: ESnet’s IPv6 Journey — and Why It Matters Now",
+    "link": "https://www.arin.net/blog/2026/05/22/arin-57-keynote-nine-lives-ipv6/",
+    "description": "Last month's ARIN 57 meeting featured a keynote address that brought three decades of real-world IPv6 experience to bear on the question the Internet community keeps asking: Are we there yet? Learn how Inder Monga and Nick Buraglio of ESnet answered that question for the ARIN com…",
+    "pubDate": "2026-05-22T12:30:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "Your elected leaders: Joy Chan, Cooperation Special Interest Group Chair",
     "link": "https://blog.apnic.net/category/community/",
     "description": "From building resilient systems at scale to facilitating multistakeholder dialogue, Joy Chan’s leadership highlights the power of participation and the role every community member can play in shaping the Internet’s future.",
@@ -164,14 +180,6 @@
     "link": "https://circleid.com/posts/economic&#45;stress&#45;is&#45;testing&#45;broadbands&#45;recession&#45;proof&#45;reputation",
     "description": "Mounting signs of consumer distress, from unpaid utility bills to rising loan delinquencies, are raising uncomfortable questions for internet providers about whether broadband remains recession-proof as households increasingly trade home connections for cheaper wireless alternati…",
     "pubDate": "2026-05-18T19:44:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Facilitation Without Responsibility: ICANN and the Missing Warning Question - Part 2 of 3",
-    "link": "https://circleid.com/posts/facilitation&#45;without&#45;responsibility&#45;icann&#45;and&#45;the&#45;missing&#45;warning&#45;question&#45;part&#45;2&#45;of&#45;3",
-    "description": "ICANN's Smart Africa engagement shows how proposals can gain authority without formal endorsement, raising harder questions about CAIGA, ICP-2 and whether regional partnerships need earlier safeguards when RIR governance begins to shift under institutional cover.",
-    "pubDate": "2026-05-18T19:28:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -468,14 +476,6 @@
     "link": "https://labs.ripe.net/author/armanobosyan/the-internets-new-builders/",
     "description": "Content and cloud platforms are no longer just the largest customers of global connectivity. They are increasingly financing and building the infrastructure itself, from submarine systems to edge and data center footprints.",
     "pubDate": "2026-04-28T10:02:58.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "ADoX Deployment in the Wild",
-    "link": "https://labs.ripe.net/author/yevheniya-nosyk/adox-deployment-in-the-wild/",
-    "description": "Encryption between DNS resolvers and users is growing - but what about the next hop? We measure the real-world deployment of encrypted resolver-to-authoritative DNS (ADoX), finding limited, highly concentrated adoption and little support among resolvers.",
-    "pubDate": "2026-04-24T08:01:11.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   }
