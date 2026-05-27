@@ -1,5 +1,45 @@
 [
   {
+    "title": "Register now for APNIC 62 in Mumbai",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Registration has opened for APNIC 62, being held from 4 to 10 September 2026 in Mumbai, India. Register before 31 July to receive an early bird discount for the workshops.",
+    "pubDate": "2026-05-27T06:13:25.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Iran Begins Restoring Internet After Record 88-Day Blackout",
+    "link": "https://circleid.com/posts/iran&#45;begins&#45;restoring&#45;internet&#45;after&#45;record&#45;88&#45;day&#45;blackout",
+    "description": "Iran has begun restoring internet access after an 88-day shutdown, but legal challenges and political divisions threaten the future of a reopening driven by economic strain and mounting pressure to reconnect the country.",
+    "pubDate": "2026-05-26T18:05:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Time Sovereignty: Internet Policy and Defense Frameworks for Critical Infrastructure Synchronization Under Geopolitical Conflict",
+    "link": "https://circleid.com/posts/time&#45;sovereignty&#45;internet&#45;policy&#45;and&#45;defense&#45;frameworks&#45;for&#45;critical&#45;infrastructure&#45;synchronization&#45;under&#45;geopolitical&#45;conflict",
+    "description": "As power grids depend on microsecond precision, states must treat time synchronization as sovereign infrastructure, hardening satellite, fiber and orbital defenses against hybrid attacks that could trigger catastrophic blackouts through resilient sovereign time defense frameworks…",
+    "pubDate": "2026-05-26T15:49:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "An Analysis of the AtlasCross RAT Network IoCs",
+    "link": "https://circleid.com/posts/an&#45;analysis&#45;of&#45;the&#45;atlascross&#45;rat&#45;network&#45;iocs",
+    "description": "Hexastrike traced an AtlasCross RAT campaign linked to Silver Fox, uncovering spoofed domains, victim infrastructure, and malicious network artifacts that reveal how attackers exploited trusted software brands to widen compromise and persistence.",
+    "pubDate": "2026-05-26T15:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Non-Human Identity for Workloads and AI Agents",
+    "link": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents/",
+    "description": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "pubDate": "2026-05-26T07:52:01.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "RADIUS isn&#8217;t going away, so let&#8217;s fix it properly",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: \"RADIUS is the protocol that will never die\". So given that RADIUS is staying, what do we need to do to make it secure for the next 30 years?",
@@ -136,14 +176,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "The Quiet Value of .gov.ccTLD: Restricted SLDs as Trust Infrastructure",
-    "link": "https://circleid.com/posts/the&#45;quiet&#45;value&#45;of&#45;.gov.cctld&#45;restricted&#45;slds&#45;as&#45;trust&#45;infrastructure",
-    "description": "An official-looking renewal notice reveals how open namespaces shift verification burdens onto users. Restricted government domains like .gov.au function as trust infrastructure, embedding authority into the namespace and reducing fraud, confusion, and verification costs.",
-    "pubDate": "2026-05-19T17:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "IETF 125 Highlights",
     "link": "http://www.ietf.org/blog/ietf125-recap/",
     "description": "More than 1500 participants gathered in Shenzhen and online for the IETF 125 meeting 14-20 March 2026 for more than 100 working sessions, an IETF Hackathon, and more.",
@@ -192,22 +224,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Iran Threatens Subsea Internet Cables in the Strait of Hormuz",
-    "link": "https://circleid.com/posts/iran&#45;threatens&#45;subsea&#45;internet&#45;cables&#45;in&#45;the&#45;strait&#45;of&#45;hormuz",
-    "description": "Iran is seeking to monetize and potentially weaponize subsea internet cables beneath the Strait of Hormuz, exposing how modern geopolitical conflicts increasingly threaten the digital infrastructure underpinning global finance, communications and trade.",
-    "pubDate": "2026-05-18T20:44:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Economic Stress Is Testing Broadband’s Recession-Proof Reputation",
-    "link": "https://circleid.com/posts/economic&#45;stress&#45;is&#45;testing&#45;broadbands&#45;recession&#45;proof&#45;reputation",
-    "description": "Mounting signs of consumer distress, from unpaid utility bills to rising loan delinquencies, are raising uncomfortable questions for internet providers about whether broadband remains recession-proof as households increasingly trade home connections for cheaper wireless alternati…",
-    "pubDate": "2026-05-18T19:44:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Project Glasswing: what Mythos showed us",
     "link": "https://www.anthropic.com/glasswing",
     "description": "In recent weeks, we pointed Mythos and other security-focused LLMs at live code across critical parts of our infrastructure. We share what we observed, the models’ strengths and weaknesses, and what the work around them needs to look like before any of it can scale.",
@@ -230,14 +246,6 @@
     "pubDate": "2026-05-15T11:39:22.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "APNIC and NNIX collaborate to strengthen RPKI and IPv6 deployment in China",
-    "link": "https://blog.apnic.net/category/development/",
-    "description": "APNIC and NNIX have signed an MoU to advance RPKI and IPv6 deployment in China, including plans for an RPKI repository mirror in Hangzhou — the first of its kind in the region. The partnership combines infrastructure, training, and community engagement to support a more secure an…",
-    "pubDate": "2026-05-15T10:19:39.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "The Community That Changed How I See the Internet",
@@ -470,13 +478,5 @@
     "pubDate": "2026-04-28T11:14:28.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "The Internet’s New Builders",
-    "link": "https://labs.ripe.net/author/armanobosyan/the-internets-new-builders/",
-    "description": "Content and cloud platforms are no longer just the largest customers of global connectivity. They are increasingly financing and building the infrastructure itself, from submarine systems to edge and data center footprints.",
-    "pubDate": "2026-04-28T10:02:58.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   }
 ]
