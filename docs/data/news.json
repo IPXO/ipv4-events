@@ -1,5 +1,21 @@
 [
   {
+    "title": "Researchers Uncover Browser-Based SSD Side Channel That Can Track User",
+    "link": "https://circleid.com/posts/researchers&#45;uncover&#45;browser&#45;based&#45;ssd&#45;side&#45;channel&#45;that&#45;can&#45;track&#45;user",
+    "description": "Researchers have uncovered a browser-based technique that exploits SSD activity through local storage features, allowing malicious websites to infer user behavior, identify visited sites and applications, and potentially expand online tracking without special permissions.",
+    "pubDate": "2026-05-29T20:14:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Blank Domain Names Surpass Websites in Value for the First Time, Report Finds",
+    "link": "https://circleid.com/posts/blank&#45;domain&#45;names&#45;surpass&#45;websites&#45;in&#45;value&#45;for&#45;the&#45;first&#45;time&#45;report&#45;finds",
+    "description": "The domain name market recorded its strongest quarter in three years as .com sales hit a record high and investors poured capital into undeveloped web assets, signaling growing demand for premium digital real estate and scarce online identities.",
+    "pubDate": "2026-05-29T19:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Introducing the APNIC WhatsApp Community",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC WhatsApp Community offers a direct way to stay informed and connected, wherever you are, delivering timely updates, discussions, and event information directly to your phone.",
@@ -192,22 +208,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Africa Is Becoming a Real World Test Environment for AI Governance",
-    "link": "https://circleid.com/posts/africa&#45;is&#45;becoming&#45;a&#45;real&#45;world&#45;test&#45;environment&#45;for&#45;ai&#45;governance",
-    "description": "Africa is rapidly emerging as a critical testing ground for AI governance, where fast adoption, evolving digital ecosystems, and uneven institutional readiness are exposing regulatory gaps with global implications.",
-    "pubDate": "2026-05-21T19:17:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Facilitation Without Responsibility: ICANN and the Missing Warning Question - Part 3 of 3",
-    "link": "https://circleid.com/posts/facilitation&#45;without&#45;responsibility&#45;icann&#45;and&#45;the&#45;missing&#45;warning&#45;question&#45;part&#45;3&#45;of&#45;3",
-    "description": "ICANN's AFRINIC episode shows how support can harden into perceived authority. A standing RIR Boundary Protocol would force early warnings, role disclosure and procedural safeguards before regional engagement drifts into governance redesign.",
-    "pubDate": "2026-05-21T19:01:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Announcing Claude Compliance API support with Cloudflare CASB",
     "link": "https://www.cloudflare.com/lp/dg/product/cloud-access-security-broker/",
     "description": "Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the Cloudflare Dashboard.",
@@ -324,6 +324,14 @@
     "link": "http://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
     "description": "After a number of years of work, the initial rollout of a modern suite of tools for editing and publishing RFCs, including an entirely new rfc-editor.org website, will take place in May 2026.",
     "pubDate": "2026-05-12T08:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "IETF Snapshot 2025",
+    "link": "http://www.ietf.org/blog/ietf-snapshot-2025/",
+    "description": "Want to catch up on IETF activity in 2025? How many RFCs were published? How many Internet-Drafts were submitted? How many Working Groups were chartered or concluded? The latest edition of the IETF Snapshot provides a recap of IETF activity for the previous year.",
+    "pubDate": "2026-05-11T23:38:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
   },
@@ -470,13 +478,5 @@
     "pubDate": "2026-04-29T10:00:09.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "From BGP Data to Insight: Simplifying Real-Time Routing Analysis",
-    "link": "https://labs.ripe.net/author/romain_fontugne/from-bgp-data-to-insight-simplifying-real-time-routing-analysis/",
-    "description": "The IHR BGP monitoring tool is a simple web-based application that leverages the RIS Live and BGPlay APIs to monitor your prefixes and their RPKI status.",
-    "pubDate": "2026-04-29T09:35:10.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   }
 ]
