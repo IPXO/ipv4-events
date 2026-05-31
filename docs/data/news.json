@@ -328,14 +328,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "IETF Snapshot 2025",
-    "link": "http://www.ietf.org/blog/ietf-snapshot-2025/",
-    "description": "Want to catch up on IETF activity in 2025? How many RFCs were published? How many Internet-Drafts were submitted? How many Working Groups were chartered or concluded? The latest edition of the IETF Snapshot provides a recap of IETF activity for the previous year.",
-    "pubDate": "2026-05-11T23:38:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
     "title": "Demystifying RPKI: New Tools to Simplify ROA Planning and Visualize Validation",
     "link": "https://www.arin.net/blog/2026/05/11/arin-57-keynote-demystifying-rpki/",
     "description": "Last month's ARIN 57 meeting featured a keynote address that offered something extremely valuable in the routing security world: practical tools built by someone who spends his days helping real network operators improve routing integrity. Learn what Steve Wallace, Director of Ro…",
@@ -478,5 +470,13 @@
     "pubDate": "2026-04-29T10:00:09.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
+  },
+  {
+    "title": "From BGP Data to Insight: Simplifying Real-Time Routing Analysis",
+    "link": "https://labs.ripe.net/author/romain_fontugne/from-bgp-data-to-insight-simplifying-real-time-routing-analysis/",
+    "description": "The IHR BGP monitoring tool is a simple web-based application that leverages the RIS Live and BGPlay APIs to monitor your prefixes and their RPKI status.",
+    "pubDate": "2026-04-29T09:35:10.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
   }
 ]
