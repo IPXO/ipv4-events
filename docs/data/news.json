@@ -1,5 +1,29 @@
 [
   {
+    "title": "The 2026 APNIC Survey is now open — have your say!",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The 2026 APNIC Survey — your chance to directly inform APNIC’s strategic planning, priorities, and future direction — will be open from 1 to 28 June 2026. It takes about ten minutes to complete, and you could win a prize.",
+    "pubDate": "2026-06-01T03:10:58.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Internet, Artificial Intelligence and the UN: How different is AI Governance from Internet Governance?",
+    "link": "https://circleid.com/posts/internet&#45;artificial&#45;intelligence&#45;and&#45;the&#45;un&#45;how&#45;different&#45;is&#45;ai&#45;governance&#45;from&#45;internet&#45;governance",
+    "description": "As the UN turns to AI governance, old lessons from internet governance loom large: multistakeholder rules matter, but sharper risks, geopolitical rivalry and machine autonomy make consensus harder and more urgent than before for all.",
+    "pubDate": "2026-05-31T18:39:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Africa&#8217;s Data Sovereignty Is Not About Where Data Lives: It Is About Who Controls It",
+    "link": "https://circleid.com/posts/africaas&#45;data&#45;sovereignty&#45;is&#45;not&#45;about&#45;where&#45;data&#45;lives&#45;it&#45;is&#45;about&#45;who&#45;controls&#45;it",
+    "description": "Africa's data sovereignty debate focuses too heavily on where information is stored. Real sovereignty depends on control of cloud platforms, encryption, identity systems, and critical digital infrastructure that determine resilience, autonomy, and strategic power.",
+    "pubDate": "2026-05-31T18:06:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Researchers Uncover Browser-Based SSD Side Channel That Can Track User",
     "link": "https://circleid.com/posts/researchers&#45;uncover&#45;browser&#45;based&#45;ssd&#45;side&#45;channel&#45;that&#45;can&#45;track&#45;user",
     "description": "Researchers have uncovered a browser-based technique that exploits SSD activity through local storage features, allowing malicious websites to infer user behavior, identify visited sites and applications, and potentially expand online tracking without special permissions.",
@@ -136,20 +160,20 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "An Analysis of the AtlasCross RAT Network IoCs",
-    "link": "https://circleid.com/posts/an&#45;analysis&#45;of&#45;the&#45;atlascross&#45;rat&#45;network&#45;iocs",
-    "description": "Hexastrike traced an AtlasCross RAT campaign linked to Silver Fox, uncovering spoofed domains, victim infrastructure, and malicious network artifacts that reveal how attackers exploited trusted software brands to widen compromise and persistence.",
-    "pubDate": "2026-05-26T15:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Non-Human Identity for Workloads and AI Agents",
     "link": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents/",
     "description": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
     "pubDate": "2026-05-26T07:52:01.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
+  },
+  {
+    "title": "IETF Administration LLC 2025 Annual Financial Audit",
+    "link": "http://www.ietf.org/blog/ietf-llc-2025-annual-financial-audit/",
+    "description": "IETF Administration LLC Board of Directors received from external auditors the report of a clean result for its 2025 annual financial statement.",
+    "pubDate": "2026-05-26T04:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
   },
   {
     "title": "RADIUS isn&#8217;t going away, so let&#8217;s fix it properly",
@@ -176,14 +200,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The Cavalry Has Finally Arrived: ICANN Enters the Courtroom to Defend the RIR System",
-    "link": "https://circleid.com/posts/the&#45;cavalry&#45;has&#45;finally&#45;arrived&#45;icann&#45;enters&#45;the&#45;courtroom&#45;to&#45;defend&#45;the&#45;rir&#45;system",
-    "description": "ICANN's court intervention in AFRINIC's winding-up case widens a local corporate dispute into a global Internet governance test, exposing weaknesses in RIR protections and strengthening calls for ICP-2 reforms to safeguard registry continuity.",
-    "pubDate": "2026-05-22T15:06:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "The Nine Lives of an Early Adopter: ESnet’s IPv6 Journey — and Why It Matters Now",
     "link": "https://www.arin.net/blog/2026/05/22/arin-57-keynote-nine-lives-ipv6/",
     "description": "Last month's ARIN 57 meeting featured a keynote address that brought three decades of real-world IPv6 experience to bear on the question the Internet community keeps asking: Are we there yet? Learn how Inder Monga and Nick Buraglio of ESnet answered that question for the ARIN com…",
@@ -196,14 +212,6 @@
     "link": "https://blog.apnic.net/category/community/",
     "description": "From building resilient systems at scale to facilitating multistakeholder dialogue, Joy Chan’s leadership highlights the power of participation and the role every community member can play in shaping the Internet’s future.",
     "pubDate": "2026-05-21T23:37:36.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "IP geolocation is hard: The draft report from the IAB workshop on IP address geolocation",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "The IETF Datatracker has published the initial draft of the IAB workshop report on IP address geolocation, summarizing challenges, edge cases, and future directions.",
-    "pubDate": "2026-05-21T22:48:00.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -324,6 +332,14 @@
     "link": "http://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
     "description": "After a number of years of work, the initial rollout of a modern suite of tools for editing and publishing RFCs, including an entirely new rfc-editor.org website, will take place in May 2026.",
     "pubDate": "2026-05-12T08:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "IETF Snapshot 2025",
+    "link": "http://www.ietf.org/blog/ietf-snapshot-2025/",
+    "description": "Want to catch up on IETF activity in 2025? How many RFCs were published? How many Internet-Drafts were submitted? How many Working Groups were chartered or concluded? The latest edition of the IETF Snapshot provides a recap of IETF activity for the previous year.",
+    "pubDate": "2026-05-11T23:38:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
   },
@@ -462,21 +478,5 @@
     "pubDate": "2026-04-29T10:10:29.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "GoDaddy customer claims registrar transferred 27-year-old domain without any security checks",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/non-profits-godaddy-nightmare-and-the-it-chaos-that-ensued/5226239",
-    "description": "32 phone calls, 17 email chains, a 5-day ordeal, and no help during the daddy of all stuffups, claim those affected",
-    "pubDate": "2026-04-29T10:00:09.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "From BGP Data to Insight: Simplifying Real-Time Routing Analysis",
-    "link": "https://labs.ripe.net/author/romain_fontugne/from-bgp-data-to-insight-simplifying-real-time-routing-analysis/",
-    "description": "The IHR BGP monitoring tool is a simple web-based application that leverages the RIS Live and BGPlay APIs to monitor your prefixes and their RPKI status.",
-    "pubDate": "2026-04-29T09:35:10.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   }
 ]
