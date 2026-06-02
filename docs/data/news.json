@@ -1,5 +1,29 @@
 [
   {
+    "title": "Cold start DNS",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "There is an obvious tension between resilience and speed in the design of a resolver's query strategy. DNS cold starts bring that tension into focus.",
+    "pubDate": "2026-06-02T04:03:40.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "IPv4 Is Now a Sellers Market - What to Expect in 2026",
+    "link": "https://circleid.com/posts/ipv4&#45;is&#45;now&#45;a&#45;sellers&#45;market&#45;what&#45;to&#45;expect&#45;in&#45;2026",
+    "description": "After two years of falling prices, the IPv4 market has turned decisively. Surging transfer volumes, AI infrastructure demand and looming broadband expansion are tightening supply, pushing prices higher and leaving patient buyers facing a costlier reality.",
+    "pubDate": "2026-06-01T18:09:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How we reduced core unit boot time from hours to minutes",
+    "link": "https://en.wikipedia.org/wiki/UEFI",
+    "description": "We investigated why firmware updates were causing our core servers to take four hours to reboot. By diving into UEFI data structures and iPXE automation, we eliminated unnecessary timeouts and cut boot times back down to minutes.",
+    "pubDate": "2026-06-01T16:53:39.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "The 2026 APNIC Survey is now open — have your say!",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The 2026 APNIC Survey — your chance to directly inform APNIC’s strategic planning, priorities, and future direction — will be open from 1 to 28 June 2026. It takes about ten minutes to complete, and you could win a prize.",
@@ -152,14 +176,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Time Sovereignty: Internet Policy and Defense Frameworks for Critical Infrastructure Synchronization Under Geopolitical Conflict",
-    "link": "https://circleid.com/posts/time&#45;sovereignty&#45;internet&#45;policy&#45;and&#45;defense&#45;frameworks&#45;for&#45;critical&#45;infrastructure&#45;synchronization&#45;under&#45;geopolitical&#45;conflict",
-    "description": "As power grids depend on microsecond precision, states must treat time synchronization as sovereign infrastructure, hardening satellite, fiber and orbital defenses against hybrid attacks that could trigger catastrophic blackouts through resilient sovereign time defense frameworks…",
-    "pubDate": "2026-05-26T15:49:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Non-Human Identity for Workloads and AI Agents",
     "link": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents/",
     "description": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
@@ -206,14 +222,6 @@
     "pubDate": "2026-05-22T12:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Your elected leaders: Joy Chan, Cooperation Special Interest Group Chair",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "From building resilient systems at scale to facilitating multistakeholder dialogue, Joy Chan’s leadership highlights the power of participation and the role every community member can play in shaping the Internet’s future.",
-    "pubDate": "2026-05-21T23:37:36.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Announcing Claude Compliance API support with Cloudflare CASB",
@@ -364,14 +372,6 @@
     "link": "https://blog.cloudflare.com/building-for-the-future/",
     "description": "This afternoon, we sent the following email to our global team. One of our core values at Cloudflare is transparency, and we believe it's important that you hear this directly from us because it’s a major moment at Cloudflare.",
     "pubDate": "2026-05-07T20:15:12.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
-    "link": "https://security-tracker.debian.org/tracker/CVE-2026-31431",
-    "description": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
-    "pubDate": "2026-05-07T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
