@@ -1,5 +1,37 @@
 [
   {
+    "title": "Non-Human Identity for workloads: Securing the next phase of automation",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase …",
+    "pubDate": "2026-06-04T23:49:54.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "VoidZero is joining Cloudflare",
+    "link": "https://vite.dev/",
+    "description": "VoidZero, the team behind Vite, Vitest, Rolldown, Oxc, and Vite+, is joining Cloudflare. Vite stays open source, vendor-agnostic, and built for everyone.",
+    "pubDate": "2026-06-04T12:59:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Peering Capacity at Public Internet Exchanges: What the Data Reveals",
+    "link": "https://labs.ripe.net/author/gael-hernandez/peering-capacity-at-public-internet-exchanges-what-the-data-reveals/",
+    "description": "This study delivers data-rich insights into the decisions made by the most IXP-connected CDN, cloud and content networks, analysing their strategies both individually and collectively as a group that exerts significant influence on the global interconnection landscape.",
+    "pubDate": "2026-06-04T12:29:35.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "IETF LLC Board Retreat 2026",
+    "link": "http://www.ietf.org/blog/llc-board-retreat-2026/",
+    "description": "The IETF Administration LLC Board of Directors held its annual retreat 29-30 April 2026 in Amsterdam. In addition to all Board members, the IETF Executive Director, the Director of Finance, and the Board Secretary were present. Here is a short summary of the main points we discus…",
+    "pubDate": "2026-06-04T11:58:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
     "title": "Vale Alan Barrett — Internet pioneer, community leader, trusted voice",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Alan Barrett helped shape the Internet in Africa and beyond, combining technical leadership with a deep commitment to the global Internet community.",
@@ -192,6 +224,14 @@
     "sourceIcon": "🌏"
   },
   {
+    "title": "Non-Human Identity for Workloads and AI Agents",
+    "link": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents/",
+    "description": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "pubDate": "2026-05-26T07:52:01.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "IETF Administration LLC 2025 Annual Financial Audit",
     "link": "http://www.ietf.org/blog/ietf-llc-2025-annual-financial-audit/",
     "description": "IETF Administration LLC Board of Directors received from external auditors the report of a clean result for its 2025 annual financial statement.",
@@ -204,14 +244,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: \"RADIUS is the protocol that will never die\". So given that RADIUS is staying, what do we need to do to make it secure for the next 30 years?",
     "pubDate": "2026-05-25T23:27:13.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Understanding traceroute by reimplementing it in Rust",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "What can be learned by reimplementing the common traceroute utility in Rust? The inner workings of traceroute, and the importance of careful interpretation, for a start.",
-    "pubDate": "2026-05-25T05:14:54.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -264,6 +296,14 @@
     "sourceIcon": "☁️"
   },
   {
+    "title": "RIPE 92 Daily Meeting Blog",
+    "link": "https://labs.ripe.net/author/ripe-ncc-commsies/ripe-92-daily-meeting-blog/",
+    "description": "Sixty-one RIPE Meetings on, RIPE 92 brings us back to Edinburgh - city of festivals, gothic skylines, and uphill walking. As always, there's the slides, there's the videos, but to get a real feel for what's happening through the week, tune into the daily meeting blog.",
+    "pubDate": "2026-05-19T06:16:01.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Report from the 2026 RPC Retreat",
     "link": "http://www.ietf.org/blog/rpc-retreat-2026/",
     "description": "The RFC Production Center (RPC) retreat was a two-day strategic planning session taking place the week of April 20 that gathered the entire RPC team and IETF Administration senior staff.",
@@ -278,6 +318,14 @@
     "pubDate": "2026-05-18T06:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
+  },
+  {
+    "title": "Legacy Out of Contract",
+    "link": "https://labs.ripe.net/author/qasim-lone/legacy-out-of-contract/",
+    "description": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming…",
+    "pubDate": "2026-05-15T11:39:22.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
   },
   {
     "title": "The Community That Changed How I See the Internet",
@@ -304,12 +352,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
-    "link": "https://www.rfc-editor.org/rfc/rfc9438.html",
-    "description": "We investigated a bug where CUBIC's congestion window became pinned at its minimum floor, causing a performance to plummet. The fix involved correctly measuring idle periods to distinguish RTT wait times from actual application idleness.",
-    "pubDate": "2026-05-12T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
+    "title": "Operational Review of Public ENUM Under e164.arpa",
+    "link": "https://labs.ripe.net/author/hisham_ibrahim/operational-review-of-public-enum-under-e164arpa/",
+    "description": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
+    "pubDate": "2026-05-12T10:02:35.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
   },
   {
     "title": "A new suite of modern tools coming for editing and publishing RFCs",
@@ -336,6 +384,22 @@
     "sourceIcon": "🌎"
   },
   {
+    "title": "The RIPE Chair Team Reports - May 2026",
+    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-may-2026/",
+    "description": "The RIPE Chair Team reports on what to expect at RIPE 92, including the main programme and parallel events, WG chair selections and support for newcomers, as well as highlights from recent industry events.",
+    "pubDate": "2026-05-11T13:57:16.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "PeeringDB Update October 2025 - April 2026",
+    "link": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-october-2025-april-2026/",
+    "description": "PeeringDB is a widely used resource for interconnection data, and in these regular updates, we help users keep track of how the platform evolves. This report summarises significant PeeringDB changes over the last six months.",
+    "pubDate": "2026-05-06T07:20:41.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "CaribNOG 31: Strengthening the Caribbean’s Digital Resilience",
     "link": "https://www.arin.net/blog/2026/05/05/caribnog-31/",
     "description": "Across the Caribbean, the conversation about digital infrastructure has changed. CaribNOG 31 — convened in Kingston, Jamaica, on 14-16 April 2026 — expressed that shift with particular clarity.",
@@ -350,6 +414,14 @@
     "pubDate": "2026-05-05T11:34:23.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
+  },
+  {
+    "title": "Questioning the IPv8 Proposal",
+    "link": "https://labs.ripe.net/author/pcdog/questioning-the-ipv8-proposal/",
+    "description": "The IPv8 proposal brings together routing, identity, and network management into a single design, but does it leave too many operational questions unanswered?",
+    "pubDate": "2026-05-05T05:36:41.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
   },
   {
     "title": "Inside Amazon Web Services' plan to make networking disappear",
@@ -384,6 +456,14 @@
     "sourceIcon": "📰"
   },
   {
+    "title": "Making Resource Holders Easier to Identify: Introducing reg-nr: in the RIPE Database",
+    "link": "https://labs.ripe.net/author/marco_schmidt/making-resource-holders-easier-to-identify-introducing-reg-nr-in-the-ripe-database/",
+    "description": "Proposed at RIPE 91 in the Address Policy Working Group and then further discussed in the Database Working Group, the reg-nr: attribute (NWI-21) has already been implemented ahead of RIPE 92, showing how quickly community input can lead to practical results. It adds official comp…",
+    "pubDate": "2026-04-30T08:21:12.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Cloudflare says autocrats, wars and elections caged the internet in Q1",
     "link": "https://www.theregister.com/on-prem/2026/04/29/cloudflare-autocrats-wars-and-votes-caged-the-net-in-q1/5220583",
     "description": "Iran went dark twice, AWS got droned, oh and TalkTalk broke something it refuses to talk about",
@@ -396,86 +476,6 @@
     "link": "http://www.ietf.org/blog/ietf125-survey/",
     "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
     "pubDate": "2026-04-29T16:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "Wind Telecom Dominican Republic and ZTE join forces to accelerate smart home innovation",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/wind-telecom-and-zte-partner-for-smart-home-innovation/5222949",
-    "description": "Elevating residential connectivity with AI-driven network optimization and secure cloud-based home monitoring solutions",
-    "pubDate": "2026-04-29T10:34:12.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "ZTE and XLSMART officially launch Innovation Center in Jakarta, accelerating 5G-advanced and AI readiness for Indonesia",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/zte-xlsmart-launch-jakarta-ai-5g-a-innovation-center/5225063",
-    "description": "Driving cross-sector digital transformation through collaborative 5G-A research and AI-powered network solutions",
-    "pubDate": "2026-04-29T10:10:29.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "GoDaddy customer claims registrar transferred 27-year-old domain without any security checks",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/non-profits-godaddy-nightmare-and-the-it-chaos-that-ensued/5226239",
-    "description": "32 phone calls, 17 email chains, a 5-day ordeal, and no help during the daddy of all stuffups, claim those affected",
-    "pubDate": "2026-04-29T10:00:09.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "When robots join the race: 5G-A powers a new kind of marathon",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/5g-a-powers-a-new-kind-of-marathon/5226158",
-    "description": "Human and humanoid runners share the track as next-gen connectivity underpins real-time AI performance",
-    "pubDate": "2026-04-29T06:08:38.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Two men charged over series of arson attacks on 5G masts",
-    "link": "https://www.theregister.com/on-prem/2026/04/28/two-men-charged-over-series-of-arson-attacks-on-5g-masts/5221305",
-    "description": "Pair accused of creating literal flame war as bonkers conspiracy theories grow",
-    "pubDate": "2026-04-28T11:14:28.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "ARIN 57 Day 3 Recap",
-    "link": "https://www.arin.net/blog/2026/04/22/arin-57-day-3-recap/",
-    "description": "Today marked the third and final day of our ARIN 57 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
-    "pubDate": "2026-04-22T16:30:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "ARIN 57 Day 2 Recap",
-    "link": "https://www.arin.net/blog/2026/04/21/arin-57-day-2-recap/",
-    "description": "Day two of ARIN 57 has come to an end! We had another productive day filled with policy discussions, grant reports, and more. We will be back tomorrow morning for the third and final day of the meeting.",
-    "pubDate": "2026-04-21T20:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "IETF Secretariat continues under new approach",
-    "link": "http://www.ietf.org/blog/secretariat-continuation/",
-    "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
-    "pubDate": "2026-03-31T18:57:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "Suggested IETF 125 Sessions for Getting Familiar with New Topics",
-    "link": "http://www.ietf.org/blog/ietf125-new-topics/",
-    "description": "These IETF 125 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
-    "pubDate": "2026-03-02T20:40:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "The current state of RDAP",
-    "link": "http://www.ietf.org/blog/current-state-of-rdap/",
-    "description": "The IETF ratified the specifications for the Registration Data Access Protocol (RDAP) a decade ago, in March 2015, with the clear intent of replacing the aging WHOIS protocol.",
-    "pubDate": "2026-02-19T15:36:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
   }
