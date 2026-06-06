@@ -1,5 +1,37 @@
 [
   {
+    "title": "Your AI bill is out of control. Cloudflare can fix it now.",
+    "link": "https://developers.cloudflare.com/ai-gateway/",
+    "description": "AI Gateway now features real-time spend limits to prevent runaway token bills across multiple AI providers. By integrating with Cloudflare Access, companies can use identity-driven budgets and policies.",
+    "pubDate": "2026-06-05T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "UDRP Review Is a Test of the MSM",
+    "link": "https://circleid.com/posts/udrp&#45;review&#45;is&#45;a&#45;test&#45;of&#45;the&#45;msm",
+    "description": "As ICANN confronts a harsher geopolitical era, its long-delayed review of the UDRP has become a defining test of whether the multistakeholder model can still deliver legitimate, effective Internet governance and sustain confidence in its future.",
+    "pubDate": "2026-06-05T12:31:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Online Unregulated Peptide Sales Should Be Banned",
+    "link": "https://circleid.com/posts/online&#45;unregulated&#45;peptide&#45;sales&#45;should&#45;be&#45;banned",
+    "description": "Canada's online pharmacy industry is urging a ban on unregulated peptide sales, warning that products marketed for weight loss, bodybuilding and other uses pose serious health risks, evade regulatory oversight, and are increasingly sold online without prescriptions.",
+    "pubDate": "2026-06-05T11:09:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The RIPE Chair Team Reports - Highlights from RIPE 92",
+    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-highlights-from-ripe-92/",
+    "description": "From governance and policy to AI and research, RIPE 92 sparked lively discussion across the community. The RIPE Chair Team reports on the sessions, the ideas and the initiatives that stood out during the week.",
+    "pubDate": "2026-06-05T08:10:59.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Non-Human Identity for workloads: Securing the next phase of automation",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase …",
@@ -184,22 +216,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Fake Domains, Real Harm: The Data Behind India&#8217;s DNS Abuse Crisis",
-    "link": "https://circleid.com/posts/fake&#45;domains&#45;real&#45;harm&#45;the&#45;data&#45;behind&#45;indias&#45;dns&#45;abuse&#45;crisis",
-    "description": "New data on DNS abuse reveals most malicious domains remain active beyond 24 hours, while a handful of registrars host the bulk of infrastructure, leaving India's population of first-generation internet users uniquely exposed to fraud.",
-    "pubDate": "2026-05-27T19:00:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "dotBrand Domains as Trust Infrastructure in the Age of AI",
-    "link": "https://circleid.com/posts/dotbrand&#45;domains&#45;as&#45;trust&#45;infrastructure&#45;in&#45;the&#45;age&#45;of&#45;ai",
-    "description": "As AI agents automate phishing, impersonation and domain abuse at machine scale, the Brand Registry Group argues that dotBrand domains are evolving from marketing assets into trust infrastructure underpinning cybersecurity, identity and interactions across the internet.",
-    "pubDate": "2026-05-27T18:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
     "link": "https://x.com/ir_aref/status/2059261258566877640?s=20",
     "description": "Cloudflare Radar data confirms early indications of a partial Internet restoration in Iran, nearly three months after the shutdown began. Traffic spikes and DNS queries have risen, but network activity is currently just 40% of pre-shutdown levels.",
@@ -344,14 +360,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
-    "link": "https://developers.cloudflare.com/containers/",
-    "description": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
-    "pubDate": "2026-05-13T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Operational Review of Public ENUM Under e164.arpa",
     "link": "https://labs.ripe.net/author/hisham_ibrahim/operational-review-of-public-enum-under-e164arpa/",
     "description": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
@@ -470,13 +478,5 @@
     "pubDate": "2026-04-29T17:05:55.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "IETF 125 post-meeting survey",
-    "link": "http://www.ietf.org/blog/ietf125-survey/",
-    "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
-    "pubDate": "2026-04-29T16:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
   }
 ]
