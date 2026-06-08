@@ -1,5 +1,13 @@
 [
   {
+    "title": "From workshop to deployment: How Bangladesh ccTLD implemented DNSSEC",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Guest Post: How Bangladesh’s .BD ccTLD moved from no DNSSEC coverage to a fully validated chain of trust across its most critical SLDs, overcoming tooling gaps, operational failures, and infrastructure challenges along the way.",
+    "pubDate": "2026-06-08T03:55:50.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Your AI bill is out of control. Cloudflare can fix it now.",
     "link": "https://developers.cloudflare.com/ai-gateway/",
     "description": "AI Gateway now features real-time spend limits to prevent runaway token bills across multiple AI providers. By integrating with Cloudflare Access, companies can use identity-driven budgets and policies.",
@@ -254,14 +262,6 @@
     "pubDate": "2026-05-26T04:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "RADIUS isn&#8217;t going away, so let&#8217;s fix it properly",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: \"RADIUS is the protocol that will never die\". So given that RADIUS is staying, what do we need to do to make it secure for the next 30 years?",
-    "pubDate": "2026-05-25T23:27:13.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "The Nine Lives of an Early Adopter: ESnet’s IPv6 Journey — and Why It Matters Now",
