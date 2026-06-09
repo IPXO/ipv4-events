@@ -1,5 +1,45 @@
 [
   {
+    "title": "Provide your input on increasingdiversity in APNIC community leadership",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The APNIC Executive Council (EC) is seeking community input to better understand barriers affecting diversity in community leadership and EC candidacy. These insights will inform future initiatives to support a broader leadership pipeline.",
+    "pubDate": "2026-06-09T02:13:46.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Turning Cloudflare’s threat indicators into real-time WAF rules",
+    "link": "https://blog.cloudflare.com/threat-events-platform/",
+    "description": "Cloudflare customers can now use Cloudforce One threat intelligence directly within the WAF to block high-risk traffic. By using new cf.intel fields, security teams can automate protection against specific threat actors and targeted industries in real time.",
+    "pubDate": "2026-06-08T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Cybercriminals are Driving Significant Domain Name Market Demand",
+    "link": "https://circleid.com/posts/cybercriminals&#45;are&#45;driving&#45;significant&#45;domain&#45;name&#45;market&#45;demand",
+    "description": "Cybercriminals are becoming a major force in the domain-name market, driving an estimated one-fifth of new gTLD registrations in 2025 and exposing how commercial incentives, weak enforcement, and scale continue to fuel online abuse.",
+    "pubDate": "2026-06-08T08:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How the AI Computing Paradigm Is Deconstructing Internet Governance",
+    "link": "https://circleid.com/posts/how&#45;the&#45;ai&#45;computing&#45;paradigm&#45;is&#45;deconstructing&#45;internet&#45;governance",
+    "description": "As AI giants build vertically integrated, compute-centric networks, they are bypassing DNS, reshaping routing, and concentrating infrastructure power, placing decades-old internet governance institutions under mounting pressure and raising the prospect of a fragmented, AI-driven …",
+    "pubDate": "2026-06-08T08:20:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Sustaining the Commons in an Age of Digital Sovereignty",
+    "link": "https://labs.ripe.net/author/hisham_ibrahim/sustaining-the-commons-in-an-age-of-digital-sovereignty/",
+    "description": "Digital sovereignty raises legitimate questions about dependency, resilience and control. It can strengthen the Internet when it builds capacity and meaningful choice. It becomes risky when it is pursued as control over the common layer that keeps the global Internet interoperabl…",
+    "pubDate": "2026-06-08T08:19:52.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "From workshop to deployment: How Bangladesh ccTLD implemented DNSSEC",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Guest Post: How Bangladesh’s .BD ccTLD moved from no DNSSEC coverage to a fully validated chain of trust across its most critical SLDs, overcoming tooling gaps, operational failures, and infrastructure challenges along the way.",
@@ -176,14 +216,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The DNS Anatomy of the Axios Supply Chain Attack",
-    "link": "https://circleid.com/posts/the&#45;dns&#45;anatomy&#45;of&#45;the&#45;axios&#45;supply&#45;chain&#45;attack",
-    "description": "A DNS-focused investigation into the Axios NPM supply chain attack uncovered typosquatting networks, victim-linked infrastructure, and hundreds of connected domains, revealing how malicious actors built and sustained a sprawling cyber campaign around compromised software dependen…",
-    "pubDate": "2026-05-28T15:49:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "We Want to Hear from You: Take ARIN's 2026 Customer Satisfaction Survey",
     "link": "https://www.arin.net/blog/2026/05/28/customer-satisfaction-survey/",
     "description": "Sometime before 19 June, we hope you’ll set aside some time to share your feedback with us as we conduct our 2026 Customer Satisfaction Survey to gain a better understanding of our performance in all areas of the organization.",
@@ -216,14 +248,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Starlink and Amazon Could Gain Access to Europe&#8217;s Satellite Airwaves",
-    "link": "https://circleid.com/posts/starlink&#45;and&#45;amazon&#45;could&#45;gain&#45;access&#45;to&#45;europes&#45;satellite&#45;airwaves",
-    "description": "The European Union plans to reserve most future satellite spectrum for regional firms while still allowing Starlink and Amazon to compete, reflecting Brussels' attempt to balance technological sovereignty with market openness in a strategically sensitive communications sector.",
-    "pubDate": "2026-05-27T19:19:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
     "link": "https://x.com/ir_aref/status/2059261258566877640?s=20",
     "description": "Cloudflare Radar data confirms early indications of a partial Internet restoration in Iran, nearly three months after the shutdown began. Traffic spikes and DNS queries have risen, but network activity is currently just 40% of pre-shutdown levels.",
@@ -238,14 +262,6 @@
     "pubDate": "2026-05-27T14:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Register now for APNIC 62 in Mumbai",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Registration has opened for APNIC 62, being held from 4 to 10 September 2026 in Mumbai, India. Register before 31 July to receive an early bird discount for the workshops.",
-    "pubDate": "2026-05-27T06:13:25.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Non-Human Identity for Workloads and AI Agents",
@@ -352,14 +368,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-    "link": "https://en.wikipedia.org/wiki/Max-min_fairness",
-    "description": "When a partitioning change to our petabyte-scale ClickHouse cluster caused critical billing jobs to stall, standard metrics showed no obvious errors. This post explores how we identified severe lock contention in ClickHouse's query planner and built upstream patches to fix it.",
-    "pubDate": "2026-05-14T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Operational Review of Public ENUM Under e164.arpa",
     "link": "https://labs.ripe.net/author/hisham_ibrahim/operational-review-of-public-enum-under-e164arpa/",
     "description": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
@@ -462,14 +470,6 @@
     "pubDate": "2026-04-30T18:18:26.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "Making Resource Holders Easier to Identify: Introducing reg-nr: in the RIPE Database",
-    "link": "https://labs.ripe.net/author/marco_schmidt/making-resource-holders-easier-to-identify-introducing-reg-nr-in-the-ripe-database/",
-    "description": "Proposed at RIPE 91 in the Address Policy Working Group and then further discussed in the Database Working Group, the reg-nr: attribute (NWI-21) has already been implemented ahead of RIPE 92, showing how quickly community input can lead to practical results. It adds official comp…",
-    "pubDate": "2026-04-30T08:21:12.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Cloudflare says autocrats, wars and elections caged the internet in Q1",
