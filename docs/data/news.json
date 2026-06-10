@@ -1,5 +1,29 @@
 [
   {
+    "title": "Nominations now open for NRO NC Election 2026",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "You have until 17:30 (UTC +10) on 9 August 2026 to submit a nomination for the 2026 NRO NC election.",
+    "pubDate": "2026-06-10T04:07:25.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Unveiling the hidden complexity of authoritative DNS resilience",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ abili…",
+    "pubDate": "2026-06-09T22:59:15.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
+    "link": "https://blog.cloudflare.com/cyber-frontier-models/",
+    "description": "In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's cus…",
+    "pubDate": "2026-06-09T06:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Provide your input on increasingdiversity in APNIC community leadership",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC Executive Council (EC) is seeking community input to better understand barriers affecting diversity in community leadership and EC candidacy. These insights will inform future initiatives to support a broader leadership pipeline.",
@@ -232,22 +256,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Centrality in the Internet&#8217;s names",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "The Internet's Domain Name System undertakes a vitally important role in today's Internet. The question here is — is the DNS centralized?",
-    "pubDate": "2026-05-28T01:53:44.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "[Podcast] About time",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "This episode of PING explores how today’s dependence on highly synchronized clocks is colliding with unstable Earth rotation, legacy system epochs, and the growing need to secure Internet time itself.",
-    "pubDate": "2026-05-27T20:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
     "link": "https://x.com/ir_aref/status/2059261258566877640?s=20",
     "description": "Cloudflare Radar data confirms early indications of a partial Internet restoration in Iran, nearly three months after the shutdown began. Traffic spikes and DNS queries have risen, but network activity is currently just 40% of pre-shutdown levels.",
@@ -342,14 +350,6 @@
     "pubDate": "2026-05-18T20:56:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Project Glasswing: what Mythos showed us",
-    "link": "https://www.anthropic.com/glasswing",
-    "description": "In recent weeks, we pointed Mythos and other security-focused LLMs at live code across critical parts of our infrastructure. We share what we observed, the models’ strengths and weaknesses, and what the work around them needs to look like before any of it can scale.",
-    "pubDate": "2026-05-18T06:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Legacy Out of Contract",
