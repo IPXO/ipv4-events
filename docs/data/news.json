@@ -1,5 +1,117 @@
 [
   {
+    "title": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
+    "link": "https://labs.ripe.net/author/mkoch/discovery-of-ipv6-router-addresses-using-subnet-router-anycast/",
+    "description": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
+    "pubDate": "2026-06-11T05:33:06.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "pubDate": "2026-06-11T04:29:55.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Internet works best when the community shows up — the APNIC 62 policy cycle is open now",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "If you have an idea about how APNIC should manage Internet number resources, submit a policy proposal for the APNIC 62 OPM. The deadline to make a submission is 7 August 2026.",
+    "pubDate": "2026-06-10T23:57:06.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "[Podcast] The Erik protocol: Improving RPKI data fetch",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Job Snijders discusses the new 'Erik' protocol for faster RPKI repository synchronization.",
+    "pubDate": "2026-06-10T20:30:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "IPv4 Market Firms as Demand Holds Strong and Supply Tightens",
+    "link": "https://circleid.com/posts/ipv4&#45;market&#45;firms&#45;as&#45;demand&#45;holds&#45;strong&#45;and&#45;supply&#45;tightens",
+    "description": "The IPv4 market is showing renewed firmness as demand remains strong, large-block prices edge higher, and supply tightens in key segments. Recent transaction data suggests stabilization is taking hold, with availability becoming an increasingly important market driver.",
+    "pubDate": "2026-06-10T18:45:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Deep Dive: Pushpaganda Network IoCs",
+    "link": "https://circleid.com/posts/dns&#45;deep&#45;dive&#45;pushpaganda&#45;network&#45;iocs",
+    "description": "A DNS investigation into Pushpaganda, an AI-powered scam network that infiltrated Google Discovery feeds, uncovered more than 1,000 connected domains, 162 linked IP addresses, and evidence that several infrastructure assets were registered with malicious intent.",
+    "pubDate": "2026-06-10T18:43:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "IPv4 Pricing Through 2026 - Stability as Seller Leverage Begins to Return",
+    "link": "https://circleid.com/posts/ipv4&#45;pricing&#45;through&#45;2026&#45;stability&#45;as&#45;seller&#45;leverage&#45;begins&#45;to&#45;return",
+    "description": "After a sharp correction, the IPv4 market is showing signs of stabilization. Rising buyer activity, tightening supply expectations, and growing AI infrastructure demand are expected to support gradual price recovery through 2026, improving conditions for sellers.",
+    "pubDate": "2026-06-10T18:19:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Ready to Run? Your Guide to ARIN Elections Nominations",
+    "link": "https://www.arin.net/blog/2026/06/10/nominations-guide/",
+    "description": "Who can make nominations? What should a nominee expect during the election timeline? How are nominees classified, and what qualifications matter most? Whether you’re considering running or simply want to understand ARIN Elections, this overview covers the essentials.",
+    "pubDate": "2026-06-10T17:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Post-Quantum Cryptography - the Time to Act Is Now",
+    "link": "https://circleid.com/posts/post&#45;quantum&#45;cryptography&#45;the&#45;time&#45;to&#45;act&#45;is&#45;now",
+    "description": "As quantum computing advances, the race to secure the internet is becoming urgent. Experts at EuroDIG 2026 warned that only coordinated, multistakeholder action can accelerate post-quantum cryptography deployment before existing encryption becomes dangerously obsolete.",
+    "pubDate": "2026-06-10T15:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Community Networks: Africa&#8217;s Missing Layer of Digital Sovereignty",
+    "link": "https://circleid.com/posts/community&#45;networks&#45;africaas&#45;missing&#45;layer&#45;of&#45;digital&#45;sovereignty",
+    "description": "Community networks could become a crucial pillar of Africa's digital sovereignty, extending connectivity while giving underserved communities greater ownership, resilience, technical capacity, and influence over the infrastructure and services that increasingly shape economic opp…",
+    "pubDate": "2026-06-10T14:48:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DOTZON Study: Digital City Brands 2026",
+    "link": "https://circleid.com/posts/dotzon&#45;study&#45;digital&#45;city&#45;brands&#45;2026",
+    "description": "DOTZON's Digital City Brands 2026 study crowns .tokyo as the first Asian cityTLD to top the rankings, ending .berlin's four-year reign, while highlighting the growing role of city domains in digital identity, commerce and development.",
+    "pubDate": "2026-06-10T14:37:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Route public traffic to private applications with Cloudflare",
+    "link": "https://developers.cloudflare.com/tunnel/",
+    "description": "Application Services for Private Origins is available now in closed beta. Route public hostnames to private IP origins over your existing IPsec, GRE, CNI, or Cloudflare Mesh paths. No public IPs or extra connector software required.",
+    "pubDate": "2026-06-10T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "What We Learned from a Multi-Service Vulnerability Disclosure",
+    "link": "https://labs.ripe.net/author/eleonora-petridou/what-we-learned-from-a-multi-service-vulnerability-disclosure/",
+    "description": "A series of vulnerabilities reported through the RIPE NCC bug bounty programme revealed weaknesses across multiple services and highlighted the risks posed by vulnerability chains. We look at how the issues were addressed, and what the disclosure taught us about handling complex …",
+    "pubDate": "2026-06-10T09:51:42.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
+    "link": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design/",
+    "description": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
+    "pubDate": "2026-06-10T09:51:00.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Nominations now open for NRO NC Election 2026",
     "link": "https://blog.apnic.net/category/community/",
     "description": "You have until 17:30 (UTC +10) on 9 August 2026 to submit a nomination for the 2026 NRO NC election.",
@@ -152,14 +264,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "From Uptime to Trust: The Domain Security Strategy Behind Business Continuity",
-    "link": "https://circleid.com/posts/from&#45;uptime&#45;to&#45;trust&#45;the&#45;domain&#45;security&#45;strategy&#45;behind&#45;business&#45;continuity",
-    "description": "Domains and DNS underpin modern business operations, yet security gaps remain widespread. CSC's latest research shows why stronger domain protections are essential to resilience, helping companies reduce disruption, safeguard trust, and maintain continuity when attacks strike.",
-    "pubDate": "2026-06-03T11:12:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Cold start DNS",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "There is an obvious tension between resilience and speed in the design of a resolver's query strategy. DNS cold starts bring that tension into focus.",
@@ -168,76 +272,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "IPv4 Is Now a Sellers Market - What to Expect in 2026",
-    "link": "https://circleid.com/posts/ipv4&#45;is&#45;now&#45;a&#45;sellers&#45;market&#45;what&#45;to&#45;expect&#45;in&#45;2026",
-    "description": "After two years of falling prices, the IPv4 market has turned decisively. Surging transfer volumes, AI infrastructure demand and looming broadband expansion are tightening supply, pushing prices higher and leaving patient buyers facing a costlier reality.",
-    "pubDate": "2026-06-01T18:09:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "How we reduced core unit boot time from hours to minutes",
     "link": "https://en.wikipedia.org/wiki/UEFI",
     "description": "We investigated why firmware updates were causing our core servers to take four hours to reboot. By diving into UEFI data structures and iPXE automation, we eliminated unnecessary timeouts and cut boot times back down to minutes.",
     "pubDate": "2026-06-01T16:53:39.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "The 2026 APNIC Survey is now open — have your say!",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The 2026 APNIC Survey — your chance to directly inform APNIC’s strategic planning, priorities, and future direction — will be open from 1 to 28 June 2026. It takes about ten minutes to complete, and you could win a prize.",
-    "pubDate": "2026-06-01T03:10:58.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Internet, Artificial Intelligence and the UN: How different is AI Governance from Internet Governance?",
-    "link": "https://circleid.com/posts/internet&#45;artificial&#45;intelligence&#45;and&#45;the&#45;un&#45;how&#45;different&#45;is&#45;ai&#45;governance&#45;from&#45;internet&#45;governance",
-    "description": "As the UN turns to AI governance, old lessons from internet governance loom large: multistakeholder rules matter, but sharper risks, geopolitical rivalry and machine autonomy make consensus harder and more urgent than before for all.",
-    "pubDate": "2026-05-31T18:39:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Africa&#8217;s Data Sovereignty Is Not About Where Data Lives: It Is About Who Controls It",
-    "link": "https://circleid.com/posts/africaas&#45;data&#45;sovereignty&#45;is&#45;not&#45;about&#45;where&#45;data&#45;lives&#45;it&#45;is&#45;about&#45;who&#45;controls&#45;it",
-    "description": "Africa's data sovereignty debate focuses too heavily on where information is stored. Real sovereignty depends on control of cloud platforms, encryption, identity systems, and critical digital infrastructure that determine resilience, autonomy, and strategic power.",
-    "pubDate": "2026-05-31T18:06:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Researchers Uncover Browser-Based SSD Side Channel That Can Track User",
-    "link": "https://circleid.com/posts/researchers&#45;uncover&#45;browser&#45;based&#45;ssd&#45;side&#45;channel&#45;that&#45;can&#45;track&#45;user",
-    "description": "Researchers have uncovered a browser-based technique that exploits SSD activity through local storage features, allowing malicious websites to infer user behavior, identify visited sites and applications, and potentially expand online tracking without special permissions.",
-    "pubDate": "2026-05-29T20:14:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Blank Domain Names Surpass Websites in Value for the First Time, Report Finds",
-    "link": "https://circleid.com/posts/blank&#45;domain&#45;names&#45;surpass&#45;websites&#45;in&#45;value&#45;for&#45;the&#45;first&#45;time&#45;report&#45;finds",
-    "description": "The domain name market recorded its strongest quarter in three years as .com sales hit a record high and investors poured capital into undeveloped web assets, signaling growing demand for premium digital real estate and scarce online identities.",
-    "pubDate": "2026-05-29T19:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Introducing the APNIC WhatsApp Community",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The APNIC WhatsApp Community offers a direct way to stay informed and connected, wherever you are, delivering timely updates, discussions, and event information directly to your phone.",
-    "pubDate": "2026-05-29T04:07:57.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Persistent device identity in the era of MAC address randomization",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: A RADIUS-based framework for stable device identification.",
-    "pubDate": "2026-05-29T00:40:22.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "We Want to Hear from You: Take ARIN's 2026 Customer Satisfaction Survey",
@@ -328,14 +368,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Announcing Claude Managed Agents on Cloudflare",
-    "link": "https://developers.cloudflare.com/sandbox/tutorials/claude-managed-agents/",
-    "description": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing the…",
-    "pubDate": "2026-05-19T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "RIPE 92 Daily Meeting Blog",
     "link": "https://labs.ripe.net/author/ripe-ncc-commsies/ripe-92-daily-meeting-blog/",
     "description": "Sixty-one RIPE Meetings on, RIPE 92 brings us back to Edinburgh - city of festivals, gothic skylines, and uphill walking. As always, there's the slides, there's the videos, but to get a real feel for what's happening through the week, tune into the daily meeting blog.",
@@ -400,22 +432,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "The RIPE Chair Team Reports - May 2026",
-    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-may-2026/",
-    "description": "The RIPE Chair Team reports on what to expect at RIPE 92, including the main programme and parallel events, WG chair selections and support for newcomers, as well as highlights from recent industry events.",
-    "pubDate": "2026-05-11T13:57:16.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "PeeringDB Update October 2025 - April 2026",
-    "link": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-october-2025-april-2026/",
-    "description": "PeeringDB is a widely used resource for interconnection data, and in these regular updates, we help users keep track of how the platform evolves. This report summarises significant PeeringDB changes over the last six months.",
-    "pubDate": "2026-05-06T07:20:41.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "CaribNOG 31: Strengthening the Caribbean’s Digital Resilience",
     "link": "https://www.arin.net/blog/2026/05/05/caribnog-31/",
     "description": "Across the Caribbean, the conversation about digital infrastructure has changed. CaribNOG 31 — convened in Kingston, Jamaica, on 14-16 April 2026 — expressed that shift with particular clarity.",
@@ -430,14 +446,6 @@
     "pubDate": "2026-05-05T11:34:23.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
-  },
-  {
-    "title": "Questioning the IPv8 Proposal",
-    "link": "https://labs.ripe.net/author/pcdog/questioning-the-ipv8-proposal/",
-    "description": "The IPv8 proposal brings together routing, identity, and network management into a single design, but does it leave too many operational questions unanswered?",
-    "pubDate": "2026-05-05T05:36:41.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Inside Amazon Web Services' plan to make networking disappear",
@@ -468,14 +476,6 @@
     "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
     "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
     "pubDate": "2026-04-30T18:18:26.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Cloudflare says autocrats, wars and elections caged the internet in Q1",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/cloudflare-autocrats-wars-and-votes-caged-the-net-in-q1/5220583",
-    "description": "Iran went dark twice, AWS got droned, oh and TalkTalk broke something it refuses to talk about",
-    "pubDate": "2026-04-29T17:05:55.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
   }
