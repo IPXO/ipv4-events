@@ -1,5 +1,13 @@
 [
   {
+    "title": "BGP Router ID structuring in IPv6 native networks",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "pubDate": "2026-06-12T03:41:23.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
     "link": "https://labs.ripe.net/author/mkoch/discovery-of-ipv6-router-addresses-using-subnet-router-anycast/",
     "description": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
@@ -262,14 +270,6 @@
     "pubDate": "2026-06-03T17:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Cold start DNS",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "There is an obvious tension between resilience and speed in the design of a resolver's query strategy. DNS cold starts bring that tension into focus.",
-    "pubDate": "2026-06-02T04:03:40.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "How we reduced core unit boot time from hours to minutes",
