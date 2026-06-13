@@ -1,5 +1,21 @@
 [
   {
+    "title": "The Pending Encryption Crisis: Quantum Computing&#8217;s Threat to Today&#8217;s Data",
+    "link": "https://circleid.com/posts/the&#45;pending&#45;encryption&#45;crisis",
+    "description": "Quantum computing is advancing toward a point where today's encryption could fail, exposing years of stored data. While post-quantum defenses are emerging, experts warn that hackers are already stockpiling sensitive information for future decryption.",
+    "pubDate": "2026-06-12T18:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
+    "link": "https://developers.cloudflare.com/security/security-insights/",
+    "description": "Cloudflare Security Insights system now processes over 120 scans per second, providing frequent insights for all customers. By optimizing Kafka consumers, Postgres queries, and our API, we scaled our throughput 10x without adding hardware.",
+    "pubDate": "2026-06-12T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "BGP Router ID structuring in IPv6 native networks",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
@@ -208,14 +224,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Online Unregulated Peptide Sales Should Be Banned",
-    "link": "https://circleid.com/posts/online&#45;unregulated&#45;peptide&#45;sales&#45;should&#45;be&#45;banned",
-    "description": "Canada's online pharmacy industry is urging a ban on unregulated peptide sales, warning that products marketed for weight loss, bodybuilding and other uses pose serious health risks, evade regulatory oversight, and are increasingly sold online without prescriptions.",
-    "pubDate": "2026-06-05T11:09:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "The RIPE Chair Team Reports - Highlights from RIPE 92",
     "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-highlights-from-ripe-92/",
     "description": "From governance and policy to AI and research, RIPE 92 sparked lively discussion across the community. The RIPE Chair Team reports on the sessions, the ideas and the initiatives that stood out during the week.",
@@ -334,14 +342,6 @@
     "pubDate": "2026-05-22T12:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Announcing Claude Compliance API support with Cloudflare CASB",
-    "link": "https://www.cloudflare.com/lp/dg/product/cloud-access-security-broker/",
-    "description": "Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the Cloudflare Dashboard.",
-    "pubDate": "2026-05-21T17:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "New RFC Editor website is live",
