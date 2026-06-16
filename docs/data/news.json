@@ -1,5 +1,45 @@
 [
   {
+    "title": "What Third-Party Domain Registrations Reveal About World Cup 2026 Risks",
+    "link": "https://circleid.com/posts/what&#45;third&#45;party&#45;domain&#45;registrations&#45;reveal&#45;about&#45;world&#45;cup&#45;2026&#45;risks",
+    "description": "Third-party domain registrations tied to FIFA are surging ahead of the 2026 World Cup, revealing how major events fuel brand abuse, customer confusion, and fraud, from fake ticket sites to sophisticated scams timed to exploit peak fan interest.",
+    "pubDate": "2026-06-15T19:28:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "CENTR Warns Against Excessive Burdens in EU Cybersecurity Overhaul",
+    "link": "https://circleid.com/posts/centr&#45;warns&#45;against&#45;excessive&#45;burdens&#45;in&#45;eu&#45;cybersecurity&#45;overhaul",
+    "description": "Europe's national domain registries support the EU's Cybersecurity Act 2 but warn that supplier restrictions, overlapping compliance rules and broad supply chain definitions could undermine critical internet infrastructure and burden essential service operators.",
+    "pubDate": "2026-06-15T18:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Deep Diving into FakeWallet Crypto Stealer",
+    "link": "https://circleid.com/posts/dns&#45;deep&#45;diving&#45;into&#45;fakewallet&#45;crypto&#45;stealer",
+    "description": "A DNS-focused investigation of the FakeWallet crypto-stealer campaign uncovered links to malicious infrastructure, potential victims, and thousands of connected domains, revealing signs of pre-staged operations and suggesting the wallet-phishing scheme was broader and longer-runn…",
+    "pubDate": "2026-06-15T18:22:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
+    "link": "https://www.cloudflare.com/learning/ai/what-is-quantization/",
+    "description": "Cloudflare is deepening our investment in AI with the addition of team members from Ensemble AI, focusing on machine learning infrastructure and efficiency.",
+    "pubDate": "2026-06-15T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Don&#8217;t throw the (cryptographic) baby out with the bathwater",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Even if Shor's Algorithm is now implementable inside ten years, symmetric keying should still be trustworthy if we fix RSA with PQC methods. Don't throw the baby out with the bathwater!",
+    "pubDate": "2026-06-15T05:07:05.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "The Pending Encryption Crisis: Quantum Computing&#8217;s Threat to Today&#8217;s Data",
     "link": "https://circleid.com/posts/the&#45;pending&#45;encryption&#45;crisis",
     "description": "Quantum computing is advancing toward a point where today's encryption could fail, exposing years of stored data. While post-quantum defenses are emerging, experts warn that hackers are already stockpiling sensitive information for future decryption.",
@@ -176,22 +216,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Cybercriminals are Driving Significant Domain Name Market Demand",
-    "link": "https://circleid.com/posts/cybercriminals&#45;are&#45;driving&#45;significant&#45;domain&#45;name&#45;market&#45;demand",
-    "description": "Cybercriminals are becoming a major force in the domain-name market, driving an estimated one-fifth of new gTLD registrations in 2025 and exposing how commercial incentives, weak enforcement, and scale continue to fuel online abuse.",
-    "pubDate": "2026-06-08T08:54:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "How the AI Computing Paradigm Is Deconstructing Internet Governance",
-    "link": "https://circleid.com/posts/how&#45;the&#45;ai&#45;computing&#45;paradigm&#45;is&#45;deconstructing&#45;internet&#45;governance",
-    "description": "As AI giants build vertically integrated, compute-centric networks, they are bypassing DNS, reshaping routing, and concentrating infrastructure power, placing decades-old internet governance institutions under mounting pressure and raising the prospect of a fragmented, AI-driven …",
-    "pubDate": "2026-06-08T08:20:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Sustaining the Commons in an Age of Digital Sovereignty",
     "link": "https://labs.ripe.net/author/hisham_ibrahim/sustaining-the-commons-in-an-age-of-digital-sovereignty/",
     "description": "Digital sovereignty raises legitimate questions about dependency, resilience and control. It can strengthen the Internet when it builds capacity and meaningful choice. It becomes risky when it is pursued as control over the common layer that keeps the global Internet interoperabl…",
@@ -214,14 +238,6 @@
     "pubDate": "2026-06-05T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "UDRP Review Is a Test of the MSM",
-    "link": "https://circleid.com/posts/udrp&#45;review&#45;is&#45;a&#45;test&#45;of&#45;the&#45;msm",
-    "description": "As ICANN confronts a harsher geopolitical era, its long-delayed review of the UDRP has become a defining test of whether the multistakeholder model can still deliver legitimate, effective Internet governance and sustain confidence in its future.",
-    "pubDate": "2026-06-05T12:31:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "The RIPE Chair Team Reports - Highlights from RIPE 92",
@@ -264,14 +280,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Vale Alan Barrett — Internet pioneer, community leader, trusted voice",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Alan Barrett helped shape the Internet in Africa and beyond, combining technical leadership with a deep commitment to the global Internet community.",
-    "pubDate": "2026-06-03T23:50:58.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Enforcing the First AS in BGP AS_PATHs",
     "link": "https://x.com/spamhaus/status/2043708364941627683?s=20",
     "description": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
@@ -300,14 +308,6 @@
     "link": "https://blog.cloudflare.com/how-we-make-sense-of-too-much-data",
     "description": "Here’s how we built Town Lake, Cloudflare's unified analytics platform, alongside Skipper, an internal AI agent running on top of it.",
     "pubDate": "2026-05-28T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
-    "link": "https://x.com/ir_aref/status/2059261258566877640?s=20",
-    "description": "Cloudflare Radar data confirms early indications of a partial Internet restoration in Iran, nearly three months after the shutdown began. Traffic spikes and DNS queries have risen, but network activity is currently just 40% of pre-shutdown levels.",
-    "pubDate": "2026-05-27T17:25:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
