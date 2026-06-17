@@ -1,5 +1,45 @@
 [
   {
+    "title": "DNS query duplication",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "In the DNS, name resolution space queries are free. To what extent do we see over-querying on the part of recursive resolvers in the DNS?",
+    "pubDate": "2026-06-17T01:12:02.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Internet After Advertising: Why AI Is Forcing a New Content Economy",
+    "link": "https://circleid.com/posts/the&#45;internet&#45;after&#45;advertising&#45;why&#45;ai&#45;is&#45;forcing&#45;a&#45;new&#45;content&#45;economy",
+    "description": "As AI increasingly answers questions directly, the web's advertising-driven bargain is breaking down. Content, not distribution, is becoming scarce, forcing publishers, platforms and infrastructure providers to rethink how information is funded, licensed and sustained.",
+    "pubDate": "2026-06-16T19:24:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Cloudflare DMARC Management is now generally available",
+    "link": "https://blog.cloudflare.com/dmarc-management/",
+    "description": "Get unified visibility into your email authentication posture and reach full DMARC enforcement with deeper reporting, record analysis, and SPF audits free for every Cloudflare customer.",
+    "pubDate": "2026-06-16T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Independent Infrastructure Requires Investment",
+    "link": "https://labs.ripe.net/author/hans_petter_holen/independent-infrastructure-requires-investment/",
+    "description": "An analysis of our infrastructure has given us a clearer picture of what is needed to move the RIPE NCC towards a more independent and self-hosted approach. We are now planning a major rebuild to create a more resilient and secure infrastructure that can support the services our …",
+    "pubDate": "2026-06-16T11:27:21.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
+    "link": "https://labs.ripe.net/author/stephen_suess_1/latencymon-rebuilt-safer-faster-and-more-connected/",
+    "description": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
+    "pubDate": "2026-06-16T08:56:28.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "What Third-Party Domain Registrations Reveal About World Cup 2026 Risks",
     "link": "https://circleid.com/posts/what&#45;third&#45;party&#45;domain&#45;registrations&#45;reveal&#45;about&#45;world&#45;cup&#45;2026&#45;risks",
     "description": "Third-party domain registrations tied to FIFA are surging ahead of the 2026 World Cup, revealing how major events fuel brand abuse, customer confusion, and fraud, from fake ticket sites to sophisticated scams timed to exploit peak fan interest.",
@@ -144,14 +184,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "DOTZON Study: Digital City Brands 2026",
-    "link": "https://circleid.com/posts/dotzon&#45;study&#45;digital&#45;city&#45;brands&#45;2026",
-    "description": "DOTZON's Digital City Brands 2026 study crowns .tokyo as the first Asian cityTLD to top the rankings, ending .berlin's four-year reign, while highlighting the growing role of city domains in digital identity, commerce and development.",
-    "pubDate": "2026-06-10T14:37:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Route public traffic to private applications with Cloudflare",
     "link": "https://developers.cloudflare.com/tunnel/",
     "description": "Application Services for Private Origins is available now in closed beta. Route public hostnames to private IP origins over your existing IPsec, GRE, CNI, or Cloudflare Mesh paths. No public IPs or extra connector software required.",
@@ -248,14 +280,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Non-Human Identity for workloads: Securing the next phase of automation",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase …",
-    "pubDate": "2026-06-04T23:49:54.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "VoidZero is joining Cloudflare",
     "link": "https://vite.dev/",
     "description": "VoidZero, the team behind Vite, Vitest, Rolldown, Oxc, and Vite+, is joining Cloudflare. Vite stays open source, vendor-agnostic, and built for everyone.",
@@ -302,14 +326,6 @@
     "pubDate": "2026-05-28T13:15:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "How we built Cloudflare's data platform and an AI agent on top of it",
-    "link": "https://blog.cloudflare.com/how-we-make-sense-of-too-much-data",
-    "description": "Here’s how we built Town Lake, Cloudflare's unified analytics platform, alongside Skipper, an internal AI agent running on top of it.",
-    "pubDate": "2026-05-28T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Your Vote Shapes the Internet: Why General Membership Matters in 2026",
@@ -384,28 +400,12 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Legacy Out of Contract",
-    "link": "https://labs.ripe.net/author/qasim-lone/legacy-out-of-contract/",
-    "description": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming…",
-    "pubDate": "2026-05-15T11:39:22.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "The Community That Changed How I See the Internet",
     "link": "https://www.arin.net/blog/2026/05/14/fellowship-experience-rodney-payne/",
     "description": "Attending his first ARIN meeting marked a turning point in how this ARIN 57 Fellow understands the Internet — not just as technology, but as a living, collaborative ecosystem. Read about his inspiring experience.",
     "pubDate": "2026-05-14T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Operational Review of Public ENUM Under e164.arpa",
-    "link": "https://labs.ripe.net/author/hisham_ibrahim/operational-review-of-public-enum-under-e164arpa/",
-    "description": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
-    "pubDate": "2026-05-12T10:02:35.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "A new suite of modern tools coming for editing and publishing RFCs",
