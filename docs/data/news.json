@@ -1,5 +1,29 @@
 [
   {
+    "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
+    "link": "https://blog.cloudflare.com/project-think/",
+    "description": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard.",
+    "pubDate": "2026-06-17T19:35:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing the Cloudflare One stack: agent-powered deployment",
+    "link": "https://github.com/cloudflare/skills",
+    "description": "The Cloudflare One stack is a library of agent skills that gives any AI agent the knowledge it needs to plan, deploy, and manage a Zero Trust environment — no migration calls required.",
+    "pubDate": "2026-06-17T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "GM May 2026: Why Did People Vote the Way They Did?",
+    "link": "https://labs.ripe.net/author/ilke-ilhan/gm-may-2026-why-did-people-vote-the-way-they-did/",
+    "description": "The May 2026 RIPE NCC General Meeting saw unusually high participation and one of the closest votes in recent years. By examining turnout data, voting patterns and member demographics, we ask what might have influenced the outcome and what all this tells us about our members.",
+    "pubDate": "2026-06-17T11:27:08.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "DNS query duplication",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "In the DNS, name resolution space queries are free. To what extent do we see over-querying on the part of recursive resolvers in the DNS?",
@@ -304,22 +328,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Enforcing the First AS in BGP AS_PATHs",
-    "link": "https://x.com/spamhaus/status/2043708364941627683?s=20",
-    "description": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
-    "pubDate": "2026-06-03T17:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "How we reduced core unit boot time from hours to minutes",
-    "link": "https://en.wikipedia.org/wiki/UEFI",
-    "description": "We investigated why firmware updates were causing our core servers to take four hours to reboot. By diving into UEFI data structures and iPXE automation, we eliminated unnecessary timeouts and cut boot times back down to minutes.",
-    "pubDate": "2026-06-01T16:53:39.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "We Want to Hear from You: Take ARIN's 2026 Customer Satisfaction Survey",
     "link": "https://www.arin.net/blog/2026/05/28/customer-satisfaction-survey/",
     "description": "Sometime before 19 June, we hope you’ll set aside some time to share your feedback with us as we conduct our 2026 Customer Satisfaction Survey to gain a better understanding of our performance in all areas of the organization.",
@@ -382,14 +390,6 @@
     "pubDate": "2026-05-19T14:20:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "RIPE 92 Daily Meeting Blog",
-    "link": "https://labs.ripe.net/author/ripe-ncc-commsies/ripe-92-daily-meeting-blog/",
-    "description": "Sixty-one RIPE Meetings on, RIPE 92 brings us back to Edinburgh - city of festivals, gothic skylines, and uphill walking. As always, there's the slides, there's the videos, but to get a real feel for what's happening through the week, tune into the daily meeting blog.",
-    "pubDate": "2026-05-19T06:16:01.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Report from the 2026 RPC Retreat",
