@@ -1,5 +1,37 @@
 [
   {
+    "title": "APNIC Secretariat Q1 2026 update",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "APNIC’s first quarterly update for 2026 provides a snapshot of the organization’s activities and performance following the May EC meeting.",
+    "pubDate": "2026-06-19T02:55:20.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Rethinking vulnerability management in the age of AI and CI/CD",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: AI-driven development is accelerating how software changes and how vulnerabilities are fixed. Traditional models like CVE and CVSS are struggling to keep pace.",
+    "pubDate": "2026-06-18T22:55:52.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Build your own vulnerability harness",
+    "link": "https://blog.cloudflare.com/cyber-frontier-models/",
+    "description": "We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.",
+    "pubDate": "2026-06-18T17:59:40.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Celebrating 12 years of Project Galileo",
+    "link": "https://www.cloudflare.com/galileo/",
+    "description": "To mark the 12th anniversary of Project Galileo, Cloudflare has released its first comprehensive report analyzing cyberattacks against civil society.",
+    "pubDate": "2026-06-18T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
     "link": "https://blog.cloudflare.com/project-think/",
     "description": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard.",
@@ -256,14 +288,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Provide your input on increasingdiversity in APNIC community leadership",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The APNIC Executive Council (EC) is seeking community input to better understand barriers affecting diversity in community leadership and EC candidacy. These insights will inform future initiatives to support a broader leadership pipeline.",
-    "pubDate": "2026-06-09T02:13:46.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Turning Cloudflare’s threat indicators into real-time WAF rules",
     "link": "https://blog.cloudflare.com/threat-events-platform/",
     "description": "Cloudflare customers can now use Cloudforce One threat intelligence directly within the WAF to block high-risk traffic. By using new cf.intel fields, security teams can automate protection against specific threat actors and targeted industries in real time.",
@@ -280,36 +304,12 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "From workshop to deployment: How Bangladesh ccTLD implemented DNSSEC",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Guest Post: How Bangladesh’s .BD ccTLD moved from no DNSSEC coverage to a fully validated chain of trust across its most critical SLDs, overcoming tooling gaps, operational failures, and infrastructure challenges along the way.",
-    "pubDate": "2026-06-08T03:55:50.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Your AI bill is out of control. Cloudflare can fix it now.",
-    "link": "https://developers.cloudflare.com/ai-gateway/",
-    "description": "AI Gateway now features real-time spend limits to prevent runaway token bills across multiple AI providers. By integrating with Cloudflare Access, companies can use identity-driven budgets and policies.",
-    "pubDate": "2026-06-05T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "The RIPE Chair Team Reports - Highlights from RIPE 92",
     "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-highlights-from-ripe-92/",
     "description": "From governance and policy to AI and research, RIPE 92 sparked lively discussion across the community. The RIPE Chair Team reports on the sessions, the ideas and the initiatives that stood out during the week.",
     "pubDate": "2026-06-05T08:10:59.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "VoidZero is joining Cloudflare",
-    "link": "https://vite.dev/",
-    "description": "VoidZero, the team behind Vite, Vitest, Rolldown, Oxc, and Vite+, is joining Cloudflare. Vite stays open source, vendor-agnostic, and built for everyone.",
-    "pubDate": "2026-06-04T12:59:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Peering Capacity at Public Internet Exchanges: What the Data Reveals",
