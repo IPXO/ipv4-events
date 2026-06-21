@@ -1,5 +1,13 @@
 [
   {
+    "title": "The UN Needs Its Identity in the Digital Space - a Case for .UN Top-Level Domain",
+    "link": "https://circleid.com/posts/the&#45;un&#45;needs&#45;its&#45;identity&#45;in&#45;the&#45;digital&#45;space&#45;a&#45;case&#45;for&#45;un&#45;top&#45;level&#45;domain",
+    "description": "As AI systems increasingly mediate trust online, the United Nations faces a closing opportunity to secure a sovereign .un domain, creating a machine-readable digital identity that strengthens authenticity, preserves institutional knowledge, and counters impersonation.",
+    "pubDate": "2026-06-20T20:16:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "A DNS Investigation of Shadow-Earth-053",
     "link": "https://circleid.com/posts/a&#45;dns&#45;investigation&#45;of&#45;shadow&#45;earth&#45;053",
     "description": "A DNS investigation of Shadow-Earth-053 uncovered hundreds of victim-linked connections and a sprawling infrastructure tied to China-aligned cyber-espionage. Analysis of known indicators exposed additional domains, IP addresses, and registration patterns that broaden the campaign…",
@@ -232,14 +240,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "IPv4 Pricing Through 2026 - Stability as Seller Leverage Begins to Return",
-    "link": "https://circleid.com/posts/ipv4&#45;pricing&#45;through&#45;2026&#45;stability&#45;as&#45;seller&#45;leverage&#45;begins&#45;to&#45;return",
-    "description": "After a sharp correction, the IPv4 market is showing signs of stabilization. Rising buyer activity, tightening supply expectations, and growing AI infrastructure demand are expected to support gradual price recovery through 2026, improving conditions for sellers.",
-    "pubDate": "2026-06-10T18:19:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Ready to Run? Your Guide to ARIN Elections Nominations",
     "link": "https://www.arin.net/blog/2026/06/10/nominations-guide/",
     "description": "Who can make nominations? What should a nominee expect during the election timeline? How are nominees classified, and what qualifications matter most? Whether you’re considering running or simply want to understand ARIN Elections, this overview covers the essentials.",
@@ -440,22 +440,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
-    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
-    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
-    "pubDate": "2026-05-05T11:34:23.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Inside Amazon Web Services' plan to make networking disappear",
-    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
-    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
-    "pubDate": "2026-05-04T15:39:08.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "Apply for a 2026 ARIN Community Grant",
     "link": "https://www.arin.net/blog/2026/05/04/grant-applications-open/",
     "description": "The call for applications to the 2026 ARIN Community Grant Program is out! Learn how to apply for one of our financial grants in support of operational and research projects that improve the overall Internet industry and user environment.",
@@ -464,19 +448,35 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
-    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
-    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
-    "pubDate": "2026-05-04T07:00:11.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
+    "title": "IETF 125 post-meeting survey",
+    "link": "http://www.ietf.org/blog/ietf125-survey/",
+    "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "pubDate": "2026-04-29T16:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
   },
   {
-    "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
-    "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
-    "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
-    "pubDate": "2026-04-30T18:18:26.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
+    "title": "ARIN 57 Day 3 Recap",
+    "link": "https://www.arin.net/blog/2026/04/22/arin-57-day-3-recap/",
+    "description": "Today marked the third and final day of our ARIN 57 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
+    "pubDate": "2026-04-22T16:30:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "IETF Secretariat continues under new approach",
+    "link": "http://www.ietf.org/blog/secretariat-continuation/",
+    "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
+    "pubDate": "2026-03-31T18:57:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Suggested IETF 125 Sessions for Getting Familiar with New Topics",
+    "link": "http://www.ietf.org/blog/ietf125-new-topics/",
+    "description": "These IETF 125 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
+    "pubDate": "2026-03-02T20:40:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
   }
 ]
