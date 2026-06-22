@@ -1,5 +1,13 @@
 [
   {
+    "title": "Your elected leaders: Terry Sweetser, Routing Security SIG Chair",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The Internet is built by communities, not just networks. As Routing Security SIG Chair, Terry is focused on strengthening that effort — from advancing RPKI adoption to supporting the next generation of operators.",
+    "pubDate": "2026-06-21T22:41:26.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "The UN Needs Its Identity in the Digital Space - a Case for .UN Top-Level Domain",
     "link": "https://circleid.com/posts/the&#45;un&#45;needs&#45;its&#45;identity&#45;in&#45;the&#45;digital&#45;space&#45;a&#45;case&#45;for&#45;un&#45;top&#45;level&#45;domain",
     "description": "As AI systems increasingly mediate trust online, the United Nations faces a closing opportunity to secure a sovereign .un domain, creating a machine-readable digital identity that strengthens authenticity, preserves institutional knowledge, and counters impersonation.",
@@ -276,14 +284,6 @@
     "link": "https://blog.apnic.net/category/community/",
     "description": "You have until 17:30 (UTC +10) on 9 August 2026 to submit a nomination for the 2026 NRO NC election.",
     "pubDate": "2026-06-10T04:07:25.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Unveiling the hidden complexity of authoritative DNS resilience",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ abili…",
-    "pubDate": "2026-06-09T22:59:15.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
