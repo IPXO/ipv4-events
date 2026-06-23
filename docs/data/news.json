@@ -1,5 +1,53 @@
 [
   {
+    "title": "Mobile Internet prices in PNG: Stability amid infrastructure developments",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Guest Post: Mobile Internet prices in PNG remained largely stable in 2025, with some unpredictable fluctuations. As new undersea cables and satellite services emerge, the market may be entering a new phase of competition and change.",
+    "pubDate": "2026-06-23T02:08:27.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "APNIC and APNIC Foundation sign MoU to maximize sponsorship support for the Asia Pacific Internet community",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "APNIC and the APNIC Foundation have formalized a sponsorship partnership to improve coordination and strengthen support for the Asia Pacific Internet community.",
+    "pubDate": "2026-06-22T23:30:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "How we found a bug in the hyper HTTP library",
+    "link": "https://developers.cloudflare.com/images/",
+    "description": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions.",
+    "pubDate": "2026-06-22T18:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The Internet, Beyond a Right: A Critical Infrastructure",
+    "link": "https://circleid.com/posts/the&#45;internet&#45;beyond&#45;a&#45;right&#45;a&#45;critical&#45;infrastructure",
+    "description": "As governments, economies and essential services become ever more dependent on connectivity, the internet can no longer be viewed solely as a right. It must be treated as critical infrastructure, protected, regulated and made resilient against disruption.",
+    "pubDate": "2026-06-22T16:53:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "When AI Writes the Scam: How Artificial Intelligence Is Making DNS Abuse Harder to Detect",
+    "link": "https://circleid.com/posts/when&#45;ai&#45;writes&#45;the&#45;scam&#45;how&#45;artificial&#45;intelligence&#45;is&#45;making&#45;dns&#45;abuse&#45;harder&#45;to&#45;detect",
+    "description": "Artificial intelligence is transforming phishing and DNS abuse, erasing the linguistic clues that once exposed scams. As attacks become personalised, automated and multilingual, governance frameworks are struggling to keep pace with a rapidly expanding threat surface.",
+    "pubDate": "2026-06-22T15:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How Do We Manage Vulnerabilities in the Age of AI?",
+    "link": "https://labs.ripe.net/author/kathleen_moriarty/how-do-we-manage-vulnerabilities-in-the-age-of-ai/",
+    "description": "AI-assisted development is changing more than how software is written. It might also force us to reconsider the processes we use to identify, track, and manage vulnerabilities.",
+    "pubDate": "2026-06-22T10:36:38.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Your elected leaders: Terry Sweetser, Routing Security SIG Chair",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The Internet is built by communities, not just networks. As Routing Security SIG Chair, Terry is focused on strengthening that effort — from advancing RPKI adoption to supporting the next generation of operators.",
@@ -224,30 +272,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "[Podcast] The Erik protocol: Improving RPKI data fetch",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Job Snijders discusses the new 'Erik' protocol for faster RPKI repository synchronization.",
-    "pubDate": "2026-06-10T20:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "IPv4 Market Firms as Demand Holds Strong and Supply Tightens",
-    "link": "https://circleid.com/posts/ipv4&#45;market&#45;firms&#45;as&#45;demand&#45;holds&#45;strong&#45;and&#45;supply&#45;tightens",
-    "description": "The IPv4 market is showing renewed firmness as demand remains strong, large-block prices edge higher, and supply tightens in key segments. Recent transaction data suggests stabilization is taking hold, with availability becoming an increasingly important market driver.",
-    "pubDate": "2026-06-10T18:45:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "DNS Deep Dive: Pushpaganda Network IoCs",
-    "link": "https://circleid.com/posts/dns&#45;deep&#45;dive&#45;pushpaganda&#45;network&#45;iocs",
-    "description": "A DNS investigation into Pushpaganda, an AI-powered scam network that infiltrated Google Discovery feeds, uncovered more than 1,000 connected domains, 162 linked IP addresses, and evidence that several infrastructure assets were registered with malicious intent.",
-    "pubDate": "2026-06-10T18:43:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Ready to Run? Your Guide to ARIN Elections Nominations",
     "link": "https://www.arin.net/blog/2026/06/10/nominations-guide/",
     "description": "Who can make nominations? What should a nominee expect during the election timeline? How are nominees classified, and what qualifications matter most? Whether you’re considering running or simply want to understand ARIN Elections, this overview covers the essentials.",
@@ -278,22 +302,6 @@
     "pubDate": "2026-06-10T09:51:00.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Nominations now open for NRO NC Election 2026",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "You have until 17:30 (UTC +10) on 9 August 2026 to submit a nomination for the 2026 NRO NC election.",
-    "pubDate": "2026-06-10T04:07:25.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
-    "link": "https://blog.cloudflare.com/cyber-frontier-models/",
-    "description": "In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's cus…",
-    "pubDate": "2026-06-09T06:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Sustaining the Commons in an Age of Digital Sovereignty",
@@ -342,14 +350,6 @@
     "pubDate": "2026-05-27T14:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Non-Human Identity for Workloads and AI Agents",
-    "link": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents/",
-    "description": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
-    "pubDate": "2026-05-26T07:52:01.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "IETF Administration LLC 2025 Annual Financial Audit",
@@ -440,6 +440,22 @@
     "sourceIcon": "🌎"
   },
   {
+    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
+    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
+    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
+    "pubDate": "2026-05-05T11:34:23.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Inside Amazon Web Services' plan to make networking disappear",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
+    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
+    "pubDate": "2026-05-04T15:39:08.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
     "title": "Apply for a 2026 ARIN Community Grant",
     "link": "https://www.arin.net/blog/2026/05/04/grant-applications-open/",
     "description": "The call for applications to the 2026 ARIN Community Grant Program is out! Learn how to apply for one of our financial grants in support of operational and research projects that improve the overall Internet industry and user environment.",
@@ -448,35 +464,19 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "IETF 125 post-meeting survey",
-    "link": "http://www.ietf.org/blog/ietf125-survey/",
-    "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
-    "pubDate": "2026-04-29T16:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
+    "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
+    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
+    "pubDate": "2026-05-04T07:00:11.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   },
   {
-    "title": "ARIN 57 Day 3 Recap",
-    "link": "https://www.arin.net/blog/2026/04/22/arin-57-day-3-recap/",
-    "description": "Today marked the third and final day of our ARIN 57 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
-    "pubDate": "2026-04-22T16:30:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "IETF Secretariat continues under new approach",
-    "link": "http://www.ietf.org/blog/secretariat-continuation/",
-    "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
-    "pubDate": "2026-03-31T18:57:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "Suggested IETF 125 Sessions for Getting Familiar with New Topics",
-    "link": "http://www.ietf.org/blog/ietf125-new-topics/",
-    "description": "These IETF 125 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
-    "pubDate": "2026-03-02T20:40:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
+    "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
+    "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
+    "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
+    "pubDate": "2026-04-30T18:18:26.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   }
 ]
