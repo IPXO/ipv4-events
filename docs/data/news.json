@@ -1,11 +1,59 @@
 [
   {
+    "title": "From process to outcomes: Lessons from policy at APNIC 61",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Guest Post: The role of community input, operational realities, and clear problem definition in shaping Internet number resource policy.",
+    "pubDate": "2026-06-25T05:25:14.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "What Makes NOGs Tick",
+    "link": "https://labs.ripe.net/author/alastair_strachan/what-makes-nogs-tick/",
+    "description": "NOGs take many different forms across the RIPE region, but where does their real value lie? Drawing on the results of two 2026 surveys, we explore what NOGs mean to the communities that build them, the barriers they face, and what it takes to keep these groups going.",
+    "pubDate": "2026-06-25T05:17:56.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "[Podcast] What &#8216;name-based routing&#8217; really means",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "pubDate": "2026-06-24T20:30:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Bridging Policy and Operations: An ARIN 57 Fellowship Experience",
+    "link": "https://www.arin.net/blog/2026/06/24/fellowship-experience-navin-suvarna/",
+    "description": "Read how the ARIN Fellowship Program strengthened this new community member's understanding of Internet governance and policy development and provided a meaningful forum in which to contribute ideas around routing security, automation, AI-assisted validation, and modernized polic…",
+    "pubDate": "2026-06-24T18:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "DNS Deep Dive: GHOST STADIUM Takes Advantage of FIFA 2026",
+    "link": "https://circleid.com/posts/dns&#45;deep&#45;dive&#45;ghost&#45;stadium&#45;takes&#45;advantage&#45;of&#45;fifa&#45;2026",
+    "description": "A DNS investigation of the GHOST STADIUM phishing operation uncovered typosquatting clusters, malicious infrastructure, victim-linked IP activity, and thousands of connected domains, revealing the scale of a FIFA 2026 ticket fraud ecosystem.",
+    "pubDate": "2026-06-24T16:09:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "IPv6-Only vs IPv6-Mostly: Appropriate Use Cases",
     "link": "https://labs.ripe.net/author/jordipaletm/ipv6-only-vs-ipv6-mostly-appropriate-use-cases/",
     "description": "Not all IPv6 deployment models belong in the same flock. IPv6-Only and IPv6-Mostly are often discussed as if they were interchangeable, but each was designed for different environments. This article explores why matching the right approach to the right use case matters.",
     "pubDate": "2026-06-24T06:13:20.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
+  },
+  {
+    "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
+    "link": "https://developers.cloudflare.com/changelog/post/2026-06-03-public-oauth-clients/",
+    "description": "Self-Managed OAuth is now available to all developers on Cloudflare. Here's how we executed a zero-downtime migration of our core OAuth engine to make it happen.",
+    "pubDate": "2026-06-24T06:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
   },
   {
     "title": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
@@ -232,14 +280,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "CENTR Warns Against Excessive Burdens in EU Cybersecurity Overhaul",
-    "link": "https://circleid.com/posts/centr&#45;warns&#45;against&#45;excessive&#45;burdens&#45;in&#45;eu&#45;cybersecurity&#45;overhaul",
-    "description": "Europe's national domain registries support the EU's Cybersecurity Act 2 but warn that supplier restrictions, overlapping compliance rules and broad supply chain definitions could undermine critical internet infrastructure and burden essential service operators.",
-    "pubDate": "2026-06-15T18:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "link": "https://www.cloudflare.com/learning/ai/what-is-quantization/",
     "description": "Cloudflare is deepening our investment in AI with the addition of team members from Ensemble AI, focusing on machine learning infrastructure and efficiency.",
@@ -256,36 +296,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
-    "link": "https://developers.cloudflare.com/security/security-insights/",
-    "description": "Cloudflare Security Insights system now processes over 120 scans per second, providing frequent insights for all customers. By optimizing Kafka consumers, Postgres queries, and our API, we scaled our throughput 10x without adding hardware.",
-    "pubDate": "2026-06-12T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "BGP Router ID structuring in IPv6 native networks",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
-    "pubDate": "2026-06-12T03:41:23.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
     "link": "https://labs.ripe.net/author/mkoch/discovery-of-ipv6-router-addresses-using-subnet-router-anycast/",
     "description": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
     "pubDate": "2026-06-11T05:33:06.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
-    "pubDate": "2026-06-11T04:29:55.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Ready to Run? Your Guide to ARIN Elections Nominations",
@@ -316,14 +332,6 @@
     "link": "https://labs.ripe.net/author/hisham_ibrahim/sustaining-the-commons-in-an-age-of-digital-sovereignty/",
     "description": "Digital sovereignty raises legitimate questions about dependency, resilience and control. It can strengthen the Internet when it builds capacity and meaningful choice. It becomes risky when it is pursued as control over the common layer that keeps the global Internet interoperabl…",
     "pubDate": "2026-06-08T08:19:52.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "The RIPE Chair Team Reports - Highlights from RIPE 92",
-    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-highlights-from-ripe-92/",
-    "description": "From governance and policy to AI and research, RIPE 92 sparked lively discussion across the community. The RIPE Chair Team reports on the sessions, the ideas and the initiatives that stood out during the week.",
-    "pubDate": "2026-06-05T08:10:59.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
@@ -468,14 +476,6 @@
     "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
     "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
     "pubDate": "2026-05-04T07:00:11.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
-    "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
-    "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
-    "pubDate": "2026-04-30T18:18:26.000Z",
     "source": "The Register",
     "sourceIcon": "📰"
   }
