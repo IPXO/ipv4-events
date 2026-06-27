@@ -1,5 +1,13 @@
 [
   {
+    "title": "Spain to Require Four Hours of Mobile Service During Power Blackouts",
+    "link": "https://circleid.com/posts/spain&#45;to&#45;require&#45;four&#45;hours&#45;of&#45;mobile&#45;service&#45;during&#45;power&#45;blackouts",
+    "description": "Spain will require telecom operators to keep mobile networks running for up to four hours during power outages, introducing phased resilience standards, stronger emergency communications safeguards and stricter backup requirements for critical digital infrastructure.",
+    "pubDate": "2026-06-26T20:08:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Malaysia Proposes Legislative Change to Address Management",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Comments close on the proposed amendments on 10 July 2026.",
@@ -288,14 +296,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "What Third-Party Domain Registrations Reveal About World Cup 2026 Risks",
-    "link": "https://circleid.com/posts/what&#45;third&#45;party&#45;domain&#45;registrations&#45;reveal&#45;about&#45;world&#45;cup&#45;2026&#45;risks",
-    "description": "Third-party domain registrations tied to FIFA are surging ahead of the 2026 World Cup, revealing how major events fuel brand abuse, customer confusion, and fraud, from fake ticket sites to sophisticated scams timed to exploit peak fan interest.",
-    "pubDate": "2026-06-15T19:28:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
     "link": "https://labs.ripe.net/author/mkoch/discovery-of-ipv6-router-addresses-using-subnet-router-anycast/",
     "description": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
@@ -448,22 +448,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
-    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
-    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
-    "pubDate": "2026-05-05T11:34:23.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Inside Amazon Web Services' plan to make networking disappear",
-    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
-    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
-    "pubDate": "2026-05-04T15:39:08.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "Apply for a 2026 ARIN Community Grant",
     "link": "https://www.arin.net/blog/2026/05/04/grant-applications-open/",
     "description": "The call for applications to the 2026 ARIN Community Grant Program is out! Learn how to apply for one of our financial grants in support of operational and research projects that improve the overall Internet industry and user environment.",
@@ -472,11 +456,27 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
-    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
-    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
-    "pubDate": "2026-05-04T07:00:11.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
+    "title": "IETF 125 post-meeting survey",
+    "link": "http://www.ietf.org/blog/ietf125-survey/",
+    "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "pubDate": "2026-04-29T16:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "IETF Secretariat continues under new approach",
+    "link": "http://www.ietf.org/blog/secretariat-continuation/",
+    "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
+    "pubDate": "2026-03-31T18:57:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Suggested IETF 125 Sessions for Getting Familiar with New Topics",
+    "link": "http://www.ietf.org/blog/ietf125-new-topics/",
+    "description": "These IETF 125 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
+    "pubDate": "2026-03-02T20:40:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
   }
 ]
