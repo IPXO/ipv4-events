@@ -40,14 +40,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "What Makes NOGs Tick",
-    "link": "https://labs.ripe.net/author/alastair_strachan/what-makes-nogs-tick/",
-    "description": "NOGs take many different forms across the RIPE region, but where does their real value lie? Drawing on the results of two 2026 surveys, we explore what NOGs mean to the communities that build them, the barriers they face, and what it takes to keep these groups going.",
-    "pubDate": "2026-06-25T05:17:56.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "[Podcast] What &#8216;name-based routing&#8217; really means",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
@@ -70,14 +62,6 @@
     "pubDate": "2026-06-24T16:09:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
-  },
-  {
-    "title": "IPv6-Only vs IPv6-Mostly: Appropriate Use Cases",
-    "link": "https://labs.ripe.net/author/jordipaletm/ipv6-only-vs-ipv6-mostly-appropriate-use-cases/",
-    "description": "Not all IPv6 deployment models belong in the same flock. IPv6-Only and IPv6-Mostly are often discussed as if they were interchangeable, but each was designed for different environments. This article explores why matching the right approach to the right use case matters.",
-    "pubDate": "2026-06-24T06:13:20.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
@@ -158,14 +142,6 @@
     "pubDate": "2026-06-22T15:51:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
-  },
-  {
-    "title": "How Do We Manage Vulnerabilities in the Age of AI?",
-    "link": "https://labs.ripe.net/author/kathleen_moriarty/how-do-we-manage-vulnerabilities-in-the-age-of-ai/",
-    "description": "AI-assisted development is changing more than how software is written. It might also force us to reconsider the processes we use to identify, track, and manage vulnerabilities.",
-    "pubDate": "2026-06-22T10:36:38.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Your elected leaders: Terry Sweetser, Routing Security SIG Chair",
@@ -256,14 +232,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "GM May 2026: Why Did People Vote the Way They Did?",
-    "link": "https://labs.ripe.net/author/ilke-ilhan/gm-may-2026-why-did-people-vote-the-way-they-did/",
-    "description": "The May 2026 RIPE NCC General Meeting saw unusually high participation and one of the closest votes in recent years. By examining turnout data, voting patterns and member demographics, we ask what might have influenced the outcome and what all this tells us about our members.",
-    "pubDate": "2026-06-17T11:27:08.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "The Internet After Advertising: Why AI Is Forcing a New Content Economy",
     "link": "https://circleid.com/posts/the&#45;internet&#45;after&#45;advertising&#45;why&#45;ai&#45;is&#45;forcing&#45;a&#45;new&#45;content&#45;economy",
     "description": "As AI increasingly answers questions directly, the web's advertising-driven bargain is breaking down. Content, not distribution, is becoming scarce, forcing publishers, platforms and infrastructure providers to rethink how information is funded, licensed and sustained.",
@@ -280,60 +248,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Independent Infrastructure Requires Investment",
-    "link": "https://labs.ripe.net/author/hans_petter_holen/independent-infrastructure-requires-investment/",
-    "description": "An analysis of our infrastructure has given us a clearer picture of what is needed to move the RIPE NCC towards a more independent and self-hosted approach. We are now planning a major rebuild to create a more resilient and secure infrastructure that can support the services our …",
-    "pubDate": "2026-06-16T11:27:21.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
-    "link": "https://labs.ripe.net/author/stephen_suess_1/latencymon-rebuilt-safer-faster-and-more-connected/",
-    "description": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
-    "pubDate": "2026-06-16T08:56:28.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
-    "link": "https://labs.ripe.net/author/mkoch/discovery-of-ipv6-router-addresses-using-subnet-router-anycast/",
-    "description": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
-    "pubDate": "2026-06-11T05:33:06.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Ready to Run? Your Guide to ARIN Elections Nominations",
     "link": "https://www.arin.net/blog/2026/06/10/nominations-guide/",
     "description": "Who can make nominations? What should a nominee expect during the election timeline? How are nominees classified, and what qualifications matter most? Whether you’re considering running or simply want to understand ARIN Elections, this overview covers the essentials.",
     "pubDate": "2026-06-10T17:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "What We Learned from a Multi-Service Vulnerability Disclosure",
-    "link": "https://labs.ripe.net/author/eleonora-petridou/what-we-learned-from-a-multi-service-vulnerability-disclosure/",
-    "description": "A series of vulnerabilities reported through the RIPE NCC bug bounty programme revealed weaknesses across multiple services and highlighted the risks posed by vulnerability chains. We look at how the issues were addressed, and what the disclosure taught us about handling complex …",
-    "pubDate": "2026-06-10T09:51:42.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
-    "link": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design/",
-    "description": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
-    "pubDate": "2026-06-10T09:51:00.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Sustaining the Commons in an Age of Digital Sovereignty",
-    "link": "https://labs.ripe.net/author/hisham_ibrahim/sustaining-the-commons-in-an-age-of-digital-sovereignty/",
-    "description": "Digital sovereignty raises legitimate questions about dependency, resilience and control. It can strengthen the Internet when it builds capacity and meaningful choice. It becomes risky when it is pursued as control over the common layer that keeps the global Internet interoperabl…",
-    "pubDate": "2026-06-08T08:19:52.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "IETF LLC Board Retreat 2026",
@@ -448,6 +368,22 @@
     "sourceIcon": "🌎"
   },
   {
+    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
+    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
+    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
+    "pubDate": "2026-05-05T11:34:23.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Inside Amazon Web Services' plan to make networking disappear",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
+    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
+    "pubDate": "2026-05-04T15:39:08.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
     "title": "Apply for a 2026 ARIN Community Grant",
     "link": "https://www.arin.net/blog/2026/05/04/grant-applications-open/",
     "description": "The call for applications to the 2026 ARIN Community Grant Program is out! Learn how to apply for one of our financial grants in support of operational and research projects that improve the overall Internet industry and user environment.",
@@ -456,12 +392,76 @@
     "sourceIcon": "🌎"
   },
   {
+    "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
+    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
+    "pubDate": "2026-05-04T07:00:11.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
+    "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
+    "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
+    "pubDate": "2026-04-30T18:18:26.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Cloudflare says autocrats, wars and elections caged the internet in Q1",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/cloudflare-autocrats-wars-and-votes-caged-the-net-in-q1/5220583",
+    "description": "Iran went dark twice, AWS got droned, oh and TalkTalk broke something it refuses to talk about",
+    "pubDate": "2026-04-29T17:05:55.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
     "title": "IETF 125 post-meeting survey",
     "link": "http://www.ietf.org/blog/ietf125-survey/",
     "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
     "pubDate": "2026-04-29T16:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
+  },
+  {
+    "title": "Wind Telecom Dominican Republic and ZTE join forces to accelerate smart home innovation",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/wind-telecom-and-zte-partner-for-smart-home-innovation/5222949",
+    "description": "Elevating residential connectivity with AI-driven network optimization and secure cloud-based home monitoring solutions",
+    "pubDate": "2026-04-29T10:34:12.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "ZTE and XLSMART officially launch Innovation Center in Jakarta, accelerating 5G-advanced and AI readiness for Indonesia",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/zte-xlsmart-launch-jakarta-ai-5g-a-innovation-center/5225063",
+    "description": "Driving cross-sector digital transformation through collaborative 5G-A research and AI-powered network solutions",
+    "pubDate": "2026-04-29T10:10:29.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "GoDaddy customer claims registrar transferred 27-year-old domain without any security checks",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/non-profits-godaddy-nightmare-and-the-it-chaos-that-ensued/5226239",
+    "description": "32 phone calls, 17 email chains, a 5-day ordeal, and no help during the daddy of all stuffups, claim those affected",
+    "pubDate": "2026-04-29T10:00:09.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "When robots join the race: 5G-A powers a new kind of marathon",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/5g-a-powers-a-new-kind-of-marathon/5226158",
+    "description": "Human and humanoid runners share the track as next-gen connectivity underpins real-time AI performance",
+    "pubDate": "2026-04-29T06:08:38.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Two men charged over series of arson attacks on 5G masts",
+    "link": "https://www.theregister.com/on-prem/2026/04/28/two-men-charged-over-series-of-arson-attacks-on-5g-masts/5221305",
+    "description": "Pair accused of creating literal flame war as bonkers conspiracy theories grow",
+    "pubDate": "2026-04-28T11:14:28.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   },
   {
     "title": "IETF Secretariat continues under new approach",
