@@ -1,5 +1,53 @@
 [
   {
+    "title": "Local Hubs at RIPE 92: Bringing the Community Together, Wherever We Are",
+    "link": "https://labs.ripe.net/author/gergana_petrova/local-hubs-at-ripe-92-bringing-the-community-together-wherever-we-are/",
+    "description": "Three local hubs at RIPE 92 brought people together to participate in the meeting remotely. We look at what organisers in Bulgaria, Türkiye and Poland learned about bringing the RIPE Meeting experience closer to home.",
+    "pubDate": "2026-06-30T07:03:09.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Strengthening APNIC’s security foundations",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "APNIC is strengthening the security of its core systems through infrastructure modernization, enhanced application testing, and improved data practices.",
+    "pubDate": "2026-06-29T22:39:43.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Making the Most of the 2026 New gTLD Application Round",
+    "link": "https://circleid.com/posts/making&#45;the&#45;most&#45;of&#45;the&#45;2026&#45;new&#45;gtld&#45;application&#45;round",
+    "description": "The ICANN new gTLD application window is now open, giving organizations a limited opportunity to secure and operate their own top-level domain. Learn how Hello Registry can help simplify the application process from start to launch.",
+    "pubDate": "2026-06-29T20:44:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Deep Dive: TA416 European Government Espionage Campaigns",
+    "link": "https://circleid.com/posts/dns&#45;deep&#45;dive&#45;ta416&#45;european&#45;government&#45;espionage&#45;campaigns",
+    "description": "An extensive DNS analysis of TA416's renewed European espionage campaign uncovered malicious infrastructure, typosquatting clusters, historical network activity, and thousands of connected artifacts that expand defenders' visibility beyond Proofpoint's original indicators for pro…",
+    "pubDate": "2026-06-29T20:10:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "NANOG 97 Explores the Networking Challenges Behind the AI Boom",
+    "link": "https://circleid.com/posts/nanog&#45;97&#45;explores&#45;the&#45;networking&#45;challenges&#45;behind&#45;the&#45;ai&#45;boom",
+    "description": "NANOG 97 revealed how AI is reshaping network infrastructure, from lossless data centre fabrics and optical limits to surging investment, while exposing unresolved questions about geolocation, IPv6 adoption and Internet operations in an AI-driven era.",
+    "pubDate": "2026-06-29T19:29:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Suggested IETF 126 Sessions for Getting Familiar with New Topics",
+    "link": "http://www.ietf.org/blog/ietf126-new-topics/",
+    "description": "These IETF 126 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
+    "pubDate": "2026-06-29T17:15:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
     "title": "ASPA Is Live. Can You See It Working?",
     "link": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
     "description": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network? We built a tool to find out.",
@@ -200,44 +248,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The UN Needs Its Identity in the Digital Space - a Case for .UN Top-Level Domain",
-    "link": "https://circleid.com/posts/the&#45;un&#45;needs&#45;its&#45;identity&#45;in&#45;the&#45;digital&#45;space&#45;a&#45;case&#45;for&#45;un&#45;top&#45;level&#45;domain",
-    "description": "As AI systems increasingly mediate trust online, the United Nations faces a closing opportunity to secure a sovereign .un domain, creating a machine-readable digital identity that strengthens authenticity, preserves institutional knowledge, and counters impersonation.",
-    "pubDate": "2026-06-20T20:16:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "A DNS Investigation of Shadow-Earth-053",
-    "link": "https://circleid.com/posts/a&#45;dns&#45;investigation&#45;of&#45;shadow&#45;earth&#45;053",
-    "description": "A DNS investigation of Shadow-Earth-053 uncovered hundreds of victim-linked connections and a sprawling infrastructure tied to China-aligned cyber-espionage. Analysis of known indicators exposed additional domains, IP addresses, and registration patterns that broaden the campaign…",
-    "pubDate": "2026-06-19T19:17:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Why Your Web Host&#8217;s Country Matters Much More Than You Think",
-    "link": "https://circleid.com/posts/why&#45;your&#45;web&#45;hosts&#45;country&#45;matters&#45;much&#45;more&#45;than&#45;you&#45;think",
-    "description": "A website's server location is only part of the privacy equation. The host's legal jurisdiction can determine whether foreign authorities gain access to data, exposing gaps between GDPR compliance, data sovereignty and real-world protection.",
-    "pubDate": "2026-06-19T15:44:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Temporary Cloudflare Accounts for AI agents",
     "link": "https://www.cloudflare.com/solutions/frontends/",
     "description": "The moment an agent needs to deploy something, it slams face-first into a wall built for humans. Today we're rolling out Temporary Accounts on Cloudflare Workers. Any agent can now run wrangler deploy — temporary and get a live Worker in seconds.",
     "pubDate": "2026-06-19T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "APNIC Secretariat Q1 2026 update",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "APNIC’s first quarterly update for 2026 provides a snapshot of the organization’s activities and performance following the May EC meeting.",
-    "pubDate": "2026-06-19T02:55:20.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Build your own vulnerability harness",
@@ -324,14 +340,6 @@
     "link": "https://labs.ripe.net/author/eleonora-petridou/what-we-learned-from-a-multi-service-vulnerability-disclosure/",
     "description": "A series of vulnerabilities reported through the RIPE NCC bug bounty programme revealed weaknesses across multiple services and highlighted the risks posed by vulnerability chains. We look at how the issues were addressed, and what the disclosure taught us about handling complex …",
     "pubDate": "2026-06-10T09:51:42.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
-    "link": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design/",
-    "description": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
-    "pubDate": "2026-06-10T09:51:00.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
@@ -470,13 +478,5 @@
     "pubDate": "2026-05-04T15:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
-    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
-    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
-    "pubDate": "2026-05-04T07:00:11.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
   }
 ]
