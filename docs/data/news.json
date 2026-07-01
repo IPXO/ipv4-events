@@ -1,5 +1,61 @@
 [
   {
+    "title": "Rising CVEs in the AI epoch",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Vulnerability disclosures are rising sharply, but that does not mean risk is increasing. As AI-driven discovery floods defenders with more data but not more threats, success now depends on identifying what matters and acting faster.",
+    "pubDate": "2026-07-01T01:40:30.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Economics of SpaceX: Can Starlink Justify a $2 Trillion Valuation?",
+    "link": "https://circleid.com/posts/the&#45;economics&#45;of&#45;spacex&#45;can&#45;starlink&#45;justify&#45;a&#45;2&#45;trillion&#45;valuation",
+    "description": "SpaceX's towering valuation rests less on Starlink's current connectivity economics than on ambitious platform expectations, raising doubts that satellite broadband and mobile services alone can justify trillion-dollar valuations indefinitely despite intensifying competition for …",
+    "pubDate": "2026-06-30T18:15:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "What the Interisle Report Reveals, and What It Doesn&#8217;t, About DNS Abuse",
+    "link": "https://circleid.com/posts/what&#45;the&#45;interisle&#45;report&#45;reveals&#45;and&#45;what&#45;it&#45;does&#45;not&#45;about&#45;dns&#45;abuse",
+    "description": "Interisle's report illuminates malicious registration trends, but its broad blocklist methodology measures different questions than DNS Abuse, complicating conclusions about registry and registrar accountability by conflating reputation signals with actionable domain enforcement …",
+    "pubDate": "2026-06-30T15:34:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why AI Adoption May Become the Defining Digital Divide",
+    "link": "https://circleid.com/posts/why&#45;ai&#45;adoption&#45;may&#45;become&#45;the&#45;defining&#45;digital&#45;divide",
+    "description": "As AI reshapes work and daily life, a new digital divide is emerging between those who embrace the technology and those who cannot or will not, with lasting consequences for opportunity, productivity and inequality.",
+    "pubDate": "2026-06-30T15:29:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Hidden Socio-Technical Issues Threatening Africa&#8217;s Digitalization Agenda",
+    "link": "https://circleid.com/posts/the&#45;hidden&#45;socio&#45;technical&#45;issues&#45;threatening&#45;africas&#45;digitalization&#45;agenda",
+    "description": "Africa's digital ambitions face threats beyond software and infrastructure. Lasting transformation depends on governance, trust, interoperability, political continuity, and user adoption, making socio-technical challenges as critical as the technologies themselves.",
+    "pubDate": "2026-06-30T14:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "RIPE NCC Days Baltics: Insights into Regional Resilience",
+    "link": "https://labs.ripe.net/author/kjerstin-burdiek/ripe-ncc-days-baltics-insights-into-regional-resilience/",
+    "description": "On 3-4 June 2026, we convened in Riga, Latvia for RIPE NCC Days Baltics. 76 participants from nine countries participated in sessions covering important topics in network operations, with a special focus on resilience for a region that has seen repeated network disruptions in rec…",
+    "pubDate": "2026-06-30T13:34:25.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "ARIN Bits: June 2026",
+    "link": "https://www.arin.net/blog/2026/06/30/arin-bits-june-2026/",
+    "description": "As temperatures rise, so does the momentum at ARIN. Dive into the summer edition of ARIN Bits for updates from our second quarter and details about upcoming items, including: the 2026 ARIN Elections cycle; fee and security changes; useful tools; reminders from Registration Servic…",
+    "pubDate": "2026-06-30T13:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "Local Hubs at RIPE 92: Bringing the Community Together, Wherever We Are",
     "link": "https://labs.ripe.net/author/gergana_petrova/local-hubs-at-ripe-92-bringing-the-community-together-wherever-we-are/",
     "description": "Three local hubs at RIPE 92 brought people together to participate in the meeting remotely. We look at what organisers in Bulgaria, Türkiye and Poland learned about bringing the RIPE Meeting experience closer to home.",
@@ -176,22 +232,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": ".PK ccTLD Governance Issues and Pakistan&#8217;s Digital Future",
-    "link": "https://circleid.com/posts/dot&#45;pk&#45;cctld&#45;governance&#45;issues&#45;and&#45;pakistan&#45;digital&#45;future",
-    "description": "Pakistan's .pk domain has long been controlled by a private company abroad, raising concerns over digital sovereignty, cybersecurity and accountability. Repeated breaches, offshore infrastructure and weak governance have left a critical national asset exposed and contested.",
-    "pubDate": "2026-06-23T16:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The 2026 New gTLD Round: A Strategic Framework for Risk Management",
-    "link": "https://circleid.com/posts/the&#45;2026&#45;new&#45;gtld&#45;round&#45;a&#45;strategic&#45;framework&#45;for&#45;risk&#45;management",
-    "description": "The 2026 new gTLD round is less a domain application than a high-stakes contest for digital territory. Contention, objections, opaque evaluations and information gaps can derail applicants long before launch, demanding rigorous strategic preparation.",
-    "pubDate": "2026-06-23T16:40:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Mobile Internet prices in PNG: Stability amid infrastructure developments",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Guest Post: Mobile Internet prices in PNG remained largely stable in 2025, with some unpredictable fluctuations. As new undersea cables and satellite services emerge, the market may be entering a new phase of competition and change.",
@@ -216,36 +256,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "The Internet, Beyond a Right: A Critical Infrastructure",
-    "link": "https://circleid.com/posts/the&#45;internet&#45;beyond&#45;a&#45;right&#45;a&#45;critical&#45;infrastructure",
-    "description": "As governments, economies and essential services become ever more dependent on connectivity, the internet can no longer be viewed solely as a right. It must be treated as critical infrastructure, protected, regulated and made resilient against disruption.",
-    "pubDate": "2026-06-22T16:53:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "When AI Writes the Scam: How Artificial Intelligence Is Making DNS Abuse Harder to Detect",
-    "link": "https://circleid.com/posts/when&#45;ai&#45;writes&#45;the&#45;scam&#45;how&#45;artificial&#45;intelligence&#45;is&#45;making&#45;dns&#45;abuse&#45;harder&#45;to&#45;detect",
-    "description": "Artificial intelligence is transforming phishing and DNS abuse, erasing the linguistic clues that once exposed scams. As attacks become personalised, automated and multilingual, governance frameworks are struggling to keep pace with a rapidly expanding threat surface.",
-    "pubDate": "2026-06-22T15:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "How Do We Manage Vulnerabilities in the Age of AI?",
     "link": "https://labs.ripe.net/author/kathleen_moriarty/how-do-we-manage-vulnerabilities-in-the-age-of-ai/",
     "description": "AI-assisted development is changing more than how software is written. It might also force us to reconsider the processes we use to identify, track, and manage vulnerabilities.",
     "pubDate": "2026-06-22T10:36:38.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Your elected leaders: Terry Sweetser, Routing Security SIG Chair",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The Internet is built by communities, not just networks. As Routing Security SIG Chair, Terry is focused on strengthening that effort — from advancing RPKI adoption to supporting the next generation of operators.",
-    "pubDate": "2026-06-21T22:41:26.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Temporary Cloudflare Accounts for AI agents",
@@ -334,14 +350,6 @@
     "pubDate": "2026-06-10T17:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "What We Learned from a Multi-Service Vulnerability Disclosure",
-    "link": "https://labs.ripe.net/author/eleonora-petridou/what-we-learned-from-a-multi-service-vulnerability-disclosure/",
-    "description": "A series of vulnerabilities reported through the RIPE NCC bug bounty programme revealed weaknesses across multiple services and highlighted the risks posed by vulnerability chains. We look at how the issues were addressed, and what the disclosure taught us about handling complex …",
-    "pubDate": "2026-06-10T09:51:42.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "IETF LLC Board Retreat 2026",
@@ -456,27 +464,19 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
-    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
-    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
-    "pubDate": "2026-05-05T11:34:23.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
+    "title": "IETF 125 post-meeting survey",
+    "link": "http://www.ietf.org/blog/ietf125-survey/",
+    "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "pubDate": "2026-04-29T16:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
   },
   {
-    "title": "Inside Amazon Web Services' plan to make networking disappear",
-    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
-    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
-    "pubDate": "2026-05-04T15:39:08.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Apply for a 2026 ARIN Community Grant",
-    "link": "https://www.arin.net/blog/2026/05/04/grant-applications-open/",
-    "description": "The call for applications to the 2026 ARIN Community Grant Program is out! Learn how to apply for one of our financial grants in support of operational and research projects that improve the overall Internet industry and user environment.",
-    "pubDate": "2026-05-04T15:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
+    "title": "IETF Secretariat continues under new approach",
+    "link": "http://www.ietf.org/blog/secretariat-continuation/",
+    "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
+    "pubDate": "2026-03-31T18:57:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
   }
 ]
