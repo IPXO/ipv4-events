@@ -1,5 +1,69 @@
 [
   {
+    "title": "The economics of SpaceX",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "SpaceX and Starlink's valuation, reality, and the limits of connectivity economics.",
+    "pubDate": "2026-07-02T01:27:56.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Vinton Cerf Retires After Two Decades at Google, Looks Ahead to AI Interoperability",
+    "link": "https://circleid.com/posts/vinton&#45;cerf&#45;retires&#45;after&#45;two&#45;decades&#45;at&#45;google&#45;looks&#45;ahead&#45;to&#45;ai&#45;interoperability",
+    "description": "Internet pioneer Vinton Cerf will retire from Google after more than two decades, leaving a legacy that shaped the modern internet while predicting standardized protocols will become essential for the next generation of autonomous AI agents.",
+    "pubDate": "2026-07-01T15:31:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "From Lab to RFC: A PhD Student's Journey through the IETF",
+    "link": "http://www.ietf.org/blog/academic-journey/",
+    "description": "Martine Sophie Lenders has been regularly participating in the IETF for over a decade, starting with the IETF 93 meeting in Prague in 2015. She has authored several Internet-Drafts—two of which recently were published as RFCs—and at the same time works on a PhD at FU Berlin and a…",
+    "pubDate": "2026-07-01T15:02:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+    "link": "https://www.x402.org/",
+    "description": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, with no payments stack of your own to build.",
+    "pubDate": "2026-07-01T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "link": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
+    "description": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a susta…",
+    "pubDate": "2026-07-01T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Making AI search smarter",
+    "link": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
+    "description": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
+    "pubDate": "2026-07-01T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Your site, your rules: new AI traffic options for all customers",
+    "link": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
+    "description": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized p…",
+    "pubDate": "2026-07-01T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Unmasking the crawls with Attribution Business Insights",
+    "link": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
+    "description": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
+    "pubDate": "2026-07-01T06:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Rising CVEs in the AI epoch",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Vulnerability disclosures are rising sharply, but that does not mean risk is increasing. As AI-driven discovery floods defenders with more data but not more threats, success now depends on identifying what matters and acting faster.",
@@ -192,14 +256,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "DNS Deep Dive: GHOST STADIUM Takes Advantage of FIFA 2026",
-    "link": "https://circleid.com/posts/dns&#45;deep&#45;dive&#45;ghost&#45;stadium&#45;takes&#45;advantage&#45;of&#45;fifa&#45;2026",
-    "description": "A DNS investigation of the GHOST STADIUM phishing operation uncovered typosquatting clusters, malicious infrastructure, victim-linked IP activity, and thousands of connected domains, revealing the scale of a FIFA 2026 ticket fraud ecosystem.",
-    "pubDate": "2026-06-24T16:09:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "IPv6-Only vs IPv6-Mostly: Appropriate Use Cases",
     "link": "https://labs.ripe.net/author/jordipaletm/ipv6-only-vs-ipv6-mostly-appropriate-use-cases/",
     "description": "Not all IPv6 deployment models belong in the same flock. IPv6-Only and IPv6-Mostly are often discussed as if they were interchangeable, but each was designed for different environments. This article explores why matching the right approach to the right use case matters.",
@@ -240,14 +296,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "APNIC and APNIC Foundation sign MoU to maximize sponsorship support for the Asia Pacific Internet community",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "APNIC and the APNIC Foundation have formalized a sponsorship partnership to improve coordination and strengthen support for the Asia Pacific Internet community.",
-    "pubDate": "2026-06-22T23:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "How we found a bug in the hyper HTTP library",
     "link": "https://developers.cloudflare.com/images/",
     "description": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions.",
@@ -272,52 +320,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Build your own vulnerability harness",
-    "link": "https://blog.cloudflare.com/cyber-frontier-models/",
-    "description": "We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.",
-    "pubDate": "2026-06-18T17:59:40.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Celebrating 12 years of Project Galileo",
-    "link": "https://www.cloudflare.com/galileo/",
-    "description": "To mark the 12th anniversary of Project Galileo, Cloudflare has released its first comprehensive report analyzing cyberattacks against civil society.",
-    "pubDate": "2026-06-18T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
-    "link": "https://blog.cloudflare.com/project-think/",
-    "description": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard.",
-    "pubDate": "2026-06-17T19:35:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing the Cloudflare One stack: agent-powered deployment",
-    "link": "https://github.com/cloudflare/skills",
-    "description": "The Cloudflare One stack is a library of agent skills that gives any AI agent the knowledge it needs to plan, deploy, and manage a Zero Trust environment — no migration calls required.",
-    "pubDate": "2026-06-17T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "GM May 2026: Why Did People Vote the Way They Did?",
     "link": "https://labs.ripe.net/author/ilke-ilhan/gm-may-2026-why-did-people-vote-the-way-they-did/",
     "description": "The May 2026 RIPE NCC General Meeting saw unusually high participation and one of the closest votes in recent years. By examining turnout data, voting patterns and member demographics, we ask what might have influenced the outcome and what all this tells us about our members.",
     "pubDate": "2026-06-17T11:27:08.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Cloudflare DMARC Management is now generally available",
-    "link": "https://blog.cloudflare.com/dmarc-management/",
-    "description": "Get unified visibility into your email authentication posture and reach full DMARC enforcement with deeper reporting, record analysis, and SPF audits free for every Cloudflare customer.",
-    "pubDate": "2026-06-16T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Independent Infrastructure Requires Investment",
@@ -464,19 +472,11 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "IETF 125 post-meeting survey",
-    "link": "http://www.ietf.org/blog/ietf125-survey/",
-    "description": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
-    "pubDate": "2026-04-29T16:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "IETF Secretariat continues under new approach",
-    "link": "http://www.ietf.org/blog/secretariat-continuation/",
-    "description": "As of 1 April 2026, the IETF Secretariat function will be staffed through an Employer of Record (EOR) arrangement rather than a service contract awarded through a Request for Proposal (RFP) process, as it has been until now.",
-    "pubDate": "2026-03-31T18:57:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
+    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
+    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
+    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
+    "pubDate": "2026-05-05T11:34:23.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   }
 ]
