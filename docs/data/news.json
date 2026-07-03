@@ -1,5 +1,37 @@
 [
   {
+    "title": "SSH key exchange failures when managing legacy network devices",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "pubDate": "2026-07-02T22:37:20.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "When AI Answers, Who Decides What We Get to Know?",
+    "link": "https://circleid.com/posts/when&#45;ai&#45;answers&#45;who&#45;decides&#45;what&#45;we&#45;get&#45;to&#45;know",
+    "description": "AI assistants are replacing search with synthesized answers, concentrating decisions about what information people see. As discovery narrows through a handful of platforms, preserving transparency, diversity, and accountable governance becomes increasingly urgent.",
+    "pubDate": "2026-07-02T21:55:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "June IPv4 Trends: The Quiet Return of the IPv4 Bull Market",
+    "link": "https://circleid.com/posts/june&#45;ipv4&#45;trends&#45;the&#45;quiet&#45;return&#45;of&#45;the&#45;ipv4&#45;bull&#45;market",
+    "description": "New transfer data suggests IPv4's apparent decline has reversed as record trading, rising prices, infrastructure demand and tightening supply reveal a market driven by deployment rather than speculation once again despite accelerating IPv6 adoption globally.",
+    "pubDate": "2026-07-02T20:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Birds of a Feather at IETF 126",
+    "link": "http://www.ietf.org/blog/ietf126-bofs/",
+    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026.. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions—and these are often the most interesting place to watch where the Internet's standards work is…",
+    "pubDate": "2026-07-02T15:39:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
     "title": "The economics of SpaceX",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "SpaceX and Starlink's valuation, reality, and the limits of connectivity economics.",
@@ -184,22 +216,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Africa Does Not Have an Internet Access Problem: It Has an Internet Governance Problem",
-    "link": "https://circleid.com/posts/africa&#45;does&#45;not&#45;have&#45;an&#45;internet&#45;access&#45;problem&#45;it&#45;has&#45;an&#45;internet&#45;governance&#45;problem",
-    "description": "Africa's digital future depends less on expanding Internet access than on shaping the rules that govern it. Stronger institutions, cybersecurity, and global influence will determine whether the continent becomes a digital leader or remains a dependent consumer.",
-    "pubDate": "2026-06-28T21:19:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Spain to Require Four Hours of Mobile Service During Power Blackouts",
-    "link": "https://circleid.com/posts/spain&#45;to&#45;require&#45;four&#45;hours&#45;of&#45;mobile&#45;service&#45;during&#45;power&#45;blackouts",
-    "description": "Spain will require telecom operators to keep mobile networks running for up to four hours during power outages, introducing phased resilience standards, stronger emergency communications safeguards and stricter backup requirements for critical digital infrastructure.",
-    "pubDate": "2026-06-26T20:08:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Malaysia Proposes Legislative Change to Address Management",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Comments close on the proposed amendments on 10 July 2026.",
@@ -286,14 +302,6 @@
     "pubDate": "2026-06-23T18:25:18.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Mobile Internet prices in PNG: Stability amid infrastructure developments",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Guest Post: Mobile Internet prices in PNG remained largely stable in 2025, with some unpredictable fluctuations. As new undersea cables and satellite services emerge, the market may be entering a new phase of competition and change.",
-    "pubDate": "2026-06-23T02:08:27.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "How we found a bug in the hyper HTTP library",
@@ -470,13 +478,5 @@
     "pubDate": "2026-05-05T19:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
-    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
-    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
-    "pubDate": "2026-05-05T11:34:23.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
   }
 ]
