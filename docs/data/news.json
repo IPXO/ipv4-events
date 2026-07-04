@@ -1,5 +1,13 @@
 [
   {
+    "title": "IP Geolocation: The New Infrastructure for Internet Interoperability",
+    "link": "https://circleid.com/posts/ip&#45;geolocation&#45;the&#45;new&#45;infrastructure&#45;for&#45;internet&#45;interoperability",
+    "description": "IP geolocation has evolved from routing metadata into essential Internet infrastructure, enabling compliant content delivery, cybersecurity, and digital governance while raising urgent questions about transparency, interoperability, and fragmentation risks worldwide for policymak…",
+    "pubDate": "2026-07-03T14:34:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "SSH key exchange failures when managing legacy network devices",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
@@ -180,14 +188,6 @@
     "link": "https://circleid.com/posts/dns&#45;deep&#45;dive&#45;ta416&#45;european&#45;government&#45;espionage&#45;campaigns",
     "description": "An extensive DNS analysis of TA416's renewed European espionage campaign uncovered malicious infrastructure, typosquatting clusters, historical network activity, and thousands of connected artifacts that expand defenders' visibility beyond Proofpoint's original indicators for pro…",
     "pubDate": "2026-06-29T20:10:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "NANOG 97 Explores the Networking Challenges Behind the AI Boom",
-    "link": "https://circleid.com/posts/nanog&#45;97&#45;explores&#45;the&#45;networking&#45;challenges&#45;behind&#45;the&#45;ai&#45;boom",
-    "description": "NANOG 97 revealed how AI is reshaping network infrastructure, from lossless data centre fabrics and optical limits to surging investment, while exposing unresolved questions about geolocation, IPv6 adoption and Internet operations in an AI-driven era.",
-    "pubDate": "2026-06-29T19:29:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
