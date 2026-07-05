@@ -1,5 +1,21 @@
 [
   {
+    "title": "Quantum Readiness Governance: Why Regulators Must Measure, Not Just Warn",
+    "link": "https://circleid.com/posts/quantum&#45;readiness&#45;governance&#45;why&#45;regulators&#45;must&#45;measure&#45;not&#45;just&#45;warn",
+    "description": "Quantum policy has shifted from warning about future threats to measuring institutional readiness, creating an urgent need for governance frameworks that let regulators, auditors and boards assess, compare and verify post-quantum migration before deadlines arrive.",
+    "pubDate": "2026-07-04T16:30:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Multi-Stakeholder Mirage: How Internet Governance Turned Attendance Into Mandate",
+    "link": "https://circleid.com/posts/the&#45;multi&#45;stakeholder&#45;mirage&#45;how&#45;internet&#45;governance&#45;turned&#45;attendance&#45;into&#45;mandate",
+    "description": "Internet multi-stakeholder governance mistakes participation for legitimacy, granting policy processes implied authority without public authorization. As IPv4 becomes capital, operator accountability, not attendance, should define binding decision-making and institutional legitim…",
+    "pubDate": "2026-07-04T16:04:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "IP Geolocation: The New Infrastructure for Internet Interoperability",
     "link": "https://circleid.com/posts/ip&#45;geolocation&#45;the&#45;new&#45;infrastructure&#45;for&#45;internet&#45;interoperability",
     "description": "IP geolocation has evolved from routing metadata into essential Internet infrastructure, enabling compliant content delivery, cybersecurity, and digital governance while raising urgent questions about transparency, interoperability, and fragmentation risks worldwide for policymak…",
@@ -174,22 +190,6 @@
     "pubDate": "2026-06-29T22:39:43.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Making the Most of the 2026 New gTLD Application Round",
-    "link": "https://circleid.com/posts/making&#45;the&#45;most&#45;of&#45;the&#45;2026&#45;new&#45;gtld&#45;application&#45;round",
-    "description": "The ICANN new gTLD application window is now open, giving organizations a limited opportunity to secure and operate their own top-level domain. Learn how Hello Registry can help simplify the application process from start to launch.",
-    "pubDate": "2026-06-29T20:44:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "DNS Deep Dive: TA416 European Government Espionage Campaigns",
-    "link": "https://circleid.com/posts/dns&#45;deep&#45;dive&#45;ta416&#45;european&#45;government&#45;espionage&#45;campaigns",
-    "description": "An extensive DNS analysis of TA416's renewed European espionage campaign uncovered malicious infrastructure, typosquatting clusters, historical network activity, and thousands of connected artifacts that expand defenders' visibility beyond Proofpoint's original indicators for pro…",
-    "pubDate": "2026-06-29T20:10:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Suggested IETF 126 Sessions for Getting Familiar with New Topics",
