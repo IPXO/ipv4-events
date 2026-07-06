@@ -1,5 +1,13 @@
 [
   {
+    "title": "RFC 9958 and the operational reality of PQC",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "RFC 9958 shifts Post-Quantum Cryptography from theory into operational reality, highlighting how larger payloads, new handshake models, and hybrid deployments will affect real networks. What does this mean for engineers and operators?",
+    "pubDate": "2026-07-06T05:41:56.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Quantum Readiness Governance: Why Regulators Must Measure, Not Just Warn",
     "link": "https://circleid.com/posts/quantum&#45;readiness&#45;governance&#45;why&#45;regulators&#45;must&#45;measure&#45;not&#45;just&#45;warn",
     "description": "Quantum policy has shifted from warning about future threats to measuring institutional readiness, creating an urgent need for governance frameworks that let regulators, auditors and boards assess, compare and verify post-quantum migration before deadlines arrive.",
@@ -286,14 +294,6 @@
     "pubDate": "2026-06-24T06:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
-    "pubDate": "2026-06-24T05:04:25.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "The White House's post-quantum executive order is an important milestone. It’s time to get to work",
