@@ -1,5 +1,53 @@
 [
   {
+    "title": "IPv6-only vs IPv6-mostly: Appropriate use cases",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Clear definitions of IPv6-only and IPv6-mostly depend on context. Choosing the right transition model directly affects performance, scalability, and user experience. Understanding where each approach fits is key to successful IPv6 deployment.",
+    "pubDate": "2026-07-07T01:17:50.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "IPv4 Market in H1 2026: A Price Reset, Not a Market Collapse",
+    "link": "https://circleid.com/posts/ipv4&#45;market&#45;in&#45;h1&#45;2026&#45;a&#45;price&#45;reset&#45;not&#45;a&#45;market&#45;collapse",
+    "description": "IPv4 transfers accelerated in the first half of 2026, but surging activity masked a decisive pricing reset as average values fell, sellers accepted lower valuations, and the market settled into a more mature equilibrium overall.",
+    "pubDate": "2026-07-06T19:44:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "macOS ClickFix Campaign Delivers AMOS and Other Infostealers: A DNS Deep Dive",
+    "link": "https://circleid.com/posts/macos&#45;clickfix&#45;campaign&#45;delivers&#45;amos&#45;and&#45;other&#45;infostealers&#45;a&#45;dns&#45;deep&#45;dive",
+    "description": "A DNS deep dive into Microsoft's macOS ClickFix campaign uncovered victim infrastructure, typosquatting clusters, malicious registrations, and hundreds of linked indicators, exposing a broader infostealer ecosystem beyond the original 140 network IoCs identified by Microsoft.",
+    "pubDate": "2026-07-06T15:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Your Worker can now have its own cache in front of it",
+    "link": "https://developers.cloudflare.com/cache/how-to/tiered-cache/",
+    "description": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
+    "pubDate": "2026-07-06T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "When Internet Traffic Becomes a Physical Event",
+    "link": "https://labs.ripe.net/author/flavio_luciani_1/when-internet-traffic-becomes-a-physical-event/",
+    "description": "Why do live sports, ticket sales, and public service launches sometimes resemble DDoS attacks? This article explores how synchronised user behaviour turns Internet traffic into a physical phenomenon that places real pressure on network infrastructure.",
+    "pubDate": "2026-07-06T12:42:31.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Resource delegation review update: Q2 2026",
+    "link": "https://blog.apnic.net/category/policy/",
+    "description": "APNIC continues to progress the resource delegation review program.",
+    "pubDate": "2026-07-06T07:15:57.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "RFC 9958 and the operational reality of PQC",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "RFC 9958 shifts Post-Quantum Cryptography from theory into operational reality, highlighting how larger payloads, new handshake models, and hybrid deployments will affect real networks. What does this mean for engineers and operators?",
@@ -58,7 +106,7 @@
   {
     "title": "Birds of a Feather at IETF 126",
     "link": "http://www.ietf.org/blog/ietf126-bofs/",
-    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026.. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions—and these are often the most interesting place to watch where the Internet's standards work is…",
+    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions—and these are often the most interesting place to watch where Internet standards work is headin…",
     "pubDate": "2026-07-02T15:39:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
@@ -152,22 +200,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Why AI Adoption May Become the Defining Digital Divide",
-    "link": "https://circleid.com/posts/why&#45;ai&#45;adoption&#45;may&#45;become&#45;the&#45;defining&#45;digital&#45;divide",
-    "description": "As AI reshapes work and daily life, a new digital divide is emerging between those who embrace the technology and those who cannot or will not, with lasting consequences for opportunity, productivity and inequality.",
-    "pubDate": "2026-06-30T15:29:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Hidden Socio-Technical Issues Threatening Africa&#8217;s Digitalization Agenda",
-    "link": "https://circleid.com/posts/the&#45;hidden&#45;socio&#45;technical&#45;issues&#45;threatening&#45;africas&#45;digitalization&#45;agenda",
-    "description": "Africa's digital ambitions face threats beyond software and infrastructure. Lasting transformation depends on governance, trust, interoperability, political continuity, and user adoption, making socio-technical challenges as critical as the technologies themselves.",
-    "pubDate": "2026-06-30T14:54:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "RIPE NCC Days Baltics: Insights into Regional Resilience",
     "link": "https://labs.ripe.net/author/kjerstin-burdiek/ripe-ncc-days-baltics-insights-into-regional-resilience/",
     "description": "On 3-4 June 2026, we convened in Riga, Latvia for RIPE NCC Days Baltics. 76 participants from nine countries participated in sessions covering important topics in network operations, with a special focus on resilience for a region that has seen repeated network disruptions in rec…",
@@ -248,28 +280,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "From process to outcomes: Lessons from policy at APNIC 61",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Guest Post: The role of community input, operational realities, and clear problem definition in shaping Internet number resource policy.",
-    "pubDate": "2026-06-25T05:25:14.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "What Makes NOGs Tick",
     "link": "https://labs.ripe.net/author/alastair_strachan/what-makes-nogs-tick/",
     "description": "NOGs take many different forms across the RIPE region, but where does their real value lie? Drawing on the results of two 2026 surveys, we explore what NOGs mean to the communities that build them, the barriers they face, and what it takes to keep these groups going.",
     "pubDate": "2026-06-25T05:17:56.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "[Podcast] What &#8216;name-based routing&#8217; really means",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
-    "pubDate": "2026-06-24T20:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Bridging Policy and Operations: An ARIN 57 Fellowship Experience",
@@ -320,14 +336,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Temporary Cloudflare Accounts for AI agents",
-    "link": "https://www.cloudflare.com/solutions/frontends/",
-    "description": "The moment an agent needs to deploy something, it slams face-first into a wall built for humans. Today we're rolling out Temporary Accounts on Cloudflare Workers. Any agent can now run wrangler deploy — temporary and get a live Worker in seconds.",
-    "pubDate": "2026-06-19T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "GM May 2026: Why Did People Vote the Way They Did?",
     "link": "https://labs.ripe.net/author/ilke-ilhan/gm-may-2026-why-did-people-vote-the-way-they-did/",
     "description": "The May 2026 RIPE NCC General Meeting saw unusually high participation and one of the closest votes in recent years. By examining turnout data, voting patterns and member demographics, we ask what might have influenced the outcome and what all this tells us about our members.",
@@ -348,14 +356,6 @@
     "link": "https://labs.ripe.net/author/stephen_suess_1/latencymon-rebuilt-safer-faster-and-more-connected/",
     "description": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
     "pubDate": "2026-06-16T08:56:28.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
-    "link": "https://labs.ripe.net/author/mkoch/discovery-of-ipv6-router-addresses-using-subnet-router-anycast/",
-    "description": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
-    "pubDate": "2026-06-11T05:33:06.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
