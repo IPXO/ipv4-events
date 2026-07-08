@@ -1,5 +1,45 @@
 [
   {
+    "title": "Birds of a Feather at IETF 126 Vienna",
+    "link": "https://labs.ripe.net/author/greg-wood/birds-of-a-feather-at-ietf-126-vienna/",
+    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions - and these are often the most interesting place to watch where Internet standards work is head…",
+    "pubDate": "2026-07-08T05:26:26.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Join the next listening session on increasing diversity in APNIC community leadership",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The APNIC Executive Council (EC) is seeking community input to better understand barriers affecting diversity in community leadership and EC candidacy. These insights will inform future initiatives to support a broader leadership pipeline.",
+    "pubDate": "2026-07-08T03:58:29.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "pubDate": "2026-07-08T01:09:23.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Network Challenges from AI Traffic",
+    "link": "https://circleid.com/posts/network&#45;challenges&#45;from&#45;ai&#45;traffic",
+    "description": "Cisco warns AI traffic will reshape internet infrastructure as inference workloads demand lower latency, stronger upstream capacity and new network architectures, with AI expected to generate one quarter of web traffic by 2035 worldwide eventually.",
+    "pubDate": "2026-07-07T18:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+    "link": "https://www.gov.uk/government/news/businesses-across-britain-sign-up-to-cyber-resilience-pledge-as-ministers-urge-firms-to-strengthen-cyber-defences",
+    "description": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership a…",
+    "pubDate": "2026-07-07T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "IPv6-only vs IPv6-mostly: Appropriate use cases",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Clear definitions of IPv6-only and IPv6-mostly depend on context. Choosing the right transition model directly affects performance, scalability, and user experience. Understanding where each approach fits is key to successful IPv6 deployment.",
@@ -192,14 +232,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "What the Interisle Report Reveals, and What It Doesn&#8217;t, About DNS Abuse",
-    "link": "https://circleid.com/posts/what&#45;the&#45;interisle&#45;report&#45;reveals&#45;and&#45;what&#45;it&#45;does&#45;not&#45;about&#45;dns&#45;abuse",
-    "description": "Interisle's report illuminates malicious registration trends, but its broad blocklist methodology measures different questions than DNS Abuse, complicating conclusions about registry and registrar accountability by conflating reputation signals with actionable domain enforcement …",
-    "pubDate": "2026-06-30T15:34:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "RIPE NCC Days Baltics: Insights into Regional Resilience",
     "link": "https://labs.ripe.net/author/kjerstin-burdiek/ripe-ncc-days-baltics-insights-into-regional-resilience/",
     "description": "On 3-4 June 2026, we convened in Riga, Latvia for RIPE NCC Days Baltics. 76 participants from nine countries participated in sessions covering important topics in network operations, with a special focus on resilience for a region that has seen repeated network disruptions in rec…",
@@ -256,22 +288,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Malaysia Proposes Legislative Change to Address Management",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Comments close on the proposed amendments on 10 July 2026.",
-    "pubDate": "2026-06-26T00:13:26.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Peering capacity at public Internet Exchanges: What the data reveals",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: This study delivers data-rich insights into the decisions made by the most IXP-connected CDN, cloud and content networks, analysing their strategies both individually and collectively as a group that exerts significant influence on the global interconnection landscape…",
-    "pubDate": "2026-06-25T22:34:53.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "How we built saga rollbacks for Cloudflare Workflows",
     "link": "https://developers.cloudflare.com/workflows/",
     "description": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
@@ -320,14 +336,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "How we found a bug in the hyper HTTP library",
-    "link": "https://developers.cloudflare.com/images/",
-    "description": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions.",
-    "pubDate": "2026-06-22T18:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "How Do We Manage Vulnerabilities in the Age of AI?",
     "link": "https://labs.ripe.net/author/kathleen_moriarty/how-do-we-manage-vulnerabilities-in-the-age-of-ai/",
     "description": "AI-assisted development is changing more than how software is written. It might also force us to reconsider the processes we use to identify, track, and manage vulnerabilities.",
@@ -348,14 +356,6 @@
     "link": "https://labs.ripe.net/author/hans_petter_holen/independent-infrastructure-requires-investment/",
     "description": "An analysis of our infrastructure has given us a clearer picture of what is needed to move the RIPE NCC towards a more independent and self-hosted approach. We are now planning a major rebuild to create a more resilient and secure infrastructure that can support the services our …",
     "pubDate": "2026-06-16T11:27:21.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
-    "link": "https://labs.ripe.net/author/stephen_suess_1/latencymon-rebuilt-safer-faster-and-more-connected/",
-    "description": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
-    "pubDate": "2026-06-16T08:56:28.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
