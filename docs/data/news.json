@@ -1,5 +1,69 @@
 [
   {
+    "title": "ASPA at APNIC: Strengthening BGP path validation",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
+    "pubDate": "2026-07-09T06:13:33.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "[Podcast] Testing RSSAC 028 DNS root server name choices",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
+    "pubDate": "2026-07-08T23:29:45.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "UK Unveils AI Cyber Shield to Counter Machine-Speed Digital Threats",
+    "link": "https://circleid.com/posts/uk&#45;unveils&#45;ai&#45;cyber&#45;shield&#45;to&#45;counter&#45;machine&#45;speed&#45;digital&#45;threats",
+    "description": "Britain is developing Cyber Shield, an AI-powered national cyber defense program designed to detect threats, automate responses and protect critical infrastructure as increasingly sophisticated attacks challenge conventional security and strain existing defensive capabilities.",
+    "pubDate": "2026-07-08T15:27:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Can Orbiting Data Centers Solve Terrestrial Deal Breakers?",
+    "link": "https://circleid.com/posts/can&#45;orbiting&#45;data&#45;centers&#45;solve&#45;terrestrial&#45;deal&#45;breakers",
+    "description": "Orbiting data centers promise cleaner power, cheaper cooling and relief from terrestrial opposition, but formidable engineering, regulatory and orbital governance challenges may keep ambitious space-based computing grounded for years unless launch economics improve dramatically f…",
+    "pubDate": "2026-07-08T15:09:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The End Of The Impression Economy",
+    "link": "https://circleid.com/posts/the&#45;end&#45;of&#45;the&#45;impression&#45;economy",
+    "description": "AI is dismantling the web's impression economy as users consume summarized information instead of visiting websites. Value is shifting from traffic and advertising toward trusted content, licensing, attribution and intellectual property that machines increasingly rely upon.",
+    "pubDate": "2026-07-08T14:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing Meerkat: an experiment in global consensus",
+    "link": "https://raft.github.io/",
+    "description": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
+    "pubDate": "2026-07-08T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The RIPE Chair Team Reports - July 2026",
+    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-july-2026/",
+    "description": "The RIPE Chair Team rounds up the latest developments across the community, from RIPE 93 preparations and policy work to governance updates and community activities.",
+    "pubDate": "2026-07-08T10:56:36.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Apply Today for the ARIN 58 Fellowship Program",
+    "link": "https://www.arin.net/blog/2026/07/08/arin-58-fellowship-applications/",
+    "description": "The call for applications to our ARIN 58 Fellowship Program is out, and Senior Project Manager Amanda Gauldin shares more about what you can expect in this program, why you should consider applying, and what past Fellows have to say about the experience.",
+    "pubDate": "2026-07-08T09:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "Birds of a Feather at IETF 126 Vienna",
     "link": "https://labs.ripe.net/author/greg-wood/birds-of-a-feather-at-ietf-126-vienna/",
     "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions - and these are often the most interesting place to watch where Internet standards work is head…",
@@ -136,17 +200,9 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "June IPv4 Trends: The Quiet Return of the IPv4 Bull Market",
-    "link": "https://circleid.com/posts/june&#45;ipv4&#45;trends&#45;the&#45;quiet&#45;return&#45;of&#45;the&#45;ipv4&#45;bull&#45;market",
-    "description": "New transfer data suggests IPv4's apparent decline has reversed as record trading, rising prices, infrastructure demand and tightening supply reveal a market driven by deployment rather than speculation once again despite accelerating IPv6 adoption globally.",
-    "pubDate": "2026-07-02T20:54:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Birds of a Feather at IETF 126",
     "link": "http://www.ietf.org/blog/ietf126-bofs/",
-    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions—and these are often the most interesting place to watch where Internet standards work is headin…",
+    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026.. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions—and these are often the most interesting place to watch where the Internet's standards work is…",
     "pubDate": "2026-07-02T15:39:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
@@ -158,14 +214,6 @@
     "pubDate": "2026-07-02T01:27:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Vinton Cerf Retires After Two Decades at Google, Looks Ahead to AI Interoperability",
-    "link": "https://circleid.com/posts/vinton&#45;cerf&#45;retires&#45;after&#45;two&#45;decades&#45;at&#45;google&#45;looks&#45;ahead&#45;to&#45;ai&#45;interoperability",
-    "description": "Internet pioneer Vinton Cerf will retire from Google after more than two decades, leaving a legacy that shaped the modern internet while predicting standardized protocols will become essential for the next generation of autonomous AI agents.",
-    "pubDate": "2026-07-01T15:31:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "From Lab to RFC: A PhD Student's Journey through the IETF",
@@ -224,14 +272,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The Economics of SpaceX: Can Starlink Justify a $2 Trillion Valuation?",
-    "link": "https://circleid.com/posts/the&#45;economics&#45;of&#45;spacex&#45;can&#45;starlink&#45;justify&#45;a&#45;2&#45;trillion&#45;valuation",
-    "description": "SpaceX's towering valuation rests less on Starlink's current connectivity economics than on ambitious platform expectations, raising doubts that satellite broadband and mobile services alone can justify trillion-dollar valuations indefinitely despite intensifying competition for …",
-    "pubDate": "2026-06-30T18:15:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "RIPE NCC Days Baltics: Insights into Regional Resilience",
     "link": "https://labs.ripe.net/author/kjerstin-burdiek/ripe-ncc-days-baltics-insights-into-regional-resilience/",
     "description": "On 3-4 June 2026, we convened in Riga, Latvia for RIPE NCC Days Baltics. 76 participants from nine countries participated in sessions covering important topics in network operations, with a special focus on resilience for a region that has seen repeated network disruptions in rec…",
@@ -256,14 +296,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Strengthening APNIC’s security foundations",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "APNIC is strengthening the security of its core systems through infrastructure modernization, enhanced application testing, and improved data practices.",
-    "pubDate": "2026-06-29T22:39:43.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Suggested IETF 126 Sessions for Getting Familiar with New Topics",
     "link": "http://www.ietf.org/blog/ietf126-new-topics/",
     "description": "These IETF 126 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
@@ -278,14 +310,6 @@
     "pubDate": "2026-06-29T06:40:15.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Notes from NANOG 97",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "AI eats the world, geolocation, measuring IPv6, and the cost of SSH from NANOG 97.",
-    "pubDate": "2026-06-29T03:32:06.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "How we built saga rollbacks for Cloudflare Workflows",
@@ -328,14 +352,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "The White House's post-quantum executive order is an important milestone. It’s time to get to work",
-    "link": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
-    "description": "The new executive order sets a 2030 migration deadline and establishes a powerful foundation for post-quantum resilience. We look at what it gets right, where it can go further, and our migration playbook for government and industry.",
-    "pubDate": "2026-06-23T18:25:18.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "How Do We Manage Vulnerabilities in the Age of AI?",
     "link": "https://labs.ripe.net/author/kathleen_moriarty/how-do-we-manage-vulnerabilities-in-the-age-of-ai/",
     "description": "AI-assisted development is changing more than how software is written. It might also force us to reconsider the processes we use to identify, track, and manage vulnerabilities.",
@@ -348,14 +364,6 @@
     "link": "https://labs.ripe.net/author/ilke-ilhan/gm-may-2026-why-did-people-vote-the-way-they-did/",
     "description": "The May 2026 RIPE NCC General Meeting saw unusually high participation and one of the closest votes in recent years. By examining turnout data, voting patterns and member demographics, we ask what might have influenced the outcome and what all this tells us about our members.",
     "pubDate": "2026-06-17T11:27:08.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Independent Infrastructure Requires Investment",
-    "link": "https://labs.ripe.net/author/hans_petter_holen/independent-infrastructure-requires-investment/",
-    "description": "An analysis of our infrastructure has given us a clearer picture of what is needed to move the RIPE NCC towards a more independent and self-hosted approach. We are now planning a major rebuild to create a more resilient and secure infrastructure that can support the services our …",
-    "pubDate": "2026-06-16T11:27:21.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
@@ -468,14 +476,6 @@
     "link": "https://www.arin.net/blog/2026/05/11/arin-57-keynote-demystifying-rpki/",
     "description": "Last month's ARIN 57 meeting featured a keynote address that offered something extremely valuable in the routing security world: practical tools built by someone who spends his days helping real network operators improve routing integrity. Learn what Steve Wallace, Director of Ro…",
     "pubDate": "2026-05-11T16:30:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "CaribNOG 31: Strengthening the Caribbean’s Digital Resilience",
-    "link": "https://www.arin.net/blog/2026/05/05/caribnog-31/",
-    "description": "Across the Caribbean, the conversation about digital infrastructure has changed. CaribNOG 31 — convened in Kingston, Jamaica, on 14-16 April 2026 — expressed that shift with particular clarity.",
-    "pubDate": "2026-05-05T19:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
