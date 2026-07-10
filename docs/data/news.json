@@ -1,5 +1,29 @@
 [
   {
+    "title": "Continuity Is Not Legitimacy: Why Internet Institutions Need a Governance Stress Test",
+    "link": "https://circleid.com/posts/continuity&#45;is&#45;not&#45;legitimacy&#45;why&#45;internet&#45;institutions&#45;need&#45;a&#45;governance&#45;stress&#45;test",
+    "description": "Internet institutions can remain operational while losing the legitimacy that sustains their authority. A proposed governance stress test distinguishes continuity from legitimacy, helping expose capture, substitution, and accountability failures before institutional crises become…",
+    "pubDate": "2026-07-09T16:22:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "What Running .CA and .NL Taught Us About Building Better Registry Infrastructure",
+    "link": "https://circleid.com/posts/what&#45;running&#45;dot&#45;ca&#45;and&#45;dot&#45;nl&#45;taught&#45;us&#45;about&#45;building&#45;better&#45;registry&#45;infrastructure",
+    "description": "Running .CA and .NL has taught Hello Registry that true back-end excellence depends on resilience, adaptability and operational experience, helping registries navigate evolving technical, policy and security demands with confidence and long-term stability.",
+    "pubDate": "2026-07-09T15:56:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why we cannot wait for better post-quantum signature algorithms",
+    "link": "https://blog.cloudflare.com/the-quantum-menace/",
+    "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently availa…",
+    "pubDate": "2026-07-09T14:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "ASPA at APNIC: Strengthening BGP path validation",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
@@ -176,28 +200,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "IP Geolocation: The New Infrastructure for Internet Interoperability",
-    "link": "https://circleid.com/posts/ip&#45;geolocation&#45;the&#45;new&#45;infrastructure&#45;for&#45;internet&#45;interoperability",
-    "description": "IP geolocation has evolved from routing metadata into essential Internet infrastructure, enabling compliant content delivery, cybersecurity, and digital governance while raising urgent questions about transparency, interoperability, and fragmentation risks worldwide for policymak…",
-    "pubDate": "2026-07-03T14:34:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "SSH key exchange failures when managing legacy network devices",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
     "pubDate": "2026-07-02T22:37:20.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "When AI Answers, Who Decides What We Get to Know?",
-    "link": "https://circleid.com/posts/when&#45;ai&#45;answers&#45;who&#45;decides&#45;what&#45;we&#45;get&#45;to&#45;know",
-    "description": "AI assistants are replacing search with synthesized answers, concentrating decisions about what information people see. As discovery narrows through a handful of platforms, preserving transparency, diversity, and accountable governance becomes increasingly urgent.",
-    "pubDate": "2026-07-02T21:55:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Birds of a Feather at IETF 126",
@@ -342,14 +350,6 @@
     "pubDate": "2026-06-24T06:13:20.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
-    "link": "https://developers.cloudflare.com/changelog/post/2026-06-03-public-oauth-clients/",
-    "description": "Self-Managed OAuth is now available to all developers on Cloudflare. Here's how we executed a zero-downtime migration of our core OAuth engine to make it happen.",
-    "pubDate": "2026-06-24T06:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "How Do We Manage Vulnerabilities in the Age of AI?",
