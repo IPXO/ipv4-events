@@ -1,5 +1,53 @@
 [
   {
+    "title": "Under the DNS Hood of an Ongoing Legacy MSHTA Tool Attack",
+    "link": "https://circleid.com/posts/under&#45;the&#45;dns&#45;hood&#45;of&#45;an&#45;ongoing&#45;legacy&#45;mshta&#45;tool&#45;attack",
+    "description": "A DNS analysis of infrastructure behind ongoing MSHTA abuse uncovered malicious registrations, typosquatting clusters, victim activity, and hundreds of linked indicators, revealing how legacy Windows tooling continues enabling modern malware campaigns through interconnected DNS i…",
+    "pubDate": "2026-07-10T16:16:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Is AI Really Changing Internet Traffic Patterns?",
+    "link": "https://circleid.com/posts/is&#45;ai&#45;really&#45;changing&#45;internet&#45;traffic&#45;patterns",
+    "description": "Claims that AI is reshaping internet traffic are gaining attention, but evidence remains mixed as residential ISPs report little change while business networks see steadier demand and faster upstream growth today warrants closer industry scrutiny.",
+    "pubDate": "2026-07-10T15:57:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Public Data Is Not Public Infrastructure",
+    "link": "https://circleid.com/posts/public&#45;data&#45;is&#45;not&#45;public&#45;infrastructure",
+    "description": "Building infrastructure for public trademark data revealed a familiar lesson from Internet protocols: publishing information is only the beginning. The real challenge is engineering resilient systems that withstand inconsistent formats, unreliable sources, and organisational comp…",
+    "pubDate": "2026-07-10T15:39:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "IPv4 Market Enters a New Phase of Price Recovery and Supply Discipline",
+    "link": "https://circleid.com/posts/ipv4&#45;market&#45;enters&#45;a&#45;new&#45;phase&#45;of&#45;price&#45;recovery&#45;and&#45;supply&#45;discipline",
+    "description": "After months of stabilization, the IPv4 market is showing renewed pricing strength as inventory tightens and buyer competition increases, signaling a firmer environment while durable demand continues to support long-term market fundamentals and future value.",
+    "pubDate": "2026-07-10T15:26:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Improving Smart Tiered Cache for Public Cloud Regions",
+    "link": "https://blog.cloudflare.com/tiered-cache-smart-topology",
+    "description": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
+    "pubDate": "2026-07-10T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "pubDate": "2026-07-10T09:20:25.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Continuity Is Not Legitimacy: Why Internet Institutions Need a Governance Stress Test",
     "link": "https://circleid.com/posts/continuity&#45;is&#45;not&#45;legitimacy&#45;why&#45;internet&#45;institutions&#45;need&#45;a&#45;governance&#45;stress&#45;test",
     "description": "Internet institutions can remain operational while losing the legitimacy that sustains their authority. A proposed governance stress test distinguishes continuity from legitimacy, helping expose capture, substitution, and accountability failures before institutional crises become…",
@@ -136,22 +184,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "IPv4 Market in H1 2026: A Price Reset, Not a Market Collapse",
-    "link": "https://circleid.com/posts/ipv4&#45;market&#45;in&#45;h1&#45;2026&#45;a&#45;price&#45;reset&#45;not&#45;a&#45;market&#45;collapse",
-    "description": "IPv4 transfers accelerated in the first half of 2026, but surging activity masked a decisive pricing reset as average values fell, sellers accepted lower valuations, and the market settled into a more mature equilibrium overall.",
-    "pubDate": "2026-07-06T19:44:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "macOS ClickFix Campaign Delivers AMOS and Other Infostealers: A DNS Deep Dive",
-    "link": "https://circleid.com/posts/macos&#45;clickfix&#45;campaign&#45;delivers&#45;amos&#45;and&#45;other&#45;infostealers&#45;a&#45;dns&#45;deep&#45;dive",
-    "description": "A DNS deep dive into Microsoft's macOS ClickFix campaign uncovered victim infrastructure, typosquatting clusters, malicious registrations, and hundreds of linked indicators, exposing a broader infostealer ecosystem beyond the original 140 network IoCs identified by Microsoft.",
-    "pubDate": "2026-07-06T15:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Your Worker can now have its own cache in front of it",
     "link": "https://developers.cloudflare.com/cache/how-to/tiered-cache/",
     "description": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
@@ -182,22 +214,6 @@
     "pubDate": "2026-07-06T05:41:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Quantum Readiness Governance: Why Regulators Must Measure, Not Just Warn",
-    "link": "https://circleid.com/posts/quantum&#45;readiness&#45;governance&#45;why&#45;regulators&#45;must&#45;measure&#45;not&#45;just&#45;warn",
-    "description": "Quantum policy has shifted from warning about future threats to measuring institutional readiness, creating an urgent need for governance frameworks that let regulators, auditors and boards assess, compare and verify post-quantum migration before deadlines arrive.",
-    "pubDate": "2026-07-04T16:30:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Multi-Stakeholder Mirage: How Internet Governance Turned Attendance Into Mandate",
-    "link": "https://circleid.com/posts/the&#45;multi&#45;stakeholder&#45;mirage&#45;how&#45;internet&#45;governance&#45;turned&#45;attendance&#45;into&#45;mandate",
-    "description": "Internet multi-stakeholder governance mistakes participation for legitimacy, granting policy processes implied authority without public authorization. As IPv4 becomes capital, operator accountability, not attendance, should define binding decision-making and institutional legitim…",
-    "pubDate": "2026-07-04T16:04:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "SSH key exchange failures when managing legacy network devices",
@@ -272,14 +288,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Rising CVEs in the AI epoch",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Vulnerability disclosures are rising sharply, but that does not mean risk is increasing. As AI-driven discovery floods defenders with more data but not more threats, success now depends on identifying what matters and acting faster.",
-    "pubDate": "2026-07-01T01:40:30.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "RIPE NCC Days Baltics: Insights into Regional Resilience",
     "link": "https://labs.ripe.net/author/kjerstin-burdiek/ripe-ncc-days-baltics-insights-into-regional-resilience/",
     "description": "On 3-4 June 2026, we convened in Riga, Latvia for RIPE NCC Days Baltics. 76 participants from nine countries participated in sessions covering important topics in network operations, with a special focus on resilience for a region that has seen repeated network disruptions in rec…",
@@ -318,14 +326,6 @@
     "pubDate": "2026-06-29T06:40:15.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "How we built saga rollbacks for Cloudflare Workflows",
-    "link": "https://developers.cloudflare.com/workflows/",
-    "description": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
-    "pubDate": "2026-06-25T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "What Makes NOGs Tick",
