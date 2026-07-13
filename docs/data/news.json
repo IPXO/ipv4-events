@@ -1,5 +1,29 @@
 [
   {
+    "title": "Data synchronization",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Distributed systems depend on synchronization, but every approach has tradeoffs. From full copies to delta updates, how do you choose the right method?",
+    "pubDate": "2026-07-13T05:47:45.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Life on the Internet adoption curve",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "pubDate": "2026-07-12T22:53:59.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Implementation Gap: Why Africa&#8217;s Digital Strategies Rarely Become Digital Reality",
+    "link": "https://circleid.com/posts/the&#45;implementation&#45;gap&#45;why&#45;africas&#45;digital&#45;strategies&#45;rarely&#45;become&#45;digital&#45;reality",
+    "description": "Africa has digital strategies in abundance, but weak institutions, inconsistent leadership, poor governance and limited execution keep ambitious policies from delivering trusted, interoperable public services and sustainable digital transformation across the continent in practice…",
+    "pubDate": "2026-07-12T16:14:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Under the DNS Hood of an Ongoing Legacy MSHTA Tool Attack",
     "link": "https://circleid.com/posts/under&#45;the&#45;dns&#45;hood&#45;of&#45;an&#45;ongoing&#45;legacy&#45;mshta&#45;tool&#45;attack",
     "description": "A DNS analysis of infrastructure behind ongoing MSHTA abuse uncovered malicious registrations, typosquatting clusters, victim activity, and hundreds of linked indicators, revealing how legacy Windows tooling continues enabling modern malware campaigns through interconnected DNS i…",
@@ -160,14 +184,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Network Challenges from AI Traffic",
-    "link": "https://circleid.com/posts/network&#45;challenges&#45;from&#45;ai&#45;traffic",
-    "description": "Cisco warns AI traffic will reshape internet infrastructure as inference workloads demand lower latency, stronger upstream capacity and new network architectures, with AI expected to generate one quarter of web traffic by 2035 worldwide eventually.",
-    "pubDate": "2026-07-07T18:42:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
     "link": "https://www.gov.uk/government/news/businesses-across-britain-sign-up-to-cyber-resilience-pledge-as-ministers-urge-firms-to-strengthen-cyber-defences",
     "description": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership a…",
@@ -216,28 +232,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "SSH key exchange failures when managing legacy network devices",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
-    "pubDate": "2026-07-02T22:37:20.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Birds of a Feather at IETF 126",
     "link": "http://www.ietf.org/blog/ietf126-bofs/",
     "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026.. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions—and these are often the most interesting place to watch where the Internet's standards work is…",
     "pubDate": "2026-07-02T15:39:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "The economics of SpaceX",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "SpaceX and Starlink's valuation, reality, and the limits of connectivity economics.",
-    "pubDate": "2026-07-02T01:27:56.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "From Lab to RFC: A PhD Student's Journey through the IETF",
