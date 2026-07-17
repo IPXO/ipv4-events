@@ -1,5 +1,37 @@
 [
   {
+    "title": "Rethinking non‑access stratum timers for LEO satellite constellations in 5G and beyond",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: AstroTimer starts from a simple but important question: Can we compute NAS timers directly from LEO‑specific conditions, such as path length, link variability, and NF load, using a closed‑form, low‑cost model?",
+    "pubDate": "2026-07-16T23:28:28.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Community Networks Offer a Durable Route Across the Digital Divide",
+    "link": "https://circleid.com/posts/community&#45;networks&#45;offer&#45;a&#45;durable&#45;route&#45;across&#45;the&#45;digital&#45;divide",
+    "description": "An ITU report finds that community-owned networks, backed by reliable technology, flexible financing and supportive regulation, can bring affordable, meaningful internet access to remote populations that traditional providers have struggled to reach at lasting scale.",
+    "pubDate": "2026-07-16T16:40:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why Operational Readiness Will Define the Next Generation of TLDs",
+    "link": "https://circleid.com/posts/why&#45;operational&#45;readiness&#45;will&#45;define&#45;the&#45;next&#45;generation&#45;of&#45;tlds",
+    "description": "Launching a top-level domain is only the beginning. Hello Registry combines ICANN-approved expertise, flexible infrastructure and long-term operational support to help brands, communities and innovators build and manage secure, future-ready TLDs with confidence for years.",
+    "pubDate": "2026-07-16T16:19:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The gTLD Registrar Market Is Uniform in Rules, Not in Structure",
+    "link": "https://circleid.com/posts/the&#45;gtld&#45;registrar&#45;market&#45;is&#45;uniform&#45;in&#45;rules&#45;not&#45;in&#45;structure",
+    "description": "ICANN applies identical rules to every registrar, yet new research reveals a sharply unequal market where seven firms capture half of inflows, renewals dominate activity, and many accreditations barely operate at all in practice today.",
+    "pubDate": "2026-07-16T16:17:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "APNIC Foundation&#8217;s BCAP project wins 2026 WSIS Prize for Capacity Building",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC Foundation’s Building Capabilities in the Asia Pacific (BCAP) project has won the 2026 WSIS Prize for capacity building, recognizing its impact on developing Internet skills across the Asia Pacific.",
@@ -136,22 +168,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Public Data Is Not Public Infrastructure",
-    "link": "https://circleid.com/posts/public&#45;data&#45;is&#45;not&#45;public&#45;infrastructure",
-    "description": "Building infrastructure for public trademark data revealed a familiar lesson from Internet protocols: publishing information is only the beginning. The real challenge is engineering resilient systems that withstand inconsistent formats, unreliable sources, and organisational comp…",
-    "pubDate": "2026-07-10T15:39:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "IPv4 Market Enters a New Phase of Price Recovery and Supply Discipline",
-    "link": "https://circleid.com/posts/ipv4&#45;market&#45;enters&#45;a&#45;new&#45;phase&#45;of&#45;price&#45;recovery&#45;and&#45;supply&#45;discipline",
-    "description": "After months of stabilization, the IPv4 market is showing renewed pricing strength as inventory tightens and buyer competition increases, signaling a firmer environment while durable demand continues to support long-term market fundamentals and future value.",
-    "pubDate": "2026-07-10T15:26:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Improving Smart Tiered Cache for Public Cloud Regions",
     "link": "https://blog.cloudflare.com/tiered-cache-smart-topology",
     "description": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
@@ -166,14 +182,6 @@
     "pubDate": "2026-07-10T09:20:25.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Continuity Is Not Legitimacy: Why Internet Institutions Need a Governance Stress Test",
-    "link": "https://circleid.com/posts/continuity&#45;is&#45;not&#45;legitimacy&#45;why&#45;internet&#45;institutions&#45;need&#45;a&#45;governance&#45;stress&#45;test",
-    "description": "Internet institutions can remain operational while losing the legitimacy that sustains their authority. A proposed governance stress test distinguishes continuity from legitimacy, helping expose capture, substitution, and accountability failures before institutional crises become…",
-    "pubDate": "2026-07-09T16:22:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Why we cannot wait for better post-quantum signature algorithms",
@@ -236,14 +244,6 @@
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC Executive Council (EC) is seeking community input to better understand barriers affecting diversity in community leadership and EC candidacy. These insights will inform future initiatives to support a broader leadership pipeline.",
     "pubDate": "2026-07-08T03:58:29.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
-    "pubDate": "2026-07-08T01:09:23.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
