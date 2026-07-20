@@ -1,5 +1,21 @@
 [
   {
+    "title": "IPv6 address planning: From ‘bit conservation’ to ‘elegant alignment’",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: When planning IPv6 addressing schemes, many engineers still carry over habits from the IPv4 era. The instinct is to conserve every possible bit and to compress region, service, and network type information into the smallest space that meets current needs. While this a…",
+    "pubDate": "2026-07-20T04:00:30.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "What Zone File Analysis Reveals About the Gap Between nTLD Registration Volume and Namespace Reality",
+    "link": "https://circleid.com/posts/zone&#45;file&#45;analysis&#45;ntld&#45;registration&#45;volume&#45;and&#45;namespace&#45;reality",
+    "description": "Registration totals reveal size, not composition. Structural analysis of major new gTLDs finds strikingly similar architectures but meaningful differences in operator adoption, speculative holdings, and noise, suggesting namespace health requires more than volume metrics alone.",
+    "pubDate": "2026-07-19T15:26:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
     "link": "https://wordpress.org/news/2026/07/wordpress-7-0-2-release/",
     "description": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
@@ -168,14 +184,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The Implementation Gap: Why Africa&#8217;s Digital Strategies Rarely Become Digital Reality",
-    "link": "https://circleid.com/posts/the&#45;implementation&#45;gap&#45;why&#45;africas&#45;digital&#45;strategies&#45;rarely&#45;become&#45;digital&#45;reality",
-    "description": "Africa has digital strategies in abundance, but weak institutions, inconsistent leadership, poor governance and limited execution keep ambitious policies from delivering trusted, interoperable public services and sustainable digital transformation across the continent in practice…",
-    "pubDate": "2026-07-12T16:14:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Improving Smart Tiered Cache for Public Cloud Regions",
     "link": "https://blog.cloudflare.com/tiered-cache-smart-topology",
     "description": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
@@ -246,14 +254,6 @@
     "pubDate": "2026-07-08T05:26:26.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Join the next listening session on increasing diversity in APNIC community leadership",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The APNIC Executive Council (EC) is seeking community input to better understand barriers affecting diversity in community leadership and EC candidacy. These insights will inform future initiatives to support a broader leadership pipeline.",
-    "pubDate": "2026-07-08T03:58:29.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
