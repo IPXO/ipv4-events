@@ -1,5 +1,45 @@
 [
   {
+    "title": "APNIC 62 workshops build practical skills for modern network operations",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "APNIC 62 features three hands-on workshops that help network professionals automate operations, strengthen security, and deploy next-generation routing technologies.",
+    "pubDate": "2026-07-21T03:11:53.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Cloudflare Internal DNS is now generally available",
+    "link": "https://developers.cloudflare.com/cloudflare-one/traffic-policies/dns-policies/",
+    "description": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+    "pubDate": "2026-07-20T20:59:31.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Who Is &#8220;the Community&#8221;? The Missing Constitutional Question in Multistakeholder Internet Governance",
+    "link": "https://circleid.com/posts/the&#45;missing&#45;constitutional&#45;question&#45;in&#45;multistakeholder&#45;internet&#45;governance",
+    "description": "Internet-governance bodies routinely invoke \"the community\" to legitimize decisions. The Constituent Community Doctrine asks who holds authority, how mandates are conferred, and when institutional claims exceed, distort or outlive the consent on which they rest.",
+    "pubDate": "2026-07-20T16:07:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Digital Sovereignty Is More Than Data Sovereignty: Understanding Africa&#8217;s Digital Dependency Stack",
+    "link": "https://circleid.com/posts/digital&#45;sovereignty&#45;is&#45;more&#45;than&#45;data&#45;sovereignty&#45;understanding&#45;africas&#45;digital&#45;dependency&#45;stack",
+    "description": "Africa's pursuit of digital sovereignty demands more than keeping data at home. True resilience depends on controlling the infrastructure, platforms, cybersecurity capabilities, governance, and human expertise that underpin an increasingly interconnected digital economy across Af…",
+    "pubDate": "2026-07-20T15:52:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Who's Running All Those Tiny RPKI Servers?",
+    "link": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
+    "description": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
+    "pubDate": "2026-07-20T07:57:23.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "IPv6 address planning: From ‘bit conservation’ to ‘elegant alignment’",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: When planning IPv6 addressing schemes, many engineers still carry over habits from the IPv4 era. The instinct is to conserve every possible bit and to compress region, service, and network type information into the smallest space that meets current needs. While this a…",
@@ -112,22 +152,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "ZEGO&#8217;s Cyberattack Pushes Bavarian Textile Firm Into Insolvency",
-    "link": "https://circleid.com/posts/zegos&#45;cyberattack&#45;pushes&#45;bavarian&#45;textile&#45;firm&#45;into&#45;insolvency",
-    "description": "A cyberattack forced Bavarian textile specialist ZEGO into insolvency after a six-week production shutdown. The company is pursuing restructuring efforts to preserve jobs, customer relationships and its future amid growing cyber risks.",
-    "pubDate": "2026-07-14T19:29:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "FBI Warns of Russian Cyber Campaign Targeting Vulnerable Routers",
-    "link": "https://circleid.com/posts/fbi&#45;warns&#45;of&#45;russian&#45;cyber&#45;campaign&#45;targeting&#45;vulnerable&#45;routers",
-    "description": "The FBI and international partners warn that Russia's FSB Center 16 is exploiting vulnerable routers worldwide, highlighting persistent weaknesses in network security and urging organizations to adopt stronger protections to safeguard critical infrastructure against intrusion.",
-    "pubDate": "2026-07-14T19:12:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "IETF Community Survey 2025",
     "link": "http://www.ietf.org/blog/ietf-community-survey-2025/",
     "description": "The IETF Community Survey provides a comprehensive assessment of community demographics, engagement patterns, and perceptions of organizational effectiveness. Read the full findings below.",
@@ -202,7 +226,7 @@
   {
     "title": "Why we cannot wait for better post-quantum signature algorithms",
     "link": "https://blog.cloudflare.com/the-quantum-menace/",
-    "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently availa…",
+    "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
     "pubDate": "2026-07-09T13:40:47.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
@@ -212,14 +236,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
     "pubDate": "2026-07-09T06:13:33.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "[Podcast] Testing RSSAC 028 DNS root server name choices",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
-    "pubDate": "2026-07-08T23:29:45.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -296,14 +312,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Making AI search smarter",
-    "link": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
-    "description": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
-    "pubDate": "2026-07-01T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Unmasking the crawls with Attribution Business Insights",
     "link": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
     "description": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
@@ -366,14 +374,6 @@
     "pubDate": "2026-06-24T18:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "IPv6-Only vs IPv6-Mostly: Appropriate Use Cases",
-    "link": "https://labs.ripe.net/author/jordipaletm/ipv6-only-vs-ipv6-mostly-appropriate-use-cases/",
-    "description": "Not all IPv6 deployment models belong in the same flock. IPv6-Only and IPv6-Mostly are often discussed as if they were interchangeable, but each was designed for different environments. This article explores why matching the right approach to the right use case matters.",
-    "pubDate": "2026-06-24T06:13:20.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Ready to Run? Your Guide to ARIN Elections Nominations",
