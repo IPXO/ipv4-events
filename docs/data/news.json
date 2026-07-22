@@ -1,5 +1,45 @@
 [
   {
+    "title": "Bringing APNIC closer to Members: SANOG to host next APNIC Sub-Regional Forum",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "APNIC’s next Sub-Regional Forum at SANOG in Kathmandu, Nepal, will bring Internet operations, policy, and community discussions closer to Members in South Asia.",
+    "pubDate": "2026-07-21T23:03:55.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Business Value of dotBrand: Twelve Real-World Success Stories",
+    "link": "https://circleid.com/posts/the&#45;business&#45;value&#45;of&#45;dotbrand&#45;twelve&#45;real&#45;world&#45;success&#45;stories",
+    "description": "Twelve real-world dotBrand success stories show how organizations strengthen trust, improve security, simplify customer experiences, and create measurable business value. From AI-driven innovation to global digital ecosystems, dotBrand domains are becoming essential infrastructur…",
+    "pubDate": "2026-07-21T19:48:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Don’t Get Your Wires Crossed: Appropriate Use Cases for IPv6-Only vs. IPv6-Mostly",
+    "link": "https://www.arin.net/blog/2026/07/21/ipv6-mostly/",
+    "description": "Terms like IPv6-only and IPv6-mostly are a clear example of how IETF terminology often lacks clarity. IPv6 expert Jordi Palet Martínez, explains why the correct use of these terms requires specifying a scope of application.",
+    "pubDate": "2026-07-21T16:00:35.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "How the 2026 World Cup affected Internet traffic",
+    "link": "https://blog.cloudflare.com/tag/internet-shutdown/",
+    "description": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
+    "pubDate": "2026-07-21T12:59:40.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
+    "link": "https://labs.ripe.net/author/antonio-prado/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
+    "description": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
+    "pubDate": "2026-07-21T12:33:47.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "APNIC 62 workshops build practical skills for modern network operations",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "APNIC 62 features three hands-on workshops that help network professionals automate operations, strengthen security, and deploy next-generation routing technologies.",
@@ -144,14 +184,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Shaping the Future of the IGF: Integration, Relevance and Impact in the Post-WSIS+20 Era",
-    "link": "https://circleid.com/posts/shaping&#45;the&#45;future&#45;of&#45;the&#45;igf&#45;integration&#45;relevance&#45;and&#45;impact&#45;in&#45;the&#45;post&#45;wsis20&#45;era",
-    "description": "The Internet Governance Forum has secured its permanent place in the UN system. Its next challenge is to strengthen its relevance, deepen multistakeholder collaboration, and deliver greater impact across an increasingly complex and fragmented digital governance landscape.",
-    "pubDate": "2026-07-14T19:32:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "IETF Community Survey 2025",
     "link": "http://www.ietf.org/blog/ietf-community-survey-2025/",
     "description": "The IETF Community Survey provides a comprehensive assessment of community demographics, engagement patterns, and perceptions of organizational effectiveness. Read the full findings below.",
@@ -232,14 +264,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "ASPA at APNIC: Strengthening BGP path validation",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
-    "pubDate": "2026-07-09T06:13:33.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Introducing Meerkat: an experiment in global consensus",
     "link": "https://raft.github.io/",
     "description": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
@@ -312,14 +336,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Unmasking the crawls with Attribution Business Insights",
-    "link": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
-    "description": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
-    "pubDate": "2026-07-01T06:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "RIPE NCC Days Baltics: Insights into Regional Resilience",
     "link": "https://labs.ripe.net/author/kjerstin-burdiek/ripe-ncc-days-baltics-insights-into-regional-resilience/",
     "description": "On 3-4 June 2026, we convened in Riga, Latvia for RIPE NCC Days Baltics. 76 participants from nine countries participated in sessions covering important topics in network operations, with a special focus on resilience for a region that has seen repeated network disruptions in rec…",
@@ -356,14 +372,6 @@
     "link": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
     "description": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network? We built a tool to find out.",
     "pubDate": "2026-06-29T06:40:15.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "What Makes NOGs Tick",
-    "link": "https://labs.ripe.net/author/alastair_strachan/what-makes-nogs-tick/",
-    "description": "NOGs take many different forms across the RIPE region, but where does their real value lie? Drawing on the results of two 2026 surveys, we explore what NOGs mean to the communities that build them, the barriers they face, and what it takes to keep these groups going.",
-    "pubDate": "2026-06-25T05:17:56.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
@@ -470,13 +478,5 @@
     "pubDate": "2026-05-12T08:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Demystifying RPKI: New Tools to Simplify ROA Planning and Visualize Validation",
-    "link": "https://www.arin.net/blog/2026/05/11/arin-57-keynote-demystifying-rpki/",
-    "description": "Last month's ARIN 57 meeting featured a keynote address that offered something extremely valuable in the routing security world: practical tools built by someone who spends his days helping real network operators improve routing integrity. Learn what Steve Wallace, Director of Ro…",
-    "pubDate": "2026-05-11T16:30:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
   }
 ]
