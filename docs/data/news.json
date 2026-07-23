@@ -1,5 +1,45 @@
 [
   {
+    "title": "What's ARP Got to Do with It?",
+    "link": "https://labs.ripe.net/author/remco-van-mook/whats-arp-got-to-do-with-it/",
+    "description": "It's only ARP. It works. So how much can it really matter? The answer lies beyond ARP itself, in the IPv4 layer cake that grew around it over four decades. The IPv4 internet is not going away in bounded time, and nobody should pretend otherwise.",
+    "pubDate": "2026-07-23T06:35:41.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "[Podcast] DNS query duplication",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Why does APNIC Labs experimental systems see almost all DNS queries twice or more?",
+    "pubDate": "2026-07-22T20:30:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Why AI Traffic Needs Its IP Classification",
+    "link": "https://circleid.com/posts/why&#45;ai&#45;traffic&#45;needs&#45;its&#45;ip&#45;classification",
+    "description": "As AI agents increasingly act on users' behalf, the internet's human-versus-bot divide is breaking down. A dedicated AI IP classification could replace guesswork with transparent, context-aware traffic policies that improve access, enforcement, and infrastructure efficiency.",
+    "pubDate": "2026-07-22T15:17:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why Are We Building 6G?",
+    "link": "https://circleid.com/posts/why&#45;are&#45;we&#45;building&#45;6g",
+    "description": "As 6G development accelerates, its promises of faster speeds, lower latency, and immersive applications raise questions about whether carriers can justify another costly network upgrade when 5G's commercial promises remain largely unfulfilled across the industry.",
+    "pubDate": "2026-07-22T15:06:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
+    "link": "https://labs.ripe.net/author/mdkamruzzaman-khan-2/inside-a-shutdown-bgp-evidence-from-an-operator-who-was-there/",
+    "description": "When Bangladesh vanished from the global routing table in July 2024, public routing data captured the event as it unfolded. Drawing on first-hand observations from inside one affected network, this article explores what that data can and cannot tell us.",
+    "pubDate": "2026-07-22T11:29:16.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Bringing APNIC closer to Members: SANOG to host next APNIC Sub-Regional Forum",
     "link": "https://blog.apnic.net/category/community/",
     "description": "APNIC’s next Sub-Regional Forum at SANOG in Kathmandu, Nepal, will bring Internet operations, policy, and community discussions closer to Members in South Asia.",
@@ -144,28 +184,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "The gTLD Registrar Market Is Uniform in Rules, Not in Structure",
-    "link": "https://circleid.com/posts/the&#45;gtld&#45;registrar&#45;market&#45;is&#45;uniform&#45;in&#45;rules&#45;not&#45;in&#45;structure",
-    "description": "ICANN applies identical rules to every registrar, yet new research reveals a sharply unequal market where seven firms capture half of inflows, renewals dominate activity, and many accreditations barely operate at all in practice today.",
-    "pubDate": "2026-07-16T16:17:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "APNIC Foundation&#8217;s BCAP project wins 2026 WSIS Prize for Capacity Building",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC Foundation’s Building Capabilities in the Asia Pacific (BCAP) project has won the 2026 WSIS Prize for capacity building, recognizing its impact on developing Internet skills across the Asia Pacific.",
     "pubDate": "2026-07-16T04:01:31.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "What the i2Coalition Article Misses About DNS Abuse",
-    "link": "https://circleid.com/posts/what&#45;the&#45;i2coalition&#45;article&#45;misses&#45;about&#45;dns&#45;abuse",
-    "description": "Authors defend research showing malicious domain registrations occur at industrial scale, arguing that blocklist data is reliable and that policymakers must prioritize prevention alongside mitigation to curb cybercriminal exploitation of the domain name market globally.",
-    "pubDate": "2026-07-15T15:32:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Many Sovereignties, One Internet",
@@ -248,18 +272,10 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
-    "pubDate": "2026-07-10T09:20:25.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Why we cannot wait for better post-quantum signature algorithms",
     "link": "https://blog.cloudflare.com/the-quantum-menace/",
-    "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
-    "pubDate": "2026-07-09T13:40:47.000Z",
+    "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently availa…",
+    "pubDate": "2026-07-09T14:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -352,28 +368,12 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Local Hubs at RIPE 92: Bringing the Community Together, Wherever We Are",
-    "link": "https://labs.ripe.net/author/gergana_petrova/local-hubs-at-ripe-92-bringing-the-community-together-wherever-we-are/",
-    "description": "Three local hubs at RIPE 92 brought people together to participate in the meeting remotely. We look at what organisers in Bulgaria, Türkiye and Poland learned about bringing the RIPE Meeting experience closer to home.",
-    "pubDate": "2026-06-30T07:03:09.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Suggested IETF 126 Sessions for Getting Familiar with New Topics",
     "link": "http://www.ietf.org/blog/ietf126-new-topics/",
     "description": "These IETF 126 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
     "pubDate": "2026-06-29T17:15:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "ASPA Is Live. Can You See It Working?",
-    "link": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
-    "description": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network? We built a tool to find out.",
-    "pubDate": "2026-06-29T06:40:15.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Bridging Policy and Operations: An ARIN 57 Fellowship Experience",
