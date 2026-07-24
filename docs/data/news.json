@@ -1,5 +1,37 @@
 [
   {
+    "title": "The delicate art of cryptographic maintenance: When small certs break big chains",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Around mid-2026, we began receiving user complaints about certificate validation failures. The failure wasn’t a single bug, but the collision of optimization and slow distribution.",
+    "pubDate": "2026-07-23T23:49:56.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Long Wait for .web Ends",
+    "link": "https://circleid.com/posts/the&#45;long&#45;wait&#45;for&#45;.web&#45;ends",
+    "description": "After a decade of legal disputes, Verisign has secured .web and will launch the long-awaited domain later this year, opening a new chapter in digital identity while raising fresh questions about pricing, adoption and competition.",
+    "pubDate": "2026-07-23T19:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Algorithmic Ceiling: How AI Surveillance Criminalizes Disability",
+    "link": "https://circleid.com/posts/the&#45;algorithmic&#45;ceiling&#45;how&#45;ai&#45;surveillance&#45;criminalizes&#45;disability",
+    "description": "AI surveillance systems increasingly classify human differences as algorithmic risk, leaving persons with disabilities vulnerable to exclusion, misclassification, and invisible barriers that threaten decades of progress in accessibility, accountability, and digital inclusion thro…",
+    "pubDate": "2026-07-23T19:15:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing Cache Response Rules",
+    "link": "https://developers.cloudflare.com/rules/page-rules/",
+    "description": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time.",
+    "pubDate": "2026-07-23T18:40:38.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "What's ARP Got to Do with It?",
     "link": "https://labs.ripe.net/author/remco-van-mook/whats-arp-got-to-do-with-it/",
     "description": "It's only ARP. It works. So how much can it really matter? The answer lies beyond ARP itself, in the IPv4 layer cake that grew around it over four decades. The IPv4 internet is not going away in bounded time, and nobody should pretend otherwise.",
@@ -168,22 +200,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Community Networks Offer a Durable Route Across the Digital Divide",
-    "link": "https://circleid.com/posts/community&#45;networks&#45;offer&#45;a&#45;durable&#45;route&#45;across&#45;the&#45;digital&#45;divide",
-    "description": "An ITU report finds that community-owned networks, backed by reliable technology, flexible financing and supportive regulation, can bring affordable, meaningful internet access to remote populations that traditional providers have struggled to reach at lasting scale.",
-    "pubDate": "2026-07-16T16:40:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Why Operational Readiness Will Define the Next Generation of TLDs",
-    "link": "https://circleid.com/posts/why&#45;operational&#45;readiness&#45;will&#45;define&#45;the&#45;next&#45;generation&#45;of&#45;tlds",
-    "description": "Launching a top-level domain is only the beginning. Hello Registry combines ICANN-approved expertise, flexible infrastructure and long-term operational support to help brands, communities and innovators build and manage secure, future-ready TLDs with confidence for years.",
-    "pubDate": "2026-07-16T16:19:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "APNIC Foundation&#8217;s BCAP project wins 2026 WSIS Prize for Capacity Building",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC Foundation’s Building Capabilities in the Asia Pacific (BCAP) project has won the 2026 WSIS Prize for capacity building, recognizing its impact on developing Internet skills across the Asia Pacific.",
@@ -256,14 +272,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Life on the Internet adoption curve",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
-    "pubDate": "2026-07-12T22:53:59.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Improving Smart Tiered Cache for Public Cloud Regions",
     "link": "https://blog.cloudflare.com/tiered-cache-smart-topology",
     "description": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
@@ -316,14 +324,6 @@
     "link": "https://www.gov.uk/government/news/businesses-across-britain-sign-up-to-cyber-resilience-pledge-as-ministers-urge-firms-to-strengthen-cyber-defences",
     "description": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership a…",
     "pubDate": "2026-07-07T12:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Your Worker can now have its own cache in front of it",
-    "link": "https://developers.cloudflare.com/cache/how-to/tiered-cache/",
-    "description": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
-    "pubDate": "2026-07-06T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
