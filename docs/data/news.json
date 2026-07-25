@@ -1,5 +1,45 @@
 [
   {
+    "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+    "link": "https://www.cloudflare.com/learning/security/glossary/what-is-bgp/",
+    "description": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
+    "pubDate": "2026-07-24T17:25:28.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The Phishing That Hasn&#8217;t Happened Yet: MX Records as Bad-Faith Evidence in UDRP Proceedings",
+    "link": "https://circleid.com/posts/the&#45;phishing&#45;that&#45;hasnt&#45;happened&#45;yet&#45;mx&#45;records&#45;as&#45;bad&#45;faith&#45;evidence&#45;in&#45;udrp&#45;proceedings",
+    "description": "Inactive cybersquatted domains may conceal active email infrastructure. MX records can corroborate bad faith in UDRP disputes when weighed with other evidence, helping panels address fraud risks before harm occurs without conflating capability with misconduct.",
+    "pubDate": "2026-07-24T15:14:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNIB Reports 401.6 Million Domain Name Registrations in Q2 2026",
+    "link": "https://circleid.com/posts/dnib&#45;reports&#45;401.6&#45;million&#45;domain&#45;name&#45;registrations&#45;in&#45;q2&#45;2026",
+    "description": "The second quarter of 2026 closed with 401.6 million domain name registrations across all top-level domains (TLDs), an increase of 29.9 million domain name registrations compared to the second quarter of 2025, according to the latest issue of the Domain Name Industry Brief Quarte…",
+    "pubDate": "2026-07-24T15:05:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Who Registers the Domain That Steals Your Data? The Registrar Accountability Gap in India&#8217;s DNS Abuse Crisis",
+    "link": "https://circleid.com/posts/who&#45;registers&#45;the&#45;domain&#45;that&#45;steals&#45;your&#45;data&#45;the&#45;registrar&#45;accountability&#45;gap&#45;in&#45;indias&#45;dns&#45;abuse&#45;crisis",
+    "description": "India's DNS abuse crisis exposes a registrar accountability gap: malicious domains remain online while vulnerable users bear the cost. Concentrated abuse patterns suggest stronger oversight and faster mitigation could significantly reduce predictable harms nationwide today.",
+    "pubDate": "2026-07-24T14:53:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Momentum Builds as the New gTLD Application Window Enters Its Final Weeks",
+    "link": "https://circleid.com/posts/momentum&#45;builds&#45;as&#45;the&#45;new&#45;gtld&#45;application&#45;window&#45;enters&#45;its&#45;final&#45;weeks",
+    "description": "As the New gTLD Program enters its final application stretch, ICANN's progress, stronger security expectations and clearer operational frameworks are giving applicants greater confidence ahead of ICANN87 in Bali and future expansion of domains worldwide.",
+    "pubDate": "2026-07-24T14:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "The delicate art of cryptographic maintenance: When small certs break big chains",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Around mid-2026, we began receiving user complaints about certificate validation failures. The failure wasn’t a single bug, but the collision of optimization and slow distribution.",
@@ -136,14 +176,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Digital Sovereignty Is More Than Data Sovereignty: Understanding Africa&#8217;s Digital Dependency Stack",
-    "link": "https://circleid.com/posts/digital&#45;sovereignty&#45;is&#45;more&#45;than&#45;data&#45;sovereignty&#45;understanding&#45;africas&#45;digital&#45;dependency&#45;stack",
-    "description": "Africa's pursuit of digital sovereignty demands more than keeping data at home. True resilience depends on controlling the infrastructure, platforms, cybersecurity capabilities, governance, and human expertise that underpin an increasingly interconnected digital economy across Af…",
-    "pubDate": "2026-07-20T15:52:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Who's Running All Those Tiny RPKI Servers?",
     "link": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
     "description": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
@@ -160,36 +192,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "What Zone File Analysis Reveals About the Gap Between nTLD Registration Volume and Namespace Reality",
-    "link": "https://circleid.com/posts/zone&#45;file&#45;analysis&#45;ntld&#45;registration&#45;volume&#45;and&#45;namespace&#45;reality",
-    "description": "Registration totals reveal size, not composition. Structural analysis of major new gTLDs finds strikingly similar architectures but meaningful differences in operator adoption, speculative holdings, and noise, suggesting namespace health requires more than volume metrics alone.",
-    "pubDate": "2026-07-19T15:26:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
     "link": "https://wordpress.org/news/2026/07/wordpress-7-0-2-release/",
     "description": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
     "pubDate": "2026-07-17T21:30:43.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "DNS Investigation: Threat Actor TA4922 Goes Global",
-    "link": "https://circleid.com/posts/dns&#45;investigation&#45;threat&#45;actor&#45;ta4922&#45;goes&#45;global",
-    "description": "TA4922 is expanding beyond nearby targets, deploying a fast-changing malware arsenal across Europe and Africa. A DNS investigation uncovered thousands of connected domains, dozens of malicious assets and signs of compromised victim infrastructure worldwide today.",
-    "pubDate": "2026-07-17T15:56:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Question Isn&#8217;t Whether the Harm Is Real - It&#8217;s Who Should Act",
-    "link": "https://circleid.com/posts/the&#45;question&#45;isnt&#45;whether&#45;the&#45;harm&#45;is&#45;real&#45;its&#45;who&#45;should&#45;act",
-    "description": "Measuring online abuse can reveal its scale, but not who should intervene. Effective policy must distinguish harm from contractual responsibility, identify the actors best placed to act, and target remedies where they can work effectively.",
-    "pubDate": "2026-07-17T15:05:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Rethinking non‑access stratum timers for LEO satellite constellations in 5G and beyond",
@@ -282,7 +290,7 @@
   {
     "title": "Why we cannot wait for better post-quantum signature algorithms",
     "link": "https://blog.cloudflare.com/the-quantum-menace/",
-    "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently availa…",
+    "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.",
     "pubDate": "2026-07-09T14:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
@@ -318,14 +326,6 @@
     "pubDate": "2026-07-08T05:26:26.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
-    "link": "https://www.gov.uk/government/news/businesses-across-britain-sign-up-to-cyber-resilience-pledge-as-ministers-urge-firms-to-strengthen-cyber-defences",
-    "description": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership a…",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "When Internet Traffic Becomes a Physical Event",
