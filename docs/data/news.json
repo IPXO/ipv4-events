@@ -1,5 +1,13 @@
 [
   {
+    "title": "Secure by default: How ‘HSTS-Enforced’ could finally close the web&#8217;s oldest backdoor",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: The current web still relies on a legacy assumption that website should be accessible over unencrypted HTTP unless it explicitly signals otherwise. HSTS-Enforced builds on top of HSTS by inverting its security model.",
+    "pubDate": "2026-07-27T04:22:37.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
     "link": "https://www.cloudflare.com/learning/security/glossary/what-is-bgp/",
     "description": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
@@ -270,14 +278,6 @@
     "pubDate": "2026-07-13T09:16:47.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Data synchronization",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Distributed systems depend on synchronization, but every approach has tradeoffs. From full copies to delta updates, how do you choose the right method?",
-    "pubDate": "2026-07-13T05:47:45.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Improving Smart Tiered Cache for Public Cloud Regions",
