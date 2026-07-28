@@ -1,5 +1,37 @@
 [
   {
+    "title": "Hooray for the sockets interface",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "In 1983, BSD 4.2 introduced sockets, treating network communication like file I/O. This simplification sped UNIX adoption of shared protocols and services, marking a key turning point in modern networking.",
+    "pubDate": "2026-07-28T03:42:57.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "SpaceX Wants to Handle the World&#8217;s Broadband - Here&#8217;s Why That&#8217;s Unlikely",
+    "link": "https://circleid.com/posts/spacex&#45;wants&#45;to&#45;handle&#45;the&#45;worlds&#45;broadband&#45;heres&#45;why&#45;thats&#45;unlikely",
+    "description": "SpaceX wants to expand Starlink to 100,000 satellites and eventually carry most of the world's internet traffic. Ambition is not the problem. Market competition, geopolitics and the resilience of fiber networks make that goal implausible.",
+    "pubDate": "2026-07-27T20:03:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Inside a TDS-Powered ClickFix Malware Ecosystem: A DNS Deep Dive",
+    "link": "https://circleid.com/posts/inside&#45;a&#45;tds&#45;powered&#45;clickfix&#45;malware&#45;ecosystem&#45;a&#45;dns&#45;deep&#45;dive",
+    "description": "DNS analysis of a malware distribution ecosystem uncovered thousands of linked artifacts, exposing typosquatting, malicious infrastructure and victim connections that broaden detection opportunities beyond Check Point Research's original indicators through expanded DNS intelligen…",
+    "pubDate": "2026-07-27T19:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "We’re open-sourcing our privacy proxy CLI",
+    "link": "https://github.com/cloudflareresearch/pvcli",
+    "description": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
+    "pubDate": "2026-07-27T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Secure by default: How ‘HSTS-Enforced’ could finally close the web&#8217;s oldest backdoor",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: The current web still relies on a legacy assumption that website should be accessible over unencrypted HTTP unless it explicitly signals otherwise. HSTS-Enforced builds on top of HSTS by inverting its security model.",
@@ -128,14 +160,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The Business Value of dotBrand: Twelve Real-World Success Stories",
-    "link": "https://circleid.com/posts/the&#45;business&#45;value&#45;of&#45;dotbrand&#45;twelve&#45;real&#45;world&#45;success&#45;stories",
-    "description": "Twelve real-world dotBrand success stories show how organizations strengthen trust, improve security, simplify customer experiences, and create measurable business value. From AI-driven innovation to global digital ecosystems, dotBrand domains are becoming essential infrastructur…",
-    "pubDate": "2026-07-21T19:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Don’t Get Your Wires Crossed: Appropriate Use Cases for IPv6-Only vs. IPv6-Mostly",
     "link": "https://www.arin.net/blog/2026/07/21/ipv6-mostly/",
     "description": "Terms like IPv6-only and IPv6-mostly are a clear example of how IETF terminology often lacks clarity. IPv6 expert Jordi Palet Martínez, explains why the correct use of these terms requires specifying a scope of application.",
@@ -174,14 +198,6 @@
     "pubDate": "2026-07-20T20:59:31.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Who Is &#8220;the Community&#8221;? The Missing Constitutional Question in Multistakeholder Internet Governance",
-    "link": "https://circleid.com/posts/the&#45;missing&#45;constitutional&#45;question&#45;in&#45;multistakeholder&#45;internet&#45;governance",
-    "description": "Internet-governance bodies routinely invoke \"the community\" to legitimize decisions. The Constituent Community Doctrine asks who holds authority, how mandates are conferred, and when institutional claims exceed, distort or outlive the consent on which they rest.",
-    "pubDate": "2026-07-20T16:07:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Who's Running All Those Tiny RPKI Servers?",
@@ -256,14 +272,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Strengthening capacity, relationships, and routing security in Thailand",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "APNIC engaged with Thailand’s Internet community through local events that combined technical training and Member-focused discussions. The strong participation highlighted growing demand for practical capacity building and direct engagement on routing security and IPv6.",
-    "pubDate": "2026-07-14T00:10:21.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
     "link": "https://developers.cloudflare.com/turnstile/",
     "description": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behavior into bot detection signals, it identifies advanced automation with higher pr…",
@@ -292,14 +300,6 @@
     "link": "https://blog.cloudflare.com/the-quantum-menace/",
     "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.",
     "pubDate": "2026-07-09T14:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing Meerkat: an experiment in global consensus",
-    "link": "https://raft.github.io/",
-    "description": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
-    "pubDate": "2026-07-08T12:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
