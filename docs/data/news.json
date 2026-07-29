@@ -1,5 +1,69 @@
 [
   {
+    "title": "DNS topics at IETF 126",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Recursive resolver DNS query behaviour, Post-quantum DNSSEC, Optimistic DNS, Automating DNS delegation management, and more from IETF 126.",
+    "pubDate": "2026-07-29T05:40:24.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Microsoft Launches AI Cybersecurity Model to Boost MDASH Performance and Cut Costs",
+    "link": "https://circleid.com/posts/microsoft&#45;launches&#45;ai&#45;cybersecurity&#45;model&#45;to&#45;boost&#45;mdash&#45;performance&#45;and&#45;cut&#45;costs",
+    "description": "Microsoft has unveiled a specialist cybersecurity AI model powering MDASH, claiming higher benchmark performance and lower costs while launching Project Perception, an agentic security platform designed to help defenders counter increasingly automated cyber threats.",
+    "pubDate": "2026-07-28T16:21:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Amazon Targets Satellite-to-Phone Market With 5,105-Satellite Leo Expansion",
+    "link": "https://circleid.com/posts/amazon&#45;targets&#45;satellite&#45;to&#45;phone&#45;market&#45;with&#45;5105&#45;satellite&#45;leo&#45;expansion",
+    "description": "Amazon has outlined plans for a 5,105-satellite constellation that will connect smartphones directly from space, expanding emergency and mobile services while intensifying competition in the fast-growing satellite-to-device communications market.",
+    "pubDate": "2026-07-28T15:48:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The 2024-2026 Root Zone KSK Rollover: Updates and Observations",
+    "link": "https://circleid.com/posts/the&#45;2024&#45;2026&#45;root&#45;zone&#45;ksk&#45;rollover&#45;updates&#45;and&#45;observations",
+    "description": "Roughly a year and a half ago, Verisign and ICANN began the important, multi-year process of updating the cryptographic key that secures the authoritative DNS root zone. This work has been largely invisible to the public, but vital to the security of many everyday online activiti…",
+    "pubDate": "2026-07-28T15:30:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "From Access to Agency: Why the IGF-DCAD Fellowship Should Become a Global Standard",
+    "link": "https://circleid.com/posts/from&#45;access&#45;to&#45;agency&#45;why&#45;the&#45;igf&#45;dcad&#45;fellowship&#45;should&#45;become&#45;a&#45;global&#45;standard",
+    "description": "The IGF-DCAD fellowship shows that meaningful inclusion requires more than open access. By funding accessibility, leadership and participation, it offers a practical blueprint for making Internet governance genuinely representative of the one-sixth of humanity living with disabil…",
+    "pubDate": "2026-07-28T15:16:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The EU Cyber Resilience Act Regime: A Failure to Know Your Limitations",
+    "link": "https://circleid.com/posts/the&#45;eu&#45;cyber&#45;resilience&#45;act&#45;regime&#45;a&#45;failure&#45;to&#45;know&#45;your&#45;limitations",
+    "description": "A cybersecurity historian argues the EU Cyber Resilience Act overreaches through unworkable mandates, sprawling jurisdiction and outdated assumptions, urging a streamlined successor that embraces AI, existing standards and practical enforcement instead of bureaucratic complexity …",
+    "pubDate": "2026-07-28T15:06:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
+    "link": "https://radar.cloudflare.com/",
+    "description": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
+    "pubDate": "2026-07-28T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "ASO AC delivers Recommended Draft RIR Governance Document to NRO EC",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The ASO AC has delivered the ASO AC Recommended Draft RIR Governance Document to the NRO EC for its consideration.",
+    "pubDate": "2026-07-28T06:06:06.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Hooray for the sockets interface",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "In 1983, BSD 4.2 introduced sockets, treating network communication like file I/O. This simplification sped UNIX adoption of shared protocols and services, marking a key turning point in modern networking.",
@@ -72,36 +136,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Momentum Builds as the New gTLD Application Window Enters Its Final Weeks",
-    "link": "https://circleid.com/posts/momentum&#45;builds&#45;as&#45;the&#45;new&#45;gtld&#45;application&#45;window&#45;enters&#45;its&#45;final&#45;weeks",
-    "description": "As the New gTLD Program enters its final application stretch, ICANN's progress, stronger security expectations and clearer operational frameworks are giving applicants greater confidence ahead of ICANN87 in Bali and future expansion of domains worldwide.",
-    "pubDate": "2026-07-24T14:38:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "The delicate art of cryptographic maintenance: When small certs break big chains",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Around mid-2026, we began receiving user complaints about certificate validation failures. The failure wasn’t a single bug, but the collision of optimization and slow distribution.",
     "pubDate": "2026-07-23T23:49:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "The Long Wait for .web Ends",
-    "link": "https://circleid.com/posts/the&#45;long&#45;wait&#45;for&#45;.web&#45;ends",
-    "description": "After a decade of legal disputes, Verisign has secured .web and will launch the long-awaited domain later this year, opening a new chapter in digital identity while raising fresh questions about pricing, adoption and competition.",
-    "pubDate": "2026-07-23T19:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Algorithmic Ceiling: How AI Surveillance Criminalizes Disability",
-    "link": "https://circleid.com/posts/the&#45;algorithmic&#45;ceiling&#45;how&#45;ai&#45;surveillance&#45;criminalizes&#45;disability",
-    "description": "AI surveillance systems increasingly classify human differences as algorithmic risk, leaving persons with disabilities vulnerable to exclusion, misclassification, and invisible barriers that threaten decades of progress in accessibility, accountability, and digital inclusion thro…",
-    "pubDate": "2026-07-23T19:15:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Introducing Cache Response Rules",
@@ -126,22 +166,6 @@
     "pubDate": "2026-07-22T20:30:00.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Why AI Traffic Needs Its IP Classification",
-    "link": "https://circleid.com/posts/why&#45;ai&#45;traffic&#45;needs&#45;its&#45;ip&#45;classification",
-    "description": "As AI agents increasingly act on users' behalf, the internet's human-versus-bot divide is breaking down. A dedicated AI IP classification could replace guesswork with transparent, context-aware traffic policies that improve access, enforcement, and infrastructure efficiency.",
-    "pubDate": "2026-07-22T15:17:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Why Are We Building 6G?",
-    "link": "https://circleid.com/posts/why&#45;are&#45;we&#45;building&#45;6g",
-    "description": "As 6G development accelerates, its promises of faster speeds, lower latency, and immersive applications raise questions about whether carriers can justify another costly network upgrade when 5G's commercial promises remain largely unfulfilled across the industry.",
-    "pubDate": "2026-07-22T15:06:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
@@ -232,28 +256,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "APNIC Foundation&#8217;s BCAP project wins 2026 WSIS Prize for Capacity Building",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The APNIC Foundation’s Building Capabilities in the Asia Pacific (BCAP) project has won the 2026 WSIS Prize for capacity building, recognizing its impact on developing Internet skills across the Asia Pacific.",
-    "pubDate": "2026-07-16T04:01:31.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Many Sovereignties, One Internet",
     "link": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet/",
     "description": "Digital sovereignty is not simply good or bad. The commons test offers a practical framework for assessing whether different strategies expand choice, preserve interoperability, strengthen resilience and support meaningful participation, or create new dependencies and chokepoints…",
     "pubDate": "2026-07-15T07:09:49.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Who&#8217;s running all those tiny RPKI servers?",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Small RPKI publication servers comprise a quiet but important part of the Internet’s trust infrastructure. Understanding who operates these servers, and why, helps reveal both strengths and gaps in today’s routing security.",
-    "pubDate": "2026-07-14T22:36:55.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "IETF Community Survey 2025",
@@ -292,14 +300,6 @@
     "link": "https://blog.cloudflare.com/tiered-cache-smart-topology",
     "description": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
     "pubDate": "2026-07-10T12:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Why we cannot wait for better post-quantum signature algorithms",
-    "link": "https://blog.cloudflare.com/the-quantum-menace/",
-    "description": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.",
-    "pubDate": "2026-07-09T14:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
