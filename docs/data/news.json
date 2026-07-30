@@ -1,5 +1,69 @@
 [
   {
+    "title": "BGP topics from IETF 126",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
+    "pubDate": "2026-07-30T05:01:32.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Secretariat restructuring and staffing update",
+    "link": "http://www.ietf.org/blog/llc-secretariat-and-staff-update/",
+    "description": "There have been a few changes in IETF Administration LLC staffing since January of this year (2026) including the recent insourcing of the Secretariat, which are summarised here to give an overall view of the staffing structure.",
+    "pubDate": "2026-07-30T03:05:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Call for Participation: DNSSEC and Security Workshop at ICANN87 (21 October 2026)",
+    "link": "https://circleid.com/posts/call&#45;for&#45;participation&#45;dnssec&#45;and&#45;security&#45;workshop&#45;at&#45;icann87",
+    "description": "ICANN is inviting proposals for its DNSSEC and Security Workshop at ICANN 87, offering experts and practitioners a platform to share insights on DNS security, routing security, browser security, and emerging Internet infrastructure challenges.",
+    "pubDate": "2026-07-29T22:34:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Premium Domain Demand Reaches New High in Radix&#8217;s H1 2026 Report",
+    "link": "https://circleid.com/posts/premium&#45;domain&#45;demand&#45;reaches&#45;new&#45;high&#45;in&#45;radixs&#45;h1&#45;2026&#45;report",
+    "description": "Radix's H1 2026 Premiums Report reveals record premium domain registrations, rising renewals, and growing demand for short, brand-defining names, underscoring how businesses increasingly view premium domains as strategic assets for long-term growth and digital identity.",
+    "pubDate": "2026-07-29T22:25:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "From Human Trust to Machine Cryptography: The Infrastructure Deficit in AI Interoperability",
+    "link": "https://circleid.com/posts/from&#45;human&#45;trust&#45;to&#45;machine&#45;cryptography&#45;the&#45;infrastructure&#45;deficit&#45;in&#45;ai&#45;interoperability",
+    "description": "As AI agents begin collaborating across the open internet, the absence of trusted identity, authorization, and accountability frameworks threatens interoperability, making cryptographic trust infrastructure essential to building a secure and scalable agentic economy.",
+    "pubDate": "2026-07-29T19:02:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Asia&#8217;s Invisible Tariff: Why AI Capital Is Underweighting the Markets That Want It Most",
+    "link": "https://circleid.com/posts/asias&#45;invisible&#45;tariff&#45;why&#45;ai&#45;capital&#45;is&#45;underweighting&#45;the&#45;markets&#45;that&#45;want&#45;it&#45;most",
+    "description": "As trillions flow into AI infrastructure, Asia's biggest emerging markets remain underfunded. Beyond power and geopolitics, obscure internet governance, IPv4 allocation, and regulatory ambiguity may be quietly shaping where hyperscale capital chooses to build.",
+    "pubDate": "2026-07-29T16:28:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Wiki, SHE.africa, AI, and the Integrity of Digital Platforms",
+    "link": "https://circleid.com/posts/icann&#45;wiki&#45;she.africa&#45;ai&#45;and&#45;the&#45;integrity&#45;of&#45;digital&#45;platforms",
+    "description": "As AI increasingly relies on digital archives, the quiet revision of ICANNWiki entries raises broader questions about platform accountability, historical integrity, and whether institutions can reshape the records that future researchers and machines will treat as fact.",
+    "pubDate": "2026-07-29T16:22:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Post-quantum authentication to origins is now supported",
+    "link": "https://radar.cloudflare.com/post-quantum",
+    "description": "Cloudflare now supports post-quantum (PQ) authentication when connecting to customer origin servers via Authenticated Origin Pulls and Custom Origin Trust Store. This is the first step towards providing PQ authentication for all Cloudflare products.",
+    "pubDate": "2026-07-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "DNS topics at IETF 126",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Recursive resolver DNS query behaviour, Post-quantum DNSSEC, Optimistic DNS, Automating DNS delegation management, and more from IETF 126.",
@@ -72,22 +136,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "SpaceX Wants to Handle the World&#8217;s Broadband - Here&#8217;s Why That&#8217;s Unlikely",
-    "link": "https://circleid.com/posts/spacex&#45;wants&#45;to&#45;handle&#45;the&#45;worlds&#45;broadband&#45;heres&#45;why&#45;thats&#45;unlikely",
-    "description": "SpaceX wants to expand Starlink to 100,000 satellites and eventually carry most of the world's internet traffic. Ambition is not the problem. Market competition, geopolitics and the resilience of fiber networks make that goal implausible.",
-    "pubDate": "2026-07-27T20:03:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Inside a TDS-Powered ClickFix Malware Ecosystem: A DNS Deep Dive",
-    "link": "https://circleid.com/posts/inside&#45;a&#45;tds&#45;powered&#45;clickfix&#45;malware&#45;ecosystem&#45;a&#45;dns&#45;deep&#45;dive",
-    "description": "DNS analysis of a malware distribution ecosystem uncovered thousands of linked artifacts, exposing typosquatting, malicious infrastructure and victim connections that broaden detection opportunities beyond Check Point Research's original indicators through expanded DNS intelligen…",
-    "pubDate": "2026-07-27T19:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "We’re open-sourcing our privacy proxy CLI",
     "link": "https://github.com/cloudflareresearch/pvcli",
     "description": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
@@ -110,30 +158,6 @@
     "pubDate": "2026-07-24T17:25:28.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "The Phishing That Hasn&#8217;t Happened Yet: MX Records as Bad-Faith Evidence in UDRP Proceedings",
-    "link": "https://circleid.com/posts/the&#45;phishing&#45;that&#45;hasnt&#45;happened&#45;yet&#45;mx&#45;records&#45;as&#45;bad&#45;faith&#45;evidence&#45;in&#45;udrp&#45;proceedings",
-    "description": "Inactive cybersquatted domains may conceal active email infrastructure. MX records can corroborate bad faith in UDRP disputes when weighed with other evidence, helping panels address fraud risks before harm occurs without conflating capability with misconduct.",
-    "pubDate": "2026-07-24T15:14:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "DNIB Reports 401.6 Million Domain Name Registrations in Q2 2026",
-    "link": "https://circleid.com/posts/dnib&#45;reports&#45;401.6&#45;million&#45;domain&#45;name&#45;registrations&#45;in&#45;q2&#45;2026",
-    "description": "The second quarter of 2026 closed with 401.6 million domain name registrations across all top-level domains (TLDs), an increase of 29.9 million domain name registrations compared to the second quarter of 2025, according to the latest issue of the Domain Name Industry Brief Quarte…",
-    "pubDate": "2026-07-24T15:05:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Who Registers the Domain That Steals Your Data? The Registrar Accountability Gap in India&#8217;s DNS Abuse Crisis",
-    "link": "https://circleid.com/posts/who&#45;registers&#45;the&#45;domain&#45;that&#45;steals&#45;your&#45;data&#45;the&#45;registrar&#45;accountability&#45;gap&#45;in&#45;indias&#45;dns&#45;abuse&#45;crisis",
-    "description": "India's DNS abuse crisis exposes a registrar accountability gap: malicious domains remain online while vulnerable users bear the cost. Concentrated abuse patterns suggest stronger oversight and faster mitigation could significantly reduce predictable harms nationwide today.",
-    "pubDate": "2026-07-24T14:53:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "The delicate art of cryptographic maintenance: When small certs break big chains",
@@ -248,14 +272,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Rethinking non‑access stratum timers for LEO satellite constellations in 5G and beyond",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: AstroTimer starts from a simple but important question: Can we compute NAS timers directly from LEO‑specific conditions, such as path length, link variability, and NF load, using a closed‑form, low‑cost model?",
-    "pubDate": "2026-07-16T23:28:28.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Many Sovereignties, One Internet",
     "link": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet/",
     "description": "Digital sovereignty is not simply good or bad. The commons test offers a practical framework for assessing whether different strategies expand choice, preserve interoperability, strengthen resilience and support meaningful participation, or create new dependencies and chokepoints…",
@@ -294,14 +310,6 @@
     "pubDate": "2026-07-13T09:16:47.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Improving Smart Tiered Cache for Public Cloud Regions",
-    "link": "https://blog.cloudflare.com/tiered-cache-smart-topology",
-    "description": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
-    "pubDate": "2026-07-10T12:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "The RIPE Chair Team Reports - July 2026",
@@ -470,13 +478,5 @@
     "pubDate": "2026-05-14T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "A new suite of modern tools coming for editing and publishing RFCs",
-    "link": "http://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
-    "description": "After a number of years of work, the initial rollout of a modern suite of tools for editing and publishing RFCs, including an entirely new rfc-editor.org website, will take place in May 2026.",
-    "pubDate": "2026-05-12T08:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
   }
 ]
