@@ -1,19 +1,43 @@
 [
   {
+    "title": "The AI Enclosure Movement",
+    "link": "https://circleid.com/posts/the&#45;ai&#45;enclosure&#45;movement",
+    "description": "The battle over open-source AI echoes England's Enclosure Movement, pitting collaboration against proprietary control as technology firms compete to shape innovation, economic power and the future governance of the digital commons.",
+    "pubDate": "2026-07-30T16:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+    "link": "https://www.cloudflare.com/en-gb/developer-platform/",
+    "description": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
+    "pubDate": "2026-07-30T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
+    "link": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
+    "description": "Ten years of DNS measurements reveal three trends across the Internet's most popular domains: email continues to consolidate around two providers, DMARC enforcement has hit a plateau, and a surprisingly large long tail of infrastructure defies easy classification.",
+    "pubDate": "2026-07-30T11:49:26.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Secretariat restructuring and staffing update",
+    "link": "http://www.ietf.org/blog/llc-secretariat-and-staff-update/",
+    "description": "There have been a few changes in IETF Administration LLC staffing since January of this year (2026) including the recent insourcing of the Secretariat, which are summarised here to give an overall view of the staffing structure.",
+    "pubDate": "2026-07-30T11:26:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
     "title": "BGP topics from IETF 126",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
     "pubDate": "2026-07-30T05:01:32.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Secretariat restructuring and staffing update",
-    "link": "http://www.ietf.org/blog/llc-secretariat-and-staff-update/",
-    "description": "There have been a few changes in IETF Administration LLC staffing since January of this year (2026) including the recent insourcing of the Secretariat, which are summarised here to give an overall view of the staffing structure.",
-    "pubDate": "2026-07-30T03:05:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
   },
   {
     "title": "Call for Participation: DNSSEC and Security Workshop at ICANN87 (21 October 2026)",
@@ -100,14 +124,6 @@
     "link": "https://circleid.com/posts/from&#45;access&#45;to&#45;agency&#45;why&#45;the&#45;igf&#45;dcad&#45;fellowship&#45;should&#45;become&#45;a&#45;global&#45;standard",
     "description": "The IGF-DCAD fellowship shows that meaningful inclusion requires more than open access. By funding accessibility, leadership and participation, it offers a practical blueprint for making Internet governance genuinely representative of the one-sixth of humanity living with disabil…",
     "pubDate": "2026-07-28T15:16:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The EU Cyber Resilience Act Regime: A Failure to Know Your Limitations",
-    "link": "https://circleid.com/posts/the&#45;eu&#45;cyber&#45;resilience&#45;act&#45;regime&#45;a&#45;failure&#45;to&#45;know&#45;your&#45;limitations",
-    "description": "A cybersecurity historian argues the EU Cyber Resilience Act overreaches through unworkable mandates, sprawling jurisdiction and outdated assumptions, urging a streamlined successor that embraces AI, existing standards and practical enforcement instead of bureaucratic complexity …",
-    "pubDate": "2026-07-28T15:06:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -296,14 +312,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-    "link": "https://developers.cloudflare.com/turnstile/",
-    "description": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behavior into bot detection signals, it identifies advanced automation with higher pr…",
-    "pubDate": "2026-07-13T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "A Farewell to ARPs: IPv4 Service on IPv6-Only Networks",
     "link": "https://labs.ripe.net/author/remco-van-mook/a-farewell-to-arps-ipv4-service-on-ipv6-only-networks/",
     "description": "IPv6-only networks often still depend on IPv4 subnets and ARP. This article introduces an IETF proposal to eliminate both, allowing IPv4 to operate as a service over IPv6-only infrastructure without translation or tunnelling.",
@@ -358,14 +366,6 @@
     "pubDate": "2026-07-01T15:02:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "RIPE NCC Days Baltics: Insights into Regional Resilience",
-    "link": "https://labs.ripe.net/author/kjerstin-burdiek/ripe-ncc-days-baltics-insights-into-regional-resilience/",
-    "description": "On 3-4 June 2026, we convened in Riga, Latvia for RIPE NCC Days Baltics. 76 participants from nine countries participated in sessions covering important topics in network operations, with a special focus on resilience for a region that has seen repeated network disruptions in rec…",
-    "pubDate": "2026-06-30T13:34:25.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "ARIN Bits: June 2026",
