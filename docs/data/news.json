@@ -1,5 +1,29 @@
 [
   {
+    "title": "A DNS Investigation of LenAI&#8217;s ErrTraffic ClickFix Distribution Network",
+    "link": "https://circleid.com/posts/a&#45;dns&#45;investigation&#45;of&#45;lenais&#45;errtraffic&#45;clickfix&#45;distribution&#45;network",
+    "description": "An analysis of LenAI's ErrTraffic ClickFix infrastructure uncovered new DNS links, exposing malicious domains, IPs, typosquatting clusters, and email connections that broaden threat visibility and support stronger detection and incident response through expanded network intellige…",
+    "pubDate": "2026-07-31T15:39:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why Nordic Domain Days Has Become a Defining Event for the Domain Industry",
+    "link": "https://circleid.com/posts/why&#45;nordic&#45;domain&#45;days&#45;has&#45;become&#45;a&#45;defining&#45;event&#45;for&#45;the&#45;domain&#45;industry",
+    "description": "Nordic Domain Days drew 450 attendees from 77 countries, underscoring its growing international reach. Blending practical insights with close-knit networking, the event continues to strengthen the global domain community and its collaborative spirit.",
+    "pubDate": "2026-07-31T14:47:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "An API for MoQ: provision your own isolated relays",
+    "link": "https://blog.cloudflare.com/moq/",
+    "description": "Last year we made every Cloudflare server a Media over QUIC (MoQ) relay. Now the new provisioning API lets you create your own isolated relay and control who can publish and who can only watch.",
+    "pubDate": "2026-07-31T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "The AI Enclosure Movement",
     "link": "https://circleid.com/posts/the&#45;ai&#45;enclosure&#45;movement",
     "description": "The battle over open-source AI echoes England's Enclosure Movement, pitting collaboration against proprietary control as technology firms compete to shape innovation, economic power and the future governance of the digital commons.",
@@ -108,22 +132,6 @@
     "link": "https://circleid.com/posts/amazon&#45;targets&#45;satellite&#45;to&#45;phone&#45;market&#45;with&#45;5105&#45;satellite&#45;leo&#45;expansion",
     "description": "Amazon has outlined plans for a 5,105-satellite constellation that will connect smartphones directly from space, expanding emergency and mobile services while intensifying competition in the fast-growing satellite-to-device communications market.",
     "pubDate": "2026-07-28T15:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The 2024-2026 Root Zone KSK Rollover: Updates and Observations",
-    "link": "https://circleid.com/posts/the&#45;2024&#45;2026&#45;root&#45;zone&#45;ksk&#45;rollover&#45;updates&#45;and&#45;observations",
-    "description": "Roughly a year and a half ago, Verisign and ICANN began the important, multi-year process of updating the cryptographic key that secures the authoritative DNS root zone. This work has been largely invisible to the public, but vital to the security of many everyday online activiti…",
-    "pubDate": "2026-07-28T15:30:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "From Access to Agency: Why the IGF-DCAD Fellowship Should Become a Global Standard",
-    "link": "https://circleid.com/posts/from&#45;access&#45;to&#45;agency&#45;why&#45;the&#45;igf&#45;dcad&#45;fellowship&#45;should&#45;become&#45;a&#45;global&#45;standard",
-    "description": "The IGF-DCAD fellowship shows that meaningful inclusion requires more than open access. By funding accessibility, leadership and participation, it offers a practical blueprint for making Internet governance genuinely representative of the one-sixth of humanity living with disabil…",
-    "pubDate": "2026-07-28T15:16:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -302,14 +310,6 @@
     "pubDate": "2026-07-14T13:24:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
-    "link": "https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/",
-    "description": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC vali…",
-    "pubDate": "2026-07-14T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "A Farewell to ARPs: IPv4 Service on IPv6-Only Networks",
