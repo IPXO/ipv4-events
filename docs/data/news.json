@@ -1,5 +1,13 @@
 [
   {
+    "title": "Welcome to Agents Week",
+    "link": "https://blog.cloudflare.com/",
+    "description": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
+    "pubDate": "2026-08-02T16:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "A DNS Investigation of LenAI&#8217;s ErrTraffic ClickFix Distribution Network",
     "link": "https://circleid.com/posts/a&#45;dns&#45;investigation&#45;of&#45;lenais&#45;errtraffic&#45;clickfix&#45;distribution&#45;network",
     "description": "An analysis of LenAI's ErrTraffic ClickFix infrastructure uncovered new DNS links, exposing malicious domains, IPs, typosquatting clusters, and email connections that broaden threat visibility and support stronger detection and incident response through expanded network intellige…",
@@ -286,14 +294,6 @@
     "pubDate": "2026-07-20T04:00:30.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
-    "link": "https://wordpress.org/news/2026/07/wordpress-7-0-2-release/",
-    "description": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
-    "pubDate": "2026-07-17T21:30:43.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Many Sovereignties, One Internet",
