@@ -1,5 +1,69 @@
 [
   {
+    "title": "Same Shape at Every Scale: What a Larger Domnain Namespace Confirmed - and What It Didn&#8217;t",
+    "link": "https://circleid.com/posts/same&#45;shape&#45;at&#45;every&#45;scale&#45;what&#45;a&#45;larger&#45;namespace&#45;confirmed&#45;a&#45;and&#45;what&#45;it&#45;didnat",
+    "description": "A larger namespace confirms the same four-layer structural pattern found across nTLDs, while revealing wider operator-to-investor variation and distinctive noise signatures that expose different registration dynamics hidden behind headline registration totals.",
+    "pubDate": "2026-08-03T14:26:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Community Networks: The Missing Piece in Africa&#8217;s Digital Transformation",
+    "link": "https://circleid.com/posts/community&#45;networks&#45;the&#45;missing&#45;piece&#45;in&#45;africas&#45;digital&#45;transformation",
+    "description": "Community networks can bridge Africa's persistent digital divide by shifting connectivity from infrastructure alone to community ownership, supported by strong governance, sustainable financing and enabling policies that make last-mile access resilient, inclusive and locally driv…",
+    "pubDate": "2026-08-03T14:03:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
+    "link": "https://github.com/cloudflare/workspace",
+    "description": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a computer of its own.",
+    "pubDate": "2026-08-03T13:15:24.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+    "link": "https://grpc.io/",
+    "description": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRPC-web translation directly within Workers.",
+    "pubDate": "2026-08-03T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
+    "link": "https://focus.finops.org/",
+    "description": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specification, track spend seamlessly alongside the rest of your cl…",
+    "pubDate": "2026-08-03T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+    "link": "http://Z.ai",
+    "description": "Serving frontier models like Kimi and GLM means fighting for GPU memory. Here's how we quantize KV caches, compress model weights, and add integrity checks to serve them faster, cheaper, and safely.",
+    "pubDate": "2026-08-03T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Workers RPC now works across Python and JavaScript",
+    "link": "https://blog.cloudflare.com/javascript-native-rpc/",
+    "description": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
+    "pubDate": "2026-08-03T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "IETF 126 in space",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "IP addressing, congestion control protocols, and a gold rush in space at IETF 126 in Vienna.",
+    "pubDate": "2026-08-03T06:55:15.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Welcome to Agents Week",
     "link": "https://blog.cloudflare.com/",
     "description": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
@@ -128,22 +192,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Microsoft Launches AI Cybersecurity Model to Boost MDASH Performance and Cut Costs",
-    "link": "https://circleid.com/posts/microsoft&#45;launches&#45;ai&#45;cybersecurity&#45;model&#45;to&#45;boost&#45;mdash&#45;performance&#45;and&#45;cut&#45;costs",
-    "description": "Microsoft has unveiled a specialist cybersecurity AI model powering MDASH, claiming higher benchmark performance and lower costs while launching Project Perception, an agentic security platform designed to help defenders counter increasingly automated cyber threats.",
-    "pubDate": "2026-07-28T16:21:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Amazon Targets Satellite-to-Phone Market With 5,105-Satellite Leo Expansion",
-    "link": "https://circleid.com/posts/amazon&#45;targets&#45;satellite&#45;to&#45;phone&#45;market&#45;with&#45;5105&#45;satellite&#45;leo&#45;expansion",
-    "description": "Amazon has outlined plans for a 5,105-satellite constellation that will connect smartphones directly from space, expanding emergency and mobile services while intensifying competition in the fast-growing satellite-to-device communications market.",
-    "pubDate": "2026-07-28T15:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
     "link": "https://radar.cloudflare.com/",
     "description": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
@@ -168,14 +216,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "We’re open-sourcing our privacy proxy CLI",
-    "link": "https://github.com/cloudflareresearch/pvcli",
-    "description": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
-    "pubDate": "2026-07-27T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Secure by default: How ‘HSTS-Enforced’ could finally close the web&#8217;s oldest backdoor",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: The current web still relies on a legacy assumption that website should be accessible over unencrypted HTTP unless it explicitly signals otherwise. HSTS-Enforced builds on top of HSTS by inverting its security model.",
@@ -184,28 +224,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
-    "link": "https://www.cloudflare.com/learning/security/glossary/what-is-bgp/",
-    "description": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
-    "pubDate": "2026-07-24T17:25:28.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "The delicate art of cryptographic maintenance: When small certs break big chains",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Around mid-2026, we began receiving user complaints about certificate validation failures. The failure wasn’t a single bug, but the collision of optimization and slow distribution.",
     "pubDate": "2026-07-23T23:49:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Introducing Cache Response Rules",
-    "link": "https://developers.cloudflare.com/rules/page-rules/",
-    "description": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time.",
-    "pubDate": "2026-07-23T18:40:38.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "What's ARP Got to Do with It?",
@@ -248,14 +272,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "How the 2026 World Cup affected Internet traffic",
-    "link": "https://blog.cloudflare.com/tag/internet-shutdown/",
-    "description": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
-    "pubDate": "2026-07-21T12:59:40.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
     "link": "https://labs.ripe.net/author/antonio-prado/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
     "description": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
@@ -272,28 +288,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Cloudflare Internal DNS is now generally available",
-    "link": "https://developers.cloudflare.com/cloudflare-one/traffic-policies/dns-policies/",
-    "description": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
-    "pubDate": "2026-07-20T20:59:31.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Who's Running All Those Tiny RPKI Servers?",
     "link": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
     "description": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
     "pubDate": "2026-07-20T07:57:23.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "IPv6 address planning: From ‘bit conservation’ to ‘elegant alignment’",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: When planning IPv6 addressing schemes, many engineers still carry over habits from the IPv4 era. The instinct is to conserve every possible bit and to compress region, service, and network type information into the smallest space that meets current needs. While this a…",
-    "pubDate": "2026-07-20T04:00:30.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Many Sovereignties, One Internet",
