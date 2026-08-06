@@ -1,5 +1,77 @@
 [
   {
+    "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
+    "link": "https://www.cloudflare.com/lp/gartner-magic-quadrant-sase-platforms-2026/",
+    "description": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports.",
+    "pubDate": "2026-08-05T23:24:51.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "[Podcast] Canonical Cache Representation",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Job Snijders discusses a new, compact representation of RPKI-signed objects and an archive of spooled snapshots of the global RPKI repositories.",
+    "pubDate": "2026-08-05T22:40:58.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "National Internet Registries: Gatekeeper or Enabler?",
+    "link": "https://circleid.com/posts/national&#45;internet&#45;registries&#45;gatekeeper&#45;or&#45;enabler",
+    "description": "National Internet Registries were created to give countries greater control over internet number resources. Yet where they add opacity and restrict transfers, they can trap scarce IPv4 capacity, slowing growth instead of strengthening digital resilience.",
+    "pubDate": "2026-08-05T14:47:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Agent Access Model",
+    "link": "https://research.google/pubs/beyondcorp-a-new-approach-to-enterprise-security/",
+    "description": "The Agent Access Model proposes a new architecture to secure task-scoped agents using strict identity brokering, continuous mediation, and stateful trust.",
+    "pubDate": "2026-08-05T13:00:41.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+    "link": "https://www.cloudflare.com/products/workers/",
+    "description": "We built Cloudflare OS to equip our teams to safely rethink how they get work done with AI. The platform brings together the best of our technologies, from our Compute primitives to our Zero Trust suite. This post walks through our journey to give our users the best AI tools avai…",
+    "pubDate": "2026-08-05T13:00:01.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Cloudflare OS: an open platform for agents, apps, and work",
+    "link": "https://os.cloudflare.app/",
+    "description": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operates",
+    "pubDate": "2026-08-05T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "WriteGuard: fine-grained controls for MCP Servers",
+    "link": "https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database",
+    "description": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals th…",
+    "pubDate": "2026-08-05T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Catching rogue AI behavior with identity-aware analytics",
+    "link": "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
+    "description": "Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.",
+    "pubDate": "2026-08-05T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Your Number Resource Record Is a Part of the Internet's Infrastructure — Respect It Like One",
+    "link": "https://www.arin.net/blog/2026/08/05/legacy-whois-stewardship/",
+    "description": "Legacy IPv4 Internet number resource holders: Is your registration data still doing its job? Nearly half of ARIN's legacy networks have no validated Point of Contact. Find out why that matters, and how to fix it in minutes.",
+    "pubDate": "2026-08-05T12:30:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "APNIC community engagement: January – June 2026 in review",
     "link": "https://blog.apnic.net/category/community/",
     "description": "In H1 2026, APNIC worked with Members, partners, and stakeholders across the region to strengthen routing security, support emerging CERT communities, build technical capacity, and advance governance discussions.",
@@ -64,30 +136,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Introducing: Cloudflare Agents",
-    "link": "https://developers.cloudflare.com/ai-gateway/",
-    "description": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale.",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Your agent can now debug Workers with local tracing",
-    "link": "https://developers.cloudflare.com/workers/observability/traces/",
-    "description": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
-    "link": "https://flueframework.com/",
-    "description": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases.",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Same Shape at Every Scale: What a Larger Domnain Namespace Confirmed - and What It Didn&#8217;t",
     "link": "https://circleid.com/posts/same&#45;shape&#45;at&#45;every&#45;scale&#45;what&#45;a&#45;larger&#45;namespace&#45;confirmed&#45;a&#45;and&#45;what&#45;it&#45;didnat",
     "description": "A larger namespace confirms the same four-layer structural pattern found across nTLDs, while revealing wider operator-to-investor variation and distinctive noise signatures that expose different registration dynamics hidden behind headline registration totals.",
@@ -102,30 +150,6 @@
     "pubDate": "2026-08-03T14:03:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
-  },
-  {
-    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
-    "link": "https://github.com/cloudflare/workspace",
-    "description": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a computer of its own.",
-    "pubDate": "2026-08-03T13:15:24.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
-    "link": "https://grpc.io/",
-    "description": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRPC-web translation directly within Workers.",
-    "pubDate": "2026-08-03T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
-    "link": "https://focus.finops.org/",
-    "description": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specification, track spend seamlessly alongside the rest of your cl…",
-    "pubDate": "2026-08-03T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "IETF 126 in space",
@@ -200,14 +224,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "From Human Trust to Machine Cryptography: The Infrastructure Deficit in AI Interoperability",
-    "link": "https://circleid.com/posts/from&#45;human&#45;trust&#45;to&#45;machine&#45;cryptography&#45;the&#45;infrastructure&#45;deficit&#45;in&#45;ai&#45;interoperability",
-    "description": "As AI agents begin collaborating across the open internet, the absence of trusted identity, authorization, and accountability frameworks threatens interoperability, making cryptographic trust infrastructure essential to building a secure and scalable agentic economy.",
-    "pubDate": "2026-07-29T19:02:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "DNS topics at IETF 126",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Recursive resolver DNS query behaviour, Post-quantum DNSSEC, Optimistic DNS, Automating DNS delegation management, and more from IETF 126.",
@@ -254,14 +270,6 @@
     "pubDate": "2026-07-23T06:35:41.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "[Podcast] DNS query duplication",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Why does APNIC Labs experimental systems see almost all DNS queries twice or more?",
-    "pubDate": "2026-07-22T20:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
@@ -470,13 +478,5 @@
     "pubDate": "2026-05-18T20:56:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "The Community That Changed How I See the Internet",
-    "link": "https://www.arin.net/blog/2026/05/14/fellowship-experience-rodney-payne/",
-    "description": "Attending his first ARIN meeting marked a turning point in how this ARIN 57 Fellow understands the Internet — not just as technology, but as a living, collaborative ecosystem. Read about his inspiring experience.",
-    "pubDate": "2026-05-14T13:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
   }
 ]
