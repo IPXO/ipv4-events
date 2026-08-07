@@ -1,5 +1,77 @@
 [
   {
+    "title": "Understanding partial reachability in the Internet core",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Persistent partial reachability is not noise — it is a fundamental, measurable part of how the Internet behaves today. A small number of long-lived peninsulas cause most of the impact, and recognizing them can dramatically improve both operational clarity and measurem…",
+    "pubDate": "2026-08-06T23:44:18.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Web Has Become a Content Delivery Network",
+    "link": "https://circleid.com/posts/the&#45;web&#45;has&#45;become&#45;a&#45;content&#45;delivery&#45;network",
+    "description": "Cyberattacks, AI scraping and relentless bot traffic have transformed CDNs from performance tools into the Web's defensive gatekeepers, reshaping Internet architecture, governance and control as private intermediaries increasingly determine which requests reach origin servers fir…",
+    "pubDate": "2026-08-06T20:53:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Safe for Whom? A Pilot&#8217;s Take on the AI Incident-Reporting System",
+    "link": "https://circleid.com/posts/safe&#45;for&#45;whom&#45;a&#45;pilots&#45;take&#45;on&#45;the&#45;ai&#45;incident&#45;reporting&#45;system",
+    "description": "Drawing on aviation's trusted incident-reporting model, a former pilot argues AI safety needs confidential reporting paired with public learning, and that legitimacy, international participation and transparency must be built into SAFE from the outset.",
+    "pubDate": "2026-08-06T15:24:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Cloudflare AI Search: give your agents a search engine for your data",
+    "link": "https://developers.cloudflare.com/ai-search/",
+    "description": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
+    "pubDate": "2026-08-06T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The next generation of MCP",
+    "link": "https://modelcontextprotocol.io/",
+    "description": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
+    "pubDate": "2026-08-06T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+    "link": "https://radar.cloudflare.com/traffic#bot-vs-human",
+    "description": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
+    "pubDate": "2026-08-06T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+    "link": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "description": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
+    "pubDate": "2026-08-06T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+    "link": "https://www.cloudflare.com/about-overview/",
+    "description": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was designed specifically for the Agentic Cloud.",
+    "pubDate": "2026-08-06T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Give any website a WebMCP interface",
+    "link": "https://developers.cloudflare.com/browser-run/",
+    "description": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep their traffic.",
+    "pubDate": "2026-08-06T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
     "link": "https://www.cloudflare.com/lp/gartner-magic-quadrant-sase-platforms-2026/",
     "description": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports.",
@@ -48,22 +120,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "WriteGuard: fine-grained controls for MCP Servers",
-    "link": "https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database",
-    "description": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals th…",
-    "pubDate": "2026-08-05T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Catching rogue AI behavior with identity-aware analytics",
-    "link": "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
-    "description": "Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.",
-    "pubDate": "2026-08-05T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Your Number Resource Record Is a Part of the Internet's Infrastructure — Respect It Like One",
     "link": "https://www.arin.net/blog/2026/08/05/legacy-whois-stewardship/",
     "description": "Legacy IPv4 Internet number resource holders: Is your registration data still doing its job? Nearly half of ARIN's legacy networks have no validated Point of Contact. Find out why that matters, and how to fix it in minutes.",
@@ -102,38 +158,6 @@
     "pubDate": "2026-08-04T14:44:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Agent Development Lifecycle has arrived on Cloudflare",
-    "link": "https://www.rand.org/pubs/reports/R1855.html",
-    "description": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
-    "link": "https://cloudflare.pay",
-    "description": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardrails.",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
-    "link": "https://developers.cloudflare.com/artifacts/",
-    "description": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-healing AI agents.",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "How Cloudflare enforces engineering standards using AI",
-    "link": "https://blog.cloudflare.com/ai-code-review/",
-    "description": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically enforce consistency across code, specs, and incident reports.",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Same Shape at Every Scale: What a Larger Domnain Namespace Confirmed - and What It Didn&#8217;t",
@@ -208,22 +232,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Call for Participation: DNSSEC and Security Workshop at ICANN87 (21 October 2026)",
-    "link": "https://circleid.com/posts/call&#45;for&#45;participation&#45;dnssec&#45;and&#45;security&#45;workshop&#45;at&#45;icann87",
-    "description": "ICANN is inviting proposals for its DNSSEC and Security Workshop at ICANN 87, offering experts and practitioners a platform to share insights on DNS security, routing security, browser security, and emerging Internet infrastructure challenges.",
-    "pubDate": "2026-07-29T22:34:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Premium Domain Demand Reaches New High in Radix&#8217;s H1 2026 Report",
-    "link": "https://circleid.com/posts/premium&#45;domain&#45;demand&#45;reaches&#45;new&#45;high&#45;in&#45;radixs&#45;h1&#45;2026&#45;report",
-    "description": "Radix's H1 2026 Premiums Report reveals record premium domain registrations, rising renewals, and growing demand for short, brand-defining names, underscoring how businesses increasingly view premium domains as strategic assets for long-term growth and digital identity.",
-    "pubDate": "2026-07-29T22:25:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "DNS topics at IETF 126",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Recursive resolver DNS query behaviour, Post-quantum DNSSEC, Optimistic DNS, Automating DNS delegation management, and more from IETF 126.",
@@ -252,14 +260,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: The current web still relies on a legacy assumption that website should be accessible over unencrypted HTTP unless it explicitly signals otherwise. HSTS-Enforced builds on top of HSTS by inverting its security model.",
     "pubDate": "2026-07-27T04:22:37.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "The delicate art of cryptographic maintenance: When small certs break big chains",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Around mid-2026, we began receiving user complaints about certificate validation failures. The failure wasn’t a single bug, but the collision of optimization and slow distribution.",
-    "pubDate": "2026-07-23T23:49:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
