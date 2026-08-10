@@ -1,5 +1,21 @@
 [
   {
+    "title": "Why SIGs matter, and why the Guidelines are being reviewed",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Guest Post: A review of APNIC’s SIG Guidelines proposes changes to term limits, elections, Working Groups, and fairness safeguards. Community feedback will help shape the updated Guidelines.",
+    "pubDate": "2026-08-10T04:13:46.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Meet our new IETF NOC Lead",
+    "link": "http://www.ietf.org/blog/meet-our-new-ietf-noc-lead/",
+    "description": "Joe Clarke has been appointed as the new IETF NOC Lead and in this post Joe introduces himself and sets out his priorities for the IETF Network.",
+    "pubDate": "2026-08-09T21:36:14.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
     "title": "APT37 Strikes Again, This Time with NarwhalRAT",
     "link": "https://circleid.com/posts/apt37&#45;strikes&#45;again&#45;this&#45;time&#45;with&#45;narwhalrat",
     "description": "North Korea's APT37 has launched a new NarwhalRAT campaign using spearphishing emails and malicious LNK files to deploy data-stealing malware. Researchers also uncovered infrastructure links and fresh indicators that expand the group's known operational footprint.",
@@ -264,14 +280,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Secure by default: How ‘HSTS-Enforced’ could finally close the web&#8217;s oldest backdoor",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: The current web still relies on a legacy assumption that website should be accessible over unencrypted HTTP unless it explicitly signals otherwise. HSTS-Enforced builds on top of HSTS by inverting its security model.",
-    "pubDate": "2026-07-27T04:22:37.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "What's ARP Got to Do with It?",
     "link": "https://labs.ripe.net/author/remco-van-mook/whats-arp-got-to-do-with-it/",
     "description": "It's only ARP. It works. So how much can it really matter? The answer lies beyond ARP itself, in the IPv4 layer cake that grew around it over four decades. The IPv4 internet is not going away in bounded time, and nobody should pretend otherwise.",
@@ -468,14 +476,6 @@
     "link": "http://www.ietf.org/blog/ietf125-recap/",
     "description": "More than 1500 participants gathered in Shenzhen and online for the IETF 125 meeting 14-20 March 2026 for more than 100 working sessions, an IETF Hackathon, and more.",
     "pubDate": "2026-05-19T14:35:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "Report from the 2026 RPC Retreat",
-    "link": "http://www.ietf.org/blog/rpc-retreat-2026/",
-    "description": "The RFC Production Center (RPC) retreat was a two-day strategic planning session taking place the week of April 20 that gathered the entire RPC team and IETF Administration senior staff.",
-    "pubDate": "2026-05-18T20:56:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
   }
