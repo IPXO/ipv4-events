@@ -1,5 +1,53 @@
 [
   {
+    "title": "ICANN&#8217;s New gTLD Application Window Set to Close, Capping a Landmark Expansion Round",
+    "link": "https://circleid.com/posts/icanns&#45;new&#45;gtld&#45;application&#45;window&#45;set&#45;to&#45;close&#45;capping&#45;a&#45;landmark&#45;expansion&#45;round",
+    "description": "ICANN's second major domain expansion round closes August 12, with costly applications, support for 27 non-Latin scripts and stricter technical vetting setting the stage for a broader, more multilingual internet naming system.",
+    "pubDate": "2026-08-11T16:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Growing Push for Data Sovereignty",
+    "link": "https://circleid.com/posts/the&#45;growing&#45;push&#45;for&#45;data&#45;sovereignty",
+    "description": "Governments, corporations and Indian Tribes increasingly want to keep their data out of Big Tech's hands. The push for data sovereignty could reshape cloud computing, favoring private AI systems over sprawling, centralized data centers.",
+    "pubDate": "2026-08-11T15:56:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "From 300 to 150,000+: What MTN Nigeria&#8217;s FTTH Journey Teaches Us About Scaling Connectivity",
+    "link": "https://circleid.com/posts/from&#45;300&#45;to&#45;150000&#45;what&#45;mtn&#45;nigerias&#45;ftth&#45;journey&#45;teaches&#45;us&#45;about&#45;scaling&#45;connectivity",
+    "description": "MTN Nigeria’s FTTH network has grown from barely 300 home connections to more than 150,000, showing how infrastructure, skilled people, vendor coordination and disciplined operating systems must evolve as connectivity moves from deployment to scale.",
+    "pubDate": "2026-08-11T15:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why Ghana Needs a Community Network Policy Framework: Connecting the Unconnected and Underserved",
+    "link": "https://circleid.com/posts/why&#45;ghana&#45;needs&#45;a&#45;community&#45;network&#45;policy&#45;framework",
+    "description": "Ghana has expanded digital connectivity, but many rural communities remain underserved. Community networks could close the gap, provided policymakers create proportionate regulation, improve infrastructure access and build sustainable models that complement commercial operators.",
+    "pubDate": "2026-08-11T15:12:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+    "link": "https://www.cloudflare.com/cloudforce-one/",
+    "description": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landsc…",
+    "pubDate": "2026-08-11T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Make the Switch to More Secure API Key Handling for Reg-RWS",
+    "link": "https://www.arin.net/blog/2026/08/11/secure-api-key-handling/",
+    "description": "ARIN now supports sending your Reg-RWS API key through a header instead of a URL query parameter — a small change that closes off a real source of accidental credential exposure. Here's why it matters and how to make the switch.",
+    "pubDate": "2026-08-11T12:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "Finding zero-days with any model",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Vulnerability discovery is an orchestration problem, not a frontier-model problem.",
@@ -34,7 +82,7 @@
   {
     "title": "Everything we launched during Agents Week",
     "link": "https://blog.cloudflare.com/agents-week-welcome/",
-    "description": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made, from Wallets to Radar.",
+    "description": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
     "pubDate": "2026-08-10T18:34:10.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
@@ -136,14 +184,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Safe for Whom? A Pilot&#8217;s Take on the AI Incident-Reporting System",
-    "link": "https://circleid.com/posts/safe&#45;for&#45;whom&#45;a&#45;pilots&#45;take&#45;on&#45;the&#45;ai&#45;incident&#45;reporting&#45;system",
-    "description": "Drawing on aviation's trusted incident-reporting model, a former pilot argues AI safety needs confidential reporting paired with public learning, and that legitimacy, international participation and transparency must be built into SAFE from the outset.",
-    "pubDate": "2026-08-06T15:24:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Cloudflare AI Search: give your agents a search engine for your data",
     "link": "https://developers.cloudflare.com/ai-search/",
     "description": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
@@ -168,28 +208,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
-    "link": "https://blog.cloudflare.com/making-ai-search-smarter/",
-    "description": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
-    "pubDate": "2026-08-06T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "[Podcast] Canonical Cache Representation",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Job Snijders discusses a new, compact representation of RPKI-signed objects and an archive of spooled snapshots of the global RPKI repositories.",
     "pubDate": "2026-08-05T22:40:58.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "National Internet Registries: Gatekeeper or Enabler?",
-    "link": "https://circleid.com/posts/national&#45;internet&#45;registries&#45;gatekeeper&#45;or&#45;enabler",
-    "description": "National Internet Registries were created to give countries greater control over internet number resources. Yet where they add opacity and restrict transfers, they can trap scarce IPv4 capacity, slowing growth instead of strengthening digital resilience.",
-    "pubDate": "2026-08-05T14:47:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Your Number Resource Record Is a Part of the Internet's Infrastructure — Respect It Like One",
@@ -214,22 +238,6 @@
     "pubDate": "2026-08-05T03:33:43.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Phantom Squatting: When LLMs&#8217; Hallucination Becomes an Attacker&#8217;s Best Friend",
-    "link": "https://circleid.com/posts/phantom&#45;squatting&#45;when&#45;llms&#45;hallucination&#45;becomes&#45;an&#45;attackers&#45;best&#45;friend",
-    "description": "As AI reshapes cybersecurity, attackers are exploiting a fundamental weakness in large language models. Phantom squatting turns hallucinated domain names into trusted attack vectors, creating a new class of DNS abuse that defenders cannot solve by eliminating hallucinations alone…",
-    "pubDate": "2026-08-04T15:55:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Is Satellite Cellular a Competitive Threat?",
-    "link": "https://circleid.com/posts/is&#45;satellite&#45;cellular&#45;a&#45;competitive&#45;threat",
-    "description": "Direct-to-device satellite cellular promises to extend coverage beyond terrestrial networks, but physics, capacity constraints, and indoor limitations suggest it will complement existing mobile service rather than emerge as a true competitor.",
-    "pubDate": "2026-08-04T14:44:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "IETF 126 in space",
@@ -454,14 +462,6 @@
     "pubDate": "2026-05-26T04:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "The Nine Lives of an Early Adopter: ESnet’s IPv6 Journey — and Why It Matters Now",
-    "link": "https://www.arin.net/blog/2026/05/22/arin-57-keynote-nine-lives-ipv6/",
-    "description": "Last month's ARIN 57 meeting featured a keynote address that brought three decades of real-world IPv6 experience to bear on the question the Internet community keeps asking: Are we there yet? Learn how Inder Monga and Nick Buraglio of ESnet answered that question for the ARIN com…",
-    "pubDate": "2026-05-22T12:30:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
   },
   {
     "title": "New RFC Editor website is live",
