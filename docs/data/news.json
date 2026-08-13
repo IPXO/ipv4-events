@@ -1,5 +1,21 @@
 [
   {
+    "title": "APNIC 62 keynotes explore automation, trust, and the future of the Internet",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "APNIC 62 will explore two essential foundations of a resilient Internet: Intelligent network automation and trusted cybersecurity collaboration. Keynotes from Amajit Gupta and Yukako Uchida offer complementary perspectives on how technology and human relationships will shape the …",
+    "pubDate": "2026-08-13T05:57:46.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Multiple LIR Accounts: Looking Back and Thinking Ahead",
+    "link": "https://labs.ripe.net/author/marco_schmidt/multiple-lir-accounts-looking-back-and-thinking-ahead/",
+    "description": "Why a feature introduced for a handful of members became one of the RIPE NCC's most complex operational challenges.",
+    "pubDate": "2026-08-12T12:47:22.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "ICANN&#8217;s New gTLD Application Window Set to Close, Capping a Landmark Expansion Round",
     "link": "https://circleid.com/posts/icanns&#45;new&#45;gtld&#45;application&#45;window&#45;set&#45;to&#45;close&#45;capping&#45;a&#45;landmark&#45;expansion&#45;round",
     "description": "ICANN's second major domain expansion round closes August 12, with costly applications, support for 27 non-Latin scripts and stricter technical vetting setting the stage for a broader, more multilingual internet naming system.",
@@ -280,14 +296,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "ASO AC delivers Recommended Draft RIR Governance Document to NRO EC",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The ASO AC has delivered the ASO AC Recommended Draft RIR Governance Document to the NRO EC for its consideration.",
-    "pubDate": "2026-07-28T06:06:06.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "What's ARP Got to Do with It?",
     "link": "https://labs.ripe.net/author/remco-van-mook/whats-arp-got-to-do-with-it/",
     "description": "It's only ARP. It works. So how much can it really matter? The answer lies beyond ARP itself, in the IPv4 layer cake that grew around it over four decades. The IPv4 internet is not going away in bounded time, and nobody should pretend otherwise.",
@@ -372,14 +380,6 @@
     "link": "https://labs.ripe.net/author/greg-wood/birds-of-a-feather-at-ietf-126-vienna/",
     "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions - and these are often the most interesting place to watch where Internet standards work is head…",
     "pubDate": "2026-07-08T05:26:26.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "When Internet Traffic Becomes a Physical Event",
-    "link": "https://labs.ripe.net/author/flavio_luciani_1/when-internet-traffic-becomes-a-physical-event/",
-    "description": "Why do live sports, ticket sales, and public service launches sometimes resemble DDoS attacks? This article explores how synchronised user behaviour turns Internet traffic into a physical phenomenon that places real pressure on network infrastructure.",
-    "pubDate": "2026-07-06T12:42:31.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
