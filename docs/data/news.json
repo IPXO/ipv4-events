@@ -1,5 +1,61 @@
 [
   {
+    "title": "Chamelio: A chameleonic network stack that adapts to every tenant",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Chamelio is a provider-managed network stack for cloud VMs that runs in userspace on the host and allows tenants to upload custom transport protocols to a shared datapath.",
+    "pubDate": "2026-08-13T23:56:40.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+    "link": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
+    "description": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
+    "pubDate": "2026-08-13T19:58:01.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Trump Enlists Private Firms for Offensive Cyber Operations",
+    "link": "https://circleid.com/posts/trump&#45;enlists&#45;private&#45;firms&#45;for&#45;offensive&#45;cyber&#45;operations",
+    "description": "The Trump administration will allow vetted American companies to conduct surveillance and offensive cyber operations against foreign criminal groups, extending private-sector capabilities into cybercrime enforcement while keeping missions subject to federal approval, oversight an…",
+    "pubDate": "2026-08-13T15:33:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Who Should Regulate Space?",
+    "link": "https://circleid.com/posts/who&#45;should&#45;regulate&#45;space",
+    "description": "Congress has challenged the FCC's authority to regulate satellite safety, exposing a federal oversight gap as orbital traffic surges and raising an urgent question: which agency should be responsible for preventing collisions and debris disasters?",
+    "pubDate": "2026-08-13T15:11:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Poland Excluded from Starlink&#8217;s European Region: What Musk Dispute Reveals About Digital Sovereignty",
+    "link": "https://circleid.com/posts/poland&#45;excluded&#45;from&#45;starlinks&#45;european&#45;region",
+    "description": "Poland's exclusion from Starlink's new European roaming region has triggered a dispute with Warsaw, exposing how private infrastructure providers can shape cross-border connectivity and raising questions about digital sovereignty, accountability, and internet governance in Europe…",
+    "pubDate": "2026-08-13T15:02:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Global Domain Activity Trends Seen in Q2 2026",
+    "link": "https://circleid.com/posts/global&#45;domain&#45;activity&#45;trends&#45;seen&#45;in&#45;q2&#45;2026",
+    "description": "WhoisXML API's Q2 2026 analysis reveals rising domain registrations, shifting TLD rankings, growing DNS infrastructure concentration, and evolving malicious domain activity, based on billions of DNS records and millions of newly registered and confirmed malicious domains.",
+    "pubDate": "2026-08-13T14:43:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Certificate Transparency Monitoring is now generally available",
+    "link": "https://blog.cloudflare.com/introducing-certificate-transparency-monitoring/",
+    "description": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
+    "pubDate": "2026-08-13T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "APNIC 62 keynotes explore automation, trust, and the future of the Internet",
     "link": "https://blog.apnic.net/category/community/",
     "description": "APNIC 62 will explore two essential foundations of a resilient Internet: Intelligent network automation and trusted cybersecurity collaboration. Keynotes from Amajit Gupta and Yukako Uchida offer complementary perspectives on how technology and human relationships will shape the …",
@@ -88,28 +144,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "July 2026 IPv4 Market Report: Recovery Gains Traction as Supply Tightens",
-    "link": "https://circleid.com/posts/july&#45;2026&#45;ipv4&#45;market&#45;report&#45;recovery&#45;gains&#45;traction&#45;as&#45;supply&#45;tightens",
-    "description": "The IPv4 market continued to strengthen in July as tightening inventory, healthy transaction activity, and broad demand supported rising prices, particularly for larger address blocks, pointing to a more balanced market with continued upward pricing momentum.",
-    "pubDate": "2026-08-10T18:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Everything we launched during Agents Week",
     "link": "https://blog.cloudflare.com/agents-week-welcome/",
     "description": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
     "pubDate": "2026-08-10T18:34:10.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "The Role of Artificial Intelligence in ICANN&#8217;s 2026 Round of gTLD Applications",
-    "link": "https://circleid.com/posts/the&#45;role&#45;of&#45;artificial&#45;intelligence&#45;in&#45;icanns&#45;2026&#45;round&#45;of&#45;gtld&#45;applications",
-    "description": "AI can help applicants navigate ICANN's complex new gTLD process, from business planning and financial modeling to drafting and reviewing applications, pointing towards faster, cheaper and increasingly automated domain-name rounds in the future.",
-    "pubDate": "2026-08-10T18:08:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
@@ -134,14 +174,6 @@
     "pubDate": "2026-08-10T04:13:46.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "APT37 Strikes Again, This Time with NarwhalRAT",
-    "link": "https://circleid.com/posts/apt37&#45;strikes&#45;again&#45;this&#45;time&#45;with&#45;narwhalrat",
-    "description": "North Korea's APT37 has launched a new NarwhalRAT campaign using spearphishing emails and malicious LNK files to deploy data-stealing malware. Researchers also uncovered infrastructure links and fresh indicators that expand the group's known operational footprint.",
-    "pubDate": "2026-08-07T15:38:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Unveiling good and bad behaviors on the Agentic Internet",
@@ -192,33 +224,9 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The Web Has Become a Content Delivery Network",
-    "link": "https://circleid.com/posts/the&#45;web&#45;has&#45;become&#45;a&#45;content&#45;delivery&#45;network",
-    "description": "Cyberattacks, AI scraping and relentless bot traffic have transformed CDNs from performance tools into the Web's defensive gatekeepers, reshaping Internet architecture, governance and control as private intermediaries increasingly determine which requests reach origin servers fir…",
-    "pubDate": "2026-08-06T20:53:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Cloudflare AI Search: give your agents a search engine for your data",
     "link": "https://developers.cloudflare.com/ai-search/",
     "description": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
-    "pubDate": "2026-08-06T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "The next generation of MCP",
-    "link": "https://modelcontextprotocol.io/",
-    "description": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
-    "pubDate": "2026-08-06T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
-    "link": "https://radar.cloudflare.com/traffic#bot-vs-human",
-    "description": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
     "pubDate": "2026-08-06T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
@@ -284,14 +292,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
     "pubDate": "2026-07-30T05:01:32.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "DNS topics at IETF 126",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Recursive resolver DNS query behaviour, Post-quantum DNSSEC, Optimistic DNS, Automating DNS delegation management, and more from IETF 126.",
-    "pubDate": "2026-07-29T05:40:24.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
