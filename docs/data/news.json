@@ -1,5 +1,29 @@
 [
   {
+    "title": "How Cloudflare detects MCP traffic and helps secure it",
+    "link": "https://developers.cloudflare.com/cloudflare-one/",
+    "description": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
+    "pubDate": "2026-08-14T13:12:12.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Secure all your internal vibe-coded applications — in one click",
+    "link": "https://developers.cloudflare.com/pages/configuration/preview-deployments/",
+    "description": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+    "pubDate": "2026-08-14T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
+    "link": "https://labs.ripe.net/author/spidee/deploying-ipv6-first-eks-on-aws-what-still-doesnt-work-and-what-it-saves/",
+    "description": "In this field report on IPv6-first Amazon Elastic Kubernetes Service (EKS), the isp6 team shares which dependencies still drag IPv4 back in, what they learnt from /28s, and why the saving is large but not automatic.",
+    "pubDate": "2026-08-14T08:57:28.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Chamelio: A chameleonic network stack that adapts to every tenant",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Chamelio is a provider-managed network stack for cloud VMs that runs in userspace on the host and allows tenants to upload custom transport protocols to a shared datapath.",
@@ -208,28 +232,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
-    "link": "https://developers.cloudflare.com/changelog/post/2026-08-07-workers-ai-unified-billing/",
-    "description": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applicati…",
-    "pubDate": "2026-08-07T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Understanding partial reachability in the Internet core",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Persistent partial reachability is not noise — it is a fundamental, measurable part of how the Internet behaves today. A small number of long-lived peninsulas cause most of the impact, and recognizing them can dramatically improve both operational clarity and measurem…",
     "pubDate": "2026-08-06T23:44:18.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Cloudflare AI Search: give your agents a search engine for your data",
-    "link": "https://developers.cloudflare.com/ai-search/",
-    "description": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
-    "pubDate": "2026-08-06T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "[Podcast] Canonical Cache Representation",
@@ -374,14 +382,6 @@
     "pubDate": "2026-07-08T09:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Birds of a Feather at IETF 126 Vienna",
-    "link": "https://labs.ripe.net/author/greg-wood/birds-of-a-feather-at-ietf-126-vienna/",
-    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions - and these are often the most interesting place to watch where Internet standards work is head…",
-    "pubDate": "2026-07-08T05:26:26.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Birds of a Feather at IETF 126",
