@@ -1,5 +1,21 @@
 [
   {
+    "title": "ICANN Draws More Than 1,600 Applications in New gTLD Round",
+    "link": "https://circleid.com/posts/icann&#45;draws&#45;more&#45;than&#45;1600&#45;applications&#45;in&#45;new&#45;gtld&#45;round",
+    "description": "ICANN has received more than 1,600 applications for new generic top-level domains, setting the stage for administrative checks, public disclosure and potentially fierce competition over sought-after additions to the internet's expanding domain-name system.",
+    "pubDate": "2026-08-15T17:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Now That You&#8217;ve Applied for a New gTLD, Should You Reveal?",
+    "link": "https://circleid.com/posts/now&#45;that&#45;you&#45;have&#45;applied&#45;for&#45;a&#45;new&#45;gtld&#45;should&#45;you&#45;reveal",
+    "description": "With applications closed, new gTLD hopefuls face a changed calculation: revealing strings early could expose contention while information remains financially valuable, helping applicants make better decisions before fees are paid and withdrawal becomes increasingly costly.",
+    "pubDate": "2026-08-15T16:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "How Cloudflare detects MCP traffic and helps secure it",
     "link": "https://developers.cloudflare.com/cloudflare-one/",
     "description": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
@@ -150,22 +166,6 @@
     "pubDate": "2026-08-11T04:19:20.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "DNS Security Gets Fixed When Someone Notices - Not Before",
-    "link": "https://circleid.com/posts/dns&#45;security&#45;gets&#45;fixed&#45;when&#45;someone&#45;notices&#45;not&#45;before",
-    "description": "A study of 309 universities, museums and sports brands finds DNS security follows visible threats rather than technical risk, leaving organisations well protected against familiar attacks while quieter weaknesses in critical infrastructure persist unnoticed.",
-    "pubDate": "2026-08-10T20:57:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Beyond DUMs: The Case for Tracking What a Namespace Is Made Of",
-    "link": "https://circleid.com/posts/beyond&#45;dums&#45;the&#45;case&#45;for&#45;tracking&#45;what&#45;a&#45;namespace&#45;is&#45;made&#45;of",
-    "description": "Domains Under Management (DUM) measures a namespace's size, but not its character. Structural composition could reveal whether growth reflects durable adoption, speculative holdings or noise, giving registries a richer view of namespace health and strategy.",
-    "pubDate": "2026-08-10T19:00:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Everything we launched during Agents Week",
