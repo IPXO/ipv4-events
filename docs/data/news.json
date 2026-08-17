@@ -1,5 +1,21 @@
 [
   {
+    "title": "ICANN Should Immediately Clarify if Applicants for the Same String Can Communicate Before Reveal Day",
+    "link": "https://circleid.com/posts/icann&#45;should&#45;clarify&#45;pre&#45;reveal&#45;communication&#45;between&#45;same&#45;string&#45;applicants",
+    "description": "With more than 1,600 applications filed for ICANN's 2026 new gTLD Round, self-revealing applicants face uncertainty over whether pre-Reveal Day communications and agreements about overlapping strings could violate strict rules against privately resolving contention sets.",
+    "pubDate": "2026-08-17T02:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "India’s Internet ecosystem in 2026: Growth, resilience, and the road ahead",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "India has built one of the world's largest Internet ecosystems through affordable mobile broadband, digital infrastructure investment, and IPv6 leadership. As it prepares to host APNIC 62, the challenge is ensuring connectivity remains resilient, secure, and inclusive.",
+    "pubDate": "2026-08-17T01:30:48.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "ICANN Draws More Than 1,600 Applications in New gTLD Round",
     "link": "https://circleid.com/posts/icann&#45;draws&#45;more&#45;than&#45;1600&#45;applications&#45;in&#45;new&#45;gtld&#45;round",
     "description": "ICANN has received more than 1,600 applications for new generic top-level domains, setting the stage for administrative checks, public disclosure and potentially fierce competition over sought-after additions to the internet's expanding domain-name system.",
@@ -132,14 +148,6 @@
     "link": "https://circleid.com/posts/from&#45;300&#45;to&#45;150000&#45;what&#45;mtn&#45;nigerias&#45;ftth&#45;journey&#45;teaches&#45;us&#45;about&#45;scaling&#45;connectivity",
     "description": "MTN Nigeria’s FTTH network has grown from barely 300 home connections to more than 150,000, showing how infrastructure, skilled people, vendor coordination and disciplined operating systems must evolve as connectivity moves from deployment to scale.",
     "pubDate": "2026-08-11T15:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Why Ghana Needs a Community Network Policy Framework: Connecting the Unconnected and Underserved",
-    "link": "https://circleid.com/posts/why&#45;ghana&#45;needs&#45;a&#45;community&#45;network&#45;policy&#45;framework",
-    "description": "Ghana has expanded digital connectivity, but many rural communities remain underserved. Community networks could close the gap, provided policymakers create proportionate regulation, improve infrastructure access and build sustainable models that complement commercial operators.",
-    "pubDate": "2026-08-11T15:12:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -294,14 +302,6 @@
     "pubDate": "2026-07-30T11:26:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "BGP topics from IETF 126",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
-    "pubDate": "2026-07-30T05:01:32.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "What's ARP Got to Do with It?",
