@@ -1,5 +1,53 @@
 [
   {
+    "title": "Time: The cornerstone of digital sovereignty and independence",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Though often overlooked, time underpins telecommunications, finance, energy, cloud, AI, and transport systems. As dependence on GNSS increases, organizations need resilient, traceable time sources to strengthen cybersecurity, improve operational continuity, and suppor…",
+    "pubDate": "2026-08-18T01:45:10.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "China&#8217;s Qianfan Emerges as a Satellite Internet Option for Cuba",
+    "link": "https://circleid.com/posts/chinas&#45;qianfan&#45;emerges&#45;as&#45;a&#45;satellite&#45;internet&#45;option&#45;for&#45;cuba",
+    "description": "China's Qianfan satellite constellation could bring high-speed internet to Cuba, where Starlink remains banned, deepening Beijing's digital influence while giving Havana a connectivity upgrade designed to preserve the government's control over online access.",
+    "pubDate": "2026-08-17T20:48:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "What Reagan-Era Cyber Strategists Can Teach America Today",
+    "link": "https://circleid.com/posts/what&#45;reagan&#45;era&#45;cyber&#45;strategists&#45;can&#45;teach&#45;america&#45;today",
+    "description": "Reagan-era cyber strategists anticipated today's transnational threats, proposing international treaties, public-private cooperation and infrastructure protections. As America again considers aggressive action against cybercriminals, their largely forgotten blueprint offers both …",
+    "pubDate": "2026-08-17T19:01:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Dual-Front Challenge: Why Route Security (RPKI) is the Prerequisite for Quantum Readiness (PQC)",
+    "link": "https://circleid.com/posts/why&#45;route&#45;security&#45;rpki&#45;is&#45;the&#45;prerequisite&#45;for&#45;quantum&#45;readiness&#45;pqc",
+    "description": "Internet security risks advancing unevenly: post-quantum cryptography may protect data while vulnerable routing still enables hijacks. Universal RPKI adoption, paired with cryptographic agility, is essential to build an Internet trust architecture ready for quantum threats.",
+    "pubDate": "2026-08-17T18:08:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How Regional Domain Registration Habits Are Changing Global Portfolio Strategy",
+    "link": "https://circleid.com/posts/how&#45;regional&#45;domain&#45;registration&#45;habits&#45;are&#45;changing&#45;global&#45;portfolio&#45;strategy",
+    "description": "Regional domain habits are reshaping global portfolio strategies, as European companies favor country codes, APAC embraces layered local structures, and North America sticks with generic domains, while rising fraud adds urgency to defensive registrations.",
+    "pubDate": "2026-08-17T17:39:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Whose Precedent Gets Remembered? Selective Amplification Has Its Own Amnesia",
+    "link": "https://circleid.com/posts/whose&#45;precedent&#45;gets&#45;remembered&#45;selective&#45;amplification&#45;has&#45;its&#45;own&#45;amnesia",
+    "description": "DotConnectAfrica's .africa victory established an accountability principle later invoked by Amazon, yet institutional memory favored the better-known winner, revealing how selective amplification can detach precedent from its origins and reshape internet-governance history.",
+    "pubDate": "2026-08-17T17:33:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "ICANN Should Immediately Clarify if Applicants for the Same String Can Communicate Before Reveal Day",
     "link": "https://circleid.com/posts/icann&#45;should&#45;clarify&#45;pre&#45;reveal&#45;communication&#45;between&#45;same&#45;string&#45;applicants",
     "description": "With more than 1,600 applications filed for ICANN's 2026 new gTLD Round, self-revealing applicants face uncertainty over whether pre-Reveal Day communications and agreements about overlapping strings could violate strict rules against privately resolving contention sets.",
@@ -88,22 +136,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Poland Excluded from Starlink&#8217;s European Region: What Musk Dispute Reveals About Digital Sovereignty",
-    "link": "https://circleid.com/posts/poland&#45;excluded&#45;from&#45;starlinks&#45;european&#45;region",
-    "description": "Poland's exclusion from Starlink's new European roaming region has triggered a dispute with Warsaw, exposing how private infrastructure providers can shape cross-border connectivity and raising questions about digital sovereignty, accountability, and internet governance in Europe…",
-    "pubDate": "2026-08-13T15:02:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Global Domain Activity Trends Seen in Q2 2026",
-    "link": "https://circleid.com/posts/global&#45;domain&#45;activity&#45;trends&#45;seen&#45;in&#45;q2&#45;2026",
-    "description": "WhoisXML API's Q2 2026 analysis reveals rising domain registrations, shifting TLD rankings, growing DNS infrastructure concentration, and evolving malicious domain activity, based on billions of DNS records and millions of newly registered and confirmed malicious domains.",
-    "pubDate": "2026-08-13T14:43:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Certificate Transparency Monitoring is now generally available",
     "link": "https://blog.cloudflare.com/introducing-certificate-transparency-monitoring/",
     "description": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
@@ -126,30 +158,6 @@
     "pubDate": "2026-08-12T12:47:22.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "ICANN&#8217;s New gTLD Application Window Set to Close, Capping a Landmark Expansion Round",
-    "link": "https://circleid.com/posts/icanns&#45;new&#45;gtld&#45;application&#45;window&#45;set&#45;to&#45;close&#45;capping&#45;a&#45;landmark&#45;expansion&#45;round",
-    "description": "ICANN's second major domain expansion round closes August 12, with costly applications, support for 27 non-Latin scripts and stricter technical vetting setting the stage for a broader, more multilingual internet naming system.",
-    "pubDate": "2026-08-11T16:38:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Growing Push for Data Sovereignty",
-    "link": "https://circleid.com/posts/the&#45;growing&#45;push&#45;for&#45;data&#45;sovereignty",
-    "description": "Governments, corporations and Indian Tribes increasingly want to keep their data out of Big Tech's hands. The push for data sovereignty could reshape cloud computing, favoring private AI systems over sprawling, centralized data centers.",
-    "pubDate": "2026-08-11T15:56:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "From 300 to 150,000+: What MTN Nigeria&#8217;s FTTH Journey Teaches Us About Scaling Connectivity",
-    "link": "https://circleid.com/posts/from&#45;300&#45;to&#45;150000&#45;what&#45;mtn&#45;nigerias&#45;ftth&#45;journey&#45;teaches&#45;us&#45;about&#45;scaling&#45;connectivity",
-    "description": "MTN Nigeria’s FTTH network has grown from barely 300 home connections to more than 150,000, showing how infrastructure, skilled people, vendor coordination and disciplined operating systems must evolve as connectivity moves from deployment to scale.",
-    "pubDate": "2026-08-11T15:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
@@ -276,14 +284,6 @@
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC Executive Council (EC) is seeking community input to better understand barriers affecting diversity in community leadership and EC candidacy. These insights will inform future initiatives to support a broader leadership pipeline.",
     "pubDate": "2026-08-05T03:33:43.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "IETF 126 in space",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "IP addressing, congestion control protocols, and a gold rush in space at IETF 126 in Vienna.",
-    "pubDate": "2026-08-03T06:55:15.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
