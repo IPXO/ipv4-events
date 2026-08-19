@@ -1,5 +1,45 @@
 [
   {
+    "title": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Privacy compliance starts with knowing your data. Many NREN services, including federated identity, eduroam, CSIRT operations, and network telemetry, process personal data and may already fall under emerging privacy laws.",
+    "pubDate": "2026-08-19T05:10:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "AI Duties Are Being Written but the Protocol Layer Is Missing",
+    "link": "https://circleid.com/posts/ai&#45;duties&#45;are&#45;being&#45;written&#45;the&#45;protocol&#45;layer&#45;is&#45;missing",
+    "description": "Recent AI containment failures expose a governance gap: harmful model behavior is often visible at the network boundary but poorly monitored. Adapting proven internet protocols could give governments and companies practical tools to enforce accountability.",
+    "pubDate": "2026-08-18T22:23:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNSSEC Doesn&#8217;t Need a Better Story - It Needs a Better Tuesday",
+    "link": "https://circleid.com/posts/dnssec&#45;doesnt&#45;need&#45;a&#45;better&#45;story&#45;it&#45;needs&#45;a&#45;better&#45;tuesday",
+    "description": "DNSSEC adoption is stronger than headline figures suggest, yet uneven across industries. New data indicate the bigger obstacle is not reputation but operational friction, especially key rollovers, registrar coordination and automation still missing across major domains.",
+    "pubDate": "2026-08-18T18:39:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Massive Photo ZIP Campaign Targets Booking.com Partner and Other Hotels across Japan and Europe",
+    "link": "https://circleid.com/posts/massive&#45;photo&#45;zip&#45;campaign&#45;targets&#45;booking&#45;dot&#45;com&#45;partner&#45;and&#45;other&#45;hotels",
+    "description": "A sprawling phishing campaign targeting hotels in Japan and Europe used deceptive photo ZIP files and legitimate web services to establish persistent access, while researchers uncovered thousands of potentially connected infrastructure artifacts and victim IP addresses.",
+    "pubDate": "2026-08-18T18:18:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "BGP Role model: tracking the adoption of RFC 9234",
+    "link": "https://www.rfc-editor.org/info/rfc7908/",
+    "description": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
+    "pubDate": "2026-08-18T15:21:32.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Time: The cornerstone of digital sovereignty and independence",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Though often overlooked, time underpins telecommunications, finance, energy, cloud, AI, and transport systems. As dependence on GNSS increases, organizations need resilient, traceable time sources to strengthen cybersecurity, improve operational continuity, and suppor…",
@@ -72,14 +112,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Now That You&#8217;ve Applied for a New gTLD, Should You Reveal?",
-    "link": "https://circleid.com/posts/now&#45;that&#45;you&#45;have&#45;applied&#45;for&#45;a&#45;new&#45;gtld&#45;should&#45;you&#45;reveal",
-    "description": "With applications closed, new gTLD hopefuls face a changed calculation: revealing strings early could expose contention while information remains financially valuable, helping applicants make better decisions before fees are paid and withdrawal becomes increasingly costly.",
-    "pubDate": "2026-08-15T16:54:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "How Cloudflare detects MCP traffic and helps secure it",
     "link": "https://developers.cloudflare.com/cloudflare-one/",
     "description": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
@@ -118,22 +150,6 @@
     "pubDate": "2026-08-13T19:58:01.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Trump Enlists Private Firms for Offensive Cyber Operations",
-    "link": "https://circleid.com/posts/trump&#45;enlists&#45;private&#45;firms&#45;for&#45;offensive&#45;cyber&#45;operations",
-    "description": "The Trump administration will allow vetted American companies to conduct surveillance and offensive cyber operations against foreign criminal groups, extending private-sector capabilities into cybercrime enforcement while keeping missions subject to federal approval, oversight an…",
-    "pubDate": "2026-08-13T15:33:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Who Should Regulate Space?",
-    "link": "https://circleid.com/posts/who&#45;should&#45;regulate&#45;space",
-    "description": "Congress has challenged the FCC's authority to regulate satellite safety, exposing a federal oversight gap as orbital traffic surges and raising an urgent question: which agency should be responsible for preventing collisions and debris disasters?",
-    "pubDate": "2026-08-13T15:11:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Certificate Transparency Monitoring is now generally available",
@@ -240,14 +256,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
-    "link": "http://cloudflare.com/community",
-    "description": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
-    "pubDate": "2026-08-07T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Understanding partial reachability in the Internet core",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Persistent partial reachability is not noise — it is a fundamental, measurable part of how the Internet behaves today. A small number of long-lived peninsulas cause most of the impact, and recognizing them can dramatically improve both operational clarity and measurem…",
@@ -276,14 +284,6 @@
     "link": "https://blog.apnic.net/category/community/",
     "description": "In H1 2026, APNIC worked with Members, partners, and stakeholders across the region to strengthen routing security, support emerging CERT communities, build technical capacity, and advance governance discussions.",
     "pubDate": "2026-08-05T04:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Join the final online listening session on diversity in APNIC community leadership",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The APNIC Executive Council (EC) is seeking community input to better understand barriers affecting diversity in community leadership and EC candidacy. These insights will inform future initiatives to support a broader leadership pipeline.",
-    "pubDate": "2026-08-05T03:33:43.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
