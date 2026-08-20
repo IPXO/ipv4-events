@@ -1,5 +1,45 @@
 [
   {
+    "title": "[Podcast] DNS cold start",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Geoff Huston discusses the unexpected behaviours of the DNS when you perform a query after 'cold start' with no cached data.",
+    "pubDate": "2026-08-19T20:30:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "After the Close: What the 2026 gTLD Round Has Already Revealed",
+    "link": "https://circleid.com/posts/after&#45;the&#45;close&#45;what&#45;the&#45;2026&#45;gtld&#45;round&#45;has&#45;already&#45;revealed",
+    "description": "ICANN's 2026 gTLD round drew more than 1,600 applications, led by ambitious portfolio investors. But scant brand disclosures and new rules banning private settlements could make contention costlier and reshape the economics of domain ownership.",
+    "pubDate": "2026-08-19T16:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "link": "https://blog.cloudflare.com/spectre-research-with-tu-graz/",
+    "description": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
+    "pubDate": "2026-08-19T16:00:28.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Wi-Fi 7 Adoption Is Accelerating",
+    "link": "https://circleid.com/posts/wi&#45;fi&#45;7&#45;adoption&#45;is&#45;accelerating",
+    "description": "Wi-Fi 7 is spreading rapidly across America, promising faster speeds, greater capacity and fewer connectivity headaches. With big internet providers driving adoption, the technology is reshaping home broadband even as Wi-Fi 8 approaches.",
+    "pubDate": "2026-08-19T15:22:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "AFRINIC&#8217;s Constitution Is Africa&#8217;s Next Internet Stress Test",
+    "link": "https://circleid.com/posts/afrinics&#45;constitution&#45;is&#45;africas&#45;next&#45;internet&#45;stress&#45;test",
+    "description": "AFRINIC's proposed Constitution offers Africa's troubled internet registry a chance to turn years of litigation, disputed elections and institutional paralysis into durable governance, provided reforms constrain external capture, internal concentration and administrative overreac…",
+    "pubDate": "2026-08-19T14:29:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Privacy compliance starts with knowing your data. Many NREN services, including federated identity, eduroam, CSIRT operations, and network telemetry, process personal data and may already fall under emerging privacy laws.",
@@ -80,36 +120,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Whose Precedent Gets Remembered? Selective Amplification Has Its Own Amnesia",
-    "link": "https://circleid.com/posts/whose&#45;precedent&#45;gets&#45;remembered&#45;selective&#45;amplification&#45;has&#45;its&#45;own&#45;amnesia",
-    "description": "DotConnectAfrica's .africa victory established an accountability principle later invoked by Amazon, yet institutional memory favored the better-known winner, revealing how selective amplification can detach precedent from its origins and reshape internet-governance history.",
-    "pubDate": "2026-08-17T17:33:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN Should Immediately Clarify if Applicants for the Same String Can Communicate Before Reveal Day",
-    "link": "https://circleid.com/posts/icann&#45;should&#45;clarify&#45;pre&#45;reveal&#45;communication&#45;between&#45;same&#45;string&#45;applicants",
-    "description": "With more than 1,600 applications filed for ICANN's 2026 new gTLD Round, self-revealing applicants face uncertainty over whether pre-Reveal Day communications and agreements about overlapping strings could violate strict rules against privately resolving contention sets.",
-    "pubDate": "2026-08-17T02:38:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "India’s Internet ecosystem in 2026: Growth, resilience, and the road ahead",
     "link": "https://blog.apnic.net/category/community/",
     "description": "India has built one of the world's largest Internet ecosystems through affordable mobile broadband, digital infrastructure investment, and IPv6 leadership. As it prepares to host APNIC 62, the challenge is ensuring connectivity remains resilient, secure, and inclusive.",
     "pubDate": "2026-08-17T01:30:48.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "ICANN Draws More Than 1,600 Applications in New gTLD Round",
-    "link": "https://circleid.com/posts/icann&#45;draws&#45;more&#45;than&#45;1600&#45;applications&#45;in&#45;new&#45;gtld&#45;round",
-    "description": "ICANN has received more than 1,600 applications for new generic top-level domains, setting the stage for administrative checks, public disclosure and potentially fierce competition over sought-after additions to the internet's expanding domain-name system.",
-    "pubDate": "2026-08-15T17:42:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "How Cloudflare detects MCP traffic and helps secure it",
@@ -248,14 +264,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
-    "link": "https://radar.cloudflare.com",
-    "description": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
-    "pubDate": "2026-08-07T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Understanding partial reachability in the Internet core",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Persistent partial reachability is not noise — it is a fundamental, measurable part of how the Internet behaves today. A small number of long-lived peninsulas cause most of the impact, and recognizing them can dramatically improve both operational clarity and measurem…",
@@ -278,14 +286,6 @@
     "pubDate": "2026-08-05T12:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "APNIC community engagement: January – June 2026 in review",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "In H1 2026, APNIC worked with Members, partners, and stakeholders across the region to strengthen routing security, support emerging CERT communities, build technical capacity, and advance governance discussions.",
-    "pubDate": "2026-08-05T04:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
