@@ -1,5 +1,21 @@
 [
   {
+    "title": "APNIC 62 OPM: Just the facts",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The APNIC 62 Open Policy Meeting will consider a diverse set of policy proposals covering IPv4 management, IPv6 allocation practices, and Internet abuse handling.",
+    "pubDate": "2026-08-21T02:47:03.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "From all-or-nothing to task-based OAuth consent",
+    "link": "https://blog.cloudflare.com/oauth-for-all/",
+    "description": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
+    "pubDate": "2026-08-20T17:03:03.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "[Podcast] DNS cold start",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Geoff Huston discusses the unexpected behaviours of the DNS when you perform a query after 'cold start' with no cached data.",
@@ -248,14 +264,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Unveiling good and bad behaviors on the Agentic Internet",
-    "link": "https://blog.cloudflare.com/introducing-precursor/",
-    "description": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how …",
-    "pubDate": "2026-08-07T13:01:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "The State of IPv6 in the Caribbean",
     "link": "https://www.arin.net/blog/2026/08/07/state-ipv6-caribbean-2026/",
     "description": "It's time for our annual update on who’s leading the charge for IPv6 adoption in the Caribbean, featuring new leaders and new lessons emerging from this year’s data.",
@@ -268,14 +276,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Persistent partial reachability is not noise — it is a fundamental, measurable part of how the Internet behaves today. A small number of long-lived peninsulas cause most of the impact, and recognizing them can dramatically improve both operational clarity and measurem…",
     "pubDate": "2026-08-06T23:44:18.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "[Podcast] Canonical Cache Representation",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Job Snijders discusses a new, compact representation of RPKI-signed objects and an archive of spooled snapshots of the global RPKI repositories.",
-    "pubDate": "2026-08-05T22:40:58.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
