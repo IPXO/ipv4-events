@@ -1,5 +1,29 @@
 [
   {
+    "title": "Say it once: introducing Bot Preference Sync",
+    "link": "https://developers.cloudflare.com/bots/concepts/bot/verified-bots/",
+    "description": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
+    "pubDate": "2026-08-21T23:19:57.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
+    "link": "https://circleid.com/posts/dns&#45;abuse&#45;and&#45;criminal&#45;infrastructure&#45;beyond&#45;definitions&#45;and&#45;blocklists",
+    "description": "Research suggests criminals may control a striking share of newly registered gTLD domains, raising questions about whether ICANN's definitions, contractual safeguards and enforcement mechanisms are keeping pace with the industrial scale of technology-facilitated harm.",
+    "pubDate": "2026-08-21T15:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "1,600 Applications Later: What&#8217;s Next for the New gTLD Round?",
+    "link": "https://circleid.com/posts/1600&#45;applications&#45;later&#45;whats&#45;next&#45;for&#45;the&#45;new&#45;gtld&#45;round",
+    "description": "ICANN's latest new gTLD round drew more than 1,600 applications, many targeting generic strings. With payments being finalised and potential clashes emerging, October's Reveal Day will show how dramatically the domain-name landscape could expand.",
+    "pubDate": "2026-08-21T15:14:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "APNIC 62 OPM: Just the facts",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC 62 Open Policy Meeting will consider a diverse set of policy proposals covering IPv4 management, IPv6 allocation practices, and Internet abuse handling.",
@@ -120,22 +144,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "The Dual-Front Challenge: Why Route Security (RPKI) is the Prerequisite for Quantum Readiness (PQC)",
-    "link": "https://circleid.com/posts/why&#45;route&#45;security&#45;rpki&#45;is&#45;the&#45;prerequisite&#45;for&#45;quantum&#45;readiness&#45;pqc",
-    "description": "Internet security risks advancing unevenly: post-quantum cryptography may protect data while vulnerable routing still enables hijacks. Universal RPKI adoption, paired with cryptographic agility, is essential to build an Internet trust architecture ready for quantum threats.",
-    "pubDate": "2026-08-17T18:08:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "How Regional Domain Registration Habits Are Changing Global Portfolio Strategy",
-    "link": "https://circleid.com/posts/how&#45;regional&#45;domain&#45;registration&#45;habits&#45;are&#45;changing&#45;global&#45;portfolio&#45;strategy",
-    "description": "Regional domain habits are reshaping global portfolio strategies, as European companies favor country codes, APAC embraces layered local structures, and North America sticks with generic domains, while rising fraud adds urgency to defensive registrations.",
-    "pubDate": "2026-08-17T17:39:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "India’s Internet ecosystem in 2026: Growth, resilience, and the road ahead",
     "link": "https://blog.apnic.net/category/community/",
     "description": "India has built one of the world's largest Internet ecosystems through affordable mobile broadband, digital infrastructure investment, and IPv6 leadership. As it prepares to host APNIC 62, the challenge is ensuring connectivity remains resilient, secure, and inclusive.",
@@ -236,14 +244,6 @@
     "link": "https://blog.cloudflare.com/agents-week-welcome/",
     "description": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
     "pubDate": "2026-08-10T18:34:10.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
-    "link": "https://www.cloudflare.com/the-net/government/critical-infrastructure/",
-    "description": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
-    "pubDate": "2026-08-10T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
