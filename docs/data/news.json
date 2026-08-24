@@ -1,5 +1,21 @@
 [
   {
+    "title": "MikroTik as a home router",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: No homelab can be complete without a proper networking setup. Proceed at your own risk! (... it's worth it)",
+    "pubDate": "2026-08-24T01:03:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Do IXPs make the Internet faster? It’s complicated",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "IXPs shape latency, cost, resilience, and the spread of new technologies, not just Internet speed. As the Internet evolves, the role of IXPs continues to expand, as highlighted in this BPF 2026 panel discussion.",
+    "pubDate": "2026-08-23T23:05:33.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Say it once: introducing Bot Preference Sync",
     "link": "https://developers.cloudflare.com/bots/concepts/bot/verified-bots/",
     "description": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
@@ -256,28 +272,12 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Why SIGs matter, and why the Guidelines are being reviewed",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Guest Post: A review of APNIC’s SIG Guidelines proposes changes to term limits, elections, Working Groups, and fairness safeguards. Community feedback will help shape the updated Guidelines.",
-    "pubDate": "2026-08-10T04:13:46.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "The State of IPv6 in the Caribbean",
     "link": "https://www.arin.net/blog/2026/08/07/state-ipv6-caribbean-2026/",
     "description": "It's time for our annual update on who’s leading the charge for IPv6 adoption in the Caribbean, featuring new leaders and new lessons emerging from this year’s data.",
     "pubDate": "2026-08-07T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Understanding partial reachability in the Internet core",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Persistent partial reachability is not noise — it is a fundamental, measurable part of how the Internet behaves today. A small number of long-lived peninsulas cause most of the impact, and recognizing them can dramatically improve both operational clarity and measurem…",
-    "pubDate": "2026-08-06T23:44:18.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Your Number Resource Record Is a Part of the Internet's Infrastructure — Respect It Like One",
