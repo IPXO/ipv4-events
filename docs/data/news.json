@@ -1,5 +1,53 @@
 [
   {
+    "title": "AI, IPv6, and the future Internet at IETF 126",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: At IETF 126, discussions highlighted how AI is beginning to shape the future of Internet infrastructure. Participants identified IPv6 as a critical foundation for large-scale AI ecosystems and explored new approaches.",
+    "pubDate": "2026-08-25T01:20:50.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Cloudflare Blog – Brought to you by EmDash",
+    "link": "https://x.com/CherryJimbo/status/2077475003386220610",
+    "description": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
+    "pubDate": "2026-08-24T19:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "5 of the Biggest Cyber Attacks in 2026 So Far: DNS Deep Dive",
+    "link": "https://circleid.com/posts/5&#45;of&#45;the&#45;biggest&#45;cyber&#45;attacks&#45;in&#45;2026&#45;so&#45;far&#45;dns&#45;deep&#45;dive",
+    "description": "A DNS deep dive into five major cyber attacks of 2026 uncovers infrastructure linked to Cisco, Ivanti, Stryker and ShinyHunters incidents, revealing hundreds of connected domains and IP addresses that could sharpen threat detection efforts.",
+    "pubDate": "2026-08-24T18:43:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Beyond Protocol and Policy: Why Project Jake is Reshaping the Architecture of Internet Trust",
+    "link": "https://circleid.com/posts/beyond&#45;protocol&#45;and&#45;policy&#45;why&#45;project&#45;jake&#45;is&#45;reshaping&#45;the&#45;architecture&#45;of&#45;internet&#45;trust",
+    "description": "Project Jake aims to bridge the divide between internet protocols and policy, offering registries, law enforcement and rights holders a decentralised framework for accessing domain-registration data securely while navigating privacy laws and institutional gridlock.",
+    "pubDate": "2026-08-24T17:49:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Open-Weight AI: Open to Whom?",
+    "link": "https://circleid.com/posts/open&#45;weight&#45;ai&#45;open&#45;to&#45;whom",
+    "description": "The push for open-weight AI promises broader access and competition, but true openness requires more than releasing model weights. Compute, infrastructure, training data, security, and control ultimately determine who can meaningfully benefit from open AI.",
+    "pubDate": "2026-08-24T15:40:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
+    "link": "https://labs.ripe.net/author/andrew_campling/dns-abuse-and-criminal-infrastructure-beyond-definitions-and-blocklists/",
+    "description": "Evidence suggests that criminals may control a substantial share of new gTLD registrations. Although the precise scale remains contested, the article asks whether current DNS Abuse measures adequately address wider misuse of domain names.",
+    "pubDate": "2026-08-24T11:30:19.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "MikroTik as a home router",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: No homelab can be complete without a proper networking setup. Proceed at your own risk! (... it's worth it)",
@@ -120,14 +168,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Massive Photo ZIP Campaign Targets Booking.com Partner and Other Hotels across Japan and Europe",
-    "link": "https://circleid.com/posts/massive&#45;photo&#45;zip&#45;campaign&#45;targets&#45;booking&#45;dot&#45;com&#45;partner&#45;and&#45;other&#45;hotels",
-    "description": "A sprawling phishing campaign targeting hotels in Japan and Europe used deceptive photo ZIP files and legitimate web services to establish persistent access, while researchers uncovered thousands of potentially connected infrastructure artifacts and victim IP addresses.",
-    "pubDate": "2026-08-18T18:18:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "link": "https://www.rfc-editor.org/info/rfc7908/",
     "description": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
@@ -142,22 +182,6 @@
     "pubDate": "2026-08-18T01:45:10.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "China&#8217;s Qianfan Emerges as a Satellite Internet Option for Cuba",
-    "link": "https://circleid.com/posts/chinas&#45;qianfan&#45;emerges&#45;as&#45;a&#45;satellite&#45;internet&#45;option&#45;for&#45;cuba",
-    "description": "China's Qianfan satellite constellation could bring high-speed internet to Cuba, where Starlink remains banned, deepening Beijing's digital influence while giving Havana a connectivity upgrade designed to preserve the government's control over online access.",
-    "pubDate": "2026-08-17T20:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "What Reagan-Era Cyber Strategists Can Teach America Today",
-    "link": "https://circleid.com/posts/what&#45;reagan&#45;era&#45;cyber&#45;strategists&#45;can&#45;teach&#45;america&#45;today",
-    "description": "Reagan-era cyber strategists anticipated today's transnational threats, proposing international treaties, public-private cooperation and infrastructure protections. As America again considers aggressive action against cybercriminals, their largely forgotten blueprint offers both …",
-    "pubDate": "2026-08-17T19:01:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "India’s Internet ecosystem in 2026: Growth, resilience, and the road ahead",
@@ -246,22 +270,6 @@
     "pubDate": "2026-08-11T12:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Finding zero-days with any model",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Vulnerability discovery is an orchestration problem, not a frontier-model problem.",
-    "pubDate": "2026-08-11T04:19:20.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Everything we launched during Agents Week",
-    "link": "https://blog.cloudflare.com/agents-week-welcome/",
-    "description": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
-    "pubDate": "2026-08-10T18:34:10.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Meet our new IETF NOC Lead",
@@ -364,14 +372,6 @@
     "link": "https://labs.ripe.net/author/remco-van-mook/a-farewell-to-arps-ipv4-service-on-ipv6-only-networks/",
     "description": "IPv6-only networks often still depend on IPv4 subnets and ARP. This article introduces an IETF proposal to eliminate both, allowing IPv4 to operate as a service over IPv6-only infrastructure without translation or tunnelling.",
     "pubDate": "2026-07-13T09:16:47.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "The RIPE Chair Team Reports - July 2026",
-    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-july-2026/",
-    "description": "The RIPE Chair Team rounds up the latest developments across the community, from RIPE 93 preparations and policy work to governance updates and community activities.",
-    "pubDate": "2026-07-08T10:56:36.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
