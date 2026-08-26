@@ -1,5 +1,37 @@
 [
   {
+    "title": "The emerging role of AI in governance discussion",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "A growing debate within the IETF is exploring how AI-generated content should be used and disclosed in standards discussions.",
+    "pubDate": "2026-08-26T04:50:50.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Beyond origin validation: Four classes of routing attack nobody Is validating",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation — handled with local filters, static thresholds and reactive …",
+    "pubDate": "2026-08-25T22:24:59.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "IPv4 Has Two Clocks: Why Acquisition and Deployment Don&#8217;t Move at the Same Speed",
+    "link": "https://circleid.com/posts/ipv4&#45;has&#45;two&#45;clocks&#45;why&#45;acquisition&#45;and&#45;deployment&#45;dont&#45;move&#45;at&#45;the&#45;same&#45;speed",
+    "description": "IPv4's fixed supply masks a crucial mismatch: addresses can be acquired quickly but deployed only gradually. After 2025's price declines, returns increasingly depend on lease rates, absorption speed and the operator's ability to monetise inventory.",
+    "pubDate": "2026-08-25T19:05:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "South Asia SRF highlights Member priorities on IPv6, routing security, and training",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "More than 100 APNIC Members attended the South Asia APNIC Sub-Regional Forum alongside SANOG 44 in Kathmandu. Member feedback gathered during the event will help inform APNIC's future priorities across the region.",
+    "pubDate": "2026-08-25T06:04:35.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "AI, IPv6, and the future Internet at IETF 126",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: At IETF 126, discussions highlighted how AI is beginning to shape the future of Internet infrastructure. Participants identified IPv6 as a critical foundation for large-scale AI ecosystems and explored new approaches.",
@@ -160,14 +192,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "DNSSEC Doesn&#8217;t Need a Better Story - It Needs a Better Tuesday",
-    "link": "https://circleid.com/posts/dnssec&#45;doesnt&#45;need&#45;a&#45;better&#45;story&#45;it&#45;needs&#45;a&#45;better&#45;tuesday",
-    "description": "DNSSEC adoption is stronger than headline figures suggest, yet uneven across industries. New data indicate the bigger obstacle is not reputation but operational friction, especially key rollovers, registrar coordination and automation still missing across major domains.",
-    "pubDate": "2026-08-18T18:39:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "link": "https://www.rfc-editor.org/info/rfc7908/",
     "description": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
@@ -180,14 +204,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Though often overlooked, time underpins telecommunications, finance, energy, cloud, AI, and transport systems. As dependence on GNSS increases, organizations need resilient, traceable time sources to strengthen cybersecurity, improve operational continuity, and suppor…",
     "pubDate": "2026-08-18T01:45:10.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "India’s Internet ecosystem in 2026: Growth, resilience, and the road ahead",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "India has built one of the world's largest Internet ecosystems through affordable mobile broadband, digital infrastructure investment, and IPv6 leadership. As it prepares to host APNIC 62, the challenge is ensuring connectivity remains resilient, secure, and inclusive.",
-    "pubDate": "2026-08-17T01:30:48.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -216,14 +232,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Chamelio: A chameleonic network stack that adapts to every tenant",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Chamelio is a provider-managed network stack for cloud VMs that runs in userspace on the host and allows tenants to upload custom transport protocols to a shared datapath.",
-    "pubDate": "2026-08-13T23:56:40.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
     "link": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
     "description": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
@@ -238,14 +246,6 @@
     "pubDate": "2026-08-13T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "APNIC 62 keynotes explore automation, trust, and the future of the Internet",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "APNIC 62 will explore two essential foundations of a resilient Internet: Intelligent network automation and trusted cybersecurity collaboration. Keynotes from Amajit Gupta and Yukako Uchida offer complementary perspectives on how technology and human relationships will shape the …",
-    "pubDate": "2026-08-13T05:57:46.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Multiple LIR Accounts: Looking Back and Thinking Ahead",
