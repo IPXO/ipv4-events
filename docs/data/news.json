@@ -1,5 +1,45 @@
 [
   {
+    "title": "Online voting for NRO NC election 2026 opens today",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Cast your vote for the seat open for election on the NRO NC. All voting closes on Thursday, 10 September 2026 at 14:30 (UTC +5:30).",
+    "pubDate": "2026-08-27T04:01:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Publishing DMARC Is Not the Same as Operating It",
+    "link": "https://circleid.com/posts/publishing&#45;dmarc&#45;is&#45;not&#45;the&#45;same&#45;as&#45;operating&#45;it",
+    "description": "Publishing a DMARC record is only the beginning. New data show that many domains lack enforcement or reporting, exposing a gap between adopting email authentication and operating it effectively enough to detect problems and deter impersonation.",
+    "pubDate": "2026-08-27T01:49:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "EC Chair&#8217;s Preview: September EC Meeting and APNIC 62",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Get an overview of the topics the EC are considering ahead of the September meeting at APNIC 62.",
+    "pubDate": "2026-08-27T00:52:41.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Last gTLD Round Taught Us the Wrong Lessons",
+    "link": "https://circleid.com/posts/the&#45;last&#45;gtld&#45;round&#45;taught&#45;us&#45;the&#45;wrong&#45;lessons",
+    "description": "Fourteen years after ICANN's last gTLD expansion, registration figures offer an incomplete verdict. The next round will test whether applicants can build namespaces with enduring relevance, rather than merely generating impressive launch volumes and revenues.",
+    "pubDate": "2026-08-26T19:40:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Starlink’s Unconventional Approach to Cellular",
+    "link": "https://circleid.com/posts/starlinks&#45;unconventional&#45;approach&#45;to&#45;cellular",
+    "description": "SpaceX is considering a terrestrial cellular network powered by Starlink satellite backhaul, but scarce spectrum, enormous capacity demands and entrenched rivals could make its boldest telecommunications gambit yet far harder to execute profitably at scale.",
+    "pubDate": "2026-08-26T14:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "The emerging role of AI in governance discussion",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "A growing debate within the IETF is exploring how AI-generated content should be used and disclosed in standards discussions.",
@@ -160,52 +200,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Wi-Fi 7 Adoption Is Accelerating",
-    "link": "https://circleid.com/posts/wi&#45;fi&#45;7&#45;adoption&#45;is&#45;accelerating",
-    "description": "Wi-Fi 7 is spreading rapidly across America, promising faster speeds, greater capacity and fewer connectivity headaches. With big internet providers driving adoption, the technology is reshaping home broadband even as Wi-Fi 8 approaches.",
-    "pubDate": "2026-08-19T15:22:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "AFRINIC&#8217;s Constitution Is Africa&#8217;s Next Internet Stress Test",
-    "link": "https://circleid.com/posts/afrinics&#45;constitution&#45;is&#45;africas&#45;next&#45;internet&#45;stress&#45;test",
-    "description": "AFRINIC's proposed Constitution offers Africa's troubled internet registry a chance to turn years of litigation, disputed elections and institutional paralysis into durable governance, provided reforms constrain external capture, internal concentration and administrative overreac…",
-    "pubDate": "2026-08-19T14:29:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Privacy compliance starts with knowing your data. Many NREN services, including federated identity, eduroam, CSIRT operations, and network telemetry, process personal data and may already fall under emerging privacy laws.",
-    "pubDate": "2026-08-19T05:10:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "AI Duties Are Being Written but the Protocol Layer Is Missing",
-    "link": "https://circleid.com/posts/ai&#45;duties&#45;are&#45;being&#45;written&#45;the&#45;protocol&#45;layer&#45;is&#45;missing",
-    "description": "Recent AI containment failures expose a governance gap: harmful model behavior is often visible at the network boundary but poorly monitored. Adapting proven internet protocols could give governments and companies practical tools to enforce accountability.",
-    "pubDate": "2026-08-18T22:23:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "link": "https://www.rfc-editor.org/info/rfc7908/",
     "description": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
     "pubDate": "2026-08-18T15:21:32.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Time: The cornerstone of digital sovereignty and independence",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Though often overlooked, time underpins telecommunications, finance, energy, cloud, AI, and transport systems. As dependence on GNSS increases, organizations need resilient, traceable time sources to strengthen cybersecurity, improve operational continuity, and suppor…",
-    "pubDate": "2026-08-18T01:45:10.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "How Cloudflare detects MCP traffic and helps secure it",
