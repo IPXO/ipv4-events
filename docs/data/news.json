@@ -1,5 +1,61 @@
 [
   {
+    "title": "The day after the zero-days",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Patching faster cannot keep up with AI-driven discovery. Leverage structural invariants to make bug classes irrelevant.",
+    "pubDate": "2026-08-28T04:42:57.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The lingering legacy of &#8216;reserved&#8217; ports",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Modern service discovery mechanisms increasingly allow services to run on arbitrary ports, yet DNS may remain the one protocol that cannot fully escape its dependency on the long-established convention of port 53.",
+    "pubDate": "2026-08-27T23:29:48.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "AI Is Rewriting the Internet. But in Whose Language?",
+    "link": "https://circleid.com/posts/ai&#45;is&#45;rewriting&#45;the&#45;internet&#45;but&#45;in&#45;whose&#45;language",
+    "description": "AI is becoming a gateway to the internet, but thousands of languages remain excluded. Closing the gap requires multilingual infrastructure, representative training data and policies that make linguistic inclusion a foundation of the AI era.",
+    "pubDate": "2026-08-27T18:20:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Post-Quantum Authentication: Up Next",
+    "link": "http://www.ietf.org/blog/iab-pq-workshop-cfp/",
+    "description": "Post-quantum key establishment has moved from standards into deployment. Post-quantum authentication has not moved nearly as far, and specification work is no longer the only constraint. The IAB is holding a workshop in Prague on 11 and 12 October 2026 to bring deployment experie…",
+    "pubDate": "2026-08-27T18:16:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Radix Announces Radix Deux: 46 Primary Applications in ICANN&#8217;s Next gTLD Round",
+    "link": "https://circleid.com/posts/radix&#45;announces&#45;radix&#45;deux&#45;46&#45;primary&#45;applications&#45;in&#45;icanns&#45;next&#45;gtld&#45;round",
+    "description": "Radix is making its biggest strategic bet yet, filing 46 primary applications for ICANN's next gTLD round after whittling 3.2m possibilities into a portfolio spanning AI, technology, health, finance, business, creators and culture.",
+    "pubDate": "2026-08-27T17:12:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+    "link": "https://blog.cloudflare.com/big-pineapple-intro/",
+    "description": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
+    "pubDate": "2026-08-27T17:02:35.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "IETF 126 post-meeting survey: what we heard",
+    "link": "http://www.ietf.org/blog/ietf126-survey/",
+    "description": "The IETF 126 Vienna meeting was held 18-24 July 2026 and the results of the post-meeting survey are now available.",
+    "pubDate": "2026-08-27T16:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
     "title": "Online voting for NRO NC election 2026 opens today",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Cast your vote for the seat open for election on the NRO NC. All voting closes on Thursday, 10 September 2026 at 14:30 (UTC +5:30).",
@@ -152,44 +208,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "1,600 Applications Later: What&#8217;s Next for the New gTLD Round?",
-    "link": "https://circleid.com/posts/1600&#45;applications&#45;later&#45;whats&#45;next&#45;for&#45;the&#45;new&#45;gtld&#45;round",
-    "description": "ICANN's latest new gTLD round drew more than 1,600 applications, many targeting generic strings. With payments being finalised and potential clashes emerging, October's Reveal Day will show how dramatically the domain-name landscape could expand.",
-    "pubDate": "2026-08-21T15:14:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "APNIC 62 OPM: Just the facts",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The APNIC 62 Open Policy Meeting will consider a diverse set of policy proposals covering IPv4 management, IPv6 allocation practices, and Internet abuse handling.",
-    "pubDate": "2026-08-21T02:47:03.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "From all-or-nothing to task-based OAuth consent",
     "link": "https://blog.cloudflare.com/oauth-for-all/",
     "description": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
     "pubDate": "2026-08-20T17:03:03.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "[Podcast] DNS cold start",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Geoff Huston discusses the unexpected behaviours of the DNS when you perform a query after 'cold start' with no cached data.",
-    "pubDate": "2026-08-19T20:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "After the Close: What the 2026 gTLD Round Has Already Revealed",
-    "link": "https://circleid.com/posts/after&#45;the&#45;close&#45;what&#45;the&#45;2026&#45;gtld&#45;round&#45;has&#45;already&#45;revealed",
-    "description": "ICANN's 2026 gTLD round drew more than 1,600 applications, led by ambitious portfolio investors. But scant brand disclosures and new rules banning private settlements could make contention costlier and reshape the economics of domain ownership.",
-    "pubDate": "2026-08-19T16:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
@@ -254,14 +278,6 @@
     "pubDate": "2026-08-12T12:47:22.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
-    "link": "https://www.cloudflare.com/cloudforce-one/",
-    "description": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landsc…",
-    "pubDate": "2026-08-11T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Make the Switch to More Secure API Key Handling for Reg-RWS",
@@ -460,22 +476,6 @@
     "link": "http://www.ietf.org/blog/ietf-llc-2025-annual-financial-audit/",
     "description": "IETF Administration LLC Board of Directors received from external auditors the report of a clean result for its 2025 annual financial statement.",
     "pubDate": "2026-05-26T04:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "New RFC Editor website is live",
-    "link": "http://www.ietf.org/blog/rfc-editor-website-launch/",
-    "description": "Today we are launching the new rfc-editor.org website, the most visible part of a comprehensive overhaul of the tools that support editing and publishing RFCs.",
-    "pubDate": "2026-05-20T20:50:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "IETF 125 Highlights",
-    "link": "http://www.ietf.org/blog/ietf125-recap/",
-    "description": "More than 1500 participants gathered in Shenzhen and online for the IETF 125 meeting 14-20 March 2026 for more than 100 working sessions, an IETF Hackathon, and more.",
-    "pubDate": "2026-05-19T14:35:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
   }
