@@ -1,5 +1,69 @@
 [
   {
+    "title": "The Missing Privacy Debate Around IPv6",
+    "link": "https://circleid.com/posts/the&#45;missing&#45;privacy&#45;debate&#45;around&#45;ipv6",
+    "description": "IPv6 solves the Internet's address shortage and simplifies networking, but its technical elegance may carry a hidden cost: shifting privacy protections from architectural constraints toward policies controlled by Internet providers, corporations and governments.",
+    "pubDate": "2026-08-28T20:05:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "A DNS Infrastructure Analysis of a Microsoft 365 Device Code Phishing Campaign",
+    "link": "https://circleid.com/posts/a&#45;dns&#45;infrastructure&#45;analysis&#45;of&#45;a&#45;microsoft&#45;365&#45;device&#45;code&#45;phishing&#45;campaign",
+    "description": "A DNS investigation into a Microsoft 365 device code phishing campaign uncovered coordinated, disposable infrastructure, including 290 indicators of compromise, 87 malicious IP addresses and hundreds of connected domains, suggesting the operation remains active.",
+    "pubDate": "2026-08-28T18:59:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN’s New Data Sharpens the Picture of DNS-abuse Enforcement",
+    "link": "https://circleid.com/posts/icann&#45;updates&#45;dns&#45;abuse&#45;enforcement&#45;data",
+    "description": "ICANN's updated DNS-abuse data distinguishes allegations from actionable complaints and malicious registrations from compromised domains, offering a clearer test of whether tougher contractual requirements are strengthening enforcement or simply generating a larger volume of repo…",
+    "pubDate": "2026-08-28T16:41:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN to Shut Down Open Data Platform and API September 1",
+    "link": "https://circleid.com/posts/icann&#45;to&#45;shut&#45;down&#45;open&#45;data&#45;platform&#45;and&#45;api&#45;september&#45;1",
+    "description": "ICANN will retire its Open Data Platform and API on September 1, shifting datasets to downloadable CSV files and forcing researchers, registries and domain-industry organizations to update automated workflows that rely on programmatic data access.",
+    "pubDate": "2026-08-28T16:19:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "UK Warns of Rising Cyberattacks on Exposed Industrial Systems",
+    "link": "https://circleid.com/posts/uk&#45;warns&#45;of&#45;rising&#45;cyberattacks&#45;on&#45;exposed&#45;industrial&#45;systems",
+    "description": "Britain's cyber agency warns that attackers are increasingly targeting internet-exposed industrial systems, routers and other edge devices, with some intrusions causing real-world disruption and highlighting the growing risks of poorly secured operational technology worldwide.",
+    "pubDate": "2026-08-28T16:02:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Cable Faults Cut Vietnam’s International Internet Capacity by 30%",
+    "link": "https://circleid.com/posts/cable&#45;faults&#45;cut&#45;vietnams&#45;international&#45;internet&#45;capacity&#45;by&#45;30",
+    "description": "Four undersea cable faults are disrupting Vietnam's international internet connectivity, with operators rerouting traffic as earlier outages reduced available capacity by about 30%, highlighting concerns over network redundancy, repair delays and infrastructure resilience.",
+    "pubDate": "2026-08-28T15:43:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "IETF email infrastructure transition planned for 11 September",
+    "link": "http://www.ietf.org/blog/email-service-tranistion-2026-09/",
+    "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) is scheduled for 11 September 2026 starting at 2200UTC, with message delivery delayed up to 60 minutes. Furt…",
+    "pubDate": "2026-08-28T15:29:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+    "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "description": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
+    "pubDate": "2026-08-28T12:59:44.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "The day after the zero-days",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Patching faster cannot keep up with AI-driven discovery. Leverage structural invariants to make bug classes irrelevant.",
@@ -88,14 +152,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Starlink’s Unconventional Approach to Cellular",
-    "link": "https://circleid.com/posts/starlinks&#45;unconventional&#45;approach&#45;to&#45;cellular",
-    "description": "SpaceX is considering a terrestrial cellular network powered by Starlink satellite backhaul, but scarce spectrum, enormous capacity demands and entrenched rivals could make its boldest telecommunications gambit yet far harder to execute profitably at scale.",
-    "pubDate": "2026-08-26T14:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "The emerging role of AI in governance discussion",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "A growing debate within the IETF is exploring how AI-generated content should be used and disclosed in standards discussions.",
@@ -110,14 +166,6 @@
     "pubDate": "2026-08-25T22:24:59.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "IPv4 Has Two Clocks: Why Acquisition and Deployment Don&#8217;t Move at the Same Speed",
-    "link": "https://circleid.com/posts/ipv4&#45;has&#45;two&#45;clocks&#45;why&#45;acquisition&#45;and&#45;deployment&#45;dont&#45;move&#45;at&#45;the&#45;same&#45;speed",
-    "description": "IPv4's fixed supply masks a crucial mismatch: addresses can be acquired quickly but deployed only gradually. After 2025's price declines, returns increasingly depend on lease rates, absorption speed and the operator's ability to monetise inventory.",
-    "pubDate": "2026-08-25T19:05:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "South Asia SRF highlights Member priorities on IPv6, routing security, and training",
@@ -142,30 +190,6 @@
     "pubDate": "2026-08-24T19:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "5 of the Biggest Cyber Attacks in 2026 So Far: DNS Deep Dive",
-    "link": "https://circleid.com/posts/5&#45;of&#45;the&#45;biggest&#45;cyber&#45;attacks&#45;in&#45;2026&#45;so&#45;far&#45;dns&#45;deep&#45;dive",
-    "description": "A DNS deep dive into five major cyber attacks of 2026 uncovers infrastructure linked to Cisco, Ivanti, Stryker and ShinyHunters incidents, revealing hundreds of connected domains and IP addresses that could sharpen threat detection efforts.",
-    "pubDate": "2026-08-24T18:43:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Beyond Protocol and Policy: Why Project Jake is Reshaping the Architecture of Internet Trust",
-    "link": "https://circleid.com/posts/beyond&#45;protocol&#45;and&#45;policy&#45;why&#45;project&#45;jake&#45;is&#45;reshaping&#45;the&#45;architecture&#45;of&#45;internet&#45;trust",
-    "description": "Project Jake aims to bridge the divide between internet protocols and policy, offering registries, law enforcement and rights holders a decentralised framework for accessing domain-registration data securely while navigating privacy laws and institutional gridlock.",
-    "pubDate": "2026-08-24T17:49:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Open-Weight AI: Open to Whom?",
-    "link": "https://circleid.com/posts/open&#45;weight&#45;ai&#45;open&#45;to&#45;whom",
-    "description": "The push for open-weight AI promises broader access and competition, but true openness requires more than releasing model weights. Compute, infrastructure, training data, security, and control ultimately determine who can meaningfully benefit from open AI.",
-    "pubDate": "2026-08-24T15:40:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
@@ -198,14 +222,6 @@
     "pubDate": "2026-08-21T23:19:57.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
-    "link": "https://circleid.com/posts/dns&#45;abuse&#45;and&#45;criminal&#45;infrastructure&#45;beyond&#45;definitions&#45;and&#45;blocklists",
-    "description": "Research suggests criminals may control a striking share of newly registered gTLD domains, raising questions about whether ICANN's definitions, contractual safeguards and enforcement mechanisms are keeping pace with the industrial scale of technology-facilitated harm.",
-    "pubDate": "2026-08-21T15:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "From all-or-nothing to task-based OAuth consent",
@@ -260,14 +276,6 @@
     "link": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
     "description": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
     "pubDate": "2026-08-13T19:58:01.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Certificate Transparency Monitoring is now generally available",
-    "link": "https://blog.cloudflare.com/introducing-certificate-transparency-monitoring/",
-    "description": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
-    "pubDate": "2026-08-13T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -470,13 +478,5 @@
     "pubDate": "2026-05-27T14:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "IETF Administration LLC 2025 Annual Financial Audit",
-    "link": "http://www.ietf.org/blog/ietf-llc-2025-annual-financial-audit/",
-    "description": "IETF Administration LLC Board of Directors received from external auditors the report of a clean result for its 2025 annual financial statement.",
-    "pubDate": "2026-05-26T04:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
   }
 ]
