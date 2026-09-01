@@ -1,5 +1,45 @@
 [
   {
+    "title": "The invisible heartbeat of our networks",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: The recent Telstra outage highlighted a critical but often overlooked dependency in modern networks: Accurate time synchronization.",
+    "pubDate": "2026-08-31T23:03:47.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Researchers Warn EU AI Rules Are Deepening Reliance on Big Tech",
+    "link": "https://circleid.com/posts/researchers&#45;warn&#45;eu&#45;ai&#45;rules&#45;are&#45;deepening&#45;reliance&#45;on&#45;big&#45;tech",
+    "description": "Researchers argue the EU's AI framework increasingly makes major technology companies co-stewards of regulation, raising concerns that reliance on private infrastructure and technical expertise could strengthen incumbents' influence over how AI rules are implemented.",
+    "pubDate": "2026-08-31T22:15:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "FulcrumSec Claims 86 GB Data Theft in Manchester Airports Breach",
+    "link": "https://circleid.com/posts/fulcrumsec&#45;claims&#45;86&#45;gb&#45;data&#45;theft&#45;in&#45;manchester&#45;airports&#45;breach",
+    "description": "FulcrumSec claims it stole 86 GB from Manchester Airports Group, including detailed booking and travel data, while the operator has confirmed a breach but not the group's account of its scale or method.",
+    "pubDate": "2026-08-31T21:59:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Digital Embassies: Could Africa Rethink Digital Sovereignty?",
+    "link": "https://circleid.com/posts/digital&#45;embassies&#45;could&#45;africa&#45;rethink&#45;digital&#45;sovereignty",
+    "description": "Estonia's data embassy model offers African governments a different approach to digital sovereignty, combining cross-border infrastructure, legal safeguards and geographic redundancy to keep critical state systems secure, recoverable and operational during major disruptions.",
+    "pubDate": "2026-08-31T16:24:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+    "link": "https://blog.cloudflare.com/introducing-precursor/",
+    "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploy…",
+    "pubDate": "2026-08-31T12:59:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "ICANN Terminates Two Registrars as DNS Abuse and Compliance Failures Escalate",
     "link": "https://circleid.com/posts/icann&#45;terminates&#45;two&#45;registrars&#45;as&#45;dns&#45;abuse&#45;and&#45;compliance&#45;failures&#45;escalate",
     "description": "ICANN has terminated two registrar accreditation agreements after unresolved compliance failures, citing Trustname's handling of DNS abuse and IPIP's failures involving RDAP, registration data escrow, accreditation fees, and access to non-public registration data.",
@@ -56,14 +96,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Cable Faults Cut Vietnam’s International Internet Capacity by 30%",
-    "link": "https://circleid.com/posts/cable&#45;faults&#45;cut&#45;vietnams&#45;international&#45;internet&#45;capacity&#45;by&#45;30",
-    "description": "Four undersea cable faults are disrupting Vietnam's international internet connectivity, with operators rerouting traffic as earlier outages reduced available capacity by about 30%, highlighting concerns over network redundancy, repair delays and infrastructure resilience.",
-    "pubDate": "2026-08-28T15:43:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "IETF email infrastructure transition planned for 11 September",
     "link": "http://www.ietf.org/blog/email-service-tranistion-2026-09/",
     "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) is scheduled for 11 September 2026 starting at 2200UTC, with message delivery delayed up to 60 minutes. Furt…",
@@ -96,28 +128,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "AI Is Rewriting the Internet. But in Whose Language?",
-    "link": "https://circleid.com/posts/ai&#45;is&#45;rewriting&#45;the&#45;internet&#45;but&#45;in&#45;whose&#45;language",
-    "description": "AI is becoming a gateway to the internet, but thousands of languages remain excluded. Closing the gap requires multilingual infrastructure, representative training data and policies that make linguistic inclusion a foundation of the AI era.",
-    "pubDate": "2026-08-27T18:20:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Post-Quantum Authentication: Up Next",
     "link": "http://www.ietf.org/blog/iab-pq-workshop-cfp/",
     "description": "Post-quantum key establishment has moved from standards into deployment. Post-quantum authentication has not moved nearly as far, and specification work is no longer the only constraint. The IAB is holding a workshop in Prague on 11 and 12 October 2026 to bring deployment experie…",
     "pubDate": "2026-08-27T18:16:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Radix Announces Radix Deux: 46 Primary Applications in ICANN&#8217;s Next gTLD Round",
-    "link": "https://circleid.com/posts/radix&#45;announces&#45;radix&#45;deux&#45;46&#45;primary&#45;applications&#45;in&#45;icanns&#45;next&#45;gtld&#45;round",
-    "description": "Radix is making its biggest strategic bet yet, filing 46 primary applications for ICANN's next gTLD round after whittling 3.2m possibilities into a portfolio spanning AI, technology, health, finance, business, creators and culture.",
-    "pubDate": "2026-08-27T17:12:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
@@ -184,7 +200,7 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The Cloudflare Blog – Brought to you by EmDash",
+    "title": "The Cloudflare Blog — brought to you by EmDash",
     "link": "https://x.com/CherryJimbo/status/2077475003386220610",
     "description": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
     "pubDate": "2026-08-24T19:00:00.000Z",
@@ -208,15 +224,7 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Do IXPs make the Internet faster? It’s complicated",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "IXPs shape latency, cost, resilience, and the spread of new technologies, not just Internet speed. As the Internet evolves, the role of IXPs continues to expand, as highlighted in this BPF 2026 panel discussion.",
-    "pubDate": "2026-08-23T23:05:33.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Say it once: introducing Bot Preference Sync",
+    "title": "Say it once: Introducing Bot Preference Sync",
     "link": "https://developers.cloudflare.com/bots/concepts/bot/verified-bots/",
     "description": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
     "pubDate": "2026-08-21T23:19:57.000Z",
@@ -270,14 +278,6 @@
     "pubDate": "2026-08-14T08:57:28.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
-    "link": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
-    "description": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
-    "pubDate": "2026-08-13T19:58:01.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Multiple LIR Accounts: Looking Back and Thinking Ahead",
