@@ -1,5 +1,69 @@
 [
   {
+    "title": "Beeline: Enforcing application-layer policies in eBPF",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: While many L7 protocols are complex to parse, the logic needed to enforce L7 policies tends to be simple. For the vast majority (89%) of L7 policies in the wild, Beeline can eliminate the service proxy from the critical path.",
+    "pubDate": "2026-09-01T23:30:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "IETF 126 Highlights",
+    "link": "http://www.ietf.org/blog/ietf126-recap/",
+    "description": "The IETF 126 meeting was held 18–24 July 2026 at the Hilton Vienna Park in Vienna, Austria, and online, hosted by Cisco. The week included the IETF Hackathon and Code Sprint, the New Participants' Program, five Birds-of-a-Feather (BoF) sessions, and more than 100 working group an…",
+    "pubDate": "2026-09-01T22:48:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Proposed New DNS Resource Record Types for AI Agent Discovery",
+    "link": "https://circleid.com/posts/proposed&#45;new&#45;dns&#45;resource&#45;record&#45;types&#45;for&#45;ai&#45;agent&#45;discovery",
+    "description": "For more than three decades, domain names have served as a foundational identity layer for internet applications. Initially used to identify early network services such as TELNET, FTP, and email, they later became essential to web browsing and a growing range of online services.",
+    "pubDate": "2026-09-01T16:03:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "From Forgotten to Exploited: How AI Changes the Dangling DNS Threat",
+    "link": "https://circleid.com/posts/from&#45;forgotten&#45;to&#45;exploited&#45;how&#45;ai&#45;changes&#45;the&#45;dangling&#45;dns&#45;threat",
+    "description": "Dangling DNS records can expose trusted corporate subdomains to takeover, while AI-assisted reconnaissance makes abandoned resources easier to find, increasing the need for continuous DNS monitoring rather than periodic audits.",
+    "pubDate": "2026-09-01T15:46:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Thirty-Five Years Later, Moscow Comes Looking for the Soviet Union&#8217;s Domain",
+    "link": "https://circleid.com/posts/thirty&#45;five&#45;years&#45;later&#45;moscow&#45;comes&#45;looking&#45;for&#45;the&#45;soviet&#45;unions&#45;domain",
+    "description": "Russia is imposing state identity verification on .su, the Soviet Union's surviving domain, as researchers uncover criminal infrastructure across the namespace and ICANN pursues a retirement process that could eventually remove it from the global root.",
+    "pubDate": "2026-09-01T15:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+    "link": "https://github.com/facebook/zstd",
+    "description": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
+    "pubDate": "2026-09-01T12:59:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The IRR Landscape: What RPKI Can Replace",
+    "link": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace/",
+    "description": "In the third part of our IRR landscape series, we use traffic measurements from AMS-IX and DE-CIX to assess which parts of the IRR landscape can safely be replaced with RPKI. Third-party ROUTE(6) objects can largely be phased out, while third-party AS-SETs remain essential for BG…",
+    "pubDate": "2026-09-01T12:20:33.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The NRO NC has published the Recommended Draft RIR Governance Document, including a redline version and rationale document.",
+    "pubDate": "2026-09-01T06:03:50.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "The invisible heartbeat of our networks",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: The recent Telstra outage highlighted a critical but often overlooked dependency in modern networks: Accurate time synchronization.",
@@ -68,30 +132,6 @@
     "link": "https://circleid.com/posts/a&#45;dns&#45;infrastructure&#45;analysis&#45;of&#45;a&#45;microsoft&#45;365&#45;device&#45;code&#45;phishing&#45;campaign",
     "description": "A DNS investigation into a Microsoft 365 device code phishing campaign uncovered coordinated, disposable infrastructure, including 290 indicators of compromise, 87 malicious IP addresses and hundreds of connected domains, suggesting the operation remains active.",
     "pubDate": "2026-08-28T18:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN’s New Data Sharpens the Picture of DNS-abuse Enforcement",
-    "link": "https://circleid.com/posts/icann&#45;updates&#45;dns&#45;abuse&#45;enforcement&#45;data",
-    "description": "ICANN's updated DNS-abuse data distinguishes allegations from actionable complaints and malicious registrations from compromised domains, offering a clearer test of whether tougher contractual requirements are strengthening enforcement or simply generating a larger volume of repo…",
-    "pubDate": "2026-08-28T16:41:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN to Shut Down Open Data Platform and API September 1",
-    "link": "https://circleid.com/posts/icann&#45;to&#45;shut&#45;down&#45;open&#45;data&#45;platform&#45;and&#45;api&#45;september&#45;1",
-    "description": "ICANN will retire its Open Data Platform and API on September 1, shifting datasets to downloadable CSV files and forcing researchers, registries and domain-industry organizations to update automated workflows that rely on programmatic data access.",
-    "pubDate": "2026-08-28T16:19:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "UK Warns of Rising Cyberattacks on Exposed Industrial Systems",
-    "link": "https://circleid.com/posts/uk&#45;warns&#45;of&#45;rising&#45;cyberattacks&#45;on&#45;exposed&#45;industrial&#45;systems",
-    "description": "Britain's cyber agency warns that attackers are increasingly targeting internet-exposed industrial systems, routers and other edge devices, with some intrusions causing real-world disruption and highlighting the growing risks of poorly secured operational technology worldwide.",
-    "pubDate": "2026-08-28T16:02:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -192,14 +232,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "AI, IPv6, and the future Internet at IETF 126",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: At IETF 126, discussions highlighted how AI is beginning to shape the future of Internet infrastructure. Participants identified IPv6 as a critical foundation for large-scale AI ecosystems and explored new approaches.",
-    "pubDate": "2026-08-25T01:20:50.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "The Cloudflare Blog — brought to you by EmDash",
     "link": "https://x.com/CherryJimbo/status/2077475003386220610",
     "description": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
@@ -214,14 +246,6 @@
     "pubDate": "2026-08-24T11:30:19.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "MikroTik as a home router",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: No homelab can be complete without a proper networking setup. Proceed at your own risk! (... it's worth it)",
-    "pubDate": "2026-08-24T01:03:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Say it once: Introducing Bot Preference Sync",
@@ -260,14 +284,6 @@
     "link": "https://developers.cloudflare.com/cloudflare-one/",
     "description": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
     "pubDate": "2026-08-14T13:12:12.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Secure all your internal vibe-coded applications — in one click",
-    "link": "https://developers.cloudflare.com/pages/configuration/preview-deployments/",
-    "description": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
-    "pubDate": "2026-08-14T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -392,14 +408,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "A Farewell to ARPs: IPv4 Service on IPv6-Only Networks",
-    "link": "https://labs.ripe.net/author/remco-van-mook/a-farewell-to-arps-ipv4-service-on-ipv6-only-networks/",
-    "description": "IPv6-only networks often still depend on IPv4 subnets and ARP. This article introduces an IETF proposal to eliminate both, allowing IPv4 to operate as a service over IPv6-only infrastructure without translation or tunnelling.",
-    "pubDate": "2026-07-13T09:16:47.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Apply Today for the ARIN 58 Fellowship Program",
     "link": "https://www.arin.net/blog/2026/07/08/arin-58-fellowship-applications/",
     "description": "The call for applications to our ARIN 58 Fellowship Program is out, and Senior Project Manager Amanda Gauldin shares more about what you can expect in this program, why you should consider applying, and what past Fellows have to say about the experience.",
@@ -454,14 +462,6 @@
     "pubDate": "2026-06-10T17:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "IETF LLC Board Retreat 2026",
-    "link": "http://www.ietf.org/blog/llc-board-retreat-2026/",
-    "description": "The IETF Administration LLC Board of Directors held its annual retreat 29-30 April 2026 in Amsterdam. In addition to all Board members, the IETF Executive Director, the Director of Finance, and the Board Secretary were present. Here is a short summary of the main points we discus…",
-    "pubDate": "2026-06-04T11:58:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
   },
   {
     "title": "We Want to Hear from You: Take ARIN's 2026 Customer Satisfaction Survey",
