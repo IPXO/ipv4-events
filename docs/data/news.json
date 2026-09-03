@@ -1,5 +1,45 @@
 [
   {
+    "title": "[Podcast] Measuring the impact of locally served root zone",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "An analysis of the traffic impacts of locally served root zones, by Ilyas Rahimi at UvA.",
+    "pubDate": "2026-09-03T01:05:09.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Effects of AI Expansion on Testing Models and Infrastructure",
+    "link": "https://circleid.com/posts/the&#45;effects&#45;of&#45;ai&#45;expansion&#45;on&#45;testing&#45;models&#45;and&#45;infrastructure",
+    "description": "AI workloads are exposing the limits of traditional network planning and testing, pushing operators toward better traffic visibility, workload-aware policies and production-like testing before adding capacity to infrastructure they may not fully understand.",
+    "pubDate": "2026-09-02T15:56:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "NASA Awards Blue Origin Up to $700 Million for Mars Communications Network",
+    "link": "https://circleid.com/posts/nasa&#45;awards&#45;blue&#45;origin&#45;up&#45;to&#45;700&#45;million&#45;for&#45;mars&#45;communications&#45;network",
+    "description": "NASA selected Blue Origin to build and operate a Mars communications network, extending commercial infrastructure into deep space with high-capacity relays and delay-tolerant networking designed for reliable, interoperable communications among future missions.",
+    "pubDate": "2026-09-02T15:43:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "4iG and SpaceX Plan Starlink Mobile Rollout Across Hungary and Western Balkans",
+    "link": "https://circleid.com/posts/4ig&#45;and&#45;spacex&#45;plan&#45;starlink&#45;mobile&#45;rollout&#45;across&#45;hungary&#45;and&#45;western&#45;balkans",
+    "description": "4iG and SpaceX plan direct-to-device Starlink services across four European markets, alongside secured government communications, but national spectrum approvals and key details of the proposed sovereign infrastructure remain unresolved.",
+    "pubDate": "2026-09-02T15:27:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Bridging the Gap Between Theory and Practice in Internet Operations",
+    "link": "https://labs.ripe.net/author/jelena/bridging-the-gap-between-theory-and-practice-in-internet-operations/",
+    "description": "Internet research can benefit from operational insight, and network operators from research expertise. Building on what we learned at RIPE 92, we look at practical ways to make those connections easier and turn promising conversations into lasting collaboration.",
+    "pubDate": "2026-09-02T08:29:12.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Beeline: Enforcing application-layer policies in eBPF",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: While many L7 protocols are complex to parse, the logic needed to enforce L7 policies tends to be simple. For the vast majority (89%) of L7 policies in the wild, Beeline can eliminate the service proxy from the critical path.",
@@ -112,30 +152,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "More Than 100 Organizations Call for Global Surge in AI-Assisted Cyber Defense",
-    "link": "https://circleid.com/posts/more&#45;than&#45;100&#45;organizations&#45;call&#45;for&#45;global&#45;surge&#45;in&#45;ai&#45;assisted&#45;cyber&#45;defense",
-    "description": "More than 100 organizations are calling for wider use of AI in cyber defense, urging governments, technology providers and AI developers to expand funding, tools, model access and practical support for under-resourced critical infrastructure operators.",
-    "pubDate": "2026-08-29T18:49:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Missing Privacy Debate Around IPv6",
-    "link": "https://circleid.com/posts/the&#45;missing&#45;privacy&#45;debate&#45;around&#45;ipv6",
-    "description": "IPv6 solves the Internet's address shortage and simplifies networking, but its technical elegance may carry a hidden cost: shifting privacy protections from architectural constraints toward policies controlled by Internet providers, corporations and governments.",
-    "pubDate": "2026-08-28T20:05:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "A DNS Infrastructure Analysis of a Microsoft 365 Device Code Phishing Campaign",
-    "link": "https://circleid.com/posts/a&#45;dns&#45;infrastructure&#45;analysis&#45;of&#45;a&#45;microsoft&#45;365&#45;device&#45;code&#45;phishing&#45;campaign",
-    "description": "A DNS investigation into a Microsoft 365 device code phishing campaign uncovered coordinated, disposable infrastructure, including 290 indicators of compromise, 87 malicious IP addresses and hundreds of connected domains, suggesting the operation remains active.",
-    "pubDate": "2026-08-28T18:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "IETF email infrastructure transition planned for 11 September",
     "link": "http://www.ietf.org/blog/email-service-tranistion-2026-09/",
     "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) is scheduled for 11 September 2026 starting at 2200UTC, with message delivery delayed up to 60 minutes. Furt…",
@@ -220,14 +236,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation — handled with local filters, static thresholds and reactive …",
     "pubDate": "2026-08-25T22:24:59.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "South Asia SRF highlights Member priorities on IPv6, routing security, and training",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "More than 100 APNIC Members attended the South Asia APNIC Sub-Regional Forum alongside SANOG 44 in Kathmandu. Member feedback gathered during the event will help inform APNIC's future priorities across the region.",
-    "pubDate": "2026-08-25T06:04:35.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -388,14 +396,6 @@
     "link": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
     "description": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
     "pubDate": "2026-07-20T07:57:23.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Many Sovereignties, One Internet",
-    "link": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet/",
-    "description": "Digital sovereignty is not simply good or bad. The commons test offers a practical framework for assessing whether different strategies expand choice, preserve interoperability, strengthen resilience and support meaningful participation, or create new dependencies and chokepoints…",
-    "pubDate": "2026-07-15T07:09:49.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
