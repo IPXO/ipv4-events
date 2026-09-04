@@ -1,5 +1,77 @@
 [
   {
+    "title": "Community consultation on increasing diversity in APNIC community leadership: Stage 1 report released",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The APNIC Executive Council has released the Stage 1 report on APNIC’s community consultation on increasing diversity in APNIC community leadership. The discussion will continue at APNIC 62 in Mumbai, with remote participation available.",
+    "pubDate": "2026-09-04T05:34:12.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "What part of &#8216;No!&#8217; is so hard for the DNS understand?",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "At APNIC Labs we've been experimenting with understanding how the DNS handles requests to resolve nonexistent names to make the DNS more resilient to random name attacks.",
+    "pubDate": "2026-09-04T01:06:30.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+    "link": "https://www.cloudflare.com/managed-defense/",
+    "description": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi…",
+    "pubDate": "2026-09-03T21:03:02.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "ChatGPT, Claude and Grok Suffer Overlapping Service Outages",
+    "link": "https://circleid.com/posts/chatgpt&#45;claude&#45;and&#45;grok&#45;suffer&#45;overlapping&#45;service&#45;outages",
+    "description": "Overlapping outages disrupted ChatGPT, Claude and Grok on September 3, but their providers have identified no common cause, leaving unanswered whether the failures were coincidental or reflected an unseen shared dependency.",
+    "pubDate": "2026-09-03T18:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "International Operation Disrupts Sality Botnet After More Than Two Decades",
+    "link": "https://circleid.com/posts/international&#45;operation&#45;disrupts&#45;sality&#45;botnet&#45;after&#45;more&#45;than&#45;two&#45;decades",
+    "description": "Authorities disrupted the decades-old Sality botnet by targeting its decentralized peer-to-peer network and supporting domains, cutting infected machines off from malicious payloads while beginning the longer task of identifying and remediating compromised systems.",
+    "pubDate": "2026-09-03T15:46:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "AWS Plans 420 Tbps Subsea Cable Between United States and Japan",
+    "link": "https://circleid.com/posts/aws&#45;plans&#45;420&#45;tbps&#45;subsea&#45;cable&#45;between&#45;united&#45;states&#45;and&#45;japan",
+    "description": "AWS plans a 420 Tbps transpacific subsea cable linking Washington state and Japan by 2029, adding a geographically distinct route designed to strengthen cloud connectivity and reduce reliance on concentrated Pacific landing corridors.",
+    "pubDate": "2026-09-03T15:33:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing the ARIN 58 Fellows",
+    "link": "https://www.arin.net/blog/2026/09/03/arin-58-fellows/",
+    "description": "Amanda Gauldin, ARIN Senior Project Manager, shares details about the Fellows, Mentors, and special guests joining us for the ARIN 58 Fellowship Program.",
+    "pubDate": "2026-09-03T13:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
+    "link": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
+    "description": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "pubDate": "2026-09-03T12:03:26.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Spurs boots VMware, cites 85% licensing saving",
+    "link": "https://www.theregister.com/on-prem/2026/09/03/spurs-boots-vmware-cites-85-licensing-saving/5294139",
+    "description": "Part of wider infrastructure replacement upgrade project with HPE",
+    "pubDate": "2026-09-03T10:00:00.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
     "title": "[Podcast] Measuring the impact of locally served root zone",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "An analysis of the traffic impacts of locally served root zones, by Ilyas Rahimi at UvA.",
@@ -120,36 +192,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "FulcrumSec Claims 86 GB Data Theft in Manchester Airports Breach",
-    "link": "https://circleid.com/posts/fulcrumsec&#45;claims&#45;86&#45;gb&#45;data&#45;theft&#45;in&#45;manchester&#45;airports&#45;breach",
-    "description": "FulcrumSec claims it stole 86 GB from Manchester Airports Group, including detailed booking and travel data, while the operator has confirmed a breach but not the group's account of its scale or method.",
-    "pubDate": "2026-08-31T21:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Digital Embassies: Could Africa Rethink Digital Sovereignty?",
-    "link": "https://circleid.com/posts/digital&#45;embassies&#45;could&#45;africa&#45;rethink&#45;digital&#45;sovereignty",
-    "description": "Estonia's data embassy model offers African governments a different approach to digital sovereignty, combining cross-border infrastructure, legal safeguards and geographic redundancy to keep critical state systems secure, recoverable and operational during major disruptions.",
-    "pubDate": "2026-08-31T16:24:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
     "link": "https://blog.cloudflare.com/introducing-precursor/",
     "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploy…",
     "pubDate": "2026-08-31T12:59:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "ICANN Terminates Two Registrars as DNS Abuse and Compliance Failures Escalate",
-    "link": "https://circleid.com/posts/icann&#45;terminates&#45;two&#45;registrars&#45;as&#45;dns&#45;abuse&#45;and&#45;compliance&#45;failures&#45;escalate",
-    "description": "ICANN has terminated two registrar accreditation agreements after unresolved compliance failures, citing Trustname's handling of DNS abuse and IPIP's failures involving RDAP, registration data escrow, accreditation fees, and access to non-public registration data.",
-    "pubDate": "2026-08-29T19:11:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "IETF email infrastructure transition planned for 11 September",
@@ -224,22 +272,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The emerging role of AI in governance discussion",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "A growing debate within the IETF is exploring how AI-generated content should be used and disclosed in standards discussions.",
-    "pubDate": "2026-08-26T04:50:50.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Beyond origin validation: Four classes of routing attack nobody Is validating",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation — handled with local filters, static thresholds and reactive …",
-    "pubDate": "2026-08-25T22:24:59.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "The Cloudflare Blog — brought to you by EmDash",
     "link": "https://x.com/CherryJimbo/status/2077475003386220610",
     "description": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
@@ -284,14 +316,6 @@
     "link": "https://www.rfc-editor.org/info/rfc7908/",
     "description": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
     "pubDate": "2026-08-18T15:21:32.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "How Cloudflare detects MCP traffic and helps secure it",
-    "link": "https://developers.cloudflare.com/cloudflare-one/",
-    "description": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
-    "pubDate": "2026-08-14T13:12:12.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -392,14 +416,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Who's Running All Those Tiny RPKI Servers?",
-    "link": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
-    "description": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
-    "pubDate": "2026-07-20T07:57:23.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "IETF Community Survey 2025",
     "link": "http://www.ietf.org/blog/ietf-community-survey-2025/",
     "description": "The IETF Community Survey provides a comprehensive assessment of community demographics, engagement patterns, and perceptions of organizational effectiveness. Read the full findings below.",
@@ -460,22 +476,6 @@
     "link": "https://www.arin.net/blog/2026/06/10/nominations-guide/",
     "description": "Who can make nominations? What should a nominee expect during the election timeline? How are nominees classified, and what qualifications matter most? Whether you’re considering running or simply want to understand ARIN Elections, this overview covers the essentials.",
     "pubDate": "2026-06-10T17:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "We Want to Hear from You: Take ARIN's 2026 Customer Satisfaction Survey",
-    "link": "https://www.arin.net/blog/2026/05/28/customer-satisfaction-survey/",
-    "description": "Sometime before 19 June, we hope you’ll set aside some time to share your feedback with us as we conduct our 2026 Customer Satisfaction Survey to gain a better understanding of our performance in all areas of the organization.",
-    "pubDate": "2026-05-28T13:15:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "Your Vote Shapes the Internet: Why General Membership Matters in 2026",
-    "link": "https://www.arin.net/blog/2026/05/27/general-membership-2026/",
-    "description": "Every IP address block and Autonomous System Number in the ARIN region exists within a framework of policy that is shaped not by ARIN staff but by our community, through a transparent, bottom-up process. That process only works when people participate.",
-    "pubDate": "2026-05-27T14:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
