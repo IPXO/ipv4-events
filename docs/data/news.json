@@ -1,5 +1,29 @@
 [
   {
+    "title": "ICANN Taps Analysys Mason for Key 2026 New gTLD Reviews",
+    "link": "https://circleid.com/posts/icann&#45;taps&#45;analysys&#45;mason&#45;for&#45;key&#45;2026&#45;new&#45;gtld&#45;reviews",
+    "description": "Analysys Mason will run geographic and reserved-name reviews for ICANN's 2026 new-gTLD round, applying rules that can determine whether proposed strings advance, require government support, qualify for exceptions, or face further evaluation.",
+    "pubDate": "2026-09-04T16:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Canada Sets National Principles for Responsible Data-Centre Development",
+    "link": "https://circleid.com/posts/canada&#45;sets&#45;national&#45;principles&#45;for&#45;responsible&#45;data&#45;centre&#45;development",
+    "description": "Canada's voluntary framework asks data-center developers to cover electricity-system costs, limit water and environmental impacts, disclose local effects and deliver national benefits as the country expands sovereign AI and cloud infrastructure.",
+    "pubDate": "2026-09-04T16:46:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Closing the IPv6 First-Packet Gap with GRAND",
+    "link": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
+    "description": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "pubDate": "2026-09-04T13:32:29.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Community consultation on increasing diversity in APNIC community leadership: Stage 1 report released",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC Executive Council has released the Stage 1 report on APNIC’s community consultation on increasing diversity in APNIC community leadership. The discussion will continue at APNIC 62 in Mumbai, with remote participation available.",
@@ -144,14 +168,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Thirty-Five Years Later, Moscow Comes Looking for the Soviet Union&#8217;s Domain",
-    "link": "https://circleid.com/posts/thirty&#45;five&#45;years&#45;later&#45;moscow&#45;comes&#45;looking&#45;for&#45;the&#45;soviet&#45;unions&#45;domain",
-    "description": "Russia is imposing state identity verification on .su, the Soviet Union's surviving domain, as researchers uncover criminal infrastructure across the namespace and ICANN pursues a retirement process that could eventually remove it from the global root.",
-    "pubDate": "2026-09-01T15:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
     "link": "https://github.com/facebook/zstd",
     "description": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
@@ -182,14 +198,6 @@
     "pubDate": "2026-08-31T23:03:47.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Researchers Warn EU AI Rules Are Deepening Reliance on Big Tech",
-    "link": "https://circleid.com/posts/researchers&#45;warn&#45;eu&#45;ai&#45;rules&#45;are&#45;deepening&#45;reliance&#45;on&#45;big&#45;tech",
-    "description": "Researchers argue the EU's AI framework increasingly makes major technology companies co-stewards of regulation, raising concerns that reliance on private infrastructure and technical expertise could strengthen incumbents' influence over how AI rules are implemented.",
-    "pubDate": "2026-08-31T22:15:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
@@ -406,14 +414,6 @@
     "pubDate": "2026-07-21T16:00:35.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
-    "link": "https://labs.ripe.net/author/antonio-prado/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
-    "description": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
-    "pubDate": "2026-07-21T12:33:47.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "IETF Community Survey 2025",
