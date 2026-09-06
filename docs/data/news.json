@@ -1,5 +1,21 @@
 [
   {
+    "title": "When a Link Becomes a Border: The Quiet Geopolitics of Internet Access",
+    "link": "https://circleid.com/posts/when&#45;a&#45;link&#45;becomes&#45;a&#45;border&#45;the&#45;quiet&#45;geopolitics&#45;of&#45;internet&#45;access",
+    "description": "A LinkedIn short-link anomaly in Iran reveals how sanctions, corporate compliance and geolocation controls can translate geopolitical boundaries into infrastructure-level restrictions, creating an Internet that remains globally connected while becoming functionally unequal.",
+    "pubDate": "2026-09-05T18:15:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Satellite Collisions Rise as Earth&#8217;s Orbits Grow Crowded",
+    "link": "https://circleid.com/posts/satellite&#45;collisions&#45;rise&#45;as&#45;earths&#45;orbits&#45;grow&#45;crowded",
+    "description": "Rapid satellite growth is raising collision risks as orbital debris accumulates, avoidance maneuvers multiply, and solar storms could disable spacecraft, exposing the absence of effective international governance for increasingly crowded orbits.",
+    "pubDate": "2026-09-05T17:36:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "ICANN Taps Analysys Mason for Key 2026 New gTLD Reviews",
     "link": "https://circleid.com/posts/icann&#45;taps&#45;analysys&#45;mason&#45;for&#45;key&#45;2026&#45;new&#45;gtld&#45;reviews",
     "description": "Analysys Mason will run geographic and reserved-name reviews for ICANN's 2026 new-gTLD round, applying rules that can determine whether proposed strings advance, require government support, qualify for exceptions, or face further evaluation.",
@@ -150,22 +166,6 @@
     "pubDate": "2026-09-01T22:48:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Proposed New DNS Resource Record Types for AI Agent Discovery",
-    "link": "https://circleid.com/posts/proposed&#45;new&#45;dns&#45;resource&#45;record&#45;types&#45;for&#45;ai&#45;agent&#45;discovery",
-    "description": "For more than three decades, domain names have served as a foundational identity layer for internet applications. Initially used to identify early network services such as TELNET, FTP, and email, they later became essential to web browsing and a growing range of online services.",
-    "pubDate": "2026-09-01T16:03:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "From Forgotten to Exploited: How AI Changes the Dangling DNS Threat",
-    "link": "https://circleid.com/posts/from&#45;forgotten&#45;to&#45;exploited&#45;how&#45;ai&#45;changes&#45;the&#45;dangling&#45;dns&#45;threat",
-    "description": "Dangling DNS records can expose trusted corporate subdomains to takeover, while AI-assisted reconnaissance makes abandoned resources easier to find, increasing the need for continuous DNS monitoring rather than periodic audits.",
-    "pubDate": "2026-09-01T15:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
