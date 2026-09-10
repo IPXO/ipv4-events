@@ -1,5 +1,45 @@
 [
   {
+    "title": "2026 APNIC Survey report released",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The 2026 APNIC Survey report is now available, providing valuable feedback from Members and the wider Internet community on APNIC’s performance, priorities, and future direction.",
+    "pubDate": "2026-09-10T03:21:38.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "FCC Moves to Open 1,050 MHz of Spectrum to Satellite Broadband",
+    "link": "https://circleid.com/posts/fcc&#45;moves&#45;to&#45;open&#45;1050&#45;mhz&#45;of&#45;spectrum&#45;to&#45;satellite&#45;broadband",
+    "description": "The FCC plans to open 1,050 MHz in the 12.7 GHz and 42 GHz bands to expanded satellite use, adding capacity for broadband, mobile connectivity, inter-satellite links and ground networks.",
+    "pubDate": "2026-09-09T20:26:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Accountability Without gTLD Remedies Is Just Documentation",
+    "link": "https://circleid.com/posts/accountability&#45;without&#45;remedy&#45;is&#45;just&#45;documentation",
+    "description": "Past gTLD disputes show applicants can win ICANN accountability rulings without obtaining the contested string, raising a critical question for 2026 applicants about whether expanded review mechanisms can deliver meaningful remedies.",
+    "pubDate": "2026-09-09T19:55:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+    "link": "https://github.com/cloudflare/workerd",
+    "description": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
+    "pubDate": "2026-09-09T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "APNIC and NIXI partner to strengthen routing security and technical capacity in India",
+    "link": "https://blog.apnic.net/category/development/",
+    "description": "The partnership will expand IPv6 and RPKI deployment including piloting an RPKI Repository Mirror to support a more secure and resilient Internet ecosystem.",
+    "pubDate": "2026-09-09T09:01:06.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Building resilient self hosted services is not always easy",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Resiliency through more redundancy is important no matter the scenario.",
@@ -136,22 +176,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "International Operation Disrupts Sality Botnet After More Than Two Decades",
-    "link": "https://circleid.com/posts/international&#45;operation&#45;disrupts&#45;sality&#45;botnet&#45;after&#45;more&#45;than&#45;two&#45;decades",
-    "description": "Authorities disrupted the decades-old Sality botnet by targeting its decentralized peer-to-peer network and supporting domains, cutting infected machines off from malicious payloads while beginning the longer task of identifying and remediating compromised systems.",
-    "pubDate": "2026-09-03T15:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "AWS Plans 420 Tbps Subsea Cable Between United States and Japan",
-    "link": "https://circleid.com/posts/aws&#45;plans&#45;420&#45;tbps&#45;subsea&#45;cable&#45;between&#45;united&#45;states&#45;and&#45;japan",
-    "description": "AWS plans a 420 Tbps transpacific subsea cable linking Washington state and Japan by 2029, adding a geographically distinct route designed to strengthen cloud connectivity and reduce reliance on concentrated Pacific landing corridors.",
-    "pubDate": "2026-09-03T15:33:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing the ARIN 58 Fellows",
     "link": "https://www.arin.net/blog/2026/09/03/arin-58-fellows/",
     "description": "Amanda Gauldin, ARIN Senior Project Manager, shares details about the Fellows, Mentors, and special guests joining us for the ARIN 58 Fellowship Program.",
@@ -232,14 +256,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The invisible heartbeat of our networks",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: The recent Telstra outage highlighted a critical but often overlooked dependency in modern networks: Accurate time synchronization.",
-    "pubDate": "2026-08-31T23:03:47.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
     "link": "https://blog.cloudflare.com/introducing-precursor/",
     "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploy…",
@@ -262,14 +278,6 @@
     "pubDate": "2026-08-28T12:59:44.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "The day after the zero-days",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Patching faster cannot keep up with AI-driven discovery. Leverage structural invariants to make bug classes irrelevant.",
-    "pubDate": "2026-08-28T04:42:57.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Post-Quantum Authentication: Up Next",
@@ -324,14 +332,6 @@
     "link": "https://blog.cloudflare.com/oauth-for-all/",
     "description": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
     "pubDate": "2026-08-20T17:03:03.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
-    "link": "https://blog.cloudflare.com/spectre-research-with-tu-graz/",
-    "description": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
-    "pubDate": "2026-08-19T16:00:28.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
