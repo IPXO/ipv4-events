@@ -1,5 +1,69 @@
 [
   {
+    "title": "The Reporting Gap: What Happens Between a DNS Abuse Complaint and a Takedown",
+    "link": "https://circleid.com/posts/the&#45;reporting&#45;gap&#45;what&#45;happens&#45;between&#45;a&#45;dns&#45;abuse&#45;complaint&#45;and&#45;a&#45;takedown",
+    "description": "DNS abuse enforcement can stop abusive domains and drive systemic registrar reforms, but reporting barriers, inconsistent response times, and poorly documented complaints leave many phishing sites active before actionable cases ever reach enforcement.",
+    "pubDate": "2026-09-10T15:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Caribbean-Born Niel Harper Joins ICANN Board, Sets Out Priorities in Q&A",
+    "link": "https://circleid.com/posts/caribbean&#45;born&#45;niel&#45;harper&#45;joins&#45;icann&#45;board",
+    "description": "Barbados-born cybersecurity specialist Niel Harper joins ICANN's board in October, aiming to strengthen Latin American and Caribbean participation, improve DNS security and abuse mitigation, and expand developing-economy access to the next gTLD round.",
+    "pubDate": "2026-09-10T15:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Amazon Taps Qualcomm for AI Chips and Optical Data Center Networking With $60 Billion Purchase Milestones",
+    "link": "https://circleid.com/posts/amazon&#45;taps&#45;qualcomm&#45;for&#45;ai&#45;chips&#45;and&#45;optical&#45;data&#45;center&#45;networking",
+    "description": "Amazon's Qualcomm deal spans custom AI inference chips and optical networking, with equity warrants tied to purchasing milestones reaching $60 billion, potentially expanding competition across the data-center compute and connectivity supply chain.",
+    "pubDate": "2026-09-10T15:04:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Sets Guidelines to Advance Universal Acceptance of Internationalized Domains and Email",
+    "link": "https://circleid.com/posts/icann&#45;sets&#45;guidelines&#45;to&#45;advance&#45;universal&#45;acceptance&#45;of&#45;internationalized&#45;domains&#45;and&#45;email",
+    "description": "ICANN's new Universal Acceptance guidelines target persistent interoperability gaps that prevent internationalized domain names and email addresses from working reliably across browsers, identity systems, applications and other Internet infrastructure.",
+    "pubDate": "2026-09-10T14:20:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Thanks for participating in APNIC 62",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Thank you to everyone who participated in person and remotely at APNIC 62, hosted by the National Internet Exchange of India (NIXI) and co-hosted by ISPAI, from 4 to 10 September 2026 in Mumbai, India.",
+    "pubDate": "2026-09-10T13:16:58.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+    "link": "https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/",
+    "description": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
+    "pubDate": "2026-09-10T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The /3 Body Problem",
+    "link": "https://labs.ripe.net/author/remco-van-mook/the-3-body-problem/",
+    "description": "A large chunk of IPv6 is heading for space, and every policy question about it is currently going to be deferred to the RIR communities. This article outlines what those questions look like, and argues why now is the time to start asking them.",
+    "pubDate": "2026-09-10T09:22:46.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Survey to gather input on ISE selection criteria",
+    "link": "http://www.ietf.org/blog/survey-to-gather-input-on-ise-selection-criteria/",
+    "description": "The Independent Series Editor (ISE) selection criteria survey is live and we welcome your input on the capabilities and expectations the IAB should consider when selecting a future ISE. Please respond by 11 October 2026.",
+    "pubDate": "2026-09-10T09:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
     "title": "2026 APNIC Survey report released",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The 2026 APNIC Survey report is now available, providing valuable feedback from Members and the wider Internet community on APNIC’s performance, priorities, and future direction.",
@@ -112,30 +176,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Satellite Collisions Rise as Earth&#8217;s Orbits Grow Crowded",
-    "link": "https://circleid.com/posts/satellite&#45;collisions&#45;rise&#45;as&#45;earths&#45;orbits&#45;grow&#45;crowded",
-    "description": "Rapid satellite growth is raising collision risks as orbital debris accumulates, avoidance maneuvers multiply, and solar storms could disable spacecraft, exposing the absence of effective international governance for increasingly crowded orbits.",
-    "pubDate": "2026-09-05T17:36:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN Taps Analysys Mason for Key 2026 New gTLD Reviews",
-    "link": "https://circleid.com/posts/icann&#45;taps&#45;analysys&#45;mason&#45;for&#45;key&#45;2026&#45;new&#45;gtld&#45;reviews",
-    "description": "Analysys Mason will run geographic and reserved-name reviews for ICANN's 2026 new-gTLD round, applying rules that can determine whether proposed strings advance, require government support, qualify for exceptions, or face further evaluation.",
-    "pubDate": "2026-09-04T16:54:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Canada Sets National Principles for Responsible Data-Centre Development",
-    "link": "https://circleid.com/posts/canada&#45;sets&#45;national&#45;principles&#45;for&#45;responsible&#45;data&#45;centre&#45;development",
-    "description": "Canada's voluntary framework asks data-center developers to cover electricity-system costs, limit water and environmental impacts, disclose local effects and deliver national benefits as the country expands sovereign AI and cloud infrastructure.",
-    "pubDate": "2026-09-04T16:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Closing the IPv6 First-Packet Gap with GRAND",
     "link": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
     "description": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
@@ -166,14 +206,6 @@
     "pubDate": "2026-09-03T21:03:02.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "ChatGPT, Claude and Grok Suffer Overlapping Service Outages",
-    "link": "https://circleid.com/posts/chatgpt&#45;claude&#45;and&#45;grok&#45;suffer&#45;overlapping&#45;service&#45;outages",
-    "description": "Overlapping outages disrupted ChatGPT, Claude and Grok on September 3, but their providers have identified no common cause, leaving unanswered whether the failures were coincidental or reflected an unseen shared dependency.",
-    "pubDate": "2026-09-03T18:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Introducing the ARIN 58 Fellows",
@@ -248,14 +280,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The NRO NC has published the Recommended Draft RIR Governance Document, including a redline version and rationale document.",
-    "pubDate": "2026-09-01T06:03:50.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
     "link": "https://blog.cloudflare.com/introducing-precursor/",
     "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploy…",
@@ -265,8 +289,8 @@
   },
   {
     "title": "IETF email infrastructure transition planned for 11 September",
-    "link": "http://www.ietf.org/blog/email-service-tranistion-2026-09/",
-    "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) is scheduled for 11 September 2026 starting at 2200UTC, with message delivery delayed up to 60 minutes. Furt…",
+    "link": "http://www.ietf.org/blog/email-service-transition-2026-09/",
+    "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) is scheduled for 11 September 2026 starting at 2200 UTC, with message delivery delayed up to 60 minutes. Fur…",
     "pubDate": "2026-08-28T15:29:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
@@ -324,14 +348,6 @@
     "link": "https://developers.cloudflare.com/bots/concepts/bot/verified-bots/",
     "description": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
     "pubDate": "2026-08-21T23:19:57.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "From all-or-nothing to task-based OAuth consent",
-    "link": "https://blog.cloudflare.com/oauth-for-all/",
-    "description": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
-    "pubDate": "2026-08-20T17:03:03.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -400,14 +416,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "What's ARP Got to Do with It?",
-    "link": "https://labs.ripe.net/author/remco-van-mook/whats-arp-got-to-do-with-it/",
-    "description": "It's only ARP. It works. So how much can it really matter? The answer lies beyond ARP itself, in the IPv4 layer cake that grew around it over four decades. The IPv4 internet is not going away in bounded time, and nobody should pretend otherwise.",
-    "pubDate": "2026-07-23T06:35:41.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Don’t Get Your Wires Crossed: Appropriate Use Cases for IPv6-Only vs. IPv6-Mostly",
     "link": "https://www.arin.net/blog/2026/07/21/ipv6-mostly/",
     "description": "Terms like IPv6-only and IPv6-mostly are a clear example of how IETF terminology often lacks clarity. IPv6 expert Jordi Palet Martínez, explains why the correct use of these terms requires specifying a scope of application.",
@@ -454,14 +462,6 @@
     "pubDate": "2026-06-30T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Suggested IETF 126 Sessions for Getting Familiar with New Topics",
-    "link": "http://www.ietf.org/blog/ietf126-new-topics/",
-    "description": "These IETF 126 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
-    "pubDate": "2026-06-29T17:15:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
   },
   {
     "title": "Bridging Policy and Operations: An ARIN 57 Fellowship Experience",
