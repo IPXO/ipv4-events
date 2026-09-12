@@ -1,5 +1,45 @@
 [
   {
+    "title": "IETF email infrastructure transition completed on 11 September",
+    "link": "http://www.ietf.org/blog/email-service-transition-2026-09/",
+    "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) was completed on 11 September 2026.",
+    "pubDate": "2026-09-11T20:38:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Applying for a TLD Was Just the Beginning - Now Comes the Real Challenge",
+    "link": "https://circleid.com/posts/applying&#45;for&#45;a&#45;tld&#45;was&#45;just&#45;the&#45;beginning&#45;now&#45;comes&#45;the&#45;real&#45;challenge",
+    "description": "New TLD applicants now face the harder task of turning delegation into adoption, requiring clear positioning, registrar partnerships, pricing, marketing and sustained community engagement informed by lessons from the previous application round.",
+    "pubDate": "2026-09-11T15:37:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Footprinting: SourTrade Distributes Unfinished Malware through Malvertising",
+    "link": "https://circleid.com/posts/dns&#45;footprinting&#45;sourtrade&#45;distributes&#45;unfinished&#45;malware&#45;through&#45;malvertising",
+    "description": "DNS analysis of 96 SourTrade domains uncovered hundreds of connected domains and IP addresses, many flagged as malicious, while identifying indicators that appeared months before researchers formally linked them to the malvertising campaign.",
+    "pubDate": "2026-09-11T15:33:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Building Digital Operations Across Borders: Regulation, Security & Internet Governance",
+    "link": "https://circleid.com/posts/building&#45;digital&#45;operations&#45;across&#45;borders&#45;regulation&#45;security&#45;internet&#45;governance",
+    "description": "Building a technology operation in India showed that regulation, governance, security, people and technology work best as one operating environment, with compliance, access controls and local autonomy designed in from the outset.",
+    "pubDate": "2026-09-11T14:34:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing automatic remediation policies with Cloudflare CASB",
+    "link": "https://blog.cloudflare.com/cloudflare-zero-trust-casb/",
+    "description": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
+    "pubDate": "2026-09-11T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "The Reporting Gap: What Happens Between a DNS Abuse Complaint and a Takedown",
     "link": "https://circleid.com/posts/the&#45;reporting&#45;gap&#45;what&#45;happens&#45;between&#45;a&#45;dns&#45;abuse&#45;complaint&#45;and&#45;a&#45;takedown",
     "description": "DNS abuse enforcement can stop abusive domains and drive systemic registrar reforms, but reporting barriers, inconsistent response times, and poorly documented complaints leave many phishing sites active before actionable cases ever reach enforcement.",
@@ -120,14 +160,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "G7 Cyber Agencies Urge Immediate Post-Quantum Migration Planning",
-    "link": "https://circleid.com/posts/g7&#45;cyber&#45;agencies&#45;urge&#45;immediate&#45;post&#45;quantum&#45;migration&#45;planning",
-    "description": "G7 cybersecurity agencies are pressing governments and organizations to inventory cryptographic dependencies and accelerate post-quantum migration as long transition timelines and future quantum attacks threaten Internet security infrastructure.",
-    "pubDate": "2026-09-08T14:41:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
     "link": "https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/",
     "description": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
@@ -152,28 +184,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "15th Registration Operations Workshop, September 29, 2026, 13:00 - 17:00 UTC",
-    "link": "https://circleid.com/posts/15th_registration_operations_workshop_september_29_2026",
-    "description": "The 15th Registration Operations Workshop convenes domain name and DNS professionals September 29 for technical sessions on mTLS, RPKI, DNS resilience, delegations, DNSSEC, registrar concentration, dispute proceedings and alternative naming systems.",
-    "pubDate": "2026-09-07T14:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "WSIS Forum 2026: From commitments to measurable implementation",
     "link": "https://blog.apnic.net/category/community/",
     "description": "WSIS Forum 2026 marked the start of a new phase for global digital development, shifting the focus from commitments to measurable implementation.",
     "pubDate": "2026-09-06T23:14:00.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "When a Link Becomes a Border: The Quiet Geopolitics of Internet Access",
-    "link": "https://circleid.com/posts/when&#45;a&#45;link&#45;becomes&#45;a&#45;border&#45;the&#45;quiet&#45;geopolitics&#45;of&#45;internet&#45;access",
-    "description": "A LinkedIn short-link anomaly in Iran reveals how sanctions, corporate compliance and geolocation controls can translate geopolitical boundaries into infrastructure-level restrictions, creating an Internet that remains globally connected while becoming functionally unequal.",
-    "pubDate": "2026-09-05T18:15:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Closing the IPv6 First-Packet Gap with GRAND",
@@ -288,14 +304,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "IETF email infrastructure transition planned for 11 September",
-    "link": "http://www.ietf.org/blog/email-service-transition-2026-09/",
-    "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) is scheduled for 11 September 2026 starting at 2200 UTC, with message delivery delayed up to 60 minutes. Fur…",
-    "pubDate": "2026-08-28T15:29:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
     "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
     "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
     "description": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
@@ -342,14 +350,6 @@
     "pubDate": "2026-08-24T11:30:19.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Say it once: Introducing Bot Preference Sync",
-    "link": "https://developers.cloudflare.com/bots/concepts/bot/verified-bots/",
-    "description": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
-    "pubDate": "2026-08-21T23:19:57.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
