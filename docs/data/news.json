@@ -1,5 +1,13 @@
 [
   {
+    "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Research and education network leaders across the Asia Pacific have signed the Auckland Declaration of Intent on Cyber Resilience, committing to stronger regional cooperation on cyber preparedness, information sharing, and incident coordination.",
+    "pubDate": "2026-09-13T22:22:29.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "IETF email infrastructure transition completed on 11 September",
     "link": "http://www.ietf.org/blog/email-service-transition-2026-09/",
     "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) was completed on 11 September 2026.",
@@ -262,14 +270,6 @@
     "pubDate": "2026-09-02T08:29:12.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Beeline: Enforcing application-layer policies in eBPF",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: While many L7 protocols are complex to parse, the logic needed to enforce L7 policies tends to be simple. For the vast majority (89%) of L7 policies in the wild, Beeline can eliminate the service proxy from the critical path.",
-    "pubDate": "2026-09-01T23:30:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "IETF 126 Highlights",
