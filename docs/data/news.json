@@ -1,5 +1,37 @@
 [
   {
+    "title": "Cyberattackers Are Using AI Across More of the Kill Chain, Anthropic Reports",
+    "link": "https://circleid.com/posts/cyberattackers&#45;are&#45;using&#45;ai&#45;across&#45;more&#45;of&#45;the&#45;kill&#45;chain&#45;anthropic&#45;reports",
+    "description": "Anthropic says attackers are increasingly using AI agents to orchestrate cyber operations, automating reconnaissance, exploitation, data theft and malware adaptation while lowering the expertise and resources previously required for sophisticated attacks.",
+    "pubDate": "2026-09-14T19:50:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Project Jake: A New Model for Domain Registration Data Disclosure",
+    "link": "https://circleid.com/posts/project&#45;jake&#45;a&#45;new&#45;model&#45;for&#45;domain&#45;registration&#45;data&#45;disclosure",
+    "description": "Project Jake proposes a voluntary, group-based framework for domain registration data disclosure, giving registrars and registries control over access while establishing standardized agreements, requester validation and sensitivity levels to balance privacy with legitimate data n…",
+    "pubDate": "2026-09-14T15:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "IPv4 Market Recovery Broadens as Supply Tightens and Prices Rise",
+    "link": "https://circleid.com/posts/ipv4&#45;market&#45;recovery&#45;broadens&#45;as&#45;supply&#45;tightens&#45;and&#45;prices&#45;rise",
+    "description": "IPv4 pricing strengthened again in August as healthy transaction activity met tightening supply, with larger address blocks leading gains and reinforcing a market recovery that has developed steadily since spring.",
+    "pubDate": "2026-09-14T15:01:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How Domain Abuse, Social Media, and AI Fuel Brand Attacks",
+    "link": "https://circleid.com/posts/how&#45;domain&#45;abuse&#45;social&#45;media&#45;and&#45;ai&#45;fuel&#45;brand&#45;attacks",
+    "description": "CISOs expect social media impersonation to become their leading cybersecurity threat as attackers increasingly combine AI-enabled deception, executive impersonation, and domain abuse across multiple channels to conduct fraud and steal sensitive information.",
+    "pubDate": "2026-09-14T14:55:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Research and education network leaders across the Asia Pacific have signed the Auckland Declaration of Intent on Cyber Resilience, committing to stronger regional cooperation on cyber preparedness, information sharing, and incident coordination.",
@@ -72,14 +104,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "ICANN Sets Guidelines to Advance Universal Acceptance of Internationalized Domains and Email",
-    "link": "https://circleid.com/posts/icann&#45;sets&#45;guidelines&#45;to&#45;advance&#45;universal&#45;acceptance&#45;of&#45;internationalized&#45;domains&#45;and&#45;email",
-    "description": "ICANN's new Universal Acceptance guidelines target persistent interoperability gaps that prevent internationalized domain names and email addresses from working reliably across browsers, identity systems, applications and other Internet infrastructure.",
-    "pubDate": "2026-09-10T14:20:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Thanks for participating in APNIC 62",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Thank you to everyone who participated in person and remotely at APNIC 62, hosted by the National Internet Exchange of India (NIXI) and co-hosted by ISPAI, from 4 to 10 September 2026 in Mumbai, India.",
@@ -120,22 +144,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "FCC Moves to Open 1,050 MHz of Spectrum to Satellite Broadband",
-    "link": "https://circleid.com/posts/fcc&#45;moves&#45;to&#45;open&#45;1050&#45;mhz&#45;of&#45;spectrum&#45;to&#45;satellite&#45;broadband",
-    "description": "The FCC plans to open 1,050 MHz in the 12.7 GHz and 42 GHz bands to expanded satellite use, adding capacity for broadband, mobile connectivity, inter-satellite links and ground networks.",
-    "pubDate": "2026-09-09T20:26:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN Accountability Without gTLD Remedies Is Just Documentation",
-    "link": "https://circleid.com/posts/accountability&#45;without&#45;remedy&#45;is&#45;just&#45;documentation",
-    "description": "Past gTLD disputes show applicants can win ICANN accountability rulings without obtaining the contested string, raising a critical question for 2026 applicants about whether expanded review mechanisms can deliver meaningful remedies.",
-    "pubDate": "2026-09-09T19:55:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
     "link": "https://github.com/cloudflare/workerd",
     "description": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
@@ -158,14 +166,6 @@
     "pubDate": "2026-09-09T05:10:54.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "DNS Spotlight: 2026&#8217;s 5 Most Notorious Ransomware",
-    "link": "https://circleid.com/posts/dns&#45;spotlight&#45;2026s&#45;5&#45;most&#45;notorious&#45;ransomware",
-    "description": "DNS analysis of 84 network indicators tied to LockBit, Cl0p, Akira, Medusa, and Qilin uncovered thousands of connected domains and IP addresses, including additional artifacts already identified as malicious.",
-    "pubDate": "2026-09-08T14:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
@@ -216,7 +216,7 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "What part of &#8216;No!&#8217; is so hard for the DNS understand?",
+    "title": "What part of &#8216;No!&#8217; is so hard for the DNS to understand?",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "At APNIC Labs we've been experimenting with understanding how the DNS handles requests to resolve nonexistent names to make the DNS more resilient to random name attacks.",
     "pubDate": "2026-09-04T01:06:30.000Z",
