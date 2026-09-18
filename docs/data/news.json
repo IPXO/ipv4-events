@@ -1,5 +1,21 @@
 [
   {
+    "title": "Presto: A match-action TCP stack for the terabit era",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
+    "pubDate": "2026-09-18T03:34:15.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "CAPIF 5: Regional Interconnectivity in Central Asia",
+    "link": "https://labs.ripe.net/author/anastasiya-pak/capif-5-regional-interconnectivity-in-central-asia/",
+    "description": "Central Asia’s Internet looks very different than it did back at CAPIF 1. We trace the rise of direct regional routes, stronger routing security and new connectivity options - along with the gaps that remain.",
+    "pubDate": "2026-09-17T17:29:36.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "[Podcast] &#8216;Just say no&#8217; isn&#8217;t as simple as you think",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS",
@@ -240,14 +256,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "WSIS Forum 2026: From commitments to measurable implementation",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "WSIS Forum 2026 marked the start of a new phase for global digital development, shifting the focus from commitments to measurable implementation.",
-    "pubDate": "2026-09-06T23:14:00.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Closing the IPv6 First-Packet Gap with GRAND",
     "link": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
     "description": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
@@ -398,14 +406,6 @@
     "pubDate": "2026-08-05T12:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
-    "link": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
-    "description": "Ten years of DNS measurements reveal three trends across the Internet's most popular domains: email continues to consolidate around two providers, DMARC enforcement has hit a plateau, and a surprisingly large long tail of infrastructure defies easy classification.",
-    "pubDate": "2026-07-30T11:49:26.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Secretariat restructuring and staffing update",
