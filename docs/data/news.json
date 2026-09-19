@@ -1,5 +1,37 @@
 [
   {
+    "title": "Saving another 100TB of RAM with math (and Rust)",
+    "link": "https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/",
+    "description": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
+    "pubDate": "2026-09-18T17:23:58.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Candle Submarine Cable Reaches Indonesia on Route Across Six Asian Markets",
+    "link": "https://circleid.com/posts/candle&#45;submarine&#45;cable&#45;reaches&#45;indonesia&#45;on&#45;route&#45;across&#45;six&#45;asian&#45;markets",
+    "description": "The 8,000-kilometre Candle submarine cable has landed in Batam, advancing a six-market Asian system designed for 570 Tbps capacity, 24 fiber pairs and geographically diverse routes ahead of commercial service in 2028.",
+    "pubDate": "2026-09-18T16:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why Container Security Is Still Fighting Yesterday&#8217;s Battle",
+    "link": "https://circleid.com/posts/why&#45;container&#45;security&#45;is&#45;still&#45;fighting&#45;yesterdays&#45;battle",
+    "description": "Rule-based container security can miss attacks that evade predefined patterns, prompting an argument for behavioral detection that models activity across Kubernetes workloads and control planes while retaining rules for known threats.",
+    "pubDate": "2026-09-18T16:30:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Governance Theater: Why the gTLD Expansion Program Is a Lose-Lose Proposition",
+    "link": "https://circleid.com/posts/governance&#45;theater&#45;why&#45;the&#45;gtld&#45;expansion&#45;program&#45;is&#45;a&#45;lose&#45;lose&#45;proposition",
+    "description": "ICANN's gTLD expansion program is structured to collect fees regardless of outcomes, leaving brand, portfolio and single-string applicants bearing financial risk while accountability mechanisms offer little meaningful remedy when the process fails.",
+    "pubDate": "2026-09-18T15:34:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Presto: A match-action TCP stack for the terabit era",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
@@ -18,7 +50,7 @@
   {
     "title": "[Podcast] &#8216;Just say no&#8217; isn&#8217;t as simple as you think",
     "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS",
+    "description": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS.",
     "pubDate": "2026-09-16T23:23:11.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
@@ -96,22 +128,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Starlink&#8217;s Other Network",
-    "link": "https://circleid.com/posts/starlinks&#45;other&#45;network",
-    "description": "Starshield gives SpaceX a separate military satellite network, raising a broader question about whether Starlink could dedicate satellites to cellular and business backhaul without reducing broadband capacity for residential customers.",
-    "pubDate": "2026-09-15T16:16:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "auDA Moves to Tighten .com.au and .net.au Eligibility: What the Coming Changes Mean for Registrants",
-    "link": "https://circleid.com/posts/auda&#45;moves&#45;to&#45;tighten&#45;domain&#45;name&#45;eligibility",
-    "description": "auDA has approved in principle tighter .com.au and .net.au eligibility rules that would limit registrations to domains matching a registrant's business name or Australian trademark, with implementation details and timing still pending.",
-    "pubDate": "2026-09-15T15:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Have it both ways: stay discoverable in search while disallowing AI training",
     "link": "https://blog.cloudflare.com/bot-preference-sync/",
     "description": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
@@ -134,14 +150,6 @@
     "pubDate": "2026-09-15T06:01:49.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Cyberattackers Are Using AI Across More of the Kill Chain, Anthropic Reports",
-    "link": "https://circleid.com/posts/cyberattackers&#45;are&#45;using&#45;ai&#45;across&#45;more&#45;of&#45;the&#45;kill&#45;chain&#45;anthropic&#45;reports",
-    "description": "Anthropic says attackers are increasingly using AI agents to orchestrate cyber operations, automating reconnaissance, exploitation, data theft and malware adaptation while lowering the expertise and resources previously required for sophisticated attacks.",
-    "pubDate": "2026-09-14T19:50:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
@@ -326,14 +334,6 @@
     "pubDate": "2026-09-01T12:20:33.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
-    "link": "https://blog.cloudflare.com/introducing-precursor/",
-    "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploy…",
-    "pubDate": "2026-08-31T12:59:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Post-Quantum Authentication: Up Next",
