@@ -296,14 +296,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Spurs boots VMware, cites 85% licensing saving",
-    "link": "https://www.theregister.com/on-prem/2026/09/03/spurs-boots-vmware-cites-85-licensing-saving/5294139",
-    "description": "Part of wider infrastructure replacement upgrade project with HPE",
-    "pubDate": "2026-09-03T10:00:00.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
     "title": "Bridging the Gap Between Theory and Practice in Internet Operations",
     "link": "https://labs.ripe.net/author/jelena/bridging-the-gap-between-theory-and-practice-in-internet-operations/",
     "description": "Internet research can benefit from operational insight, and network operators from research expertise. Building on what we learned at RIPE 92, we look at practical ways to make those connections easier and turn promising conversations into lasting collaboration.",
@@ -476,6 +468,14 @@
     "link": "https://www.arin.net/blog/2026/06/10/nominations-guide/",
     "description": "Who can make nominations? What should a nominee expect during the election timeline? How are nominees classified, and what qualifications matter most? Whether you’re considering running or simply want to understand ARIN Elections, this overview covers the essentials.",
     "pubDate": "2026-06-10T17:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "We Want to Hear from You: Take ARIN's 2026 Customer Satisfaction Survey",
+    "link": "https://www.arin.net/blog/2026/05/28/customer-satisfaction-survey/",
+    "description": "Sometime before 19 June, we hope you’ll set aside some time to share your feedback with us as we conduct our 2026 Customer Satisfaction Survey to gain a better understanding of our performance in all areas of the organization.",
+    "pubDate": "2026-05-28T13:15:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
