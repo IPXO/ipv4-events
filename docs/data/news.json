@@ -1,35 +1,19 @@
 [
   {
+    "title": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "APNIC 62 Technical Session 1 — Internet Operations highlighted major developments across Internet infrastructure, including new management capabilities for Kea DHCP and BIND DNS, preparations for the DNSSEC root KSK rollover, and ongoing challenges in certificate revocation.",
+    "pubDate": "2026-09-20T22:52:43.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Saving another 100TB of RAM with math (and Rust)",
     "link": "https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/",
     "description": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
     "pubDate": "2026-09-18T17:23:58.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Candle Submarine Cable Reaches Indonesia on Route Across Six Asian Markets",
-    "link": "https://circleid.com/posts/candle&#45;submarine&#45;cable&#45;reaches&#45;indonesia&#45;on&#45;route&#45;across&#45;six&#45;asian&#45;markets",
-    "description": "The 8,000-kilometre Candle submarine cable has landed in Batam, advancing a six-market Asian system designed for 570 Tbps capacity, 24 fiber pairs and geographically diverse routes ahead of commercial service in 2028.",
-    "pubDate": "2026-09-18T16:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Why Container Security Is Still Fighting Yesterday&#8217;s Battle",
-    "link": "https://circleid.com/posts/why&#45;container&#45;security&#45;is&#45;still&#45;fighting&#45;yesterdays&#45;battle",
-    "description": "Rule-based container security can miss attacks that evade predefined patterns, prompting an argument for behavioral detection that models activity across Kubernetes workloads and control planes while retaining rules for known threats.",
-    "pubDate": "2026-09-18T16:30:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Governance Theater: Why the gTLD Expansion Program Is a Lose-Lose Proposition",
-    "link": "https://circleid.com/posts/governance&#45;theater&#45;why&#45;the&#45;gtld&#45;expansion&#45;program&#45;is&#45;a&#45;lose&#45;lose&#45;proposition",
-    "description": "ICANN's gTLD expansion program is structured to collect fees regardless of outcomes, leaving brand, portfolio and single-string applicants bearing financial risk while accountability mechanisms offer little meaningful remedy when the process fails.",
-    "pubDate": "2026-09-18T15:34:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Presto: A match-action TCP stack for the terabit era",
@@ -56,14 +40,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "AWS Says Iran Strikes Caused Permanent Customer Data Loss in Bahrain and UAE",
-    "link": "https://circleid.com/posts/aws&#45;says&#45;iran&#45;strikes&#45;caused&#45;permanent&#45;customer&#45;data&#45;loss&#45;in&#45;bahrain&#45;and&#45;uae",
-    "description": "AWS says Iranian strikes caused permanent customer data loss in Bahrain and the UAE, exposing the limits of Availability Zone redundancy when physical destruction affects multiple cloud facilities within a region.",
-    "pubDate": "2026-09-16T21:21:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
     "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
     "description": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
@@ -72,60 +48,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "UK, US and Dutch Agencies Expose Iranian Spyware Targeting Dissidents and Journalists",
-    "link": "https://circleid.com/posts/uk&#45;us&#45;and&#45;dutch&#45;agencies&#45;expose&#45;iranian&#45;spyware&#45;targeting&#45;dissidents&#45;and&#45;journalists",
-    "description": "UK, US and Dutch agencies have exposed Iranian state-linked spyware that uses personalized social engineering to compromise Windows devices and surveil dissidents, activists and journalists, capturing communications, files, audio and other sensitive data.",
-    "pubDate": "2026-09-16T17:11:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Study Finds Tribal-Built Broadband Network Linked to 4% Income Gain",
-    "link": "https://circleid.com/posts/study&#45;finds&#45;tribal&#45;built&#45;broadband&#45;network&#45;linked&#45;to&#45;4&#45;income&#45;gain",
-    "description": "A tribal-built broadband network on Washington's Colville Reservation was associated with a 4% income increase, offering evidence that connectivity can produce economic gains even without substantial growth in household broadband subscriptions.",
-    "pubDate": "2026-09-16T16:57:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Canada Plans Sovereign Broadband Backbone With New Fibre Investment Incentive",
-    "link": "https://circleid.com/posts/canada&#45;plans&#45;sovereign&#45;broadband&#45;backbone&#45;with&#45;new&#45;fibre&#45;investment&#45;incentive",
-    "description": "Ottawa plans to help finance a national broadband backbone with direct links to Europe and Asia, while new tax incentives aim to spur fibre investment and strengthen Canadian control over critical digital infrastructure.",
-    "pubDate": "2026-09-16T16:40:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "A Domain Is Registered. But Is It Really Unavailable?",
-    "link": "https://circleid.com/posts/a&#45;domain&#45;is&#45;registered&#45;but&#45;is&#45;it&#45;really&#45;unavailable",
-    "description": "RFC 10023 standardizes a DNS TXT record that lets domain holders signal a registered name is for sale, giving registrars, marketplaces, brokers and search tools a machine-readable way to distinguish registration from purchase availability.",
-    "pubDate": "2026-09-16T16:09:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "How CZDS Zone Data Helps Detect Domain Abuse",
-    "link": "https://circleid.com/posts/how&#45;czds&#45;zone&#45;data&#45;helps&#45;detect&#45;domain&#45;abuse",
-    "description": "Daily CZDS zone data can help brand owners and investigators detect suspicious domain registrations earlier, trace related infrastructure, monitor expired names, and shift enforcement from reactive disputes toward faster, evidence-based intervention.",
-    "pubDate": "2026-09-16T15:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "The case for open-weight models and why we can&#8217;t trust frontier labs",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
     "pubDate": "2026-09-16T05:42:22.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Two Years After His Arrest, Pavel Durov Wants to Run His Own Registry",
-    "link": "https://circleid.com/posts/two&#45;years&#45;after&#45;his&#45;arrest&#45;pavel&#45;durov&#45;wants&#45;to&#45;run&#45;his&#45;own&#45;registry",
-    "description": "Telegram says it has applied for .gram, potentially giving a billion users DNS addresses while putting its governance, abuse controls, legal exposure and infrastructure under scrutiny as ICANN prepares to reveal applications.",
-    "pubDate": "2026-09-15T17:04:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Have it both ways: stay discoverable in search while disallowing AI training",
@@ -256,14 +184,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "Welcome to APNIC 62",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "APNIC welcomes you to Mumbai, India for APNIC 62. Here is what you can look forward to over the coming days.",
-    "pubDate": "2026-09-08T03:33:07.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Closing the IPv6 First-Packet Gap with GRAND",
     "link": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
     "description": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
@@ -294,6 +214,14 @@
     "pubDate": "2026-09-03T12:03:26.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
+  },
+  {
+    "title": "Spurs boots VMware, cites 85% licensing saving",
+    "link": "https://www.theregister.com/on-prem/2026/09/03/spurs-boots-vmware-cites-85-licensing-saving/5294139",
+    "description": "Part of wider infrastructure replacement upgrade project with HPE",
+    "pubDate": "2026-09-03T10:00:00.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   },
   {
     "title": "Bridging the Gap Between Theory and Practice in Internet Operations",
@@ -478,5 +406,77 @@
     "pubDate": "2026-05-28T13:15:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
+  },
+  {
+    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
+    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
+    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
+    "pubDate": "2026-05-05T11:34:23.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Inside Amazon Web Services' plan to make networking disappear",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
+    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
+    "pubDate": "2026-05-04T15:39:08.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
+    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
+    "pubDate": "2026-05-04T07:00:11.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
+    "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
+    "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
+    "pubDate": "2026-04-30T18:18:26.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Cloudflare says autocrats, wars and elections caged the internet in Q1",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/cloudflare-autocrats-wars-and-votes-caged-the-net-in-q1/5220583",
+    "description": "Iran went dark twice, AWS got droned, oh and TalkTalk broke something it refuses to talk about",
+    "pubDate": "2026-04-29T17:05:55.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Wind Telecom Dominican Republic and ZTE join forces to accelerate smart home innovation",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/wind-telecom-and-zte-partner-for-smart-home-innovation/5222949",
+    "description": "Elevating residential connectivity with AI-driven network optimization and secure cloud-based home monitoring solutions",
+    "pubDate": "2026-04-29T10:34:12.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "ZTE and XLSMART officially launch Innovation Center in Jakarta, accelerating 5G-advanced and AI readiness for Indonesia",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/zte-xlsmart-launch-jakarta-ai-5g-a-innovation-center/5225063",
+    "description": "Driving cross-sector digital transformation through collaborative 5G-A research and AI-powered network solutions",
+    "pubDate": "2026-04-29T10:10:29.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "GoDaddy customer claims registrar transferred 27-year-old domain without any security checks",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/non-profits-godaddy-nightmare-and-the-it-chaos-that-ensued/5226239",
+    "description": "32 phone calls, 17 email chains, a 5-day ordeal, and no help during the daddy of all stuffups, claim those affected",
+    "pubDate": "2026-04-29T10:00:09.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "When robots join the race: 5G-A powers a new kind of marathon",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/5g-a-powers-a-new-kind-of-marathon/5226158",
+    "description": "Human and humanoid runners share the track as next-gen connectivity underpins real-time AI performance",
+    "pubDate": "2026-04-29T06:08:38.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   }
 ]
