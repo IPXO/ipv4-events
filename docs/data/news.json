@@ -1,5 +1,93 @@
 [
   {
+    "title": "Understanding ASPA: The next step in routing security",
+    "link": "https://blog.apnic.net/category/development/",
+    "description": "Join this APNIC Academy webinar to understand how ASPAs work, how they complement ROAs, and how you can begin monitoring and deploying them in your network.",
+    "pubDate": "2026-09-23T04:55:18.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The Case for Longitudinal DNSSEC Data",
+    "link": "https://circleid.com/posts/the&#45;case&#45;for&#45;longitudinal&#45;dnssec&#45;data",
+    "description": "Repeated DNSSEC failures show the limits of snapshot diagnostics. A longitudinal record of signed delegations could reveal persistent misconfigurations, rollover problems and correlated failures, helping operators identify recurring patterns and their likely sources.",
+    "pubDate": "2026-09-22T18:08:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Microsoft Disrupts EvilTokens AI Cybercrime Service Linked to 12,000 Compromised Inboxes",
+    "link": "https://circleid.com/posts/microsoft&#45;disrupts&#45;eviltokens&#45;ai&#45;cybercrime&#45;service&#45;linked&#45;to&#45;12000&#45;compromised&#45;inboxes",
+    "description": "Microsoft disrupted EvilTokens, an AI-enabled cybercrime service linked to more than 12,000 compromised inboxes, seizing websites and disabling domains used to automate mailbox analysis, impersonation and preparation for financial fraud.",
+    "pubDate": "2026-09-22T17:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Will AI Make Domain Names More Essential Than Ever?",
+    "link": "https://circleid.com/posts/will&#45;ai&#45;make&#45;domain&#45;names&#45;more&#45;essential&#45;than&#45;ever",
+    "description": "Generative AI may strengthen domain names by lowering barriers to online ventures while increasing demand for trusted digital identities, stable endpoints and verifiable sources for both people and AI agents.",
+    "pubDate": "2026-09-22T16:34:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Commenters Urge Limits on Proposed Domain Abuse Checks",
+    "link": "https://circleid.com/posts/icann&#45;commenters&#45;urge&#45;limits&#45;on&#45;proposed&#45;domain&#45;abuse&#45;checks",
+    "description": "ICANN commenters broadly support proposed registrar checks of domains associated with known DNS abuse but urge evidentiary safeguards to prevent weak associations from triggering action against legitimate domains.",
+    "pubDate": "2026-09-22T16:03:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "EU Sets Sustainability Labels for Larger Data Centers",
+    "link": "https://circleid.com/posts/eu&#45;sets&#45;sustainability&#45;labels&#45;for&#45;larger&#45;data&#45;centers",
+    "description": "The European Commission has adopted an A-to-G sustainability rating system for larger data centers, grading energy and water efficiency as EU computing demand grows and regulators consider binding performance standards.",
+    "pubDate": "2026-09-22T15:52:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "US AI Policy Applies Two Scales at Home and Abroad",
+    "link": "https://circleid.com/posts/us&#45;ai&#45;policy&#45;applies&#45;two&#45;scales&#45;at&#45;home&#45;and&#45;abroad",
+    "description": "The danger the White House dismisses at home has justified restricting frontier models abroad. Now, as Trump meets Xi Jinping, competing forces within his administration could determine who writes global AI rules and in what register.",
+    "pubDate": "2026-09-22T15:14:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "We just shipped support for the ugliest part of HTTP: Vary",
+    "link": "https://mnot.net/blog/2026/linting_the_web",
+    "description": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable.",
+    "pubDate": "2026-09-22T14:04:31.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+    "link": "https://blog.cloudflare.com/agent-development-lifecycle/",
+    "description": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
+    "pubDate": "2026-09-22T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The RIPE Chair Team Reports - September 2026",
+    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-september-2026/",
+    "description": "With RIPE 93 fast approaching, the RIPE Chair Team shares updates on policy and Working Group activity, the Code of Conduct Team document, and recent events across the Internet community.",
+    "pubDate": "2026-09-22T12:09:07.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Moving to a New Board Structure",
+    "link": "https://labs.ripe.net/author/athina/moving-to-a-new-board-structure/",
+    "description": "A governance structure is strongest when the responsibilities written down on paper match the responsibilities exercised in practice. This proposal to change the RIPE NCC’s governance structure is intended to make sure that they do.",
+    "pubDate": "2026-09-22T10:03:37.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Latest BGP hijack targets hosting software vendor",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: An analysis of the BGP hijack against Softaculous that enabled an attacker to obtain a fraudulent TLS certificate and distribute a malicious Virtualizor update.",
@@ -64,22 +152,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Why Container Security Is Still Fighting Yesterday&#8217;s Battle",
-    "link": "https://circleid.com/posts/why&#45;container&#45;security&#45;is&#45;still&#45;fighting&#45;yesterdays&#45;battle",
-    "description": "Rule-based container security can miss attacks that evade predefined patterns, prompting an argument for behavioral detection that models activity across Kubernetes workloads and control planes while retaining rules for known threats.",
-    "pubDate": "2026-09-18T16:30:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Governance Theater: Why the gTLD Expansion Program Is a Lose-Lose Proposition",
-    "link": "https://circleid.com/posts/governance&#45;theater&#45;why&#45;the&#45;gtld&#45;expansion&#45;program&#45;is&#45;a&#45;lose&#45;lose&#45;proposition",
-    "description": "ICANN's gTLD expansion program is structured to collect fees regardless of outcomes, leaving brand, portfolio and single-string applicants bearing financial risk while accountability mechanisms offer little meaningful remedy when the process fails.",
-    "pubDate": "2026-09-18T15:34:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Presto: A match-action TCP stack for the terabit era",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
@@ -104,44 +176,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "AWS Says Iran Strikes Caused Permanent Customer Data Loss in Bahrain and UAE",
-    "link": "https://circleid.com/posts/aws&#45;says&#45;iran&#45;strikes&#45;caused&#45;permanent&#45;customer&#45;data&#45;loss&#45;in&#45;bahrain&#45;and&#45;uae",
-    "description": "AWS says Iranian strikes caused permanent customer data loss in Bahrain and the UAE, exposing the limits of Availability Zone redundancy when physical destruction affects multiple cloud facilities within a region.",
-    "pubDate": "2026-09-16T21:21:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
     "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
     "description": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
     "pubDate": "2026-09-16T20:06:17.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "UK, US and Dutch Agencies Expose Iranian Spyware Targeting Dissidents and Journalists",
-    "link": "https://circleid.com/posts/uk&#45;us&#45;and&#45;dutch&#45;agencies&#45;expose&#45;iranian&#45;spyware&#45;targeting&#45;dissidents&#45;and&#45;journalists",
-    "description": "UK, US and Dutch agencies have exposed Iranian state-linked spyware that uses personalized social engineering to compromise Windows devices and surveil dissidents, activists and journalists, capturing communications, files, audio and other sensitive data.",
-    "pubDate": "2026-09-16T17:11:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Study Finds Tribal-Built Broadband Network Linked to 4% Income Gain",
-    "link": "https://circleid.com/posts/study&#45;finds&#45;tribal&#45;built&#45;broadband&#45;network&#45;linked&#45;to&#45;4&#45;income&#45;gain",
-    "description": "A tribal-built broadband network on Washington's Colville Reservation was associated with a 4% income increase, offering evidence that connectivity can produce economic gains even without substantial growth in household broadband subscriptions.",
-    "pubDate": "2026-09-16T16:57:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Canada Plans Sovereign Broadband Backbone With New Fibre Investment Incentive",
-    "link": "https://circleid.com/posts/canada&#45;plans&#45;sovereign&#45;broadband&#45;backbone&#45;with&#45;new&#45;fibre&#45;investment&#45;incentive",
-    "description": "Ottawa plans to help finance a national broadband backbone with direct links to Europe and Asia, while new tax incentives aim to spur fibre investment and strengthen Canadian control over critical digital infrastructure.",
-    "pubDate": "2026-09-16T16:40:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "The case for open-weight models and why we can&#8217;t trust frontier labs",
@@ -248,22 +288,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "APNIC and NIXI partner to strengthen routing security and technical capacity in India",
-    "link": "https://blog.apnic.net/category/development/",
-    "description": "The partnership will expand IPv6 and RPKI deployment including piloting an RPKI Repository Mirror to support a more secure and resilient Internet ecosystem.",
-    "pubDate": "2026-09-09T09:01:06.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-    "link": "https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/",
-    "description": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
-    "pubDate": "2026-09-08T13:10:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "The Internet’s New Edge Builders",
     "link": "https://labs.ripe.net/author/armanobosyan/the-internets-new-edge-builders/",
     "description": "After building private backbones, content and cloud platforms are now moving closer to users. In doing so, they are taking on delivery roles once associated mainly with independent CDNs.",
@@ -278,14 +302,6 @@
     "pubDate": "2026-09-04T13:32:29.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-    "link": "https://www.cloudflare.com/managed-defense/",
-    "description": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi…",
-    "pubDate": "2026-09-03T21:03:02.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Introducing the ARIN 58 Fellows",
@@ -356,22 +372,6 @@
     "link": "https://labs.ripe.net/author/andrew_campling/dns-abuse-and-criminal-infrastructure-beyond-definitions-and-blocklists/",
     "description": "Evidence suggests that criminals may control a substantial share of new gTLD registrations. Although the precise scale remains contested, the article asks whether current DNS Abuse measures adequately address wider misuse of domain names.",
     "pubDate": "2026-08-24T11:30:19.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
-    "link": "https://labs.ripe.net/author/spidee/deploying-ipv6-first-eks-on-aws-what-still-doesnt-work-and-what-it-saves/",
-    "description": "In this field report on IPv6-first Amazon Elastic Kubernetes Service (EKS), the isp6 team shares which dependencies still drag IPv4 back in, what they learnt from /28s, and why the saving is large but not automatic.",
-    "pubDate": "2026-08-14T08:57:28.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Multiple LIR Accounts: Looking Back and Thinking Ahead",
-    "link": "https://labs.ripe.net/author/marco_schmidt/multiple-lir-accounts-looking-back-and-thinking-ahead/",
-    "description": "Why a feature introduced for a handful of members became one of the RIPE NCC's most complex operational challenges.",
-    "pubDate": "2026-08-12T12:47:22.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
