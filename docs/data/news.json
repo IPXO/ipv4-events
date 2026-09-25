@@ -1,5 +1,37 @@
 [
   {
+    "title": "APNIC 62 Policy SIG reviews seven policy proposals, with two reaching consensus",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "APNIC 62 Policy SIG discussed seven proposals covering IPv4, IPv6, and Internet abuse-related issues.",
+    "pubDate": "2026-09-25T01:48:01.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "EU Cyber Resilience Act Costs and Economic Impact",
+    "link": "https://circleid.com/posts/eu&#45;cyber&#45;resilience&#45;act&#45;costs&#45;and&#45;economic&#45;impact",
+    "description": "The EU Cyber Resilience Act faces questions over its economic impact as third-party estimates point to substantial compliance costs, competitive pressures and unresolved concerns about whether its requirements meet established proportionality and competition norms.",
+    "pubDate": "2026-09-24T18:15:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Taming Shadow AI: Closing the Context Gap in Enterprise AI Security",
+    "link": "https://circleid.com/posts/taming&#45;shadow&#45;ai&#45;closing&#45;the&#45;context&#45;gap&#45;in&#45;enterprise&#45;ai&#45;security",
+    "description": "Shadow AI exposes sensitive enterprise data when employees use unsanctioned AI tools. Context-aware guardrails can reduce leakage and false positives by combining deterministic rules, contextual inspection, graduated enforcement and centralized observability.",
+    "pubDate": "2026-09-24T18:00:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+    "link": "https://accomplish.ai/",
+    "description": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
+    "pubDate": "2026-09-24T15:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "IP geolocation at APNIC 62: Challenges, geofeeds, and data quality perspectives",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "At APNIC 62, panellists explored how geofeeds, RIR data, and third-party geolocation providers work together, and why improving accuracy while protecting user privacy is becoming increasingly important.",
@@ -92,22 +124,6 @@
     "link": "https://circleid.com/posts/icann&#45;commenters&#45;urge&#45;limits&#45;on&#45;proposed&#45;domain&#45;abuse&#45;checks",
     "description": "ICANN commenters broadly support proposed registrar checks of domains associated with known DNS abuse but urge evidentiary safeguards to prevent weak associations from triggering action against legitimate domains.",
     "pubDate": "2026-09-22T16:03:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "EU Sets Sustainability Labels for Larger Data Centers",
-    "link": "https://circleid.com/posts/eu&#45;sets&#45;sustainability&#45;labels&#45;for&#45;larger&#45;data&#45;centers",
-    "description": "The European Commission has adopted an A-to-G sustainability rating system for larger data centers, grading energy and water efficiency as EU computing demand grows and regulators consider binding performance standards.",
-    "pubDate": "2026-09-22T15:52:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "US AI Policy Applies Two Scales at Home and Abroad",
-    "link": "https://circleid.com/posts/us&#45;ai&#45;policy&#45;applies&#45;two&#45;scales&#45;at&#45;home&#45;and&#45;abroad",
-    "description": "The danger the White House dismisses at home has justified restricting frontier models abroad. Now, as Trump meets Xi Jinping, competing forces within his administration could determine who writes global AI rules and in what register.",
-    "pubDate": "2026-09-22T15:14:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -264,14 +280,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Thanks for participating in APNIC 62",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Thank you to everyone who participated in person and remotely at APNIC 62, hosted by the National Internet Exchange of India (NIXI) and co-hosted by ISPAI, from 4 to 10 September 2026 in Mumbai, India.",
-    "pubDate": "2026-09-10T13:16:58.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
     "link": "https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/",
     "description": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
@@ -294,14 +302,6 @@
     "pubDate": "2026-09-10T09:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
-    "link": "https://github.com/cloudflare/workerd",
-    "description": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
-    "pubDate": "2026-09-09T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "The Internet’s New Edge Builders",
@@ -334,6 +334,14 @@
     "pubDate": "2026-09-03T12:03:26.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
+  },
+  {
+    "title": "Spurs boots VMware, cites 85% licensing saving",
+    "link": "https://www.theregister.com/on-prem/2026/09/03/spurs-boots-vmware-cites-85-licensing-saving/5294139",
+    "description": "Part of wider infrastructure replacement upgrade project with HPE",
+    "pubDate": "2026-09-03T10:00:00.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   },
   {
     "title": "Bridging the Gap Between Theory and Practice in Internet Operations",
@@ -468,14 +476,6 @@
     "link": "https://www.arin.net/blog/2026/06/24/fellowship-experience-navin-suvarna/",
     "description": "Read how the ARIN Fellowship Program strengthened this new community member's understanding of Internet governance and policy development and provided a meaningful forum in which to contribute ideas around routing security, automation, AI-assisted validation, and modernized polic…",
     "pubDate": "2026-06-24T18:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "Ready to Run? Your Guide to ARIN Elections Nominations",
-    "link": "https://www.arin.net/blog/2026/06/10/nominations-guide/",
-    "description": "Who can make nominations? What should a nominee expect during the election timeline? How are nominees classified, and what qualifications matter most? Whether you’re considering running or simply want to understand ARIN Elections, this overview covers the essentials.",
-    "pubDate": "2026-06-10T17:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
