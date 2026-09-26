@@ -1,5 +1,29 @@
 [
   {
+    "title": "The Namespace You Plan - and the One That Takes Shape",
+    "link": "https://circleid.com/posts/the&#45;namespace&#45;you&#45;plan&#45;a&#45;and&#45;the&#45;one&#45;that&#45;takes&#45;shape",
+    "description": "Structural analysis of four established gTLD namespaces suggests registration totals alone offer an incomplete picture. Tracking composition alongside operational data could help new registry operators investigate whether their namespaces are developing as intended.",
+    "pubDate": "2026-09-26T00:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNSSEC Validation Climbs Across Africa Ahead of Root Key Rollover",
+    "link": "https://circleid.com/posts/dnssec&#45;validation&#45;climbs&#45;across&#45;africa&#45;ahead&#45;of&#45;root&#45;key&#45;rollover",
+    "description": "ICANN reports African DNSSEC validation has reached 53%, with Ghana near 98% and Nigeria around 60%, as independent APNIC measurements broadly support the country figures ahead of October's root key rollover.",
+    "pubDate": "2026-09-25T15:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Agents can now set up your website’s security with Turnstile Spin",
+    "link": "https://blog.cloudflare.com/turnstile-ga/",
+    "description": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
+    "pubDate": "2026-09-25T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "APNIC 62 Policy SIG reviews seven policy proposals, with two reaching consensus",
     "link": "https://blog.apnic.net/category/events/",
     "description": "APNIC 62 Policy SIG discussed seven proposals covering IPv4, IPv6, and Internet abuse-related issues.",
@@ -108,22 +132,6 @@
     "link": "https://circleid.com/posts/microsoft&#45;disrupts&#45;eviltokens&#45;ai&#45;cybercrime&#45;service&#45;linked&#45;to&#45;12000&#45;compromised&#45;inboxes",
     "description": "Microsoft disrupted EvilTokens, an AI-enabled cybercrime service linked to more than 12,000 compromised inboxes, seizing websites and disabling domains used to automate mailbox analysis, impersonation and preparation for financial fraud.",
     "pubDate": "2026-09-22T17:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Will AI Make Domain Names More Essential Than Ever?",
-    "link": "https://circleid.com/posts/will&#45;ai&#45;make&#45;domain&#45;names&#45;more&#45;essential&#45;than&#45;ever",
-    "description": "Generative AI may strengthen domain names by lowering barriers to online ventures while increasing demand for trusted digital identities, stable endpoints and verifiable sources for both people and AI agents.",
-    "pubDate": "2026-09-22T16:34:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN Commenters Urge Limits on Proposed Domain Abuse Checks",
-    "link": "https://circleid.com/posts/icann&#45;commenters&#45;urge&#45;limits&#45;on&#45;proposed&#45;domain&#45;abuse&#45;checks",
-    "description": "ICANN commenters broadly support proposed registrar checks of domains associated with known DNS abuse but urge evidentiary safeguards to prevent weak associations from triggering action against legitimate domains.",
-    "pubDate": "2026-09-22T16:03:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -276,14 +284,6 @@
     "link": "https://blog.cloudflare.com/cloudflare-zero-trust-casb/",
     "description": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
     "pubDate": "2026-09-11T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-    "link": "https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/",
-    "description": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
-    "pubDate": "2026-09-10T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
