@@ -1,5 +1,13 @@
 [
   {
+    "title": "Why Africa Keeps Relearning the Same Digital Lessons",
+    "link": "https://circleid.com/posts/why&#45;africa&#45;keeps&#45;relearning&#45;the&#45;same&#45;digital&#45;lessons",
+    "description": "Africa's digital transformation challenge is not a lack of strategies or research, but weak institutional learning that prevents governments from preserving project lessons, applying evidence and avoiding repeated failures across administrations and technology programs.",
+    "pubDate": "2026-09-26T13:59:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "The Namespace You Plan - and the One That Takes Shape",
     "link": "https://circleid.com/posts/the&#45;namespace&#45;you&#45;plan&#45;a&#45;and&#45;the&#45;one&#45;that&#45;takes&#45;shape",
     "description": "Structural analysis of four established gTLD namespaces suggests registration totals alone offer an incomplete picture. Tracking composition alongside operational data could help new registry operators investigate whether their namespaces are developing as intended.",
@@ -124,14 +132,6 @@
     "link": "https://circleid.com/posts/the&#45;case&#45;for&#45;longitudinal&#45;dnssec&#45;data",
     "description": "Repeated DNSSEC failures show the limits of snapshot diagnostics. A longitudinal record of signed delegations could reveal persistent misconfigurations, rollover problems and correlated failures, helping operators identify recurring patterns and their likely sources.",
     "pubDate": "2026-09-22T18:08:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Microsoft Disrupts EvilTokens AI Cybercrime Service Linked to 12,000 Compromised Inboxes",
-    "link": "https://circleid.com/posts/microsoft&#45;disrupts&#45;eviltokens&#45;ai&#45;cybercrime&#45;service&#45;linked&#45;to&#45;12000&#45;compromised&#45;inboxes",
-    "description": "Microsoft disrupted EvilTokens, an AI-enabled cybercrime service linked to more than 12,000 compromised inboxes, seizing websites and disabling domains used to automate mailbox analysis, impersonation and preparation for financial fraud.",
-    "pubDate": "2026-09-22T17:58:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
