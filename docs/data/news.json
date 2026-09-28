@@ -1,5 +1,29 @@
 [
   {
+    "title": "Apply now for an APRICOT 2027 Fellowship",
+    "link": "https://blog.apnic.net/category/development/",
+    "description": "APRICOT is offering a limited number of fellowships in the lead up to APRICOT 2027. Apply now!",
+    "pubDate": "2026-09-28T03:47:08.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+    "link": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+    "description": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
+    "pubDate": "2026-09-27T17:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "How AI Answer Engines Are Quietly Rewriting What Makes a Domain &#8220;Brandable&#8221;",
+    "link": "https://circleid.com/posts/how&#45;ai&#45;answer&#45;engines&#45;are&#45;quietly&#45;rewriting&#45;what&#45;makes&#45;a&#45;domain&#45;brandable",
+    "description": "As AI answer engines become referral channels, domain distinctiveness may matter more than exact-match search intent, challenging traditional valuation models built around keyword demand, traffic and historical sales.",
+    "pubDate": "2026-09-27T14:57:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Why Africa Keeps Relearning the Same Digital Lessons",
     "link": "https://circleid.com/posts/why&#45;africa&#45;keeps&#45;relearning&#45;the&#45;same&#45;digital&#45;lessons",
     "description": "Africa's digital transformation challenge is not a lack of strategies or research, but weak institutional learning that prevents governments from preserving project lessons, applying evidence and avoiding repeated failures across administrations and technology programs.",
@@ -126,14 +150,6 @@
     "pubDate": "2026-09-23T04:55:18.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "The Case for Longitudinal DNSSEC Data",
-    "link": "https://circleid.com/posts/the&#45;case&#45;for&#45;longitudinal&#45;dnssec&#45;data",
-    "description": "Repeated DNSSEC failures show the limits of snapshot diagnostics. A longitudinal record of signed delegations could reveal persistent misconfigurations, rollover problems and correlated failures, helping operators identify recurring patterns and their likely sources.",
-    "pubDate": "2026-09-22T18:08:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "We just shipped support for the ugliest part of HTTP: Vary",
@@ -264,28 +280,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Research and education network leaders across the Asia Pacific have signed the Auckland Declaration of Intent on Cyber Resilience, committing to stronger regional cooperation on cyber preparedness, information sharing, and incident coordination.",
-    "pubDate": "2026-09-13T22:22:29.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "IETF email infrastructure transition completed on 11 September",
     "link": "http://www.ietf.org/blog/email-service-transition-2026-09/",
     "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) was completed on 11 September 2026.",
     "pubDate": "2026-09-11T20:38:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Introducing automatic remediation policies with Cloudflare CASB",
-    "link": "https://blog.cloudflare.com/cloudflare-zero-trust-casb/",
-    "description": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
-    "pubDate": "2026-09-11T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "The /3 Body Problem",
