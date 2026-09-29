@@ -1,5 +1,109 @@
 [
   {
+    "title": "Thou shall not pass: Gatekeeping outbound TLS connections",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
+    "pubDate": "2026-09-29T00:04:51.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Africa Is Adopting AI but Who Is Governing the Risks?",
+    "link": "https://circleid.com/posts/africa&#45;is&#45;adopting&#45;ai&#45;but&#45;who&#45;is&#45;governing&#45;the&#45;risks",
+    "description": "African institutions are adopting AI across public services and business, but effective deployment requires governance structures that address cybersecurity, accountability, procurement, digital sovereignty, regulatory coordination and institutional capacity.",
+    "pubDate": "2026-09-28T20:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "SpaceX Wants to End Rural Broadband Subsidies",
+    "link": "https://circleid.com/posts/spacex&#45;wants&#45;to&#45;end&#45;rural&#45;broadband&#45;subsidies",
+    "description": "SpaceX argues that Starlink makes rural broadband subsidies obsolete, but questions about speed, universal availability, voice service and affordability complicate its case for eliminating high-cost Universal Service Fund support.",
+    "pubDate": "2026-09-28T18:02:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Jewelbug Targets the Middle East and Asia via Cyber Espionage and Crypto Fraud Campaigns",
+    "link": "https://circleid.com/posts/jewelbug&#45;targets&#45;the&#45;middle&#45;east&#45;and&#45;asia&#45;via&#45;cyber&#45;espionage&#45;and&#45;crypto&#45;fraud&#45;campaigns",
+    "description": "Researchers linked Jewelbug's cyber espionage and crypto fraud operations to shared infrastructure, while DNS analysis uncovered thousands of connected domains, hundreds of potential victim IP addresses and additional malicious artifacts.",
+    "pubDate": "2026-09-28T17:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+    "link": "https://blog.cloudflare.com/vinext/",
+    "description": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
+    "pubDate": "2026-09-28T14:51:57.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+    "link": "https://blog.cloudflare.com/cf-cli-local-explorer",
+    "description": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+    "pubDate": "2026-09-28T14:50:37.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+    "link": "https://rumarchive.com/",
+    "description": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions.",
+    "pubDate": "2026-09-28T14:43:05.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+    "link": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+    "description": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents.",
+    "pubDate": "2026-09-28T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+    "link": "https://github.com/cloudflare/forge",
+    "description": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer tools continuously in sync.",
+    "pubDate": "2026-09-28T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The road to the agentic browser: A Kitesurf update",
+    "link": "https://blog.cloudflare.com/kitesurf/",
+    "description": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
+    "pubDate": "2026-09-28T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
+    "link": "https://www.cloudflare.com/connect/cold-start/",
+    "description": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and an invitation to our VIP speakers dinner.",
+    "pubDate": "2026-09-28T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
+    "link": "https://blog.cloudflare.com/emdash-wordpress/",
+    "description": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control.",
+    "pubDate": "2026-09-28T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+    "link": "https://github.com/wasm-bindgen/wasm-bindgen",
+    "description": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async.",
+    "pubDate": "2026-09-28T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Apply now for an APRICOT 2027 Fellowship",
     "link": "https://blog.apnic.net/category/development/",
     "description": "APRICOT is offering a limited number of fellowships in the lead up to APRICOT 2027. Apply now!",
@@ -48,14 +152,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Agents can now set up your website’s security with Turnstile Spin",
-    "link": "https://blog.cloudflare.com/turnstile-ga/",
-    "description": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
-    "pubDate": "2026-09-25T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "APNIC 62 Policy SIG reviews seven policy proposals, with two reaching consensus",
     "link": "https://blog.apnic.net/category/events/",
     "description": "APNIC 62 Policy SIG discussed seven proposals covering IPv4, IPv6, and Internet abuse-related issues.",
@@ -80,14 +176,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
-    "link": "https://accomplish.ai/",
-    "description": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
-    "pubDate": "2026-09-24T15:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "IP geolocation at APNIC 62: Challenges, geofeeds, and data quality perspectives",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "At APNIC 62, panellists explored how geofeeds, RIR data, and third-party geolocation providers work together, and why improving accuracy while protecting user privacy is becoming increasingly important.",
@@ -104,36 +192,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "IPv6 Growth Remains Concentrated Among Major Infrastructure Providers",
-    "link": "https://circleid.com/posts/ipv6&#45;growth&#45;remains&#45;concentrated&#45;among&#45;major&#45;infrastructure&#45;providers",
-    "description": "IPv6 availability now reaches more than half of measured website hosts, but provider-led deployment means the global figure can obscure how heavily adoption depends on major hosting, cloud, CDN, DNS and email platforms.",
-    "pubDate": "2026-09-23T15:18:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Meet the 2026 ARIN Community Grant Recipients",
     "link": "https://www.arin.net/blog/2026/09/23/grant-recipients-2026/",
     "description": "We would like to congratulate the organizations receiving funding from the ARIN Community Grant Program this year! Senior Project Manager Amanda Gauldin shares details about their projects.",
     "pubDate": "2026-09-23T15:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "ICANN Reports Persistent Acceptance Gaps for Internationalized Domains",
-    "link": "https://circleid.com/posts/icann&#45;reports&#45;persistent&#45;acceptance&#45;gaps&#45;for&#45;internationalized&#45;domains",
-    "description": "ICANN reports 151 internationalized top-level domains and 4.3 million second-level registrations, but persistent Universal Acceptance gaps still prevent some applications, websites and email systems from reliably handling internationalized names.",
-    "pubDate": "2026-09-23T14:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN Confirms 1,616 Applications Will Proceed in 2026 New gTLD Round",
-    "link": "https://circleid.com/posts/icann&#45;confirms&#45;1616&#45;applications&#45;will&#45;proceed&#45;in&#45;2026&#45;new&#45;gtld&#45;round",
-    "description": "ICANN says 1,616 applications will proceed in the 2026 new gTLD round, with Reveal Day expected by October 14 to disclose applicants, requested strings and initial contention sets.",
-    "pubDate": "2026-09-23T14:43:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "PeeringDB Update April - September 2026",
@@ -150,22 +214,6 @@
     "pubDate": "2026-09-23T04:55:18.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "We just shipped support for the ugliest part of HTTP: Vary",
-    "link": "https://mnot.net/blog/2026/linting_the_web",
-    "description": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable.",
-    "pubDate": "2026-09-22T14:04:31.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
-    "link": "https://blog.cloudflare.com/agent-development-lifecycle/",
-    "description": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
-    "pubDate": "2026-09-22T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "The RIPE Chair Team Reports - September 2026",
@@ -192,28 +240,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Python Workers are now generally available",
-    "link": "https://blog.cloudflare.com/python-workers/",
-    "description": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
-    "pubDate": "2026-09-21T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "APNIC 62 Technical Session 1 — Internet Operations highlighted major developments across Internet infrastructure, including new management capabilities for Kea DHCP and BIND DNS, preparations for the DNSSEC root KSK rollover, and ongoing challenges in certificate revocation.",
     "pubDate": "2026-09-20T22:52:43.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Saving another 100TB of RAM with math (and Rust)",
-    "link": "https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/",
-    "description": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
-    "pubDate": "2026-09-18T17:23:58.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Presto: A match-action TCP stack for the terabit era",
@@ -240,42 +272,10 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
-    "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
-    "description": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
-    "pubDate": "2026-09-16T20:06:17.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "The case for open-weight models and why we can&#8217;t trust frontier labs",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
     "pubDate": "2026-09-16T05:42:22.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Have it both ways: stay discoverable in search while disallowing AI training",
-    "link": "https://blog.cloudflare.com/bot-preference-sync/",
-    "description": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
-    "pubDate": "2026-09-15T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Give every teammate and agent the right level of access to your Workers",
-    "link": "https://developers.cloudflare.com/workers/configuration/routing/routes/",
-    "description": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
-    "pubDate": "2026-09-15T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "One or two nameservers?",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Do multiple dual-stack nameservers increase or decrease repeat DNS queries? The results of this experiment were a complete surprise.",
-    "pubDate": "2026-09-15T06:01:49.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
