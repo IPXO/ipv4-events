@@ -1,5 +1,133 @@
 [
   {
+    "title": "Opinion: The economics of AI",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "As spending on data centres, power, and computing capacity surges, the question is no longer whether AI delivers value, but who will ultimately pay for it.",
+    "pubDate": "2026-09-30T03:18:35.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "AI-driven networking and infrastructure design at APNIC 62",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Presenters at APNIC 62 explored how AI is reshaping network design and operations, from next-generation optical architectures to autonomous management systems, highlighting scale challenges and improved reliability, efficiency, and operational decision-making.",
+    "pubDate": "2026-09-30T03:02:50.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "OpenAI Agent Bypasses Internet Restrictions Through DNS",
+    "link": "https://circleid.com/posts/openai&#45;agent&#45;bypasses&#45;internet&#45;restrictions&#45;through&#45;dns",
+    "description": "OpenAI paused tool-enabled work on its most capable models after a research agent bypassed sandbox Internet restrictions by using DNS to communicate with an external chatbot during reinforcement-learning training.",
+    "pubDate": "2026-09-29T15:12:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Economics Behind AI&#8217;s Infrastructure Boom",
+    "link": "https://circleid.com/posts/the&#45;economics&#45;behind&#45;ais&#45;infrastructure&#45;boom",
+    "description": "AI's infrastructure boom is consuming vast amounts of capital, power and computing hardware, raising questions about whether advertising, subscriptions and corporate spending can ultimately support the industry's expanding cost base.",
+    "pubDate": "2026-09-29T14:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "SpaceX Deploys First 26 Starlink V3 Satellites on Starship",
+    "link": "https://circleid.com/posts/spacex&#45;deploys&#45;first&#45;26&#45;starlink&#45;v3&#45;satellites&#45;on&#45;starship",
+    "description": "SpaceX deployed 26 Starlink V3 satellites on Starship’s first orbital mission, beginning a network expansion whose promised capacity gains depend on the spacecraft completing checkout and entering service.",
+    "pubDate": "2026-09-29T14:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Restricting the Acquisition of Additional LIR Accounts",
+    "link": "https://labs.ripe.net/author/Gabor/restricting-the-acquisition-of-additional-lir-accounts/",
+    "description": "The RIPE NCC Executive Board has decided to temporarily restrict members' ability to acquire additional Local Internet Registry (LIR) accounts. Taking effect on Tuesday, 29 September, the restriction also covers requests already in progress. The decision is a first step towards a…",
+    "pubDate": "2026-09-29T13:55:07.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "ARIN Bits: September 2026",
+    "link": "https://www.arin.net/blog/2026/09/29/arin-bits-sept-2026/",
+    "description": "The days may be shortening as we enter fall at ARIN HQ in Virginia, but we’re not slowing down the steady pace of changes, upgrades, and outreach that cropped up throughout July, August, and September. We’ve gathered the season’s key developments and upcoming opportunities in thi…",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "Using AI to chart a course for our post-quantum migration",
+    "link": "https://blog.cloudflare.com/the-quantum-menace/",
+    "description": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned so far.",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Building a certificate authority for the whole Internet",
+    "link": "https://blog.cloudflare.com/introducing-universal-ssl/",
+    "description": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum CA for the open web.",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+    "link": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf",
+    "description": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+    "link": "https://blog.cloudflare.com/post-quantum-roadmap/",
+    "description": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale.",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "We tested our own WAF with frontier AI models. Here’s what we found",
+    "link": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
+    "description": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing. Here’s …",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+    "link": "https://developers.cloudflare.com/docs-for-agents/#agent-skills",
+    "description": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
+    "link": "https://developers.cloudflare.com/logs/logpush/",
+    "description": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption.",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Enforce positive security with Cloudflare Application Profiles",
+    "link": "https://developers.cloudflare.com/waf/detections/application-profiles/",
+    "description": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Preventing quantum downgrade attacks against IPsec",
+    "link": "https://developers.cloudflare.com/ssl/post-quantum-cryptography/pqc-cloudflare-products/",
+    "description": "A sophisticated attacker with a quantum computer can exploit a protocol design flaw to downgrade post-quantum IPsec tunnels to classical crypto. We helped the IETF develop a transcript authentication extension to prevent these attacks.",
+    "pubDate": "2026-09-29T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Thou shall not pass: Gatekeeping outbound TLS connections",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
@@ -32,74 +160,10 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
-    "link": "https://blog.cloudflare.com/vinext/",
-    "description": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
-    "pubDate": "2026-09-28T14:51:57.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
     "link": "https://blog.cloudflare.com/cf-cli-local-explorer",
     "description": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
-    "pubDate": "2026-09-28T14:50:37.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
-    "link": "https://rumarchive.com/",
-    "description": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions.",
-    "pubDate": "2026-09-28T14:43:05.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
-    "link": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
-    "description": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents.",
-    "pubDate": "2026-09-28T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
-    "link": "https://github.com/cloudflare/forge",
-    "description": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer tools continuously in sync.",
-    "pubDate": "2026-09-28T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "The road to the agentic browser: A Kitesurf update",
-    "link": "https://blog.cloudflare.com/kitesurf/",
-    "description": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
-    "pubDate": "2026-09-28T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
-    "link": "https://www.cloudflare.com/connect/cold-start/",
-    "description": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and an invitation to our VIP speakers dinner.",
-    "pubDate": "2026-09-28T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
-    "link": "https://blog.cloudflare.com/emdash-wordpress/",
-    "description": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control.",
-    "pubDate": "2026-09-28T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
-    "link": "https://github.com/wasm-bindgen/wasm-bindgen",
-    "description": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async.",
-    "pubDate": "2026-09-28T13:00:00.000Z",
+    "pubDate": "2026-09-28T15:50:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -110,14 +174,6 @@
     "pubDate": "2026-09-28T03:47:08.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Cloudflare’s 2026 Annual Founders’ Letter",
-    "link": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
-    "description": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
-    "pubDate": "2026-09-27T17:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "How AI Answer Engines Are Quietly Rewriting What Makes a Domain &#8220;Brandable&#8221;",
@@ -160,36 +216,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "EU Cyber Resilience Act Costs and Economic Impact",
-    "link": "https://circleid.com/posts/eu&#45;cyber&#45;resilience&#45;act&#45;costs&#45;and&#45;economic&#45;impact",
-    "description": "The EU Cyber Resilience Act faces questions over its economic impact as third-party estimates point to substantial compliance costs, competitive pressures and unresolved concerns about whether its requirements meet established proportionality and competition norms.",
-    "pubDate": "2026-09-24T18:15:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Taming Shadow AI: Closing the Context Gap in Enterprise AI Security",
-    "link": "https://circleid.com/posts/taming&#45;shadow&#45;ai&#45;closing&#45;the&#45;context&#45;gap&#45;in&#45;enterprise&#45;ai&#45;security",
-    "description": "Shadow AI exposes sensitive enterprise data when employees use unsanctioned AI tools. Context-aware guardrails can reduce leakage and false positives by combining deterministic rules, contextual inspection, graduated enforcement and centralized observability.",
-    "pubDate": "2026-09-24T18:00:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "IP geolocation at APNIC 62: Challenges, geofeeds, and data quality perspectives",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "At APNIC 62, panellists explored how geofeeds, RIR data, and third-party geolocation providers work together, and why improving accuracy while protecting user privacy is becoming increasingly important.",
     "pubDate": "2026-09-24T05:06:05.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Russian Attack Disrupts Internet and Digital Services Across Kyiv",
-    "link": "https://circleid.com/posts/russian&#45;attack&#45;disrupts&#45;internet&#45;and&#45;digital&#45;services&#45;across&#45;kyiv",
-    "description": "A Russian attack disrupted Internet access for about 100,000 Kyiv-area households and affected data centers, hosting and court services, exposing disruptions across multiple infrastructure layers while leaving possible shared dependencies unclear.",
-    "pubDate": "2026-09-23T22:28:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Meet the 2026 ARIN Community Grant Recipients",
@@ -262,22 +294,6 @@
     "pubDate": "2026-09-17T17:29:36.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "[Podcast] &#8216;Just say no&#8217; isn&#8217;t as simple as you think",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS.",
-    "pubDate": "2026-09-16T23:23:11.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "The case for open-weight models and why we can&#8217;t trust frontier labs",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
-    "pubDate": "2026-09-16T05:42:22.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "IETF email infrastructure transition completed on 11 September",
@@ -358,14 +374,6 @@
     "pubDate": "2026-09-01T22:48:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "The IRR Landscape: What RPKI Can Replace",
-    "link": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace/",
-    "description": "In the third part of our IRR landscape series, we use traffic measurements from AMS-IX and DE-CIX to assess which parts of the IRR landscape can safely be replaced with RPKI. Third-party ROUTE(6) objects can largely be phased out, while third-party AS-SETs remain essential for BG…",
-    "pubDate": "2026-09-01T12:20:33.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Post-Quantum Authentication: Up Next",
@@ -468,14 +476,6 @@
     "link": "https://www.arin.net/blog/2026/06/30/arin-bits-june-2026/",
     "description": "As temperatures rise, so does the momentum at ARIN. Dive into the summer edition of ARIN Bits for updates from our second quarter and details about upcoming items, including: the 2026 ARIN Elections cycle; fee and security changes; useful tools; reminders from Registration Servic…",
     "pubDate": "2026-06-30T13:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "Bridging Policy and Operations: An ARIN 57 Fellowship Experience",
-    "link": "https://www.arin.net/blog/2026/06/24/fellowship-experience-navin-suvarna/",
-    "description": "Read how the ARIN Fellowship Program strengthened this new community member's understanding of Internet governance and policy development and provided a meaningful forum in which to contribute ideas around routing security, automation, AI-assisted validation, and modernized polic…",
-    "pubDate": "2026-06-24T18:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   }
