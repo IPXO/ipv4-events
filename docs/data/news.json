@@ -1,5 +1,101 @@
 [
   {
+    "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+    "link": "https://www.cloudflare.com/products/stream/",
+    "description": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
+    "pubDate": "2026-10-02T16:13:45.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "DNS Spotlight: Silver Fox Strikes Anew with a Fake Installer Campaign",
+    "link": "https://circleid.com/posts/dns&#45;spotlight&#45;silver&#45;fox&#45;strikes&#45;anew&#45;with&#45;a&#45;fake&#45;installer&#45;campaign",
+    "description": "A Silver Fox-style fake installer campaign used deceptive software download sites to distribute malware, while DNS and WHOIS analysis uncovered typosquatting domains, potential victim traffic and more than 1,500 campaign-connected artifacts.",
+    "pubDate": "2026-10-02T15:48:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "German Study Finds Industrial AI Driving €120 Billion in Revenue",
+    "link": "https://circleid.com/posts/german&#45;study&#45;finds&#45;industrial&#45;ai&#45;driving&#45;120&#45;billion&#45;in&#45;revenue",
+    "description": "German companies are building an industrial AI advantage by combining existing models with proprietary data and engineering expertise, generating more than EUR 120 billion in revenue from AI-enabled products, according to an IW study.",
+    "pubDate": "2026-10-02T15:36:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing Web Search API via AI Gateway",
+    "link": "https://www.cloudflare.com/birthday-week/",
+    "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
+    "pubDate": "2026-10-02T13:28:10.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "8 major updates to Cloudflare Observability",
+    "link": "https://developers.cloudflare.com/observability/",
+    "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+    "pubDate": "2026-10-02T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+    "link": "https://developers.cloudflare.com/observability/traces/",
+    "description": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+    "pubDate": "2026-10-02T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+    "link": "https://blog.cloudflare.com/enterprise-grade-features-for-all/",
+    "description": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
+    "pubDate": "2026-10-02T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+    "link": "https://www.rfc-editor.org/rfc/rfc9458.html",
+    "description": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
+    "pubDate": "2026-10-02T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Follow the thread: a new dashboard to investigate account abuse",
+    "link": "https://developers.cloudflare.com/bots/account-abuse-protection/",
+    "description": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+    "pubDate": "2026-10-02T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+    "link": "https://blog.cloudflare.com/quick-tunnels-anytime-anywhere/",
+    "description": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+    "pubDate": "2026-10-02T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Building for good: How civil society organizations are automating on Cloudflare",
+    "link": "https://www.cloudflare.com/galileo/",
+    "description": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
+    "pubDate": "2026-10-02T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "2026 Birthday week: network performance update",
+    "link": "https://blog.cloudflare.com/network-performance-agents-week/",
+    "description": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
+    "pubDate": "2026-10-02T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Is RPKI becoming harmful to BGP stability?",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
@@ -16,84 +112,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-    "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-    "description": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
-    "pubDate": "2026-10-01T15:34:02.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "One year later: Sovereign AI and the fight for choice",
-    "link": "https://blog.cloudflare.com/sovereign-ai-and-choice/",
-    "description": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
-    "pubDate": "2026-10-01T13:04:19.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Get Ready for ARIN Elections",
     "link": "https://www.arin.net/blog/2026/10/01/get-ready-for-arin-elections-26/",
     "description": "The 2026 ARIN Elections are approaching, making this a good time to review the process and the participation opportunities available to you and your organization. Here’s a step-by-step guide to help you prepare to cast your vote this fall.",
     "pubDate": "2026-10-01T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Introducing Workers KV Instant — powered by Quicksilver",
-    "link": "https://developers.cloudflare.com/kv/",
-    "description": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
-    "pubDate": "2026-10-01T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Cloudflare OS: your company’s agent workspace, managed for you",
-    "link": "https://os.cloudflare.app/",
-    "description": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
-    "pubDate": "2026-10-01T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Announcing Cloudflare K2: serverless event streams",
-    "link": "https://developers.cloudflare.com/k2/get-started/",
-    "description": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of tr…",
-    "pubDate": "2026-10-01T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "We want you to build the next Git platform on Cloudflare",
-    "link": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
-    "description": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
-    "pubDate": "2026-10-01T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "AI Search is now generally available",
-    "link": "https://developers.cloudflare.com/ai-search/configuration/models/supported-models/#embedding",
-    "description": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new and how pricing works.",
-    "pubDate": "2026-10-01T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Support for modern cryptographic algorithms in Workers",
-    "link": "https://wicg.github.io/webcrypto-modern-algos/",
-    "description": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today.",
-    "pubDate": "2026-10-01T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
-    "link": "https://blog.cloudflare.com/cloudflare-data-platform/",
-    "description": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees.",
-    "pubDate": "2026-10-01T12:58:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "[Podcast] The October 2026 root KSK roll",
@@ -126,14 +150,6 @@
     "pubDate": "2026-09-30T16:34:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
-  },
-  {
-    "title": "Cloudflare Impact reaches $100 million in donations",
-    "link": "https://www.cloudflare.com/athenian/",
-    "description": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public schools are being protected from cyberatt…",
-    "pubDate": "2026-09-30T13:01:55.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Opinion: The economics of AI",
@@ -216,28 +232,12 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Jewelbug Targets the Middle East and Asia via Cyber Espionage and Crypto Fraud Campaigns",
-    "link": "https://circleid.com/posts/jewelbug&#45;targets&#45;the&#45;middle&#45;east&#45;and&#45;asia&#45;via&#45;cyber&#45;espionage&#45;and&#45;crypto&#45;fraud&#45;campaigns",
-    "description": "Researchers linked Jewelbug's cyber espionage and crypto fraud operations to shared infrastructure, while DNS analysis uncovered thousands of connected domains, hundreds of potential victim IP addresses and additional malicious artifacts.",
-    "pubDate": "2026-09-28T17:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Apply now for an APRICOT 2027 Fellowship",
     "link": "https://blog.apnic.net/category/development/",
     "description": "APRICOT is offering a limited number of fellowships in the lead up to APRICOT 2027. Apply now!",
     "pubDate": "2026-09-28T03:47:08.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "How AI Answer Engines Are Quietly Rewriting What Makes a Domain &#8220;Brandable&#8221;",
-    "link": "https://circleid.com/posts/how&#45;ai&#45;answer&#45;engines&#45;are&#45;quietly&#45;rewriting&#45;what&#45;makes&#45;a&#45;domain&#45;brandable",
-    "description": "As AI answer engines become referral channels, domain distinctiveness may matter more than exact-match search intent, challenging traditional valuation models built around keyword demand, traffic and historical sales.",
-    "pubDate": "2026-09-27T14:57:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "APNIC 62 Policy SIG reviews seven policy proposals, with two reaching consensus",
