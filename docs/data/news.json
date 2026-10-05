@@ -1,5 +1,13 @@
 [
   {
+    "title": "8 major updates to Cloudflare Observability",
+    "link": "https://developers.cloudflare.com/observability/",
+    "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+    "pubDate": "2026-10-02T18:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
     "link": "https://www.cloudflare.com/products/stream/",
     "description": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
@@ -28,14 +36,6 @@
     "link": "https://www.cloudflare.com/birthday-week/",
     "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
     "pubDate": "2026-10-02T13:28:10.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "8 major updates to Cloudflare Observability",
-    "link": "https://developers.cloudflare.com/observability/",
-    "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
-    "pubDate": "2026-10-02T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
