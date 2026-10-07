@@ -1,5 +1,61 @@
 [
   {
+    "title": "PeeringDB product update: April to September 2026",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new …",
+    "pubDate": "2026-10-07T03:32:38.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "ICANN Study Links 56% of Malicious Domains to Related Registrations",
+    "link": "https://circleid.com/posts/icann&#45;study&#45;links&#45;56&#45;of&#45;malicious&#45;domains&#45;to&#45;related&#45;registrations",
+    "description": "ICANN researchers identified associated domains for 56.4% of malicious registrations studied, introducing a public-data detection method that could inform DNS abuse investigations and proposed registrar obligations.",
+    "pubDate": "2026-10-07T01:52:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The keys to the Internet change on October 11. Are you ready?",
+    "link": "https://blog.cloudflare.com/its-hard-to-change-the-keys-to-the-internet-and-it-involves-destroying-hsms/",
+    "description": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
+    "pubDate": "2026-10-06T17:50:11.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The Growth of Mobile-Dependent Households",
+    "link": "https://circleid.com/posts/the&#45;growth&#45;of&#45;mobile&#45;dependent&#45;households",
+    "description": "Purdue researcher Roberto Gallardo finds that as US Internet access expanded, millions of households became mobile-dependent, highlighting persistent affordability, device and digital literacy barriers that infrastructure investment alone may not solve.",
+    "pubDate": "2026-10-06T16:18:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Expands Second-Level IDN Rules With Javanese and Canadian Aboriginal Scripts",
+    "link": "https://circleid.com/posts/icann&#45;expands&#45;second&#45;level&#45;idn&#45;rules&#45;with&#45;javanese&#45;and&#45;canadian&#45;aboriginal&#45;scripts",
+    "description": "ICANN added second-level internationalized domain name rules for Javanese and Unified Canadian Aboriginal Syllabics and updated seven existing rules, expanding reference material registries can use to define valid labels and variants.",
+    "pubDate": "2026-10-06T16:10:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Thousands of Languages Remain Underrepresented Online, CODI Finds",
+    "link": "https://circleid.com/posts/thousands&#45;of&#45;languages&#45;remain&#45;underrepresented&#45;online&#45;codi&#45;finds",
+    "description": "CODI's inaugural digital access report finds that Internet connectivity often fails to deliver meaningful participation when users lack local-language content, input tools, search capabilities and services across the digital ecosystem.",
+    "pubDate": "2026-10-06T15:59:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Young Entrepreneurs Are Delaying Domain Adoption, Not Abandoning It",
+    "link": "https://circleid.com/posts/young&#45;entrepreneurs&#45;are&#45;delaying&#45;domain&#45;adoption&#45;not&#45;abandoning&#45;it",
+    "description": "SIDN research suggests young entrepreneurs still value domain names and websites, but increasingly adopt them after building audiences and commercial traction on social platforms, reshaping when registrars and registries should engage future customers.",
+    "pubDate": "2026-10-06T15:16:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Verisign Informed™ Is a New High-Assurance Solution for Validating Trust",
     "link": "https://circleid.com/posts/verisign&#45;informed&#45;is&#45;a&#45;new&#45;high&#45;assurance&#45;solution&#45;for&#45;validating&#45;trust",
     "description": "Earlier today, Verisign announced the launch of Verisign Informed, a new solution -- backed by Verisign's high-assurance infrastructure -- that combats the threat of \"stale trust\" in digital certificates by enabling critical trust decisions to be made using the most current statu…",
@@ -112,14 +168,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-    "link": "https://blog.cloudflare.com/quick-tunnels-anytime-anywhere/",
-    "description": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
-    "pubDate": "2026-10-02T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Is RPKI becoming harmful to BGP stability?",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
@@ -160,22 +208,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "AT&T Chief Challenges Economics of SpaceX&#8217;s Mobile-Network Strategy",
-    "link": "https://circleid.com/posts/att&#45;chief&#45;challenges&#45;economics&#45;of&#45;spacexs&#45;mobile&#45;network&#45;strategy",
-    "description": "AT&T CEO John Stankey questions the economics of SpaceX's expanding mobile strategy as regulatory filings and independent measurements show the spectrum, satellite capacity and terrestrial infrastructure involved in scaling direct-to-device service.",
-    "pubDate": "2026-09-30T16:39:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN Sets October 7 for 2026 New gTLD Reveal Day",
-    "link": "https://circleid.com/posts/icann&#45;sets&#45;october&#45;7&#45;for&#45;2026&#45;new&#45;gtld&#45;reveal&#45;day",
-    "description": "ICANN will publish applicants, proposed strings and initial contention sets for the 2026 new gTLD round on October 7, followed by a replacement-string period and final string confirmation on November 17.",
-    "pubDate": "2026-09-30T16:34:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Opinion: The economics of AI",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "As spending on data centres, power, and computing capacity surges, the question is no longer whether AI delivers value, but who will ultimately pay for it.",
@@ -190,30 +222,6 @@
     "pubDate": "2026-09-30T03:02:50.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "OpenAI Agent Bypasses Internet Restrictions Through DNS",
-    "link": "https://circleid.com/posts/openai&#45;agent&#45;bypasses&#45;internet&#45;restrictions&#45;through&#45;dns",
-    "description": "OpenAI paused tool-enabled work on its most capable models after a research agent bypassed sandbox Internet restrictions by using DNS to communicate with an external chatbot during reinforcement-learning training.",
-    "pubDate": "2026-09-29T15:12:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Economics Behind AI&#8217;s Infrastructure Boom",
-    "link": "https://circleid.com/posts/the&#45;economics&#45;behind&#45;ais&#45;infrastructure&#45;boom",
-    "description": "AI's infrastructure boom is consuming vast amounts of capital, power and computing hardware, raising questions about whether advertising, subscriptions and corporate spending can ultimately support the industry's expanding cost base.",
-    "pubDate": "2026-09-29T14:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "SpaceX Deploys First 26 Starlink V3 Satellites on Starship",
-    "link": "https://circleid.com/posts/spacex&#45;deploys&#45;first&#45;26&#45;starlink&#45;v3&#45;satellites&#45;on&#45;starship",
-    "description": "SpaceX deployed 26 Starlink V3 satellites on Starship’s first orbital mission, beginning a network expansion whose promised capacity gains depend on the spacecraft completing checkout and entering service.",
-    "pubDate": "2026-09-29T14:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Restricting the Acquisition of Additional LIR Accounts",
@@ -302,14 +310,6 @@
     "pubDate": "2026-09-22T10:03:37.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Latest BGP hijack targets hosting software vendor",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: An analysis of the BGP hijack against Softaculous that enabled an attacker to obtain a fraudulent TLS certificate and distribute a malicious Virtualizor update.",
-    "pubDate": "2026-09-22T04:04:24.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "CAPIF 5: Regional Interconnectivity in Central Asia",
