@@ -1,5 +1,93 @@
 [
   {
+    "title": "EC Chair’s update: APNIC 62 and Member Meeting",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The APNIC 62 AMM brought Members and the community together to discuss APNIC's financial sustainability, governance, and future direction.",
+    "pubDate": "2026-10-08T03:17:27.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Big Brands, Bold Moves: The 2026 dotBrand Wave",
+    "link": "https://circleid.com/posts/big&#45;brands&#45;bold&#45;moves&#45;the&#45;2026&#45;dotbrand&#45;wave",
+    "description": "ICANN's 2026 new gTLD round attracted 333 dotBrand applications, representing 20.6% of submissions. Participation across major industries reflects growing interest in controlling branded namespaces and strengthening enterprise digital identity.",
+    "pubDate": "2026-10-08T01:23:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "‘Magnifica Humanitas’ and the human future of Artificial Intelligence",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The ‘Magnifica Humanitas’ explores how technological power affects dignity, justice, and social responsibility, and calls for both regulation and deeper public engagement in shaping the future.",
+    "pubDate": "2026-10-07T22:22:04.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Who Checks the Models? The Case for UN Oversight of Frontier AI",
+    "link": "https://circleid.com/posts/who&#45;checks&#45;the&#45;models&#45;the&#45;case&#45;for&#45;un&#45;oversight&#45;of&#45;frontier&#45;ai",
+    "description": "As AI agents demonstrate increasingly autonomous behavior, Gabriel Accascina proposes a UN-led evaluation system modeled on WHO prequalification, using independent testing and government procurement incentives to strengthen international oversight of frontier AI.",
+    "pubDate": "2026-10-07T21:12:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Trump Organization Seeks .trump Top-Level Domain in ICANN&#8217;s 2026 Application Round",
+    "link": "https://circleid.com/posts/trump&#45;organization&#45;seeks&#45;.trump&#45;top&#45;level&#45;domain&#45;in&#45;icanns&#45;2026&#45;application&#45;round",
+    "description": "A Trump-affiliated company has applied to operate the .trump top-level domain in ICANN's 2026 expansion round, seeking a dedicated Internet namespace for Trump-branded businesses rather than public domain registrations.",
+    "pubDate": "2026-10-07T20:29:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "OpenAI, Meta and Registry Operators Seek New gTLDs as .agent Draws 13 Applications",
+    "link": "https://circleid.com/posts/openai&#45;meta&#45;and&#45;registry&#45;operators&#45;seek&#45;new&#45;gtlds&#45;as&#45;.agent&#45;draws&#45;13&#45;applications",
+    "description": "ICANN's 2026 application records show OpenAI and Meta seeking brand and AI-related extensions, while registry operators file larger portfolios. Thirteen applicants want .agent; the proposed strings still face evaluation and possible changes.",
+    "pubDate": "2026-10-07T20:08:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Reveals 1,615 Active Applications for 2026 New gTLD Round",
+    "link": "https://circleid.com/posts/icann&#45;reveals&#45;1615&#45;active&#45;applications&#45;for&#45;2026&#45;new&#45;gtld&#45;round",
+    "description": "ICANN has disclosed 1,615 active applications from 481 applicants for its 2026 new gTLD round, revealing competing bids, regional participation and an outstanding application still undergoing administrative review.",
+    "pubDate": "2026-10-07T19:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Intel Driver Defect Disrupts IPv6 Connections Across Multiple Laptop Brands",
+    "link": "https://circleid.com/posts/intel_driver_defect_disrupts_ipv6_connections_across_multiple_laptop_brands",
+    "description": "An Intel networking software defect disrupts IPv6 connections to cloud services. Researcher testing identifies a corrected release, while affected driver packages remain listed across multiple laptop manufacturers in Microsoft's Update Catalog.",
+    "pubDate": "2026-10-07T18:50:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "From Verification to Trust: Refreshing the Security Status Quo",
+    "link": "https://circleid.com/posts/from&#45;verification&#45;to&#45;trust&#45;refreshing&#45;the&#45;security&#45;status&#45;quo",
+    "description": "Digital signatures, introduced by Whitfield Diffie and Martin E. Hellman in 1976's \"New Directions in Cryptography,\" have provided the cornerstone of the internet's cybersecurity apparatus for decades. Every moment of every day, behind the scenes of nearly every secure online int…",
+    "pubDate": "2026-10-07T18:00:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+    "link": "https://www.cloudflare.com/managed-defense/",
+    "description": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts…",
+    "pubDate": "2026-10-07T16:30:36.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Get to Know the Draft Policies Up for Discussion at ARIN 58",
+    "link": "https://www.arin.net/blog/2026/10/07/arin-58-policies/",
+    "description": "Prepare for the upcoming meeting with this look at the Draft Policies on the agenda at ARIN 58, taking place 22-23 October in Miami, Florida, and online.",
+    "pubDate": "2026-10-07T13:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "PeeringDB product update: April to September 2026",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new …",
@@ -36,38 +124,6 @@
     "link": "https://circleid.com/posts/icann&#45;expands&#45;second&#45;level&#45;idn&#45;rules&#45;with&#45;javanese&#45;and&#45;canadian&#45;aboriginal&#45;scripts",
     "description": "ICANN added second-level internationalized domain name rules for Javanese and Unified Canadian Aboriginal Syllabics and updated seven existing rules, expanding reference material registries can use to define valid labels and variants.",
     "pubDate": "2026-10-06T16:10:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Thousands of Languages Remain Underrepresented Online, CODI Finds",
-    "link": "https://circleid.com/posts/thousands&#45;of&#45;languages&#45;remain&#45;underrepresented&#45;online&#45;codi&#45;finds",
-    "description": "CODI's inaugural digital access report finds that Internet connectivity often fails to deliver meaningful participation when users lack local-language content, input tools, search capabilities and services across the digital ecosystem.",
-    "pubDate": "2026-10-06T15:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Young Entrepreneurs Are Delaying Domain Adoption, Not Abandoning It",
-    "link": "https://circleid.com/posts/young&#45;entrepreneurs&#45;are&#45;delaying&#45;domain&#45;adoption&#45;not&#45;abandoning&#45;it",
-    "description": "SIDN research suggests young entrepreneurs still value domain names and websites, but increasingly adopt them after building audiences and commercial traction on social platforms, reshaping when registrars and registries should engage future customers.",
-    "pubDate": "2026-10-06T15:16:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Verisign Informed™ Is a New High-Assurance Solution for Validating Trust",
-    "link": "https://circleid.com/posts/verisign&#45;informed&#45;is&#45;a&#45;new&#45;high&#45;assurance&#45;solution&#45;for&#45;validating&#45;trust",
-    "description": "Earlier today, Verisign announced the launch of Verisign Informed, a new solution -- backed by Verisign's high-assurance infrastructure -- that combats the threat of \"stale trust\" in digital certificates by enabling critical trust decisions to be made using the most current statu…",
-    "pubDate": "2026-10-05T15:56:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ams OSRAM Case Study Details Practical Deployment of SPF, DKIM and DMARC",
-    "link": "https://circleid.com/posts/ams&#45;osram&#45;case&#45;study&#45;details&#45;practical&#45;deployment&#45;of&#45;spf&#45;dkim&#45;and&#45;dmarc",
-    "description": "An eco case study details how ams OSRAM approached SPF, DKIM and DMARC deployment to protect corporate domains, improve email deliverability and gain visibility into legitimate and illegitimate sending sources.",
-    "pubDate": "2026-10-05T15:53:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -112,22 +168,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "DNS Spotlight: Silver Fox Strikes Anew with a Fake Installer Campaign",
-    "link": "https://circleid.com/posts/dns&#45;spotlight&#45;silver&#45;fox&#45;strikes&#45;anew&#45;with&#45;a&#45;fake&#45;installer&#45;campaign",
-    "description": "A Silver Fox-style fake installer campaign used deceptive software download sites to distribute malware, while DNS and WHOIS analysis uncovered typosquatting domains, potential victim traffic and more than 1,500 campaign-connected artifacts.",
-    "pubDate": "2026-10-02T15:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "German Study Finds Industrial AI Driving €120 Billion in Revenue",
-    "link": "https://circleid.com/posts/german&#45;study&#45;finds&#45;industrial&#45;ai&#45;driving&#45;120&#45;billion&#45;in&#45;revenue",
-    "description": "German companies are building an industrial AI advantage by combining existing models with proprietary data and engineering expertise, generating more than EUR 120 billion in revenue from AI-enabled products, according to an IW study.",
-    "pubDate": "2026-10-02T15:36:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing Web Search API via AI Gateway",
     "link": "https://www.cloudflare.com/birthday-week/",
     "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
@@ -160,28 +200,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Follow the thread: a new dashboard to investigate account abuse",
-    "link": "https://developers.cloudflare.com/bots/account-abuse-protection/",
-    "description": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
-    "pubDate": "2026-10-02T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Is RPKI becoming harmful to BGP stability?",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
     "pubDate": "2026-10-01T23:18:58.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": ".si Registrations Surge After US Shift to &#8216;Super Intelligence&#8217;",
-    "link": "https://circleid.com/posts/dot&#45;si&#45;domain&#45;registrations&#45;surge&#45;after&#45;us&#45;shift&#45;to&#45;super&#45;intelligence",
-    "description": "Slovenia's .si domain registrations surged after President Donald Trump promoted \"Super Intelligence,\" with September registrations reaching 46,066 as investors sought names matching the new SI abbreviation.",
-    "pubDate": "2026-10-01T16:20:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Get Ready for ARIN Elections",
@@ -264,14 +288,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "IP geolocation at APNIC 62: Challenges, geofeeds, and data quality perspectives",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "At APNIC 62, panellists explored how geofeeds, RIR data, and third-party geolocation providers work together, and why improving accuracy while protecting user privacy is becoming increasingly important.",
-    "pubDate": "2026-09-24T05:06:05.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Meet the 2026 ARIN Community Grant Recipients",
     "link": "https://www.arin.net/blog/2026/09/23/grant-recipients-2026/",
     "description": "We would like to congratulate the organizations receiving funding from the ARIN Community Grant Program this year! Senior Project Manager Amanda Gauldin shares details about their projects.",
@@ -286,14 +302,6 @@
     "pubDate": "2026-09-23T13:13:32.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Understanding ASPA: The next step in routing security",
-    "link": "https://blog.apnic.net/category/development/",
-    "description": "Join this APNIC Academy webinar to understand how ASPAs work, how they complement ROAs, and how you can begin monitoring and deploying them in your network.",
-    "pubDate": "2026-09-23T04:55:18.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "The RIPE Chair Team Reports - September 2026",
@@ -470,13 +478,5 @@
     "pubDate": "2026-07-14T13:24:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Apply Today for the ARIN 58 Fellowship Program",
-    "link": "https://www.arin.net/blog/2026/07/08/arin-58-fellowship-applications/",
-    "description": "The call for applications to our ARIN 58 Fellowship Program is out, and Senior Project Manager Amanda Gauldin shares more about what you can expect in this program, why you should consider applying, and what past Fellows have to say about the experience.",
-    "pubDate": "2026-07-08T09:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
   }
 ]
