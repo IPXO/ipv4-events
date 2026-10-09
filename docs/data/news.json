@@ -1,5 +1,69 @@
 [
   {
+    "title": "Rolling the root key",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "The root key of the DNS is scheduled to roll on 11 October. How many DNSSEC-validating recursive resolvers have learned of KSK-2024 and incorporated it into their TA sets?",
+    "pubDate": "2026-10-09T02:15:56.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "US Seizes Seven Domains Linked to Alleged Chinese Cyber Espionage Operation",
+    "link": "https://circleid.com/posts/us&#45;seizes&#45;seven&#45;domains&#45;linked&#45;to&#45;alleged&#45;chinese&#45;cyber&#45;espionage&#45;operation",
+    "description": "US authorities seized seven domains supporting alleged Chinese cyber espionage tools used against critical infrastructure and other networks across three continents, disrupting scanning and phishing services while leaving questions about their recovery.",
+    "pubDate": "2026-10-08T22:56:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The TLD Fight Is On: 1,615 Applications, and One Question Nobody Is Asking",
+    "link": "https://circleid.com/posts/the&#45;tld&#45;fight&#45;is&#45;on&#45;1615&#45;applications&#45;and&#45;one&#45;question&#45;nobody&#45;is&#45;asking",
+    "description": "ICANN's 2026 new gTLD round attracted 1,615 applications, with competition concentrated on contested extensions. Strong registration growth contrasts with weak renewal rates, raising questions about long-term demand and commercial viability.",
+    "pubDate": "2026-10-08T15:25:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "UK and Germany Agree to Coordinate Cyber Defense Against Infrastructure Sabotage",
+    "link": "https://circleid.com/posts/uk&#45;and&#45;germany&#45;agree&#45;to&#45;coordinate&#45;cyber&#45;defense&#45;against&#45;infrastructure&#45;sabotage",
+    "description": "The UK and Germany have announced a partnership to counter cyberattacks and infrastructure sabotage through intelligence sharing and coordinated responses, but have yet to specify participating agencies, covered sectors or operational mechanisms.",
+    "pubDate": "2026-10-08T14:33:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Hijacks Across Three ccTLDs Linked to 32 Unauthorized HTTPS Certificates",
+    "link": "https://circleid.com/posts/dns&#45;hijacks&#45;across&#45;three&#45;cctlds&#45;linked&#45;to&#45;32&#45;unauthorized&#45;https&#45;certificates",
+    "description": "An examination of certificate transparency logs identified 32 unauthorized HTTPS certificates following DNS hijacks affecting Ghana, Sierra Leone and American Samoa, exposing vulnerabilities in domain validation and the infrastructure supporting trusted web connections.",
+    "pubDate": "2026-10-08T14:16:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "From Apps to Agents: How the 2026 New gTLD Strings Mirror a Changed Internet",
+    "link": "https://circleid.com/posts/from&#45;apps&#45;to&#45;agents&#45;how&#45;the&#45;2026&#45;new&#45;gtld&#45;strings&#45;mirror&#45;a&#45;changed&#45;internet",
+    "description": "ICANN's 2026 new gTLD applications reveal a shift toward AI agents, developer infrastructure and digital trust, with .agent replacing .app as the most contested string amid growing competition and persistent geographic disparities.",
+    "pubDate": "2026-10-08T14:03:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "AI Is Raising the Stakes for Language Inclusion on the Internet",
+    "link": "https://circleid.com/posts/ai&#45;is&#45;raising&#45;the&#45;stakes&#45;for&#45;language&#45;inclusion&#45;on&#45;the&#45;internet",
+    "description": "Research from the Coalition on Digital Impact reveals persistent barriers to online participation in native languages, raising concerns that AI could deepen linguistic inequalities unless language support becomes a foundational requirement of digital infrastructure.",
+    "pubDate": "2026-10-08T13:47:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+    "link": "https://blog.cloudflare.com/introducing-cloudflare-radar/",
+    "description": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while pr…",
+    "pubDate": "2026-10-08T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "EC Chair’s update: APNIC 62 and Member Meeting",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC 62 AMM brought Members and the community together to discuss APNIC's financial sustainability, governance, and future direction.",
@@ -48,30 +112,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "ICANN Reveals 1,615 Active Applications for 2026 New gTLD Round",
-    "link": "https://circleid.com/posts/icann&#45;reveals&#45;1615&#45;active&#45;applications&#45;for&#45;2026&#45;new&#45;gtld&#45;round",
-    "description": "ICANN has disclosed 1,615 active applications from 481 applicants for its 2026 new gTLD round, revealing competing bids, regional participation and an outstanding application still undergoing administrative review.",
-    "pubDate": "2026-10-07T19:38:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Intel Driver Defect Disrupts IPv6 Connections Across Multiple Laptop Brands",
-    "link": "https://circleid.com/posts/intel_driver_defect_disrupts_ipv6_connections_across_multiple_laptop_brands",
-    "description": "An Intel networking software defect disrupts IPv6 connections to cloud services. Researcher testing identifies a corrected release, while affected driver packages remain listed across multiple laptop manufacturers in Microsoft's Update Catalog.",
-    "pubDate": "2026-10-07T18:50:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "From Verification to Trust: Refreshing the Security Status Quo",
-    "link": "https://circleid.com/posts/from&#45;verification&#45;to&#45;trust&#45;refreshing&#45;the&#45;security&#45;status&#45;quo",
-    "description": "Digital signatures, introduced by Whitfield Diffie and Martin E. Hellman in 1976's \"New Directions in Cryptography,\" have provided the cornerstone of the internet's cybersecurity apparatus for decades. Every moment of every day, behind the scenes of nearly every secure online int…",
-    "pubDate": "2026-10-07T18:00:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
     "link": "https://www.cloudflare.com/managed-defense/",
     "description": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts…",
@@ -96,36 +136,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "ICANN Study Links 56% of Malicious Domains to Related Registrations",
-    "link": "https://circleid.com/posts/icann&#45;study&#45;links&#45;56&#45;of&#45;malicious&#45;domains&#45;to&#45;related&#45;registrations",
-    "description": "ICANN researchers identified associated domains for 56.4% of malicious registrations studied, introducing a public-data detection method that could inform DNS abuse investigations and proposed registrar obligations.",
-    "pubDate": "2026-10-07T01:52:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "The keys to the Internet change on October 11. Are you ready?",
     "link": "https://blog.cloudflare.com/its-hard-to-change-the-keys-to-the-internet-and-it-involves-destroying-hsms/",
     "description": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
     "pubDate": "2026-10-06T17:50:11.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "The Growth of Mobile-Dependent Households",
-    "link": "https://circleid.com/posts/the&#45;growth&#45;of&#45;mobile&#45;dependent&#45;households",
-    "description": "Purdue researcher Roberto Gallardo finds that as US Internet access expanded, millions of households became mobile-dependent, highlighting persistent affordability, device and digital literacy barriers that infrastructure investment alone may not solve.",
-    "pubDate": "2026-10-06T16:18:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN Expands Second-Level IDN Rules With Javanese and Canadian Aboriginal Scripts",
-    "link": "https://circleid.com/posts/icann&#45;expands&#45;second&#45;level&#45;idn&#45;rules&#45;with&#45;javanese&#45;and&#45;canadian&#45;aboriginal&#45;scripts",
-    "description": "ICANN added second-level internationalized domain name rules for Javanese and Unified Canadian Aboriginal Syllabics and updated seven existing rules, expanding reference material registries can use to define valid labels and variants.",
-    "pubDate": "2026-10-06T16:10:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "How to Propose and Read Draft Policy at ARIN",
@@ -187,14 +203,6 @@
     "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
     "link": "https://blog.cloudflare.com/enterprise-grade-features-for-all/",
     "description": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
-    "pubDate": "2026-10-02T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-    "link": "https://www.rfc-editor.org/rfc/rfc9458.html",
-    "description": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
     "pubDate": "2026-10-02T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
@@ -276,14 +284,6 @@
     "link": "https://blog.apnic.net/category/development/",
     "description": "APRICOT is offering a limited number of fellowships in the lead up to APRICOT 2027. Apply now!",
     "pubDate": "2026-09-28T03:47:08.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "APNIC 62 Policy SIG reviews seven policy proposals, with two reaching consensus",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "APNIC 62 Policy SIG discussed seven proposals covering IPv4, IPv6, and Internet abuse-related issues.",
-    "pubDate": "2026-09-25T01:48:01.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
