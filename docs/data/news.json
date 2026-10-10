@@ -1,5 +1,53 @@
 [
   {
+    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+    "link": "https://blog.cloudflare.com/clef-decision-models/",
+    "description": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+    "pubDate": "2026-10-09T18:27:34.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Why Brand Protection Must Extend Across Social Media, Marketplaces and Domains",
+    "link": "https://circleid.com/posts/why&#45;brand&#45;protection&#45;must&#45;extend&#45;across&#45;social&#45;media&#45;marketplaces&#45;and&#45;domains",
+    "description": "Brand impersonation across social media, marketplaces and lookalike domains creates interconnected cybersecurity risks. Coordinated monitoring, AI-assisted detection, human validation and enforcement can help organizations identify fraudulent campaigns and protect customers.",
+    "pubDate": "2026-10-09T15:34:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "SpaceX Agrees to Acquire Nationwide 800 MHz Spectrum for Starlink Mobile",
+    "link": "https://circleid.com/posts/spacex&#45;agrees&#45;to&#45;acquire&#45;nationwide&#45;800&#45;mhz&#45;spectrum&#45;for&#45;starlink&#45;mobile",
+    "description": "SpaceX has agreed to acquire nationwide 800 MHz spectrum licenses from Grain Management in a deal reportedly worth $8 billion, potentially expanding Starlink Mobile's ability to integrate satellite and terrestrial connectivity.",
+    "pubDate": "2026-10-09T15:30:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+    "link": "https://developers.cloudflare.com/cf/",
+    "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+    "pubDate": "2026-10-09T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Deno is joining Cloudflare",
+    "link": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+    "description": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
+    "pubDate": "2026-10-09T12:50:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "It’s Cybersecurity Awareness Month: When Did You Last Change Your Password?",
+    "link": "https://www.arin.net/blog/2026/10/09/cybersecurity-awareness-month/",
+    "description": "October is Cybersecurity Awareness Month. ARIN Chief Information Security Officer Christian Johnson shares a quick reminder about the value of taking a few minutes to do some basic account housekeeping every now and then.",
+    "pubDate": "2026-10-09T12:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "Rolling the root key",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "The root key of the DNS is scheduled to roll on 11 October. How many DNSSEC-validating recursive resolvers have learned of KSK-2024 and incorporated it into their TA sets?",
@@ -96,22 +144,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Trump Organization Seeks .trump Top-Level Domain in ICANN&#8217;s 2026 Application Round",
-    "link": "https://circleid.com/posts/trump&#45;organization&#45;seeks&#45;.trump&#45;top&#45;level&#45;domain&#45;in&#45;icanns&#45;2026&#45;application&#45;round",
-    "description": "A Trump-affiliated company has applied to operate the .trump top-level domain in ICANN's 2026 expansion round, seeking a dedicated Internet namespace for Trump-branded businesses rather than public domain registrations.",
-    "pubDate": "2026-10-07T20:29:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "OpenAI, Meta and Registry Operators Seek New gTLDs as .agent Draws 13 Applications",
-    "link": "https://circleid.com/posts/openai&#45;meta&#45;and&#45;registry&#45;operators&#45;seek&#45;new&#45;gtlds&#45;as&#45;.agent&#45;draws&#45;13&#45;applications",
-    "description": "ICANN's 2026 application records show OpenAI and Meta seeking brand and AI-related extensions, while registry operators file larger portfolios. Thirteen applicants want .agent; the proposed strings still face evaluation and possible changes.",
-    "pubDate": "2026-10-07T20:08:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
     "link": "https://www.cloudflare.com/managed-defense/",
     "description": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts…",
@@ -180,30 +212,6 @@
     "link": "https://www.cloudflare.com/products/stream/",
     "description": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
     "pubDate": "2026-10-02T16:13:45.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing Web Search API via AI Gateway",
-    "link": "https://www.cloudflare.com/birthday-week/",
-    "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
-    "pubDate": "2026-10-02T13:28:10.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
-    "link": "https://developers.cloudflare.com/observability/traces/",
-    "description": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
-    "pubDate": "2026-10-02T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-    "link": "https://blog.cloudflare.com/enterprise-grade-features-for-all/",
-    "description": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
-    "pubDate": "2026-10-02T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -462,14 +470,6 @@
     "pubDate": "2026-07-30T11:26:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Don’t Get Your Wires Crossed: Appropriate Use Cases for IPv6-Only vs. IPv6-Mostly",
-    "link": "https://www.arin.net/blog/2026/07/21/ipv6-mostly/",
-    "description": "Terms like IPv6-only and IPv6-mostly are a clear example of how IETF terminology often lacks clarity. IPv6 expert Jordi Palet Martínez, explains why the correct use of these terms requires specifying a scope of application.",
-    "pubDate": "2026-07-21T16:00:35.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
   },
   {
     "title": "IETF Community Survey 2025",
