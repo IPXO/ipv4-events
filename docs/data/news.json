@@ -1,5 +1,21 @@
 [
   {
+    "title": "Resource delegation review update: Q3 2026",
+    "link": "https://blog.apnic.net/category/policy/",
+    "description": "APNIC reported progress on the resource delegation review program at APNIC 62.",
+    "pubDate": "2026-10-12T01:09:39.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more th…",
+    "pubDate": "2026-10-11T23:07:31.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
     "link": "https://blog.cloudflare.com/clef-decision-models/",
     "description": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
@@ -278,22 +294,6 @@
     "pubDate": "2026-09-29T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Thou shall not pass: Gatekeeping outbound TLS connections",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
-    "pubDate": "2026-09-29T00:04:51.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Apply now for an APRICOT 2027 Fellowship",
-    "link": "https://blog.apnic.net/category/development/",
-    "description": "APRICOT is offering a limited number of fellowships in the lead up to APRICOT 2027. Apply now!",
-    "pubDate": "2026-09-28T03:47:08.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Meet the 2026 ARIN Community Grant Recipients",
