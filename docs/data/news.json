@@ -1,5 +1,29 @@
 [
   {
+    "title": "Why So Many .do Domains Lack Functioning Websites: Exploring Strategic Uses of the Dominican Republic&#8217;s ccTLD",
+    "link": "https://circleid.com/posts/why&#45;so&#45;many&#45;do&#45;domains&#45;lack&#45;functioning&#45;websites",
+    "description": "An analysis of 41,140 Dominican Republic .do domains reveals widespread website inactivity and distinctive naming patterns, raising questions about domain speculation, brand protection and the international appeal of the country's Internet namespace.",
+    "pubDate": "2026-10-12T18:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Africa&#8217;s Digital Health Growth Exposes the Need for Stronger Cybersecurity Governance",
+    "link": "https://circleid.com/posts/africas&#45;digital&#45;health&#45;growth&#45;exposes&#45;the&#45;need&#45;for&#45;stronger&#45;cybersecurity&#45;governance",
+    "description": "As African healthcare systems adopt digital technologies, cybersecurity governance becomes essential to patient safety. Evidence from Ghana highlights gaps in institutional accountability, staff awareness and implementation, underscoring the need for stronger oversight and resili…",
+    "pubDate": "2026-10-12T14:53:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Filter, reshape, and redact logs before export with Transformers",
+    "link": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+    "description": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+    "pubDate": "2026-10-12T14:44:59.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Resource delegation review update: Q3 2026",
     "link": "https://blog.apnic.net/category/policy/",
     "description": "APNIC reported progress on the resource delegation review program at APNIC 62.",
@@ -136,28 +160,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Big Brands, Bold Moves: The 2026 dotBrand Wave",
-    "link": "https://circleid.com/posts/big&#45;brands&#45;bold&#45;moves&#45;the&#45;2026&#45;dotbrand&#45;wave",
-    "description": "ICANN's 2026 new gTLD round attracted 333 dotBrand applications, representing 20.6% of submissions. Participation across major industries reflects growing interest in controlling branded namespaces and strengthening enterprise digital identity.",
-    "pubDate": "2026-10-08T01:23:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "‘Magnifica Humanitas’ and the human future of Artificial Intelligence",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The ‘Magnifica Humanitas’ explores how technological power affects dignity, justice, and social responsibility, and calls for both regulation and deeper public engagement in shaping the future.",
     "pubDate": "2026-10-07T22:22:04.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Who Checks the Models? The Case for UN Oversight of Frontier AI",
-    "link": "https://circleid.com/posts/who&#45;checks&#45;the&#45;models&#45;the&#45;case&#45;for&#45;un&#45;oversight&#45;of&#45;frontier&#45;ai",
-    "description": "As AI agents demonstrate increasingly autonomous behavior, Gabriel Accascina proposes a UN-led evaluation system modeled on WHO prequalification, using independent testing and government procurement incentives to strengthen international oversight of frontier AI.",
-    "pubDate": "2026-10-07T21:12:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
@@ -220,14 +228,6 @@
     "link": "https://developers.cloudflare.com/observability/",
     "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
     "pubDate": "2026-10-02T18:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
-    "link": "https://www.cloudflare.com/products/stream/",
-    "description": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
-    "pubDate": "2026-10-02T16:13:45.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
