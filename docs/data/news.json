@@ -1,5 +1,93 @@
 [
   {
+    "title": "The Fight for a String: Understanding ICANN&#8217;s Objection Process in the 2026 New gTLD Application Round",
+    "link": "https://circleid.com/posts/the&#45;fight&#45;for&#45;a&#45;string&#45;understanding&#45;icanns&#45;objection&#45;process&#45;in&#45;the&#45;2026&#45;new&#45;gtld&#45;application&#45;round",
+    "description": "ICANN's 2026 new gTLD objection process presents applicants and rights holders with four distinct mechanisms for challenging proposed strings, each carrying different legal standards, evidentiary requirements and consequences for delegation.",
+    "pubDate": "2026-10-13T17:58:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Canadian Cybersecurity Executive Arrested Amid FBI Investigation Into ShinyHunters",
+    "link": "https://circleid.com/posts/canadian&#45;cybersecurity&#45;executive&#45;arrested&#45;amid&#45;fbi&#45;investigation&#45;into&#45;shinyhunters",
+    "description": "A Canadian ransomware negotiator faces US federal extortion charges amid an FBI investigation into ShinyHunters, following a breach that exposed sensitive employee records through an unpatched third-party system.",
+    "pubDate": "2026-10-13T17:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Board to Review New gTLD Round Milestones, Root Server Governance Ahead of ICANN87",
+    "link": "https://circleid.com/posts/icann&#45;board&#45;to&#45;review&#45;new&#45;gtld&#45;round&#45;milestones&#45;root&#45;server&#45;governance&#45;ahead&#45;of&#45;icann87",
+    "description": "ICANN's Board will review milestones for the 2026 new gTLD round, root server governance reforms and preparations for international Internet governance meetings, with key implementation questions remaining unresolved.",
+    "pubDate": "2026-10-13T17:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Opens Consultation on Security Requirements for DNSSEC DS Automation",
+    "link": "https://circleid.com/posts/icann&#45;opens&#45;consultation&#45;on&#45;security&#45;requirements&#45;for&#45;dnssec&#45;ds&#45;automation",
+    "description": "ICANN has opened a consultation on security requirements for automated DNSSEC Delegation Signer record management, seeking input on safeguards that could enable faster registry approvals while protecting DNSSEC validation and operational stability.",
+    "pubDate": "2026-10-13T17:29:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+    "link": "https://developers.cloudflare.com/kv/",
+    "description": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+    "pubDate": "2026-10-13T16:20:18.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Rewinding the exponential: How we keep hardware usage down",
+    "link": "https://developers.cloudflare.com/changelog/post/2026-09-30-logpush-usage-based-pricing/",
+    "description": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
+    "pubDate": "2026-10-13T15:51:41.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Why OCSP Now? A Fresh Take on Certificate Status Checking",
+    "link": "https://circleid.com/posts/why&#45;ocsp&#45;now&#45;a&#45;fresh&#45;take&#45;on&#45;certificate&#45;status&#45;checking",
+    "description": "Previous Verisign Informed&trade; posts emphasized the importance of high-assurance infrastructure and timely certificate status information, including revocation status, which can change after issuance or expiration and is essential for establishing trust in Internet security.",
+    "pubDate": "2026-10-13T15:23:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Common Beliefs About DNSSEC Put to the Test: An Invitation to Fact-Check Your Assumptions",
+    "link": "https://circleid.com/posts/common&#45;beliefs&#45;about&#45;dnssec&#45;put&#45;to&#45;the&#45;test&#45;an&#45;invitation&#45;to&#45;fact&#45;check&#45;your&#45;assumptions",
+    "description": "With its perception still tinged by decade-old notions, DNSSEC in 2026 bears little resemblance to its troubled early years. Here's what the evidence says about its benefits, cost, and availability today.",
+    "pubDate": "2026-10-13T15:18:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "September 2026 IPv4 Market Report: Large-Block Recovery Narrows Pricing Gaps",
+    "link": "https://circleid.com/posts/september&#45;2026&#45;ipv4&#45;market&#45;report&#45;large&#45;block&#45;recovery&#45;narrows&#45;pricing&#45;gaps",
+    "description": "September IPv4 sales data shows large-block prices approaching the next size category's average, while smaller allocations retain premiums. The uneven recovery calls for current transaction comparisons and careful assessment of available inventory.",
+    "pubDate": "2026-10-13T14:51:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "New Attack Type: ASCII Smuggling-AI Prompt Injection-Phishing Studied",
+    "link": "https://circleid.com/posts/new&#45;attack&#45;type&#45;ascii&#45;smuggling&#45;ai&#45;prompt&#45;injection&#45;phishing&#45;studied",
+    "description": "A phishing campaign used invisible Unicode characters to evade email filters. WhoisXML API analyzed its domain and IP indicators, uncovering 165 connected artifacts, 158 undetected by engines listed on VirusTotal.",
+    "pubDate": "2026-10-13T14:47:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Moving Ideas into Action: The Next Chapter in ARIN Policy Engagement",
+    "link": "https://www.arin.net/blog/2026/10/13/ac-policy-engagement-progress-report/",
+    "description": "The ARIN Advisory Council’s Policy Engagement Working Group shares its progress on implementing the results of the community engagement survey into tangible opportunities to participate in the Policy Development Process.",
+    "pubDate": "2026-10-13T12:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "Why So Many .do Domains Lack Functioning Websites: Exploring Strategic Uses of the Dominican Republic&#8217;s ccTLD",
     "link": "https://circleid.com/posts/why&#45;so&#45;many&#45;do&#45;domains&#45;lack&#45;functioning&#45;websites",
     "description": "An analysis of 41,140 Dominican Republic .do domains reveals widespread website inactivity and distinctive naming patterns, raising questions about domain speculation, brand protection and the international appeal of the country's Internet namespace.",
@@ -48,22 +136,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Why Brand Protection Must Extend Across Social Media, Marketplaces and Domains",
-    "link": "https://circleid.com/posts/why&#45;brand&#45;protection&#45;must&#45;extend&#45;across&#45;social&#45;media&#45;marketplaces&#45;and&#45;domains",
-    "description": "Brand impersonation across social media, marketplaces and lookalike domains creates interconnected cybersecurity risks. Coordinated monitoring, AI-assisted detection, human validation and enforcement can help organizations identify fraudulent campaigns and protect customers.",
-    "pubDate": "2026-10-09T15:34:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "SpaceX Agrees to Acquire Nationwide 800 MHz Spectrum for Starlink Mobile",
-    "link": "https://circleid.com/posts/spacex&#45;agrees&#45;to&#45;acquire&#45;nationwide&#45;800&#45;mhz&#45;spectrum&#45;for&#45;starlink&#45;mobile",
-    "description": "SpaceX has agreed to acquire nationwide 800 MHz spectrum licenses from Grain Management in a deal reportedly worth $8 billion, potentially expanding Starlink Mobile's ability to integrate satellite and terrestrial connectivity.",
-    "pubDate": "2026-10-09T15:30:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
     "link": "https://developers.cloudflare.com/cf/",
     "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
@@ -94,54 +166,6 @@
     "pubDate": "2026-10-09T02:15:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "US Seizes Seven Domains Linked to Alleged Chinese Cyber Espionage Operation",
-    "link": "https://circleid.com/posts/us&#45;seizes&#45;seven&#45;domains&#45;linked&#45;to&#45;alleged&#45;chinese&#45;cyber&#45;espionage&#45;operation",
-    "description": "US authorities seized seven domains supporting alleged Chinese cyber espionage tools used against critical infrastructure and other networks across three continents, disrupting scanning and phishing services while leaving questions about their recovery.",
-    "pubDate": "2026-10-08T22:56:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The TLD Fight Is On: 1,615 Applications, and One Question Nobody Is Asking",
-    "link": "https://circleid.com/posts/the&#45;tld&#45;fight&#45;is&#45;on&#45;1615&#45;applications&#45;and&#45;one&#45;question&#45;nobody&#45;is&#45;asking",
-    "description": "ICANN's 2026 new gTLD round attracted 1,615 applications, with competition concentrated on contested extensions. Strong registration growth contrasts with weak renewal rates, raising questions about long-term demand and commercial viability.",
-    "pubDate": "2026-10-08T15:25:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "UK and Germany Agree to Coordinate Cyber Defense Against Infrastructure Sabotage",
-    "link": "https://circleid.com/posts/uk&#45;and&#45;germany&#45;agree&#45;to&#45;coordinate&#45;cyber&#45;defense&#45;against&#45;infrastructure&#45;sabotage",
-    "description": "The UK and Germany have announced a partnership to counter cyberattacks and infrastructure sabotage through intelligence sharing and coordinated responses, but have yet to specify participating agencies, covered sectors or operational mechanisms.",
-    "pubDate": "2026-10-08T14:33:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "DNS Hijacks Across Three ccTLDs Linked to 32 Unauthorized HTTPS Certificates",
-    "link": "https://circleid.com/posts/dns&#45;hijacks&#45;across&#45;three&#45;cctlds&#45;linked&#45;to&#45;32&#45;unauthorized&#45;https&#45;certificates",
-    "description": "An examination of certificate transparency logs identified 32 unauthorized HTTPS certificates following DNS hijacks affecting Ghana, Sierra Leone and American Samoa, exposing vulnerabilities in domain validation and the infrastructure supporting trusted web connections.",
-    "pubDate": "2026-10-08T14:16:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "From Apps to Agents: How the 2026 New gTLD Strings Mirror a Changed Internet",
-    "link": "https://circleid.com/posts/from&#45;apps&#45;to&#45;agents&#45;how&#45;the&#45;2026&#45;new&#45;gtld&#45;strings&#45;mirror&#45;a&#45;changed&#45;internet",
-    "description": "ICANN's 2026 new gTLD applications reveal a shift toward AI agents, developer infrastructure and digital trust, with .agent replacing .app as the most contested string amid growing competition and persistent geographic disparities.",
-    "pubDate": "2026-10-08T14:03:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "AI Is Raising the Stakes for Language Inclusion on the Internet",
-    "link": "https://circleid.com/posts/ai&#45;is&#45;raising&#45;the&#45;stakes&#45;for&#45;language&#45;inclusion&#45;on&#45;the&#45;internet",
-    "description": "Research from the Coalition on Digital Impact reveals persistent barriers to online participation in native languages, raising concerns that AI could deepen linguistic inequalities unless language support becomes a foundational requirement of digital infrastructure.",
-    "pubDate": "2026-10-08T13:47:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
@@ -212,22 +236,6 @@
     "link": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
     "description": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
     "pubDate": "2026-10-05T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "One year later: the power of 1.1.1.1 interns",
-    "link": "https://www.nytimes.com/2025/08/10/technology/coding-ai-jobs-students.html",
-    "description": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-    "pubDate": "2026-10-05T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "8 major updates to Cloudflare Observability",
-    "link": "https://developers.cloudflare.com/observability/",
-    "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
-    "pubDate": "2026-10-02T18:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -452,14 +460,6 @@
     "link": "https://www.arin.net/blog/2026/08/07/state-ipv6-caribbean-2026/",
     "description": "It's time for our annual update on who’s leading the charge for IPv6 adoption in the Caribbean, featuring new leaders and new lessons emerging from this year’s data.",
     "pubDate": "2026-08-07T13:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "Your Number Resource Record Is a Part of the Internet's Infrastructure — Respect It Like One",
-    "link": "https://www.arin.net/blog/2026/08/05/legacy-whois-stewardship/",
-    "description": "Legacy IPv4 Internet number resource holders: Is your registration data still doing its job? Nearly half of ARIN's legacy networks have no validated Point of Contact. Find out why that matters, and how to fix it in minutes.",
-    "pubDate": "2026-08-05T12:30:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   },
