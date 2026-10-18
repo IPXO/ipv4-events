@@ -1,5 +1,13 @@
 [
   {
+    "title": "ICANN&#8217;s New gTLD Round Draws 16 African Applications, 10 Controlled by a Chinese Business Network",
+    "link": "https://circleid.com/posts/icanns&#45;new&#45;gtld&#45;round&#45;draws&#45;16&#45;african&#45;applications&#45;10&#45;controlled&#45;by&#45;a&#45;chinese&#45;business&#45;network",
+    "description": "A Seychelles company controlled by Lu Heng accounts for 10 of Africa's 16 new gTLD applications, linking ICANN's domain expansion to commercial interests and an ongoing dispute over AFRINIC's governance and IPv4 resources.",
+    "pubDate": "2026-10-17T14:49:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "ICANN Selects PwC to Screen Applicants for 2026 New gTLD Round",
     "link": "https://circleid.com/posts/icann&#45;selects&#45;pwc&#45;to&#45;screen&#45;applicants&#45;for&#45;2026&#45;new&#45;gtld&#45;round",
     "description": "ICANN has appointed PwC to conduct mandatory background screening for the 2026 new gTLD round, raising questions about cross-border applicant data handling and procedures for challenging adverse findings.",
@@ -70,6 +78,14 @@
     "pubDate": "2026-10-15T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
+  },
+  {
+    "title": "The RIPE Chair Team Reports - Looking Forward to RIPE 93",
+    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-looking-forward-to-ripe-93/",
+    "description": "With less than two weeks to go until the RIPE 93 Meeting, preparations are well under way. Here is a preview of the programme, along with some practical reminders for everyone taking part.",
+    "pubDate": "2026-10-15T08:51:32.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
   },
   {
     "title": "[Podcast] The (dismal) economics of AI",
@@ -148,14 +164,6 @@
     "link": "https://circleid.com/posts/canadian&#45;cybersecurity&#45;executive&#45;arrested&#45;amid&#45;fbi&#45;investigation&#45;into&#45;shinyhunters",
     "description": "A Canadian ransomware negotiator faces US federal extortion charges amid an FBI investigation into ShinyHunters, following a breach that exposed sensitive employee records through an unpatched third-party system.",
     "pubDate": "2026-10-13T17:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN Board to Review New gTLD Round Milestones, Root Server Governance Ahead of ICANN87",
-    "link": "https://circleid.com/posts/icann&#45;board&#45;to&#45;review&#45;new&#45;gtld&#45;round&#45;milestones&#45;root&#45;server&#45;governance&#45;ahead&#45;of&#45;icann87",
-    "description": "ICANN's Board will review milestones for the 2026 new gTLD round, root server governance reforms and preparations for international Internet governance meetings, with key implementation questions remaining unresolved.",
-    "pubDate": "2026-10-13T17:38:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -296,6 +304,14 @@
     "sourceIcon": "📋"
   },
   {
+    "title": "Restricting the Acquisition of Additional LIR Accounts",
+    "link": "https://labs.ripe.net/author/Gabor/restricting-the-acquisition-of-additional-lir-accounts/",
+    "description": "The RIPE NCC Executive Board has decided to temporarily restrict members' ability to acquire additional Local Internet Registry (LIR) accounts. Taking effect on Tuesday, 29 September, the restriction also covers requests already in progress. The decision is a first step towards a…",
+    "pubDate": "2026-09-29T13:55:07.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "ARIN Bits: September 2026",
     "link": "https://www.arin.net/blog/2026/09/29/arin-bits-sept-2026/",
     "description": "The days may be shortening as we enter fall at ARIN HQ in Virginia, but we’re not slowing down the steady pace of changes, upgrades, and outreach that cropped up throughout July, August, and September. We’ve gathered the season’s key developments and upcoming opportunities in thi…",
@@ -312,12 +328,52 @@
     "sourceIcon": "🌎"
   },
   {
+    "title": "PeeringDB Update April - September 2026",
+    "link": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
+    "description": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "pubDate": "2026-09-23T13:13:32.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "The RIPE Chair Team Reports - September 2026",
+    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-september-2026/",
+    "description": "With RIPE 93 fast approaching, the RIPE Chair Team shares updates on policy and Working Group activity, the Code of Conduct Team document, and recent events across the Internet community.",
+    "pubDate": "2026-09-22T12:09:07.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Moving to a New Board Structure",
+    "link": "https://labs.ripe.net/author/athina/moving-to-a-new-board-structure/",
+    "description": "A governance structure is strongest when the responsibilities written down on paper match the responsibilities exercised in practice. This proposal to change the RIPE NCC’s governance structure is intended to make sure that they do.",
+    "pubDate": "2026-09-22T10:03:37.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "CAPIF 5: Regional Interconnectivity in Central Asia",
+    "link": "https://labs.ripe.net/author/anastasiya-pak/capif-5-regional-interconnectivity-in-central-asia/",
+    "description": "Central Asia’s Internet looks very different than it did back at CAPIF 1. We trace the rise of direct regional routes, stronger routing security and new connectivity options - along with the gaps that remain.",
+    "pubDate": "2026-09-17T17:29:36.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "IETF email infrastructure transition completed on 11 September",
     "link": "http://www.ietf.org/blog/email-service-transition-2026-09/",
     "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) was completed on 11 September 2026.",
     "pubDate": "2026-09-11T20:38:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
+  },
+  {
+    "title": "The /3 Body Problem",
+    "link": "https://labs.ripe.net/author/remco-van-mook/the-3-body-problem/",
+    "description": "A large chunk of IPv6 is heading for space, and every policy question about it is currently going to be deferred to the RIR communities. This article outlines what those questions look like, and argues why now is the time to start asking them.",
+    "pubDate": "2026-09-10T09:22:46.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
   },
   {
     "title": "Survey to gather input on ISE selection criteria",
@@ -328,12 +384,36 @@
     "sourceIcon": "📋"
   },
   {
+    "title": "The Internet’s New Edge Builders",
+    "link": "https://labs.ripe.net/author/armanobosyan/the-internets-new-edge-builders/",
+    "description": "After building private backbones, content and cloud platforms are now moving closer to users. In doing so, they are taking on delivery roles once associated mainly with independent CDNs.",
+    "pubDate": "2026-09-08T06:55:03.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Closing the IPv6 First-Packet Gap with GRAND",
+    "link": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
+    "description": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "pubDate": "2026-09-04T13:32:29.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Introducing the ARIN 58 Fellows",
     "link": "https://www.arin.net/blog/2026/09/03/arin-58-fellows/",
     "description": "Amanda Gauldin, ARIN Senior Project Manager, shares details about the Fellows, Mentors, and special guests joining us for the ARIN 58 Fellowship Program.",
     "pubDate": "2026-09-03T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
+  },
+  {
+    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
+    "link": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
+    "description": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "pubDate": "2026-09-03T12:03:26.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
   },
   {
     "title": "Spurs boots VMware, cites 85% licensing saving",
@@ -398,85 +478,5 @@
     "pubDate": "2026-07-14T13:24:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Birds of a Feather at IETF 126",
-    "link": "http://www.ietf.org/blog/ietf126-bofs/",
-    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions—and these are often the most interesting place to watch where Internet standards work is headin…",
-    "pubDate": "2026-07-02T15:39:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
-    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
-    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
-    "pubDate": "2026-05-05T11:34:23.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Inside Amazon Web Services' plan to make networking disappear",
-    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
-    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
-    "pubDate": "2026-05-04T15:39:08.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
-    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
-    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
-    "pubDate": "2026-05-04T07:00:11.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
-    "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
-    "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
-    "pubDate": "2026-04-30T18:18:26.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Cloudflare says autocrats, wars and elections caged the internet in Q1",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/cloudflare-autocrats-wars-and-votes-caged-the-net-in-q1/5220583",
-    "description": "Iran went dark twice, AWS got droned, oh and TalkTalk broke something it refuses to talk about",
-    "pubDate": "2026-04-29T17:05:55.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "Wind Telecom Dominican Republic and ZTE join forces to accelerate smart home innovation",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/wind-telecom-and-zte-partner-for-smart-home-innovation/5222949",
-    "description": "Elevating residential connectivity with AI-driven network optimization and secure cloud-based home monitoring solutions",
-    "pubDate": "2026-04-29T10:34:12.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "ZTE and XLSMART officially launch Innovation Center in Jakarta, accelerating 5G-advanced and AI readiness for Indonesia",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/zte-xlsmart-launch-jakarta-ai-5g-a-innovation-center/5225063",
-    "description": "Driving cross-sector digital transformation through collaborative 5G-A research and AI-powered network solutions",
-    "pubDate": "2026-04-29T10:10:29.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "GoDaddy customer claims registrar transferred 27-year-old domain without any security checks",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/non-profits-godaddy-nightmare-and-the-it-chaos-that-ensued/5226239",
-    "description": "32 phone calls, 17 email chains, a 5-day ordeal, and no help during the daddy of all stuffups, claim those affected",
-    "pubDate": "2026-04-29T10:00:09.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
-  },
-  {
-    "title": "When robots join the race: 5G-A powers a new kind of marathon",
-    "link": "https://www.theregister.com/on-prem/2026/04/29/5g-a-powers-a-new-kind-of-marathon/5226158",
-    "description": "Human and humanoid runners share the track as next-gen connectivity underpins real-time AI performance",
-    "pubDate": "2026-04-29T06:08:38.000Z",
-    "source": "The Register",
-    "sourceIcon": "📰"
   }
 ]
