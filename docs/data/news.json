@@ -1,5 +1,21 @@
 [
   {
+    "title": "INNOG 9 at APNIC 62: Building resilient infrastructure for the next Internet",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "INNOG 9, co-located with APNIC 62, offered a distinctly operational perspective, drawing on experiences from India and Bangladesh. Topics ranged from IPv6 deployment and submarine cable infrastructure, to lessons learned from Internet disruptions.",
+    "pubDate": "2026-10-19T05:38:05.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
+    "pubDate": "2026-10-19T04:44:56.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "ICANN&#8217;s New gTLD Round Draws 16 African Applications, 10 Controlled by a Chinese Business Network",
     "link": "https://circleid.com/posts/icanns&#45;new&#45;gtld&#45;round&#45;draws&#45;16&#45;african&#45;applications&#45;10&#45;controlled&#45;by&#45;a&#45;chinese&#45;business&#45;network",
     "description": "A Seychelles company controlled by Lu Heng accounts for 10 of Africa's 16 new gTLD applications, linking ICANN's domain expansion to commercial interests and an ongoing dispute over AFRINIC's governance and IPv4 resources.",
@@ -264,28 +280,12 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "PeeringDB product update: April to September 2026",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new …",
-    "pubDate": "2026-10-07T03:32:38.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "How to Propose and Read Draft Policy at ARIN",
     "link": "https://www.arin.net/blog/2026/10/05/how-to-propose-and-read-draft-policy-at-arin/",
     "description": "Anyone can help shape the policies that govern Internet number resources in the ARIN region. Here’s how to submit a policy proposal, read a Draft Policy page, and make your voice heard at our next Public Policy and Members Meeting.",
     "pubDate": "2026-10-05T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Is RPKI becoming harmful to BGP stability?",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
-    "pubDate": "2026-10-01T23:18:58.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Get Ready for ARIN Elections",
