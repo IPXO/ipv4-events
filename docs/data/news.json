@@ -1,5 +1,85 @@
 [
   {
+    "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more tha…",
+    "pubDate": "2026-10-20T04:36:37.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+    "link": "https://blog.cloudflare.com/ai-code-review/",
+    "description": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
+    "pubDate": "2026-10-19T19:12:53.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "What ICANN&#8217;s Contention Sets Reveal About New gTLD Values",
+    "link": "https://circleid.com/posts/what&#45;icanns&#45;contention&#45;sets&#45;reveal&#45;about&#45;new&#45;gtld&#45;values",
+    "description": "ICANN's Reveal Day list holds 263 contention sets. With private deals banned this round, any set that reaches an ICANN auction will end in a public price. The 2012 auctions show why the number of bidders is a weak guide to that price.",
+    "pubDate": "2026-10-19T18:41:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Registration Opens for the 2026 .US Town Hall Featuring Internet Policy Pioneer Karen Rose",
+    "link": "https://circleid.com/posts/registration&#45;opens&#45;for&#45;the&#45;2026&#45;.us&#45;town&#45;hall&#45;featuring&#45;internet&#45;policy&#45;pioneer&#45;karen&#45;rose",
+    "description": "The 2026 .US Virtual Town Hall will bring together domain industry stakeholders on November 5, featuring Internet governance pioneer Karen Rose and discussions on domain policy, namespace security and community engagement.",
+    "pubDate": "2026-10-19T18:28:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing Clairic, a new System One class of extraction models",
+    "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "description": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
+    "pubDate": "2026-10-19T17:48:26.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "London Ranks Last Among 18 European Capitals for Mobile Download Speeds",
+    "link": "https://circleid.com/posts/london&#45;ranks&#45;last&#45;among&#45;18&#45;european&#45;capitals&#45;for&#45;mobile&#45;download&#45;speeds",
+    "description": "Ookla's latest benchmarking ranks London last among 18 European capitals for mobile download speeds, revealing persistent congestion, worsening latency and infrastructure constraints despite widespread 5G availability.",
+    "pubDate": "2026-10-19T16:56:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN87 in Bali Puts DNS Abuse and New gTLD Implementation in Focus",
+    "link": "https://circleid.com/posts/icann87&#45;in&#45;bali&#45;puts&#45;dns&#45;abuse&#45;and&#45;new&#45;gtld&#45;implementation&#45;in&#45;focus",
+    "description": "ICANN87 in Bali brings DNS abuse mitigation, registrant protections and the next gTLD round into focus as policymakers examine implementation challenges affecting domain registries, registrars and Internet users.",
+    "pubDate": "2026-10-19T16:45:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Spotlight: BigBear 2.0 PhaaS Targets Span 40+ Countries",
+    "link": "https://circleid.com/posts/dns&#45;spotlight&#45;bigbear&#45;2.0&#45;phaas&#45;targets&#45;span&#45;40&#45;countries",
+    "description": "An investigation into the BigBear 2.0 phishing operation examines 38 network indicators of compromise, identifying 81 potential victim IP addresses and more than 1,000 related domains through DNS, WHOIS and threat intelligence analysis.",
+    "pubDate": "2026-10-19T16:27:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+    "description": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+    "pubDate": "2026-10-19T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
+    "link": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
+    "description": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can. This article sheds some light on the practical implementation of RF…",
+    "pubDate": "2026-10-19T08:53:35.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "INNOG 9 at APNIC 62: Building resilient infrastructure for the next Internet",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "INNOG 9, co-located with APNIC 62, offered a distinctly operational perspective, drawing on experiences from India and Bangladesh. Topics ranged from IPv6 deployment and submarine cable infrastructure, to lessons learned from Internet disruptions.",
@@ -120,30 +200,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Unfolding Forensics of a Lawfare Train Wreck: The EU CRA",
-    "link": "https://circleid.com/posts/unfolding&#45;forensics&#45;of&#45;a&#45;lawfare&#45;train&#45;wreck&#45;the&#45;eu&#45;cra",
-    "description": "The EU Cyber Resilience Act faces mounting implementation challenges involving cybersecurity standards, vulnerability reporting, regulatory overlap and fundamental rights. The author argues that its expansive obligations risk undermining the regulation's effectiveness and enforce…",
-    "pubDate": "2026-10-14T19:05:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Submarine Cable Resilience Faces Growing Threats From Aging Fleets and Concentrated Ownership",
-    "link": "https://circleid.com/posts/submarine&#45;cable&#45;resilience&#45;faces&#45;growing&#45;threats&#45;from&#45;aging&#45;fleets&#45;and&#45;concentrated&#45;ownership",
-    "description": "Submarine cables underpin global communications, yet shipping accidents, sabotage risks and aging repair fleets threaten their resilience. Growing private ownership and fragmented international oversight raise difficult questions about infrastructure security, maintenance and acc…",
-    "pubDate": "2026-10-14T16:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Data Centers Can Profitably Clean Up Their Act",
-    "link": "https://circleid.com/posts/data&#45;centers&#45;can&#45;profitably&#45;clean&#45;up&#45;their&#45;act",
-    "description": "As opposition to large data centers grows, developers face mounting pressure to address environmental impacts, infrastructure costs and limited local economic benefits. Greater transparency and community engagement could prove more profitable than secrecy.",
-    "pubDate": "2026-10-14T16:28:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Tips and Tricks for Making the Most of ARIN 58",
     "link": "https://www.arin.net/blog/2026/10/14/arin-58-tips-and-tricks/",
     "description": "ARIN 58 is almost here — and whether you’re joining us in Miami or signing on from your living room, a little preparation goes a long way. Here’s your TL;DR guide to everything you need to know before ARIN 58 kicks off next week on Thursday, 22 October.",
@@ -168,34 +224,10 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The Fight for a String: Understanding ICANN&#8217;s Objection Process in the 2026 New gTLD Application Round",
-    "link": "https://circleid.com/posts/the&#45;fight&#45;for&#45;a&#45;string&#45;understanding&#45;icanns&#45;objection&#45;process&#45;in&#45;the&#45;2026&#45;new&#45;gtld&#45;application&#45;round",
-    "description": "ICANN's 2026 new gTLD objection process presents applicants and rights holders with four distinct mechanisms for challenging proposed strings, each carrying different legal standards, evidentiary requirements and consequences for delegation.",
-    "pubDate": "2026-10-13T17:58:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Canadian Cybersecurity Executive Arrested Amid FBI Investigation Into ShinyHunters",
-    "link": "https://circleid.com/posts/canadian&#45;cybersecurity&#45;executive&#45;arrested&#45;amid&#45;fbi&#45;investigation&#45;into&#45;shinyhunters",
-    "description": "A Canadian ransomware negotiator faces US federal extortion charges amid an FBI investigation into ShinyHunters, following a breach that exposed sensitive employee records through an unpatched third-party system.",
-    "pubDate": "2026-10-13T17:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
     "link": "https://developers.cloudflare.com/kv/",
     "description": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
     "pubDate": "2026-10-13T16:20:18.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Rewinding the exponential: How we keep hardware usage down",
-    "link": "https://developers.cloudflare.com/changelog/post/2026-09-30-logpush-usage-based-pricing/",
-    "description": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
-    "pubDate": "2026-10-13T15:51:41.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -206,14 +238,6 @@
     "pubDate": "2026-10-13T12:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Filter, reshape, and redact logs before export with Transformers",
-    "link": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-    "description": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
-    "pubDate": "2026-10-12T14:44:59.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Resource delegation review update: Q3 2026",
@@ -230,14 +254,6 @@
     "pubDate": "2026-10-11T23:07:31.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-    "link": "https://blog.cloudflare.com/clef-decision-models/",
-    "description": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
-    "pubDate": "2026-10-09T18:27:34.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "It’s Cybersecurity Awareness Month: When Did You Last Change Your Password?",
@@ -260,14 +276,6 @@
     "link": "https://blog.apnic.net/category/community/",
     "description": "The APNIC 62 AMM brought Members and the community together to discuss APNIC's financial sustainability, governance, and future direction.",
     "pubDate": "2026-10-08T03:17:27.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "‘Magnifica Humanitas’ and the human future of Artificial Intelligence",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The ‘Magnifica Humanitas’ explores how technological power affects dignity, justice, and social responsibility, and calls for both regulation and deeper public engagement in shaping the future.",
-    "pubDate": "2026-10-07T22:22:04.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -406,14 +414,6 @@
     "pubDate": "2026-09-03T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
-    "link": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
-    "description": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
-    "pubDate": "2026-09-03T12:03:26.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Spurs boots VMware, cites 85% licensing saving",
