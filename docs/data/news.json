@@ -1,5 +1,61 @@
 [
   {
+    "title": "Rolling the root key: What happened?",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "The DNS root key was rolled on 11 October 2026. Was the key roll a success?",
+    "pubDate": "2026-10-21T01:01:24.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+    "link": "https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/",
+    "description": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
+    "pubDate": "2026-10-20T22:20:16.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The Domain Trust Badge: Making Anti-Abuse Work Visible",
+    "link": "https://circleid.com/posts/the&#45;domain&#45;trust&#45;badge&#45;making&#45;anti&#45;abuse&#45;work&#45;visible",
+    "description": "The Domain Trust Badge pilot introduces a voluntary framework for registries and registrars to demonstrate effective anti-abuse practices through 17 requirements, evidence-based validation and a new metric measuring abuse mitigation performance.",
+    "pubDate": "2026-10-20T17:22:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Pakistan&#8217;s .PK Is Now DNSSEC-Signed, but Only One Domain Validates",
+    "link": "https://circleid.com/posts/pakistans&#45;.pk&#45;is&#45;now&#45;dnssec&#45;signed&#45;but&#45;only&#45;one&#45;domain&#45;validates",
+    "description": "Pakistan's .pk domain has gained DNSSEC protection, but an October 11 scan found just one fully validating domain among 158,561 examined. Another 1,230 signed domains lack the parent-zone records needed to establish trust.",
+    "pubDate": "2026-10-20T15:23:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Access Now Documents Years-Long Internet Shutdowns Across Conflict Regions",
+    "link": "https://circleid.com/posts/access&#45;now&#45;documents&#45;years&#45;long&#45;internet&#45;shutdowns&#45;across&#45;conflict&#45;regions",
+    "description": "Access Now documents prolonged Internet shutdowns in Myanmar, Ethiopia and other conflict-affected regions, highlighting persistent connectivity restrictions, damaged telecommunications infrastructure and the difficulty of determining when meaningful access has been restored.",
+    "pubDate": "2026-10-20T15:10:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Domain Industry&#8217;s Next Growth Phase Is About Value, Not Volume",
+    "link": "https://circleid.com/posts/the&#45;domain&#45;industrys&#45;next&#45;growth&#45;phase&#45;is&#45;about&#45;value&#45;not&#45;volume",
+    "description": "The Global Domain Report 2026 points to a maturing domain market where sustainable growth increasingly depends on adoption, trust and commercial relevance rather than registration volumes alone.",
+    "pubDate": "2026-10-20T14:46:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing tsrs: A port of TypeScript to Rust",
+    "link": "https://building.owner.com/tsrs",
+    "description": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
+    "pubDate": "2026-10-20T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more tha…",
@@ -104,14 +160,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "ICANN Selects PwC to Screen Applicants for 2026 New gTLD Round",
-    "link": "https://circleid.com/posts/icann&#45;selects&#45;pwc&#45;to&#45;screen&#45;applicants&#45;for&#45;2026&#45;new&#45;gtld&#45;round",
-    "description": "ICANN has appointed PwC to conduct mandatory background screening for the 2026 new gTLD round, raising questions about cross-border applicant data handling and procedures for challenging adverse findings.",
-    "pubDate": "2026-10-16T18:31:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Continuous accountability for Verified bots",
     "link": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/#good-behaviors-rooted-in-transparency",
     "description": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
@@ -128,36 +176,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Dutch Police Seize Italian Internet Provider&#8217;s Server at US Request",
-    "link": "https://circleid.com/posts/dutch&#45;police&#45;seize&#45;italian&#45;internet&#45;providers&#45;server&#45;at&#45;us&#45;request",
-    "description": "Dutch police seized a server belonging to Italian Internet provider Autistici/Inventati at US authorities' request, raising questions about cross-border law enforcement, terrorism sanctions and the vulnerability of European Internet infrastructure to American legal measures.",
-    "pubDate": "2026-10-15T17:14:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "A fully programmable secure web gateway",
     "link": "https://blog.cloudflare.com/programmable-sase/",
     "description": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
     "pubDate": "2026-10-15T17:11:12.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Abolish The Public Suffix List",
-    "link": "https://circleid.com/posts/abolish&#45;the&#45;public&#45;suffix&#45;list",
-    "description": "The Public Suffix List has become a critical dependency for web security despite inconsistent implementation, restrictive admission policies and limited maintenance resources. Its replacement would require coordinated standards development and greater domain operator control.",
-    "pubDate": "2026-10-15T16:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The WiFi Dilemma: Why ISPs Get Blamed for Poor In-Home Connectivity",
-    "link": "https://circleid.com/posts/the&#45;wifi&#45;dilemma&#45;why&#45;isps&#45;get&#45;blamed&#45;for&#45;poor&#45;in&#45;home&#45;connectivity",
-    "description": "Poor in-home WiFi significantly increases broadband customer dissatisfaction and churn risk. New survey findings highlight the challenge ISPs face when customers blame providers for connectivity problems beyond their direct control.",
-    "pubDate": "2026-10-15T16:15:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Deploy with Void",
@@ -208,28 +232,12 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
-    "link": "https://www.cloudflare.com/products/hyperdrive/",
-    "description": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
-    "pubDate": "2026-10-14T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Submarine cable resilience",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "The estimated 1.5M kilometres of subsea communications cables underpins our global telecommunication services. This critical infrastructure faces serious challenges in the coming years.",
     "pubDate": "2026-10-14T07:15:54.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
-    "link": "https://developers.cloudflare.com/kv/",
-    "description": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
-    "pubDate": "2026-10-13T16:20:18.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Moving Ideas into Action: The Next Chapter in ARIN Policy Engagement",
@@ -268,14 +276,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "The root key of the DNS is scheduled to roll on 11 October. How many DNSSEC-validating recursive resolvers have learned of KSK-2024 and incorporated it into their TA sets?",
     "pubDate": "2026-10-09T02:15:56.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "EC Chair’s update: APNIC 62 and Member Meeting",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The APNIC 62 AMM brought Members and the community together to discuss APNIC's financial sustainability, governance, and future direction.",
-    "pubDate": "2026-10-08T03:17:27.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
