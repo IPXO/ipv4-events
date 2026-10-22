@@ -1,5 +1,53 @@
 [
   {
+    "title": "Your most pressing questions about ASPA, answered",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Answering some of the most frequently asked questions about ASPA.",
+    "pubDate": "2026-10-22T00:39:37.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Turning IPv6 tunnels into programmable delay lines for pulsing DoS",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: TED shows how permissive tunnel decapsulation and inconsistent IPv6 Extension Header handling can focus low-rate traffic into short, high-rate bursts.",
+    "pubDate": "2026-10-21T23:48:20.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "PHP Releases Emergency Security Patches as Researchers Report Exploit Attempts",
+    "link": "https://circleid.com/posts/php&#45;releases&#45;emergency&#45;security&#45;patches&#45;as&#45;researchers&#45;report&#45;exploit&#45;attempts",
+    "description": "PHP has released emergency patches for two critical vulnerabilities that could enable unauthenticated remote code execution. Security researchers report attempted exploitation, while authorities urge immediate updates across internet-facing hosting environments.",
+    "pubDate": "2026-10-21T17:33:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing full transaction detection for Cloudflare WAF",
+    "link": "http://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+    "description": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
+    "pubDate": "2026-10-21T14:10:42.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Cloudflare deploys protections against php2shell vulnerability",
+    "link": "https://www.php.net/archive/2026.php#2026-10-21-5",
+    "description": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
+    "pubDate": "2026-10-21T13:56:45.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+    "link": "https://blog.cloudflare.com/kitesurf/",
+    "description": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+    "pubDate": "2026-10-21T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Rolling the root key: What happened?",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "The DNS root key was rolled on 11 October 2026. Was the key roll a success?",
@@ -128,14 +176,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
-    "link": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
-    "description": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can. This article sheds some light on the practical implementation of RF…",
-    "pubDate": "2026-10-19T08:53:35.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "INNOG 9 at APNIC 62: Building resilient infrastructure for the next Internet",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "INNOG 9, co-located with APNIC 62, offered a distinctly operational perspective, drawing on experiences from India and Bangladesh. Topics ranged from IPv6 deployment and submarine cable infrastructure, to lessons learned from Internet disruptions.",
@@ -150,14 +190,6 @@
     "pubDate": "2026-10-19T04:44:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "ICANN&#8217;s New gTLD Round Draws 16 African Applications, 10 Controlled by a Chinese Business Network",
-    "link": "https://circleid.com/posts/icanns&#45;new&#45;gtld&#45;round&#45;draws&#45;16&#45;african&#45;applications&#45;10&#45;controlled&#45;by&#45;a&#45;chinese&#45;business&#45;network",
-    "description": "A Seychelles company controlled by Lu Heng accounts for 10 of Africa's 16 new gTLD applications, linking ICANN's domain expansion to commercial interests and an ongoing dispute over AFRINIC's governance and IPv4 resources.",
-    "pubDate": "2026-10-17T14:49:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Continuous accountability for Verified bots",
@@ -184,44 +216,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Deploy with Void",
-    "link": "https://viteplus.dev/",
-    "description": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
-    "pubDate": "2026-10-15T14:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-    "link": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-research-pilot-with-openai/",
-    "description": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
-    "pubDate": "2026-10-15T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "The RIPE Chair Team Reports - Looking Forward to RIPE 93",
-    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-looking-forward-to-ripe-93/",
-    "description": "With less than two weeks to go until the RIPE 93 Meeting, preparations are well under way. Here is a preview of the programme, along with some practical reminders for everyone taking part.",
-    "pubDate": "2026-10-15T08:51:32.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "[Podcast] The (dismal) economics of AI",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "As capital, labour, and energy are redirected towards AI infrastructure, the economic risks and consequences could be felt by investors, communities, and consumers worldwide. Geoff Huston discusses the economics of the AI investment boom.",
     "pubDate": "2026-10-14T23:14:02.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
-    "link": "https://www.cloudflare.com/learning/network-layer/what-is-an-autonomous-system/",
-    "description": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
-    "pubDate": "2026-10-14T20:24:19.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Tips and Tricks for Making the Most of ARIN 58",
@@ -256,28 +256,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more th…",
-    "pubDate": "2026-10-11T23:07:31.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "It’s Cybersecurity Awareness Month: When Did You Last Change Your Password?",
     "link": "https://www.arin.net/blog/2026/10/09/cybersecurity-awareness-month/",
     "description": "October is Cybersecurity Awareness Month. ARIN Chief Information Security Officer Christian Johnson shares a quick reminder about the value of taking a few minutes to do some basic account housekeeping every now and then.",
     "pubDate": "2026-10-09T12:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Rolling the root key",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "The root key of the DNS is scheduled to roll on 11 October. How many DNSSEC-validating recursive resolvers have learned of KSK-2024 and incorporated it into their TA sets?",
-    "pubDate": "2026-10-09T02:15:56.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Get to Know the Draft Policies Up for Discussion at ARIN 58",
@@ -312,14 +296,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Restricting the Acquisition of Additional LIR Accounts",
-    "link": "https://labs.ripe.net/author/Gabor/restricting-the-acquisition-of-additional-lir-accounts/",
-    "description": "The RIPE NCC Executive Board has decided to temporarily restrict members' ability to acquire additional Local Internet Registry (LIR) accounts. Taking effect on Tuesday, 29 September, the restriction also covers requests already in progress. The decision is a first step towards a…",
-    "pubDate": "2026-09-29T13:55:07.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "ARIN Bits: September 2026",
     "link": "https://www.arin.net/blog/2026/09/29/arin-bits-sept-2026/",
     "description": "The days may be shortening as we enter fall at ARIN HQ in Virginia, but we’re not slowing down the steady pace of changes, upgrades, and outreach that cropped up throughout July, August, and September. We’ve gathered the season’s key developments and upcoming opportunities in thi…",
@@ -336,38 +312,6 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "PeeringDB Update April - September 2026",
-    "link": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
-    "description": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
-    "pubDate": "2026-09-23T13:13:32.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "The RIPE Chair Team Reports - September 2026",
-    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-september-2026/",
-    "description": "With RIPE 93 fast approaching, the RIPE Chair Team shares updates on policy and Working Group activity, the Code of Conduct Team document, and recent events across the Internet community.",
-    "pubDate": "2026-09-22T12:09:07.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Moving to a New Board Structure",
-    "link": "https://labs.ripe.net/author/athina/moving-to-a-new-board-structure/",
-    "description": "A governance structure is strongest when the responsibilities written down on paper match the responsibilities exercised in practice. This proposal to change the RIPE NCC’s governance structure is intended to make sure that they do.",
-    "pubDate": "2026-09-22T10:03:37.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "CAPIF 5: Regional Interconnectivity in Central Asia",
-    "link": "https://labs.ripe.net/author/anastasiya-pak/capif-5-regional-interconnectivity-in-central-asia/",
-    "description": "Central Asia’s Internet looks very different than it did back at CAPIF 1. We trace the rise of direct regional routes, stronger routing security and new connectivity options - along with the gaps that remain.",
-    "pubDate": "2026-09-17T17:29:36.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "IETF email infrastructure transition completed on 11 September",
     "link": "http://www.ietf.org/blog/email-service-transition-2026-09/",
     "description": "A transition to a new modern, modular, and containerized infrastructure for email services provided for ietf.org, iab.org, irtf.org, rfc-editor.org (including email lists) was completed on 11 September 2026.",
@@ -376,36 +320,12 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "The /3 Body Problem",
-    "link": "https://labs.ripe.net/author/remco-van-mook/the-3-body-problem/",
-    "description": "A large chunk of IPv6 is heading for space, and every policy question about it is currently going to be deferred to the RIR communities. This article outlines what those questions look like, and argues why now is the time to start asking them.",
-    "pubDate": "2026-09-10T09:22:46.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Survey to gather input on ISE selection criteria",
     "link": "http://www.ietf.org/blog/survey-to-gather-input-on-ise-selection-criteria/",
     "description": "The Independent Series Editor (ISE) selection criteria survey is live and we welcome your input on the capabilities and expectations the IAB should consider when selecting a future ISE. Please respond by 11 October 2026.",
     "pubDate": "2026-09-10T09:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "The Internet’s New Edge Builders",
-    "link": "https://labs.ripe.net/author/armanobosyan/the-internets-new-edge-builders/",
-    "description": "After building private backbones, content and cloud platforms are now moving closer to users. In doing so, they are taking on delivery roles once associated mainly with independent CDNs.",
-    "pubDate": "2026-09-08T06:55:03.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Closing the IPv6 First-Packet Gap with GRAND",
-    "link": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
-    "description": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
-    "pubDate": "2026-09-04T13:32:29.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "Introducing the ARIN 58 Fellows",
@@ -478,5 +398,85 @@
     "pubDate": "2026-07-14T13:24:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
+  },
+  {
+    "title": "Birds of a Feather at IETF 126",
+    "link": "http://www.ietf.org/blog/ietf126-bofs/",
+    "description": "The IETF 126 Vienna meeting takes place 18–24 July 2026. As at every IETF meeting, alongside the established Working Groups there will be a handful of Birds-of-a-Feather (BoF) sessions—and these are often the most interesting place to watch where Internet standards work is headin…",
+    "pubDate": "2026-07-02T15:39:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Vodafone dials up full control of joint venture with Three in £4.3B deal",
+    "link": "https://www.theregister.com/on-prem/2026/05/05/vodafone-dials-up-full-control-of-vodafonethree/5221972",
+    "description": "CK Hutchison takes early cash as UK mobile tie-up moves ahead of schedule",
+    "pubDate": "2026-05-05T11:34:23.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Inside Amazon Web Services' plan to make networking disappear",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/aws-networking-lab-tour-making-networking-disappear/5228826",
+    "description": "The Register gets a look inside AWS' networking lab in Cupertino",
+    "pubDate": "2026-05-04T15:39:08.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
+    "link": "https://www.theregister.com/on-prem/2026/05/04/techie-botched-the-last-thing-they-did-before-a-holiday/5227342",
+    "description": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble",
+    "pubDate": "2026-05-04T07:00:11.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Bandwidth hogs rejoice, Celestica's latest switch is bristling with 64 ports of 1.6 Tbps Ethernet",
+    "link": "https://www.theregister.com/on-prem/2026/04/30/celestica-crams-64-16-tbps-ports-into-a-single-switch/5229339",
+    "description": "Networking kit arrives just in time for Nvidia's 1.6 Tbps ConnectX-9 NICs",
+    "pubDate": "2026-04-30T18:18:26.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Cloudflare says autocrats, wars and elections caged the internet in Q1",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/cloudflare-autocrats-wars-and-votes-caged-the-net-in-q1/5220583",
+    "description": "Iran went dark twice, AWS got droned, oh and TalkTalk broke something it refuses to talk about",
+    "pubDate": "2026-04-29T17:05:55.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "Wind Telecom Dominican Republic and ZTE join forces to accelerate smart home innovation",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/wind-telecom-and-zte-partner-for-smart-home-innovation/5222949",
+    "description": "Elevating residential connectivity with AI-driven network optimization and secure cloud-based home monitoring solutions",
+    "pubDate": "2026-04-29T10:34:12.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "ZTE and XLSMART officially launch Innovation Center in Jakarta, accelerating 5G-advanced and AI readiness for Indonesia",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/zte-xlsmart-launch-jakarta-ai-5g-a-innovation-center/5225063",
+    "description": "Driving cross-sector digital transformation through collaborative 5G-A research and AI-powered network solutions",
+    "pubDate": "2026-04-29T10:10:29.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "GoDaddy customer claims registrar transferred 27-year-old domain without any security checks",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/non-profits-godaddy-nightmare-and-the-it-chaos-that-ensued/5226239",
+    "description": "32 phone calls, 17 email chains, a 5-day ordeal, and no help during the daddy of all stuffups, claim those affected",
+    "pubDate": "2026-04-29T10:00:09.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
+  },
+  {
+    "title": "When robots join the race: 5G-A powers a new kind of marathon",
+    "link": "https://www.theregister.com/on-prem/2026/04/29/5g-a-powers-a-new-kind-of-marathon/5226158",
+    "description": "Human and humanoid runners share the track as next-gen connectivity underpins real-time AI performance",
+    "pubDate": "2026-04-29T06:08:38.000Z",
+    "source": "The Register",
+    "sourceIcon": "📰"
   }
 ]
