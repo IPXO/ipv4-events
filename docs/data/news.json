@@ -1,5 +1,85 @@
 [
   {
+    "title": "Origin Range Requests: Serving large files without range-request tuning",
+    "link": "https://developers.cloudflare.com/cache/how-to/tiered-cache/",
+    "description": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+    "pubDate": "2026-10-23T18:22:59.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Bringing post-quantum cryptography to geographically fenced key management",
+    "link": "https://blog.cloudflare.com/post-quantum-roadmap/",
+    "description": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+    "pubDate": "2026-10-23T18:06:56.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Third-Level .name Registrations and Email Forwarding to Be Discontinued in 2027",
+    "link": "https://circleid.com/posts/third&#45;level&#45;.name&#45;registrations&#45;and&#45;email&#45;forwarding&#45;to&#45;be&#45;discontinued",
+    "description": "Verisign plans to discontinue third-level .name registrations and email forwarding in February 2027, prompting objections from longtime users concerned about losing established addresses, disrupting online accounts and potential security risks.",
+    "pubDate": "2026-10-23T16:08:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Testing the Classifier: What a Blind Comparison Revealed About Domain Namespaces",
+    "link": "https://circleid.com/posts/testing&#45;the&#45;classifier&#45;what&#45;a&#45;blind&#45;comparison&#45;revealed&#45;about&#45;domain&#45;namespaces",
+    "description": "A blind comparison of domain classification results found strong agreement for investor-pattern names but lower recall for operator-aligned names, raising questions about earlier namespace composition estimates and the limits of structural classification.",
+    "pubDate": "2026-10-23T15:59:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Technology Advances That Could Transform the Broadband Industry",
+    "link": "https://circleid.com/posts/technology&#45;advances&#45;that&#45;could&#45;transform&#45;the&#45;broadband&#45;industry",
+    "description": "Research breakthroughs that highlight advances in semiconductor design, record-setting fiber transmission, light-based quantum computing and WiFi sensing, with potential implications for network performance, energy efficiency and privacy.",
+    "pubDate": "2026-10-23T15:41:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "UK Proposes Tougher Undersea Cable Security Laws and Emergency Intervention Powers",
+    "link": "https://circleid.com/posts/uk&#45;proposes&#45;tougher&#45;undersea&#45;cable&#45;security&#45;laws&#45;and&#45;emergency&#45;intervention&#45;powers",
+    "description": "The UK proposes stronger security obligations for undersea cable operators, tougher penalties for infrastructure damage and emergency intervention powers, raising questions about compliance costs, repair readiness and the resilience of international Internet connectivity.",
+    "pubDate": "2026-10-23T15:06:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Board Approves IDN Country-Code Domain Policy, Rejects Risk-Appraisal Provisions",
+    "link": "https://circleid.com/posts/icann&#45;board&#45;approves&#45;idn&#45;country&#45;code&#45;domain&#45;policy&#45;rejects&#45;risk&#45;appraisal&#45;provisions",
+    "description": "ICANN has approved most of its new internationalized country-code domain policy, rejecting provisions for additional risk assessments of confusingly similar strings. Implementation and bylaw amendments remain pending.",
+    "pubDate": "2026-10-23T15:01:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNIB Reports 411.6 Million Domain Name Registrations in Q3 2026",
+    "link": "https://circleid.com/posts/dnib&#45;reports&#45;411.6&#45;million&#45;domain&#45;name&#45;registrations&#45;in&#45;q3&#45;2026",
+    "description": "The third quarter of 2026 closed with 411.6 million domain name registrations across all top-level domains (TLDs), an increase of 33.0 million domain name registrations compared to the third quarter of 2025, according to the latest issue of the Domain Name Industry Brief Quarterl…",
+    "pubDate": "2026-10-23T14:46:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ARIN 58 Day 2 Recap",
+    "link": "https://www.arin.net/blog/2026/10/23/arin-58-day-2-recap/",
+    "description": "Today was the second and final day of our ARIN 58 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
+    "pubDate": "2026-10-23T12:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
+    "title": "CAPIF 5 Meeting Report: More Local Routes, Stronger Regional Connections",
+    "link": "https://labs.ripe.net/author/anastasiya-pak/capif-5-meeting-report-more-local-routes-stronger-regional-connections/",
+    "description": "More local peering, stronger routing security and a shared ambition to improve connectivity: CAPIF 5 brought Central Asia’s Internet community to Dushanbe to compare progress, discuss persistent challenges and learn from the people building the region’s networks.",
+    "pubDate": "2026-10-23T07:40:00.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "ARIN 58 Day 1 Recap",
     "link": "https://www.arin.net/blog/2026/10/22/arin-58-day-1-recap/",
     "description": "From Miami, Florida, ARIN 58 is underway! We were thrilled to open the doors to the meeting, and we thank everyone who was able to join us virtually.",
@@ -49,7 +129,7 @@
   },
   {
     "title": "Cloudflare deploys protections against php2shell vulnerability",
-    "link": "https://www.php.net/archive/2026.php#2026-10-21-5",
+    "link": "https://www.php.net/archive/2026.php#2026-10-23-1",
     "description": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
     "pubDate": "2026-10-21T13:56:45.000Z",
     "source": "Cloudflare",
@@ -120,14 +200,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "The Domain Industry&#8217;s Next Growth Phase Is About Value, Not Volume",
-    "link": "https://circleid.com/posts/the&#45;domain&#45;industrys&#45;next&#45;growth&#45;phase&#45;is&#45;about&#45;value&#45;not&#45;volume",
-    "description": "The Global Domain Report 2026 points to a maturing domain market where sustainable growth increasingly depends on adoption, trust and commercial relevance rather than registration volumes alone.",
-    "pubDate": "2026-10-20T14:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing tsrs: A port of TypeScript to Rust",
     "link": "https://building.owner.com/tsrs",
     "description": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
@@ -152,58 +224,10 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "What ICANN&#8217;s Contention Sets Reveal About New gTLD Values",
-    "link": "https://circleid.com/posts/what&#45;icanns&#45;contention&#45;sets&#45;reveal&#45;about&#45;new&#45;gtld&#45;values",
-    "description": "ICANN's Reveal Day list holds 263 contention sets. With private deals banned this round, any set that reaches an ICANN auction will end in a public price. The 2012 auctions show why the number of bidders is a weak guide to that price.",
-    "pubDate": "2026-10-19T18:41:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Registration Opens for the 2026 .US Town Hall Featuring Internet Policy Pioneer Karen Rose",
-    "link": "https://circleid.com/posts/registration&#45;opens&#45;for&#45;the&#45;2026&#45;.us&#45;town&#45;hall&#45;featuring&#45;internet&#45;policy&#45;pioneer&#45;karen&#45;rose",
-    "description": "The 2026 .US Virtual Town Hall will bring together domain industry stakeholders on November 5, featuring Internet governance pioneer Karen Rose and discussions on domain policy, namespace security and community engagement.",
-    "pubDate": "2026-10-19T18:28:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing Clairic, a new System One class of extraction models",
     "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
     "description": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
     "pubDate": "2026-10-19T17:48:26.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "London Ranks Last Among 18 European Capitals for Mobile Download Speeds",
-    "link": "https://circleid.com/posts/london&#45;ranks&#45;last&#45;among&#45;18&#45;european&#45;capitals&#45;for&#45;mobile&#45;download&#45;speeds",
-    "description": "Ookla's latest benchmarking ranks London last among 18 European capitals for mobile download speeds, revealing persistent congestion, worsening latency and infrastructure constraints despite widespread 5G availability.",
-    "pubDate": "2026-10-19T16:56:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN87 in Bali Puts DNS Abuse and New gTLD Implementation in Focus",
-    "link": "https://circleid.com/posts/icann87&#45;in&#45;bali&#45;puts&#45;dns&#45;abuse&#45;and&#45;new&#45;gtld&#45;implementation&#45;in&#45;focus",
-    "description": "ICANN87 in Bali brings DNS abuse mitigation, registrant protections and the next gTLD round into focus as policymakers examine implementation challenges affecting domain registries, registrars and Internet users.",
-    "pubDate": "2026-10-19T16:45:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "DNS Spotlight: BigBear 2.0 PhaaS Targets Span 40+ Countries",
-    "link": "https://circleid.com/posts/dns&#45;spotlight&#45;bigbear&#45;2.0&#45;phaas&#45;targets&#45;span&#45;40&#45;countries",
-    "description": "An investigation into the BigBear 2.0 phishing operation examines 38 network indicators of compromise, identifying 81 potential victim IP addresses and more than 1,000 related domains through DNS, WHOIS and threat intelligence analysis.",
-    "pubDate": "2026-10-19T16:27:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
-    "description": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
-    "pubDate": "2026-10-19T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -230,14 +254,6 @@
     "pubDate": "2026-10-19T04:44:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Continuous accountability for Verified bots",
-    "link": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/#good-behaviors-rooted-in-transparency",
-    "description": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
-    "pubDate": "2026-10-16T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Timor-Leste’s Internet ecosystem enters a new phase of development",
@@ -400,28 +416,12 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "The /3 Body Problem",
-    "link": "https://labs.ripe.net/author/remco-van-mook/the-3-body-problem/",
-    "description": "A large chunk of IPv6 is heading for space, and every policy question about it is currently going to be deferred to the RIR communities. This article outlines what those questions look like, and argues why now is the time to start asking them.",
-    "pubDate": "2026-09-10T09:22:46.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Survey to gather input on ISE selection criteria",
     "link": "http://www.ietf.org/blog/survey-to-gather-input-on-ise-selection-criteria/",
     "description": "The Independent Series Editor (ISE) selection criteria survey is live and we welcome your input on the capabilities and expectations the IAB should consider when selecting a future ISE. Please respond by 11 October 2026.",
     "pubDate": "2026-09-10T09:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Introducing the ARIN 58 Fellows",
-    "link": "https://www.arin.net/blog/2026/09/03/arin-58-fellows/",
-    "description": "Amanda Gauldin, ARIN Senior Project Manager, shares details about the Fellows, Mentors, and special guests joining us for the ARIN 58 Fellowship Program.",
-    "pubDate": "2026-09-03T13:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
   },
   {
     "title": "Spurs boots VMware, cites 85% licensing saving",
