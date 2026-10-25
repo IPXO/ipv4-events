@@ -1,5 +1,29 @@
 [
   {
+    "title": "ICANN Names Three Independent Objectors to Review 2026 New gTLD Applications",
+    "link": "https://circleid.com/posts/icann&#45;names&#45;three&#45;independent&#45;objectors&#45;to&#45;review&#45;2026&#45;new&#45;gtld&#45;applications",
+    "description": "ICANN has appointed three independent objectors for the 2026 new-gTLD round, establishing a mechanism to challenge applications on public-interest and community grounds, with safeguards against institutional interference.",
+    "pubDate": "2026-10-24T17:02:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "CaribNOG SHIELD Aims to Build Caribbean Cybersecurity Capacity Through Local Training",
+    "link": "https://circleid.com/posts/caribnog&#45;shield&#45;aims&#45;to&#45;build&#45;caribbean&#45;cybersecurity&#45;capacity&#45;through&#45;local&#45;training",
+    "description": "CaribNOG's new SHIELD initiative aims to strengthen Caribbean Internet security through technical internships, routing security training and regional collaboration, with St Kitts and Nevis planning to introduce the programme in 2027.",
+    "pubDate": "2026-10-24T16:52:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "RIPE NCC Freezes Internet Number Resources Under EU Sanctions, but Routing Remains Unaffected",
+    "link": "https://circleid.com/posts/ripe&#45;ncc&#45;freezes&#45;internet&#45;number&#45;resources&#45;under&#45;eu&#45;sanctions&#45;but&#45;routing&#45;remains&#45;unaffected",
+    "description": "RIPE NCC has frozen Internet number resources linked to 28 newly sanctioned entities under EU rules. The restrictions block resource transfers and new allocations but do not automatically interrupt network routing or connectivity.",
+    "pubDate": "2026-10-24T16:45:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Origin Range Requests: Serving large files without range-request tuning",
     "link": "https://developers.cloudflare.com/cache/how-to/tiered-cache/",
     "description": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
@@ -174,30 +198,6 @@
     "pubDate": "2026-10-20T22:20:16.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "The Domain Trust Badge: Making Anti-Abuse Work Visible",
-    "link": "https://circleid.com/posts/the&#45;domain&#45;trust&#45;badge&#45;making&#45;anti&#45;abuse&#45;work&#45;visible",
-    "description": "The Domain Trust Badge pilot introduces a voluntary framework for registries and registrars to demonstrate effective anti-abuse practices through 17 requirements, evidence-based validation and a new metric measuring abuse mitigation performance.",
-    "pubDate": "2026-10-20T17:22:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Pakistan&#8217;s .PK Is Now DNSSEC-Signed, but Only One Domain Validates",
-    "link": "https://circleid.com/posts/pakistans&#45;.pk&#45;is&#45;now&#45;dnssec&#45;signed&#45;but&#45;only&#45;one&#45;domain&#45;validates",
-    "description": "Pakistan's .pk domain has gained DNSSEC protection, but an October 11 scan found just one fully validating domain among 158,561 examined. Another 1,230 signed domains lack the parent-zone records needed to establish trust.",
-    "pubDate": "2026-10-20T15:23:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Access Now Documents Years-Long Internet Shutdowns Across Conflict Regions",
-    "link": "https://circleid.com/posts/access&#45;now&#45;documents&#45;years&#45;long&#45;internet&#45;shutdowns&#45;across&#45;conflict&#45;regions",
-    "description": "Access Now documents prolonged Internet shutdowns in Myanmar, Ethiopia and other conflict-affected regions, highlighting persistent connectivity restrictions, damaged telecommunications infrastructure and the difficulty of determining when meaningful access has been restored.",
-    "pubDate": "2026-10-20T15:10:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Introducing tsrs: A port of TypeScript to Rust",
