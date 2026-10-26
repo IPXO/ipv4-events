@@ -1,5 +1,13 @@
 [
   {
+    "title": "One week on the APNIC honeynet: 99,000 IP addresses and 173 million events",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Nearly 99,000 unique IP addresses interacted with APNIC's honeynet in just one week, generating 173 million events across SSH, Telnet, SMB, VPN, web, and Android services. The results show that long-known botnets, weak credentials, and unpatched vulnerabilities continue to drive …",
+    "pubDate": "2026-10-26T04:15:47.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "ICANN Names Three Independent Objectors to Review 2026 New gTLD Applications",
     "link": "https://circleid.com/posts/icann&#45;names&#45;three&#45;independent&#45;objectors&#45;to&#45;review&#45;2026&#45;new&#45;gtld&#45;applications",
     "description": "ICANN has appointed three independent objectors for the 2026 new-gTLD round, establishing a mechanism to challenge applications on public-interest and community grounds, with safeguards against institutional interference.",
@@ -302,14 +310,6 @@
     "pubDate": "2026-10-13T12:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Resource delegation review update: Q3 2026",
-    "link": "https://blog.apnic.net/category/policy/",
-    "description": "APNIC reported progress on the resource delegation review program at APNIC 62.",
-    "pubDate": "2026-10-12T01:09:39.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "It’s Cybersecurity Awareness Month: When Did You Last Change Your Password?",
