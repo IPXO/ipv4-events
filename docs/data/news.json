@@ -1,5 +1,61 @@
 [
   {
+    "title": "APRICOT 2027 Call for Presentations is open now",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "If you have interesting Internet operations research or experience to share, submit a presentation for APRICOT 2027. Submissions close on 25 January 2027.",
+    "pubDate": "2026-10-27T03:50:28.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
+    "link": "https://blog.apnic.net/category/development/",
+    "description": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
+    "pubDate": "2026-10-27T01:27:49.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Low IDN Applications Raise Concerns for ICANN’s 2026 New gTLD Round",
+    "link": "https://circleid.com/posts/low&#45;idn&#45;applications&#45;raise&#45;concerns&#45;for&#45;icanns&#45;2026&#45;new&#45;gtld&#45;round",
+    "description": "Only 21 internationalized domain name applications were submitted in ICANN's 2026 new gTLD round, raising government concerns about linguistic diversity and the accessibility of the domain expansion program.",
+    "pubDate": "2026-10-27T01:00:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+    "link": "http://z.ai",
+    "description": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+    "pubDate": "2026-10-26T22:01:23.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "France Proposes One-Hour Social Media Removal Rule After Secret DNS-Blocking Plans",
+    "link": "https://circleid.com/posts/france&#45;proposes&#45;one&#45;hour&#45;social&#45;media&#45;removal&#45;rule&#45;after&#45;secret&#45;dns&#45;blocking&#45;plans",
+    "description": "France has proposed legislation allowing authorities to block social media platforms over prohibited content, following revelations that telecom operators were asked to prepare geographically targeted DNS restrictions during protests.",
+    "pubDate": "2026-10-26T21:19:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "RIPE 93 Daily Meeting Blog",
+    "link": "https://labs.ripe.net/author/ripe-ncc-commsies/ripe-93-daily-meeting-blog/",
+    "description": "RIPE 93 has kicked off in wonderful ancient Sofia. As always, you can view the slides, you can watch the recordings, but if you want to get to the bottom of what's really going on, read this daily meeting blog!",
+    "pubDate": "2026-10-26T20:51:23.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "The Phishing Domain You Missed Shares a Nameserver With the One You Caught",
+    "link": "https://circleid.com/posts/the&#45;phishing&#45;domain&#45;you&#45;missed&#45;shares&#45;a&#45;nameserver&#45;with&#45;the&#45;one&#45;you&#45;caught",
+    "description": "Nameserver-based searches can uncover related domains that conventional phishing monitoring misses. An investigation of shared DNS infrastructure reveals how registration patterns, nameserver pairs and timely zone data can help identify suspicious domain clusters.",
+    "pubDate": "2026-10-26T17:32:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "One week on the APNIC honeynet: 99,000 IP addresses and 173 million events",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Nearly 99,000 unique IP addresses interacted with APNIC's honeynet in just one week, generating 173 million events across SSH, Telnet, SMB, VPN, web, and Android services. The results show that long-known botnets, weak credentials, and unpatched vulnerabilities continue to drive …",
@@ -80,22 +136,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "ICANN Board Approves IDN Country-Code Domain Policy, Rejects Risk-Appraisal Provisions",
-    "link": "https://circleid.com/posts/icann&#45;board&#45;approves&#45;idn&#45;country&#45;code&#45;domain&#45;policy&#45;rejects&#45;risk&#45;appraisal&#45;provisions",
-    "description": "ICANN has approved most of its new internationalized country-code domain policy, rejecting provisions for additional risk assessments of confusingly similar strings. Implementation and bylaw amendments remain pending.",
-    "pubDate": "2026-10-23T15:01:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "DNIB Reports 411.6 Million Domain Name Registrations in Q3 2026",
-    "link": "https://circleid.com/posts/dnib&#45;reports&#45;411.6&#45;million&#45;domain&#45;name&#45;registrations&#45;in&#45;q3&#45;2026",
-    "description": "The third quarter of 2026 closed with 411.6 million domain name registrations across all top-level domains (TLDs), an increase of 33.0 million domain name registrations compared to the third quarter of 2025, according to the latest issue of the Domain Name Industry Brief Quarterl…",
-    "pubDate": "2026-10-23T14:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "ARIN 58 Day 2 Recap",
     "link": "https://www.arin.net/blog/2026/10/23/arin-58-day-2-recap/",
     "description": "Today was the second and final day of our ARIN 58 Public Policy and Members Meeting. Thank you to all who made it a successful event!",
@@ -142,14 +182,6 @@
     "pubDate": "2026-10-21T23:48:20.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "PHP Releases Emergency Security Patches as Researchers Report Exploit Attempts",
-    "link": "https://circleid.com/posts/php&#45;releases&#45;emergency&#45;security&#45;patches&#45;as&#45;researchers&#45;report&#45;exploit&#45;attempts",
-    "description": "PHP has released emergency patches for two critical vulnerabilities that could enable unauthenticated remote code execution. Security researchers report attempted exploitation, while authorities urge immediate updates across internet-facing hosting environments.",
-    "pubDate": "2026-10-21T17:33:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Introducing full transaction detection for Cloudflare WAF",
@@ -232,14 +264,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Introducing Clairic, a new System One class of extraction models",
-    "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-    "description": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
-    "pubDate": "2026-10-19T17:48:26.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
     "link": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
     "description": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can. This article sheds some light on the practical implementation of RF…",
@@ -280,28 +304,12 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "[Podcast] The (dismal) economics of AI",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "As capital, labour, and energy are redirected towards AI infrastructure, the economic risks and consequences could be felt by investors, communities, and consumers worldwide. Geoff Huston discusses the economics of the AI investment boom.",
-    "pubDate": "2026-10-14T23:14:02.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Tips and Tricks for Making the Most of ARIN 58",
     "link": "https://www.arin.net/blog/2026/10/14/arin-58-tips-and-tricks/",
     "description": "ARIN 58 is almost here — and whether you’re joining us in Miami or signing on from your living room, a little preparation goes a long way. Here’s your TL;DR guide to everything you need to know before ARIN 58 kicks off next week on Thursday, 22 October.",
     "pubDate": "2026-10-14T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "Submarine cable resilience",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "The estimated 1.5M kilometres of subsea communications cables underpins our global telecommunication services. This critical infrastructure faces serious challenges in the coming years.",
-    "pubDate": "2026-10-14T07:15:54.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Moving Ideas into Action: The Next Chapter in ARIN Policy Engagement",
@@ -396,14 +404,6 @@
     "link": "https://labs.ripe.net/author/athina/moving-to-a-new-board-structure/",
     "description": "A governance structure is strongest when the responsibilities written down on paper match the responsibilities exercised in practice. This proposal to change the RIPE NCC’s governance structure is intended to make sure that they do.",
     "pubDate": "2026-09-22T10:03:37.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "CAPIF 5: Regional Interconnectivity in Central Asia",
-    "link": "https://labs.ripe.net/author/anastasiya-pak/capif-5-regional-interconnectivity-in-central-asia/",
-    "description": "Central Asia’s Internet looks very different than it did back at CAPIF 1. We trace the rise of direct regional routes, stronger routing security and new connectivity options - along with the gaps that remain.",
-    "pubDate": "2026-09-17T17:29:36.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
