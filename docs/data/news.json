@@ -1,5 +1,85 @@
 [
   {
+    "title": "Global Internet infrastructure at NANOG 98",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Hyperscaler investment in submarine cables and the rise of LEO satellite systems are reshaping who builds, owns, and operates the networks that underpin global connectivity.",
+    "pubDate": "2026-10-28T05:18:13.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critica…",
+    "pubDate": "2026-10-27T22:32:41.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "CISA Unveils 2030 Strategy to Shift U.S. Cyber Defense Toward Proactive Threat Removal",
+    "link": "https://circleid.com/posts/cisa&#45;unveils&#45;2030&#45;strategy&#45;to&#45;shift&#45;u.s&#45;cyber&#45;defense&#45;toward&#45;proactive&#45;threat&#45;removal",
+    "description": "CISA's new 2030 strategy shifts US cyber defense toward proactive threat removal, prioritizing critical infrastructure protection and national resilience, with implementation milestones set for the coming year.",
+    "pubDate": "2026-10-27T18:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Vulnerability Windows and Exposure Costs: Modeling the Effects of Stale Trust",
+    "link": "https://circleid.com/posts/vulnerability&#45;windows&#45;and&#45;exposure&#45;costs&#45;modeling&#45;the&#45;effects&#45;of&#45;stale&#45;trust",
+    "description": "A Verisign Labs framework quantifies how compromised certificates remain trusted when revocation information is stale, using vulnerability windows and exposure costs to compare security risks and measure the benefits of faster certificate status updates.",
+    "pubDate": "2026-10-27T18:22:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS Analysis: AI-Powered RatHat Smishing Campaign",
+    "link": "https://circleid.com/posts/dns&#45;analysis&#45;ai&#45;powered&#45;rathat&#45;smishing&#45;campaign",
+    "description": "An investigation into RatHat Android malware uncovered 33 network indicators of compromise, 240 client IP addresses communicating with suspicious domains and thousands of connected domains, revealing infrastructure associated with a smishing campaign.",
+    "pubDate": "2026-10-27T14:20:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Too Many Providers, More Moving Parts: The Challenge of SSL Certificate Fragmentation",
+    "link": "https://circleid.com/posts/too&#45;many&#45;providers&#45;more&#45;moving&#45;parts&#45;the&#45;challenge&#45;of&#45;ssl&#45;certificate&#45;fragmentation",
+    "description": "Research into SSL certificates at Forbes Global 2000 companies reveals widespread provider fragmentation, raising operational concerns as certificate validity periods shorten to 100 days in March 2027.",
+    "pubDate": "2026-10-27T14:07:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Attackers Hijack Government and School DNS Records to Promote Illegal Gambling",
+    "link": "https://circleid.com/posts/attackers&#45;hijack&#45;government&#45;and&#45;school&#45;dns&#45;records&#45;to&#45;promote&#45;illegal&#45;gambling",
+    "description": "Infoblox researchers uncovered two operations exploiting government and educational DNS infrastructure across three countries to promote illegal gambling, exposing security weaknesses that conventional website monitoring may overlook.",
+    "pubDate": "2026-10-27T14:01:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+    "link": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+    "description": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+    "pubDate": "2026-10-27T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "What took the Internet offline in Q3 2026",
+    "link": "https://radar.cloudflare.com/",
+    "description": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+    "pubDate": "2026-10-27T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
+    "link": "https://labs.ripe.net/author/giovane_moura/sidn-publishes-rssac002-traffic-metrics-for-nl/",
+    "description": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
+    "pubDate": "2026-10-27T08:41:57.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "APRICOT 2027 Call for Presentations is open now",
     "link": "https://blog.apnic.net/category/events/",
     "description": "If you have interesting Internet operations research or experience to share, submit a presentation for APRICOT 2027. Submissions close on 25 January 2027.",
@@ -25,7 +105,7 @@
   },
   {
     "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
-    "link": "http://z.ai",
+    "link": "https://www.knostic.ai/",
     "description": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
     "pubDate": "2026-10-26T22:01:23.000Z",
     "source": "Cloudflare",
@@ -42,7 +122,7 @@
   {
     "title": "RIPE 93 Daily Meeting Blog",
     "link": "https://labs.ripe.net/author/ripe-ncc-commsies/ripe-93-daily-meeting-blog/",
-    "description": "RIPE 93 has kicked off in wonderful ancient Sofia. As always, you can view the slides, you can watch the recordings, but if you want to get to the bottom of what's really going on, read this daily meeting blog!",
+    "description": "RIPE 93 has kicked off in Sofia - city of wisdom, Roman ruins, and yellow brick roads. As always, you can view the slides, you can watch the recordings, but if you want to get to the bottom of what's really going on, read this daily meeting blog!",
     "pubDate": "2026-10-26T20:51:23.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
@@ -80,14 +160,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "RIPE NCC Freezes Internet Number Resources Under EU Sanctions, but Routing Remains Unaffected",
-    "link": "https://circleid.com/posts/ripe&#45;ncc&#45;freezes&#45;internet&#45;number&#45;resources&#45;under&#45;eu&#45;sanctions&#45;but&#45;routing&#45;remains&#45;unaffected",
-    "description": "RIPE NCC has frozen Internet number resources linked to 28 newly sanctioned entities under EU rules. The restrictions block resource transfers and new allocations but do not automatically interrupt network routing or connectivity.",
-    "pubDate": "2026-10-24T16:45:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Origin Range Requests: Serving large files without range-request tuning",
     "link": "https://developers.cloudflare.com/cache/how-to/tiered-cache/",
     "description": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
@@ -102,38 +174,6 @@
     "pubDate": "2026-10-23T18:06:56.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Third-Level .name Registrations and Email Forwarding to Be Discontinued in 2027",
-    "link": "https://circleid.com/posts/third&#45;level&#45;.name&#45;registrations&#45;and&#45;email&#45;forwarding&#45;to&#45;be&#45;discontinued",
-    "description": "Verisign plans to discontinue third-level .name registrations and email forwarding in February 2027, prompting objections from longtime users concerned about losing established addresses, disrupting online accounts and potential security risks.",
-    "pubDate": "2026-10-23T16:08:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Testing the Classifier: What a Blind Comparison Revealed About Domain Namespaces",
-    "link": "https://circleid.com/posts/testing&#45;the&#45;classifier&#45;what&#45;a&#45;blind&#45;comparison&#45;revealed&#45;about&#45;domain&#45;namespaces",
-    "description": "A blind comparison of domain classification results found strong agreement for investor-pattern names but lower recall for operator-aligned names, raising questions about earlier namespace composition estimates and the limits of structural classification.",
-    "pubDate": "2026-10-23T15:59:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Technology Advances That Could Transform the Broadband Industry",
-    "link": "https://circleid.com/posts/technology&#45;advances&#45;that&#45;could&#45;transform&#45;the&#45;broadband&#45;industry",
-    "description": "Research breakthroughs that highlight advances in semiconductor design, record-setting fiber transmission, light-based quantum computing and WiFi sensing, with potential implications for network performance, energy efficiency and privacy.",
-    "pubDate": "2026-10-23T15:41:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "UK Proposes Tougher Undersea Cable Security Laws and Emergency Intervention Powers",
-    "link": "https://circleid.com/posts/uk&#45;proposes&#45;tougher&#45;undersea&#45;cable&#45;security&#45;laws&#45;and&#45;emergency&#45;intervention&#45;powers",
-    "description": "The UK proposes stronger security obligations for undersea cable operators, tougher penalties for infrastructure damage and emergency intervention powers, raising questions about compliance costs, repair readiness and the resilience of international Internet connectivity.",
-    "pubDate": "2026-10-23T15:06:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "ARIN 58 Day 2 Recap",
@@ -240,28 +280,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Introducing tsrs: A port of TypeScript to Rust",
-    "link": "https://building.owner.com/tsrs",
-    "description": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
-    "pubDate": "2026-10-20T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more tha…",
     "pubDate": "2026-10-20T04:36:37.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-    "link": "https://blog.cloudflare.com/ai-code-review/",
-    "description": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
-    "pubDate": "2026-10-19T19:12:53.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
@@ -276,22 +300,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "INNOG 9, co-located with APNIC 62, offered a distinctly operational perspective, drawing on experiences from India and Bangladesh. Topics ranged from IPv6 deployment and submarine cable infrastructure, to lessons learned from Internet disruptions.",
     "pubDate": "2026-10-19T05:38:05.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
-    "pubDate": "2026-10-19T04:44:56.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Timor-Leste’s Internet ecosystem enters a new phase of development",
-    "link": "https://blog.apnic.net/category/development/",
-    "description": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
-    "pubDate": "2026-10-15T23:20:00.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
@@ -396,14 +404,6 @@
     "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-september-2026/",
     "description": "With RIPE 93 fast approaching, the RIPE Chair Team shares updates on policy and Working Group activity, the Code of Conduct Team document, and recent events across the Internet community.",
     "pubDate": "2026-09-22T12:09:07.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "Moving to a New Board Structure",
-    "link": "https://labs.ripe.net/author/athina/moving-to-a-new-board-structure/",
-    "description": "A governance structure is strongest when the responsibilities written down on paper match the responsibilities exercised in practice. This proposal to change the RIPE NCC’s governance structure is intended to make sure that they do.",
-    "pubDate": "2026-09-22T10:03:37.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
