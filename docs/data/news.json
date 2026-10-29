@@ -1,5 +1,53 @@
 [
   {
+    "title": "APNIC updates conference host and location selection process",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "APNIC has updated its conference host and location selection process for stand-alone conferences to give prospective hosts clearer guidance and make assessment and decision-making more transparent.",
+    "pubDate": "2026-10-29T01:57:38.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "[Podcast] Quad 9 — Measurement in the privacy-preserving public DNS service",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Darren Kara discusses how the Quad 9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
+    "pubDate": "2026-10-28T23:44:09.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Who Still Governs Africa’s Internet Resources?",
+    "link": "https://circleid.com/posts/who&#45;still&#45;governs&#45;africas&#45;internet&#45;resources",
+    "description": "Cloud Innovation's reappearance in AFRINIC's Mauritian membership register raises questions about governance, judicial oversight and institutional independence. The author calls for transparent records, scrutiny of conflicts of interest and an orderly end to receivership.",
+    "pubDate": "2026-10-28T23:05:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Iran Escalates Threats Against Gulf Undersea Internet Cables",
+    "link": "https://circleid.com/posts/iran&#45;escalates&#45;threats&#45;against&#45;gulf&#45;undersea&#45;internet&#45;cables",
+    "description": "Iranian officials have outlined plans to target undersea Internet cables in the Strait of Hormuz, while a new propaganda video depicts attacks that could disrupt connectivity across Gulf states.",
+    "pubDate": "2026-10-28T22:45:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Quad9&#8217;s Planned Departure From France Shows Why Internet Infrastructure Policy Needs a Wider Lens",
+    "link": "https://circleid.com/posts/quad9s&#45;planned&#45;departure&#45;from&#45;france&#45;shows&#45;why&#45;internet&#45;infrastructure&#45;policy&#45;needs&#45;a&#45;wider&#45;lens",
+    "description": "Quad9's planned withdrawal from France over DNS blocking orders highlights the tension between copyright enforcement and Internet security, raising questions about whether infrastructure-level restrictions impose consequences beyond their intended targets.",
+    "pubDate": "2026-10-28T17:10:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Google and Meta Undersea Cables Rank Among Pacific&#8217;s Most Vulnerable to Sabotage",
+    "link": "https://circleid.com/posts/google&#45;and&#45;meta&#45;undersea&#45;cables&#45;rank&#45;among&#45;pacifics&#45;most&#45;vulnerable&#45;to&#45;sabotage",
+    "description": "New research ranks trans-Pacific submarine cables by sabotage vulnerability, identifying Google and Meta projects among high-risk systems while documenting Chinese research vessel activity near critical underwater communications infrastructure.",
+    "pubDate": "2026-10-28T16:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Global Internet infrastructure at NANOG 98",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Hyperscaler investment in submarine cables and the rise of LEO satellite systems are reshaping who builds, owns, and operates the networks that underpin global connectivity.",
@@ -112,14 +160,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "France Proposes One-Hour Social Media Removal Rule After Secret DNS-Blocking Plans",
-    "link": "https://circleid.com/posts/france&#45;proposes&#45;one&#45;hour&#45;social&#45;media&#45;removal&#45;rule&#45;after&#45;secret&#45;dns&#45;blocking&#45;plans",
-    "description": "France has proposed legislation allowing authorities to block social media platforms over prohibited content, following revelations that telecom operators were asked to prepare geographically targeted DNS restrictions during protests.",
-    "pubDate": "2026-10-26T21:19:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "RIPE 93 Daily Meeting Blog",
     "link": "https://labs.ripe.net/author/ripe-ncc-commsies/ripe-93-daily-meeting-blog/",
     "description": "RIPE 93 has kicked off in Sofia - city of wisdom, Roman ruins, and yellow brick roads. As always, you can view the slides, you can watch the recordings, but if you want to get to the bottom of what's really going on, read this daily meeting blog!",
@@ -128,36 +168,12 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "The Phishing Domain You Missed Shares a Nameserver With the One You Caught",
-    "link": "https://circleid.com/posts/the&#45;phishing&#45;domain&#45;you&#45;missed&#45;shares&#45;a&#45;nameserver&#45;with&#45;the&#45;one&#45;you&#45;caught",
-    "description": "Nameserver-based searches can uncover related domains that conventional phishing monitoring misses. An investigation of shared DNS infrastructure reveals how registration patterns, nameserver pairs and timely zone data can help identify suspicious domain clusters.",
-    "pubDate": "2026-10-26T17:32:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "One week on the APNIC honeynet: 99,000 IP addresses and 173 million events",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Nearly 99,000 unique IP addresses interacted with APNIC's honeynet in just one week, generating 173 million events across SSH, Telnet, SMB, VPN, web, and Android services. The results show that long-known botnets, weak credentials, and unpatched vulnerabilities continue to drive …",
     "pubDate": "2026-10-26T04:15:47.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "ICANN Names Three Independent Objectors to Review 2026 New gTLD Applications",
-    "link": "https://circleid.com/posts/icann&#45;names&#45;three&#45;independent&#45;objectors&#45;to&#45;review&#45;2026&#45;new&#45;gtld&#45;applications",
-    "description": "ICANN has appointed three independent objectors for the 2026 new-gTLD round, establishing a mechanism to challenge applications on public-interest and community grounds, with safeguards against institutional interference.",
-    "pubDate": "2026-10-24T17:02:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "CaribNOG SHIELD Aims to Build Caribbean Cybersecurity Capacity Through Local Training",
-    "link": "https://circleid.com/posts/caribnog&#45;shield&#45;aims&#45;to&#45;build&#45;caribbean&#45;cybersecurity&#45;capacity&#45;through&#45;local&#45;training",
-    "description": "CaribNOG's new SHIELD initiative aims to strengthen Caribbean Internet security through technical internships, routing security training and regional collaboration, with St Kitts and Nevis planning to introduce the programme in 2027.",
-    "pubDate": "2026-10-24T16:52:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Origin Range Requests: Serving large files without range-request tuning",
@@ -280,28 +296,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more tha…",
-    "pubDate": "2026-10-20T04:36:37.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
     "link": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
     "description": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can. This article sheds some light on the practical implementation of RF…",
     "pubDate": "2026-10-19T08:53:35.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "INNOG 9 at APNIC 62: Building resilient infrastructure for the next Internet",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "INNOG 9, co-located with APNIC 62, offered a distinctly operational perspective, drawing on experiences from India and Bangladesh. Topics ranged from IPv6 deployment and submarine cable infrastructure, to lessons learned from Internet disruptions.",
-    "pubDate": "2026-10-19T05:38:05.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "The RIPE Chair Team Reports - Looking Forward to RIPE 93",
