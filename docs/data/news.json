@@ -1,5 +1,45 @@
 [
   {
+    "title": "Same place, different view: How VPNs shape what we learn about the Internet",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: A study found that changing VPN providers can change where web traffic appears to be served, affecting conclusions about domestic infrastructure, cross-border traffic, and data localization.",
+    "pubDate": "2026-10-30T04:12:54.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Pentagon Investigates Military Base Freezer Failures as Suspected Cyberattack",
+    "link": "https://circleid.com/posts/pentagon&#45;investigates&#45;military&#45;base&#45;freezer&#45;failures&#45;as&#45;suspected&#45;cyberattack",
+    "description": "The Pentagon is investigating unexplained refrigeration failures at six US military commissaries as a possible cyberattack, while French authorities examine attacks on Internet-connected refrigeration systems affecting hundreds of supermarkets.",
+    "pubDate": "2026-10-29T17:30:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNSSEC in Ghana: 99% Can Validate, But .gh Remains Unsigned",
+    "link": "https://circleid.com/posts/dnssec&#45;in&#45;ghana&#45;99&#45;can&#45;validate&#45;but&#45;.gh&#45;remains&#45;unsigned",
+    "description": "Ghana reports approximately 99% DNSSEC validation capability among measured users, yet its .gh domain remains unsigned, exposing a gap between resolver readiness and domain security that calls for coordinated deployment and operational planning.",
+    "pubDate": "2026-10-29T14:53:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Global Internet Infrastructure at NANOG 98: Growth, Ownership, and Sovereignty",
+    "link": "https://circleid.com/posts/global&#45;internet&#45;infrastructure&#45;at&#45;nanog&#45;98&#45;growth&#45;ownership&#45;and&#45;sovereignty",
+    "description": "Growing demand for international bandwidth is accelerating investment in submarine cables and satellite networks, while increasing ownership concentration among major technology companies raises questions about competition, infrastructure resilience and national sovereignty.",
+    "pubDate": "2026-10-29T14:24:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+    "link": "https://www.cloudflare.com/cloudforce-one/",
+    "description": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+    "pubDate": "2026-10-29T12:55:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "APNIC updates conference host and location selection process",
     "link": "https://blog.apnic.net/category/community/",
     "description": "APNIC has updated its conference host and location selection process for stand-alone conferences to give prospective hosts clearer guidance and make assessment and decision-making more transparent.",
@@ -8,9 +48,9 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "[Podcast] Quad 9 — Measurement in the privacy-preserving public DNS service",
+    "title": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
     "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Darren Kara discusses how the Quad 9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
+    "description": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
     "pubDate": "2026-10-28T23:44:09.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
@@ -88,22 +128,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Too Many Providers, More Moving Parts: The Challenge of SSL Certificate Fragmentation",
-    "link": "https://circleid.com/posts/too&#45;many&#45;providers&#45;more&#45;moving&#45;parts&#45;the&#45;challenge&#45;of&#45;ssl&#45;certificate&#45;fragmentation",
-    "description": "Research into SSL certificates at Forbes Global 2000 companies reveals widespread provider fragmentation, raising operational concerns as certificate validity periods shorten to 100 days in March 2027.",
-    "pubDate": "2026-10-27T14:07:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Attackers Hijack Government and School DNS Records to Promote Illegal Gambling",
-    "link": "https://circleid.com/posts/attackers&#45;hijack&#45;government&#45;and&#45;school&#45;dns&#45;records&#45;to&#45;promote&#45;illegal&#45;gambling",
-    "description": "Infoblox researchers uncovered two operations exploiting government and educational DNS infrastructure across three countries to promote illegal gambling, exposing security weaknesses that conventional website monitoring may overlook.",
-    "pubDate": "2026-10-27T14:01:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
     "link": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
     "description": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
@@ -142,14 +166,6 @@
     "pubDate": "2026-10-27T01:27:49.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Low IDN Applications Raise Concerns for ICANN’s 2026 New gTLD Round",
-    "link": "https://circleid.com/posts/low&#45;idn&#45;applications&#45;raise&#45;concerns&#45;for&#45;icanns&#45;2026&#45;new&#45;gtld&#45;round",
-    "description": "Only 21 internationalized domain name applications were submitted in ICANN's 2026 new gTLD round, raising government concerns about linguistic diversity and the accessibility of the domain expansion program.",
-    "pubDate": "2026-10-27T01:00:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
@@ -278,22 +294,6 @@
     "pubDate": "2026-10-21T07:47:42.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Rolling the root key: What happened?",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "The DNS root key was rolled on 11 October 2026. Was the key roll a success?",
-    "pubDate": "2026-10-21T01:01:24.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "8 eMudhra certificates are compromised. Here's what you need to know",
-    "link": "https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/",
-    "description": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
-    "pubDate": "2026-10-20T22:20:16.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
