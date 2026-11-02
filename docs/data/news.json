@@ -1,5 +1,13 @@
 [
   {
+    "title": "APRICOT 2027 registration is now open, with discounts for APNIC Members",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "Registration for the APRICOT 2027 Summit, being held from 24 February to 4 March 2027 in Hong Kong SAR, China, is now open. All registrations and payments completed on or before 15 November 2026 receive the early bird rate.",
+    "pubDate": "2026-11-02T05:20:56.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "DNS Hijacking Campaign Targets 12 Cryptocurrency Sites as Registrar-Level Compromise Investigated",
     "link": "https://circleid.com/posts/dns&#45;hijacking&#45;campaign&#45;targets&#45;12&#45;cryptocurrency&#45;sites&#45;as&#45;registrar&#45;level&#45;compromise&#45;investigated",
     "description": "A coordinated wave of DNS hijackings redirected visitors from 12 cryptocurrency websites to wallet-draining pages, with affected operators reporting registrar-level compromises involving domain services associated with Vercel Domains and Name.com.",
@@ -272,14 +280,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Turning IPv6 tunnels into programmable delay lines for pulsing DoS",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: TED shows how permissive tunnel decapsulation and inconsistent IPv6 Extension Header handling can focus low-rate traffic into short, high-rate bursts.",
-    "pubDate": "2026-10-21T23:48:20.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Introducing full transaction detection for Cloudflare WAF",
     "link": "http://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
     "description": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
@@ -331,7 +331,7 @@
     "title": "Moving Ideas into Action: The Next Chapter in ARIN Policy Engagement",
     "link": "https://www.arin.net/blog/2026/10/13/ac-policy-engagement-progress-report/",
     "description": "The ARIN Advisory Council’s Policy Engagement Working Group shares its progress on implementing the results of the community engagement survey into tangible opportunities to participate in the Policy Development Process.",
-    "pubDate": "2026-10-13T12:00:00.000Z",
+    "pubDate": "2026-10-13T13:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   },
