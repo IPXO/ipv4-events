@@ -1,5 +1,45 @@
 [
   {
+    "title": "Restating the case for DNSSEC",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Does TLS make DNSSEC unnecessary? An examination of common DNSSEC assumptions challenges that argument and considers DNSSEC's role in establishing trust, the risks of partial deployment, and the evidence from real-world outages.",
+    "pubDate": "2026-11-03T03:41:45.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Internet Society Seeks Nominations for 2027 Board of Trustees",
+    "link": "https://circleid.com/posts/internet&#45;society&#45;seeks&#45;nominations&#45;for&#45;2027&#45;board&#45;of&#45;trustees",
+    "description": "The Internet Society is accepting nominations for four Board of Trustees seats in 2027, with selections by its Chapters, Organization Members and IETF. Nominations are open to nonmembers and close on December 11, 2026.",
+    "pubDate": "2026-11-02T18:21:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Beware the Bots: Rising AI Traffic Threatens to Reshape ISP Networks",
+    "link": "https://circleid.com/posts/beware&#45;the&#45;bots&#45;rising&#45;ai&#45;traffic&#45;threatens&#45;to&#45;reshape&#45;isp&#45;networks",
+    "description": "Rapidly growing bot traffic is changing how Internet networks are designed, managed and billed. As AI-driven applications expand, smaller ISPs could face rising capacity demands, unpredictable traffic patterns and costly infrastructure upgrades.",
+    "pubDate": "2026-11-02T18:12:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Maintaining the ITU &#8220;Artificial Intelligence&#8221; Resolution",
+    "link": "https://circleid.com/posts/maintaining&#45;the&#45;itu&#45;artificial&#45;intelligence&#45;resolution",
+    "description": "A US proposal would replace \"artificial intelligence\" with \"super intelligence\" in ITU Resolution 214, remove references to shared concerns and prohibit ITU work supporting AI governance, regulation and ethics.",
+    "pubDate": "2026-11-02T16:22:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How we halved DNS build delay and cut memory use by 85%",
+    "link": "https://blog.cloudflare.com/dns-build-improvement/",
+    "description": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
+    "pubDate": "2026-11-02T14:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "APRICOT 2027 registration is now open, with discounts for APNIC Members",
     "link": "https://blog.apnic.net/category/events/",
     "description": "Registration for the APRICOT 2027 Summit, being held from 24 February to 4 March 2027 in Hong Kong SAR, China, is now open. All registrations and payments completed on or before 15 November 2026 receive the early bird rate.",
@@ -118,30 +158,6 @@
     "pubDate": "2026-10-28T23:44:09.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Who Still Governs Africa’s Internet Resources?",
-    "link": "https://circleid.com/posts/who&#45;still&#45;governs&#45;africas&#45;internet&#45;resources",
-    "description": "Cloud Innovation's reappearance in AFRINIC's Mauritian membership register raises questions about governance, judicial oversight and institutional independence. The author calls for transparent records, scrutiny of conflicts of interest and an orderly end to receivership.",
-    "pubDate": "2026-10-28T23:05:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Iran Escalates Threats Against Gulf Undersea Internet Cables",
-    "link": "https://circleid.com/posts/iran&#45;escalates&#45;threats&#45;against&#45;gulf&#45;undersea&#45;internet&#45;cables",
-    "description": "Iranian officials have outlined plans to target undersea Internet cables in the Strait of Hormuz, while a new propaganda video depicts attacks that could disrupt connectivity across Gulf states.",
-    "pubDate": "2026-10-28T22:45:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Quad9&#8217;s Planned Departure From France Shows Why Internet Infrastructure Policy Needs a Wider Lens",
-    "link": "https://circleid.com/posts/quad9s&#45;planned&#45;departure&#45;from&#45;france&#45;shows&#45;why&#45;internet&#45;infrastructure&#45;policy&#45;needs&#45;a&#45;wider&#45;lens",
-    "description": "Quad9's planned withdrawal from France over DNS blocking orders highlights the tension between copyright enforcement and Internet security, raising questions about whether infrastructure-level restrictions impose consequences beyond their intended targets.",
-    "pubDate": "2026-10-28T17:10:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Global Internet infrastructure at NANOG 98",
@@ -268,22 +284,6 @@
     "link": "https://isms-p.or.kr/sttus/cert/selectCrtfctIsueList.do",
     "description": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
     "pubDate": "2026-10-22T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Your most pressing questions about ASPA, answered",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Answering some of the most frequently asked questions about ASPA.",
-    "pubDate": "2026-10-22T00:39:37.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Introducing full transaction detection for Cloudflare WAF",
-    "link": "http://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-    "description": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
-    "pubDate": "2026-10-21T14:10:42.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
