@@ -1,5 +1,53 @@
 [
   {
+    "title": "The Internet didn’t break; we just forgot what it was leaning on",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: When international links fail, hidden dependencies can take local services with them. Here’s how operators can design for local resilience.",
+    "pubDate": "2026-11-05T04:29:18.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Registrars Must Offer DNSSEC, but Fewer Than One in Ten Use It Themselves",
+    "link": "https://circleid.com/posts/registrars&#45;must&#45;offer&#45;dnssec&#45;but&#45;fewer&#45;than&#45;one&#45;in&#45;ten&#45;use&#45;it&#45;themselves",
+    "description": "A study of 698 ICANN-accredited registrar domains finds just 9.46% have DNSSEC enabled, with European registrars leading adoption. Regional differences remain significant after accounting for registrar size, raising questions about security practices.",
+    "pubDate": "2026-11-04T16:46:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Africa Youth IGF: Political Leaders Must Listen, Not Just Speak",
+    "link": "https://circleid.com/posts/africa&#45;youth&#45;igf&#45;political&#45;leaders&#45;must&#45;listen&#45;not&#45;just&#45;speak",
+    "description": "Youth Internet governance forums across Africa risk prioritizing political speeches over meaningful dialogue. Stronger accountability, direct engagement and sustained participation could help young people influence the digital policies shaping their future.",
+    "pubDate": "2026-11-04T16:35:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "APT36 Deploys Multiple Malware in RapidRust: A DNS Investigation",
+    "link": "https://circleid.com/posts/apt36&#45;deploys&#45;multiple&#45;malware&#45;in&#45;rapidrust&#45;a&#45;dns&#45;investigation",
+    "description": "An investigation of APT36's RapidRust campaign identified malicious infrastructure linked to four malware variants, uncovering 341 email-connected domains, two malicious IP addresses, and 53 domains sharing naming patterns with known indicators.",
+    "pubDate": "2026-11-04T16:19:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "See the agents, set the terms: new visibility and control for personal agents",
+    "link": "https://radar.cloudflare.com/bots/directory",
+    "description": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+    "pubDate": "2026-11-04T14:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "The RIPE Chair Team Reports - Highlights from RIPE 93",
+    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-highlights-from-ripe-93/",
+    "description": "From digital independence and practical AI to inclusion and research, RIPE 93 gave the community plenty to discuss and act on. The RIPE Chair Team shares personal highlights from Sofia and ways to get involved in the work ahead.",
+    "pubDate": "2026-11-04T10:31:43.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "Solar PV for Internet resilience (Part 1): Designing your system",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Solar photovoltaics and battery storage can provide reliable power for network infrastructure, even in remote locations. Here’s what’s good to know before selecting equipment.",
@@ -94,30 +142,6 @@
     "pubDate": "2026-11-02T05:20:56.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "DNS Hijacking Campaign Targets 12 Cryptocurrency Sites as Registrar-Level Compromise Investigated",
-    "link": "https://circleid.com/posts/dns&#45;hijacking&#45;campaign&#45;targets&#45;12&#45;cryptocurrency&#45;sites&#45;as&#45;registrar&#45;level&#45;compromise&#45;investigated",
-    "description": "A coordinated wave of DNS hijackings redirected visitors from 12 cryptocurrency websites to wallet-draining pages, with affected operators reporting registrar-level compromises involving domain services associated with Vercel Domains and Name.com.",
-    "pubDate": "2026-10-31T14:55:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "French Lawmakers Back Per-Gigabyte Internet Traffic Tax Despite Government Opposition",
-    "link": "https://circleid.com/posts/french&#45;lawmakers&#45;back&#45;per&#45;gigabyte&#45;internet&#45;traffic&#45;tax&#45;despite&#45;government&#45;opposition",
-    "description": "French lawmakers approved a proposed €0.055-per-gigabyte tax on Internet traffic, targeting content providers and CDNs despite government opposition. The measure could raise billions annually but faces further legislative hurdles.",
-    "pubDate": "2026-10-31T14:09:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ITU Receives New IPv6 and Internet Governance Proposals Ahead of November Conference",
-    "link": "https://circleid.com/posts/itu&#45;receives&#45;new&#45;ipv6&#45;and&#45;internet&#45;governance&#45;proposals&#45;ahead&#45;of&#45;november&#45;conference",
-    "description": "New proposals submitted to the ITU address IPv6 deployment, internationalized domain names and Internet governance, with competing regional amendments awaiting consideration at the November Plenipotentiary Conference in Doha.",
-    "pubDate": "2026-10-30T18:45:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
@@ -224,14 +248,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
-    "link": "https://blog.apnic.net/category/development/",
-    "description": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
-    "pubDate": "2026-10-27T01:27:49.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
     "link": "https://www.knostic.ai/",
     "description": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
@@ -252,14 +268,6 @@
     "link": "https://developers.cloudflare.com/cache/how-to/tiered-cache/",
     "description": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
     "pubDate": "2026-10-23T18:22:59.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Bringing post-quantum cryptography to geographically fenced key management",
-    "link": "https://blog.cloudflare.com/post-quantum-roadmap/",
-    "description": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
-    "pubDate": "2026-10-23T18:06:56.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -404,14 +412,6 @@
     "link": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
     "description": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
     "pubDate": "2026-09-23T13:13:32.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "The RIPE Chair Team Reports - September 2026",
-    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-september-2026/",
-    "description": "With RIPE 93 fast approaching, the RIPE Chair Team shares updates on policy and Working Group activity, the Code of Conduct Team document, and recent events across the Internet community.",
-    "pubDate": "2026-09-22T12:09:07.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
