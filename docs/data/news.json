@@ -1,5 +1,69 @@
 [
   {
+    "title": "PCAP-LM: Helping AI assistants read network traffic",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Packet captures are the ground truth of network operations, but analysing them is slow, requires specialist expertise, and does not scale. PCAP-LM rewrites captures into a form that AI assistants can read, helping address that mismatch.",
+    "pubDate": "2026-11-06T00:04:21.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Agents aren’t humans (but they kinda are)",
+    "link": "https://moderation-of-unlinkable-endorsements.github.io/internet-drafts/draft-jms-mole-architecture.html",
+    "description": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+    "pubDate": "2026-11-05T17:03:04.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "ICANN Outlines Internet Governance Agenda for IGF 2026",
+    "link": "https://circleid.com/posts/icann&#45;outlines&#45;internet&#45;governance&#45;agenda&#45;for&#45;igf&#45;2026",
+    "description": "ICANN outlines its IGF 2026 agenda in Nairobi, focusing on multilingual Internet access, multistakeholder governance and Africa's technical community, with discussions on Universal Acceptance, new gTLDs and participation following the WSIS+20 review.",
+    "pubDate": "2026-11-05T15:19:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Finnish Court Jails Two Ship Crew Members for Baltic Sea Cable Damage",
+    "link": "https://circleid.com/posts/finnish&#45;court&#45;jails&#45;two&#45;ship&#45;crew&#45;members&#45;for&#45;baltic&#45;sea&#45;cable&#45;damage",
+    "description": "A Finnish court sentences two cargo ship crew members to prison for damaging Baltic Sea telecommunications cables, addressing criminal responsibility and jurisdiction over critical infrastructure beyond territorial waters.",
+    "pubDate": "2026-11-05T14:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "AFRINIC, Member Rights and Executive Interference",
+    "link": "https://circleid.com/posts/afrinic&#45;member&#45;rights&#45;and&#45;executive&#45;interference",
+    "description": "AFRINIC's effort to remove Cloud Innovation from its company register has intensified a dispute over court orders, membership rights, executive authority, and the accountability of Internet number registry administrators.",
+    "pubDate": "2026-11-05T14:19:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Forced Representation: RIPE NCC, &#8220;Chinese Disinformation,&#8221; and the Fiction of an Inclusive Community",
+    "link": "https://circleid.com/posts/forced&#45;representation&#45;ripe&#45;ncc&#45;chinese&#45;disinformation&#45;and&#45;the&#45;fiction&#45;of&#45;an&#45;inclusive&#45;community",
+    "description": "Following a disputed exchange at a RIPE NCC General Meeting, Lu Heng argues that nationality-based dismissal of criticism undermines inclusive participation and raises questions about the legitimacy of community-derived institutional authority.",
+    "pubDate": "2026-11-05T14:04:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The February Case That Could End Africa&#8217;s Internet Registry",
+    "link": "https://circleid.com/posts/the&#45;february&#45;case&#45;that&#45;could&#45;end&#45;africas&#45;internet&#45;registry",
+    "description": "Cloud Innovation's petition to dissolve AFRINIC returns to Mauritius's Supreme Court in 2027, raising questions about the registry's governance, contested membership rights, legal costs and continuity of Internet address services across Africa.",
+    "pubDate": "2026-11-05T13:32:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Do Registrars Use DNSSEC on Their Own Domains?",
+    "link": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains/",
+    "description": "Registrars must support DNSSEC for customers, but how many use it themselves? A study of 698 registrar domains finds fewer than one in ten has a DS record, with European registrars ahead of the rest. Tobias Sattler explores the gap and its possible explanations.",
+    "pubDate": "2026-11-05T07:09:04.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "The Internet didn’t break; we just forgot what it was leaning on",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: When international links fail, hidden dependencies can take local services with them. Here’s how operators can design for local resilience.",
@@ -72,22 +136,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "What Drives Domain Name Renewals? Lessons From 40 Million ccTLD Registrations",
-    "link": "https://circleid.com/posts/what&#45;drives&#45;domain&#45;name&#45;renewals&#45;lessons&#45;from&#45;40&#45;million&#45;cctld&#45;registrations",
-    "description": "A study of approximately 40 million domain names across 10 ccTLDs identifies domain age and registrant location as key renewal factors, highlighting the importance of retention strategies tailored to individual registry markets.",
-    "pubDate": "2026-11-03T16:18:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Who Tells the Time? Measuring NTP Exposure Across Publicly Routed IPv4 Prefixes",
-    "link": "https://circleid.com/posts/who&#45;tells&#45;the&#45;time&#45;measuring&#45;ntp&#45;exposure&#45;across&#45;publicly&#45;routed&#45;ipv4&#45;prefixes",
-    "description": "A study of Dominican Republic networks identified NTP responders across 225 IPv4 prefixes and 73 autonomous systems, raising questions about unintended public exposure, synchronization dependencies and the availability of an official national time service.",
-    "pubDate": "2026-11-03T15:44:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
     "link": "https://radar.cloudflare.com/security/zero-wire/",
     "description": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
@@ -102,30 +150,6 @@
     "pubDate": "2026-11-03T03:41:45.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Internet Society Seeks Nominations for 2027 Board of Trustees",
-    "link": "https://circleid.com/posts/internet&#45;society&#45;seeks&#45;nominations&#45;for&#45;2027&#45;board&#45;of&#45;trustees",
-    "description": "The Internet Society is accepting nominations for four Board of Trustees seats in 2027, with selections by its Chapters, Organization Members and IETF. Nominations are open to nonmembers and close on December 11, 2026.",
-    "pubDate": "2026-11-02T18:21:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Beware the Bots: Rising AI Traffic Threatens to Reshape ISP Networks",
-    "link": "https://circleid.com/posts/beware&#45;the&#45;bots&#45;rising&#45;ai&#45;traffic&#45;threatens&#45;to&#45;reshape&#45;isp&#45;networks",
-    "description": "Rapidly growing bot traffic is changing how Internet networks are designed, managed and billed. As AI-driven applications expand, smaller ISPs could face rising capacity demands, unpredictable traffic patterns and costly infrastructure upgrades.",
-    "pubDate": "2026-11-02T18:12:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Maintaining the ITU &#8220;Artificial Intelligence&#8221; Resolution",
-    "link": "https://circleid.com/posts/maintaining&#45;the&#45;itu&#45;artificial&#45;intelligence&#45;resolution",
-    "description": "A US proposal would replace \"artificial intelligence\" with \"super intelligence\" in ITU Resolution 214, remove references to shared concerns and prohibit ITU work supporting AI governance, regulation and ethics.",
-    "pubDate": "2026-11-02T16:22:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "How we halved DNS build delay and cut memory use by 85%",
@@ -240,14 +264,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "APRICOT 2027 Call for Presentations is open now",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "If you have interesting Internet operations research or experience to share, submit a presentation for APRICOT 2027. Submissions close on 25 January 2027.",
-    "pubDate": "2026-10-27T03:50:28.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
     "link": "https://www.knostic.ai/",
     "description": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
@@ -262,14 +278,6 @@
     "pubDate": "2026-10-26T20:51:23.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Origin Range Requests: Serving large files without range-request tuning",
-    "link": "https://developers.cloudflare.com/cache/how-to/tiered-cache/",
-    "description": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
-    "pubDate": "2026-10-23T18:22:59.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "ARIN 58 Day 2 Recap",
@@ -406,14 +414,6 @@
     "pubDate": "2026-09-23T15:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "PeeringDB Update April - September 2026",
-    "link": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
-    "description": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
-    "pubDate": "2026-09-23T13:13:32.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "IETF email infrastructure transition completed on 11 September",
