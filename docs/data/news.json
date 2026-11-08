@@ -1,5 +1,13 @@
 [
   {
+    "title": "Beyond Blind Trust: Rethinking AI Governance for Operational Resilience",
+    "link": "https://circleid.com/posts/beyond&#45;blind&#45;trust&#45;rethinking&#45;ai&#45;governance&#45;for&#45;operational&#45;resilience",
+    "description": "As autonomous AI agents gain access to critical systems, a proposed governance framework combines risk-based verification, API restrictions, model provenance and infrastructure safeguards to balance security costs with operational resilience.",
+    "pubDate": "2026-11-07T16:59:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Can an Open-Source Project Have Unregistered Trademark Rights? Lessons from LIBBITCOIN",
     "link": "https://circleid.com/posts/can&#45;an&#45;open&#45;source&#45;project&#45;have&#45;unregistered&#45;trademark&#45;rights&#45;lessons&#45;from&#45;libbitcoin",
     "description": "A WIPO decision involving the LIBBITCOIN open-source project illustrates how community recognition can establish unregistered trademark rights and how documented stewardship can support a successor maintainer's standing in domain name disputes.",
@@ -116,14 +124,6 @@
     "link": "https://circleid.com/posts/africa&#45;youth&#45;igf&#45;political&#45;leaders&#45;must&#45;listen&#45;not&#45;just&#45;speak",
     "description": "Youth Internet governance forums across Africa risk prioritizing political speeches over meaningful dialogue. Stronger accountability, direct engagement and sustained participation could help young people influence the digital policies shaping their future.",
     "pubDate": "2026-11-04T16:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "APT36 Deploys Multiple Malware in RapidRust: A DNS Investigation",
-    "link": "https://circleid.com/posts/apt36&#45;deploys&#45;multiple&#45;malware&#45;in&#45;rapidrust&#45;a&#45;dns&#45;investigation",
-    "description": "An investigation of APT36's RapidRust campaign identified malicious infrastructure linked to four malware variants, uncovering 341 email-connected domains, two malicious IP addresses, and 53 domains sharing naming patterns with known indicators.",
-    "pubDate": "2026-11-04T16:19:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
