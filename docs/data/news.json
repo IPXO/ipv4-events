@@ -1,5 +1,29 @@
 [
   {
+    "title": "The DOs and don&#8217;ts of post-quantum DNSSEC",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Post-quantum signatures could dramatically enlarge DNSSEC responses, shifting many queries from UDP to TCP. Should resolvers limit unnecessary DNSSEC data, or is greater TCP use inevitable?",
+    "pubDate": "2026-11-09T05:34:30.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "ITU Meeting in Doha to Consider Proposals Affecting Global Internet Governance",
+    "link": "https://circleid.com/posts/itu&#45;meeting&#45;in&#45;doha&#45;to&#45;consider&#45;proposals&#45;affecting&#45;global&#45;internet&#45;governance",
+    "description": "Governments meeting in Doha will consider proposals to revise how international telecommunications regulations are reviewed, raising questions about the ITU's responsibilities and their relationship with existing Internet governance organizations.",
+    "pubDate": "2026-11-08T16:12:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "More Than 80% of AfriNIC Addresses Detected Outside Africa Linked to a Single Company",
+    "link": "https://circleid.com/posts/more&#45;than&#45;80&#45;of&#45;afrinic&#45;addresses&#45;detected&#45;outside&#45;africa&#45;linked&#45;to&#45;a&#45;single&#45;company",
+    "description": "New measurements link Cloud Innovation to 81% of AfriNIC IPv4 addresses detected outside Africa, raising questions about regional allocation policies, contractual obligations and the evidence needed to establish compliance.",
+    "pubDate": "2026-11-08T15:36:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Beyond Blind Trust: Rethinking AI Governance for Operational Resilience",
     "link": "https://circleid.com/posts/beyond&#45;blind&#45;trust&#45;rethinking&#45;ai&#45;governance&#45;for&#45;operational&#45;resilience",
     "description": "As autonomous AI agents gain access to critical systems, a proposed governance framework combines risk-based verification, API restrictions, model provenance and infrastructure safeguards to balance security costs with operational resilience.",
@@ -110,22 +134,6 @@
     "pubDate": "2026-11-05T04:29:18.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Registrars Must Offer DNSSEC, but Fewer Than One in Ten Use It Themselves",
-    "link": "https://circleid.com/posts/registrars&#45;must&#45;offer&#45;dnssec&#45;but&#45;fewer&#45;than&#45;one&#45;in&#45;ten&#45;use&#45;it&#45;themselves",
-    "description": "A study of 698 ICANN-accredited registrar domains finds just 9.46% have DNSSEC enabled, with European registrars leading adoption. Regional differences remain significant after accounting for registrar size, raising questions about security practices.",
-    "pubDate": "2026-11-04T16:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Africa Youth IGF: Political Leaders Must Listen, Not Just Speak",
-    "link": "https://circleid.com/posts/africa&#45;youth&#45;igf&#45;political&#45;leaders&#45;must&#45;listen&#45;not&#45;just&#45;speak",
-    "description": "Youth Internet governance forums across Africa risk prioritizing political speeches over meaningful dialogue. Stronger accountability, direct engagement and sustained participation could help young people influence the digital policies shaping their future.",
-    "pubDate": "2026-11-04T16:35:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "See the agents, set the terms: new visibility and control for personal agents",
@@ -244,14 +252,6 @@
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Hyperscaler investment in submarine cables and the rise of LEO satellite systems are reshaping who builds, owns, and operates the networks that underpin global connectivity.",
     "pubDate": "2026-10-28T05:18:13.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critica…",
-    "pubDate": "2026-10-27T22:32:41.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
   },
