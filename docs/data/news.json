@@ -1,5 +1,45 @@
 [
   {
+    "title": "IETF Administration LLC 2027 Draft Budget",
+    "link": "http://www.ietf.org/blog/ietf-administration-llc-2027-draft-budget/",
+    "description": "The IETF Administration LLC has prepared its draft budget for 2027 and now seeks community feedback.",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "France Blames Iran&#8217;s Revolutionary Guards for Cyberattack on 700 Supermarkets",
+    "link": "https://circleid.com/posts/france&#45;blames&#45;irans&#45;revolutionary&#45;guards&#45;for&#45;cyberattack&#45;on&#45;700&#45;supermarkets",
+    "description": "France has blamed Iran's Revolutionary Guards for cyberattacks on refrigeration systems at approximately 700 supermarkets, prompting a criminal investigation, planned European sanctions and warnings about internet-connected industrial equipment.",
+    "pubDate": "2026-11-09T19:42:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Cyber Pandemic Is Here: Negligence, Not AI, Is the Real Threat",
+    "link": "https://circleid.com/posts/the&#45;cyber&#45;pandemic&#45;is&#45;here&#45;negligence&#45;not&#45;ai&#45;is&#45;the&#45;real&#45;threat",
+    "description": "Cyberattacks on supermarkets, utilities and cryptocurrency platforms reveal how unclear responsibilities and institutional failures can expose critical systems, raising questions about accountability across cybersecurity, supply chains and Internet governance.",
+    "pubDate": "2026-11-09T19:30:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Launching the Vite Ecosystem Fund",
+    "link": "https://blog.cloudflare.com/voidzero-joins-cloudflare/#what-this-means-for-vite",
+    "description": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+    "pubDate": "2026-11-09T13:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Your Router Trusts Its Validator. But Who's Watching the Validator?",
+    "link": "https://labs.ripe.net/author/ritesh-mukherjee/your-router-trusts-its-validator-but-whos-watching-the-validator/",
+    "description": "ROV turned your validator into a forwarding policy source. The registries have strengthened their side of the RPKI, but the chain from repository to router runs on your infrastructure. When that chain breaks, it often breaks silently.",
+    "pubDate": "2026-11-09T10:59:54.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
     "title": "The DOs and don&#8217;ts of post-quantum DNSSEC",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Post-quantum signatures could dramatically enlarge DNSSEC responses, shifting many queries from UDP to TCP. Should resolvers limit unnecessary DNSSEC data, or is greater TCP use inevitable?",
@@ -104,22 +144,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Forced Representation: RIPE NCC, &#8220;Chinese Disinformation,&#8221; and the Fiction of an Inclusive Community",
-    "link": "https://circleid.com/posts/forced&#45;representation&#45;ripe&#45;ncc&#45;chinese&#45;disinformation&#45;and&#45;the&#45;fiction&#45;of&#45;an&#45;inclusive&#45;community",
-    "description": "Following a disputed exchange at a RIPE NCC General Meeting, Lu Heng argues that nationality-based dismissal of criticism undermines inclusive participation and raises questions about the legitimacy of community-derived institutional authority.",
-    "pubDate": "2026-11-05T14:04:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The February Case That Could End Africa&#8217;s Internet Registry",
-    "link": "https://circleid.com/posts/the&#45;february&#45;case&#45;that&#45;could&#45;end&#45;africas&#45;internet&#45;registry",
-    "description": "Cloud Innovation's petition to dissolve AFRINIC returns to Mauritius's Supreme Court in 2027, raising questions about the registry's governance, contested membership rights, legal costs and continuity of Internet address services across Africa.",
-    "pubDate": "2026-11-05T13:32:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Do Registrars Use DNSSEC on Their Own Domains?",
     "link": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains/",
     "description": "Registrars must support DNSSEC for customers, but how many use it themselves? A study of 698 registrar domains finds fewer than one in ten has a DS record, with European registrars ahead of the rest. Tobias Sattler explores the gap and its possible explanations.",
@@ -136,7 +160,7 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "See the agents, set the terms: new visibility and control for personal agents",
+    "title": "See the agents, set the terms: New visibility and control for personal agents",
     "link": "https://radar.cloudflare.com/bots/directory",
     "description": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
     "pubDate": "2026-11-04T14:00:00.000Z",
@@ -264,14 +288,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "What took the Internet offline in Q3 2026",
-    "link": "https://radar.cloudflare.com/",
-    "description": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
-    "pubDate": "2026-10-27T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
     "link": "https://labs.ripe.net/author/giovane_moura/sidn-publishes-rssac002-traffic-metrics-for-nl/",
     "description": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
@@ -332,14 +348,6 @@
     "link": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
     "description": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can. This article sheds some light on the practical implementation of RF…",
     "pubDate": "2026-10-19T08:53:35.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
-    "title": "The RIPE Chair Team Reports - Looking Forward to RIPE 93",
-    "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-looking-forward-to-ripe-93/",
-    "description": "With less than two weeks to go until the RIPE 93 Meeting, preparations are well under way. Here is a preview of the programme, along with some practical reminders for everyone taking part.",
-    "pubDate": "2026-10-15T08:51:32.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
   },
@@ -468,14 +476,6 @@
     "link": "http://www.ietf.org/blog/meet-our-new-ietf-noc-lead/",
     "description": "Joe Clarke has been appointed as the new IETF Network Operations Center (NOC) Lead and in this post Joe introduces himself and sets out his priorities for the IETF Network.",
     "pubDate": "2026-08-10T09:42:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "Secretariat restructuring and staffing update",
-    "link": "http://www.ietf.org/blog/llc-secretariat-and-staff-update/",
-    "description": "There have been a few changes in IETF Administration LLC staffing since January of this year (2026) including the recent insourcing of the Secretariat, which are summarised here to give an overall view of the staffing structure.",
-    "pubDate": "2026-07-30T11:26:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
   }
