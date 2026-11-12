@@ -1,5 +1,45 @@
 [
   {
+    "title": "2026 APNIC Survey: Executive Council Response",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The 2026 APNIC Survey highlights strong confidence in APNIC’s services and the priorities of Members and stakeholders across the region.",
+    "pubDate": "2026-11-12T04:50:28.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "[Podcast] Submarine cable resilience and economics",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "How resilient is the global submarine cable network? Geoff Huston explores its evolution, vulnerabilities, economics, and who has an interest in keeping it running.",
+    "pubDate": "2026-11-11T23:01:13.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "What’s up with email at IETF 127",
+    "link": "http://www.ietf.org/blog/ietf127-email/",
+    "description": "Email is the oldest widely used application on the Internet, but it continues to evolve. At IETF 127 four working groups will meet to improve the security and usability of mail, and two Birds-of-a-Feather sessions propose improvements in mail operations and the way users sign up …",
+    "pubDate": "2026-11-11T15:35:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
+  },
+  {
+    "title": "Choosing QuePaxa, an unusual consensus algorithm",
+    "link": "https://blog.cloudflare.com/meerkat-introduction/",
+    "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+    "pubDate": "2026-11-11T14:24:46.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Verisign Reverses Plan to Eliminate Existing .name Domains and Email Services",
+    "link": "https://circleid.com/posts/verisign&#45;reverses&#45;plan&#45;to&#45;eliminate&#45;existing&#45;.name&#45;domains&#45;and&#45;email&#45;services",
+    "description": "Verisign has withdrawn plans to terminate existing third-level .name domains and email-forwarding services following registrant objections. Existing registrations will remain supported while at least one accredited registrar continues offering the services.",
+    "pubDate": "2026-11-11T14:08:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "SIDN publishes RSSAC002 traffic metrics for .nl",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
@@ -94,14 +134,6 @@
     "pubDate": "2026-11-10T00:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "France Blames Iran&#8217;s Revolutionary Guards for Cyberattack on 700 Supermarkets",
-    "link": "https://circleid.com/posts/france&#45;blames&#45;irans&#45;revolutionary&#45;guards&#45;for&#45;cyberattack&#45;on&#45;700&#45;supermarkets",
-    "description": "France has blamed Iran's Revolutionary Guards for cyberattacks on refrigeration systems at approximately 700 supermarkets, prompting a criminal investigation, planned European sanctions and warnings about internet-connected industrial equipment.",
-    "pubDate": "2026-11-09T19:42:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Launching the Vite Ecosystem Fund",
@@ -268,30 +300,6 @@
     "link": "https://www.cloudflare.com/cloudforce-one/",
     "description": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
     "pubDate": "2026-10-29T12:55:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "APNIC updates conference host and location selection process",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "APNIC has updated its conference host and location selection process for stand-alone conferences to give prospective hosts clearer guidance and make assessment and decision-making more transparent.",
-    "pubDate": "2026-10-29T01:57:38.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
-    "pubDate": "2026-10-28T23:44:09.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-    "link": "https://developers.cloudflare.com/waf/change-log/changelog/",
-    "description": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
-    "pubDate": "2026-10-27T13:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
   },
@@ -468,14 +476,6 @@
     "link": "http://www.ietf.org/blog/ietf126-survey/",
     "description": "The IETF 126 Vienna meeting was held 18-24 July 2026 and the results of the post-meeting survey are now available.",
     "pubDate": "2026-08-27T16:00:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "Meet our new IETF NOC Lead",
-    "link": "http://www.ietf.org/blog/meet-our-new-ietf-noc-lead/",
-    "description": "Joe Clarke has been appointed as the new IETF Network Operations Center (NOC) Lead and in this post Joe introduces himself and sets out his priorities for the IETF Network.",
-    "pubDate": "2026-08-10T09:42:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
   }
