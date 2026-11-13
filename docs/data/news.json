@@ -1,5 +1,37 @@
 [
   {
+    "title": "Could pigeons deliver the Internet?",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: What happens when we replace network cables with carrier pigeons? We worked out how many birds you would need.",
+    "pubDate": "2026-11-12T23:37:47.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Capture Before the Letter: What Recent UDRP Decisions Say About Website Evidence",
+    "link": "https://circleid.com/posts/capture&#45;before&#45;the&#45;letter&#45;what&#45;recent&#45;udrp&#45;decisions&#45;say&#45;about&#45;website&#45;evidence",
+    "description": "An analysis of 301 WIPO domain disputes finds substantial gaps in Internet Archive coverage, highlighting why preserving dated website evidence before notifying registrants can be critical to establishing bad faith in UDRP proceedings.",
+    "pubDate": "2026-11-12T18:48:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Iranian Websites Lose .com Domains as GoDaddy Registrar Holds Emerge",
+    "link": "https://circleid.com/posts/iranian&#45;websites&#45;lose&#45;.com&#45;domains&#45;as&#45;godaddy&#45;registrar&#45;holds&#45;emerge",
+    "description": "Iranian websites face domain disruptions linked to GoDaddy registrar holds, prompting migrations to .ir addresses. Registration records identify affected domains, but the legal basis and scope of the restrictions remain unclear.",
+    "pubDate": "2026-11-12T18:07:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ARIN Online Achieves SOC 2 Compliance",
+    "link": "https://www.arin.net/blog/2026/11/12/arin-online-soc-2/",
+    "description": "ARIN has successfully completed an initial Service Organizational Control (SOC) 2 Type II audit of ARIN Online and renewed compliance for our Resource Public Key Infrastructure (RPKI) for the fourth year.",
+    "pubDate": "2026-11-12T13:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "2026 APNIC Survey: Executive Council Response",
     "link": "https://blog.apnic.net/category/community/",
     "description": "The 2026 APNIC Survey highlights strong confidence in APNIC’s services and the priorities of Members and stakeholders across the region.",
@@ -100,22 +132,6 @@
     "link": "https://circleid.com/posts/gdtc&#45;2026&#45;to&#45;focus&#45;on&#45;ai&#45;data&#45;and&#45;network&#45;infrastructure&#45;in&#45;beijing",
     "description": "The third Global Data Technology Conference will bring international technical organizations together in Beijing on December 9 to explore AI infrastructure, trusted data spaces, advanced networking, open standards, and global cooperation.",
     "pubDate": "2026-11-10T16:50:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Openness Alibi: How the RIR System Closed the Door on Its Own Legitimacy",
-    "link": "https://circleid.com/posts/the&#45;openness&#45;alibi&#45;how&#45;the&#45;rir&#45;system&#45;closed&#45;the&#45;door&#45;on&#45;its&#45;own&#45;legitimacy",
-    "description": "Lu Heng argues that increasingly restrictive election and participation rules across the five Regional Internet Registries undermine the legitimacy of their governance model, proposing decentralized number coordination as an alternative to centralized institutional authority.",
-    "pubDate": "2026-11-10T16:37:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "From Policy to Practice: Project Jake as a Collaborative Laboratory for Domain Registration Data",
-    "link": "https://circleid.com/posts/from&#45;policy&#45;to&#45;practice&#45;project&#45;jake&#45;as&#45;a&#45;collaborative&#45;laboratory&#45;for&#45;domain&#45;registration&#45;data",
-    "description": "Project Jake offers an open-source framework for testing domain registration data disclosure, helping stakeholders evaluate authentication, standardized requests and registrar workflows while preserving privacy protections and informing ICANN's future policy decisions.",
-    "pubDate": "2026-11-10T16:04:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -233,7 +249,7 @@
   },
   {
     "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
-    "link": "https://radar.cloudflare.com/security/zero-wire/",
+    "link": "https://radar.cloudflare.com/zero-wire",
     "description": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
     "pubDate": "2026-11-03T14:00:00.000Z",
     "source": "Cloudflare",
@@ -286,14 +302,6 @@
     "pubDate": "2026-10-30T10:44:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Same place, different view: How VPNs shape what we learn about the Internet",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: A study found that changing VPN providers can change where web traffic appears to be served, affecting conclusions about domestic infrastructure, cross-border traffic, and data localization.",
-    "pubDate": "2026-10-30T04:12:54.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
@@ -420,14 +428,6 @@
     "link": "https://www.arin.net/blog/2026/09/29/arin-bits-sept-2026/",
     "description": "The days may be shortening as we enter fall at ARIN HQ in Virginia, but we’re not slowing down the steady pace of changes, upgrades, and outreach that cropped up throughout July, August, and September. We’ve gathered the season’s key developments and upcoming opportunities in thi…",
     "pubDate": "2026-09-29T13:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
-  },
-  {
-    "title": "Meet the 2026 ARIN Community Grant Recipients",
-    "link": "https://www.arin.net/blog/2026/09/23/grant-recipients-2026/",
-    "description": "We would like to congratulate the organizations receiving funding from the ARIN Community Grant Program this year! Senior Project Manager Amanda Gauldin shares details about their projects.",
-    "pubDate": "2026-09-23T15:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
   },
