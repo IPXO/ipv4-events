@@ -1,11 +1,51 @@
 [
   {
+    "title": "Kitesurf is now open source",
+    "link": "https://blog.cloudflare.com/kitesurf/",
+    "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+    "pubDate": "2026-11-13T20:20:21.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+    "link": "https://github.com/Autumn-27",
+    "description": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+    "pubDate": "2026-11-13T19:26:07.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Global Domain Activity Trends Seen in Q3 2026",
+    "link": "https://circleid.com/posts/global&#45;domain&#45;activity&#45;trends&#45;seen&#45;in&#45;q3&#45;2026",
+    "description": "Global new domain registrations rose 16.8% to more than 35.1 million in Q3 2026, while WhoisXML API identified over 8.2 million potentially malicious registrations and reported shifts in leading TLDs and DNS activity.",
+    "pubDate": "2026-11-13T16:08:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+    "link": "https://cloudflare.net/news/news-details/2026/More-than-10-Million-Developers-Are-Building-on-Cloudflare/",
+    "description": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+    "pubDate": "2026-11-13T14:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "Could pigeons deliver the Internet?",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: What happens when we replace network cables with carrier pigeons? We worked out how many birds you would need.",
     "pubDate": "2026-11-12T23:37:47.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
+  },
+  {
+    "title": "Post-Quantum Authentication: Lessons from Prague",
+    "link": "http://www.ietf.org/blog/iab-pq-workshop-impressions/",
+    "description": "In October, the Internet Architecture Board (IAB) held a two-day workshop in Prague with people who are deploying post-quantum authentication. These are the first impressions from the co-chairs, ahead of the full workshop report.",
+    "pubDate": "2026-11-12T23:16:00.000Z",
+    "source": "IETF",
+    "sourceIcon": "📋"
   },
   {
     "title": "Capture Before the Letter: What Recent UDRP Decisions Say About Website Evidence",
@@ -124,14 +164,6 @@
     "link": "https://circleid.com/posts/october&#45;2026&#45;ipv4&#45;market&#45;report&#45;broad&#45;based&#45;price&#45;gains&#45;extend&#45;recovery&#45;as&#45;large&#45;block&#45;discounts&#45;narrow",
     "description": "IPv4 prices rose across all major allocation categories in October as transaction volumes remained steady. Large-block prices continued their recovery, narrowing historical discounts and highlighting changing acquisition economics ahead of year-end.",
     "pubDate": "2026-11-10T16:51:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "GDTC 2026 to Focus on AI Data and Network Infrastructure in Beijing",
-    "link": "https://circleid.com/posts/gdtc&#45;2026&#45;to&#45;focus&#45;on&#45;ai&#45;data&#45;and&#45;network&#45;infrastructure&#45;in&#45;beijing",
-    "description": "The third Global Data Technology Conference will bring international technical organizations together in Beijing on December 9 to explore AI infrastructure, trusted data spaces, advanced networking, open standards, and global cooperation.",
-    "pubDate": "2026-11-10T16:50:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -280,36 +312,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-    "link": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
-    "description": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
-    "pubDate": "2026-10-30T17:38:50.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
-    "title": "Cloudflare services for private origins is now generally available",
-    "link": "https://developers.cloudflare.com/cloudflare-one/networks/connectivity-options/",
-    "description": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
-    "pubDate": "2026-10-30T14:23:43.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Suggested IETF 127 Sessions for Getting Familiar with New Topics",
     "link": "http://www.ietf.org/blog/ietf127-new-topics/",
     "description": "These IETF 127 meeting sessions are likely to include discussions and proposals that are accessible to a broad range of Internet technologists whether they are new to the IETF or long-time participants.",
     "pubDate": "2026-10-30T10:44:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-    "link": "https://www.cloudflare.com/cloudforce-one/",
-    "description": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
-    "pubDate": "2026-10-29T12:55:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
@@ -468,14 +476,6 @@
     "link": "http://www.ietf.org/blog/iab-pq-workshop-cfp/",
     "description": "Post-quantum key establishment has moved from standards into deployment. Post-quantum authentication has not moved nearly as far, and specification work is no longer the only constraint. The IAB is holding a workshop in Prague on 11 and 12 October 2026 to bring deployment experie…",
     "pubDate": "2026-08-27T18:16:00.000Z",
-    "source": "IETF",
-    "sourceIcon": "📋"
-  },
-  {
-    "title": "IETF 126 post-meeting survey: what we heard",
-    "link": "http://www.ietf.org/blog/ietf126-survey/",
-    "description": "The IETF 126 Vienna meeting was held 18-24 July 2026 and the results of the post-meeting survey are now available.",
-    "pubDate": "2026-08-27T16:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
   }
