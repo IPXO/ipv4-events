@@ -1,5 +1,21 @@
 [
   {
+    "title": "The 2026 New gTLD Round: More Domain Names, but What Do Internet Users Actually Gain?",
+    "link": "https://circleid.com/posts/the&#45;2026&#45;new&#45;gtld&#45;round&#45;more&#45;domain&#45;names&#45;but&#45;what&#45;do&#45;internet&#45;users&#45;actually&#45;gain",
+    "description": "As ICANN advances its 2026 new gTLD round, questions remain about whether expanding domain choices will deliver measurable benefits in affordability, multilingual accessibility, security, and meaningful Internet participation.",
+    "pubDate": "2026-11-14T18:16:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "FAA Nationwide Ground Stop Raises Concerns Over Aging Telecommunications Infrastructure",
+    "link": "https://circleid.com/posts/faa&#45;nationwide&#45;ground&#45;stop&#45;raises&#45;concerns&#45;over&#45;aging&#45;telecommunications&#45;infrastructure",
+    "description": "A nationwide US aviation shutdown exposed potential weaknesses in aging telecommunications infrastructure. Officials suspect overloaded network equipment, but the cause remains unconfirmed as scrutiny grows over modernization and network resilience.",
+    "pubDate": "2026-11-14T13:37:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Kitesurf is now open source",
     "link": "https://blog.cloudflare.com/kitesurf/",
     "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
@@ -148,22 +164,6 @@
     "link": "https://circleid.com/posts/icanns&#45;community&#45;tld&#45;policy&#45;faces&#45;renewed&#45;scrutiny&#45;as&#45;2026&#45;gtld&#45;round&#45;advances",
     "description": "BRS Media is urging ICANN to assess whether community domains approved in the 2012 new gTLD round have served their intended communities, as concerns over preferential treatment resurface in the 2026 application round.",
     "pubDate": "2026-11-10T18:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Earth Sirrush Espionage Tool Evolution: DNS Facts Unveiled",
-    "link": "https://circleid.com/posts/earth&#45;sirrush&#45;espionage&#45;tool&#45;evolution&#45;dns&#45;facts&#45;unveiled",
-    "description": "A DNS investigation into the Russia-aligned Earth Sirrush espionage campaign identifies potentially malicious domains, historical infrastructure connections and 95 IP addresses belonging to possible victims of attacks targeting Ukrainian government, defense and logistics organiza…",
-    "pubDate": "2026-11-10T18:36:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "October 2026 IPv4 Market Report: Broad-Based Price Gains Extend Recovery as Large-Block Discounts Narrow",
-    "link": "https://circleid.com/posts/october&#45;2026&#45;ipv4&#45;market&#45;report&#45;broad&#45;based&#45;price&#45;gains&#45;extend&#45;recovery&#45;as&#45;large&#45;block&#45;discounts&#45;narrow",
-    "description": "IPv4 prices rose across all major allocation categories in October as transaction volumes remained steady. Large-block prices continued their recovery, narrowing historical discounts and highlighting changing acquisition economics ahead of year-end.",
-    "pubDate": "2026-11-10T16:51:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
