@@ -1,5 +1,53 @@
 [
   {
+    "title": "Solar photovoltaics for Internet resilience (Part 2): Choosing suppliers and components",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Choosing a solar PV supplier involves more than comparing prices. Ask the right questions about support, cybersecurity, system design, and installation quality to ensure your system remains reliable for years to come.",
+    "pubDate": "2026-11-16T22:36:10.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "ICANN to Test FBI and INTERPOL Authentication Systems for Domain Registration Data Requests",
+    "link": "https://circleid.com/posts/icann&#45;to&#45;test&#45;fbi&#45;and&#45;interpol&#45;authentication&#45;systems&#45;for&#45;domain&#45;registration&#45;data&#45;requests",
+    "description": "ICANN will test FBI and INTERPOL identity systems to authenticate law enforcement requests for nonpublic domain registration data, supporting a future 24-hour response requirement for urgent disclosures.",
+    "pubDate": "2026-11-16T19:44:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS-OARC 47 Highlights Rising Query Volumes and Post-Quantum DNSSEC Challenges",
+    "link": "https://circleid.com/posts/dns&#45;oarc&#45;47&#45;highlights&#45;rising&#45;query&#45;volumes&#45;and&#45;post&#45;quantum&#45;dnssec&#45;challenges",
+    "description": "Research presented at DNS-OARC 47 reveals rising DNS query duplication, obstacles to post-quantum DNSSEC deployment and unresolved delegation security questions, alongside new approaches to improving resolver performance and efficiency.",
+    "pubDate": "2026-11-16T19:37:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Why Later Trademarks and a Website Disclaimer Failed in a UDRP Dispute",
+    "link": "https://circleid.com/posts/why&#45;later&#45;trademarks&#45;and&#45;a&#45;website&#45;disclaimer&#45;failed&#45;in&#45;a&#45;udrp&#45;dispute",
+    "description": "A WIPO panel ordered two domain transfers after finding that later trademark registrations and corporate formation did not establish legitimate interests, while a website disclaimer failed to overcome evidence of bad-faith targeting.",
+    "pubDate": "2026-11-16T19:27:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How DNS Hosting Defaults Shape DNSSEC Adoption",
+    "link": "https://circleid.com/posts/how&#45;dns&#45;hosting&#45;defaults&#45;shape&#45;dnssec&#45;adoption",
+    "description": "A study of 257 million gTLD domains finds DNSSEC adoption concentrated among providers that enable signing by default, suggesting that DNS hosting practices and automated delegation management matter more than individual registrant decisions.",
+    "pubDate": "2026-11-16T19:25:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Hot topics in DNS from DNS OARC 47",
+    "link": "https://blog.apnic.net/category/events/",
+    "description": "Hot topics from two days of meetings about the current state of the DNS at OARC 47.",
+    "pubDate": "2026-11-16T05:53:06.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "The 2026 New gTLD Round: More Domain Names, but What Do Internet Users Actually Gain?",
     "link": "https://circleid.com/posts/the&#45;2026&#45;new&#45;gtld&#45;round&#45;more&#45;domain&#45;names&#45;but&#45;what&#45;do&#45;internet&#45;users&#45;actually&#45;gain",
     "description": "As ICANN advances its 2026 new gTLD round, questions remain about whether expanding domain choices will deliver measurable benefits in affordability, multilingual accessibility, security, and meaningful Internet participation.",
@@ -136,38 +184,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "What a Decade of DNS Query Data Tells Us About the Next Algorithm Transition",
-    "link": "https://circleid.com/posts/what&#45;a&#45;decade&#45;of&#45;dns&#45;query&#45;data&#45;tells&#45;us&#45;about&#45;the&#45;next&#45;algorithm&#45;transition",
-    "description": "Monthly ICANN activity reports from top-level domain registries provide a rare, consistent, long-term view of DNS query traffic across registries, offering publicly available, operator-reported data on query volumes over UDP and TCP.",
-    "pubDate": "2026-11-10T22:05:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Every Agent Needs a Name, and the Domain Industry Would Like to Sell It",
-    "link": "https://circleid.com/posts/every&#45;agent&#45;needs&#45;a&#45;name&#45;and&#45;the&#45;domain&#45;industry&#45;would&#45;like&#45;to&#45;sell&#45;it",
-    "description": "Competing DNS-based proposals seek to establish verifiable identities for AI agents, raising questions about accountability, interoperability, and the commercial interests of domain industry players positioning themselves to shape the emerging infrastructure for agent identity.",
-    "pubDate": "2026-11-10T21:55:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "The Hilco Global IPv4.Global Practice Releases ProVision 9.0, Expanding Network Management, Automation and Administrative Control",
-    "link": "https://circleid.com/posts/the&#45;hilco&#45;global&#45;ipv4.global&#45;practice&#45;releases&#45;provision&#45;9.0&#45;expanding&#45;network&#45;management&#45;automation&#45;and&#45;administrative&#45;control",
-    "description": "Hilco Global's IPv4.Global practice has released ProVision 9.0, introducing enhanced IP address management, DNS and DHCP administration, peering automation and security controls to help organizations manage increasingly complex network infrastructure.",
-    "pubDate": "2026-11-10T18:55:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "ICANN&#8217;s Community TLD Policy Faces Renewed Scrutiny as 2026 gTLD Round Advances",
-    "link": "https://circleid.com/posts/icanns&#45;community&#45;tld&#45;policy&#45;faces&#45;renewed&#45;scrutiny&#45;as&#45;2026&#45;gtld&#45;round&#45;advances",
-    "description": "BRS Media is urging ICANN to assess whether community domains approved in the 2012 new gTLD round have served their intended communities, as concerns over preferential treatment resurface in the 2026 application round.",
-    "pubDate": "2026-11-10T18:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "The Machine Majority: What Bot Traffic Looks Like from Central Asia",
     "link": "https://labs.ripe.net/author/saber-mesgari/the-machine-majority-what-bot-traffic-looks-like-from-central-asia/",
     "description": "Most web pages are now fetched by machines rather than people, at least on the networks we can measure. I pulled data for thirteen countries across Central Asia and the Caucasus to see what that looks like from our corner of the world, and what it means for those of us who run ne…",
@@ -288,28 +304,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Restating the case for DNSSEC",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Does TLS make DNSSEC unnecessary? An examination of common DNSSEC assumptions challenges that argument and considers DNSSEC's role in establishing trust, the risks of partial deployment, and the evidence from real-world outages.",
-    "pubDate": "2026-11-03T03:41:45.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "How we halved DNS build delay and cut memory use by 85%",
     "link": "https://blog.cloudflare.com/dns-build-improvement/",
     "description": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
     "pubDate": "2026-11-02T14:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "APRICOT 2027 registration is now open, with discounts for APNIC Members",
-    "link": "https://blog.apnic.net/category/events/",
-    "description": "Registration for the APRICOT 2027 Summit, being held from 24 February to 4 March 2027 in Hong Kong SAR, China, is now open. All registrations and payments completed on or before 15 November 2026 receive the early bird rate.",
-    "pubDate": "2026-11-02T05:20:56.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Suggested IETF 127 Sessions for Getting Familiar with New Topics",
