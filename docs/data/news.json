@@ -1,5 +1,69 @@
 [
   {
+    "title": "Without a lawsuit, Linux might not have happened",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Did a UNIX lawsuit help Linux become the dominant operating-system kernel it is today? The history of BSD, Linux, and the early Internet makes for a fascinating read.",
+    "pubDate": "2026-11-18T22:51:18.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+    "link": "https://developers.cloudflare.com/workers-ai/models/clairic",
+    "description": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight rel…",
+    "pubDate": "2026-11-18T22:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Why We Changed Our Minds About New TLDs",
+    "link": "https://circleid.com/posts/why&#45;we&#45;changed&#45;our&#45;minds&#45;about&#45;new&#45;tlds",
+    "description": "After criticizing the 2014 new TLD expansion, a DNS industry veteran explains how AI agents, decentralized identity and emerging Internet protocols have changed his perspective on the potential value of new namespaces.",
+    "pubDate": "2026-11-18T18:46:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How IPv4 Became An Asset Class Most Technology Leaders Still Misread",
+    "link": "https://circleid.com/posts/how&#45;ipv4&#45;became&#45;an&#45;asset&#45;class&#45;most&#45;technology&#45;leaders&#45;still&#45;misread",
+    "description": "IPv4 address space has become a traded asset with fluctuating prices, deployment costs and regional transfer restrictions. Infrastructure operators must reconsider how they acquire, lease and manage addresses as a scarce resource.",
+    "pubDate": "2026-11-18T15:53:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "France&#8217;s Proposed DNS Blocks Draw Criticism Over Internet Access and Free Expression",
+    "link": "https://circleid.com/posts/frances&#45;proposed&#45;dns&#45;blocks&#45;draw&#45;criticism&#45;over&#45;internet&#45;access&#45;and&#45;free&#45;expression",
+    "description": "French authorities considered DNS-level restrictions on major social media platforms during protests, raising concerns about technical effectiveness, collateral disruption to Internet access and the legal limits of government intervention.",
+    "pubDate": "2026-11-18T15:48:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+    "link": "https://calif.io/java4shell/",
+    "description": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+    "pubDate": "2026-11-18T14:52:10.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Who’s Delivering GTA 6? A RIPE Atlas Measurement Story",
+    "link": "https://labs.ripe.net/author/emileaben/whos-delivering-gta-6-a-ripe-atlas-measurement-story/",
+    "description": "How do you deliver a 200 GB game to millions of players? As GTA 6 pre-loads got underway last week, we turned to RIPE Atlas to examine how DNS and content delivery networks help PlayStation and Xbox share the load.",
+    "pubDate": "2026-11-18T13:48:32.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "Grant Report: Markdown Support for GNU AutoGen",
+    "link": "https://www.arin.net/blog/2026/11/18/2025-grant-report-NTF/",
+    "description": "Network Time Foundation received a 2025 ARIN Community Grant to add Markdown output to GNU AutoGen, the tool that generates the NTP Project’s documentation. NTF President Harlan Stenn reports on what the team accomplished, what got in the way, and what comes next.",
+    "pubDate": "2026-11-18T13:00:00.000Z",
+    "source": "ARIN",
+    "sourceIcon": "🌎"
+  },
+  {
     "title": "Quad9’s withdrawal from France: A canary in the coal mine",
     "link": "https://quad9.net/news/blog/au-revoir-france/",
     "description": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
@@ -80,22 +144,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "The 2026 New gTLD Round: More Domain Names, but What Do Internet Users Actually Gain?",
-    "link": "https://circleid.com/posts/the&#45;2026&#45;new&#45;gtld&#45;round&#45;more&#45;domain&#45;names&#45;but&#45;what&#45;do&#45;internet&#45;users&#45;actually&#45;gain",
-    "description": "As ICANN advances its 2026 new gTLD round, questions remain about whether expanding domain choices will deliver measurable benefits in affordability, multilingual accessibility, security, and meaningful Internet participation.",
-    "pubDate": "2026-11-14T18:16:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "FAA Nationwide Ground Stop Raises Concerns Over Aging Telecommunications Infrastructure",
-    "link": "https://circleid.com/posts/faa&#45;nationwide&#45;ground&#45;stop&#45;raises&#45;concerns&#45;over&#45;aging&#45;telecommunications&#45;infrastructure",
-    "description": "A nationwide US aviation shutdown exposed potential weaknesses in aging telecommunications infrastructure. Officials suspect overloaded network equipment, but the cause remains unconfirmed as scrutiny grows over modernization and network resilience.",
-    "pubDate": "2026-11-14T13:37:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Kitesurf is now open source",
     "link": "https://blog.cloudflare.com/kitesurf/",
     "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
@@ -110,14 +158,6 @@
     "pubDate": "2026-11-13T19:26:07.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Global Domain Activity Trends Seen in Q3 2026",
-    "link": "https://circleid.com/posts/global&#45;domain&#45;activity&#45;trends&#45;seen&#45;in&#45;q3&#45;2026",
-    "description": "Global new domain registrations rose 16.8% to more than 35.1 million in Q3 2026, while WhoisXML API identified over 8.2 million potentially malicious registrations and reported shifts in leading TLDs and DNS activity.",
-    "pubDate": "2026-11-13T16:08:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
@@ -280,36 +320,12 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "See the agents, set the terms: New visibility and control for personal agents",
-    "link": "https://radar.cloudflare.com/bots/directory",
-    "description": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
-    "pubDate": "2026-11-04T14:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "The RIPE Chair Team Reports - Highlights from RIPE 93",
     "link": "https://labs.ripe.net/author/mirjam_kuhne/the-ripe-chair-team-reports-highlights-from-ripe-93/",
     "description": "From digital independence and practical AI to inclusion and research, RIPE 93 gave the community plenty to discuss and act on. The RIPE Chair Team shares personal highlights from Sofia and ways to get involved in the work ahead.",
     "pubDate": "2026-11-04T10:31:43.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Solar PV for Internet resilience (Part 1): Designing your system",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Solar photovoltaics and battery storage can provide reliable power for network infrastructure, even in remote locations. Here’s what’s good to know before selecting equipment.",
-    "pubDate": "2026-11-04T04:16:29.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
-    "link": "https://radar.cloudflare.com/zero-wire",
-    "description": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
-    "pubDate": "2026-11-03T14:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Suggested IETF 127 Sessions for Getting Familiar with New Topics",
@@ -368,14 +384,6 @@
     "sourceIcon": "🌍"
   },
   {
-    "title": "DNA Progress, NIS2 Amendments, CSA 2.0 and More - EU Regulation Update October 2026",
-    "link": "https://labs.ripe.net/author/romain-bosc/dna-progress-nis2-amendments-csa-20-and-more-eu-regulation-update-october-2026/",
-    "description": "As sweeping regulatory files move through the legislative pipeline, co-legislators are actively shaping their positions in the European Parliament and Council. Meanwhile, the Commission keeps laying the groundwork for new initiatives ahead. Here’s our latest overview of key regul…",
-    "pubDate": "2026-10-21T07:47:42.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
-  },
-  {
     "title": "Tips and Tricks for Making the Most of ARIN 58",
     "link": "https://www.arin.net/blog/2026/10/14/arin-58-tips-and-tricks/",
     "description": "ARIN 58 is almost here — and whether you’re joining us in Miami or signing on from your living room, a little preparation goes a long way. Here’s your TL;DR guide to everything you need to know before ARIN 58 kicks off next week on Thursday, 22 October.",
@@ -430,14 +438,6 @@
     "pubDate": "2026-09-30T19:35:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "ARIN Bits: September 2026",
-    "link": "https://www.arin.net/blog/2026/09/29/arin-bits-sept-2026/",
-    "description": "The days may be shortening as we enter fall at ARIN HQ in Virginia, but we’re not slowing down the steady pace of changes, upgrades, and outreach that cropped up throughout July, August, and September. We’ve gathered the season’s key developments and upcoming opportunities in thi…",
-    "pubDate": "2026-09-29T13:00:00.000Z",
-    "source": "ARIN",
-    "sourceIcon": "🌎"
   },
   {
     "title": "IETF email infrastructure transition completed on 11 September",
