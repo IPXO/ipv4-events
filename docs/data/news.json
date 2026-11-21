@@ -1,5 +1,45 @@
 [
   {
+    "title": "Japan Weighs ISP Blocking of Websites Publishing Stolen Personal Data",
+    "link": "https://circleid.com/posts/japan&#45;weighs&#45;isp&#45;blocking&#45;of&#45;websites&#45;publishing&#45;stolen&#45;personal&#45;data",
+    "description": "Japan is examining ISP blocking, domain suspensions and website takedowns to limit the spread of stolen personal data, prompting questions about constitutional protections, effectiveness and responsibilities for Internet intermediaries.",
+    "pubDate": "2026-11-21T00:20:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Where Does the Trusted Notifier Fit? Four Abuse Mitigation Models and the Glue Between Them",
+    "link": "https://circleid.com/posts/where&#45;does&#45;the&#45;trusted&#45;notifier&#45;fit&#45;four&#45;abuse&#45;mitigation&#45;models",
+    "description": "Seven months after launch, the Trusted Notifier Network is presented as a fourth abuse-mitigation model, designed to align the interests of victims, notifiers and Internet intermediaries through accountability, rewards and indemnity.",
+    "pubDate": "2026-11-20T21:21:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "ICANN Broadens DNS Symposium as ICANN-Tech",
+    "link": "https://circleid.com/posts/icann&#45;broadens&#45;dns&#45;symposium&#45;as&#45;icann&#45;tech",
+    "description": "ICANN is replacing its DNS Symposium with ICANN-Tech, expanding the forum to cover routing, Internet measurement, cryptography and emerging identifier technologies, alongside new technical tutorials and a showcase of ICANN and IANA work.",
+    "pubDate": "2026-11-20T20:57:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+    "link": "https://github.com/ruby/ruby/security/advisories/GHSA-34m4-m9fh-gqp5",
+    "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+    "pubDate": "2026-11-20T20:24:38.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+    "link": "https://depthfirst.com/research/phpaftershell",
+    "description": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+    "pubDate": "2026-11-20T20:00:45.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
     "title": "What small ISPs told me about IPv6 adoption",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: Whenever I talked to small ISPs in Bangladesh, I asked them what was stopping them from deploying IPv6. Their answers surprised me.",
@@ -112,14 +152,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "France&#8217;s Proposed DNS Blocks Draw Criticism Over Internet Access and Free Expression",
-    "link": "https://circleid.com/posts/frances&#45;proposed&#45;dns&#45;blocks&#45;draw&#45;criticism&#45;over&#45;internet&#45;access&#45;and&#45;free&#45;expression",
-    "description": "French authorities considered DNS-level restrictions on major social media platforms during protests, raising concerns about technical effectiveness, collateral disruption to Internet access and the legal limits of government intervention.",
-    "pubDate": "2026-11-18T15:48:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
     "link": "https://calif.io/java4shell/",
     "description": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
@@ -150,22 +182,6 @@
     "pubDate": "2026-11-17T20:24:27.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "IP for Africa, Not Africa for AFRINIC: An IP Address Has No Continent",
-    "link": "https://circleid.com/posts/ip&#45;for&#45;africa&#45;not&#45;africa&#45;for&#45;afrinic&#45;an&#45;ip&#45;address&#45;has&#45;no&#45;continent",
-    "description": "Challenging AFRINIC's restrictions on IPv4 transfers, Lu Heng argues that regional registries should safeguard address records without controlling ownership, mobility or commercial rights, questioning whether geographic stewardship has become institutional authority.",
-    "pubDate": "2026-11-17T19:32:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Microsoft 365 Outage Raises Questions About Africa&#8217;s Digital Sovereignty",
-    "link": "https://circleid.com/posts/microsoft&#45;365&#45;outage&#45;raises&#45;questions&#45;about&#45;africas&#45;digital&#45;sovereignty",
-    "description": "A Microsoft 365 disruption highlights Africa's dependence on foreign cloud platforms, raising questions about digital sovereignty, operational control and the infrastructure resilience needed to keep essential services running during outages.",
-    "pubDate": "2026-11-17T18:45:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Solar photovoltaics for Internet resilience (Part 2): Choosing suppliers and components",
@@ -256,14 +272,6 @@
     "sourceIcon": "📋"
   },
   {
-    "title": "Choosing QuePaxa, an unusual consensus algorithm",
-    "link": "https://blog.cloudflare.com/meerkat-introduction/",
-    "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
-    "pubDate": "2026-11-11T14:24:46.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "SIDN publishes RSSAC002 traffic metrics for .nl",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
@@ -286,14 +294,6 @@
     "pubDate": "2026-11-10T00:00:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "Launching the Vite Ecosystem Fund",
-    "link": "https://blog.cloudflare.com/voidzero-joins-cloudflare/#what-this-means-for-vite",
-    "description": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
-    "pubDate": "2026-11-09T13:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
   },
   {
     "title": "Your Router Trusts Its Validator. But Who's Watching the Validator?",
