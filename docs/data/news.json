@@ -1,5 +1,21 @@
 [
   {
+    "title": "Your elected leaders: Oanh Nguyen, NIR SIG Chair",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Oanh Nguyen's journey through the APNIC community has taken her from learning Internet resource management to sharing her experience and helping others participate and lead. She reflects on the value of capacity building, collaboration, and creating pathways for the next generati…",
+    "pubDate": "2026-11-23T04:10:22.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Beyond Transparency: How AI Is Reshaping Vulnerability Disclosure and Operational Trust",
+    "link": "https://circleid.com/posts/beyond&#45;transparency&#45;how&#45;ai&#45;is&#45;reshaping&#45;vulnerability&#45;disclosure&#45;and&#45;operational&#45;trust",
+    "description": "As AI accelerates vulnerability exploitation, software vendors face growing pressure to limit disclosure. A proposed three-tier framework seeks to balance security, operational transparency and equitable access to critical vulnerability intelligence.",
+    "pubDate": "2026-11-22T14:09:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Japan Weighs ISP Blocking of Websites Publishing Stolen Personal Data",
     "link": "https://circleid.com/posts/japan&#45;weighs&#45;isp&#45;blocking&#45;of&#45;websites&#45;publishing&#45;stolen&#45;personal&#45;data",
     "description": "Japan is examining ISP blocking, domain suspensions and website takedowns to limit the spread of stolen personal data, prompting questions about constitutional protections, effectiveness and responsibilities for Internet intermediaries.",
@@ -140,14 +156,6 @@
     "link": "https://circleid.com/posts/why&#45;we&#45;changed&#45;our&#45;minds&#45;about&#45;new&#45;tlds",
     "description": "After criticizing the 2014 new TLD expansion, a DNS industry veteran explains how AI agents, decentralized identity and emerging Internet protocols have changed his perspective on the potential value of new namespaces.",
     "pubDate": "2026-11-18T18:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "How IPv4 Became An Asset Class Most Technology Leaders Still Misread",
-    "link": "https://circleid.com/posts/how&#45;ipv4&#45;became&#45;an&#45;asset&#45;class&#45;most&#45;technology&#45;leaders&#45;still&#45;misread",
-    "description": "IPv4 address space has become a traded asset with fluctuating prices, deployment costs and regional transfer restrictions. Infrastructure operators must reconsider how they acquire, lease and manage addresses as a scarce resource.",
-    "pubDate": "2026-11-18T15:53:00.000Z",
     "source": "CircleID",
     "sourceIcon": "🔵"
   },
@@ -302,14 +310,6 @@
     "pubDate": "2026-11-09T10:59:54.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "The DOs and don&#8217;ts of post-quantum DNSSEC",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Post-quantum signatures could dramatically enlarge DNSSEC responses, shifting many queries from UDP to TCP. Should resolvers limit unnecessary DNSSEC data, or is greater TCP use inevitable?",
-    "pubDate": "2026-11-09T05:34:30.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "The Internet's New Factories",
