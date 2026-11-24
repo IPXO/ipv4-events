@@ -1,5 +1,61 @@
 [
   {
+    "title": "A new APNIC Academy experience is coming on 30 November 2026",
+    "link": "https://blog.apnic.net/category/development/",
+    "description": "On 30 November 2026, APNIC Academy 3.0 will launch with an improved learning experience shaped by learner feedback, making it easier to find training, access resources, and develop skills in core Internet technologies.",
+    "pubDate": "2026-11-24T04:00:00.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Solar PV for Internet resilience (Part 3): Installing and operating your system",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "Guest Post: Installation is only the beginning of a successful solar PV project. Careful commissioning, ongoing monitoring, and learning how your system behaves are essential to achieving long-term reliability and resilience.",
+    "pubDate": "2026-11-23T22:51:47.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Older Than the Trademark: Three Reverse Domain Name Hijacking Cases",
+    "link": "https://circleid.com/posts/older&#45;than&#45;the&#45;trademark&#45;three&#45;reverse&#45;domain&#45;name&#45;hijacking&#45;cases",
+    "description": "Three 2026 UDRP decisions found reverse domain name hijacking where complainants sought domains registered before their trademark rights existed, highlighting the importance of acquisition dates, documentary evidence and the limits of trademark-based claims.",
+    "pubDate": "2026-11-23T14:40:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Africa&#8217;s Digital Sovereignty: Who Will Build the Infrastructure, and Who Will Control It?",
+    "link": "https://circleid.com/posts/africas&#45;digital&#45;sovereignty&#45;who&#45;will&#45;build&#45;the&#45;infrastructure&#45;and&#45;who&#45;will&#45;control&#45;it",
+    "description": "Africa's digital sovereignty depends on more than local data storage. Control over submarine cables, cloud infrastructure and Internet governance will determine whether countries can reduce dependencies and shape their digital development.",
+    "pubDate": "2026-11-23T14:27:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Probing DNS at Cloudflare",
+    "link": "https://blog.cloudflare.com/20-percent-internet-upgrade/#step-2-testing-and-automated-rollouts",
+    "description": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+    "pubDate": "2026-11-23T14:00:00.000Z",
+    "source": "Cloudflare",
+    "sourceIcon": "☁️"
+  },
+  {
+    "title": "Would You Have Noticed? A Blind Test of BGP Anomaly Detection",
+    "link": "https://labs.ripe.net/author/shadi-motaali/would-you-have-noticed-a-blind-test-of-bgp-anomaly-detection/",
+    "description": "We built a BGP anomaly detector on public RIPE RIS data and tested it on the 2025 Iberian blackout and in a blind test with a network's operations team. It holds up within one network, but not across networks of different shapes. We describe the results and ask for operator input…",
+    "pubDate": "2026-11-23T09:29:10.000Z",
+    "source": "RIPE Labs",
+    "sourceIcon": "🌍"
+  },
+  {
+    "title": "The supply chain risk beneath our network services: Maybe it’s us",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "A vulnerability does not have to exist in BGP, DNS, or another application to put those services at risk. Vulnerabilities in the underlying network stack remind operators that dependencies they rarely think about can become part of their attack surface.",
+    "pubDate": "2026-11-23T05:39:14.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "Your elected leaders: Oanh Nguyen, NIR SIG Chair",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Oanh Nguyen's journey through the APNIC community has taken her from learning Internet resource management to sharing her experience and helping others participate and lead. She reflects on the value of capacity building, collaboration, and creating pathways for the next generati…",
@@ -112,14 +168,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "GTA VI Launch Pushes Internet Traffic to Record Highs Across Global Networks",
-    "link": "https://circleid.com/posts/gta&#45;vi&#45;launch&#45;pushes&#45;internet&#45;traffic&#45;to&#45;record&#45;highs&#45;across&#45;global&#45;networks",
-    "description": "Internet exchanges and broadband providers recorded unprecedented traffic during the GTA VI launch, with DE-CIX reaching 33.03 Tbps worldwide as pre-downloads helped distribute demand across networks.",
-    "pubDate": "2026-11-19T15:42:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
     "link": "https://blog.cloudflare.com/helping-protect-the-2025-moldova-elections/",
     "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
@@ -150,14 +198,6 @@
     "pubDate": "2026-11-18T22:00:00.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Why We Changed Our Minds About New TLDs",
-    "link": "https://circleid.com/posts/why&#45;we&#45;changed&#45;our&#45;minds&#45;about&#45;new&#45;tlds",
-    "description": "After criticizing the 2014 new TLD expansion, a DNS industry veteran explains how AI agents, decentralized identity and emerging Internet protocols have changed his perspective on the potential value of new namespaces.",
-    "pubDate": "2026-11-18T18:46:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
@@ -224,14 +264,6 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
-    "link": "https://cloudflare.net/news/news-details/2026/More-than-10-Million-Developers-Are-Building-on-Cloudflare/",
-    "description": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
-    "pubDate": "2026-11-13T14:00:00.000Z",
-    "source": "Cloudflare",
-    "sourceIcon": "☁️"
-  },
-  {
     "title": "Could pigeons deliver the Internet?",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "Guest Post: What happens when we replace network cables with carrier pigeons? We worked out how many birds you would need.",
@@ -256,36 +288,12 @@
     "sourceIcon": "🌎"
   },
   {
-    "title": "2026 APNIC Survey: Executive Council Response",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "The 2026 APNIC Survey highlights strong confidence in APNIC’s services and the priorities of Members and stakeholders across the region.",
-    "pubDate": "2026-11-12T04:50:28.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
-    "title": "[Podcast] Submarine cable resilience and economics",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "How resilient is the global submarine cable network? Geoff Huston explores its evolution, vulnerabilities, economics, and who has an interest in keeping it running.",
-    "pubDate": "2026-11-11T23:01:13.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "What’s up with email at IETF 127",
     "link": "http://www.ietf.org/blog/ietf127-email/",
     "description": "Email is the oldest widely used application on the Internet, but it continues to evolve. At IETF 127 four working groups will meet to improve the security and usability of mail, and two Birds-of-a-Feather sessions propose improvements in mail operations and the way users sign up …",
     "pubDate": "2026-11-11T15:35:00.000Z",
     "source": "IETF",
     "sourceIcon": "📋"
-  },
-  {
-    "title": "SIDN publishes RSSAC002 traffic metrics for .nl",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
-    "pubDate": "2026-11-11T01:48:26.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "The Machine Majority: What Bot Traffic Looks Like from Central Asia",
@@ -366,14 +374,6 @@
     "pubDate": "2026-10-23T12:00:00.000Z",
     "source": "ARIN",
     "sourceIcon": "🌎"
-  },
-  {
-    "title": "CAPIF 5 Meeting Report: More Local Routes, Stronger Regional Connections",
-    "link": "https://labs.ripe.net/author/anastasiya-pak/capif-5-meeting-report-more-local-routes-stronger-regional-connections/",
-    "description": "More local peering, stronger routing security and a shared ambition to improve connectivity: CAPIF 5 brought Central Asia’s Internet community to Dushanbe to compare progress, discuss persistent challenges and learn from the people building the region’s networks.",
-    "pubDate": "2026-10-23T07:40:00.000Z",
-    "source": "RIPE Labs",
-    "sourceIcon": "🌍"
   },
   {
     "title": "ARIN 58 Day 1 Recap",
