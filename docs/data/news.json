@@ -1,5 +1,45 @@
 [
   {
+    "title": "For want of a nail: Supply chain dynamics for techies",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "How the community is at risk of losing some of the inter-dependencies amongst us, due to their informality and our age.",
+    "pubDate": "2026-11-25T01:19:41.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "Quad9 Withdraws DNS Service From France, Warns of Cross-Border Disruptions",
+    "link": "https://circleid.com/posts/quad9&#45;withdraws&#45;dns&#45;service&#45;from&#45;france&#45;warns&#45;of&#45;cross&#45;border&#45;disruptions",
+    "description": "The Swiss nonprofit has stopped resolving DNS queries from users identified as being in France following a copyright enforcement dispute, with its IP geolocation-based restrictions potentially affecting users beyond French borders.",
+    "pubDate": "2026-11-24T16:38:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Filibuster in Geneva: AI, Autonomous Weapon Systems and the Limits of Diplomacy",
+    "link": "https://circleid.com/posts/filibuster&#45;in&#45;geneva&#45;ai&#45;autonomous&#45;weapon&#45;systems&#45;and&#45;the&#45;limits&#45;of&#45;diplomacy",
+    "description": "International efforts to regulate autonomous weapons systems have stalled in Geneva, exposing divisions over binding international law as military AI advances and concerns grow over the diminishing role of human control in warfare.",
+    "pubDate": "2026-11-24T14:56:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Network Management Has a Manual Problem: Here&#8217;s How the Industry Is Fixing It",
+    "link": "https://circleid.com/posts/network&#45;management&#45;has&#45;a&#45;manual&#45;problem&#45;heres&#45;how&#45;the&#45;industry&#45;is&#45;fixing&#45;it",
+    "description": "Fragmented monitoring tools, limited network visibility and manual processes are slowing incident response and hindering automation. Integrated management platforms offer a potential way to simplify operations and improve network resilience.",
+    "pubDate": "2026-11-24T14:25:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "China Challenges South Korea&#8217;s .HAN Domain Application Ahead of ICANN Review",
+    "link": "https://circleid.com/posts/china&#45;challenges&#45;south&#45;koreas&#45;.han&#45;domain&#45;application&#45;ahead&#45;of&#45;icann&#45;review",
+    "description": "South Korean registrar Gabia rejects Chinese objections to its proposed .HAN domain, citing shared linguistic conventions as ICANN evaluates the application ahead of a March 2027 objection deadline.",
+    "pubDate": "2026-11-24T14:07:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "A new APNIC Academy experience is coming on 30 November 2026",
     "link": "https://blog.apnic.net/category/development/",
     "description": "On 30 November 2026, APNIC Academy 3.0 will launch with an improved learning experience shaped by learner feedback, making it easier to find training, access resources, and develop skills in core Internet technologies.",
@@ -136,38 +176,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Why Current Certificate Status Matters for Private PKI",
-    "link": "https://circleid.com/posts/why&#45;current&#45;certificate&#45;status&#45;matters&#45;for&#45;private&#45;pki",
-    "description": "As security vulnerabilities increase, AI is accelerating exploitation. Cogent Security research, cited by Dark Reading, found that the average time from CVE publication to exploit development has dropped from 125 days to just half a day.",
-    "pubDate": "2026-11-19T19:57:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": ".com Domain Sales Reach Record $93.3 Million as .ai Volume Falls 82%",
-    "link": "https://circleid.com/posts/.com&#45;domain&#45;sales&#45;reach&#45;record&#45;93.3&#45;million&#45;as&#45;.ai&#45;volume&#45;falls&#45;82",
-    "description": "Escrow.com reports record .com sales of $93.3 million in Q3 2026, while .ai transaction volume fell 82%. Premium domain prices climbed even as overall payment volume declined.",
-    "pubDate": "2026-11-19T18:47:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "DNS and IP Blocking: Technical Limitations and Regulatory Challenges",
-    "link": "https://circleid.com/posts/dns&#45;and&#45;ip&#45;blocking&#45;technical&#45;limitations&#45;and&#45;regulatory&#45;challenges",
-    "description": "DNS and IP blocking can restrict access to illegal content without removing it. As European authorities consider faster blocking measures, infrastructure providers face growing concerns over proportionality, legal responsibility and unintended disruption.",
-    "pubDate": "2026-11-19T18:11:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "When a Researcher Sees Phishing and the Registrar Sees a 404",
-    "link": "https://circleid.com/posts/when&#45;a&#45;researcher&#45;sees&#45;phishing&#45;and&#45;the&#45;registrar&#45;sees&#45;a&#45;404",
-    "description": "Phishing evidence can disappear before registrars investigate. Using NiceNIC abuse data, the author argues that registrars should document their findings, assess ongoing risks and choose actions that stop harm without unnecessary disruption.",
-    "pubDate": "2026-11-19T16:02:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
     "link": "https://blog.cloudflare.com/helping-protect-the-2025-moldova-elections/",
     "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
@@ -262,14 +270,6 @@
     "pubDate": "2026-11-13T19:26:07.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "Could pigeons deliver the Internet?",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: What happens when we replace network cables with carrier pigeons? We worked out how many birds you would need.",
-    "pubDate": "2026-11-12T23:37:47.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Post-Quantum Authentication: Lessons from Prague",
