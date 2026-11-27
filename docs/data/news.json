@@ -1,5 +1,45 @@
 [
   {
+    "title": "Five things I learned in five years of attending APNIC conferences",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "Guest Post: Tsung-Yi condenses five years of learning into five simple lessons that show how the Internet really works.",
+    "pubDate": "2026-11-26T23:16:52.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "domain-set: Letting an Organization&#8217;s Domains Vouch for Each Other",
+    "link": "https://circleid.com/posts/domain&#45;set&#45;letting&#45;an&#45;organizations&#45;domains&#45;vouch&#45;for&#45;each&#45;other",
+    "description": "A proposed DNS-based mechanism would allow organizations to establish verifiable relationships between their domain names, potentially helping browsers, AI assistants and security tools distinguish legitimate websites from fraudulent lookalikes.",
+    "pubDate": "2026-11-26T20:31:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "FCC Authorizes SpaceX’s Million-Satellite Orbital Data Center Constellation",
+    "link": "https://circleid.com/posts/fcc&#45;authorizes&#45;spacexs&#45;million&#45;satellite&#45;orbital&#45;data&#45;center&#45;constellation",
+    "description": "US regulators have approved SpaceX's proposed orbital computing network, imposing spectrum restrictions, interference safeguards and deployment deadlines while questions remain over technical feasibility, orbital congestion and the protection of existing satellite networks.",
+    "pubDate": "2026-11-26T20:21:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "DNS topics at IETF 127",
+    "link": "https://blog.apnic.net/category/tech-matters/",
+    "description": "DNS highlights from IETF 127, ranging from a reserved private-use domain and post-quantum DNSSEC, to proposals to stop answering RRSIG and ANY queries and to revive resolverless DNS.",
+    "pubDate": "2026-11-26T07:03:21.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
+    "title": "2027 Activity Plan published",
+    "link": "https://blog.apnic.net/category/community/",
+    "description": "The 2027 APNIC Activity Plan is now available.",
+    "pubDate": "2026-11-26T06:38:59.000Z",
+    "source": "APNIC",
+    "sourceIcon": "🌏"
+  },
+  {
     "title": "[Podcast] The APNIC Honeynet in 2026",
     "link": "https://blog.apnic.net/category/tech-matters/",
     "description": "APNIC Senior Internet Security Specialist Adli Wahid returns to PING to discuss what the APNIC Honeynet is seeing in 2026 and how this data contributes to APNIC’s threat intelligence.",
@@ -144,22 +184,6 @@
     "sourceIcon": "🌏"
   },
   {
-    "title": "Beyond Transparency: How AI Is Reshaping Vulnerability Disclosure and Operational Trust",
-    "link": "https://circleid.com/posts/beyond&#45;transparency&#45;how&#45;ai&#45;is&#45;reshaping&#45;vulnerability&#45;disclosure&#45;and&#45;operational&#45;trust",
-    "description": "As AI accelerates vulnerability exploitation, software vendors face growing pressure to limit disclosure. A proposed three-tier framework seeks to balance security, operational transparency and equitable access to critical vulnerability intelligence.",
-    "pubDate": "2026-11-22T14:09:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Japan Weighs ISP Blocking of Websites Publishing Stolen Personal Data",
-    "link": "https://circleid.com/posts/japan&#45;weighs&#45;isp&#45;blocking&#45;of&#45;websites&#45;publishing&#45;stolen&#45;personal&#45;data",
-    "description": "Japan is examining ISP blocking, domain suspensions and website takedowns to limit the spread of stolen personal data, prompting questions about constitutional protections, effectiveness and responsibilities for Internet intermediaries.",
-    "pubDate": "2026-11-21T00:20:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
     "link": "https://github.com/ruby/ruby/security/advisories/GHSA-34m4-m9fh-gqp5",
     "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
@@ -176,28 +200,12 @@
     "sourceIcon": "☁️"
   },
   {
-    "title": "What small ISPs told me about IPv6 adoption",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Guest Post: Whenever I talked to small ISPs in Bangladesh, I asked them what was stopping them from deploying IPv6. Their answers surprised me.",
-    "pubDate": "2026-11-20T04:12:28.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
-  },
-  {
     "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
     "link": "https://en.wikipedia.org/wiki/Address_space_layout_randomization",
     "description": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
     "pubDate": "2026-11-20T01:58:29.000Z",
     "source": "Cloudflare",
     "sourceIcon": "☁️"
-  },
-  {
-    "title": "SIG Guidelines Review Working Group: The next phase",
-    "link": "https://blog.apnic.net/category/community/",
-    "description": "Guest Post: The SIG Guidelines Review Working Group has expanded its membership and agreed on updated Terms of Reference for the next phase of its work. The community is invited to provide feedback.",
-    "pubDate": "2026-11-19T22:43:15.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
@@ -214,14 +222,6 @@
     "pubDate": "2026-11-19T09:57:50.000Z",
     "source": "RIPE Labs",
     "sourceIcon": "🌍"
-  },
-  {
-    "title": "Without a lawsuit, Linux might not have happened",
-    "link": "https://blog.apnic.net/category/tech-matters/",
-    "description": "Did a UNIX lawsuit help Linux become the dominant operating-system kernel it is today? The history of BSD, Linux, and the early Internet makes for a fascinating read.",
-    "pubDate": "2026-11-18T22:51:18.000Z",
-    "source": "APNIC",
-    "sourceIcon": "🌏"
   },
   {
     "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
