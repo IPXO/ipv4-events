@@ -1,5 +1,37 @@
 [
   {
+    "title": "ATLAS IV: Bringing Internet Users Closer to ICANN",
+    "link": "https://circleid.com/posts/atlas&#45;iv&#45;bringing&#45;internet&#45;users&#45;closer&#45;to&#45;icann",
+    "description": "The fourth At-Large Summit in Lisbon will focus on strengthening Internet user participation in ICANN, building trust in its governance processes and improving the exchange of information between regional communities and global policymakers.",
+    "pubDate": "2026-11-27T18:37:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "IETF 127: Post-Quantum DNSSEC, Private Domains and Changes to DNS Resolution",
+    "link": "https://circleid.com/posts/ietf&#45;127&#45;post&#45;quantum&#45;dnssec&#45;private&#45;domains&#45;and&#45;changes&#45;to&#45;dns&#45;resolution",
+    "description": "Internet engineers examined alternatives for quantum-resistant DNS signatures, proposals to retire problematic query types, private network naming under .internal and new resolution mechanisms that could reduce latency while raising authentication and privacy concerns.",
+    "pubDate": "2026-11-27T15:18:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "The Human Layer of DNS Operations: Governing Change Before It Governs You",
+    "link": "https://circleid.com/posts/the&#45;human&#45;layer&#45;of&#45;dns&#45;operations&#45;governing&#45;change&#45;before&#45;it&#45;governs&#45;you",
+    "description": "Effective DNS security extends beyond protocol defenses. Verifying change requests, assessing operational risks and maintaining reliable audit trails are essential to preventing human errors, social engineering and poorly reviewed AI-generated configurations.",
+    "pubDate": "2026-11-27T14:54:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
+    "title": "Integrity Technology Group-Backed Actors Combine Automated and Manual Tools in Global Attack",
+    "link": "https://circleid.com/posts/integrity&#45;technology&#45;group&#45;backed&#45;actors&#45;combine&#45;automated&#45;and&#45;manual&#45;tools&#45;in&#45;global&#45;attack",
+    "description": "WhoisXML API investigates a global data theft campaign linked to Integrity Technology Group, identifying thousands of potentially affected IP addresses and additional threat-related domains through DNS records, WHOIS data and network traffic analysis.",
+    "pubDate": "2026-11-27T14:39:00.000Z",
+    "source": "CircleID",
+    "sourceIcon": "🔵"
+  },
+  {
     "title": "Five things I learned in five years of attending APNIC conferences",
     "link": "https://blog.apnic.net/category/community/",
     "description": "Guest Post: Tsung-Yi condenses five years of learning into five simple lessons that show how the Internet really works.",
@@ -104,22 +136,6 @@
     "sourceIcon": "🔵"
   },
   {
-    "title": "Network Management Has a Manual Problem: Here&#8217;s How the Industry Is Fixing It",
-    "link": "https://circleid.com/posts/network&#45;management&#45;has&#45;a&#45;manual&#45;problem&#45;heres&#45;how&#45;the&#45;industry&#45;is&#45;fixing&#45;it",
-    "description": "Fragmented monitoring tools, limited network visibility and manual processes are slowing incident response and hindering automation. Integrated management platforms offer a potential way to simplify operations and improve network resilience.",
-    "pubDate": "2026-11-24T14:25:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "China Challenges South Korea&#8217;s .HAN Domain Application Ahead of ICANN Review",
-    "link": "https://circleid.com/posts/china&#45;challenges&#45;south&#45;koreas&#45;.han&#45;domain&#45;application&#45;ahead&#45;of&#45;icann&#45;review",
-    "description": "South Korean registrar Gabia rejects Chinese objections to its proposed .HAN domain, citing shared linguistic conventions as ICANN evaluates the application ahead of a March 2027 objection deadline.",
-    "pubDate": "2026-11-24T14:07:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
     "title": "A new APNIC Academy experience is coming on 30 November 2026",
     "link": "https://blog.apnic.net/category/development/",
     "description": "On 30 November 2026, APNIC Academy 3.0 will launch with an improved learning experience shaped by learner feedback, making it easier to find training, access resources, and develop skills in core Internet technologies.",
@@ -134,22 +150,6 @@
     "pubDate": "2026-11-23T22:51:47.000Z",
     "source": "APNIC",
     "sourceIcon": "🌏"
-  },
-  {
-    "title": "Older Than the Trademark: Three Reverse Domain Name Hijacking Cases",
-    "link": "https://circleid.com/posts/older&#45;than&#45;the&#45;trademark&#45;three&#45;reverse&#45;domain&#45;name&#45;hijacking&#45;cases",
-    "description": "Three 2026 UDRP decisions found reverse domain name hijacking where complainants sought domains registered before their trademark rights existed, highlighting the importance of acquisition dates, documentary evidence and the limits of trademark-based claims.",
-    "pubDate": "2026-11-23T14:40:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
-  },
-  {
-    "title": "Africa&#8217;s Digital Sovereignty: Who Will Build the Infrastructure, and Who Will Control It?",
-    "link": "https://circleid.com/posts/africas&#45;digital&#45;sovereignty&#45;who&#45;will&#45;build&#45;the&#45;infrastructure&#45;and&#45;who&#45;will&#45;control&#45;it",
-    "description": "Africa's digital sovereignty depends on more than local data storage. Control over submarine cables, cloud infrastructure and Internet governance will determine whether countries can reduce dependencies and shape their digital development.",
-    "pubDate": "2026-11-23T14:27:00.000Z",
-    "source": "CircleID",
-    "sourceIcon": "🔵"
   },
   {
     "title": "Probing DNS at Cloudflare",
